@@ -1,0 +1,643 @@
+\documentclass[review]{elsarticle}
+%\documentclass[final, 3p]{elsarticle}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=23mm,
+ right=23mm,
+ top=25mm,
+ bottom=20mm,
+ }
+ 
+\renewcommand{\baselinestretch}{1.2} 
+
+%TODO: Formatting
+\makeatletter
+  \long\def\pprintMaketitle{\clearpage
+  \iflongmktitle\if@twocolumn\let\columnwidth=\textwidth\fi\fi
+  \resetTitleCounters
+  \def\baselinestretch{1}%
+  \printFirstPageNotes
+  \begin{center}%
+ \thispagestyle{pprintTitle}%
+   \def\baselinestretch{1}%
+    \Large\@title\par\vskip18pt
+    \normalsize\elsauthors\par\vskip10pt
+    \footnotesize\itshape\elsaddress\par\vskip36pt
+    \end{center}%
+  \gdef\thefootnote{\arabic{footnote}}%
+  }  
+ 
+ \def\ps@pprintTitle{%
+ \let\@oddhead\@empty
+ \let\@evenhead\@empty
+ \def\@oddfoot{\hfill\footnotesize\itshape F. Perrone, \today}%
+ \let\@evenfoot\@oddfoot}
+ 
+ \renewcommand{\MaketitleBox}{%
+  \resetTitleCounters
+  \def\baselinestretch{1}%
+  \begin{center}
+    \def\baselinestretch{1}%
+    \Large \@title \par
+    \vskip 18pt
+    \normalsize\elsauthors \par
+    \vskip 10pt
+    \footnotesize \itshape \elsaddress \par
+  \end{center}
+  \vskip 12pt
+}
+\makeatother
+
+%TODO: Packaging and commands
+%\usepackage{lineno}
+%\modulolinenumbers[20]
+\usepackage{hyperref}
+\journal{Journal of \LaTeX\ Templates}
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+\usepackage[autostyle]{csquotes}
+\usepackage{tikz}
+\usepackage{forest}
+\usepackage{xcolor}
+\definecolor{fpgreen}{HTML}{A6D609}
+\definecolor{fpgray}{HTML}{7B7B7C}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{mhchem}
+\usepackage{csquotes}
+\usepackage{float}
+\usepackage{cleveref}
+\crefname{subfigure}{figure}{figures}
+\Crefname{subfigure}{Figure}{Figures}
+\usepackage{nameref}
+\usepackage{subcaption}
+
+\newcommand{\fpcom}[1]{%
+	\vspace{2mm}% 
+	\todo[inline, size=\scriptsize, color=fpgreen!80]%
+	{\textbf{FP}: #1}%
+	}%
+	
+\newcommand{\fpincom}[1]{%
+	\todo[size=\tiny, color=fpgreen!80]%
+	{\textbf{FP}: #1}%
+}
+
+\newcommand{\p}{\vspace{1.5mm}\noindent}
+\newcommand{\pgraph}[1]{\vspace{1.5mm}\noindent \textit{#1}}
+
+\newenvironment{defins}[1]% environment name 
+{% begin code
+	\vspace{2mm}
+	\leftskip1cm\relax
+	\rightskip1cm\relax 
+	\noindent 
+	\textbf{#1}
+		\begin{itshape}%
+		\noindent\ignorespaces 
+		}% 
+		{% end code
+		\vspace{2mm}\end{itshape}\ignorespacesafterend 
+}
+
+\def\es{edge from parent[solid]}
+\def\ed{edge from parent[dashed]}
+
+\usepackage{xspace}
+\newcommand{\ie}{\emph{i.e.}\@\xspace}
+\newcommand{\eg}{\emph{e.g.}\@\xspace}
+\makeatletter
+\newcommand*{\etc}{%
+    \@ifnextchar{.}%
+        {\textit{etc}}%
+        {\textit{etc.}\@\xspace}%
+}
+\makeatother
+\newcommand{\nextdiv}{\vspace{2mm}\noindent}
+\newenvironment{important_def}[1]% environment name 
+{% begin code
+	\vspace{2mm}\leftskip1cm\relax\rightskip1cm\relax
+	\textbf{#1}\begin{itshape}% 
+}% 
+{\end{itshape}}% end code
+
+\newenvironment{important}% environment name 
+	{% begin code
+		\vspace{2mm}\leftskip1cm\relax\rightskip1cm\relax
+	}%
+	{% end code
+		\leftskip1cm\relax\rightskip1cm\relax
+	}
+
+\usepackage{endnotes}
+%\let\footnote=\endnote
+\usepackage{etoolbox}
+\patchcmd{\enoteformat}{1.8em}{0pt}{}{}
+
+\usepackage[polutonikogreek,english]{babel}
+\usepackage{teubner}
+
+
+%TODO: Document
+\begin{document}
+	\begin{frontmatter}
+\title{Experimental Methods for Moral Behaviour Analysis \\ in Human-Robot Interaction}
+\author{Francesco Perrone}
+\address{$2^{nd}$ Year, Progression Report}
+\author[]{University of Glasgow}
+\author[]{School of Computing Science}
+\end{frontmatter}
+
+
+\begin{description}
+	\setlength{\itemsep}{0pt}
+	\setlength{\parskip}{0pt}
+	\setlength{\parsep}{0pt}
+	\setlength{\leftmargin}{-1em}
+	\rightskip1cm
+	\item \textbf{Type of study}: part-time
+	\item \textbf{Funding source}: self-funded
+	\item \textbf{Thesis submission}: 20/01/2024
+\end{description}
+\vskip10mm
+\begin{center}
+	\textbf{Report}
+\end{center}
+\vskip10mm
+\MakeBlockQuote{<}{|}{>}
+
+\section{Introduction}
+\label{intro}
+In this follow-up progress report we outline the work done during the second year of my PhD. This work succeeds the preliminary evidence we gathered, in the first year, about the potential that experimental methodologies have as a new tool in the investigation of the autonomous moral behaviour of man-made machines, in the field of AI.
+
+\nextdiv
+Withal, we outline two main research activities that we conducted this year, in the field of Machine Ethics (see page \pageref{part1} for a definition):
+
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+\item [a)] \textbf{A deeper analysis of the literature} that suggests the emergence of the following: two related research themes in Machine Ethics, \ie, Human-Machine Ethics and Computational Machine Ethics; the emergence of two distinct trends in Psychology and Philosophy, \ie cognitive/affective models of moral judgments and rationalism/intuitionist approach to moral reasoning, that exert a deep influence on the research objectives and methodologies in Computational Machine Ethics;
+\item [b)] \textbf{An experimental activity} about the interplay between the presence of social robots and human prosocial behaviour;
+\end{itemize}
+
+\noindent
+Furthermore, following the analysis in a) and evidences in b) we will argue in favour of the adoption of new research methodologies in Computational Machine Ethics that should follow recent experimental evidences in support of models of moral judgements as affect-laden intuitions (explained below). This model of moral reasoning has not yet been taken into consideration in any of the work done in Machine Ethics up to date.
+
+\nextdiv
+The most interesting implications of such a turn for Computational Machine Ethics would arguably be the following:
+
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+\item[1] The possibility to design experiments that quantify differences in moral attitudes through the measurable outcomes of decisions made by subjects at least in a controlled setting (\ie experiments);
+\item[2] The possibility of analysing moral decisions through measuring behaviour, which in turn lends itself to the application of Social Signal Processing and Affective Computing methodologies to the investigation of moral reasoning, its analysis and automation.
+\end{itemize} 
+
+\noindent
+On this account, for the rest of my PhD we will address the following two \textit{research questions} which imply our intended \textit{research statements}:
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+\item [(Q1)] Does the presence of social robots change the outcome of decisions made by humans?  
+\item [(Q2)] Do moral decision leave physical traces in terms of observable, machine detectable behavioural cues? 
+\end{itemize}   
+
+\nextdiv
+Q1 refers mainly to point 1, and will shows that it is possible to explore whether principles and laws underlying Moral Psychology apply to Computational Machine Ethics. 
+
+\nextdiv
+Q2 refers mainly to point 2, and will show that it is possible to apply existing social and psychological approaches for improving the investigation and validation of theories of human moral behaviour.
+
+\nextdiv
+The rest of this report is organised as follows: Section 2 argues for a synthesis of two projects in Machine Ethics, and proposes a new organisation of the surveyed state-of-the-art, Section 3 shows experimental work aimed at addressing Q1 and point 1, Section 4 proposes a plan for the rest of my PhD and Section 5 draws some conclusions.
+
+\section{Multi-systems Machine Ethics}
+\label{part1}
+
+Machine Ethics is the subfield of Computer Science that develops methods and theories aimed at enabling machines to interact morally with their users in real-world scenarios. The attention that Machine Ethics has received from the scientific community has increased sharply in the past decade\footnote{On Google Scholar, the keyword 'Computational Morality' alone™ yields more than 39,000 results, while the keyword 'Machine Ethics' yields about 3,000,000 results.}. A central reason for this encouraging circumstance is an unprecedented interdisciplinarity: researchers in Machine Ethics are now capable of freely drawing on scientific resources and experimental data from well beyond the confines of their fields \cite{Anderson2011}, which can now be integrated into Artificial Intelligence (AI) technologies. Machine Ethics could be thought as a laboratory to verify and generalise, philosophical small-scale theories and thought experiments, which have heavily characterised and shape the work in this field up until now \cite{Allen2006, Wallach2008}.
+
+\nextdiv
+We have shown in year one, how the approaches presented in the Machine Ethics literature could be divided into three major groups: namely foundational, procedural and psychological approaches. 
+
+Foundational work tries to define the field of Machine Ethics in terms of common objectives, methodologies, terminology and societal issues. We discussed the reason why Machine Ethics needs to define itself in these terms in year one, \ie, due to a lack of common and clear objectives, consistent and rigorous terminology, to established research methodologies and standard metrics for the measurement of research performance. 
+
+Procedural approaches instead are based on the implementation of predefined rules expected to reproduce the logic behind moral decisions, as we have seen, and psychological approaches are those that intend to capture aspects of Ethics which are relevant to human-robot interactions, by means of psychological and sociological analyses, aiming to gauge the public opinion and perception towards robots in different contexts. 
+
+\nextdiv
+A deeper comparative review between the literature in Machine Ethics and allied academic fields such as, Philosophy and Moral Psychology, has revealed a deeper relationship between the three, a relationship that we used to outline, for the first time, two contrasting but interdependent research themes.
+
+\nextdiv
+In fact, we believe that research in Machine Ethics can be classified further as being dominated by two predominant research projects. The first, which we call \textit{Human-Machine Ethics} focuses on developing \textit{ethics-for} humans, promoting discussions of proper and improper human behaviour concerning the utilisation of machines that implement and use AI technologies. 
+
+\nextdiv
+The second, which we call \textit{Computational Machine Ethics}, aims at developing \textit{ethics-in} machines and therefore, it concerns possible ways to implement procedurally models of moral reasoning, so that machines can \textit{function morally}, without human causal intervention (after they have been designed for a substantial portion of their behaviour). This classification is one of the main achievements we made this year, which we are expanding to target the publication of an article in the Journal of Social Robotics (top 10\% of the Scimago Journal Ranking) and in the Journal of Ethics and Information Technology which we identified as the most suitable avenue on the Philosophy side.
+
+
+\subsection{Human-Machine Ethics}
+\label{hme}
+Much of the pioneering work in Machine Ethics aimed at assessing the ethical implications that AI technologies might have and, applied classical moral concepts such as democracy, equality, fairness, and transparency to resolve ethical dilemmas presented to humans by the usage of more or less autonomous artificial agents. 
+
+\nextdiv
+Human-Machine Ethics can be thought as a branch of Applied Ethics\footnote{Applied Ethics refers to the practical application of moral considerations with respect to real-world actions such as Ethics of AI, Ethics of Nursing, Business Ethics \etc.}, and its research is mostly entirely determined to the development of Ethics for human through discussions on ethical and legal questions that AI and Robotic Technologies may raise. Such questions might include liability or potentially biased in decision-making, data protection, digital rights and general ethical standards for a responsible driven utilisation of Robotics and AI technologies in human societies \cite{Moor1985}. This analysis is used to motivate several new questions facing the field of Computational Machine Ethics (discussed in Section \ref{cme}, page \pageref{cme}) and to capture aspects of Ethics which are relevant to human interacting with machines, by means of psychological analyses, which we discuss next.
+
+\nextdiv
+Commonly, psychological (but also sociological) approaches are also seen in Human-Machine Ethics are used to capture aspects of Ethics which are relevant to human-machine interactions, by means of empirical analyses. Physiologically, they investigate ethical aspects of human-machine interaction that hinge on human perception, such as the attribution of mental properties to machines  \cite{Mccarthy1979}, \cite{Nath2020}, \cite{Banks2020}, \ie, whether human perceive machines as being able to think, being able to reason, being able to have thought and emotions \etc, and furthermore, they investigate how individuals apply moral norms to non-human counterparts \cite{Harth2017}, \cite{Kappeler2019}, \cite{Zhou2020}.
+
+\nextdiv
+Socially these approaches gauge the public opinion towards the adoption of robots and AI in human-centric domains by measuring perceptions, acceptance level, worries and reservations that people might have about robotics technologies and AI in different human-centric societal contexts \cite{Levin2008, Scassellati2012, Strohkorb2016, Battaglino2013}. They also investigates how human might express moral judgments such as, condemnation and blame, with regards to machines' actions in morally sensitive settings \cite{Malle2015, Komatsu2016, Malle2016} and combine the results to explored the possibility of defining common objectives concerning societal issues pressing the development of fully autonomous moral agents \cite{Wallach2008, Lin2012, Deng2015}. 
+
+Notably, this line of research brought about the institution of ongoing tasks forces such as the UK Commission on Artificial Intelligence, based at the Alan Turing Institute, which examine the social, ethical and legal implications of recent and future developments in AI \cite{Fiander2016}, and the European AI Alliance which gathers multi-stakeholders and international actors in the field to regulate the human ethical implications of AI and the use of big data for innovation \cite{European2020white}. 
+
+\nextdiv
+Lastly, Human-Machine Ethics expands its focus into the prospects of machines being able to make autonomous and morally relevant decisions in sensitive human-centric contexts \cite{Wallach2008}. This analysis amis to provide design recommendations for the implementation of ethical controls suitable, for example, to constrain lethal actions, in military robotic systems, and more in general to make sure that the application of AI technologies falls within the bounds prescribed by the human laws \cite{Arkin2009, Lin2008}.
+
+\nextdiv
+Most of the psychological and sociological work we have reviewed argue against having artificial entities capable of truly autonomous moral behaviour \cite{Pereira2014} on grounds that machines \textit{must} only have meaning and significance in relation to a human components with which they collaborate and that have meaning only in relation to human beings \cite{Johnson2006}. 
+
+\nextdiv
+In conclusion, Human-Machine Ethics emphasises on the pervasiveness of AI technologies in modern societies and provides grounds for an intrinsic legitimacy and necessity in investigating how AI should be shaped to support the maintenance and strengthening of constitutional democracy \cite{Nemitz2018}, health care \cite{Datteri2009}, and warfare \cite{Arkin2009}. Human-Machine Ethics discloses various ethical problems that AI technologies give rise to, and relate them to discussion on responsible innovation and how Ethics should be carefully considered to develop technology that understands fully human social dynamics, moral norms and social behaviours \cite{Floridi2018} \cite{Ames2008}. Modern AI technologies are programmed to make decisions in an autonomous way, with profound impact on our lives \cite{Risso2018, Isaak2018, Kanakia2019} but they are still incapable of demonstrating any capability for moral reasoning processing \cite{Allen2012, Brozek2017, Sparrow2021} . It is this necessity that brought about the legitimacy of a second research theme in Machine Ethics, which we call Computational Machine Ethics and discuss next.
+
+
+\subsection{Computational Machine Ethics and its objective}
+\label{cme}
+\textit{Moral reasoning} also known as \textit{moral decision making}\footnote{We will use the two terms interchangeably throughout this report although there are subtle differences between the two definitions on which we will expand in future work.} is the cognitive process of choosing between 'judgements' we make in moral contexts \ie, decisions we need to take on what is \textit{"right or wrong"} \textit{"good or bad"} \etc, and that we use as motive, purpose and direction for our conscious and practical behaviours.
+
+\nextdiv
+Whether moral decisions can be made computable has long been the predominant question in Computational Machine Ethics (CME from now on). In contrast to Human-Machine Ethics (page \pageref{hme}), CME aims at developing \textit{ethics-in} machines so that they can \textit{function morally} without human causal intervention, after they have been designed for a substantial portion of their behaviour. 
+
+\nextdiv
+It should be mentioned that in the past the study of moral decision making has been a special province of Philosophy and Psychology, that investigate human functioning in moral context, making the following scenario to emerge: 
+
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\rightskip2cm
+	\leftskip1cm
+\item [-] Philosophy has been largely speculative about the nature of moral reasoning and light on facts. It aimed, for the greatest part, to identify and justify the \textit{structural} content of ethical frameworks (\eg is has focused on questions such as:'is Utilitarianism right?' 'Is there any moral truth in nature?' What is right and what is wrong?' and so on).
+\item [-] Psychological work on moral decision making instead, focused mostly on empirical and experimental activities, but have been light on theory \cite{DorisSep2020}. It aimed at investigating the psychological representation associated with those ethical frameworks that Philosophy provides.
+\end{itemize}
+
+\nextdiv
+We cannot exclude the possibility that the gaps between the two has given a spurious picture of what moral reasoning might be, and affected in turn the research in CME. 
+
+\nextdiv
+As we have discussed in year one, the great majority of approaches in CME focused on the implementation of predefined rules expected to reproduce the logic behind moral decisions (for example \cite{Atkinson2006}, \cite{Atkinson2007}, \cite{Pereira2014}, \cite{Bench2020}). In general, these approaches start from a moral thought experiment, \ie, a hypothetical scenario that involves a challenging moral decision. A typical example is the 'trolley problem' \cite{Foot1978} that, in general terms, requires people to decide whether it is more morally acceptable to kill one individual or a group of several individuals in the case that one of these options \textit{must} be realised (the literature proposes several variants of this base version see for example \cite{Hauser2006}). Most research in CME was built on procedural approaches inspired by philosophical tradition probably because the psychological elements of moral decision making are more difficult to implement \cite{Anderson2011}, but researchers did not take into account that even in Philosophy thought experiments are not supposed to represent reality, but simply to stimulate discussion about the way we think about moral issues \cite{Brown2019}. 
+
+\nextdiv
+This problem has been capture by the AI community since the foundation of Machine Ethics \cite{Anderson2011} and have developed into more recent approaches that try to follow the same overall scheme but replacing rules and logic-based methodologies with Neural Networks and Machine Learning (se for example \cite{Honarvar2009}, \cite{Vallor2017}, \cite{Fritz2020}). None of these approaches result into methodologies that generalise easily, and programs that scale \cite{Anderson2011, Floridi2018, Cervantes2020}.
+
+\subsection{The 'intuitionist' turn in Computational Machine Ethics}
+Moral Psychology has proposed a division between \textit{emotional} versus \textit{cognitive} moral judgments, and between \textit{automatic} versus \textit{controlled} moral judgments \cite{DorisSep2020}. Furthermore, recent experimental data seems to confirm that emotions can motivate and impel us to act morally, even without consciously stepping into rational thinking, thoughts and norms endorsement, or the standard patterns of deductive and inductive argumentation and inference \cite{Doris2010}.
+
+\nextdiv
+This line of research has shown further that the \textit{noticeable}\footnote{Here with the term 'noticeable' we mean that the raising of such emotions is a fact with precise physical traces that can be detected and observed experimentally.} occurrence of emotions prior to more conventional (\ie rational) moral evaluations, influences human moral responses \cite{Bethlehem2017}, suggesting therefore that the link between emotions and moral judgements is not merely correlational or epiphenomenal \cite{Doris2010} but moral emotions and moral reasoning work together in the creation of human morality \cite{Haidt2003}. As a consequence of this evidence, Moral Psychology, once dominated by \textit{rationalist} models of moral reasoning\footnote{mostly during the cognitive revolution of the 1950s and 1960s with Kohlberg \cite{Kohlberg1969}, Piaget \cite{Piaget2013}, and Turiel \cite{Turiel1983})} adopted a rationalist model of morality which refers to the view that humans grasp moral truth not by process of ratiocination and reflection, but rather, by cognitive processes more akin to perception (for an excellent introduction refer to \cite{Stratton2020}), in which one just sees without argument that their evaluations are, and must be true \cite{Haidt2001}, appear to give rise to models of moral judgements as automatic, rapid, and emotionally forceful intuitions.
+
+
+\nextdiv
+Intuitionist approaches have been given recognition from most of the modern work in Moral Psychology, promoted by new findings in evolutionary psychology and primatology \cite{Greene2002} that began to point out that:
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+\item[a)] The origins of human morality might be in a set of emotions that make individuals care about the wellbeing of others (a new stand called the \textit{Affective Revolution} which took place in the 1990s \cite{Bargh1999} in \cite{Greene2002}) 
+\item[b)] The study of moral reasoning should follow the new focus on \textit{automaticity}, that in Psychology advocates the mind's ability to solve problems unconsciously and automatically.
+\end{itemize} 
+
+\nextdiv
+From this a comprehensive model, the \textit{social intuitionist model} \cite{Haidt2001} brought together research on automaticity with findings in neuroscience \cite{Greene2004} suggesting  that moral judgment is much like aesthetic judgment, where we have an instant feeling of approval or disapproval towards situations we perceive in moral contexts. These feelings are best thought of as affect-laden intuitions: 
+
+
+\blockquote
+{
+
+"[...] they appear suddenly and effortlessly in consciousness, with an affective valence (good or bad), but without any feeling of having gone through steps of searching, weighing evidence, or inferring a conclusion[...] \cite{Greene2002} "
+
+}
+
+
+\nextdiv
+Most importantly, works in Neuropsychology has revealed that moral and non-moral emotions can be \textit{detected}, \textit{observed experimentally}, and \textit{distinguished} at theoretical level without any cognitive theory describing what emotions are in general and in moral contexts \cite{Doris2010, Greene2004}. 
+
+\nextdiv
+There exist on this topic a large number of theories (see for example \cite{Solomon1993} or \cite{Lewis2010} for good introductions), and we will not survey this debate here. However, what it seems to emerge from this collective work is a common agreement on two points:
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+\item[a)] There are emotions that promote morally good behaviour by orienting us towards other people needs;
+\item[b)] Emotions have component features such as 'eliciting event', 'facial expression', 'physiological changes', 'phenomenological experience', and 'action tendency' (or \textit{motivation}) that can be used to analyse and classify them.
+\end{itemize}
+
+\nextdiv
+Haidt in \cite{Haidt2003} used two of these component features \ie, \textit{elicitors} and \textit{action tendencies} in a groundbreaking article, showing that it is possible to creates a bi-dimensional space in which moral and non-moral emotions can be plotted and distinguished. By the same token, Haidt in \cite{Haidt2003} identified four sets of moral emotions which are arranged in two large families: 
+
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+\item[-] \textit{other-condemning}, which includes: contempt, anger, and disgust, indignation, loathing,
+\item[-] \textit{self-conscious}, which includes: shame embarrassment and guilt.
+\end{itemize}
+
+\nextdiv
+and and two small families:
+
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+\item[-] \textit{other-suffering}, which includes compassion,
+indignation, loathing.
+\item[-] \textit{other-praising:}, which includes: gratitude and elevation
+\end{itemize} 
+
+\nextdiv
+Pinning out these emotions gives us an invaluable tool to potentially detect and observe experimentally physical traces of moral reasoning which can bring about new exciting prospective for both CME and Philosophy, via the application of Social Signal Processing and Affective Computing methodologies for the understanding, modelling and automation of human moral decision making.
+
+\nextdiv
+In fact, Affecting Computing and Social Signal Processing \cite{Pentland2007}, \cite{Pentland2007_b}, \cite{Vinciarelli2009} can provide the necessary tools to sense and understand human social signals and potentially capture the use of emotions in moral contexts as we have seen for other domains of human society \cite{Picard2003} (some of the many interesting application can be seen in \cite{Kwon2020, Zhou2021, Reddy2021, Edwards2020, de2021, Picard2000Book, Chen2018, Herbert2020}). 
+
+\nextdiv
+In fact, since moral judgments appear to arise suddenly and effortlessly as automatic affective reactions,\cite{Haidt2001}, \cite{Pizarro2003}, \cite{Greene2004}, \cite[chapters 4 and 6]{Doris2010} induced by emotions occurring prior to conventional moral evaluations that influence human moral responses \cite{Bethlehem2017}, it might be possible to design experiments that a) quantify differences in moral attitudes through measurable outcomes of decisions made in a controlled setting and b) analyse moral decisions through measuring the component features of its emotions via the application of Social Signal Processing and Affective Computing methodologies.
+
+\nextdiv
+Therefore, the question we ask is whether moral decision leave any physical traces in terms of observable, machine detectable behavioural cues, in the context of interplay between the presence of social robots and human prosocial behaviour. This question refers to Q1 in section \ref{intro} page \pageref{intro} (Does the presence of social robots change the outcome of decisions made by humans?), and can be said to be, theoretically, a general case of Q2 (ibid). We believe that the possibility to design experiments that quantify differences in moral attitudes through the measurable outcomes of decisions made by subjects in, at least, a controlled setting (\ie experiments) would suggest that the analysing moral decisions through measuring behaviour in CME is a general fact, which in turn lends itself to the application of Social Signal Processing and Affective Computing methodologies to the investigation of moral reasoning, its analysis and automation.
+
+\nextdiv
+Psychologists have adopted two converging strategies to understand decision making \cite{APA2015}: 
+
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+\item[1.] statistical analysis of multiple decisions involving complex tasks;
+\item[2.] experimental manipulation of simple decisions, looking at the elements that recur within these decisions.
+\end{itemize} 
+
+Taking into consideration our two research statements (section \ref{intro} page \pageref{intro} and above), and in view of what we have discussed thus far, strategy 2 above seems the best candidate to our objectives. To such a purpose, working closely with my supervisor, we have designed an experiment in which the participants are asked to fill in psychometric questionnaires and then they are given the opportunity to donate part of the compensation they receive for carrying out the experiment to a charity, to investigating whether there is an association between the presence of robots and the outcome of moral decisions made by humans, which is described next.  
+ 
+
+\section{Experiment}
+\label{experiment}
+The study we present here aimed at investigating whether associations between the presence of robots and the outcomes of 'moral decisions' made by humans exist. In particular, we hypothesised that changes in the outcomes of moral decisions made by individuals in experimental settings we designed might be observed if a robot were to be place in their environment during a behavioural tasks.
+
+\subsection{Design}
+\label{design}
+To this extent we designed an experiment to test if the presence of a robot (NAO), programmed to appear \textit{passively watching} \cite{ANOgen} participants working towards a decoy experimental task, could have been associated with differences in their charitable giving behaviour \ie: \textit{whether donations made to a charity tended to be higher/lower when participants shared the room with a robot than when they were alone, for the duration of the experiment.}
+
+\nextdiv
+We used mixed methodologies consisting of psychometric tests administered to determine a) participants' personality characteristics and b) their brain types, this together with the development of a behavioural task, to assess participants moral decision making. 
+
+\nextdiv
+The behavioural task we designed to test whether the presence of a robot could be associated with differences in the outcome of individual moral decision processes, was adapted from the \textit{watching eye paradigm}, an experimental model in which adults tend to displayed greater prosocial behaviour in the presence of observation cues.
+
+\subsection{The watching eye effect}
+\label{watching}
+The watching eye paradigm is a fine-tuned experimental setup that allows the investigation of a particular class of phenomena that results from the effects of \textit{observation cues} on human cognition, known as \textit{watching-eye effect}. 
+
+\nextdiv
+The watching-eye effect suggests that:
+
+\blockquote{
+
+"[...] just feeling watched may be enough to make us modify our actions independent of deliberative, explicit, conscious, evaluation [...] \cite{Dear2019} ". 
+
+}
+
+In other words, the perception of direct gaze causes in individuals a sudden heightened processing of incoming stimuli in relation to the self, which leads to the enhancement of self-awareness and memory, together with the activation of positive appraisal of others and prosocial behaviour \cite{Conty2016}. Particularly relevant to us was that experimental work has shown how individuals (strategically) modify their behaviour when being observed by others towards acting more prosocially \cite{Fathi2014}, and conform to local norms, to gain valuable reputation and avoid the possibility of sanctions by potential observers \cite{Kawamura2017, vanVugt2007}. Will this apply when the observer is a robot?
+
+\nextdiv
+A recent experiment \cite{Haley2005} found that even subtle cues such as stylised eyespots on a computer background, increased the amount of money that was offered in a dictator game, as well as increased the odds of donating something rather than nothing to the other players in the same settings \cite{Nettle2013}. Similarly, an image of a pair of eyes increased money contributions to an honesty box used to collect money for drinks in a university lounge \cite{Bateson2006}, and a simple intervention of displaying signs featuring images of watching eyes and a verbal message about being watched was associated with a large reduction of bicycle thefts \cite{Nettle2012}.
+ 
+ \nextdiv
+It should be noticed that experimental work on the watching eye effect confirmed that observation cues do not need to be explicit. It has been shown in \cite{Shariff2007} that priming in individuals the presence of supernatural, omnipresent entities can activated implicitly increased prosocial behaviour, even in situation when the behaviour was anonymous and directed toward strangers. Whether explicit or not, cues of being watch seem to be sufficient to affect different facets of human prosocial behaviours \cite{Kelsey2018}, including \textit{prosociality} in those situations where the behaviour cannot directly be traced back to the actors, by any potential observer \cite{vanBommel2014}.
+
+\subsection{Methods}
+\label{sec:method}
+We advertised the experiment as a study to gather data on human personality traits for a representative sample of population, requesting the following three questionnaires be filled in. The Empathizing and the Systemizing Quotients (ESQ) \cite{Baron2003}: a diagnostic questionnaire designed to measure the expression of neurological types in an individual by his or her own subjective self-assessment; and the Big-Five Inventory 10 (BFI-10) \cite{Rammstedt2007}: a shorter version of the Big Five Inventory which assess people personality traits. Participants $(n = 73)$ were drawn from two sources, which correspond to two populations sub-groups described below.
+
+\nextdiv
+The \textit{Computing Group} (CS) comprised $30$ adults, 23 males and 7 females, taken from the undergraduate students population studying Computing Science at University of Glasgow. CS had a mean age of $x = 20.7$ with $s.d. = 4.6$. Participants needed to meet following two inclusion criteria to be hired for the experiment: being 17 years of age or above, and being British (passports where requested and checked on the day of the experiment). Although the sex ratio might appear to be disproportionately affected by a particularly high number of males $(\approx \text{3:1,} \text{m:f})$, this ratio was in line with the UCAS data on STEM undergraduate students in UK \cite{WomenStem} at the time of recruitment. When we looked at the data published by UCAS, on a total of 24,090 students studying Computing Sciences in UK, 19\% were female, and 81\% of the students were male. \textbf{The difference between the ratio 'male:female' nationwide and that of our sample was not statistically significant }($p= 0.55$ according to a $\chi^{2}$-test on sex ratio) with $23\%$ of the students drawn being female, and $77\%$ male.
+
+\nextdiv
+The \textit{Psychology Group} (PS) comprised $43$ adults, 15 males and 28 females recruited through a subject-pool database provided by the School of Psychology of the University of Glasgow\footnote{This is a database of volunteers set up at the School of Psychology and Institute of Neuroscience and Psychology at the University of Glasgow, which allows members of the public to register their details and take part in a wide range of studies. The database gathers individuals from the general public in UK, and represents a wide mixture of cultural backgrounds and occupations including clerical and manual workers, professionals, undergraduate and postgraduate students, see https://participants.psy.gla.ac.uk.}. PS had mean age of $x=24.9$ and $s.d.=9.15$,  From a total of 361 booking requests, we randomly selected those individuals who fulfilled the two same inclusion criteria define for the CS group (above), and if a booking was made by students, we only selected those studying a degree other than Computing Science.
+
+\nextdiv
+The two groups combined (\ie the population sample which comprised of \textit{CS + PS}) had mean age $x=23.53$ and $s.d.=7.23$ with a sex ratio of approximately 1:1 (m:f) in line to that found in similar experimental samples (see for example \cite{Baron2003}). Each participant in the population sample was randomly assigned to one of two experimental conditions we designed (in line with the watching eye paradigm). The two conditions were \textit{Control} and \textit{Robot} discussed next.
+
+\nextdiv
+In \textit{Robot}, a humanoid robot (NAO) is placed in the setting (experiment room) in œautonomous life \cite{ANOgen}, a configuration provided by the robot™'s manufacturer that makes NAO look alive through the simulation of breathing. Furthermore, the robot can track people with its head, thus conveying the impression of \textit{observing them} (such a process is activated only if a person establishes eye contact with the robot \cite{ANOgenFace}).
+
+\nextdiv
+In \textit{Control}, the setting is the same as in Robot, but without NAO. A pictorial representation of the two settings is given in figure below. Both conditions are set in the same room hence, with exception made for the presence or absence of NAO, all participants sit the experiment in the same environment.
+
+%% For cross-reference to work we need to put label in the caption!!
+\begin{figure}[H]
+\centering
+	\begin{subfigure}{.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/home/francesco/Desktop/research/appunti/images/control.png}
+		\label{fig:conditionC}
+		\end{subfigure}%
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/home/francesco/Desktop/research/appunti/images/robot.png}
+		\label{fig:conditionR}
+	\end{subfigure}
+%\captionsetup{font=small, labelfont=small, width=.85\textwidth}
+\caption{A pictorial representation of the experiment settings for both the "control" (left) and "robot" (right) conditions. In the picture: A) questionnaires, B) consent form and payment, C) the charity box, D) human subject, E) robot (NAO).\label{fig:conditions} }
+\label{fig:test}
+\end{figure}
+
+\nextdiv
+The \textit{Robot} condition comprised $38$ adults randomly selected from the population sample, 20 males and 18 females with mean age of $x=25.4$ and $s.d.= 8.3$. The \textit{Control} condition comprised $35$ adults randomly selected from the population sample, 18 males and 17 females with mean age of $x=20.7$ and $s.d.= 4.1$.
+
+\begin{figure}[H]
+\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/home/francesco/Desktop/research/appunti/images/age_table.pdf}
+		\label{tab:1}
+		\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/home/francesco/Desktop/research/appunti/images/age_box1.pdf}
+		\label{tab:1}
+	\end{subfigure}
+%\captionsetup{font=small, labelfont=small, width=.85\textwidth}
+\caption{Population sample is given for each experimental conditions - \textit{Control} and \textit{Robot}- arranged by sub-groups: \textit{CS} and \textit{PS}. In CS most students were aged between 18 and 21 with median $m = 19$, in PS participants had a greater age variability and larger outliers. Participants in PS were aged between 20 and 27 with with median $m = 23$. \label{fig:tab_pop}}
+\label{fig:test}
+\end{figure}
+
+\subsection{Protocol}
+\label{ssec:protocol}
+
+On the day of the experiment, each participant had individual access to the experiment room (see Figure 1) for the duration of one hour. Alone in the room, they were requested to answer personality questionnaires, collect a compensation of \textsterling10 for their participation (made of 10 \textsterling1 coins), and decide whether to donate part of it to a charity before living the room (the moral decision case).
+
+\nextdiv
+To each participant we allocated a date and time to sit the experiment via email, hence no frontal contact with the participants was made before their allocated slot. On the day of the experiment, the participant would have arrived at the foyer of the School of Computing Science where a laboratory assistant would have been waiting for them. Then, the following scripted steps were always performed:
+
+\nextdiv
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\setlength{\parskip}{0pt}
+	\setlength{\parsep}{0pt}
+	\setlength{\leftmargin}{-1em}
+	\rightskip1cm
+\item [-] The participant is welcomed, the passport is checked. Conversation is kept to a bare minimum.
+\item [-] The participant is walked to the experiment room via a fixed route.
+\item [-] Upon arrival, the experiment setting is describe to the participant from outside the room (the room is kept closed for the participant to open). The description of the setting is limited to how to find the experiment instructions.
+\item [-] The participant is asked to open the door when ready, enter the room and start the experiment by reading the instructions. 
+\item [-] Once the questionnaires have been filled, the participant would sign a consent form and gather the compensation.
+\item [-] The experiment finishes once the participant has left the room, closed the door and called the laboratory assistant to be accompanied to the closest exit.
+\item [-] Once the participant has left the building, we gather the filled questionnaires, consent form, and counted any money that were left, in any, to the charity by opening the charity box, collect the money if any, and closes the box back.
+\item [-] We then prepared the room for the next participant, scan the filled questionnaires, and takes note of the amount of money donated (including any 0-case).
+\end{itemize}
+
+\nextdiv
+\paragraph{Decision case:} Before leaving the room, each participant had to decide whether to make a donation using a green charity box placed in the room (desk 2 in Figure \ref{fig:conditions}, page \pageref{fig:conditions}).
+
+\nextdiv
+\textbf{It is important to notice that}: participants did not know the experiment task before entering alone the room and getting access to the instructions, neither have they been in the experiment room before. This means that participants from both groups had no indication that a robot could have been in the room, nor did they know before experiment took place that they would have an opportunity to make a donation.
+
+\subsection{Results}
+\label{sec:results}
+The dataset we created is made of 73 decision cases, each describing the amount of money that participants \textit{decided} to donated to charity. Overall, the amount donated by participants in the Control condition (\textsterling66) higher than the amount donated by participants under in the Robot condition (\textsterling44.35).	
+\begin{figure}[H]
+\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+	%	\includegraphics[width=\textwidth]{/home/francesco/Desktop/research/appunti/images}
+		\label{}
+		\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{/home/francesco/Desktop/research/appunti/images/donations_box.pdf}
+		\label{}
+	\end{subfigure}
+%\captionsetup{font=small, labelfont=small, width=.85\textwidth}
+\caption{A comparison of the donations made in the two experimental conditions reveals a difference in the amount donated between Control and Robot. \label{fig:donations}}
+\label{fig:test}
+\end{figure}
+\nextdiv
+This difference in donations observed was statistically significant ($p = 0.01$ after FDR, according to a $\chi^{2}$-test on donations observed) \textbf{suggesting an association between the presence (or absence) of the robot and differences in moral decisions made by participants} (measured in terms of donation made to charity).
+
+\subsection{Confounding factors}
+\label{ssec:conFactors}
+We tested for other possible confounding factors that might be responsible for a spurious association between the donation behaviour observed and the presence or absence of a robot in the participants' settings. In particular we tested four confounding factors: a) differences in the donations observed across age, gender and educational background; b) differences in the donations observed across brain types; c) differences in the donations observed across personality traits, d) Differences in the donations observed across educational background
+
+\subsubsection{Age, gender and educational background}
+Bakker \cite{Bekkers2011} reports that a large academic literature on charitable giving seems to suggest that the relationship between age and charitable donations is a positive one, although there are no work up to now that clarify the exact age at which the age gradient becomes weaker. However, studies with a large proportion of respondents of 'similar age', and studies on 'specific populations' seem to suggest a negative relationship between age and the likelihood of giving to charity, although findings seem to vary from study to study. In particular, what type of relationship is found between gender and giving seem to depend on the other variables included in the experimental settings: the more socioeconomic variables, such as income and educational level, are included in the models examining charitable giving, the smaller the reported gender differences in giving are. 
+
+\nextdiv
+Therefore, being our population sample quite specific, with very sparse range of socioeconomic variables, care should be therefore taken to make any assumption regarding the role that age played in the we donation observed \cite{Okten2004}. Furthermore, Bekkers reports in \cite{Bekkers2011} that gender is also relevant in the majority of studies on charitable giving analysed. More interestingly women have on average stronger prosocial values than men\footnote{A fact that could be connected to the E-S theory which we introduce in in the next section.}, including concern and responsibility for the wellbeing of others. Hence, we assumed that both gender and age across the two experimental conditions might provide an alternative explanation for the difference in the donation behaviour observed.
+ 
+\nextdiv
+ However, the difference along these factors were not statistically significant ($p = 0.85$ after FDR, according to a $\chi^{2}$ test on gender, $p = 0.17$ after FDR, according to a $t$-test on age, and $p = 0.83$ after FDR, according to a $\chi^{2}$ test on educational background \ie, across CS and PS) and, therefore, \textbf{they could not be used as an alternative explanation for the donation observed.}
+ 
+\subsubsection{Differences in the donations observed across brain types}
+\label{sssect:ES}
+According to Baron-Cohen each person - whether male or female - has a particular \textit{brain type}. Gender cannot tell us what brain type a person is, the central claim of Baron-Cohen's theory is in fact that all we can say at best is that \textit{on average}, more males than females have a brain of a precise type (type S), and more females than males have a brain of another kind (type E) (for more details refer to \cite{Baron2003}). There are three common brain types according to how strong one person's \textit{empathising} and \textit{systemising} skills are. The \textit{routes to morality} we take is a result of the ratio between the two independent psychological processes \ie, systemizing and empathizing, that our brain is made of \cite{Bethlehem2017}, since both cognitive and emotional processes play a crucial but \textit{mutually competitive} roles in motivating individuals to act prosocially \cite{Haidt2001}\cite{Greene2004} \cite{Baron2002}. In particular:
+
+\nextdiv
+\textit{Systemizing} is defined as a person's capability to analyse or construct systems when experiencing life. When we 'systemize' we are trying to identify regularities and rules that govern our environment, in order to predict how it will behave \cite{Baron2009}.
+
+\nextdiv
+\textit{Empathising} is define as a person's capacity to identify another person's emotions and thoughts, and to respond to these with an appropriate emotion. When we empathize we are having an emotional reaction, an affect-based intuition about how people are feeling, and how to treat people with care and sensitivity, that compels us to act.
+
+\nextdiv
+Empathy-based morality leads seemingly selfless acts of altruism impelled by processing stimuli of a certain kind (e.g. a child eyes filled with terror) suddenly and effortlessly in consciousness, but without any feeling of having gone through steps of weighing evidence. A system-based moral response relies on culturally derived or logically inferred rules to decide how one ought to act in accordance of good behaviour. People stronger on empathic skills have a "female brain type" (type E), individuals stronger in systemising have a "male brain type" (type S), individuals equally strong in their systemising and empathising are called "balanced brain" (type B) \cite{Baron2009}. 
+
+\nextdiv
+The SEQ can test which brain type (E, S, or B) individuals are. Even though we are not interested in assessing the distribution of the individual brain types among the experimental settings, \textbf{differences of empathising and systemising might potentially explain the difference observed in the donations made}.
+
+A t-test was used to examine the significance of the difference between the means of the two samples, which suggested that there are no statistically significant differences in in empathic and systematic brain types across the two experimental conditions ($p = 0.17$ for EQ and $p = 0.18$ for SQ after FDR, according to a $t$-test on EQ and SQ observed) and, therefore, \textbf{brain type cannot be use as an alternative explanation for the difference in donations we have observed}.
+
+\subsubsection{Differences in the donations observed across personality traits}
+Personality is an enduring construct that comprises an individual's unique adjustment to life \cite{APA2015}, and therefore the resulting pattern/s of habitual behaviours, cognitions, and emotional responses an individual might have \cite{Deary2009}. Personality traits have been used to predict behaviour defining a trait as "that which defines what a person will do when faced with a defined situation" \cite{Cattell1979}. Differences in individual personality traits might therefore provided an alternative explanation for the donation behaviour we have observed. For this reason, personality scores have been collected for each subject by dispensing to them the BFI-10 which includes the following five broad dimensions that describe their personality traits (for a complete description of these traits see \cite{Rothmann2003} and \cite{Barrick1991}):
+
+\nextdiv
+Openness (O): Artistic, Curious, Imaginative, etc. People scoring low on Openness tend to be conventional in behaviour and conservative in outlook. Conscientiousness (C): Efficient, organised, thorough, etc. The conscientious person is purposeful, strong-willed and determined. Low scorers in C predicts a less exact application of moral principles. Extraversion (E): includes traits such as sociability, assertiveness, activity and talkativeness. Extraverts are energetic and optimistic. E is characterised by positive feelings and experiences and is therefore seen as a positive affect. Agreeableness (A): appreciative, kind, generous, etc. An agreeable person is fundamentally altruistic, sympathetic to others and eager to help them. Neuroticism (N):anxious, self-pitying, tense, etc. A high Neuroticism score indicates that a person is prone to having irrational ideas, being less able to control impulses, and coping poorly with stress.
+
+\nextdiv
+The BFI-10 is a taxonomy for personality traits grouping developed from the 1990s onwards in psychological trait theory \cite{Goldberg1992} and supported by strong experimental evidence showing how the same traits appear with regularity across a wide spectrum of situations and cultures, hence corresponding to psychologically salient phenomena that can be measured and assessed \cite{Deary2009}. The BFI-10 is today one of the most influential paradigm in personality research, widely accepted in the computing community as well \cite{Vinciarelli2014}. To the best of our knowledge, no other theories were ever adopted in computing oriented research. 
+ 
+ \nextdiv
+ Although testing for differences of C and A would seem most relevant in our experiment, here we made no assumption on what trait/s could be more important or relevant to the altruistic behaviour we wanted to measure. Hence a t-test was used to examine the significance of the difference between the traits means of the two samples, which suggested that there were no statistically significant differences in personality traits across the two experimental conditions ($p = 0.11$ for O, $p = 0.14$ for C, $p = 0.24$ for E, $p = 0.28$ for A and $p = 0.25$ for N after FDR, according to a $t$-test on OCEAN observed) and, therefore, \textbf{personality traits cannot be use as an alternative explanation for the difference in donations behaviour we have observed}.
+ 
+
+\section{Discussions and research plans}
+
+\subsection{Experimental results}
+The lack of statistically significant effects in terms of age, gender, educational background, brain types, and personality traits suggests that \textbf{the presence (or absence) of the robot in the experimental settings is the best available explanation of the donation differences observed across the two experimental conditions}, at least in our sample.
+
+\nextdiv
+This result seems to support our hypothesis that the presence of social robots can affect the outcome of moral decisions made by humans, which answers positively the first research statement, \ie Q1 in Section \ref{intro}, page \pageref{intro}. By the same token, these findings suggest that it might be possible to design experiments that quantify differences in moral attitudes through the measurable outcomes of decisions made by subjects at least in a controlled settings which provides a positive answer to Point 1 in Section \ref{intro}, page \pageref{intro}.
+
+\nextdiv
+On the other hand, this study has been unable to demonstrate that the watching-eye effect applies in our experiment in the same way as it does in other similar settings (see Section \ref{watching} page \pageref{watching}). Our findings are contrary the previous studies we surveyed, which have suggested that the perception of direct gaze and subtle cues such as stylised eyespots on a computer background, increased the amount of money that was offered in a dictator game, as well as increased the odds of donating something rather than nothing to the other players in the same settings \cite{Haley2005, vanVugt2007, Nettle2012, Nettle2013, Fathi2014, Conty2016, Kawamura2017}. \textbf{To the best of our knowledge, our result has not previously been described}.
+
+\nextdiv
+However, this result may be explained with reference to some other works in the literature according to which greater prosociality is observed when subjects are exposed to eyes (or eye-like images), compared to other non-social objects (e.g., flowers or geometric shapes) \cite{Kelsey2018}. This could perhaps give an explanation, although it would be highly inconsistent with NAO's anthropomorphism and intended design. 
+
+In fact, NAO is designed to be a social object. NAO is well establish social robotics platform used in different fields including care in autism spectrum disorders, which is designed to expand social and communication skills in subjects interacting with it \cite{Palestra2017}, or even as home-based healthcare robot to help older adults with mild cognitive impairment (MCI) or early dementia \cite{Law2019} to enhance social inclusion. Furthermore, it has been observed that NAO is capable of eliciting heightened processing of prosocial behaviour in a real-life HRI \cite{Kuchenbrandt2011}. Additional uncertainty arises from the presence of a poster above the charity box which we used to advertise the donations in the experiment settings. This poster depicts a child affected by cleft lip perhaps reinforcing the conclusions in \cite{Kelsey2018} which, recall, suggests greater pro-sociality when subjects are exposed or eye-like images such us the child in our poster, compared to other non-social objects, like NAO might be.
+
+\nextdiv
+There might be other possible explanations in the characteristics of the sample we have collected, and/or in other properties of the experimental settings which we intend to explore further. Therefore, further research work is needed including additional data analysis to establish whether a \textit{directionlity} of the effect observed in the donation behaviour can be predicted. In other words, further work is required to establish what characteristics of the experiment can be used, if any, to predict whether or not subjects will donate money to charity.
+
+
+\nextdiv
+In conclusion, the present result is significant in at least two major respects. It confirms that social robots might be associated with changes in the outcome of moral decisions made by humans (Q1) and suggests that it might be possible to design experiments that quantify differences in moral attitudes through the measurable outcomes of decisions made by subjects at least in a controlled setting (point 1), opening up the possibility for Computational Machine Ethics to analyse moral decisions via the application of Social Signal Processing and Affective Computing methodologies. 
+
+\nextdiv
+Therefore, we have set the following objectives for the period up to March 2022 (point 1), and up until the viva (points 2 and 3) with regards to the experimental results obtained: 
+
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+\item [1.] To target a conference paper in the coming IEEE RO-MAN 2022 (submission deadline in march 15, 2022).
+\item [2.] To target the publications of these results with an article in the Journal of Social Robotics (top 10\% of the Scimago Journal Ranking)
+\item [3] Further experimental research to investigate what properties of the experimental settings and/or population sample might be associated with differences in the donation behaviour observed.
+\end{itemize}
+
+Overall, risks are reasonably low for points 1 and 2, given that the content of the article has been largely drafted already. Some risks might be involved with point 3 since variations of the experiment will possibly be considered, in particular more interactivity on the robot side, to test and verify the potential of the moral psychology and its social intuitionism approach as a new theoretical platform to study the role of social cues in modelling moral responses automatically, and given the ongoing COVID restrictions on social distancing.
+
+
+\subsection{Computational Machine Ethics: new prospectives}
+One of the more significant findings to emerge from the comparative review we did this year, is the emergence of two related research themes: Human-Machine Ethics and Computational Machine Ethics. This new classification helped to outline more precisely two different objectives in this field and provide evidences in favour of analysing moral reasoning through measuring behaviour and processing of emotions.
+
+\nextdiv
+These new classification warrants further investigation within a larger theoretical span. In fact, models of moral reasoning can be distinguished further into those which concentrate on \textit{what it is right}, and others that seem to give priority to a definition of \textit{what it is good}. These are two well distinct philosophical concepts (Figure \ref{judgments}) that define another division in CME, \ie, the division between \textit{deontological} and \textit{teleological} theories of moral judgements, which in turn have deeply determined different approaches in the research methodology in the field. This is another important issue for future research.
+
+
+\begin{figure}[h]
+    \centering
+    \scalebox{0.65}{
+    \includegraphics[width=\textwidth]{../../appunti/graphs/judgments.pdf}
+    }
+    \caption{This distinction presuppose a sufficient prior understanding of the relevant uses of \textit{is} and \textit{ought} (or \textit{should}) which will not discuss in details here. It is important to notice that, the presence of such marks as is neither a sufficient nor necessary criterion for the distinction we make, due to the striking variability of the relevant uses of the two words in every day language. For example, the sentence 'copper should be a metal' is not intended to be normative, and 'murder is evil' is not meant to be factual. Some philosophical theories claim that moral judgements lack of some desirable properties that factual statements have such as \textit{objectivity} or \textit{truth-apt}.}
+    \label{judgments}
+\end{figure}
+
+\nextdiv
+In any case, this classification is one of the main achievements we made this year, which we are expanding to target a publication of another article in the Journal of Social Robotics (top 10\% of the Scimago Journal Ranking) or in the Journal of Ethics and Information Technology.
+
+\nextdiv
+In conclusion, we provided solid experimental evidences which seem to confirms that social robots can affect the outcome of moral decisions made by humans. We have also seen that the link between emotions and moral judgements is not merely correlational or epiphenomenal \cite{Doris2010} but moral emotions and moral reasoning work together in the creation of human morality \cite{Haidt2003}. Furthermore, we have seen that it is possible to pin out emotions arising in moral contexts giving us an invaluable tool to potentially detect and observe experimentally physical traces of moral reasoning. This refers to question Q2, \ie whether it is possible to analyse moral decisions through measuring behaviour via the application of Social Signal Processing and Affective Computing methodologies, which will be the last research objective for the remaining time of my PhD.
+
+\section{Conclusion}
+This report has first provided a new system of classification of the state-of-the-art in Machine Ethics and argued in favour of the adoption of new research methodologies that should follow a model of moral judgements as affect-laden intuitions. The most interesting implications of such a turn for Machine Ethics, would arguably be the possibility of analysing moral decisions through measuring behavioural cues via the application of Social Signal Processing and Affective Computing methodologies, to the investigation of moral reasoning, its analysis and automation.
+
+\nextdiv
+In favour of this position, we have provided experimental evidences showing that such an avenue is suitable confirming that experiments like the one presented in Section \ref{experiment} can successfully quantify differences in moral attitudes through measurable outcomes of decisions made in a controlled setting. Finally, we discussed these results and outlined the main research activities left until the next viva. 
+
+
+\newpage
+\section*{References}
+\bibliography{reference}
+\end{document}
+\end{document}

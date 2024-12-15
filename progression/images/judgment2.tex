@@ -1,0 +1,197 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{paralist}
+\usepackage{multirow}
+\usepackage[bottom]{footmisc}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{url}
+  \let\oldurl\url
+\usepackage{hyperref}
+  \let\linkurl\url
+  \let\url\oldurl
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Francesco Perrone}
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{exmp}{\textit{Example}}[section]
+
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning}
+% need positioning for relative node placement
+\tikzstyle{trans}=[semithick,>=stealth, shorten >=0.5pt]
+    % >= specifies arrow type
+\tikzstyle{access}=[thin]   % >= specifies arrow type
+\tikzstyle{state}=[draw,very thin,inner sep=1pt]  % border round state nodes
+\tikzstyle{reflex}=[out=345,in=15,loop]   % for reflexive loops 
+%\let\figuresize\footnotesize
+\let\figuresize\scriptsize
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%state-transition diagrams
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\take{\textit{take}}
+\def\buy{\textit{buy}}
+% \def\compensate{\textit{compensate}}
+\def\compensate{\textit{comp}}
+\def\none{\epsilon}
+\def\ng#1{\text{$\neg$}#1}
+\def\ps#1{\phantom{\text{-}}#1}
+\def\ph#1{\phantom{\ng{#1}}}
+% semi-detrministic
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[x=12em,trans]
+% the initial state
+\node[state,label=below:$s_{51}$] (s51) at (0,1) 
+  {$\begin{matrix}
+      \text{stimuli}} \cr 
+      \text{perceived}
+    \end{matrix}$} ;
+% take
+\node[state,label=below:$s_{23}$] (s23-take) at (1,2) 
+  {$\begin{matrix}
+      <\ps{i_H}\,\ng{m_H}\,\ps{a_H}, \cr 
+      \ng{i_C}\,\ng{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;
+% do notthing Hal    
+\node[state,label=below:$s_{59}$] (s59-null) at (1,0) 
+  {$\begin{matrix}
+      <\ng{i_H}\,\ng{m_H}\,\ng{a_H}, \cr 
+      \ps{i_C}\,\ng{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;  
+\node[state,label=below:$s_{24}$] (s24-take-null) at (2,3) 
+  {$\begin{matrix}
+      <\ps{i_H}\,\ng{m_H}\,\ps{a_H}, \cr 
+      \ng{i_C}\,\ng{m_C}\,\ng{a_C}>
+    \end{matrix}$} ;    
+\draw[->] (s51) edge node[below] {$\none$} (s59-null) 
+             edge node[above] {$\take_h$} (s23-take) ;  
+\draw[->] (s23-take) edge node[above] {$\none$} (s24-take-null);                    
+\draw[->] (s24-take-null) edge[reflex] node[right] {$\none$} ();
+\end{tikzpicture}
+\caption[]{\textit{abstract machine} showing transitions from the initial state of the scenario}
+\end{figure}
+Because we don't know if Hal and Carla have money, we must consider few more transitions:
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[x=12em,trans]
+% the initial state
+\node[state,label=below:$s_{49}$] (s49) at (0,1) 
+  {$\begin{matrix}
+      <\ng{i_H}\,\ng{m_H}\,\ps{a_H}, \cr 
+      \ps{i_C}\,\ps{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;
+% take
+\node[state,label=below:$s_{21}$] (s21-take) at (1,2) 
+  {$\begin{matrix}
+      <\ps{i_H}\,\ng{m_H}\,\ps{a_H}, \cr 
+      \ng{i_C}\,\ps{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;
+% do notthing Hal    
+\node[state,label=below:$s_{57}$] (s57-null) at (1,0) 
+  {$\begin{matrix}
+      <\ng{i_H}\,\ng{m_H}\,\ng{a_H}, \cr 
+      \ps{i_C}\,\ps{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;  
+\node[state,label=below:$s_{22}$] (s22-take-null) at (2,3) 
+  {$\begin{matrix}
+      <\ps{i_H}\,\ng{m_H}\,\ps{a_H}, \cr 
+      \ng{i_C}\,\ps{m_C}\,\ng{a_C}>
+    \end{matrix}$} ;    
+%\node[state,label=below:$s_{46}$] (s46-take-buy) at (2,3) 
+%  {$\begin{matrix}
+%      <\ps{i_H}\,\ng{m_H}\,\ps{a_H}, \cr 
+%      \ps{i_C}\,\ng{m_C}\,\ps{a_C}>
+%    \end{matrix}$} ;   
+\draw[->] (s49) edge node[below] {$\take_h$} (s21-take) 
+            edge node[above] {$\none$} (s57-null) ;  
+\draw[->] (s21-take) edge node[above] {$\none$} (s22-take-null);
+                 %edge[reflex] node[right]   (s46-take-null){$\buy_c$} ();
+\draw[->] (s22-take-null) edge[reflex] node[right] {$\none$} ();
+%\draw[->] (s46-take-buy) edge[reflex] node[right] {$\none$} ();
+\end{tikzpicture}
+\begin{tikzpicture}[x=12em,trans]
+% the initial state
+\node[state,label=below:$s_{35}$] (s35) at (0,1) 
+  {$\begin{matrix}
+      <\ng{i_H}\,\ps{m_H}\,\ps{a_H}, \cr 
+      \ps{i_C}\,\ng{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;
+% take
+\node[state,label=below:$s_{3}$] (s3-take) at (1,2) 
+  {$\begin{matrix}
+      <\ps{i_H}\,\ps{m_H}\,\ps{a_H}, \cr 
+      \ng{i_C}\,\ng{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;
+% do notthing Hal    
+\node[state,label=below:$s_{43}$] (s43-null) at (1,0) 
+  {$\begin{matrix}
+      <\ng{i_H}\,\ps{m_H}\,\ng{a_H}, \cr 
+      \ps{i_C}\,\ng{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;      
+\node[state,label=below:$s_{21}$] (s21-take-com) at (2,3) 
+  {$\begin{matrix}
+      <\ps{i_H}\,\ng{m_H}\,\ps{a_H}, \cr 
+      \ng{i_C}\,\ps{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;   
+\node[state,label=below:$s_{8}$] (s8-take-null) at (2,1) 
+  {$\begin{matrix}
+      <\ps{i_H}\,\ps{m_H}\,\ps{a_H}, \cr 
+      \ng{i_C}\,\ng{m_C}\,\ng{a_C}>
+    \end{matrix}$} ;
+\draw[->] (s35) edge node[below] {$\take_h$} (s3-take) 
+                edge node[above] {$\none$} (s43-null) ;  
+\draw[->] (s3-take) edge node[above] {$\none$} (s21-take-com)
+                     edge node[below] {$\none$} (s8-take-null);
+\draw[->] (s21-take-com) edge[reflex] node[right] {$\none$} ();
+\draw[->] (s8-take-null) edge[reflex] node[right] {$\none$} ();
+\end{tikzpicture}
+\begin{tikzpicture}[x=12em,trans]
+% the initial state
+\node[state,label=below:$s_{35}$] (s35) at (0,1) 
+  {$\begin{matrix}
+      <\ng{i_H}\,\ps{m_H}\,\ps{a_H}, \cr 
+      \ps{i_C}\,\ng{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;
+% take
+\node[state,label=below:$s_{3}$] (s3-take) at (1,2) 
+  {$\begin{matrix}
+      <\ps{i_H}\,\ps{m_H}\,\ps{a_H}, \cr 
+      \ng{i_C}\,\ng{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;
+% do notthing Hal    
+\node[state,label=below:$s_{43}$] (s43-null) at (1,0) 
+  {$\begin{matrix}
+      <\ng{i_H}\,\ps{m_H}\,\ng{a_H}, \cr 
+      \ps{i_C}\,\ng{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;      
+\node[state,label=below:$s_{21}$] (s21-take-com) at (2,3) 
+  {$\begin{matrix}
+      <\ps{i_H}\,\ng{m_H}\,\ps{a_H}, \cr 
+      \ng{i_C}\,\ps{m_C}\,\ps{a_C}>
+    \end{matrix}$} ;   
+\node[state,label=below:$s_{8}$] (s8-take-null) at (2,1) 
+  {$\begin{matrix}
+      <\ps{i_H}\,\ps{m_H}\,\ps{a_H}, \cr 
+      \ng{i_C}\,\ng{m_C}\,\ng{a_C}>
+    \end{matrix}$} ;
+\draw[->] (s35) edge node[below] {$\take_h$} (s3-take) 
+                edge node[above] {$\none$} (s43-null) ;  
+\draw[->] (s3-take) edge node[above] {$\none$} (s21-take-com)
+                     edge node[below] {$\none$} (s8-take-null);
+\draw[->] (s21-take-com) edge[reflex] node[right] {$\none$} ();
+\draw[->] (s8-take-null) edge[reflex] node[right] {$\none$} ();
+\end{tikzpicture}
+\end{figure}
+
+
+\end{document}

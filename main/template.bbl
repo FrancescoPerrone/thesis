@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Fiske2020}
+S.~T.~T. Fiske, Social cognition: From brains to culture (2020).
+
+\bibitem{Baron2012}
+R.~A. Baron, N.~R. Branscombe, Social psychology, Pearson Education India,
+  2012.
+
+\bibitem{Haidt2001}
+J.~Haidt, The emotional dog and its rational tail: a social intuitionist
+  approach to moral judgment., Psychological review 108~(4) (2001) 814.
+
+\end{thebibliography}

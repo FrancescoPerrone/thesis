@@ -1,0 +1,200 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{Xerxa2023}
+Y.~Xerxa, L.~A. Rescorla, L.~Shanahan, H.~Tiemeier, and W.~E. Copeland,
+  ``Childhood loneliness as a specific risk factor for adult psychiatric
+  disorders,'' \emph{Psychological Medicine}, vol.~53, no.~1, pp. 227--235,
+  2023.
+
+\bibitem{Oda2015}
+R.~Oda, Y.~Kato, and K.~Hiraishi, ``The watching-eye effect on prosocial
+  lying,'' \emph{Evolutionary Psychology}, vol.~13, no.~3, p. 1474704915594959,
+  2015.
+
+\bibitem{Atran2004}
+S.~Atran and A.~Norenzayan, ``Religion's evolutionary landscape:
+  Counterintuition, commitment, compassion, communion,'' \emph{Behavioral and
+  Brain Sciences}, vol.~27, no.~6, pp. 713--770, 2004.
+
+\bibitem{Bering2005}
+J.~Bering, K.~McLeod, and T.~Shackelford, ``Reasoning about dead agents reveals
+  possible adaptive trends,'' \emph{Human Nature}, vol.~16, no.~4, pp.
+  360--381, 2005.
+
+\bibitem{Shariff2007}
+A.~F. Shariff and A.~Norenzayan, ``God is watching you: Priming god concepts
+  increases prosocial behavior in an anonymous economic game,''
+  \emph{Psychological science}, vol.~18, no.~9, pp. 803--809, 2007.
+
+\bibitem{Baron-Cohen2003}
+S.~Baron-Cohen, J.~Richler, D.~Bisarya, and S.~Gurunathan N.and~Wheelwright,
+  ``The {S}ystemizing {Q}uotient: an investigation of adults with {A}sperger
+  syndrome or high functioning autism, and normal sex differences,''
+  \emph{Philosophical Transactions of the Royal Society B: Biological
+  Sciences}, vol. 358, no. 1430, pp. 361--374, 2003.
+
+\bibitem{Baron-Cohen2003b}
+S.~Baron-Cohen, J.~Richler, D.~Bisarya, N.~Gurunathan, and S.~Wheelwright,
+  ``The {S}ystemizing {Q}uotient: {A}n investigation of adults with {A}sperger
+  syndrome or high--functioning autism, and normal sex differences,''
+  \emph{Philosophical Transactions of the Royal Society B: Biological
+  Sciences}, vol. 358, no. 1430, pp. 361--374, 2003.
+
+\bibitem{Rammstedt2007}
+B.~Rammstedt and O.~P. John, ``Measuring personality in one minute or less: A
+  10-item short version of the big five inventory in english and german,''
+  \emph{Journal of research in Personality}, vol.~41, no.~1, pp. 203--212,
+  2007.
+
+\bibitem{Floridi2004}
+L.~Floridi and J.~W. Sanders, ``On the morality of artificial agents,''
+  \emph{Minds and machines}, vol.~14, no.~3, pp. 349--379, 2004.
+
+\bibitem{Fedyk2017}
+M.~Fedyk, \emph{The Social Turn in Moral Psychology}.\hskip 1em plus 0.5em
+  minus 0.4em\relax MIT Press, 2017.
+
+\bibitem{Greene2004}
+J.~D. Greene, L.~E. Nystrom, A.~D. Engell, J.~M. Darley, and J.~D. Cohen, ``The
+  neural bases of cognitive conflict and control in moral judgment,''
+  \emph{Neuron}, vol.~44, no.~2, pp. 389--400, 2004.
+
+\bibitem{Greene2002}
+J.~Greene and J.~Haidt, ``How (and where) does moral judgment work?''
+  \emph{Trends in cognitive sciences}, vol.~6, no.~12, pp. 517--523, 2002.
+
+\bibitem{Haidt2001}
+J.~Haidt, ``The emotional dog and its rational tail: a social intuitionist
+  approach to moral judgment.'' \emph{Psychological review}, vol. 108, no.~4,
+  p. 814, 2001.
+
+\bibitem{Dear2019}
+K.~Dear, K.~Dutton, and E.~Fox, ``Do `watching eyes' influence antisocial
+  behavior? a systematic review \& meta-analysis,'' \emph{Evolution and Human
+  Behavior}, vol.~40, no.~3, pp. 269--280, 2019.
+
+\bibitem{Conty2016}
+\BIBentryALTinterwordspacing
+L.~Conty, N.~George, and J.~K. Hietanen, ``Watching eyes effects: When others
+  meet the self,'' \emph{Consciousness and Cognition}, vol.~45, pp. 184--197,
+  2016. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S1053810016302501}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Fathi2014}
+M.~Fathi, M.~Bateson, and D.~Nettle, ``Effects of watching eyes and norm cues
+  on charitable giving in a surreptitious behavioral experiment,''
+  \emph{Evolutionary Psychology}, vol.~12, no.~5, p. 147470491401200502, 2014.
+
+\bibitem{Kawamura2017}
+Y.~Kawamura and T.~Kusumi, ``The norm-dependent effect of watching eyes on
+  donation,'' \emph{Evolution and Human Behavior}, vol.~38, no.~5, pp.
+  659--666, 2017.
+
+\bibitem{vanVugt2007}
+M.~Van~Vugt, G.~Roberts, and C.~Hardy, ``Competitive altruism: Development of
+  reputation-based cooperation in groups,'' \emph{Handbook of evolutionary
+  psychology}, pp. 531--540, 2007.
+
+\bibitem{Haley2005}
+K.~J. Haley and D.~M. Fessler, ``Nobody's watching?: Subtle cues affect
+  generosity in an anonymous economic game,'' \emph{Evolution and Human
+  behavior}, vol.~26, no.~3, pp. 245--256, 2005.
+
+\bibitem{Nettle2013}
+D.~Nettle, Z.~Harper, A.~Kidson, R.~Stone, I.~S. Penton-Voak, and M.~Bateson,
+  ``The watching eyes effect in the dictator game: it's not how much you give,
+  it's being seen to give something,'' \emph{Evolution and Human Behavior},
+  vol.~34, no.~1, pp. 35--40, 2013.
+
+\bibitem{Bateson2006}
+M.~Bateson, D.~Nettle, and G.~Roberts, ``Cues of being watched enhance
+  cooperation in a real-world setting,'' \emph{Biology letters}, vol.~2, no.~3,
+  pp. 412--414, 2006.
+
+\bibitem{Nettle2012}
+D.~Nettle, K.~Nott, and M.~Bateson, ```cycle thieves, we are watching you':
+  Impact of a simple signage intervention against bicycle theft,'' \emph{PloS
+  one}, vol.~7, no.~12, p. e51738, 2012.
+
+\bibitem{Kelsey2018}
+C.~Kelsey, A.~Vaish, and T.~Grossmann, ``Eyes, more than other facial features,
+  enhance real-world donation behavior,'' \emph{Human Nature}, vol.~29, no.~4,
+  pp. 390--401, 2018.
+
+\bibitem{vanBommel2014}
+M.~Van~Bommel, J.-W. Van~Prooijen, H.~Elffers, and P.~A. van Lange, ``Intervene
+  to be seen: The power of a camera in attenuating the bystander effect,''
+  \emph{Social Psychological and Personality Science}, vol.~5, no.~4, pp.
+  459--466, 2014.
+
+\bibitem{Malle2015}
+B.~F. Malle, M.~Scheutz, T.~Arnold, J.~Voiklis, and C.~Cusimano, ``Sacrifice
+  one for the good of many? people apply different moral norms to human and
+  robot agents,'' in \emph{2015 10th ACM/IEEE International Conference on
+  Human-Robot Interaction (HRI)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2015, pp. 117--124.
+
+\bibitem{Komatsu2016}
+T.~Komatsu, ``Japanese students apply same moral norms to humans and robot
+  agents: Considering a moral hri in terms of different cultural and academic
+  backgrounds,'' in \emph{2016 11th ACM/IEEE International Conference on
+  Human-Robot Interaction (HRI)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2016, pp. 457--458.
+
+\bibitem{Battaglino2013}
+C.~Battaglino, R.~Damiano, and L.~Lesmo, ``Emotional range in value-sensitive
+  deliberation,'' in \emph{AAMAS International conference on Autonomous Agents
+  and Multi-Agent Systems}, vol.~2, 2013, pp. 769--776.
+
+\bibitem{Baron-Cohen2004}
+S.~Baron-Cohen and S.~Wheelwright, ``The empathy quotient: an investigation of
+  adults with asperger syndrome or high functioning autism, and normal sex
+  differences,'' \emph{Journal of autism and developmental disorders}, vol.~34,
+  no.~2, pp. 163--175, 2004.
+
+\bibitem{Baron2003}
+S.~Baron-Cohen, J.~Richler, D.~Bisarya, N.~Gurunathan, and S.~Wheelwright,
+  ``The systemizing quotient: an investigation of adults with asperger syndrome
+  or high--functioning autism, and normal sex differences,''
+  \emph{Philosophical Transactions of the Royal Society of London. Series B:
+  Biological Sciences}, vol. 358, no. 1430, pp. 361--374, 2003.
+
+\bibitem{Howell2012}
+D.~C. Howell, \emph{Statistical methods for psychology}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Cengage Learning, 2012.
+
+\bibitem{Bekkers2011}
+R.~Bekkers and P.~Wiepking, ``Who gives? a literature review of predictors of
+  charitable giving part one: religion, education, age and socialisation,''
+  \emph{Voluntary Sector Review}, vol.~2, no.~3, pp. 337--365, 2011.
+
+\bibitem{Okten2004}
+C.~Okten and U.~O. Osili, ``Contributions in heterogeneous communities:
+  Evidence from indonesia,'' \emph{Journal of population Economics}, vol.~17,
+  no.~4, pp. 603--626, 2004.
+
+\bibitem{Vinciarelli2009}
+A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing: Survey
+  of an emerging domain,'' \emph{Image and vision computing}, vol.~27, no.~12,
+  pp. 1743--1759, 2009.
+
+\end{thebibliography}

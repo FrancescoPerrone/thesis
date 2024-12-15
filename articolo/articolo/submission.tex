@@ -1,0 +1,356 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+%
+%\documentclass{ieeeconf}  % Comment this line out if you need a4paper
+%\cite{Vinciarelli2012}
+%
+\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4 paper
+\usepackage{graphicx}
+%
+\IEEEoverridecommandlockouts                              % This command is only needed if 
+                                                          % you want to use the \thanks command
+%
+\overrideIEEEmargins                                      % Needed to meet printer requirements.
+%
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+%
+% The following packages can be found on http:\\www.ctan.org
+%\usepackage{graphics} % for pdf, bitmapped graphics files
+%\usepackage{epsfig} % for postscript graphics files
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{times} % assumes new font selection scheme installed
+\usepackage{amsmath} % assumes amsmath package installed
+%\usepackage{amssymb}  % assumes amsmath package installed
+\usepackage{balance}
+\iffalse
+\usepackage{xcolor}
+\definecolor{fpgreen}{HTML}{A6D609}
+\definecolor{fpgray}{HTML}{7B7B7C}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{csquotes}
+\usepackage{float}
+\usepackage{cleveref}
+\usepackage{setspace} % for \onehalfspacing and \singlespacing macros
+\onehalfspacing 
+
+
+\newcommand{\fpcom}[1]{%
+	\vspace{2mm}% 
+	\todo[inline, size=\scriptsize, color=fpgreen!80]%
+	{\textbf{FP}: #1}%
+	}%
+	
+\newcommand{\fpincom}[1]{%
+	\todo[size=\tiny, color=fpgreen!80]%
+	{\textbf{FP}: #1}%
+}
+
+\usepackage{xspace}
+\newcommand{\ie}{\emph{i.e.}\@\xspace}
+\newcommand{\eg}{\emph{e.g.}\@\xspace}
+\makeatletter
+\newcommand*{\etc}{%
+    \@ifnextchar{.}%
+        {\textit{etc}}%
+        {\textit{etc.}\@\xspace}%
+}
+\makeatother
+
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\par\singlespacing\small}
+\fi
+
+\title{\LARGE \bf
+Watching Eye Effect and Human-Robot Interaction: The Relationship Between the Presence of a Robot
+and Giving Behaviour
+}
+
+
+\author{Francesco Perrone$^{1}$ and Alessandro Vinciarelli$^{1}$% <-this % stops a space
+\thanks{This work has been supported by the UK Engineering and Physical Sciences Research Council
+(EPSRC) through the grant ``\emph{Socially Competent Robots}'' (EP/N035305/1).}% <-this % stops a space
+\thanks{$^{1}$University of Glasgow - School of Computing Science, G128QQ Glasgow (UK),
+        {\tt\small firstname.lastnamer@glasgow.ac.uk}}%
+}
+%
+\begin{document}
+%
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\begin{abstract}
+%
+This work presents experiments based on the Watching Eye effect, the tendency of people to behave more honestly or more pro-socially when they have the impression of being observed. In particular, the experiments of this work show that the presence of a robot is associated to a lower tendency to donate to a charity despite the presence of a Watching Eye stimulus (the picture of a child portrayed on the brochure of a Non-Governmental Organization providing medical care in poor countries). The tendency to donate was measured in terms of actually donated money and the results show that people donate roughly one and half times as much  when there are no robots (a statistically significant difference). This suggests that, while not necessarily being involved in moral decisions, robots can still be associated to changes in the way people (possibly users) make decisions involving a moral dimension.
+%
+\end{abstract}
+%
+\section{Introduction}
+%
+During the past decade new emerging technology has cause profound changes in the way we comunicate and interact~\cite{Pantic2014}. Some of these changes have affected certain aspects of human behaviour, and cause psychiatric disorders~\cite{Xerxa2023}. 
+%
+The \emph{Watching Eye} effect is the tendency of people to behave more honestly or more pro-socially when they feel observed~\cite{Oda2015}, whether such a feeling results from the presence of pictures depicting eyes~\cite{Atran2004}, from the belief in a supernatural being that can see everything~\cite{Bering2005,Shariff2007}, or from any other factors. The goal of this article is to investigate the interplay between the Watching Eye effect and the presence of humanoid robots, a technology expected to play an increasingly more important role in everyday life. In particular, the experiments of this work show that there is an association between the presence of a robot and the observable consequences of the Watching Eye effect.
+
+%The goal of this work is to test whether the Watching Eye effect applies to Human-Robot Interaction (HRI) as well, i.e., whether people tend to be more pro-social when there is a robot than when they are alone. In particular, the experiments of this work aim at investigating the interplay between the watching eye effect and the presence of a robot when it comes to donating money to a charity 
+
+
+%there is an association between the presence of a robot and the tendency of people to donate money to a charity. 
+
+The experiments have involved $73$ participants that were asked to fill three questionnaires - the \emph{Empathy Quotient}~\cite{Baron-Cohen2003}, the \emph{Systemizing Quotient}~\cite{Baron-Cohen2003b} and the \emph{Big-Five Inventory 10}~\cite{Rammstedt2007}. The subjects were given the opportunity to donate part of their compensation ($10$ British Pounds) to a charity that provides children with medical assistance in poor countries. A brochure of the charity, showing the portrait of a child that benefited from its assistance, was posted on a wall in front of the participants to act as a Watching Eye stimulus, but half of the participants were left alone, while the other half were left with a Nao robot in \emph{autonomous life} mode (see Section~\ref{expres} for more details). 
+
+The results show that the latter donate, on average, half as much as the former. The difference is statistically significant and, hence, the observation seems to suggest that the robot reduces the effectiveness of the Watching Eye effect. One probable explanation is that the robot has the appearance of a healthy child and, therefore, it attenuates the impact of the child portrayed in the brochure. The analysis of the questionnaires collected during the experiments shows that the two groups of participants above (those who were with the robot and those who were alone) do not differ to a statistically significant extent in terms of the traits that might be at the origin of the giving behavior. In other words, the presence of the robot seems to be the only factor associated to the donation differences.
+
+The main reason for investigating the Watching Eye effect in HRI is that the robots are expected to play an increasingly more important role in ethically sensitive contexts (healthcare, assistance, education, law enforcement, etc.). However, ``\emph{being in principle [unaffected] and irrelevant in the moral game, it is unclear what kind of role [artificial agents] would exercise with respect to the normative guidance of human actions}''~\cite{Floridi2004}. In other words, the robots do not qualify as \emph{moral agents} that can be considered responsible for their own actions (they can only follow the instructions of their programmers), but the moral behavior of the human users might still be different depending on whether the robots are present or not. In this respect, it is important to investigate whether the presence of robots in a given context is associated with observable changes in ethically or morally relevant behavior.
+%The experiments of this work are an attempt to test whether observable
+%changes in morally relevant behavior actually take place or not, at least in the particular scenario that has been considered.
+
+The experiments follow the methodologies of \emph{moral psychology}, the domain that analyzes the affective and social aspects of moral behavior~\cite{Fedyk2017,Greene2004,Greene2002,Haidt2001}. The main tenet of moral psychology is that moral decisions do not result only from rationality, but also from spontaneous reactions driven by affect. This makes it possible to shift the attention of Machine Ethics - the computing domain aimed at making machines capable of acting morally - from the principles supposed to inform ethical systems (not accessible to direct observation), to the behavioral consequences of morally relevant decisions like, e.g., to donate money to a charity or not (accessible to direct observation). The main advantage of such a shift is that it allows one to perform experiments based on quantitative observations of human behavior like those presented in this work.
+
+The rest of this article is organized as follows, Section~\ref{survey} provides a description of the state-of-the-art in the use of the Watching Eye effect, Section~\ref{expres} describes experiments and results, and the final Section~\ref{concl} draws some conclusions.
+
+%
+\iffalse
+One of the enduring concerns of moral philosophy is deciding who or what is deserving of \emph{moral considerability}~\cite{Schonfeld1992, Jaworska2007}. Ordinarily philosophers construct their answer around metaphysical and theological considerations such as intelligence, capacity to suffer, and provision of consciousness and soul \cite{JaworskaMoralStatus2021}. 
+
+However, in the last 20 years the set of moral agents that qualify as source of moral \emph{actions}~\cite{McPherson1984, Floridi2004} has been expanded to \textit{entities} that have not intrinsic moral status~\cite{JaworskaMoralStatus2021} in the classical philosophical meaning of the word. We have seen the appearance of artificial agents that are sufficiently informed, smart, autonomous to integrate into our everyday lives not only as tools, but as objects that have been held responsible and accountable for moral decisions and actions. 
+%
+There is an important scope for the concept of a mind-less morality~\cite{Floridi2004, Allen2006, Wallach2008},~\ie, moral agents not necessarily exiting free will, mental states or responsibilities, or any other trait which can be related to humanity. The study we present here aimed at investigating whether associations between the presence of robots and the outcomes of ''moral decisions'' made by humans exist. In particular, we hypothesised that changes in the outcomes of moral decisions made by individuals in experimental settings we designed might be observed, if a robot were to be place in their environment during a behavioural tasks.
+%
+The goal of this work is to test whether the Watching Eye effect applies to Human-Robot Interaction (HRI) as well, \ie, whether people tend to be more pro-social when there is a robot than when they are alone. In particular, the experiments of this work aim at testing whether there is an association between the presence of a robot and the tendency of people to donate money to a charity. 
+
+%The experiments of this work are an attempt to test whether observable
+%changes in morally relevant behavior actually take place or not, at least in the particular scenario that has been considered.
+
+The experiments follow the methodologies of \emph{moral psychology}, the domain that analyzes the affective and social 
+aspects of moral behavior~\cite{Fedyk2017,Greene2004,Greene2002,Haidt2001}. The main tenet of moral psychology is that moral decisions do not result only from rationality, but also from spontaneous reactions driven by affect. This makes it possible to shift the attention of Machine Ethics the computing domain aimed at making machines capable of acting morally from the principles supposed to inform ethical systems (not accessible to direct observation), to the behavioural consequences of morally relevant decisions like, \eg, to donate money to a charity or not (accessible to direct observation). The main advantage of such a shift is that it allows one to perform experiments based on quantitative observations of human behavior like those presented in this work.
+
+The rest of this article is organised as follows, Section~\ref{survey} provides a description of the state-of-the-art, Section~\ref{experiment} describes experiments and results, and the final Section~\ref{conclusion} draws some conclusions.
+\fi
+%
+\section{Previous Work}\label{survey}
+%
+%The study we present here aimed at investigating whether associations between the presence of robots and the outcomes of 'moral decisions' made by humans exist. In particular, we hypothesise that changes in the outcomes of moral decision made by individuals in experimental settings might be observed if a robot were to be place in their environment during behavioural tasks, and assumed that such changes might be quantifiable in terms of observable machine detectable behavioural cues. 
+
+%To this extent we designed an experiment to test if the presence of a robot (NAO), manipulated to appear \textit{passively watching} participants working towards a decoy experimental task, could have been associated with differences in their charitable giving, \ie, whether donations made to a charity tended to be higher/lower when participants shared the room with a robot than when they were alone. 
+
+%We used mixed methodologies consisting of psychological tests administered to determine participants' personality characteristics and brain types together with the development of a behavioural task, to assess participants moral decision making. To test whether the presence of a robot could be associated with differences in the outcome of individual moral decision processes, we adopted the \textit{watching eye paradigm}, an experimental model in which adults tend to displayed greater prosocial behaviour in the presence of observation cues.
+
+%\subsection{The watching eye effect on prosociality}
+%\label{wef}
+The watching eye paradigm is an experimental approach that allows the investigation of a class of phenomena resulting from the effects that the \emph{impression of being observed} has on human cognition. The watching-eye effect suggests that ``[...] just feeling watched may be enough to make us modify our actions independent of deliberative, explicit, conscious, evaluation [...] \cite{Dear2019}''. In particular, the perception of being observed elicits a sudden heightened processing of incoming stimuli in relation to the self, which leads to the enhancement of self-awareness and memory, together with the activation of positive appraisal of others and prosocial behaviour~\cite{Conty2016}.
+
+Experimental work has shown how individuals strategically modify their behavior towards acting more prosocially when being observed by others \cite{Fathi2014}, to conform to local norms, gain reputation, and avoid sanctions by the observers~\cite{Kawamura2017, vanVugt2007}. Experiments in~\cite{Haley2005} have found that even subtle cues such as stylized eyespots on a computer background, increased the amount of money that was offered in a dictator game, as well as the odds of donating something rather than nothing to the other players in the same settings~\cite{Nettle2013}. Similarly, an image of a pair of eyes increased money contributions to an honesty box used to collect money for drinks in a university lounge \cite{Bateson2006}, and a simple intervention of displaying signs featuring images of watching eyes and a verbal message about being watched was associated with a large reduction of bicycle thefts \cite{Nettle2012}. The literature seems to suggest that cues leading to the impression of being observed do not need to be explicit. 
+
+It has been shown in~\cite{Shariff2007} that priming the presence of supernatural, omnipresent entities can activated implicitly increased prosocial behaviour, even in situation when the behaviour was anonymous and directed toward strangers. Whether explicit or not, cues of being watched seem to be sufficient to affect different facets of human prosocial behaviours~\cite{Kelsey2018}, including \emph{prosociality} in those situations where the behaviour cannot directly be traced back to the actors, by any potential observer~\cite{vanBommel2014}.
+
+The analysis of the Watching Eye effect in Human-Robot Interaction follows up on previous psychological approaches in Machine Ethics, i.e., on those approaches that intend to capture aspects of ethics which are relevant to human-robot interactions, by means of psychological and sociological analyses. Psychological analyses typically investigate ethical aspects of human-robot interaction that hinges on human perception, such as the attribution of mental properties to machines, or how people apply moral norms to non-human counterparts and so on. 
+%On the other hand, sociological analysis aims to gauge the public opinion towards robots by measuring perceptions, acceptance levels, worries and reservations that people might have about robotics technologies. They do so often by conducting survey-base studies (see for example~\cite{Calvo2015}), sometimes targeting policymakers that need to foresee the future impacts on legislation and economy, to benefit society as whole~\cite{Anderson2011,Wallach2008,Lin2011}.
+
+An important part of the work done in Machine Ethics which uses psychological approaches focuses on how people express moral judgements (including condemnation and blame) on machines' actions in morally sensible settings. Key findings in these works have shown that people blame more robots for inaction but blame human more for action taken in the same moral circumstances. This indicates a human-robot asymmetry (HRA) in the application of moral judgements. By experiments employing stylized vignettes of robots taking moral decisions on lethal actions, Kratzwald et al. in a recent study have asked human subjects to judge death caused by different types of interaction between human and machines. Kratzwald showed that non-intervention is blamed more on machines, but in situations when death is caused by intervention, machines and humans are blamed equally. This HRA was observed previously in~\cite{Malle2015} and shown in~\cite{Komatsu2016} to be context dependent - i.e., that the asymmetry depends on the participants' social backgrounds. 
+
+Finally, some works in Machine Ethics did make explicit use of psychological methods but only to introduce models of computation that represent logically psychological stimuli, values, mental states and affections~\cite{Battaglino2013} so that they can be reproduced in programs.  Again, these are just representations of psychological facts based on logic rules, they do not use psychological methods as a tool to provide models of autonomous moral decision making. Whether this shows a lack of consideration of psychology - and moral psychology in particular - as a tool for Machine Ethics, is hard to conclude. 
+
+Compared to all studies above, the main novelty of this work is that the presence of a robot is used as an independent variable expected to be associated to observable changes in behavior, in line with the methodologies typical of social psychology.
+
+%It is however a fact that none of the works published so far in Machine Ethics have made a serious attempt to use the most recent theories in psychology as a tool of investigation. This is in contrast to fields like, e.g.,  Social Signal Processing~\cite{Vinciarelli2009,Vinciarelli2012} that have adopted social psychology as a means to make machines socially intelligent. 
+%
+%For example, the experiment presented in~\cite{Haley2005} shows that even subtle cues such as stylised eyespots on a computer background, increased the amount of money that was offered in a dictator game, as well as increased the odds of donating something rather than nothing to the other players in the same settings~\cite{Nettle2013}. Similarly, an image of a pair of eyes increased money contributions to an honesty box used to collect money for drinks in a university lounge~\cite{Bateson2006}, and a simple intervention of displaying signs featuring images of watching eyes and a verbal message about being watched was associated with a large reduction of bicycle thefts~\cite{Nettle2012}.
+
+%Observation cues do not need to be explicit to lead to watching-eye like effects. It has been shown in~\cite{Shariff2007} that priming in individuals the presence of supernatural, omnipresent entities can activated implicitly increased prosocial behaviour, even in situation when the behaviour was anonymous and directed toward strangers. Whether explicit or not, cues of being watch seem to be sufficient to affect different facets of human prosocial behaviours~\cite{Kelsey2018}, including \emph{prosociality} in those situations where the behaviour cannot directly be traced back to the actors, by any potential observer~\cite{vanBommel2014}.
+\iffalse
+\subsection{The watching eye effect in HCI} 
+The main reason for investigating the Watching Eye effect in HRI is that social robots are expected to play an increasingly more important role in ethically sensitive contexts (healthcare, assistance, education, law enforcement, etc.). However, \blockquote{being in principle [unaffected] and irrelevant in the moral game, it is unclear what kind of role [artificial agents] would exercise with respect to the normative guidance of human actions~\cite{Floridi2004}}. 
+
+In other words, robots do not qualify as \emph{moral agents} that can be \textit{considered} responsible for their own actions, arguably they can only follow the instructions of their programmers, but the moral behaviour of the human users might still be different depending on whether the robots are present or not in their environment. On the other hand situations where artificial agents sufficiently informed, smart, autonomous to integrate into our everyday lives not only as tools, but as objects arguably responsible and accountable for for the moral consequences of their decision-making and actions have exponentially multiplied. 
+
+AI techs have become a new type of moral agents that qualify as source of moral \emph{actions}~\cite{McPherson1984, Floridi2004} expanding the set of moral considerability to \textit{entities} that have not intrinsic moral status~\cite{JaworskaMoralStatus2021} in the classical philosophical meaning of the word. There is an important scope for the concept of a mind-less morality~\cite{Floridi2004, Allen2006, Wallach2008},~\ie, moral agents not necessarily exiting free will, mental states or responsibilities, or any other trait which can be related to humanity. The study we present here aimed at investigating whether associations between the presence of robots and the outcomes of ''moral decisions'' made by humans exist. In particular, we hypothesised that changes in the outcomes of moral decisions made by individuals in experimental settings we designed might be observed, if a robot were to be place in their environment during a behavioural tasks.
+
+
+In this respect, it is important to investigate whether the presence of robots in a given context is associated with observable changes in ethically or morally relevant behaviour. It has been suggested that individuals exposed to watching eye cues act in ways that will maintain their social reputations, on the base that greater prosociality is observed when subjects are exposed to eyes or eye-like images compared to other non-social objects (e.g., flowers or geometric shapes)~\cite{Kelsey2018} perhaps suggesting in turn that, individuals exposed to the eye like images act in (automated) ways that will maintain their social reputations~\cite{Bateson2006}, it however remains unclear if the watching-eyes effect is driven by evolutionary cognitive mechanisms or by necessity for reputation management. 
+
+For this reason, the approaches presented in the literature adopt different techniques to stimulate such a feeling and then test whether there is an association between the presence of the feeling and an observable aspect of behaviour exerted, but to the best of our knowledge no investigations on the effect of robots on human prosociality has been yet investigated.
+\fi
+
+\section{Experiments and Results}\label{expres}
+%
+The typical goal of the experiments revolving around the Watching Eye effect is to observe measurable cues associated to the feeling of being observed. The experiments of this work, based on a similar approach, adopt the portray of a child printed on the brochure of a charity as a stimulus and the amount of money donated to such a charity as a measurable aspect of moral behavior. In fact, the literature (see Section~\ref{survey}) suggests that donations are a good evidence to test the assumption that the perception of being observed leads to the activation of prosocial behavior. We advertised the experiment as a study to gather data on human personality for a representative sample of population, and requested volunteers to fill three questionnaires in exchange for a monetary compensation (see Section~\ref{questionnaire}).
+%
+%
+\subsection{The Participants}
+\label{sample}
+Overall, the experiment  involved $73$ participants with average age $x=23.5$ and $s.d.=7.2$. The sample comprised $38$ male and $35$ female. The population was drawn from two sources: $30$ volunteers, $23$ males and $7$ females, were recruited from the undergraduate students population studying Computing Science at University of Glasgow (UG), and another $43$, $15$ males and $28$ females, were recruited through a subject-pool database provided by the School of Psychology at the same university\footnote{This is a database of volunteers set up at the School of Psychology and Institute of Neuroscience and Psychology at the University of Glasgow, which allows members of the public to register their details and take part in a wide range of studies. The database gathers individuals from the general public in UK, and represents a wide mixture of cultural backgrounds and occupations including clerical and manual workers, professionals, undergraduate and postgraduate students (https://participants.psy.gla.ac.uk).}.
+%
+%Although the sex ratio of participants recruited from the student population in computing science might appear to be disproportionately affected by a particularly high number of males $(\approx \text{3:1}$,  $m$:$f$), this was in line with the UCAS data on STEM undergraduate students in UK \cite{WomenStem} at the time the recruitment. was made.
+%
+%From the data published by UCAS, on a total of $24,090$ students studying Computing Sciences in UK, $19\%$ were female, and $81\%$ of the students were male. The difference between the ratio male:female nationwide and that of our student sample was not statistically significant ($p= 0.55$ according to a $\chi^{2}$-test on sex ratio) with $23\%$ of the students drawn from Computing Science being female, and $77\%$ male. 
+%
+The criteria for inclusion in the experiments were as follows: $1)$ being $17$ years of age or above, $2)$ being British (passports where requested and checked on the day of the experiment), $3)$ and when a booking request was made by a student through the subject-pool database, only non Computing Science students were accepted. 
+
+Each participant in the population sample was randomly assigned to one of two experimental conditions, namely \emph{Robot} and \emph{Control}. Both conditions were set in the same room, where the brochure of a charity showing the portrait of a child in need of medical attention was posted to the wall as a Watching Eye stimulus.
+%hence, with exception made for the presence or absence of NAO, all participants sit the experiment in the same environment where they have been left either alone (the \emph{Control} or with NAO (the \emph{Robot} condition). 
+%The two conditions were \emph{Control} and \emph{Robot}. 
+In the \emph{Robot} condition, a Softbank Robotics NAO was placed in the setting in \emph{autonomous life} mode, a configuration provided by the robot's manufacturer that makes the robot look alive through the simulation of breathing. Furthermore, the robot can track people with its head (such a process is activated only if a person establishes eye contact with the robot). Figure~\ref{setting} shows the difference between the two settings.
+%In \emph{Control}, the setting is the same as in Robot, but without NAO. A pictorial representation of the two settings is given in Figure~\ref{setting}. %
+\begin{figure*}[t!]
+\begin{center}
+\includegraphics[width=0.48\textwidth]{figures/setting-1.png}
+\includegraphics[width=0.48\textwidth]{figures/setting-2.png}
+\end{center}
+\caption{A pictorial representation of the experimental setting for both the ``Control'' (left) and ``Robot'' (right) groups, 
+where A are questionnaires, B is the consent form and payment, C is the charity box, D is the human subject, and E) 
+is the robot.}\label{setting}
+\end{figure*}
+%
+The reason for such an experimental design is that, if the watching eye effect applies to the presence of the robot, it should be possible to observe a statistically significant difference between the donations made by subjects in different conditions. 
+
+The experimental protocol adopted in the experiments includes two main steps, namely \emph{Questionnaire Filling} and \emph{Donation}. 
+The rest of this section describes the two steps and the results that were obtained.
+%
+\subsection{Questionnaire Filling}
+\label{questionnaire}
+%
+On the day of the experiment, each participant had individual access to the experiment room for the duration of one hour. Alone in the room, they had to answer the questionnaires, to collect a compensation of \textsterling10 for participation (made of ten individual \textsterling1 coins), and to decide whether to donate part of their payment to a charity before living the room, i.e., the moral decision case). Each participant has been asked to fill the following three psychometric questionnaires: 
+%
+\begin{itemize}
+%
+\item Empathizing Quotient (EQ)~\cite{Baron-Cohen2004}; 
+\item Systemizing Quotient (SQ)~\cite{Baron2003};
+\item Big-Five Inventory 10 (BFI-10)~\cite{Rammstedt2007}.
+%
+\end{itemize}
+%
+The \emph{Empathizing Quotient} (EQ)~\cite{Baron-Cohen2004} questionnaire includes $60$ items - each associated to a four points Likert scale that provide a score measuring the tendency of an individual to establish empathic relationship with others. Similarly, the \emph{Systemizing Quotient} (SQ)~\cite{Baron2003} questionnaire includes $60$ items - each associated to a four points Likert scale - that provide a score measuring the tendency of an individual to detect patterns and regularities in the environment. The Big-Five Inventory 10 (BFI-10)~\cite{Rammstedt2007}) is a shorter version of the Big Five Inventory which assess people personality traits along the following five personality traits:
+%
+\begin{itemize}
+\item\emph{Openness} (tendency to be intellectually curious, etc.);
+\item \emph{Conscientiousness} (tendency to be responsible, etc.);
+\item\emph{Extraversion} (tendency to be assertive, etc.);
+\item \emph{Agreeableness} (tendency to be trustworthy, etc.);
+\item \emph{Neuroticism} (tendency to be anxious, self-pitying).
+\end{itemize}
+%
+Each participant was allocated a date and time to sit the experiment via email, hence no face-to-face contact with the participants was made before their allocated slot. On the day of the experiment, the participant were welcomed at the entrance of the School of Computing Science at the University of Glasgow where a laboratory assistant was waiting for them. %Then, the scripted steps reported in Section~\ref{appendix} below were always performed.
+
+The collection of the questionnaires has two main goals. The first is to tell the participants that the experiments aims at collecting data about the personal characteristics of a representative sample of the population. In this way, the participants do not know that they will be given the opportunity to donate money and, most importantly, they do not know that their donations will be monitored. This is expected to make the \emph{giving behaviour} of the participants more \emph{honest}. The second goal is to get information allowing one to test whether the observed donations depend on the Watching Eye effect or on differences in personality traits and brain types captured via BFI-10, EQ and SQ.
+%
+\subsection{Donation}
+\label{donation}
+%
+After they had completed the questionnaires, each participant had to read and sign a document where they acknowledged to have received the payment, and decide whether to donate part of their compensation to \emph{Operation Smile}\footnote{Operation Smile is a Non-Governmental Organization to reduce the occurrence of cleft lips and palates providing free cleft lip and palate repair surgeries to children worldwide (https://www.operationsmile.org).} using a green charity box placed in the room (desk $2$ in Figure~\ref{setting}, page~\pageref{setting}). Since the charity box is opaque, it did not allow one to see how much money was already inside and led the participants to believe that the amount of money they  left was not  counted or monitored. When the participants left the room, an experimenter checked whether the document was properly filled and signed. In this way, it was possible to be reasonably sure that the participants had correctly read the invitation to make a donation. It is important to notice that participants do not know the experiment task before entering the room, neither have they been in the experiment room before. This means that the participants from both groups had no indication that a robot could have been in the room, nor did they know that they would have an opportunity to make a donation before the experiment took place. 
+%
+\subsection{Results}
+%
+Each time a subject completed the tasks described in Sections~\ref{questionnaire} and \ref{donation}, an experimenter counted the money that was donated (if any) and analysed the questionnaires. As a result, a set  of $73$ decision cases was collected, each describing a participant $i$ as the t-uple $(c_i,d_i,\vec p_i, e_i,s_i)$, where $c_i$ corresponds to the condition of subject $i$ (Control or Robot), $d_i$ is the amount of money that subject $i$  donated, $\vec p_i$ is a five-dimensional vector where every component corresponds to one of the scores corresponding to the Big-Five traits, $e_i$ is the Empathizing Quotient and $s_i$ is the Systemizing Quotient. The value of $i$ ranges between $1$ and $N=73$, the total number of subjects involved in the experiments. The total amount of donations made by the subjects in control condition can be calculated as follows:
+%
+\begin{equation}
+O_C = \sum_{k:c_k=C} d_k,
+\end{equation}
+%
+where $C$ stands for condition \textit{Control}. Similarly it is possible to calculate the total amount $O_R$ of donations that have been made by the subjects in condition \textit{Robot}. Overall, the amount donated by participants in the Control condition is roughly one an a half the amount donated by participants in the Robot condition ($O_C=$ \textsterling66 and $O_R=$ \textsterling44.35).	
+
+The following $\chi^2$ variable can be used to test whether the difference in the amount donated by participants in the two experimental conditions is statistically significant~\cite{Howell2012}:
+%
+\begin{equation}
+\label{chi2}
+\chi^2=\frac{(O_C-E)^2}{E}+\frac{(O_R-E)}{E},
+\end{equation}
+%
+where:
+%
+\begin{equation}
+E=(O_C+O_R)/2, 
+\end{equation}
+%
+Equation~\ref{chi2} corresponds to a uniform distributions of the donations across the two conditions (the null hypothesis). The results of the test show that the difference is statistically significant ($p = 0.01$ according to a $\chi^{2}$-test on donations observed) suggesting an association between the presence of the robot and differences in moral decision made by participants (measured in terms of donation made to charity). 
+
+The approach above can be adopted to test whether there is a statistically significant difference between the two groups of participants (Control and Robot) in terms of the traits that have been measured with the psychometric questionnaires. The reason for performing such a test is that the presence of statistically significant effects might provide an alternative explanation for the observed donation differences (e.g., if the participants in condition Control are, on average, more empathic than the others, they might tend to donate more). However, the results show that there are no statistically significant differences for any of the traits. In other words, the traits are not different, on average, between the subjects that belong to the two groups. Given that the questionnaires capture most of the individual differences~\cite{Rammstedt2007}, this seems to confirm that the donation differences are associated to the presence of the robot and not to possible differences across the subjects that have been involved.
+
+We tested for other experimental characteristics that might be responsible for a spurious association between the donation behaviour observed and the presence or absence of a robot in the participants' settings. In particular the academic literature on charitable giving is very large (on Google Scholar, the keyword ``charitable giving'' yields more than 533,000 results) and typically suggests positive relationships of gender, personality and cultural backgrounds, with philanthropy \cite{Bekkers2011} and, these factors were tested as possible alternative explanations for the behaviour observed. 
+
+Studies reported in~\cite{Bekkers2011} seem to suggest that the relationship between age and charitable donations is a positive one, although there are no work up to now that clarify the exact age at which the age gradient becomes weaker. However, studies with a large proportion of respondents of ``similar age'', and studies on ``specific populations'' seem to suggest a negative relationship between age and the likelihood of giving to charity, although findings seem to vary from study to study. In particular, what type of relationship is found between gender and giving seem to depend on the other variables included in the experimental settings: the more socioeconomic variables, such as income and educational level, are included in the models examining charitable giving, the smaller the reported gender differences in giving are. 
+
+Therefore, being our population sample quite specific, with very sparse range of socioeconomic variables, care should be therefore taken to make any assumption regarding the role that age played in the we donation observed \cite{Okten2004}. Furthermore, Bekkers reports in \cite{Bekkers2011} that gender is also relevant in the majority of studies on charitable giving analysed. More interestingly women have on average stronger prosocial values than men, including concern and responsibility for the wellbeing of others. Hence, we assumed that both gender and age across the two experimental conditions might provide an alternative explanation for the difference in the donation behaviour observed.
+
+However, the difference along these factors were not statistically significant ($p = 0.85$ after FDR, according to a $\chi^{2}$ test on gender, $p = 0.17$ after FDR, according to a $t$-test on age, and $p = 0.83$ after FDR, according to a $\chi^{2}$ test on educational background, i.e., across the population we hired from computing science students and participants from the psychology subject-pool database) and, therefore, it seems to suggest further confirm that the difference in donation observed are associated to the presence of the robot and not to possible differences across the subjects that have been involved.
+%
+%
+\section{Conclusions}
+\label{concl}
+%
+The experiments of this work show that, at least in the case of the $73$ subjects involved in this work, there is a statistically significant association between the presence of a robot in a room and the tendency of people to donate money to a charity. In particular, the experiments show that the presence of a robot tends to attenuate the effect of a Watching Eye stimulus (the picture of a child in need of medical attention) and people donate, when a robot is present, roughly two thirds of what they donate when there is no robot. The psychometric questionnaires collected during the experiments - aimed at measuring personality traits, tendency to establish empathic relationships and tendency to detect regularities in the environment - show that there is no significant difference between the two groups of subjects involved in the experiments, namely those that have participated with the robot and those that have participated without it. Therefore, the presence of the robot appears to be the only experimental factor that changes between the two groups.
+
+The above seems to suggest that the Watching Eye effect - the tendency of people to behave better when they feel observed - can interplay with Human-Robot Interaction. The main implication from a Machine Ethics point of view is that the robots cannot be considered responsible of their own actions and cannot be the target of moral and ethical judgments~\cite{Floridi2004}, but they can still make a difference when it comes to the moral and ethical decisions of their users. This is a problem because the changes can be positive, but they can also be negative (like in the experiments of this work). Furthermore, people might not be aware of the effects that take place - like in the experiments of this work - and this paves the way to possible abuses. Therefore, any time a robot is adopted in a given context, it should be ensured not only that it does not perform any action that, if performed by a human, would be considered morally and ethically inappropriate, but also that morally and ethically sensitive decisions made by the users do not change in an inappropriate way.
+
+Besides the above, the experiments show that moral and ethical issues of Human-Robot Interaction can be investigated through experiments based on observable aspects of human behavior. In other words, it is possible to apply the findings of moral psychology - the field that studies affective and psychological aspects of moral and ethical behavior - to Machine Ethics. This is an advantage because it allows one to apply the methodologies of established computing fields (e.g., Social Signal Processing~\cite{Vinciarelli2009}) that analyse automatically observable human behaviour and infer social and psychological phenomena from it. To the best of our knowledge, such an approach is not common in Machine Ethics and it can probably help to further advance research in the field.
+
+
+%
+% NEXT  WORK: TO ANALYZE INTERACTIVE SCENARII
+
+%
+%METTI CHE FIN QUI ABBIAMO GUARDATO PRESENZA, MA ADESSO POSSIAMO STUDIARE
+% DIVERSITA' DI COMPORTAMENTO.
+%
+%\addtolength{\textheight}{-12cm}   % This command serves to balance the column lengths
+                                  % on the last page of the document manually. It shortens
+                                  % the textheight of the last page by a suitable amount.
+                                  % This command does not take effect until the next page
+                                  % so it should come on the page before the last. Make
+                                  % sure that you do not shorten the textheight too much.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{APPENDIX}
+\label{appendix}
+%
+This appendix describes the experimental protocol adopted during the experiments. For
+every subject, the experimenters perform the following main steps:
+%
+\begin{itemize}
+    \item The experimenter welcomes the subject in the hall of the School of Computing Science at the
+    University of Glasgow;
+    \item The experimenter accompanies the subject to the door of the room where the actual experiments are performed;
+    %\item The subject is walked the closest lift (only one lift is present in the building)
+    %\item The laboratory assistant walks the subject to the experiment room (the setting)
+    \item The experimenter describes the setting to the subject;
+    \item The experimenter shows chair and desk to be used;
+    \item The experimenter points out to the document where the instructions are written;
+    \item The experimenter invites the subject to enter the room;
+    \item The subject completes the questionnaires sitting at the desk that has been indicated;
+    \item Upon completing the questionnaires, the subject proceeds to the desk where she or he can find the payment and 
+    sign the consent form;
+    \item Upon completing the consent form, the subject decides whether to make a donation or not using a green charity box;
+    \item The subject leaves the room and the experimenter walks her/him to the exit of the School of Computing Science at the University of Glasgow;
+    \item The experimenter enters the (now empty) room, collects  filled questionnaires and consent form, and counts the money that have 
+    been  donated (if any);
+\end{itemize}
+%
+At the end of the experiment, the personality questionnaires are scanned and stored in an appropriate manner, together 
+with the amount of money the subject has decided to donate, including $0$ if the subject did not make any donation. Thus, it is 
+possible to know, for each subject, the personality traits, the Empathizing Quotient, the Systemizing Quotient and how much they 
+donated, whether they filled the test with NAO in the room, and their occupation status. 
+
+\balance
+The protocol above is followed for the subjects in both Control and Robot conditions and the assignment of a subject to one
+of the two conditions is random. The decision on whether the robot will be present or not in the room is made before
+the name of the next subject to be involved is made available to the experimenters. 
+%In this way, it is possible to avoid any
+%relationship between the use of a condition rather than the other  and the name of the subject.
+%
+%
+%
+\bibliographystyle{IEEEtran}
+\bibliography{reference}
+%
+\end{document}

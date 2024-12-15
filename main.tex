@@ -1,0 +1,244 @@
+\documentclass[12pt,titlepage,oneside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} % modern encoding
+
+% Packages for drawing and colors
+\usepackage{xcolor}
+\definecolor{deepblue}{RGB}{0,0,128}
+\definecolor{fpgreen}{HTML}{A6D609}
+\definecolor{fpgray}{HTML}{7B7B7C}
+
+\usepackage{titlesec}
+%\usepackage{mathpazo}
+
+\definecolor{uniblue}{RGB}{0,56,101}
+\definecolor{verydarkblue}{RGB}{0,30,90}
+\definecolor{freshmint}{RGB}{152,255,152}
+\definecolor{ambassadorazure}{RGB}{0,127,255}
+
+\titleformat{\chapter}[block]
+{\normalfont\huge\bfseries\color{black}}
+{\raisebox{-0.0\height}{\thechapter.}}{0.65em}{\Huge}
+
+\titlespacing*{\chapter}{0pt}{0.5in}{10pt}
+
+\titleformat*{\section}{\normalfont\fontsize{17}{20}\bfseries\color{black}}
+\titleformat*{\subsection}{\normalfont\fontsize{12}{15}\bfseries\color{black}}
+\titleformat*{\subsubsection}{\normalfont\fontsize{12}{15}\itshape\color{black}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\itshape F. P.} % initials on the left
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE,LO]{\leftmark}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter.\ #1}{}}
+\fancyhfoffset[R]{0cm} % This line might help
+
+\makeatletter
+\def\ps@pprintTitle{%
+  \let\@oddhead\@empty
+  \let\@evenhead\@empty
+  \def\@oddfoot{\hfill\footnotesize\itshape F. Perrone, \today}%
+  \let\@evenfoot\@oddfoot}
+\makeatother
+
+% Language settings
+\usepackage[polutonikogreek,english]{babel}
+
+% Package for special symbols
+\usepackage{teubner}
+
+% Packages for proof trees and math symbols
+\usepackage[tableaux]{prooftrees}
+\usepackage{amsmath,amssymb}
+\tolerance=10000
+\hbadness=10000
+
+% Package to avoid indentation of paragraphs
+\usepackage{parskip}
+
+% Package for images
+\usepackage{graphicx}
+\usepackage{lettrine}
+
+% Package for creating lists
+\usepackage{enumitem}
+\newlist{fpenum}{enumerate}{1}
+\setlist[fpenum]{
+  label=\arabic*., 
+  align=left, 
+  leftmargin=*, 
+  labelsep=*, 
+  labelindent=0pt,
+  font=\bfseries,
+  style=sameline
+}
+
+% Package for chemical formulas
+\usepackage[version=4]{mhchem}
+
+% Package for typesetting quotes
+\usepackage{csquotes}
+\usepackage{epigraph, setspace}
+
+% Package for hyperlinks
+\usepackage{hyperref}
+
+% Package for custom paper geometry
+\usepackage{geometry}
+
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=4.5cm,  % was 2.0cm
+ right=2.0cm,  % was 2.0cm
+ top=3cm,
+ bottom=1.8cm,
+ headsep=25pt
+}
+
+% Package for adding notes and todos
+\usepackage[colorinlistoftodos]{todonotes}
+
+% Package for handling floating objects
+\usepackage{float}
+
+% Package for intelligent cross-referencing
+\usepackage{cleveref}
+\crefname{subfigure}{figure}{figures}
+\Crefname{subfigure}{Figure}{Figures}
+
+% Package for referencing names
+\usepackage{nameref}
+
+% Package for subcaptions
+\usepackage{subcaption}
+
+% Packages for endnotes
+\usepackage{endnotes}
+\usepackage{etoolbox}
+
+\patchcmd{\enoteformat}{1.8em}{0pt}{}{}
+
+
+% Custom commands
+\newcommand{\fpcom}[1]{%
+    \vspace{2mm}% 
+    \todo[inline, size=\scriptsize, color=fpgreen!80]%
+    {\textbf{FP}: #1}%
+    }%
+    
+\newcommand{\fpincom}[1]{%
+    \todo[size=\tiny, color=fpgreen!80]%
+    {\textbf{FP}: #1}%
+}
+
+\newcommand{\p}{\vspace{1.5mm}\noindent}
+\newcommand{\pgraph}[1]{\vspace{1.5mm}\noindent \textit{#1}}
+
+\newenvironment{defins}[1]% environment name 
+{% begin code
+    \vspace{2mm}
+    \leftskip1cm\relax
+    \rightskip1cm\relax 
+    \noindent 
+    \textbf{#1}
+        \begin{itshape}%
+        \noindent\ignorespaces 
+        }% 
+        {% end code
+        \vspace{2mm}\end{itshape}\ignorespacesafterend 
+}
+
+\def\es{edge from parent[solid]}
+\def\ed{edge from parent[dashed]}
+
+\usepackage{xspace}
+\newcommand{\ie}{\emph{i.e.}\@\xspace}
+\newcommand{\eg}{\emph{e.g.}\@\xspace}
+\makeatletter
+\newcommand*{\etc}{%
+    \@ifnextchar{.}%
+        {\textit{etc}}%
+        {\textit{etc.}\@\xspace}%
+}
+\makeatother
+\newcommand{\nextdiv}{\vspace{2mm}\noindent}
+\newenvironment{important_def}[1]% environment name 
+{% begin code
+    \vspace{2mm}\leftskip1cm\relax\rightskip1cm\relax
+    \textbf{#1}\begin{itshape}% 
+}% 
+{\end{itshape}}% end code
+
+\newenvironment{important}% environment name 
+    {% begin code
+        \vspace{2mm}\leftskip1cm\relax\rightskip1cm\relax
+    }%
+    {% end code
+        \leftskip1cm\relax\rightskip1cm\relax
+    }
+
+% Define theorem styles
+\newtheorem{definition}{Definition}
+
+\usepackage[toc]{glossaries}  % The 'toc' option adds your glossaries to the table of contents
+\definecolor{lightblue}{RGB}{70,130,180}
+%\renewcommand{\glsdisplayfirst}[4]{\textcolor{lightblue}{\emph{#1}}}
+%\renewcommand{\glsdisplay}[4]{\textcolor{lightblue}{\emph{#1}}}
+\makeglossaries
+\loadglsentries{glossary}
+
+\begin{document}
+\begin{titlepage}
+\centering
+\vspace*{3cm}  % Need the * or the space is swallowed at the top of the page
+\bfseries\Large
+Experimental Methods for Moral Behaviour Analysis in Human-Robot Interaction\\
+\vspace{3cm}
+\normalfont\large
+Francesco Perrone\\
+\vspace{2cm}
+Submitted in fulfilment of the requirements for the\\
+Degree of Doctor of Philosophy\\
+\vspace{2cm}
+School of Computing Science\\
+College of Science and Engineering\\
+University of Glasgow\\
+\vspace{1cm}
+\includegraphics[scale=0.125]{GlaLogo.pdf}
+\\
+\vspace{0.5cm}
+% Insert month and year of date deposited with library for final version
+February 2023
+\nextdiv
+
+\scriptsize This work has been partially supported by the UK Engineering and Physical Sciences Research Council
+		(EPSRC) through the grant ``\emph{Socially Competent Robots}'' (EP/N035305/1).
+%
+\end{titlepage}
+\frontmatter  % Turn off chapter numbering, use roman page numbers
+\include{abstract}
+\tableofcontents
+\listoftables
+\listoffigures
+\include{acknowledgements}
+\include{declaration}
+
+
+\mainmatter % Turn on chapter numbering, reset page numbers, use arabic
+\include{introduction}
+\include{moral_d}
+\include{experimental_methods}
+\include{methodology}
+% and the other chapters
+\appendix
+\include{derivation}
+\backmatter  % Turn off chapter numbering
+% I assume that the bibliography is assembled by hand.
+% Change the file if you use bibtex or something like that.
+\printglossaries
+\include{bibliography}
+\end{document}

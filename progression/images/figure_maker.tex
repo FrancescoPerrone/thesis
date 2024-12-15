@@ -1,0 +1,40 @@
+\documentclass[varwidth]{standalone}
+
+% Positioning
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{flafter}
+\usepackage{array}
+\usepackage{arydshln}
+\usepackage{booktabs}
+\usepackage[font=scriptsize, labelfont=scriptsize, width=.94\textwidth]{caption}
+\setlength\dashlinedash{0.2pt}
+\setlength\dashlinegap{1.5pt}
+\setlength\arrayrulewidth{0.2pt}
+%Widows & Orphans & Penalties
+\widowpenalty500
+\clubpenalty500
+\clubpenalty=9996
+\exhyphenpenalty=50 %for line-breaking at an explicit hyphen
+\brokenpenalty=4991
+\predisplaypenalty=10000
+\postdisplaypenalty=1549
+\displaywidowpenalty=1602
+\floatingpenalty = 20000
+
+
+\begin{document}
+\begin{table}[htpb] \centering
+\begin{small}
+	\begin{tabular}{@{}lrrrr@{}}
+		\toprule
+		\textbf{Factor} & \textbf{Scale} & \textbf{Measure} & \textbf{Type} & \textbf{Test}\\ \midrule
+		\textbf{Brain type} &  EQ, SQ\ &  scale (0 to 80) & numeric & $t$-test \\ \hdashline
+		\textbf{Personality Traits} & BFI-10 & scale (-4 to 4) & numeric & $t$-test\\ \hdashline
+		\textbf{Gender} &  gender &  nominal & string & $\chi^{2}$\\ \hdashline
+		\textbf{Age} &  age &  scale & numeric & $t$-test \\ \hdashline
+		\bottomrule
+	\end{tabular}
+\end{small}	
+\end{table}
+\end{document}

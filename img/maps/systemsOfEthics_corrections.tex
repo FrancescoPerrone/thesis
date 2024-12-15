@@ -1,0 +1,24 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+	
+	\begin{tikzpicture}[every node/.style={align=center},level 1/.style={sibling distance=20em},level 2/.style={sibling distance=53mm}, level 3/.style={sibling distance=40mm}, level 4/.style={sibling distance=50mm}]
+		\node {Systems Of Ethics}
+		[sibling distance=8cm]
+		child { node {Deontological \\ (\textit{defeasible} \textit{ought})} 
+			child { node {Categorical Imperative \\ (Kantian rational principles guiding \\ moral action)} } % Updated placeholder
+			child { node {Prima Facie Duties \\ (Ross: Contextual obligations)} } % Added node
+			child { node {Contractualism \\ (Rawls: Fairness and agreements)} } % Added node
+		} % <- End Deontological
+		child { node {? \\ (any other)} } % Placeholder remains for additional categories
+		child { node {Teleological \\ (\textit{non-defeasible} \textit{ought})} 
+			child { node {Self-concern \\ (Egoism and Perfectionism)} } % Expanded with justification
+			child {node {Impartiality} child {node {more} child {node {Utilitarianism \\ HG (1) humankind, \\ (2) sentient animals, (3) both \\ Bentham: Principle of Utility \\ Mill: Greatest Happiness Principle}
+						child {node [] {} 
+							child {node {Perfectionist \\ utilitarianism} }
+							child {node {Edonistic \\ Utilitarianism}}}} }}}
+		;
+	\end{tikzpicture}
+	
+\end{document}

@@ -1,0 +1,17 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Abstract}{\EnsureStandardFontEncoding {i}}{chapter*.1}%
+\contentsline {chapter}{Acknowledgements}{\EnsureStandardFontEncoding {v}}{chapter*.5}%
+\contentsline {chapter}{Declaration}{\EnsureStandardFontEncoding {vi}}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Machines' Ethics}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}On Moral Decision Making}{7}{chapter.2}%
+\contentsline {paragraph}{Emotion-Centered Models:}{10}{paragraph*.7}%
+\contentsline {subsection}{\numberline {2.0.1}Normative Non-Ethical agents}{13}{subsection.2.0.1}%
+\contentsline {subsection}{\numberline {2.0.2}Other}{14}{subsection.2.0.2}%
+\contentsline {section}{\numberline {2.1}Extended Types of Judgments}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}A definition of judgment}{17}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Experimental Methods}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The Influence of Observational Presence on Human Behavior: Experimental Insights from Human-Robot Interactions}{19}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Methodology}{20}{chapter.4}%
+\contentsline {chapter}{\numberline {A}Derivation of the equation}{21}{appendix.A}%
+\contentsline {chapter}{Bibliography}{23}{appendix*.9}%

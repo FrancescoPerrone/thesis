@@ -1,0 +1,250 @@
+\documentclass[review]{elsarticle}
+%\documentclass[final,3p]{elsarticle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Remove this for adding lines in abstract and keywords
+% %%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+  \long\def\pprintMaketitle{\clearpage
+  \iflongmktitle\if@twocolumn\let\columnwidth=\textwidth\fi\fi
+  \resetTitleCounters
+  \def\baselinestretch{1}%
+  \printFirstPageNotes
+  \begin{center}%
+ \thispagestyle{pprintTitle}%
+   \def\baselinestretch{1}%
+    \Large\@title\par\vskip18pt
+    \normalsize\elsauthors\par\vskip10pt
+    \footnotesize\itshape\elsaddress\par\vskip36pt
+    % \hrule\vskip12pt
+    % \ifvoid\absbox\else\unvbox\absbox\par\vskip10pt\fi
+    % \ifvoid\keybox\else\unvbox\keybox\par\vskip10pt\fi
+    % \hrule\vskip12pt
+    \end{center}%
+  \gdef\thefootnote{\arabic{footnote}}%
+  }
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This controls the bottom runner
+% %%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ \def\ps@pprintTitle{%
+ \let\@oddhead\@empty
+ \let\@evenhead\@empty
+ \def\@oddfoot{\hfill\footnotesize\itshape F. Perrone}%
+ \let\@evenfoot\@oddfoot}
+ 
+ \renewcommand{\MaketitleBox}{%
+  \resetTitleCounters
+  \def\baselinestretch{1}%
+  \begin{center}
+    \def\baselinestretch{1}%
+    \Large \@title \par
+    \vskip 18pt
+    \normalsize\elsauthors \par
+    \vskip 10pt
+    \footnotesize \itshape \elsaddress \par
+  \end{center}
+  \vskip 12pt
+}
+ %%
+ 
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End title modifications
+% %%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{lineno,hyperref}
+\modulolinenumbers[20]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{graphicx}
+
+%%%%%%% MY PERSONAL SETTINGS %%%%%%%
+\usepackage{xspace}
+\newcommand{\ie}{\emph{i.e.}\@\xspace}
+\newcommand{\eg}{\emph{e.g.}\@\xspace}
+\newcommand{\nextdiv}{\vspace{2mm}\noindent}
+
+%%%%%%% MY PERSONAL NOTES %%%%%%%
+\usepackage{xcolor}
+\usepackage{hyperref}
+\definecolor{fpgreen}{HTML}{A6D609}
+\usepackage[colorinlistoftodos]{todonotes}
+\newcommand{\fpcom}[1]{\vspace{2mm} \todo[inline, size=\scriptsize, color=fpgreen!80]{\textbf{FP}: #1}}
+\newcommand{\fpincom}[1]{\todo[size=\tiny, color=fpgreen!80]{\textbf{FP}: #1}}
+
+\usepackage{enumitem} % For customizing list
+%\usepackage{geometry} 
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{The title\tnoteref{mytitlenote}}
+%\tnotetext[mytitlenote]{Fully documented templates are available in the elsarticle package on \href{http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle}{CTAN}.}
+
+%% Group authors per affiliation:
+%\author{Francesco Perrone\fnref{myfootnote}}
+\author{Francesco Perrone}
+\address{Glasgow, UK}
+\author[]{University of Glasgow}
+\author[]{School of Computing Science}
+%\fntext[myfootnote]{Since 1880.}
+%% or include affiliations in footnotes:
+%\author[mymainaddress,mysecondaryaddress]{University of Glasgow}
+%\ead[url]{www.elsevier.com}
+
+%\author[mymainaddress]{School of Computing Science}
+%\corref{mycorrespondingauthor}}
+%\cortext[mycorrespondingauthor]{Corresponding author}
+%\ead{support@elsevier.com}
+%\address[mymainaddress]{Sir Alwyn Williams Building, Glasgow}
+%\address[mysecondaryaddress]{360 Park Avenue South, New York}
+
+%\begin{abstract}
+%This template helps you to create a properly formatted \LaTeX\ manuscript.
+%\end{abstract}
+
+%\begin{keyword}
+%\texttt{elsarticle.cls}\sep \LaTeX\sep Elsevier \sep template
+%\MSC[2010] 00-01\sep  99-00
+%\end{keyword}
+
+\end{frontmatter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is for draft numbering
+% %%%%%%%%%%%%%%%%%%%%%%%%
+\linenumbers
+% Some introductionary text without a precise place just yet
+
+%One of the main contribution give by modern Social Cognition is the large experimental evidence of the fact that humans' inferences directed to the execution of certain behaviours happen without precise, and clear, a priori \textit{conscious} decision, i.e. without conscious and situated rational deliberation processes.
+
+
+\section{Forewords}
+
+\section{Introduction}
+The research presented here examines the role of experimental methodologies as a new tool for investigating prosocial behaviour and moral deliberation in the field of Machine Ethics. These methodologies allow us to study how such behaviors manifest under the subtle yet controlled influence of robots coexisting with humans. In particular, we describe how the mere presence of a non-interactive machine is shown to subtly shape ethical deliberation and prosocial behavior through perceived observation under controlled experimental settings.
+
+\nextdiv
+Withal, we outline two main research activities that we conducted, in the field of Machine Ethics:
+
+\begin{enumerate}[label=\alph*), leftmargin=1cm, rightmargin=1cm]
+	\setlength{\itemsep}{-0.5em} % Reduce vertical space between items
+	
+	\item \textbf{A comparative analysis of the literature} that suggests the emergence of the following: two related, but distinct, research themes in Machine Ethics which we call Human-Machine and Ethics and Computational Machine Ethics; the emergence of two distinct trends in Psychology and Philosophy, \ie cognitive/affective models of moral judgments and rationalism/intuitionist approach to moral reasoning, that exert a deep influence on the research objectives and methodologies in Computational Machine Ethics;
+	\item \textbf{An experimental activity} about the interplay between the presence of social robots and human prosocial behaviour.
+\end{enumerate}
+
+\nextdiv
+Furthermore, following the analysis in a) and evidences in b) we will argue in favour of the adoption of new research methodologies in Computational Machine Ethics that should follow recent experimental evidences in support of models of moral judgements as aﬀect-laden intuitions (explained below). This model of moral reasoning has not yet been taken into consideration in any of the work done in Machine Ethics up to date.
+
+\nextdiv
+The most interesting implications of such a turn for Computational Machine Ethics would arguably be the following:
+
+\begin{enumerate}[label=\arabic*)\,, leftmargin=1cm, rightmargin=1cm]
+	\setlength{\itemsep}{-0.5em} % Reduce vertical space between items
+	
+	\item  The possibility to design experiments that quantify diﬀerences in moral attitudes
+	through the measurable outcomes of decisions made by subjects at least in a controlled
+	setting (i.e. experiments);
+	\item The possibility of analysing moral decisions through measuring behaviour, which in
+	turn lends itself to the application of Social Signal Processing and Aﬀective Computing
+	methodologies to the investigation of moral reasoning, its analysis and automation.
+\end{enumerate}
+
+\section{Section}
+
+This thesis investigates moral reasoning as it manifests under the subtle yet controlled influence of human-robot coexistence, an experimental terrain where ethical principles encounter observable behavior, under robotic observation. While it does not directly engage with the philosophical history or psychological foundations of morality, it draws upon both to establish the conceptual framework and terminology necessary to understand how machines might influence human ethical decision-making through a deliberately non-interactive experimental setting that invites participants to confront ethical scenarios under robotic observation.
+
+
+
+\nextdiv
+Central to this investigation are precise questions concerning the influence of human-robot interactions on moral reasoning: How do autonomous systems shape ethical decision-making in humans? What are the mechanisms through which robots alter perceptions of what is morally right or wrong? How can experimental methodologies illuminate these processes with empirical clarity? Addressing these questions requires a robust foundation in defining moral reasoning, first through a philosophical lens that considers consequentialist, deontological, and virtue ethics traditions, and then through the perspective of moral psychology, which examines the cognitive and emotional processes underlying ethical judgments. These frameworks collectively enable a systematic exploration of how human-robot interactions inform and reshape our understanding of morality.
+
+\nextdiv
+Moral reasoning, as a species of practical reasoning, is the deliberative process directed towards deciding what to do, ultimately culminating in a judgment and, when successful, issuing in an intention. In this context, moral judgment represents the evaluative conclusion of reasoning, bridging deliberation and action. This thesis adopts this dual perspective, integrating philosophical frameworks such as deontology and virtue ethics with psychological theories of intuitive and deliberative reasoning, to examine how autonomous systems influence these processes in human decision-making.
+
+While moral reasoning can be undertaken on another’s behalf, it is paradigmatically an agent’s first-personal (individual or collective) practical reasoning about what, morally, they ought to do. Philosophical examination of moral reasoning faces both distinctive puzzles – about how we recognize moral considerations and cope with conflicts among them and about how they move us to act – and distinctive opportunities for gleaning insight about what we ought to do from how we reason about what we ought to do.
+
+We can use the map shown in Figure~\ref{fig:moral_judgements} to captures foundational distinctions in the realm of judgments, particularly as they relate to moral philosophy and psychology. The map reflects central philosophical inquiries: What is true (factual)? What is right or wrong (moral)? What ought to be done (normative)?
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{"../img/maps/typesOfJudgements_corrections.pdf"}
+	\caption{Diagram of Types of Judgements.}
+	\label{fig:moral_judgements}
+\end{figure}
+
+
+
+\paragraph{Paragraph}
+\paragraph{Paragraph} 
+%\section{Bibliography}
+% \section*{References}
+\newpage
+\bibliographystyle{ieeetr}
+\bibliography{/home/francesco/Desktop/research/appunti/reference.bib}
+\newpage
+\section*{Notes}
+\paragraph{Robot Details and Role}The experiment involved the NAO humanoid robot in an autonomous life setting, specifically simulating a breathing animation. This design aimed to give participants the impression of being observed subtly. This was core to the experiment, as it replicated the watching eye effect without direct interaction.
+
+\paragraph{Impact of Robot Presence} The robot's presence in the room was intended to explore its influence on prosocial behavior, particularly in the context of moral decision-making, measured by charitable donations. The participants were unaware beforehand that a robot might be present or that donations would be part of the taks.
+
+\paragraph{Social Cognition} Social Cognition is a field of study that investigates how individuals perceive, interpret, and respond to social stimuli and interaction \ie, events, actions, or signals in a social environment that influence individuals' behaviors and responses~\cite{Fiske2020, Baron2012}, encompassing the processes by which people understand themselves and others. It emphasises both the automatic and deliberate aspects of social interactions, with a focus on how cognitive processes operate in social contexts.
+
+\nextdiv
+In early 2000, Jonathan Haidt in~\cite{Haidt2001} laid the foundation of the Social Intuitionist Model (SIM) understanding how moral judgments are primarily driven by quick, automatic intuitions rather than deliberate reasoning processes. SIM contracts traditional models of moral reasoning, empathising the subconscious and socially intuitive nature of moral behaviour. This shift was important in highlighting the intuitive nature of moral reasoning which contrasted the established belief that reasoning was the main driver of moral-decision making. After Haidt’s theoretical introduction, a series of empirical studies supported and expanded upon his claims. 
+
+\nextdiv
+Greene et al. conducted fMRI studies to explore the neurological basis of moral decision-making, providing empirical support for Haidt's model. Their findings demonstrated that emotional regions of the brain were more active during moral dilemmas involving personal engagement (e.g., in "trolley problems"). Greene's 2001 paper, "An fMRI Investigation of Emotional Engagement in Moral Judgment," found that emotionally engaging dilemmas activated brain regions linked to emotion, reinforcing Haidt's idea that emotions, rather than rational deliberation, often drive moral judgments.
+
+\nextdiv
+In 2004, Greene expanded this work with the study, "The Neural Bases of Cognitive Conflict and Control in Moral Judgment," demonstrating that rational control is often secondary to emotional intuitions in moral scenarios. Greene's later works, such as his 2008 paper, integrated a dual-process theory that further solidified Haidt’s ideas by showing that moral judgment is influenced by both intuitive/emotional and rational/cognitive processes. This model helps reconcile instances where rational deliberation plays a role, complementing Haidt’s initial SIM by illustrating a spectrum between automatic intuitions and deliberate reasoning.
+
+\nextdiv
+\textit{Other researchers contributed by showing how automatic, unconscious processes play a central role in moral judgment, which supported Haidt's position. Studies on priming effects in moral decision-making illustrated how subtle cues could shift moral judgments without individuals being consciously aware of these influences.}
+
+\nextdiv
+One of the main contributions to SIM comes from provided by modern Social Cognition that provides a vast experimental evidence that human inferences leading to the execution of certain behaviors occur without precise, clear, a priori conscious decision-making—i.e., without the involvement of conscious and situated rational deliberation processes. 
+
+\nextdiv
+Research in psychopathology, particularly in the context of schizophrenia, further supports this view by demonstrating that critical aspects of social cognition, such as emotion perception and theory of mind (ToM), operate at a largely subconscious level. Penn et al. (2008) and Green et al. (2008, 2015) describe these processes not as deliberate, conscious judgments, but rather as automatic responses to social cues. For example, the concept of motor resonance—where the observation of another's behavior triggers neural activation similar to performing that behavior oneself—illustrates the intuitive and automatic nature of social understanding. These findings reinforce Haidt's SIM by showing that social cognitive processes, like emotion perception and mentalizing, are largely pre-reflective and automatic, further underlining the dominance of intuition over reasoning in shaping moral judgments.
+
+\nextdiv
+This aligns strongly with Jonathan Haidt's SIM, which posits that moral judgments are primarily the result of automatic, intuitive processes rather than explicit reasoning, highlighting how these social cognitive functions usually operate largely outside of conscious awareness. By showing that even in altered psychological states these processes remain largely automatic, the argument for the automatic and intuitive nature of social cognition, as posited by SIM, becomes more compelling. The use of psychopathology provides a contrasting scenario that highlights the essential, subconscious operation of these processes in normal functioning.
+\end{document}

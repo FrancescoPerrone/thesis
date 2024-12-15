@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: submission.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: reference.bib
+Warning--I didn't find a database entry for "Pantic2014"
+-- IEEEtran.bst version 1.11 (2003/04/02) by Michael Shell.
+-- http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 33 entries,
+            3975 wiz_defined-function locations,
+            1037 strings with 13897 characters,
+and the built_in function-call counts, 28795 in all, are:
+= -- 2496
+> -- 625
+< -- 297
++ -- 354
+- -- 96
+* -- 1386
+:= -- 4266
+add.period$ -- 68
+call.type$ -- 33
+change.case$ -- 31
+chr.to.int$ -- 636
+cite$ -- 33
+duplicate$ -- 2046
+empty$ -- 2087
+format.name$ -- 125
+if$ -- 6688
+int.to.chr$ -- 0
+int.to.str$ -- 33
+missing$ -- 319
+newline$ -- 121
+num.names$ -- 33
+pop$ -- 620
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 2329
+stack$ -- 0
+substring$ -- 1601
+swap$ -- 1834
+text.length$ -- 85
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 0
+warning$ -- 0
+while$ -- 141
+width$ -- 35
+write$ -- 369
+(There was 1 warning)
