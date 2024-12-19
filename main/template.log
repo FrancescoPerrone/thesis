@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.11)  15 DEC 2024 13:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.11)  19 DEC 2024 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -646,40 +646,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 147.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 147.
+ [1
 
-Overfull \hbox (2.07259pt too wide) in paragraph at lines 169--170
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./template.toc)
+\tf@toc=\write6
+\openout6 = `template.toc'.
+
+ [2]
+Overfull \hbox (2.07259pt too wide) in paragraph at lines 173--174
 \OT1/cmr/m/n/10 themes in Ma-chine Ethics which we call Human-Machine and Ethic
 s
  []
 
-[1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<../img/maps/typesOfJudgements_corrections.pdf, id=39, 491.16599pt x 106.91342p
+[3] [4] [5]
+<../img/maps/typesOfJudgements_corrections.pdf, id=57, 491.16599pt x 106.91342p
 t>
 File: ../img/maps/typesOfJudgements_corrections.pdf Graphic file (type pdf)
 <use ../img/maps/typesOfJudgements_corrections.pdf>
 Package pdftex.def Info: ../img/maps/typesOfJudgements_corrections.pdf  used on
- input line 208.
+ input line 233.
 (pdftex.def)             Requested size: 345.0pt x 75.09825pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3] [4 <../img/maps/typesOfJudgements_corrections.pdf>] (./template.bbl)
-[5] [6] [7] [8] (./template.aux)
+ [6 <../img/maps/typesOfJudgements_corrections.pdf>] (./template.bbl) [7] [8] [
+9] [10] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 8131F1AC150D652F612C54324B28055A;269.
  ) 
 Here is how much of TeX's memory you used:
- 20969 strings out of 476091
- 394543 string characters out of 5794080
- 1862330 words of memory out of 5000000
- 40982 multiletter control sequences out of 15000+600000
+ 20980 strings out of 476091
+ 394650 string characters out of 5794080
+ 1859330 words of memory out of 5000000
+ 40985 multiletter control sequences out of 15000+600000
  516063 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,94p,938b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,6n,94p,938b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
@@ -688,10 +688,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti8.pfb>
-Output written on template.pdf (8 pages, 126312 bytes).
+Output written on template.pdf (10 pages, 128880 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
  42 words of extra memory for PDF output out of 10000 (max. 10000000)
 
