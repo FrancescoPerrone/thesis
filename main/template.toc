@@ -1,8 +1,10 @@
 \contentsline {section}{\numberline {1}Forewords}{3}{section.1}%
-\contentsline {section}{\numberline {2}Introduction}{3}{section.2}%
-\contentsline {section}{\numberline {3}Section}{4}{section.3}%
-\contentsline {paragraph}{Paragraph}{6}{section*.2}%
-\contentsline {paragraph}{Paragraph}{6}{section*.3}%
-\contentsline {paragraph}{Robot Details and Role}{8}{section*.6}%
-\contentsline {paragraph}{Impact of Robot Presence}{8}{section*.7}%
-\contentsline {paragraph}{Social Cognition}{8}{section*.8}%
+\contentsline {section}{\numberline {2}Introduction}{4}{section.2}%
+\contentsline {section}{\numberline {3}Moral Judgement}{6}{section.3}%
+\contentsline {section}{\numberline {4}Machine Ethics}{7}{section.4}%
+\contentsline {section}{\numberline {5}Section}{12}{section.5}%
+\contentsline {paragraph}{Paragraph}{13}{section*.4}%
+\contentsline {paragraph}{Paragraph}{13}{section*.5}%
+\contentsline {paragraph}{Robot Details and Role}{16}{section*.8}%
+\contentsline {paragraph}{Impact of Robot Presence}{16}{section*.9}%
+\contentsline {paragraph}{Social Cognition}{16}{section*.10}%

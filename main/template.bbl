@@ -1,16 +1,70 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem{Fiske2020}
-S.~T.~T. Fiske, Social cognition: From brains to culture (2020).
+\bibitem{Chuang2022}
+C.-W. Chuang, A.~Chang, M.~Chen, M.~J.~P. Selvamani, B.-C. Shia,
+  \href{https://www.mdpi.com/2071-1050/14/18/11125}{A worldwide bibliometric
+  analysis of publications on artificial intelligence and ethics in the past
+  seven decades}, Sustainability 14~(18) (2021) 11125.
+\newline\urlprefix\url{https://www.mdpi.com/2071-1050/14/18/11125}
 
-\bibitem{Baron2012}
-R.~A. Baron, N.~R. Branscombe, Social psychology, Pearson Education India,
-  2012.
+\bibitem{Anderson2011}
+M.~Anderson, S.~L. Anderson, Machine ethics, Cambridge University Press, 2011.
+
+\bibitem{Gao2024}
+D.~K. Gao, A.~Haverly, S.~Mittal, J.~Wu, J.~Chen, Ai ethics: A bibliometric
+  analysis, critical issues, and key gaps, International Journal of Business
+  Analytics (IJBAN) 11~(1) (2024) 1--19.
+
+\bibitem{Otterbacher2023}
+J.~Otterbacher, Y.~Manolopoulos, Machine ethics research: Promises and
+  potential pitfalls, IEEE Intelligent Systems 38~(4) (2023) 62--68.
+
+\bibitem{Wallach2008}
+W.~Wallach, C.~Allen, Moral machines: Teaching robots right from wrong, Oxford
+  University Press, 2008.
+
+\bibitem{Vinciarelli2009}
+A.~Vinciarelli, M.~Pantic, H.~Bourlard, Social signal processing: Survey of an
+  emerging domain, Image and vision computing 27~(12) (2009) 1743--1759.
+
+\bibitem{Nallur2020}
+V.~Nallur, Landscape of machine implemented ethics, Science and engineering
+  ethics 26~(5) (2020) 2381--2399.
+
+\bibitem{Pereira2020}
+L.~M. Pereira, A.~B. Lopes, Machine ethics: from machine morals to the
+  machinery of morality, Springer, 2020.
+
+\bibitem{Tolmeijer2020}
+S.~Tolmeijer, M.~Kneer, C.~Sarasua, M.~Christen, A.~Bernstein, Implementations
+  in machine ethics: A survey, ACM Computing Surveys (CSUR) 53~(6) (2020)
+  1--38.
+
+\bibitem{Bynum2018}
+T.~Bynum,
+  \href{https://plato.stanford.edu/archives/sum2018/entries/ethics-computer/}{Computer
+  and information ethics}, in: E.~N. Zalta (Ed.), The Stanford Encyclopedia of
+  Philosophy, summer 2018 Edition, Metaphysics Research Lab, Stanford
+  University, 2018, p. n/a.
+\newline\urlprefix\url{https://plato.stanford.edu/archives/sum2018/entries/ethics-computer/}
+
+\bibitem{Allen2006}
+C.~Allen, W.~Wallach, I.~Smit, Why machine ethics?, IEEE Intelligent Systems
+  21~(4) (2006) 12--17.
+
+\bibitem{allen2012}
+C.~Allen, W.~Wallach, Moral machines: contradiction in terms or abdication of
+  human responsibility, Robot ethics: The ethical and social implications of
+  robotics (2012) 55--68.
+
+\bibitem{Floridi2004}
+L.~Floridi, J.~W. Sanders, On the morality of artificial agents, Minds and
+  machines 14~(3) (2004) 349--379.
 
 \bibitem{Haidt2001}
 J.~Haidt, The emotional dog and its rational tail: a social intuitionist
