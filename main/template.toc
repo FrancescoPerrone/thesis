@@ -1,10 +1,15 @@
 \contentsline {section}{\numberline {1}Forewords}{3}{section.1}%
 \contentsline {section}{\numberline {2}Introduction}{4}{section.2}%
-\contentsline {section}{\numberline {3}Moral Judgement}{6}{section.3}%
-\contentsline {section}{\numberline {4}Machine Ethics}{7}{section.4}%
-\contentsline {section}{\numberline {5}Section}{12}{section.5}%
-\contentsline {paragraph}{Paragraph}{13}{section*.4}%
-\contentsline {paragraph}{Paragraph}{13}{section*.5}%
-\contentsline {paragraph}{Robot Details and Role}{16}{section*.8}%
-\contentsline {paragraph}{Impact of Robot Presence}{16}{section*.9}%
-\contentsline {paragraph}{Social Cognition}{16}{section*.10}%
+\contentsline {section}{\numberline {3}Moral Decision Making}{6}{section.3}%
+\contentsline {paragraph}{\numberline {3.1}Introduction}{6}{paragraph.3.0.0.1}%
+\contentsline {paragraph}{\numberline {3.2}Practical reasoning}{9}{paragraph.3.0.0.2}%
+\contentsline {paragraph}{\numberline {3.3}What is Judgment}{10}{paragraph.3.0.0.3}%
+\contentsline {paragraph}{\numberline {3.4}The Scope of Ethics}{10}{paragraph.3.0.0.4}%
+\contentsline {subparagraph}{Metaethics}{10}{subparagraph*.1}%
+\contentsline {section}{\numberline {4}Machine Ethics}{12}{section.4}%
+\contentsline {section}{\numberline {5}Section}{17}{section.5}%
+\contentsline {paragraph}{\numberline {5.1}Paragraph}{18}{paragraph.5.0.0.1}%
+\contentsline {paragraph}{\numberline {5.2}Paragraph}{18}{paragraph.5.0.0.2}%
+\contentsline {paragraph}{\numberline {5.3}Robot Details and Role}{21}{paragraph.5.0.0.3}%
+\contentsline {paragraph}{\numberline {5.4}Impact of Robot Presence}{21}{paragraph.5.0.0.4}%
+\contentsline {paragraph}{\numberline {5.5}Social Cognition}{21}{paragraph.5.0.0.5}%

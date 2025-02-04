@@ -17,14 +17,24 @@
 \definecolor{ambassadorazure}{RGB}{0,127,255}
 
 \titleformat{\chapter}[block]
-{\normalfont\huge\bfseries\color{black}}
-{\raisebox{-0.0\height}{\thechapter.}}{0.65em}{\Huge}
+{\normalfont\Large\bfseries\color{black}}
+{\raisebox{-0.0\height}{\thechapter.}}{0.65em}{\Large}
 
-\titlespacing*{\chapter}{0pt}{0.5in}{10pt}
+\titlespacing*{\chapter}{0pt}{0.5in}{6pt}
 
-\titleformat*{\section}{\normalfont\fontsize{17}{20}\bfseries\color{black}}
+\titleformat*{\section}{\normalfont\fontsize{12}{15}\bfseries\color{black}}
 \titleformat*{\subsection}{\normalfont\fontsize{12}{15}\bfseries\color{black}}
 \titleformat*{\subsubsection}{\normalfont\fontsize{12}{15}\itshape\color{black}}
+
+%% FOR PARAGRAPH HEADING FORMAT
+%
+%% USAGE: \customheading{Heading for a Subsection}
+\newcommand{\partitle}[1]{%
+	\vspace{1em} % Space above the heading
+	\noindent\textit{\large #1}\par % Italic and larger font
+	\vspace{0.5em} % Space below the heading
+}
+%% END
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -233,6 +243,7 @@ February 2023
 \include{moral_d}
 \include{experimental_methods}
 \include{methodology}
+\include{cuts}
 % and the other chapters
 \appendix
 \include{derivation}

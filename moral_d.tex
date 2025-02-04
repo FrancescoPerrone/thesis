@@ -1,4 +1,4 @@
-\chapter{On Moral Decision Making}
+\chapter{Morality and Moral Decision-Making}
 \thispagestyle{pprintTitle}
 
 
@@ -8,64 +8,318 @@
 \renewcommand{\epigraphflush}{flushleft}
 \renewcommand{\sourceflush}{flushright}
 
-% Setting the font and spacing for the epigraph
-\epigraph{\itshape \setstretch{1.2}But one thing is the thought, another thing is the deed, and another thing is the idea of the deed. The wheel of causality doth not roll between them.}{\small{Friedrich Nietzsche, \textit{Thus Spoke Zarathustra} (1883)}}
+%% State the main actor: prosocial behavior -> altruism -> donation -> moral reas
+%
+% --- 
 
-Analysing the concept of \textit{Moral Decision Making} in the context of predicate logic involves interpreting various linguistic elements within a logical framework. 
+%% Intorduction of the term
+%
+%
+%% A short definition of morality
+%
+%
+\section{Defining Moral}
+Understanding morality as a philosophical concept requires engaging with a discourse that spans millennia, drawing on diverse traditions, frameworks, and interpretations. This section does not attempt to provide an exhaustive account of all perspectives on morality—such an endeavor would constitute an entire research work of its own—but instead introduces key philosophical milestones that have shaped the discourse. By referencing fundamental contributions, this review serves as a guide to some of the cornerstone works necessary to understand moral philosophy, without claiming to cover the full breadth of perspectives. Despite the depth and complexity of these contributions, there remains no single, universally accepted definition of morality. The term is used in at least two primary senses: descriptively, to refer to moral norms adhered to by societies or individuals, and normatively, to refer to principles that rational agents would endorse under ideal conditions~\cite{Gert2020}. This inherent ambiguity has led some scholars to question whether morality can be meaningfully defined at all, with some arguing that it lacks a unified essence and is best understood as a historically contingent and philosophically contested construct~\cite{Sinnott-Armstrong2016}. Given this conceptual landscape, the present discussion will focus on how foundational philosophical works have contributed to shaping contemporary understandings of morality, while recognizing that, for the purpose of this work on moral decision-making in human-robot interaction, operational definitions will be employed in a way that is internally consistent but not universally binding. To trace the intellectual development of morality, we begin with Aristotle, whose virtue ethics provides one of the earliest structured accounts of moral thought. 
+
+Aristotle (350 BCE) in Nicomachean Ethics~\cite{Aristotle_nicomachean},  laid the foundation for moral philosophy by defining morality in terms of character and virtue, emphasizing that the highest human good is eudaimonia, or human flourishing, which is achieved through habituation and the exercise of practical wisdom (phronesis). Centuries later, Thomas Hobbes (1651) in Leviathan~\cite{Hobbes1651} introduced a radically different approach by defining morality as a social construct emerging from self-interest, necessary for societal stability and preventing the "state of nature", which he described as a war of all against all. Jean-Jacques Rousseau (1762), in The Social Contract~\cite{Rousseau1762}, responded to Hobbes by proposing that morality derives from an innate human goodness that is later corrupted by society, distinguishing between natural compassion and the moral norms constructed within political communities. Around the same time, David Hume (1739), in A Treatise of Human Nature~\cite{Hume1739}, argued that morality is fundamentally grounded in human emotions rather than pure reason, contending that moral judgments stem from sentiments like sympathy rather than logical deductions. Immanuel Kant’s Groundwork of the Metaphysics of Morals~\cite{Kant_groundwork_moral} (1785) provided a rationalist counterpoint, rejecting Humean sentimentalism and asserting that moral principles must be derived from reason alone, introducing the categorical imperative, which dictates that moral laws should be universalizable and rooted in respect for human dignity. Shortly after, John Stuart Mill (1861), in Utilitarianism~\cite{Mill1861}, introduced a consequentialist approach, defining morality as the maximization of happiness and minimization of suffering, advocating that the rightness of actions is determined by their outcomes in relation to the greatest happiness principle. Friedrich Nietzsche (1887), in On the Genealogy of Morality~\cite{Nietzsche1887}, radically challenged traditional moral frameworks, particularly those influenced by Christianity and Kantian ethics, arguing that moral norms are historically contingent and rooted in power dynamics. He distinguished between master morality, characterized by strength and self-affirmation, and slave morality, which he associated with humility, guilt, and compassion, calling for a re-evaluation of values. These foundational works collectively shape contemporary moral thought, integrating virtue ethics, deontological principles, consequentialism, sentimentalism, social contract theory, and historical critique into a comprehensive framework for understanding morality.
+
+\nextdiv
+If we assume that there is such a thing as a linear chronological continuum in the development of a universally accepted definition of \textit{morality}, we could define the term as follows:
+
+\begin{definition}[Morality]
+	the system of principles, values, and norms that guide human conduct, balancing reason, emotion, and social cooperation to determine right and wrong. It is grounded in the pursuit of human flourishing (Aristotle), the rational application of universal duties (Kant), the maximization of collective well-being (Mill), the influence of human sentiment (Hume), the historical and cultural re-evaluation of values (Nietzsche), and the necessity of social cohesion (Hobbes and Rousseau).
+\end{definition}
+
+
+This definition acknowledges morality as a multi-faceted construct, shaped by ethical reasoning, human emotions, social agreements, and evolving historical contexts. It integrates the core elements of virtue ethics~\cite{Aristotle_nicomachean, Hursthouse1999}, deontology~\cite{Kant_groundwork_moral, Wood2007}, consequentialism~\cite{Mill1861, Singer2011}, sentimentalism~\cite{Hume1739, Smith2003}, critique of values~\cite{Nietzsche1887}, and social contract theory~\cite{Rachels2012, Audi2010}, making it a synthesis of the most enduring contributions to moral philosophy.
+
+\nextdiv
+This comprehensive synthesis, however, does not imply the existence of a single, universally accepted definition of morality. As noted by Gert and Gert~\cite{Gert2020}, the concept of morality is inherently ambiguous, employed in at least two distinct senses: a descriptive sense, referring to the codes of conduct endorsed by societies, groups, or individuals, and a normative sense, which attempts to establish a universal standard that rational agents would accept under ideal conditions. This \textit{duality} or \textit{dicotomy}, alongside historical and cultural variations in moral thought, prevents any definitive, uncontested characterization of morality. Some philosophers, such as Sinnott-Armstrong~\cite{Sinnott-Armstrong2016}, have even argued that morality itself is not a unified domain, making any attempt at a singular definition inherently problematic. Furthermore, while moral philosophers have long engaged in theorizing about moral principles and ethical frameworks, explicit definitions of morality remain scarce, often giving way to discussions about moral judgment instead~\cite{Hare1991, Hare1981}. This ongoing conceptual fragmentation underscores that morality is not a fixed, objectively defined entity, but rather a historically contingent and philosophically contested construct, one that continues to evolve in response to new ethical, social, and scientific challenges.
+
+Morality is a system of guiding principles that regulate behavior by distinguishing between right and wrong actions~\cite{Gert2020, Turiel1983}. It exists in two broad forms: \textit{a)} as a descriptive system, which refers to the moral codes followed by societies or individuals~\cite{Wood2007}, and \textit{b)} as a normative system, which refers to the principles that would be endorsed by all rational agents under specified conditions~\cite{Scanlon1998}. While moral norms vary across cultures and contexts, their function is generally to facilitate social cooperation~\cite{Haidt2012}, reduce harm~\cite{Tarsney2024}, and promote fairness.
+
+\fpincom{Portion about moral judjments here. Also by now there should be two dicotomies and relative figures.}
+
+The study of morality requires not only an examination of specific moral judgments but also an understanding of how moral systems function as a whole. Philosophers attempt to systematically account for morality, treating it as a normative system with defined principles and reasoning structures. At its most basic, morality consists of norms and principles that regulate human actions, particularly in relation to others. These norms are not arbitrary but are seen as carrying a special kind of weight or authority, meaning they are not merely preferences but obligations that structure human interaction~\cite{Strawson1961}.
+
+Beyond this minimal definition, morality can also be understood as a system of moral reasons—either grounded in some more fundamental values or, alternatively, as the foundation upon which value is built~\cite{Raz1999}. This dual perspective raises an important question: Are moral norms universal, or do they vary based on cultural and situational factors?
+
+A common view is that moral norms are universal—they apply to all rational agents in similar circumstances. This universality is supported by the notion that moral principles can be formulated without reliance on specific personal details, meaning they should apply consistently across cases rather than being tailored to individuals~\cite{Rawls1979}. Furthermore, morality is commonly regarded as impartial, requiring that all individuals be considered equally in moral deliberation.
+
+%% Mora decision making
+%
+%
+\section{Moral Decision-Making}
+Moral decision-making~\footnote{In philosophy, compound modifiers like "decision-making" are typically hyphenated when used adjectivally to ensure clarity and precision. The hyphen explicitly ties "decision" to "making," emphasizing their joint function as a single concept. "Moral decision-making" aligns with established philosophical and ethical literature, where the term is used to describe the process of evaluating and choosing actions based on moral principles or values. In psychology, "decision-making" is widely recognized as a compound noun, referring to the cognitive process of selecting a course of action. The hyphen is consistently used in research contexts (e.g., "rational decision-making," "emotional decision-making"). Here "Moral decision-making" is preferred to avoid ambiguity, as "moral decision making" could suggest a looser connection between the act of deciding and the process of making, which could lead to interpretive issues.} is a complex cognitive process rooted in the integration of reasoning and affective information within the nervous system~\cite{Buon2016, Glenn2009}. It engages a distributed brain network—including regions responsible for perspective-taking~\cite{Eres2018}, emotional regulation~\cite{Young2012, Fede2020}, and translating cognitive appraisals into behavior~\cite{Garrigan2016}—emphasising action rather than abstract moral deliberation, which collectively work to produce\textit{ actionable outcomes}.
+
+By emphasising action rather than abstract moral deliberation, this process ensures that moral cognition is inherently directed toward navigating real-world societal challenges, translating abstract evaluations into practical behavior. The concept of actionable outcomes underscores the practical implications of moral decision-making processes, transcending abstract moral deliberation to yield measurable behaviors and tangible results. In this framework, the integration of cognitive and affective processes culminates in observable actions, forming a crucial bridge between moral psychology and computational analysis. This approach aligns directly with our second research question (Q2), which explores whether moral decisions leave discernible, machine-detectable behavioral cues. By investigating how moral choices manifest as physical traces, we extend the traditional boundaries of moral psychology into the domain of Computational Machine Ethics. This not only provides empirical grounding for the theoretical frameworks discussed but also establishes a novel methodological foundation for validating human moral behavior theories through technological means.
+
+We should briefly point out that the term \textit{moral cognition}\label{moral_cognition} above refers to the broader set of cognitive and affective processes involved in understanding, evaluating, and reasoning about moral concepts, dilemmas, and principles~\cite{Young2012, Gazzaniga2014}. In contrast, moral decision-making is the \textit{specific process} by which moral cognition culminates in the selection of a course of action in response to a moral scenario~\cite{Cushman2013}. While moral cognition encompasses abstract deliberation, perspective-taking, and the integration of emotional and rational inputs, moral decision-making functions as its \textit{actionable output}, where abstract cognitive evaluations are transformed into concrete behaviors~\cite{Greene2001, Haidt2012}.\\ \hspace*{2em}Both processes stem from a broader psychological framework that governs moral thought and behavior. This framework can be understood through two distinct but interrelated constructs: \textit{moral functioning} and \textit{moral agency}.
+
+\nextdiv
+Moral functioning refers to the cognitive, affective, and behavioral mechanisms that enable moral understanding and action\cite{Narvaez2005, Doris2010}. It represents the psychological architecture underlying moral cognition and decision-making, encompassing processes such as moral sensitivity, reasoning, and emotional regulation. In essence, moral functioning provides the internal structure that allows individuals to recognize moral dilemmas, evaluate their ethical dimensions, and formulate responses. However, moral functioning alone does not necessarily lead to moral action. Moral agency, on the other hand, is the capacity to act intentionally and responsibly in moral contexts\cite{Bandura1991, Skitka2012}. While moral functioning supplies the necessary cognitive and emotional structures for moral thought and behavior, moral agency actualises these capacities by incorporating self-awareness, autonomy, and accountability in decision-making. A morally functioning individual may recognize an ethical issue and deliberate on its implications, but moral agency is what allows them to translate this deliberation into socially and ethically accountable action.\\ 
+\hspace*{2em}The relationship between these constructs can be understood through an analogy: if moral functioning is the engine of a car, moral agency is the driver. The engine provides the necessary mechanisms for movement (cognition, affect, and decision-making), but it is the driver who exercises intentional control, making conscious decisions about direction, speed, and response to external conditions. Thus, moral functioning is a prerequisite for moral agency, providing the cognitive and emotional foundation upon which autonomous and accountable moral actions are built.\\ 
+\hspace*{2em}In this integrated framework, moral cognition provides the evaluative structure upon which moral decision-making operates, while moral functioning and moral agency ensure that these processes are both internally coherent and socially actionable~\cite{Baumeister2010}. At the intersection of moral cognition and moral decision-making lies moral agency, which enables individuals to engage in morally relevant reasoning and behavior. This interplay between cognitive structures, decision-making processes, and individual agency reflects the dynamic and contextual nature of human morality~\cite{Lapsley2015}.
+
+\section{Moral Decision-Making: Neural Evidence for Its Practical Nature}
+ 
+Arguably, the term moral-decision making has often been misunderstood as an abstract exercise in philosophical reasoning outside neurospychological context, likely due to the connotations of the term "moral" that accompanies the tuple "decision-making"~\cite{Doris2002, Greene2001}. Some published work show that this misconception often reduces the discussion around moral cognitive processes to a purely theoretical endeavor divorced from their practical nature~\cite{Lapsley2006}. However, moral decision-making is fundamentally rooted in cognitive processes that prioritise actionable outcomes. Its primary function is not merely to deliberate abstractly but to translate moral evaluations into behaviors that enable agents to navigate complex real-world scenarios.\\
+\hspace*{1em}Advancements in neuroscience, particularly the development of functional neuroimaging techniques like Functional Magnetic Resonance Imaging (fMRI) in the early 1990s~\cite{Bigler2017, Faro2010}, have provided robust empirical evidence to support this perspective. By enabling non-invasive visualization of brain activity through blood-oxygen-level-dependent contrast, fMRI has revolutionised our understanding of brain functions in vivo~\cite{Bigler2017}. Studies employing these methods can help identified significant overlaps between neural circuits involved in moral reasoning and those associated with practical, action-oriented decision-making. Several lines of evidence found in the published work suggest that there are key regions clearly implicated might include:
 
 \begin{itemize}
-	\item \textbf{The Word "Decision"}: In predicate logic, "Decision" can be a constant or a variable. 
-	\begin{itemize}
-		\item As a constant (for a specific decision), it might be represented as \( d \).
-		\item As a variable (representing any decision), it could be denoted as \( x \), where \( x \) is a decision.
-	\end{itemize}
-	
-	\item \textbf{The Noun Phrase "Decision Making"}: "Decision Making" can be interpreted as a function in predicate logic. 
-	\begin{itemize}
-		\item The function \( \text{DecisionMaking}(x) \) represents the output or consequence of making decision \( x \).
-	\end{itemize}
-	
-	\item \textbf{The Adjective "Moral" in "Moral Decision Making"}: "Moral" is a modifier and can be viewed as a predicate.
-	\begin{itemize}
-		\item The predicate \( \text{Moral}(\text{DecisionMaking}(x)) \) indicates that the decision-making process of \( x \) is of a moral nature.
-	\end{itemize}
+	\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+	\item[a)]the medial prefrontal cortex, 
+	\item[b)]the posterior cingulate cortex, 
+	\item[c)]superior temporal sulcus (STS), 
+	\item[d)]precuneus/posterior parietal cortex, 
+	\item[e)]orbitofrontal cortex, and 
+	\item[f)]the inferior parietal lobule
 \end{itemize}
 
-A typical formula connecting these elements might be:
+When analyzed collectively, these regions, which will be referred to by their Brodmann Area (BA) classifications, reveal a pattern: moral decision-making is not an abstract exercise but a cognitive process intrinsically oriented toward producing actions. Cross-analyses of their functional roles, the social pathologies arising from damage to these regions, and their integrative neural linkages might underscore this conclusion~\cite{Greene2002}. This growing empirical literature thus provides a compelling basis for reframing moral decision-making as a process designed for practical, societal applications rather than theoretical abstraction.
 
-\[ \forall x (\text{Decision}(x) \rightarrow \text{Moral}(\text{DecisionMaking}(x))) \]
+\partitle{Medial prefrontal cortex}
 
-This formula can be interpreted as: "For all \( x \), if \( x \) is a decision, then the decision-making process of \( x \) is moral." It employs a universal quantifier (\( \forall \)) to express a general statement about all decisions.
+In particular, the medial prefrontal cortex (commonly associated with BA 9/10) might serves as a critical neural hub for integrating cognitive and emotional processes that underlie moral decision-making and guide practical behavior. Much of the literature since early 2000s have shown that this region supports higher-order cognitive functions, including decision-making, planning, and behavioral regulation, by integrating information about current goals, contextual cues, and potential future outcomes to facilitate adaptive, goal-directed behavior~\cite{Castelli2013, Frith2001}. Its role in maintaining and updating working memory enables individuals to weigh competing priorities and select optimal courses of action in real-world contexts~\cite{Frith2001}. Functional imaging studies further highlight its involvement in processing complex social information, such as inferring others’ intentions and assessing the contextual appropriateness of responses—capabilities essential for coordinated, intentional actions~\cite{Castelli2013}. Importantly, this region mediates the integration of abstract moral concerns into practical decision-making, directly linking moral reasoning to actionable, goal-directed behavior~\cite{Greene2002}. By bridging moral reasoning with behavior, the medial prefrontal cortex exemplifies how moral cognition operates as a process of practical reasoning.
 
-In moral philosophy, these logical structures assist in defining and debating ethical theories and concepts, enabling a rigorous analysis of the nuances of moral decision-making.
+\partitle{Posterior cingulate cortex and STS}
+\label{posterior_cingulate_cortex_STS}
+The posterior cingulate cortex and the posterior superior temporal sulcus (STS)/inferior parietal lobule have been widely recognized in the literature as playing critical roles in integrating memory, perception, and social cognition to support practical, goal-directed actions. Evidence from functional neuroimaging studies suggests that the posterior cingulate cortex facilitates the retrieval of episodic memories and integrates them with contextual information, enabling individuals to simulate and evaluate potential actions and their outcomes~\cite{Maddock1999, Kiehl2001}. As noted by Maddock~\cite{Maddock1999}, its connections with the hippocampal formation and parahippocampal cortex provide a foundation for translating memory-based evaluations into adaptive decision-making.\\
+\hspace*{2em}In parallel, the posterior STS and inferior parietal lobule have been identified as central to processing socially significant dynamic stimuli, such as biological motion and intentional actions, which are critical for inferring others' goals and guiding contextually appropriate motor responses~\cite{Brothers1992}. Together, these regions are frequently described as integrating episodic memory, spatial reasoning, and social perception to generate informed, actionable behaviors. Greene~\cite{Greene2002} has emphasized how this network links evaluative processes with real-world decision-making, allowing individuals to simulate the social and ethical consequences of their actions. This body of research collectively establishes that these neural structures form a critical basis for moral decision-making, reinforcing its characterization as a practical, adaptive process.
 
+\partitle{The precuneus}
+%
+The precuneus, also referred to as the posterior parietal cortex, has been extensively studied for its role in integrating spatial, sensory, and social information, which are critical for action-oriented moral decision-making. Previous research has highlighted its involvement in visuospatial processing, mental imagery, and perspective-taking, functions that support the simulation and evaluation of actions within complex, real-world scenarios~\cite{Greene2002, Moll2002}. For instance, Damasio~\cite{Damasio2000} has shown that this region integrates self-referential thought and contextual information, enabling individuals to anticipate the social and ethical consequences of their actions.\\
+%
+\hspace*{2em}Functional neuroimaging studies frequently report consistent activation of the precuneus during tasks involving moral reasoning and simulations of potential outcomes, as noted by Moll and colleagues~\cite{Moll2001, Moll2002}. These studies suggest that its activation patterns overlap significantly with those observed in regions associated with social cognition, such as the superior temporal sulcus, indicating a broader network dedicated to integrating social and spatial cues into adaptive responses. Additionally, Damasio~\cite{Damasio2000} emphasizes that this region supports attentional control, allowing individuals to evaluate competing priorities and align their behaviour with social norms. Notably, the precuneus appears to bridge abstract moral considerations with practical reasoning by integrating information from both memory systems and perceptual mechanisms, enabling dynamic decision-making across varying contexts.\\
+%
+\hspace*{2em}Collectively, the literature positions the precuneus as a key node in the neural networks underlying moral reasoning, particularly in its ability to connect visuospatial cognition with moral deliberation and facilitate actionable, goal-directed responses~\cite{Greene2002, Caspers2013}. This capacity to integrate multiple streams of cognitive and affective input underscores its indispensable role in transforming moral reflection into practical, context-sensitive behaviour.
 
-The concept of \textit{Moral Decision Making} can be more accurately represented in predicate logic by considering that not all decisions are inherently moral, but rather, they become moral under certain conditions.
+\partitle{The orbitofrontal cortex}
+%
+The orbitofrontal cortex, commonly associated with Brodmann Areas 10 and 11, has been consistently identified in the literature as a critical integrative hub for transforming abstract moral considerations into practical behavioural outcomes. This region plays a central role in real-world decision-making processes, particularly in reward-based decision-making and behavioural inhibition, which are essential for evaluating the social and ethical consequences of potential actions. As noted by Moll and colleagues~\cite{Moll2002b, Moll2001}, the medial and lateral subdivisions of the orbitofrontal cortex are pivotal in linking actions to their respective social and environmental outcomes, with the medial subdivision specialising in moral and social dimensions of decisions. These functions are underpinned by neural representations of reward and punishment, which guide behaviour in complex, socially charged scenarios~\cite{Greene2002}.\\
+%
+\hspace*{2em}Functional imaging studies frequently highlight the orbitofrontal cortex's engagement in explicit moral judgment tasks and its involvement in autonomic and emotional regulation during morally relevant decision-making~\cite{Odoherty2001, Damasio2000}. This dual role of cognitive evaluation and emotional regulation reinforces its integrative function in aligning abstract moral reasoning with actionable behaviours. Moreover, evidence from clinical studies underscores the consequences of damage to this region, which often results in impaired social decision-making, diminished moral sensitivity, and inappropriate behaviours~\cite{Damasio2000, Moll2002b}. Such findings provide compelling support for its essential role in ensuring that ethical reasoning translates into socially appropriate behavioural outcomes.\\
+%
+\hspace*{2em}Taken together, the literature positions the orbitofrontal cortex as a key neural structure in moral decision-making, enabling individuals to navigate ethical challenges within dynamic social environments~\cite{Greene2002}. Its ability to synthesise cognitive, emotional, and social inputs into adaptive, context-sensitive behaviours exemplifies the practical and action-oriented nature of moral cognition.
 
-Consider the revised approach:
+\partitle{The superior temporal sulcus and inferior parietal lobule}\fpincom{Minor overlaps with  STS paragraph abpve. Stramline to solve.}
+%
+Unlike the previous discussion, which focused on broader functional networks and integrative roles (see page~\pageref{posterior_cingulate_cortex_STS}), this section highlights the specific contributions of the superior temporal sulcus (STS) and inferior parietal lobule, frequently associated with Brodmann Area 39. These regions are examined together due to their complementary roles in processing dynamic social cues and integrating perceptual and conceptual information, both of which are central to linking moral reasoning with practical, action-oriented behaviour~\cite{Moll2002}.
+
+The superior temporal sulcus (STS) and inferior parietal lobule have been widely recognised in the literature for their pivotal roles in perceiving and interpreting dynamic social cues, such as biological motion, gaze direction, and intentionality~\cite{Allison2000, Decety2004}. These regions are integral to the social cognition processes that underpin moral reasoning, as they enable the detection and interpretation of socially significant movements and intentions. As highlighted by Greene~\cite{Greene2002}, the STS and inferior parietal lobule facilitate the direct linkage between moral judgments and action-relevant social cues, ensuring that moral evaluations inform contextually appropriate responses in real-world scenarios.
+
+Functional neuroimaging studies reveal that the STS is uniquely positioned to process biological motion and goal-directed actions, acting as a computational hub for inferring others' intentions and mental states~\cite{Allison2000, Moll2002}. Moll et al.\cite{Moll2002} further demonstrate that the STS collaborates with regions such as the medial prefrontal cortex to translate social cues into moral evaluations, reinforcing its role in facilitating practical, socially guided behaviour. Simultaneously, the inferior parietal lobule, as emphasised by Decety\cite{Decety2004}, is crucial for representing intentional actions and integrating sensory and motor information, enabling moral reasoning to bridge abstract ethical considerations with concrete, action-oriented outcomes. This dual functionality ensures that both regions work in tandem to support the seamless transition from moral deliberation to behavioural execution.
+
+Cross-analyses of neuroimaging studies and lesion-based evidence further highlight how these regions interact within a broader network underpinning moral cognition. For example, Greene et al.\cite{Greene2002} observed that tasks requiring moral judgment consistently activate the inferior parietal lobule in concert with the STS, suggesting their joint involvement in integrating perceptual and conceptual information for adaptive decision-making. Additionally, evidence from Lane et al.\cite{Lane1997} indicates that disruptions in these regions due to damage or pathology can impair social cognition, leading to deficits in empathy and moral sensitivity. Such findings underline the indispensable role of the STS and inferior parietal lobule in facilitating contextually appropriate moral decisions.
+
+Together, these regions exemplify the practical nature of moral decision-making, as they allow individuals to process dynamic social environments and produce adaptive behaviours. Their capacity to synthesise sensory, social, and cognitive information not only supports the detection of morally salient cues but also ensures that moral reasoning leads to actionable outcomes in ethically complex scenarios. This integrative function situates the STS and inferior parietal lobule at the core of a neural network dedicated to the real-world applicability of moral cognition~\cite{Greene2002, Allison2000, Decety2004, Lane1997, Moll2002}.
+
+The collective insights derived from the literature reviewed foreground moral decision-making as a fundamentally social and action-oriented process, deeply embedded in practical reasoning. Rather than being purely reflective or rational, moral cognition emerges as an intuitive and dynamic mechanism, where evaluative processes are seamlessly integrated with contextual, emotional, and social cues to guide adaptive behaviours. Each neural region examined contributes to this framework by prioritising actionable outcomes over abstract deliberations, thereby aligning moral decision-making with its practical and context-sensitive nature.
+
+The medial prefrontal cortex exemplifies this integrative function by harmonising affective and cognitive signals to support goal-directed actions. Similarly, the posterior cingulate cortex and superior temporal sulcus underscore the role of memory and social cognition in situating moral choices within a broader context of lived experience. These regions, in tandem with the precuneus, enable individuals to simulate potential actions and anticipate their outcomes, embedding moral deliberation within the spatial and social fabric of human interaction. Meanwhile, the orbitofrontal cortex transforms abstract ethical principles into behaviourally relevant responses, mediating between competing priorities and the demands of real-world scenarios. The superior temporal sulcus and inferior parietal lobule, critical for interpreting dynamic social cues, ensure that moral reasoning remains sensitive to the social and ethical intricacies of everyday life.
+
+Crucially, this synthesis reinforces a social intuitionist perspective of moral reasoning, wherein decisions are not solely the product of deliberative rationality but are grounded in pre-reflective, affect-laden intuitions that are subsequently shaped by cognitive and social processes. This challenges traditional rationalist views, suggesting instead that moral reasoning is often a post hoc rationalisation of intuitions arising from evolved neural mechanisms designed to prioritise social cohesion and practical action.
+
+Moreover, this framework sets the stage for exploring the dichotomy between teleological and deontological reasoning. The empirical evidence supports the view that moral decision-making is not limited to rigid rule-following (as in deontological ethics) but reflects the adaptive flexibility of teleological reasoning, where decisions are oriented toward achieving ethical outcomes in specific, context-dependent scenarios. This aligns with the Aristotelian notion of practical reason, where moral reasoning is inherently purposive, aiming to resolve ethical challenges in complex and dynamic social environments.
+
+By bridging neuroscience with the normative theories of practical and teleological reasoning, this synthesis not only advances our understanding of moral cognition but also highlights the fundamentally social and intuitive nature of moral decision-making. This perspective has significant implications for applied fields such as artificial intelligence, where designing morally intuitive systems necessitates prioritising action-oriented and socially adaptive ethical frameworks.
+
+with little consensus about a precise definition~\cite{Wallace2020, SEP-moral-reasoning}. 
+
+\nextdiv
+Differences in research approaches to moral decision-making, informed by various theories and perspectives, have led to a discrepancy in the definitions of its nature. This complexity arises from the interplay between cognitive, emotional, social, and cultural factors, each of which plays a significant role in shaping moral judgments~\cite{Bartels2015}. Dual-process theories highlight this interplay, suggesting that moral decisions involve both rational, deliberative processes and fast, intuitive judgments. For example, the Social Intuitionist Model emphasizes the primacy of emotional responses, with reasoning often serving as a post hoc justification for decisions, rather than their origin.
+
+Situational and contextual influences further complicate the definition of moral decision-making. Cultural norms, social pressures, and environmental factors significantly impact what is considered moral, making it challenging to create a universal framework for understanding these decisions. Additionally, individual differences, such as personal values, upbringing, and prior experiences, add to the variability in how morality is processed cognitively. This diversity is reflected in neuroscientific evidence, which shows that moral decision-making activates a distributed network of brain regions associated with reasoning, emotion, and social cognition, illustrating its integrative and context-dependent nature.
+
+Moreover, developmental and evolutionary considerations demonstrate that morality is not static but evolves over time. Developmental theories, such as Kohlberg's stages of moral development, show how cognitive and emotional maturity interact to shape moral reasoning. From an evolutionary perspective, moral behaviors are thought to have developed as adaptive mechanisms for promoting cooperation and social cohesion, blending innate instincts with learned cultural norms. These perspectives highlight that moral decision-making cannot be reduced to a single cognitive domain but rather encompasses an interplay of diverse influences.
+
+The inherent multidimensionality of moral decision-making also poses challenges for researchers attempting to measure and define it. The overlap of cognitive processes with emotional and social dimensions often results in conflicting definitions and findings across disciplines. As a result, moral decision-making remains a dynamic and multifaceted process that resists simplification, reflecting its deeply rooted integration within human cognition, emotion, and society.
+
+\nextdiv
+This conceptual challenge becomes even more pronounced when examined through philosophical terms, where debates persist to date about the intricate relationship~\cite{SEP-moral-reasoning} between:
 
 \begin{itemize}
-	\item \textbf{Existential Quantification and Conditionality}: The formula should reflect that only some decisions fall under the category of moral decisions, contingent upon specific conditions being met.
+	\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+	\item[-] \textit{first-order moral truths}: in the realm of moral philosophy are propositions that directly govern or describe the ethical principles for example, statements such as "It is wrong to harm others without justification" or "Justice demands equal treatment for all" are considered first-order moral truths because they articulate specific moral norms or values without delving into the underlying frameworks or theories that validate their authority 
+	\item[-] \textit{duties}, or values: obligations or responsibilities that arise from moral, legal, or social principles, guiding individuals to act in specific ways deemed necessary or appropriate, that {ought} to guide human action, where:
+	\item[-] \textit{ought} refers to normative imperatives indicating how individuals are morally or rationally required to act, based on principles of ethical reasoning.	
 \end{itemize}
 
-A more realistic formula would be:
+together with the metaphysics of morality, and the practical application of these in real-life situations.
 
-\[ \exists x (C(x) \rightarrow (\text{Decision}(x) \land \text{Moral}(\text{DecisionMaking}(x)))) \]
+\nextdiv
+Moreover, different philosophical, and psychological, schools of thought offer diverging perspectives on the role of key core concepts for defyingn precisily moral decision making such as:
 
-Here, \( C(x) \) represents the specific conditions under which a decision \( x \) can be considered moral. The formula is interpreted as: "There exists some decision \( x \) such that if the conditions \( C(x) \) are met, then \( x \) is a decision and the decision-making process concerning \( x \) is moral."
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+	\item [-] Moral facts:  Some emphasise the direct perception of moral facts~\cite{Ross2002, Haidt2001, Audi2015}, while others argue for more complex reasoning processes in situations with novel perplexities and conflicting moral considerations~\cite{Kant_groundwork_moral, Greene2014, Rawls2020}.
+	\item[-] Moral principles: Some find moral principles essential for reasoning~\cite{Kant_groundwork_moral, Rawls2020}, while others, like particularists, argue for the existence of moral reasons independent of any general principle~\cite{Dancy2004, McDowell1979, Hooker2000}.
+	\item[-] Moral psychology: Differing views on the role of emotions and motivations in shaping reasoning also contribute to the lack of a unitary definition.
+\end{itemize}
 
-This formula acknowledges that morality in decision-making is not a universal attribute of all decisions, but rather a characteristic of certain decisions under specific circumstances. Identifying and analyzing these conditions \( C(x) \) is a key aspect of ethical philosophy and moral reasoning.
-
-
-
-
-I want to precisely narrow down the meaning of the word \textit{Decision}, in the  	
-
-In the discourse regarding the evolution of moral theories across philosophy and modern psychology, there emerges a nuanced interconnection where \textit{emotional} and \textit{rational} elements not only diverge but also integrate. This interconnection reveals the intricate complexities inherent in the formulation of moral models, transcending a mere dichotomy to embrace a more holistic, undefined perspective.
+%% This definition is mine, I need to check it is okay to use it.
+%
+% In this part we Moral Decision mking as a process that deliberates what action
+% agents ought to take in real settings, and thus perfor a real phisical
+% action that acts on her environment.
+%
 
 \begin{definition}[Rational Model]
-	Moral decision making, is a cognitive process of choosing between competing moral judgments- \ie, mutually exclusive evaluations we make on what is right or wrong, good or bad, and that we use as motive, purpose and direction for our conscious, \gls{practical_behaviour}.
+	\textit{Moral decision making}, is the cognitive process of choosing between competing moral judgments \ie, mutually exclusive evaluations we make on what is right or wrong, good or bad, and that we use as motive, purpose and direction for our conscious, and practical behaviour.
 \end{definition}
+
+While widely varying definitions of the term moral have been suggested, a precise definition of moral decision making has proved elusive~\cite{Wallace2020, SEP-moral-reasoning}. The deficition we adopt here our own version as presented above. This version is a first particular case of a more general version of the definition which we will introduce at the end of this chapter, after discussing its components. Moral decision making embobies a multitude of which we will only introduce for completeness:
+
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+	\item [a)] \textbf{Cognitive Process} This term refers to the mental actions or operations that individuals use to acquire knowledge and understanding. It includes processes such as perception, memory, reasoning, decision-making, and problem-solving. Cognitive processes are essential for interpreting and interacting with the world~\cite{APA2015, Anderson2005_cognitive, Neisser1967, Baddeley2020, Kahneman2011};
+	\item [b)] \textbf{Behaviours:} In academic terms, behaviours are the observable actions or reactions of an individual in response to external or internal stimuli. These actions can be voluntary or involuntary and are influenced by various factors, including cognitive processes, emotions, and environmental conditions~\cite{Skinner1953, APA2020, Baumeister2020}
+
+	
+\end{itemize}
+
+\nextdiv
+\nextdiv
+and more complex process \ie, 
+
+\nextdiv
+\textit{Moral Reasoning: Theories in Philosopy}
+
+\noindent
+In an exclusively and formally philosophycal acceptance, provided \textit{not} in any particular chronological order, \fpincom{...but in a what that the computer science reader can ... or anything that glue the next portion of text} Jonathan Dancy, a prominent moral particularist, argues that "reasons holism", the idea that a reason in one case may be different or absent in another, supports philosophical position known as Moral Particularism according to which moral reasoning does not rely on fixed principles but instead depends on the context-specific evaluation of reasons~\cite{Potrc2010}. At its core, particularism rejects the idea that the morally perfect person is the "person of principle." Instead, it posits that moral sensitivity requires recognizing how features of a situation contribute to moral judgments in contextually variable ways. Dancy illustrates this with the "holism of reasons," which argues that a reason that counts in favor of an action in one situation might count against it or hold no relevance in another. For example, promising to do something is generally a reason to act, but this reason can be nullified or inverted in unique cases, such as when the promise itself is immoral or coerced~\cite{Dancy2017-SEP}. The practical implications of particularism are significant. It suggests that moral agents must focus on the specific details of a situation rather than applying pre-set rules. This approach allows for greater flexibility and responsiveness to moral complexity. For example, a rule prohibiting lying might fail to account for scenarios where lying protects an innocent life, while a particularist framework would weigh the specific reasons at play and decide accordingly~\cite{Dancy2004}
+
+\nextdiv
+
+
+
+%% Where we close the philosophical overview on moral reasoning
+%
+\nextdiv
+The key aspect of the traditional philosophycal discourse on the topic is to characterised moral reasoning as a specific form of practical reasoning, emphasizing its role in guiding moral actions and resolving conflicts, operating as the process through which agents figure out what they \textit{morally ought to do} in concrete situations. Unlike theoretical reasoning, which seeks to understand principles or truths, moral reasoning directly addresses the question: "What should I do?"~\cite{Richardson2018} and frames moral reasoning as practical reasoning because it resolves \textit{real-life dilemmas} by weighing competing moral values and considerations. For instance, deciding whether to prioritize loyalty to family or a broader duty to society exemplifies moral reasoning in action. This deliberative process of moral reasoning is, indeed, \textit{practical} in two essential respects. Firstly, it pertains to the \textit{domain of action}, as its focus is on resolving questions related to what \textit{should be done}. Secondly, it is practical in its \textit{outcomes}, as the act of reflecting on matters of action inherently guides and motivates individuals toward acting~\cite{Wallace2020}. A natural way to interpret this point of view is to contrast it with the standpoint of theoretical reason.
+
+\nextdiv
+Theoretical reasoning is concerned with resolving questions that are fundamentally theoretical rather than practical in nature. It focuses on explanation and prediction, retrospectively asking why events have occurred and prospectively determining what might happen in the future. Paradigmatic expressions of theoretical reasoning are found in the natural and social sciences, where causal relationships and empirical evidence are central~\cite{Nagel1979, Hempel1965, Tversky1974, Hirschfeld1994}. Beyond this, theoretical reasoning also extends to \textit{non-causal explanations}, such as those explored in metaphysical, logical, and conceptual inquiries. Its focus on understanding matters of fact is distinct in its impersonal and \textit{universally accessible approach}, which contrasts with the more situated and action-oriented focus of practical reasoning. Practical reasoning, by contrast, centers on deliberation about what one \textit{ought to do}, providing guidance for action in specific circumstances. Unlike theoretical reasoning, which seeks to understand the world as it is, practical reasoning addresses how to navigate complex situations and achieve goals. It operates across a wide range of contexts, from moral obligations, such as promoting well-being or fulfilling promises, to professional domains like medicine, scientific experimentation, artistic creation, or athletic performance. Practical reasoning is also tied to how-to knowledge and technical skill, enabling individuals to adapt to dynamic environments and deliberate effectively about actions.
+
+\nextdiv
+Theoretical reasoning, in this sense, reflects on what reasons justify accepting particular claims as true. Its focus is on evidential considerations that indicate the likelihood of propositions being correct. Practical reasoning, by contrast, deliberates on what makes actions desirable or worthy of choice. Its reasons are those that justify actions as worth performing. This divergence in subject matter also leads to different outcomes: theoretical reasoning modifies one’s belief system by aligning it with truth, whereas practical reasoning culminates in action. As previously noted, practical reasoning is tied to action not only in its subject matter but also in its purpose and results.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=\textwidth]{/home/francesco/Desktop/research/work/thesis/img/diagrams/TypesOfReasoning.pdf}
+	\caption{Diagram illustrating the types of reasoning, distinguishing between theoretical and prescriptive reasoning.}
+	\label{fig:types_of_reasoning}
+\end{figure}
+
+\nextdiv
+Lastly, it should be said that despite their differences, theoretical and practical reasoning share an underlying structural unity. Both involve evaluating reasons, assessing justification, and adhering to principles of rationality, albeit in different domains. This shared framework is evident in our common vocabulary: we \textit{speak} of what is "right to do" and "right to think," of being "justified" in both actions and beliefs, or of having reasons for what we choose or conclude. This structural unity reveals how the forms of reasoning mirror one another, even as their substantive concerns diverge—whether focusing on understanding facts, guiding action, or grounding belief.
+
+\nextdiv
+Historically, the term moral reasoning as been used in philosophical discourse to describe any deliberative thinking that responsibly engages with moral considerations, to arrive at \textit{actionable conclusions}. Unlike purely theoretical ethics, moral reasoning directly influences practical outcomes, often navigating conflicts between competing moral principles or obligations~\cite{Richardson2018}. This practical orientation ensures that moral reasoning is treated not merely as an abstract exercise but is tied to real-world actions and decisions. The philosophical importance of moral reasoning lies in its capacity to handle conflicts of values and integrate competing moral considerations into coherent courses of \textit{action}.
+
+%% Is moral reasoning different from practical reasoning?
+%
+\nextdiv
+Finally, the source questions whether moral reasoning is truly distinct from practical reasoning more generally. Different moral theories offer different answers. Aristotle, for example, saw a unified structure in practical reasoning, with the virtuous person simply having their sights set on the true good. Kant, however, saw moral reasoning as distinct, involving considerations of universalizability that aren't present in prudential reasoning. Given this diversity, the source suggests remaining agnostic on the relationship between moral and non-moral practical reasoning unless one assumes the correctness of a particular moral theory.
+
+%% We start here a scietific, laboratory based description of moral reasoning.
+%
+\nextdiv
+However, there are challenges. Empirical studies suggest we often reason poorly in moral situations. We can be 'dumbfounded' when asked to justify our moral intuitions and are susceptible to biases. This could lead to revisions in our norms of moral reasoning, a point the source acknowledges.
+
+\nextdiv
+This process involves an array of cognitive functions such as perception, memory, reasoning, and problem-solving, which collectively inform our moral evaluations and decisions~\cite{Greene2001, Bechara2000, Churchland2011}. Moreover, these cognitive processes translate into behaviours, which are the \textit{observable} manifestations of our moral choices. These behaviours, whether conscious or subconscious, reflect our internal moral deliberations and are influenced by a complex interplay of cognitive functions, emotions, and contextual factors. A number of recent experimental work have explored how cognitive attributions of intentionality influence moral judgments and subsequent behaviors, demonstrating the observable translation of moral cognition into action.
+
+In~\cite{Bechara2000}, Antoine Bechara et.al., explores the neurobiological underpinnings of decision-making through the lens of the somatic marker hypothesis. This framework posits that decision-making is shaped by marker signals, which arise from bioregulatory processes—including emotions and feelings, and guide behavior by associating specific outcomes with somatic states. These processes are mediated by a network of cortical and subcortical structures, with the ventromedial prefrontal cortex (VMPC) playing a pivotal role.
+
+Central to the hypothesis is the idea that decision-making is influenced by both conscious and unconscious processes. While reasoning and knowledge about options are critical, emotional responses provide biases that help narrow the decision-making space. These biases, often experienced as gut feelings or anticipatory emotions, act as alarm signals, highlighting advantageous or disadvantageous outcomes and allowing rapid, context-sensitive decisions.
+
+The role of the VMPC in this system is particularly significant. Damage to this region disrupts the ability to generate somatic markers, leading to impairments in social and moral behavior. Patients with VMPC lesions exhibit an inability to make advantageous decisions, particularly in complex, uncertain scenarios. The article discusses this through the "gambling task," a laboratory simulation that mimics real-life decision-making by factoring in reward and punishment. While healthy participants learn to select options with favorable long-term outcomes, VMPC patients persistently choose options offering immediate rewards despite long-term losses, demonstrating a "myopia for the future."
+
+The inability of VMPC patients to generate anticipatory physiological responses, such as skin conductance changes, underscores the importance of somatic markers in decision-making. In healthy individuals, these anticipatory responses develop before conscious knowledge of advantageous choices, suggesting that unconscious emotional signals precede and guide cognitive reasoning. VMPC patients, in contrast, fail to produce these signals, even when they consciously understand the consequences of their choices. This dissociation highlights the critical role of emotion in shaping decisions, beyond purely rational calculations.
+
+The article also distinguishes decision-making processes from related cognitive functions, such as working memory. While the dorsolateral prefrontal cortex (DLPFC) is essential for maintaining and manipulating information, the VMPC's primary function lies in linking knowledge about situations with emotional valence. This distinction is supported by evidence that VMPC patients with intact working memory still exhibit impaired decision-making, emphasizing the specialized contribution of emotional processing to ethical and practical deliberations.
+
+From a broader perspective, the findings reinforce the argument that moral and practical decision-making behaviors are not solely products of rational deliberation but are profoundly influenced by the interplay of cognitive and emotional systems. The somatic marker hypothesis provides a compelling explanation for how unconscious emotional biases, shaped by prior experiences, dynamically interact with conscious reasoning to produce decisions. These processes align with the claim that moral deliberations and behaviors reflect a complex integration of cognitive functions, emotions, and contextual factors.
+
+By identifying the neural substrates and mechanisms of these interactions, the article advances our understanding of decision-making as a holistic process. It underscores the necessity of considering emotional and somatic components in ethical theory, legal frameworks, and practical applications, such as treatment for decision-making deficits in clinical populations or the development of artificial intelligence systems capable of emulating human moral reasoning.
+
+\nextdiv
+Churchland’s work~\cite{Churchland2011} supports the claim that moral deliberations and behaviors are influenced by a complex interplay of cognitive functions, emotions, and contextual factors. By grounding morality in neurobiological processes, Churchland demonstrates how moral decision-making reflects the integration of innate capacities with cultural and environmental influences. This perspective aligns with broader interdisciplinary efforts to understand morality as a dynamic and adaptive feature of human cognition, with implications for philosophy, psychology, and practical ethics.
+
+
+%% This is an introduction to empirical work as whole.
+%% It might need to be move up
+%
+\nextdiv
+There is a large volume of published empirical studies describing the guiding stenght that moral decision-making has on practial actions, as observable behavioural course of actions, from agents on their enviroment\fpincom{needs changes in the phrasing, and connection to the rest of the chapter. Maybe start using "guiding behaviour?}.  
+%% Greene here but lacks of previous definition of Judgment and moral judgment
+\nextdiv
+In works such has~\cite{Greene2015, Greene2009a} Greene provides a detailed exploration of how moral decision-making operates as a practical function grounded in brain mechanisms, supported by empirical evidence and demonstrates that moral reasoning is not isolated to specific brain regions but emerges from the interplay of multiple systems tasked with value representation, cognitive control, and emotional regulation (largely discussed later on in this chapter)\fpincom{This part relates to emotional dimension of moral decision-making.}. 
+
+\nextdiv
+The authors argue that moral decision-making is \textit{inherently practical}, aimed at resolving conflicts between competing values and guiding behavior. This practicality is exemplified in dilemmas such as the trolley problem~\cite{Thomson1984}, where decisions require balancing the harm to one person against the benefit to others. Through functional magnetic resonance imaging (fMRI) studies, Greene and colleagues have shown that "personal" moral dilemmas (e.g., pushing someone off a bridge to save others) engage emotion-related areas like the amygdala and ventromedial prefrontal cortex (vmPFC). By contrast, "impersonal" dilemmas (e.g., pulling a lever) activate regions like the dorsolateral prefrontal cortex (DLPFC), associated with controlled reasoning and cost-benefit analysis.
+
+\nextdiv
+The article emphasizes that moral decision-making extends beyond theoretical principles, manifesting in observable behaviors shaped by brain function. Altruistic actions, such as donating to charity\fpincom{important for our case}, involve the frontostriatal pathway, which integrates social cues and rewards. Similarly, cooperative behaviors are supported by neural mechanisms that encode trust and reciprocity, demonstrating how moral reasoning translates into real-world practices.
+
+Pharmacological studies also provide practical insights. For instance, increased serotonin levels, which amplify emotional reactivity, enhance deontological judgments, while decreased emotional engagement promotes utilitarian reasoning. These findings underscore the brain’s adaptability in modulating moral behavior based on biological and environmental factors.The neuroscientific evidence supports the view that moral decision-making is not only about abstract reasoning but also deeply embedded in the practical, embodied realities of human life.
+
+
+\nextdiv
+Hence, moral decision making encompasses both 
+
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+	\item [1)] the mental operations that guide our judgments, and 
+	\item [2)] the resultant (observable) actions that embody our moral principles in the practical realm. 
+\end{itemize}
+	
+Here we are concerned with point 2 above, \ie, the resultant \textit{observable} actions that, as such, we hypotesize being a physical traces in terms of observable, machine detectable behavioural cues of an agent's moral decision.
+
+\nextdiv
+
+
+%% But Moral Decision Making is anyway practical and this is the point we need to keep in mind
+%
+
+
+%% Introducing the problem
+%
+The perception of direct gaze, that is, of other individual gaze directed at the observer, is know to influence a wide range of cognitive processes and behaviours. 
+
+Practical reason refers to the distinctively human capacity to determine, through reflective deliberation, the appropriate course of action in a given situation~\cite{Aristotle_nicomachean, Aquinas_summa, Kant_practical_reason}. 
+
+\nextdiv
+In this context, reflective deliberation is a cognitive function often characterised by conscious, effortful, and reason-guided evaluation of options, or courses of action. It usualy characterised in the literature as involving:
+
+\begin{enumerate}[label=\arabic*)\,, leftmargin=1cm, rightmargin=1cm]
+	\setlength{\itemsep}{-0.5em} % Reduce vertical space between items
+	
+	\item \textbf{ Philosophical Perspective:} The capacity to critically assess one's desires, beliefs, and values, often engaging in second-order thinking to evaluate not just what one wants but whether those wants align with broader principles or long-term goals. Rooted in Kantian ethics and Aristotelian practical reasoning, it emphasizes autonomy and rationality~\cite{Aristotle_nicomachean, Korsgaard1996}.
+	\item \textbf{Psychological Perspective:} A metacognitive process where individuals engage in controlled, systematic thinking to weigh evidence, consider alternatives, and predict outcomes. Reflective deliberation contrasts with automatic or heuristic-driven decision-making, drawing from dual-process theories of cognition~\cite{Kahneman2011, Stanovich2000}.
+\end{enumerate}
+
+
+This deliberative process in practical reasoning is, indeed, \textit{practical} in two essential respects. Firstly, it pertains to the \textit{domain of action}, as its focus is on resolving questions related to what \textit{should be done}. Secondly, it is practical in its \textit{outcomes}, as the act of reflecting on matters of action inherently guides and motivates individuals toward acting~\cite{Wallace2020}.
+
+People may act differently in public environments due to actual reputation concerns, or due to the mere presence of others. People often act differently when others are observing them, reputational concerns and signaling are widely theorized to be a driving mechanism explaining why people become more prosocial and moral when observed in public.
+
+One of the two main objective of this work is to determine wheater the presence of social robots can affect the outcome of \textit{moral decisions} made by humans in controlled, experimental settings.
+
+
+In the discourse regarding evolution of moral theories across philosophy and modern psychology, it emerges a nuanced interconnection where \textit{emotional} and \textit{rational} elements not only diverge but also integrate in explaining how agents takes moral decisions. This interconnection reveals the intricate complexities inherent in the formulation of moral models, transcending a mere dichotomy to embrace a more holistic, undefined perspective.
+
 
 \begin{definition}[Emotional Model]
 	Moral decision-making is an emotive process, wherein individuals navigate and choose between competing moral judgments \ie, mutually exclusive evaluations we make on what is right or wrong, good or bad. This process is driven by emotional responses and intuitions, which guide and inform our conscious and practical behaviour, often preceding and shaping cognitive deliberation.

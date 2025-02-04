@@ -1,0 +1,152 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: acknowledgements.aux
+A level-1 auxiliary file: declaration.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: moral_d.aux
+Case mismatch error between cite keys kahneman2011 and Kahneman2011
+---line 172 of file moral_d.aux
+ : \citation{kahneman2011
+ :                       }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: experimental_methods.aux
+A level-1 auxiliary file: methodology.aux
+A level-1 auxiliary file: cuts.aux
+A level-1 auxiliary file: derivation.aux
+A level-1 auxiliary file: bibliography.aux
+The style file: ieeetr.bst
+Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
+I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
+ :  
+ :  pages={55-64},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 486 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Bechara2000
+ :                     ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2073 of file /home/francesco/Desktop/research/appunti/reference.bib
+ :   
+ :   publisher={Pearson}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2341 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : 
+ : author={Walsh,Toby},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2523 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Kahneman2011
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2633 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Gert2020
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2664 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Haidt2012
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2740 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Cushman2013
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2752 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Haidt2012
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Allen_Wallach2012"
+Warning--I didn't find a database entry for "Minsky1985"
+Warning--I didn't find a database entry for "Stone2016"
+Warning--I didn't find a database entry for "Goodfellow2016"
+Warning--I didn't find a database entry for "Silver2018"
+Warning--I didn't find a database entry for "Shoham2018"
+Warning--I didn't find a database entry for "Anderson2018"
+Warning--I didn't find a database entry for "IFR2019"
+Warning--I didn't find a database entry for "Moor"
+Warning--I didn't find a database entry for "Bryson"
+Warning--I didn't find a database entry for "Dennett"
+Warning--I didn't find a database entry for "Turkle"
+Warning--I didn't find a database entry for "Aristotle"
+Warning--I didn't find a database entry for "Taylor"
+Warning--I didn't find a database entry for "RussellNorvig"
+Warning--I didn't find a database entry for "WallachAllen"
+Warning--I didn't find a database entry for "AndersonAnderson"
+Warning--I didn't find a database entry for "Floridi"
+Warning--I didn't find a database entry for "Mendelson"
+Warning--I didn't find a database entry for "Zermelo"
+Warning--I didn't find a database entry for "Russell"
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "james1884"
+Warning--I didn't find a database entry for "costa1992"
+Warning--I didn't find a database entry for "bandura1986"
+Warning--I didn't find a database entry for "greenwald2006"
+Warning--I didn't find a database entry for "tversky1973"
+Warning--I didn't find a database entry for "thaler2008"
+Warning--I didn't find a database entry for "Gazzaniga2006"
+Warning--I didn't find a database entry for "chalmers2013"
+Warning--I didn't find a database entry for "laudan1987"
+Warning--I didn't find a database entry for "bricmont2016"
+Warning--I didn't find a database entry for "woodward2007"
+Warning--I didn't find a database entry for "bird2000"
+Warning--I didn't find a database entry for "Pantic2014a"
+Warning--I didn't find a database entry for "Xerxa2023"
+Warning--I didn't find a database entry for "Allcott2020"
+Warning--I didn't find a database entry for "Auxier2021"
+Warning--I didn't find a database entry for "Bail2021"
+Warning--I didn't find a database entry for "Dwyer2020"
+Warning--I didn't find a database entry for "Vosoughi2018"
+Warning--I didn't find a database entry for "Sharkey2010"
+Warning--I didn't find a database entry for "Vallor2016"
+Warning--I didn't find a database entry for "Bryson2010"
+Warning--I didn't find a database entry for "Misra"
+Warning--I didn't find a database entry for "Atran2004"
+Warning--I didn't find a database entry for "Bering2005"
+Warning--there's a number but no series in Hare1991
+Warning--empty journal in Greene2015
+Warning--empty publisher in Black1972
+Warning--empty year in Black1972
+You've used 101 entries,
+            1876 wiz_defined-function locations,
+            1209 strings with 18485 characters,
+and the built_in function-call counts, 23879 in all, are:
+= -- 2405
+> -- 795
+< -- 0
++ -- 313
+- -- 212
+* -- 1520
+:= -- 3333
+add.period$ -- 147
+call.type$ -- 101
+change.case$ -- 71
+chr.to.int$ -- 0
+cite$ -- 105
+duplicate$ -- 1285
+empty$ -- 2510
+format.name$ -- 212
+if$ -- 5956
+int.to.chr$ -- 0
+int.to.str$ -- 101
+missing$ -- 141
+newline$ -- 352
+num.names$ -- 119
+pop$ -- 394
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 714
+stack$ -- 0
+substring$ -- 1298
+swap$ -- 455
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 234
+width$ -- 104
+write$ -- 997
+(There were 10 error messages)

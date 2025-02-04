@@ -54,6 +54,29 @@
 % End title modifications
 % %%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% For Paragraphs
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{titlesec}
+
+% Ensure paragraphs are numbered according to the sections (e.g., 3.1, 3.2)
+\setcounter{secnumdepth}{4} % Enable numbering up to paragraphs
+\setcounter{tocdepth}{4}    % Include paragraphs in the Table of Contents if needed
+
+% Customize \paragraph to show numbers from the section hierarchy
+\titleformat{\paragraph}
+{\normalfont\itshape} % Italic heading (unchanged)
+{\theparagraph}       % Display the paragraph number
+{1em}                 % Spacing between number and title
+{}                    % Code preceding the paragraph title
+\renewcommand{\theparagraph}{\thesection.\arabic{paragraph}} % Number format
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End Paragraph formatting
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \usepackage{lineno,hyperref}
 \modulolinenumbers[20]
 
@@ -216,8 +239,74 @@ Q2 refers mainly to point 2, and will show that it is possible to apply existing
 \nextdiv
 The remainder of this work is organized as follows. [...]
 \newpage
-\section{Moral Judgement}
+\section{Moral Decision Making}
 \label{sec:moral}
+\paragraph{Introduction}
+
+moral reasoning directed towards deciding what to do involves forming judgments about what one ought, morally, to do. On these understandings, asking what one ought (morally) to do can be a practical question, a certain way of asking about what to do.
+
+Practical reason refers to the distinctively human capacity to determine, through reflective deliberation, the appropriate course of action in a given situation~\cite{Aristotle_nicomachean, Aquinas_summa, Kant_practical_reason}. 
+
+\nextdiv
+In this context, reflective deliberation is a cognitive function often characterised by conscious, effortful, and reason-guided evaluation of options, or courses of action. It usualy characterised in the literature as involving:
+
+\begin{enumerate}[label=\arabic*)\,, leftmargin=1cm, rightmargin=1cm]
+	\setlength{\itemsep}{-0.5em} % Reduce vertical space between items
+	
+	\item \textbf{ Philosophical Perspective:} The capacity to critically assess one's desires, beliefs, and values, often engaging in second-order thinking to evaluate not just what one wants but whether those wants align with broader principles or long-term goals. Rooted in Kantian ethics and Aristotelian practical reasoning, it emphasizes autonomy and rationality~\cite{Aristotle_nicomachean, Korsgaard1996}.
+	\item \textbf{Psychological Perspective:} A metacognitive process where individuals engage in controlled, systematic thinking to weigh evidence, consider alternatives, and predict outcomes. Reflective deliberation contrasts with automatic or heuristic-driven decision-making, drawing from dual-process theories of cognition~\cite{Kahneman2011, Stanovich2000}.
+\end{enumerate}
+
+
+This deliberative process in practical reasoning is, indeed, \textit{practical} in two essential respects. Firstly, it pertains to the \textit{domain of action}, as its focus is on resolving questions related to what \textit{should be done}. Secondly, it is practical in its \textit{outcomes}, as the act of reflecting on matters of action inherently guides and motivates individuals toward acting~\cite{Wallace2020}. A natural way to interpret this point of view is to contrast it with the standpoint of theoretical reason. 
+
+\nextdiv
+Theoretical reasoning is concerned with resolving questions that are fundamentally theoretical rather than practical in nature. It focuses on explanation and prediction, retrospectively asking why events have occurred and prospectively determining what might happen in the future. Paradigmatic expressions of theoretical reasoning are found in the natural and social sciences, where causal relationships and empirical evidence are central~\cite{Nagel1979, Hempel1965, Tversky1974, Hirschfeld1994}. Beyond this, theoretical reasoning also extends to \textit{non-causal explanations}, such as those explored in metaphysical, logical, and conceptual inquiries. 
+%Between these two stands epistemic reasoning, which guides the evaluation and justification of beliefs. Epistemic reasoning concerns itself with questions of what one should believe, based on evidence, coherence, and rational assessment. It aligns closely with theoretical reasoning in its commitment to truth but also intersects with practical reasoning in contexts where action depends on justified belief—for instance, in scientific decision-making or ethical dilemmas.
+Its focus on understanding matters of fact is distinct in its impersonal and \textit{universally accessible approach}, which contrasts with the more situated and action-oriented focus of practical reasoning.
+
+\nextdiv
+Practical reasoning, by contrast, centers on deliberation about what one \textit{ought to do}, providing guidance for action in specific circumstances. Unlike theoretical reasoning, which seeks to understand the world as it is, practical reasoning addresses how to navigate complex situations and achieve goals. It operates across a wide range of contexts, from moral obligations, such as promoting well-being or fulfilling promises, to professional domains like medicine, scientific experimentation, artistic creation, or athletic performance. Practical reasoning is also tied to how-to knowledge and technical skill, enabling individuals to adapt to dynamic environments and deliberate effectively about actions.
+
+\nextdiv
+There is, however, a different and arguably better way of understanding the contrast between practical and theoretical reason, stressing the parallels rather than the differences between the two forms of reflection [needs reprhasing]~\cite{Berker2013}.
+
+On this view, theoretical reasoning, like practical reasoning, addresses normative questions—in this case, what one ought or is permitted to believe. It evaluates and balances reasons for belief, weighing considerations that support or challenge specific conclusions about the world. This process occurs from a standpoint of first-personal reflection: theoretical reasoning adopts the engaged perspective of the believer, rather than a detached analysis of one’s beliefs (Moran, 2001; Boyle, 2011). Thus, the distinction between practical and theoretical reasoning lies in the types of norms they involve: practical norms govern action, while epistemic norms regulate belief (for further discussion, see McHugh et al., 2018).
+
+\nextdiv
+Theoretical reasoning, in this sense, reflects on what reasons justify accepting particular claims as true. Its focus is on evidential considerations that indicate the likelihood of propositions being correct. Practical reasoning, by contrast, deliberates on what makes actions desirable or worthy of choice. Its reasons are those that justify actions as worth performing. This divergence in subject matter also leads to different outcomes: theoretical reasoning modifies one’s belief system by aligning it with truth, whereas practical reasoning culminates in action. As previously noted, practical reasoning is tied to action not only in its subject matter but also in its purpose and results.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=\textwidth]{/home/francesco/Desktop/research/work/thesis/img/diagrams/TypesOfReasoning.pdf}
+	\caption{Diagram illustrating the types of reasoning, distinguishing between theoretical and prescriptive reasoning.}
+	\label{fig:types_of_reasoning}
+\end{figure}
+
+\nextdiv
+Lastly, it should be said that despite their differences, theoretical and practical reasoning share an underlying structural unity. Both involve evaluating reasons, assessing justification, and adhering to principles of rationality, albeit in different domains. This shared framework is evident in our common vocabulary: we \textit{speak} of what is "right to do" and "right to think," of being "justified" in both actions and beliefs, or of having reasons for what we choose or conclude. This structural unity reveals how the forms of reasoning mirror one another, even as their substantive concerns diverge—whether focusing on understanding facts, guiding action, or grounding belief.
+
+\nextdiv
+Hence, 
+
+While moral reasoning can be undertaken on another’s behalf, it is paradigmatically an agent’s first-personal (individual or collective) practical reasoning about what, morally, they ought to do.
+
+A fundamental aspect of the human experience is our capacity for judgement. We constantly make judgements about the world around us, evaluating everything from the taste of our food to the merits of a political argument. But amongst this vast sea of judgements, a particular type stands out: \textit{moral judgements}. These judgements are about what is right and wrong, about what we ought to do and what we ought not to do.
+
+This chapter delves into the intricate world of reasoning, judgment, and the formidable challenges encountered in replicating these human faculties within artificial intelligence (AI) systems. The exploration commences with a meticulous examination of reasoning and its practical manifestation, establishing a firm conceptual foundation for subsequent analyses.
+
+\paragraph{Practical reasoning}
+Reasoning, in its essence, is an inferential process. It operates on the attitudes of a subject, transforming them into the formation or modification of other attitudes~\cite{har}. This intricate dance of mental states, propelled by the engine of inference, lies at the heart of our cognitive capacities.
+Practical reasoning, a specialized subset of reasoning, zeroes in on the pivotal question of what one is to do. Its subject matter is action, and its consequences are practical, ultimately culminating in the performance of actions. Practical reasoning grapples with normative inquiries, pondering what one ought to do or which action emerges as the most rational choice given the available reasons
+\paragraph{What is Judgment}
+\paragraph{The Scope of Ethics}
+We adopt here Sidgwick's characterisation of Ethics exposing its \textit{systemic} nature charaterised by his definitions accorgint to whcih "method of ethics refers to any rational procedure by which we determine what individual human
+beings ‘ought’ to do or what it is ‘right’ for them to do, or to try to bring about by voluntary action"~\cite{SidgwickMethods}
+
+\nextdiv
+To provide systems of general theories of reasons for action. It is in this very same domain that Ethics differs from the other \textit{positive science}. Ethics is a \textit{practical} science whose \textit{end} is the direction of human actions. In the \textit{Methods of Ethics} Sidgwick (1838-1900) explains that the Methods that Ethics seeks to build is made of \textit{rational procedures} by which we can determine what \textit{individual} humans (Aristotle's moral agents) \textit{ought to do}, or try to bring about with \textit{voluntary actions}. Ethics aims to build a systematic and precise general knowledge of what \textit{ought to be} and in this sense its aim and methods can be called scientific \cite{SidgwickMethods}
+\subparagraph{Metaethics}\noindent Of a different nature are questions about Ethics are there moral facts, if so how could we know them? Without such facts what else could make moral judgements true. Recall that to make a judgement is to \textit{affirm the truth} of some claim or content. Judgements are mental states or attitudes in connection to a mental representation of existing objects. "The initial claim is that for propositions to be true is for them to stand in a special relation to things in the world; they must “fit” those things; or, as it is usually put, they must correspond to them" \cite{LouxMetaphysics}. \textcolor{red}{[]go back to metaphysics and search for predicates link particulars and universal then go down to predicate and proposition this is for talking about the king of judgement which we define in the tree]}. According to Kant judgment (\textit{Urteil}) is any conscious mental representation of.. [not finished 13/01/2020 went on judgment research]`
+
 \newpage
 \section{Machine Ethics}
 
@@ -302,7 +391,7 @@ We can use the map shown in Figure~\ref{fig:moral_judgements} to captures founda
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=\textwidth]{"../img/maps/typesOfJudgements_corrections.pdf"}
+	\includegraphics[width=\textwidth]{"../img/graphs/typesOfJudgements_corrections.pdf"}
 	\caption{Diagram of Types of Judgements.}
 	\label{fig:moral_judgements}
 \end{figure}
@@ -315,7 +404,7 @@ We can use the map shown in Figure~\ref{fig:moral_judgements} to captures founda
 % \section*{References}
 \newpage
 \bibliographystyle{ieeetr}
-\bibliography{/Users/francesco/Desktop/research/appunti/reference.bib}
+\bibliography{/home/francesco/Desktop/research/appunti/reference.bib}
 \newpage
 \section*{Notes}
 \paragraph{Robot Details and Role}The experiment involved the NAO humanoid robot in an autonomous life setting, specifically simulating a breathing animation. This design aimed to give participants the impression of being observed subtly. This was core to the experiment, as it replicated the watching eye effect without direct interaction.

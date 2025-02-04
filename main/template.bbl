@@ -5,53 +5,63 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem{Chuang2022}
-C.-W. Chuang, A.~Chang, M.~Chen, M.~J.~P. Selvamani, B.-C. Shia,
-  \href{https://www.mdpi.com/2071-1050/14/18/11125}{A worldwide bibliometric
-  analysis of publications on artificial intelligence and ethics in the past
-  seven decades}, Sustainability 14~(18) (2021) 11125.
-\newline\urlprefix\url{https://www.mdpi.com/2071-1050/14/18/11125}
+\bibitem{Aristotle_nicomachean}
+Aristotle, Nicomachean Ethics, Oxford University Press, Oxford, UK, ca. 350
+  BCE, translated by W. D. Ross, revised by J. O. Urmson.
+
+\bibitem{Aquinas_summa}
+T.~Aquinas, Summa Theologica, Christian Classics, Westminster, MD, ca.
+  1265--1274, translated by Fathers of the English Dominican Province.
+
+\bibitem{Kant_practical_reason}
+I.~Kant, Critique of Practical Reason, Macmillan, New York, NY, 1788,
+  translated by Lewis White Beck.
+
+\bibitem{Korsgaard1996}
+C.~M. Korsgaard, The Sources of Normativity, Cambridge University Press, 1996.
+
+\bibitem{Kahneman2011}
+D.~Kahneman, Thinking, Fast and Slow, Farrar, Straus and Giroux, 2011.
+
+\bibitem{Stanovich2000}
+K.~E. Stanovich, R.~F. West, Individual differences in reasoning: Implications
+  for the rationality debate, Behavioral and Brain Sciences 23~(5) (2000)
+  645--726.
+
+\bibitem{Wallace2020}
+R.~J. Wallace, {Practical Reason}, in: E.~N. Zalta (Ed.), The {Stanford}
+  Encyclopedia of Philosophy, spring 2020 Edition, Metaphysics Research Lab,
+  Stanford University, 2020.
+
+\bibitem{Nagel1979}
+E.~Nagel, The structure of science, Vol. 411, Hackett publishing company
+  Indianapolis, 1979.
+
+\bibitem{Hempel1965}
+C.~G. Hempel, Aspects of scientific explanation (1965).
+
+\bibitem{Tversky1974}
+A.~Tversky, D.~Kahneman, Judgment under uncertainty: Heuristics and biases:
+  Biases in judgments reveal some heuristics of thinking under uncertainty.,
+  science 185~(4157) (1974) 1124--1131.
+
+\bibitem{Hirschfeld1994}
+L.~A. Hirschfeld, S.~A. Gelman, Mapping the mind: Domain specificity in
+  cognition and culture, Cambridge University Press, 1994.
+
+\bibitem{Berker2013}
+S.~Berker, Epistemic teleology and the separateness of propositions,
+  Philosophical Review 122~(3) (2013) 337--393.
+
+\bibitem{SidgwickMethods}
+H.~Sidgwick, The methods of ethics, Cambridge University Press, 2019.
 
 \bibitem{Anderson2011}
 M.~Anderson, S.~L. Anderson, Machine ethics, Cambridge University Press, 2011.
 
-\bibitem{Gao2024}
-D.~K. Gao, A.~Haverly, S.~Mittal, J.~Wu, J.~Chen, Ai ethics: A bibliometric
-  analysis, critical issues, and key gaps, International Journal of Business
-  Analytics (IJBAN) 11~(1) (2024) 1--19.
-
-\bibitem{Otterbacher2023}
-J.~Otterbacher, Y.~Manolopoulos, Machine ethics research: Promises and
-  potential pitfalls, IEEE Intelligent Systems 38~(4) (2023) 62--68.
-
 \bibitem{Wallach2008}
 W.~Wallach, C.~Allen, Moral machines: Teaching robots right from wrong, Oxford
   University Press, 2008.
-
-\bibitem{Vinciarelli2009}
-A.~Vinciarelli, M.~Pantic, H.~Bourlard, Social signal processing: Survey of an
-  emerging domain, Image and vision computing 27~(12) (2009) 1743--1759.
-
-\bibitem{Nallur2020}
-V.~Nallur, Landscape of machine implemented ethics, Science and engineering
-  ethics 26~(5) (2020) 2381--2399.
-
-\bibitem{Pereira2020}
-L.~M. Pereira, A.~B. Lopes, Machine ethics: from machine morals to the
-  machinery of morality, Springer, 2020.
-
-\bibitem{Tolmeijer2020}
-S.~Tolmeijer, M.~Kneer, C.~Sarasua, M.~Christen, A.~Bernstein, Implementations
-  in machine ethics: A survey, ACM Computing Surveys (CSUR) 53~(6) (2020)
-  1--38.
-
-\bibitem{Bynum2018}
-T.~Bynum,
-  \href{https://plato.stanford.edu/archives/sum2018/entries/ethics-computer/}{Computer
-  and information ethics}, in: E.~N. Zalta (Ed.), The Stanford Encyclopedia of
-  Philosophy, summer 2018 Edition, Metaphysics Research Lab, Stanford
-  University, 2018, p. n/a.
-\newline\urlprefix\url{https://plato.stanford.edu/archives/sum2018/entries/ethics-computer/}
 
 \bibitem{Allen2006}
 C.~Allen, W.~Wallach, I.~Smit, Why machine ethics?, IEEE Intelligent Systems
