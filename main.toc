@@ -5,17 +5,17 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Machines' Ethics}{1}{section.1.1}%
 \contentsline {chapter}{\numberline {2}Morality: Intruduction to Practical Reasoning}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}From \textit {Êthos} to \textit {Moralis}: The Linguistic Evolution of Morality}{7}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Epistemic Precision}{7}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.1}The Linguistic Evolution of "Morality"}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Epistemic Precision}{8}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Historical-Philosophical Clarity}{8}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}On the Origin of the Word}{8}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.3}On the Origin of the Word}{9}{subsection.2.1.3}%
 \contentsline {section}{\numberline {2.2}Defining Moral}{10}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Moral Decision-Making}{13}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Moral Decision-Making: Neural Evidence for Its Practical Nature}{14}{section.2.4}%
 \contentsline {paragraph}{Emotion-Centered Models:}{29}{paragraph*.14}%
 \contentsline {subsection}{\numberline {2.4.1}Normative Non-Ethical agents}{32}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Other}{33}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Extended Types of Judgments}{33}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Extended Types of Judgments}{34}{section.2.5}%
 \contentsline {section}{\numberline {2.6}A definition of judgment}{36}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Experimental Methods}{37}{chapter.3}%
 \contentsline {section}{\numberline {3.1}The Influence of Observational Presence on Human Behavior: Experimental Insights from Human-Robot Interactions}{38}{section.3.1}%
