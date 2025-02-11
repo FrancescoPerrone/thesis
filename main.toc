@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {2.4.1}Normative Non-Ethical agents}{31}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Other}{33}{subsection.2.4.2}%
 \contentsline {section}{\numberline {2.5}Extended Types of Judgments}{33}{section.2.5}%
-\contentsline {section}{\numberline {2.6}A definition of judgment}{35}{section.2.6}%
+\contentsline {section}{\numberline {2.6}A definition of judgment}{36}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Experimental Methods}{37}{chapter.3}%
 \contentsline {section}{\numberline {3.1}The Influence of Observational Presence on Human Behavior: Experimental Insights from Human-Robot Interactions}{38}{section.3.1}%
 \contentsline {chapter}{\numberline {4}Methodology}{39}{chapter.4}%
