@@ -7,7 +7,7 @@ A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: moral_d.aux
 Case mismatch error between cite keys kahneman2011 and Kahneman2011
----line 186 of file moral_d.aux
+---line 191 of file moral_d.aux
  : \citation{kahneman2011
  :                       }
 I'm skipping whatever remains of this command
@@ -109,45 +109,45 @@ Warning--there's a number but no series in Hare1991
 Warning--empty journal in Greene2015
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
-You've used 107 entries,
+You've used 109 entries,
             1876 wiz_defined-function locations,
-            1249 strings with 19437 characters,
-and the built_in function-call counts, 25464 in all, are:
-= -- 2582
-> -- 830
+            1258 strings with 19580 characters,
+and the built_in function-call counts, 25756 in all, are:
+= -- 2610
+> -- 838
 < -- 0
-+ -- 328
-- -- 221
-* -- 1624
-:= -- 3544
-add.period$ -- 156
-call.type$ -- 107
++ -- 332
+- -- 223
+* -- 1634
+:= -- 3586
+add.period$ -- 160
+call.type$ -- 109
 change.case$ -- 75
 chr.to.int$ -- 0
-cite$ -- 112
-duplicate$ -- 1369
-empty$ -- 2668
-format.name$ -- 221
-if$ -- 6353
+cite$ -- 114
+duplicate$ -- 1387
+empty$ -- 2708
+format.name$ -- 223
+if$ -- 6429
 int.to.chr$ -- 0
-int.to.str$ -- 107
-missing$ -- 149
-newline$ -- 373
-num.names$ -- 125
-pop$ -- 408
+int.to.str$ -- 109
+missing$ -- 153
+newline$ -- 381
+num.names$ -- 127
+pop$ -- 420
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 770
+skip$ -- 772
 stack$ -- 0
 substring$ -- 1421
-swap$ -- 492
+swap$ -- 494
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 252
-width$ -- 110
-write$ -- 1061
+while$ -- 254
+width$ -- 112
+write$ -- 1079
 (There were 10 error messages)

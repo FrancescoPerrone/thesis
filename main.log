@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.11)  10 FEB 2025 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.11)  11 FEB 2025 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1890,6 +1890,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
  (./moral_d.tex
 Chapter 2.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 21.
 [7
 
 
@@ -1932,9 +1934,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 118.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2025,6 +2024,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21]
+</home/francesco/Desktop/research/work/thesis/img/diagrams/TypesOfReasoning.pdf
+, id=571, 369.7303pt x 235.55504pt>
+File: /home/francesco/Desktop/research/work/thesis/img/diagrams/TypesOfReasonin
+g.pdf Graphic file (type pdf)
+<use /home/francesco/Desktop/research/work/thesis/img/diagrams/TypesOfReasoning
+.pdf>
+Package pdftex.def Info: /home/francesco/Desktop/research/work/thesis/img/diagr
+ams/TypesOfReasoning.pdf  used on input line 273.
+(pdftex.def)             Requested size: 412.56497pt x 262.84938pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2034,16 +2043,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22]
-</home/francesco/Desktop/research/work/thesis/img/diagrams/TypesOfReasoning.pdf
-, id=573, 369.7303pt x 235.55504pt>
-File: /home/francesco/Desktop/research/work/thesis/img/diagrams/TypesOfReasonin
-g.pdf Graphic file (type pdf)
-<use /home/francesco/Desktop/research/work/thesis/img/diagrams/TypesOfReasoning
-.pdf>
-Package pdftex.def Info: /home/francesco/Desktop/research/work/thesis/img/diagr
-ams/TypesOfReasoning.pdf  used on input line 294.
-(pdftex.def)             Requested size: 412.56497pt x 262.84938pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2064,6 +2063,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [24]
 
+LaTeX Warning: Marginpar on page 25 moved.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2072,9 +2074,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
-
-LaTeX Warning: Marginpar on page 26 moved.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2103,7 +2102,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [28]
 
-LaTeX Warning: Citation `' on page 29 undefined on input line 441.
+LaTeX Warning: Citation `' on page 29 undefined on input line 420.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2132,10 +2131,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
-<img/graphs/judgments.pdf, id=687, 272.15477pt x 153.5366pt>
+<img/graphs/judgments.pdf, id=694, 272.15477pt x 153.5366pt>
 File: img/graphs/judgments.pdf Graphic file (type pdf)
 <use img/graphs/judgments.pdf>
-Package pdftex.def Info: img/graphs/judgments.pdf  used on input line 474.
+Package pdftex.def Info: img/graphs/judgments.pdf  used on input line 453.
 (pdftex.def)             Requested size: 412.56497pt x 232.77362pt.
 
 
@@ -2148,7 +2147,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [32 <./img/graphs/judgments.pdf>]
 
-LaTeX Warning: Citation `Gazzaniga2006' on page 33 undefined on input line 495.
+LaTeX Warning: Citation `Gazzaniga2006' on page 33 undefined on input line 474.
 
 
 
@@ -2225,7 +2224,11 @@ Chapter 5.
 
 
 
-])
+]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 70.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2234,12 +2237,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41]
+[41])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42]
 \openout2 = `derivation.aux'.
 
  (./derivation.tex
 Appendix A.
-) [42
+) [43
 
 
 
@@ -2254,14 +2266,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43
+[44
 
 
 
 ]
 \openout2 = `bibliography.aux'.
 
- (./bibliography.tex [44
+ (./bibliography.tex [45
 
 
 ]
@@ -2273,7 +2285,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45]
+[46]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2282,7 +2294,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46
+[47
 pdfTeX warning (ext4): destination with the same identifier (name{cite.Turkle})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2297,30 +2309,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47] (./main.bbl
+[48] (./main.bbl
 pdfTeX warning (ext4): destination with the same identifier (name{cite.Allen200
 6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 \bibitem{Allen2006}
-                        [48
+                        [49
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{cite.Haidt201
 2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.114 \bibitem{Haidt2012}
+l.122 \bibitem{Haidt2012}
                          
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[49]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2357,23 +2360,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [53]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54]
 pdfTeX warning (ext4): destination with the same identifier (name{cite.Lin2012}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.469 \bibitem{Lin2012}
+l.477 \bibitem{Lin2012}
                        
 pdfTeX warning (ext4): destination with the same identifier (name{cite.Oda2015}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.474 \bibitem{Oda2015}
+l.482 \bibitem{Oda2015}
                        
 pdfTeX warning (ext4): destination with the same identifier (name{cite.Shariff2
 007}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.479 \bibitem{Shariff2007}
+l.487 \bibitem{Shariff2007}
                            )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2383,7 +2395,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54]) (./main.aux (./abstract.aux) (./acknowledgements.aux) (./declaration.aux)
+[55]) (./main.aux (./abstract.aux) (./acknowledgements.aux) (./declaration.aux)
 (./introduction.aux) (./moral_d.aux) (./experimental_methods.aux)
 (./methodology.aux) (./cuts.aux) (./derivation.aux) (./bibliography.aux))
 
@@ -2393,16 +2405,16 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DE1EAB562E3A832A71E3DB96F104C626;4270.
+(rerunfilecheck)             Checksum: EA0377DB079040FEE844B75B1D59C0C6;4243.
  ) 
 Here is how much of TeX's memory you used:
- 50514 strings out of 476091
- 1107292 string characters out of 5794080
- 1876330 words of memory out of 5000000
- 69810 multiletter control sequences out of 15000+600000
+ 50530 strings out of 476091
+ 1107605 string characters out of 5794080
+ 1877330 words of memory out of 5000000
+ 69822 multiletter control sequences out of 15000+600000
  533876 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 112i,12n,131p,5850b,978s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 112i,12n,131p,5850b,975s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:practical_behaviour} has been referenced but do
 es not exist, replaced by a fixed one
@@ -2444,10 +2456,10 @@ ype1/public/cm-super/sfti0800.pfb></usr/share/texmf/fonts/type1/public/cm-super
 /sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/
 share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (61 pages, 857584 bytes).
+Output written on main.pdf (62 pages, 861321 bytes).
 PDF statistics:
- 1052 PDF objects out of 1200 (max. 8388607)
- 916 compressed objects within 10 object streams
- 270 named destinations out of 1000 (max. 500000)
+ 1063 PDF objects out of 1200 (max. 8388607)
+ 926 compressed objects within 10 object streams
+ 274 named destinations out of 1000 (max. 500000)
  212 words of extra memory for PDF output out of 10000 (max. 10000000)
 
