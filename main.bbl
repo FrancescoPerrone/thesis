@@ -12,6 +12,78 @@ R.~Joyce, {\em The Evolution of Morality}.
 M.~Tomasello, {\em A Natural History of Human Morality}.
 \newblock Harvard University Press, 2016.
 
+\bibitem{Coeckelbergh2023}
+M.~Coeckelbergh, ``Challenging ai simulacra of ethical deliberation: Some
+  problems of ethicopolitics of algorithms,'' {\em AI and Society}, 2023.
+
+\bibitem{Christian2020}
+B.~Christian, {\em The Alignment Problem: Machine Learning and Human Values}.
+\newblock New York, NY: W. W. Norton and Company, 2020.
+
+\bibitem{Jiang2021}
+L.~Jiang, A.~Galashov, Y.~Yang, {\em et~al.}, ``Can machines learn morality?
+  the delphi experiment,'' {\em arXiv preprint}, vol.~arXiv:2110.07574, 2021.
+
+\bibitem{Whittlestone2019}
+P.~Whittlestone, R.~Nyrup, A.~Alexandrova, and S.~Cave, ``The role and limits
+  of principles in ai ethics: Towards a focus on tensions,'' in {\em
+  Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
+  pp.~195--200, 2019.
+
+\bibitem{Baeza2023}
+R.~Baeza-Yates, ``Policy advice and best practices on bias and fairness in
+  ai,'' {\em AI and Society}, vol.~39, no.~1, pp.~123--138, 2023.
+
+\bibitem{Mittelstadt2019}
+B.~Mittelstadt, C.~Russell, and S.~Wachter, ``Explaining ai in an algorithmic
+  world: Fairness and transparency in machine learning,'' in {\em Proceedings
+  of the 2019 AAAI/ACM Conference on AI, Ethics, and Society}, pp.~279--286,
+  2019.
+
+\bibitem{Bender2021}
+E.~M. Bender and T.~Gebru, ``On the dangers of stochastic parrots: Can language
+  models be too big?,'' in {\em Proceedings of the 2021 ACM Conference on
+  Fairness, Accountability, and Transparency (FAccT)}, pp.~610--623, 2021.
+
+\bibitem{Floridi2022}
+L.~Floridi and J.~Cowls, ``Designing ai for social good: Aligning artificial
+  intelligence with human values,'' {\em Philosophy and Technology}, vol.~35,
+  no.~3, pp.~1--23, 2022.
+
+\bibitem{Bryson2019}
+J.~Bryson, ``The artificial intelligence of the ethics of artificial
+  intelligence: An introductory overview,'' in {\em The Oxford Handbook of
+  Ethics of AI}, pp.~15--32, Oxford University Press, 2019.
+
+\bibitem{Moor2023}
+J.~H. Moor, ``The nature and limits of machine ethics,'' {\em AI and Society},
+  vol.~39, no.~1, pp.~33--51, 2023.
+
+\bibitem{Moor2006}
+J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
+  IEEE Intelligent Systems}, vol.~21, no.~4, pp.~18--21, 2006.
+
+\bibitem{Anderson2011}
+M.~Anderson and S.~L. Anderson, {\em Machine ethics}.
+\newblock Cambridge University Press, 2011.
+
+\bibitem{Moor1985}
+J.~H. Moor, ``What is computer ethics?,'' {\em Metaphilosophy}, vol.~16, no.~4,
+  pp.~266--275, 1985.
+
+\bibitem{Moor2011}
+J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
+  Machine ethics}, pp.~13--20, 2011.
+
+\bibitem{Henderson2011}
+{\em The epistemological spectrum: at the interface of cognitive science and
+  conceptual analysis}.
+\newblock Oxford: Oxford University Press, 2011.
+
+\bibitem{Jones2024}
+R.~H. Jones, {\em Discourse analysis: A resource book for students}.
+\newblock Taylor and Francis, 2024.
+
 \bibitem{Ibarretxe2004}
 I.~Ibarretxe-Antunano, ``What's cognitive linguistics? a new framework for the
   study of basque,'' {\em Cahiers de l'Association for French Language
@@ -219,7 +291,7 @@ J.~M. Doris, {\em Lack of Character: Personality and Moral Behavior}.
 \bibitem{Lapsley2006}
 D.~K. Lapsley and D.~Narvaez, ``Moral psychology: A cognitive-developmental
   approach,'' in {\em Handbook of Child Psychology} (W.~Damon and R.~M. Lerner,
-  eds.), vol.~3, pp.~189--235, John Wiley \& Sons, 6th~ed., 2006.
+  eds.), vol.~3, pp.~189--235, John Wiley and Sons, 6th~ed., 2006.
 
 \bibitem{Bigler2017}
 E.~D. Bigler, ``Functional brain imaging in neuropsychology over the past 25
@@ -469,10 +541,6 @@ M.~Black, ``The factual and the normative,'' in {\em Human Science and the
 C.~S. Rosati, ``{Moral Motivation},'' in {\em The {Stanford} Encyclopedia of
   Philosophy} (E.~N. Zalta, ed.), Metaphysics Research Lab, Stanford
   University, winter 2016~ed., 2016.
-
-\bibitem{Moor2011}
-J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
-  Machine ethics}, pp.~13--20, 2011.
 
 \bibitem{Lin2012}
 P.~Lin, K.~Abney, and G.~A. Bekey, {\em Robot ethics: the ethical and social

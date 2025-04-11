@@ -7,7 +7,7 @@ A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: moral_d.aux
 Case mismatch error between cite keys kahneman2011 and Kahneman2011
----line 191 of file moral_d.aux
+---line 214 of file moral_d.aux
  : \citation{kahneman2011
  :                       }
 I'm skipping whatever remains of this command
@@ -27,33 +27,33 @@ Repeated entry---line 486 of file /home/francesco/Desktop/research/appunti/refer
  : @article{Bechara2000
  :                     ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2113 of file /home/francesco/Desktop/research/appunti/reference.bib
+I was expecting a `,' or a `}'---line 2125 of file /home/francesco/Desktop/research/appunti/reference.bib
  :   
  :   publisher={Pearson}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2381 of file /home/francesco/Desktop/research/appunti/reference.bib
+I was expecting a `,' or a `}'---line 2394 of file /home/francesco/Desktop/research/appunti/reference.bib
  : 
  : author={Walsh,Toby},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2563 of file /home/francesco/Desktop/research/appunti/reference.bib
+Repeated entry---line 2576 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Kahneman2011
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2673 of file /home/francesco/Desktop/research/appunti/reference.bib
+Repeated entry---line 2686 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Gert2020
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2704 of file /home/francesco/Desktop/research/appunti/reference.bib
+Repeated entry---line 2717 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Haidt2012
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2780 of file /home/francesco/Desktop/research/appunti/reference.bib
+Repeated entry---line 2793 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Cushman2013
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2792 of file /home/francesco/Desktop/research/appunti/reference.bib
+Repeated entry---line 2805 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Haidt2012
  :                ,
 I'm skipping whatever remains of this entry
@@ -104,50 +104,51 @@ Warning--I didn't find a database entry for "Bryson2010"
 Warning--I didn't find a database entry for "Misra"
 Warning--I didn't find a database entry for "Atran2004"
 Warning--I didn't find a database entry for "Bering2005"
+Warning--empty author and editor in Henderson2011
 Warning--can't use both author and editor fields in Gadamer1989
 Warning--there's a number but no series in Hare1991
 Warning--empty journal in Greene2015
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
-You've used 109 entries,
+You've used 124 entries,
             1876 wiz_defined-function locations,
-            1258 strings with 19580 characters,
-and the built_in function-call counts, 25756 in all, are:
-= -- 2610
-> -- 838
+            1342 strings with 21684 characters,
+and the built_in function-call counts, 29474 in all, are:
+= -- 2996
+> -- 934
 < -- 0
-+ -- 332
-- -- 223
-* -- 1634
-:= -- 3586
-add.period$ -- 160
-call.type$ -- 109
-change.case$ -- 75
++ -- 372
+- -- 248
+* -- 1868
+:= -- 4081
+add.period$ -- 179
+call.type$ -- 124
+change.case$ -- 86
 chr.to.int$ -- 0
-cite$ -- 114
-duplicate$ -- 1387
-empty$ -- 2708
-format.name$ -- 223
-if$ -- 6429
+cite$ -- 130
+duplicate$ -- 1600
+empty$ -- 3108
+format.name$ -- 248
+if$ -- 7361
 int.to.chr$ -- 0
-int.to.str$ -- 109
-missing$ -- 153
-newline$ -- 381
-num.names$ -- 127
-pop$ -- 420
+int.to.str$ -- 124
+missing$ -- 171
+newline$ -- 430
+num.names$ -- 141
+pop$ -- 482
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 772
+skip$ -- 896
 stack$ -- 0
-substring$ -- 1421
-swap$ -- 494
+substring$ -- 1672
+swap$ -- 571
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 254
-width$ -- 112
-write$ -- 1079
+warning$ -- 6
+while$ -- 295
+width$ -- 127
+write$ -- 1223
 (There were 10 error messages)
