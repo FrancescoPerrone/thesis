@@ -1,0 +1,28 @@
+\documentclass[border=15pt, crop=true]{standalone}
+
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\arraystretch}{1.5}
+
+\definecolor{fpgreen}{HTML}{38c202}
+\definecolor{fpred}{HTML}{DB2031}
+\definecolor{fpgray}{HTML}{78828C}
+
+\begin{document}
+	
+	\begin{tabularx}{0.98\linewidth}{>{\bfseries}l >{\centering\arraybackslash}X >{\centering\arraybackslash}X X}
+		\rowcolor{fpgreen!30}
+		\textcolor{fpred}{Test Type} & \textcolor{fpred}{Statistic} & \textcolor{fpred}{p-value CI} & \textcolor{fpred}{Interpret.} \\
+		\toprule
+		\rowcolor{fpgreen!10}
+		Chi-squared (donation totals) & $\chi^2 = 4.25$ & $p = 0.039$ & Significant difference in donation sums \\
+		\rowcolor{white}
+		Mann-Whitney U (nonparametric) & $U = 777.0$ & $p = 0.194$ & No significant difference in distributions \\
+		\rowcolor{fpgreen!10}
+		Bootstrapped Mean Diff & $\Delta M = £0.71$ & CI = [$-£0.33$, £1.79] & Directional but CI includes 0 \\
+		\bottomrule
+	\end{tabularx}
+	
+\end{document}

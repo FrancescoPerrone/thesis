@@ -1,0 +1,32 @@
+\documentclass[border=15pt, crop=true]{standalone}
+
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\arraystretch}{1.5}
+
+\definecolor{fpgreen}{HTML}{38c202}
+\definecolor{fpred}{HTML}{DB2031}
+\definecolor{fpgray}{HTML}{78828C}
+
+\begin{document}
+	
+	\begin{tabularx}{0.98\linewidth}{>{\bfseries}l *{3}{>{\centering\arraybackslash}X}}
+		\rowcolor{fpgreen!30}
+		\textcolor{fpred}{Variable} & \textcolor{fpred}{Mean (Control)} & \textcolor{fpred}{Mean (Robot)} & \textcolor{fpred}{Overall Mean} \\
+		\toprule
+		\rowcolor{fpgreen!10}
+		Donation (£) & 1.89 & 1.17 & 1.51 \\
+		\rowcolor{white}
+		Age (years) & 22.71 & 24.29 & 23.53 \\
+		\rowcolor{fpgreen!10}
+		Empathizing & 45.94 & 42.82 & 44.32 \\
+		\rowcolor{white}
+		Systemizing & 30.00 & 32.45 & 31.27 \\
+		\rowcolor{fpgreen!10}
+		Openness & 1.86 & 1.32 & 1.58 \\
+		\bottomrule
+	\end{tabularx}
+	
+\end{document}

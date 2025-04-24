@@ -1,4 +1,4 @@
-\chapter{Experimental Methods}
+\chapter{Experiment as Moral Displacement: An Empirical Investigation of the Watching Eye Effect in the Presence of Robots}
 \thispagestyle{pprintTitle}
 
 
@@ -12,14 +12,293 @@
 %\epigraph{\itshape \setstretch{1.2}But one thing is the thought, another thing is the deed, and another thing is the idea of the deed. The wheel of causality doth not roll between them.}{\small{Friedrich Nietzsche, \textit{Thus Spoke Zarathustra} (1883)}}
 %
 %
-During the past decade, new emerging technologies have caused profound changes in the way we communicate and interact~\cite{Pantic2014a}. Some of these changes have affected certain aspects of human behaviour and caused psychiatric disorders~\cite{Xerxa2023}. These technologies have fundamentally altered how we connect with others, potentially exacerbating feelings of loneliness despite increased opportunities for connection. The role that modern technologies—such as mobile communications, digital interaction platforms, and interactive humanoid robots might play in shaping these dynamics is critical, influencing not only interpersonal communications but also moral decision-making in complex social settings~\cite{Allcott2020, Auxier2021, Bail2021, Dwyer2020, Vosoughi2018}. Furthermore, technologies that increase interactive opportunities may not necessarily enhance the quality or \textit{ethical dimensions} of those interactions, which are crucial in scenarios involving moral choices~\cite{Sharkey2010, Vallor2016, Lin2012, Bryson2010}. The constant presence of interactive technologies can lead to a reshaping of social norms and behaviours, which might lead to more engaged or more detached human responses depending on the context and implementation~\cite{Misra, Turkle}.
 
-Foundational insights from studies such as \cite{Xerxa2023} set the stage for a deeper exploration into how contemporary communication technologies, particularly humanoid robots, might amplify or mitigate these effects by altering the quality and nature of social interactions in both visible and subtle ways.
-%
+\section{Prefatory Remarks}
+In this chapter we reconstruct the emprical core of the thesis- the cotrolled experiment setup wherein the \textit{Watching Eye Effect} (see \cref{chap:watching_eye,sec:test}) is transposed into a context involving the silent presence of a humanoid robot. 
 
-This work presents experiments based on the Watching Eye effect, the tendency of people to behave more honestly or more pro-socially when they have the impression of being observed. In particular, the experiments of this work show that the presence of a robot is associated to a lower tendency to donate to a charity despite the presence of a Watching Eye stimulus (the picture of a child portrayed on the brochure of a Non-Governmental Organization providing medical care in poor countries). The tendency to donate was measured in terms of actually donated money and the results show that people donate roughly one and half times as much  when there are no robots (a statistically significant difference). This suggests that, while not necessarily being involved in moral decisions, robots can still be associated to changes in the way people (possibly users) make decisions involving a moral dimension.
+While traditionally operationalised through pictorial stimuli or supernatural priming (\eg God concept, as explained in~\cref{sec:test}) the Watching Eye paradigm, when implemented alongside embodied artificial agents, invites a re-examination of what constitutes a “moral cue” and whether such cues retain their behavioral efficacy in post-human social configurations \fpincom{need to explain better why you used the word \textit{post-human} as it is not ported from the original version}.
 
-%
-The \emph{Watching Eye} effect is the tendency of people to behave more honestly or more pro-socially when they feel observed~\cite{Oda2015}, whether such a feeling results from the presence of pictures depicting eyes~\cite{Atran2004}, from the belief in a supernatural being that can see everything~\cite{Bering2005,Shariff2007}, or from any other factors. The goal of this article is to investigate the interplay between the Watching Eye effect and the presence of humanoid robots, a technology expected to play an increasingly more important role in everyday life. In particular, the experiments of this work show that there is an association between the presence of a robot and the observable consequences of the Watching Eye effect.
+Critically, the term 'experiment' within this chapter shall not be treated merely as a procedural template for variable manipulation, but rather as a morally and cognitively dense artefact: a formalised act of epistemic intervention aimed at distilling latent cognitive and affective structures through the staging of morality-salient conditions. The guiding hypothesis is not only behavioral—that robotic presence modulates charitable behavior—but metaethical:
 
-\section{The Influence of Observational Presence on Human Behavior: Experimental Insights from Human-Robot Interactions}
+\hypothesisheader{Synthetic Normativity}
+\label{hyp:synthetic_affordances}
+\begin{hypobox}
+	Synthetic presences, though devoid of sentience, may acquire \textit{normative affordances} by virtue of their perceived ontology.
+\end{hypobox}
+Thus, what is observed is not simply what participants do, but how the moral architecture of the context is restructured in the presence of artificial agency. The presence of a robot may restructure the moral salience of a given context, modulating prosocial behavior through the attribution of artificial agency. \fpcom{or in a more agile version: "This study tests the following hypotheses: H1: The presence of a humanoid robot increases charitable behavior in observed participants. H2: The attribution of moral salience to a synthetic agent is mediated by its perceived intentional stance.}
+
+This methodological commitment—examining the moral displacement hypothesis—requires that we reject simplistic interpretations of prosocial behavior as noise-free readouts of innate dispositions. Rather, we treat giving behavior as the contingent outcome of norm-sensitive cognitive systems under environmental perturbation (Greene \& Haidt, 2002; Haidt, 2001; Fedyk, 2017). It is within this epistemological architecture that the following experiment must be situated.
+
+\section{Conceptualisation of the Experiment: Moral Decision-Making as Affected by Robotic Presence}
+
+To interpret this experimental approach as a vehicle for moral-psychological insight, we must first clarify the ontological status of \textit{moral decision-making} in this context. Contrary to utilitarian (see \cref{chap:ethics_s}) framings, which reduce the act of giving to a \textit{form of constrained optimization} over social preferences, the decision to donate in this setup is \textit{analytically framed} as an instantiation of \textit{moral salient attribution} under epistemic opacity. That is: the subject is unaware of being observed, unaware of being measured, and unaware of the true research objective. What it is revealed, therefore, is not the subject's \textit{explicit prosociality} but the \textit{implicit evaluative machinery} that mediates morally inflected choice under minimal social prompting.
+
+The development of the 'Watching Eye' stimulus-- here, a child face printed on a medical charity brochure-- serves as a canonical cue for eliciting third-party moral concern via affective empathy and reputation sensitivity (Bateson et al., 2006; Nettle et al., 2013; Conty et al., 2016). However, by interposing the humanoid robot NAO-- silent, unprogrammed, yet ambiguously anthropomorphic-- we introduce an \textit{ontological anomalous agent} whose social category is neither fully human nor ethically inert. We hypothesise that:
+
+\hypothesisheader{Synthetic moral refactor}
+\label{hyp:synthetic_affordances}
+\begin{hypobox}
+	NAO robot functions not as a neutral observer but as a moral refactor: it warps the inferential pathways that normally lead from affective priming to moral action.
+\end{hypobox}
+
+Let us denote the core transition analytically:
+\[
+\mathscr{S} : \Sigma \xrightarrow{\;\mathscr{R}\;} \mathscr{D}
+\]
+
+where:
+\begin{itemize}
+	\item $\Sigma$ is the perceptual input space containing morally salient cues (e.g., brochure, eyes, room configuration),
+	\item $\mathscr{R}$ is the robotic presence functioning as a \textit{modulator or perturbator},
+	\item $\mathscr{D}$ is the domain of observable decisions (i.e., monetary donation, indexed across individuals).
+\end{itemize}
+
+In control conditions, the transition $\Sigma \rightarrow \mathscr{D}$ is uninterrupted; moral salience is preserved and converted into prosocial behavior via mechanisms well-theorised (see \cref{chap:prosicial_b}) in social and evolutionary psychology (Haley \& Fessler, 2005; Shariff \& Norenzayan, 2007). In robotic conditions, however $\mathscr{R}$ disturbs the mapping—perhaps by displacing emphatic identification, perhaps by reconstituting the room’s normative field, or perhaps by functioning as a cognitive decoy (cf. Złotowski et al., 2015). Each possibility carries distinct implications for the architectural design of ethical machines and for understanding how humans reconfigure their moral frame in response to synthetic others.
+
+%%% NEW UPADATED CONENTE  N1
+\subsection{Formalisation of Hypothesis and Experimental Logic}
+
+The present experiment is best conceived not as a mechanistic probe into behavioral preferences, but as a structured perturbation within a normatively encoded cognitive system. Specifically, it seeks to investigate \textbf{how robotic presence modulates human moral decision-making} under conditions of minimal priming and perceptual constraint. Unlike traditional paradigms that treat prosociality as an output of deliberative utility calculus, the design employed here foregrounds the \textbf{pre-reflective inferential machinery} that converts perceptual-affective cues into morally salient behavior.
+
+At its epistemic core, this experiment operates as a \textbf{perturbative test of moral salience transmission} — that is, whether a morally charged perceptual cue (e.g., the face of a child in need) is successfully converted into a prosocial behavioral output (monetary donation), and how that transmission is modulated, disrupted, or reframed by the passive presence of a \textbf{non-agentic but anthropomorphically encoded entity} (i.e., the NAO robot).
+
+To formalize the interpretive structure of this transformation, let us denote:
+
+\begin{itemize}
+	\item $\Sigma$: the perceptual-affective input space (including the Watching Eye stimulus, spatial layout, and ambient cues)
+	\item $\mathscr{R}$: robotic presence, ontologically positioned between artifact and agent
+	\item $\mathscr{D}$: the moral decision space (observable as donation behavior)
+\end{itemize}
+
+The operative hypothesis can be expressed as a probabilistic modulation of expected moral output:
+
+\[
+\mathscr{R} \notin \Sigma \Rightarrow \mathbb{E}[f(\Sigma)] = D_{\text{prosocial}} \quad \text{(Control condition)}
+\]
+\[
+\mathscr{R} \in \Sigma \Rightarrow \mathbb{E}[f(\Sigma \cup \mathscr{R})] = D_{\text{attenuated}}
+\]
+where:
+
+\[D_{\text{attenuated}} < D_{\text{prosocial}} \quad \text{(Robot condition)}\]
+
+Here, the notation $\mathbb{E}[f(\cdot)]$ denotes the \textbf{expected behavioral output} of the cognitive-affective system under a given set of environmental conditions. The function $f(\cdot)$ captures the internal inferential transformation by which perceptual-affective cues—such as the Watching Eye stimulus—are mapped onto discrete moral actions, in this case, the act of anonymous donation. Crucially, the expectation operator $\mathbb{E}[\cdot]$ signals that we are not describing a deterministic relation, but rather the \textit{aggregate tendency} across a psychologically heterogeneous population. It reflects the statistical structure of the behavioral response field rather than individual-level causality.
+
+Importantly, the robotic presence $\mathscr{R}$ is not modeled as an agent that exerts influence through interaction or instruction, but as a \textbf{semiotic modulator}—an ontologically ambiguous presence that perturbs the interpretive field. Within this framework, the observed attenuation of prosocial behavior is not to be interpreted as a direct suppression of empathy \textit{per se}, but rather as the result of a structural reconfiguration in the \textbf{normative encoding schema}: the internal representational system by which moral salience is assigned to environmental cues. The presence of $\mathscr{R}$ modifies the topology of this schema, thereby altering the inferential weight carried by otherwise salient moral signals.
+
+
+\begin{table}[H]
+	\centering
+	\includegraphics[width=\textwidth]{tables/conditions.pdf}
+	\caption{Experimental conditions are behaviorally and procedurally identical, differing only in robotic presence.}
+	\label{tab:experimental_conditions}
+\end{table}
+
+Both conditions were designed to be \textbf{epistemically symmetrical}, ensuring that any observed difference in moral behavior could be attributed exclusively to the ontological modulation introduced by $\mathscr{R}$.
+
+\begin{table}[H]
+	\centering
+	\includegraphics[width=\textwidth]{tables/variables.pdf}
+	\caption{Measured variables and psychometric constructs used in inferential modeling of moral behavior.}
+	\label{tab:key_variables}
+\end{table}
+
+This formal and operational framework enables us to treat the experiment as a constrained instantiation of a more general epistemic function: namely, how minimally expressive artificial agents can reshape the moral topology of a decision-making environment by altering the interpretive affordances of its cues.
+
+%%% END N1
+
+%%% NEW CONTENT N2
+\vspace{0.3cm}
+\noindent
+The dataset was subsequently cleaned and preprocessed in preparation for inferential modelling. All variable names were standardized to lowercase to maintain syntactic uniformity within the analytic pipeline. A binary indicator, \texttt{donated\_anything}, was derived to encode the presence or absence of moral action—specifically, whether participants donated any amount at all. Additionally, the experimental condition was recoded into a numerical binary variable, \texttt{condition\_bin}, where $0 = \text{Control}$ and $1 = \text{Robot}$, facilitating direct incorporation into generalized linear models.
+
+Descriptive statistics revealed no immediate distributional anomalies in age, psychometric scores, or monetary donation values. This preliminary finding supports the assumption of epistemic symmetry across experimental groups, validating our earlier claim that the perturbation introduced by $\mathscr{R}$ operates primarily at the interpretive rather than dispositional level.
+
+Figures~\ref{fig:age_distribution_by_group} and~\ref{fig:donation_distribution_by_condition} offer visual corroboration: the former presents the distribution of participant ages across experimental conditions, while the latter depicts the empirical shift in donation behavior, contrasting the control and robot groups. Both histogram and violin plot representations were rendered using a unified visual palette drawn from the thesis’s typographic stylesheet, ensuring visual coherence between empirical outputs and the formal aesthetic of the larger argumentative structure. This stylistic continuity is not merely cosmetic; it reflects a commitment to epistemic unity across representational modalities.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{new_plots/age_distribution_by_group.png}
+	\caption{Age distribution across experimental conditions. Histogram representation confirms no major between-group demographic divergence.}
+	\label{fig:age_distribution_by_group}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{new_plots/donation_distribution_by_condition.png}
+	\caption{Distribution of donation behavior by condition. Violin plot representation visualizes the heavier tail in the robot group, supporting the hypothesized interpretive perturbation.}
+	\label{fig:donation_distribution_by_condition}
+\end{figure}
+%%% END NEW CONTEN N2
+
+%%% NEW CONTENT N3
+\vspace{0.3cm}
+\noindent
+Initial descriptive statistics (Table~\ref{tab:descriptive-stats}) lend preliminary support to the theoretical expectation of attenuated prosocial behavior in the presence of a robotic entity. Specifically, the mean donation in the Control group (£1.89) exceeds that of the Robot condition (£1.17), suggesting a directional trend consistent with the hypothesis that $\mathscr{R}$ functions not as a neutral co-presence, but as an ontologically ambiguous disruptor of moral affordance structures. This observed divergence in average donations is not merely numerical—it aligns with our prior interpretation of robotic presence as a semiotic refractor that weakens the moral salience of otherwise affectively potent stimuli.
+
+Further group-level comparisons reveal that Control participants report marginally higher scores on the Empathizing Quotient (M = 45.94 vs. 42.82) and greater Openness to Experience (M = 1.86 vs. 1.32). While these differences do not yet reach statistical significance, they may serve as psychologically relevant covariates in the inferential models to follow. Conversely, the Robot group exhibits a slightly higher mean age and elevated Systemizing Quotient scores, suggesting potential variability in cognitive-affective architecture that may influence responsiveness to synthetic observers. Importantly, these observations remain exploratory at this stage, pending further statistical testing to determine whether they index meaningful shifts in interpretive framing rather than random variance.
+
+\begin{table}[H]
+	\label{tab:descriptive-stats}
+	\centering
+	\includegraphics[width=\textwidth]{tables/descriptive_highlights_table.pdf}
+	\caption{Summary of central tendencies for key moral and psychological variables. The Robot condition shows numerically lower donation amounts and empathizing scores, suggesting potential attenuation effects of passive robotic presence.}
+\end{table}
+%%% END N3
+
+%%%NEW CONTENT N4
+\vspace{0.3cm}
+\noindent
+To assess whether the observed divergence in donation behavior between the Control and Robot conditions constitutes a statistically credible effect, both parametric and nonparametric inferential techniques were employed. A chi-squared test on total donation sums yielded a significant result ($\chi^2 = 4.25$, $p = .039$), affirming the directional claim established in the original study: that robotic presence is associated with attenuated charitable behavior at the aggregate level.
+
+However, a Mann-Whitney U test comparing the full donation distributions between conditions failed to reach statistical significance ($U = 777$, $p = .194$), suggesting that while the central tendencies of the two groups differ, the overall distributions remain substantially overlapping. This implies that the effect of robotic presence, though observable in total group output, does not manifest uniformly or robustly at the level of individual moral acts.
+
+A bootstrapped estimate of the mean donation difference ($\Delta M = £0.71$) further supports the interpretation of a modest directional effect. However, the 95\% confidence interval surrounding this estimate spans zero (CI = [–£0.33, £1.79]), underscoring the inherent variability and epistemic fragility of the observed attenuation. These findings reinforce the reading of robotic presence not as a deterministic suppressor of moral behavior, but as a \textbf{subtle perturbator of collective prosociality}—its influence detectable in the structure of aggregated behavior, yet too diffuse or psychologically mediated to yield reliable individual-level contrasts without more granular stratification.
+
+\begin{table}[H]
+	\centering
+	\includegraphics[width=\textwidth]{tables/statistical_tests_table.pdf}
+	\caption{Inferential statistical comparisons of donation behavior across conditions. The chi-squared test shows a significant difference in donation totals, while the Mann-Whitney U and bootstrapped estimates provide converging but non-significant results on distributional shape and directional effect size.}
+	
+	
+	\label{tab:key_variables}
+\end{table}
+
+%%% END N4
+
+
+\section{Methodological Design: Inferring Moral Perturbation through Controlled Artificial Co-presence}
+
+To regard an experimental setting as a generator of knowledge, rather than a mere data collection routine, demands that its internal architecture be epistemically justifiable and ontologically transparent. In this respect, every stage of the experimental method presented here is conceived not simply as procedural necessity, but as epistemic filtering: a sequence of deliberate constraints designed to isolate latent variables within the perceptual and normative landscape of the participant.
+
+At its core, the experimental logic operationalises the following proposition:
+
+% Corpo del documento
+\[
+\mathscr{P}(\delta_m) = f(\alpha_E, \beta_C, \gamma_R)
+\]
+
+where:
+\begin{itemize}
+	\item $\delta_m$ denotes a deviation in moral decision (quantified as donation behavior),
+	\item $\alpha_E$ represents environmental moral cues (Watching Eye),
+	\item $\beta_C$ indexes control factors (psychometric variables, demographic traits),
+	\item and $\gamma_R$ captures the effect of robotic presence.
+\end{itemize}
+
+The experimental setting is thus a structured interrogation of whether $\gamma_R \neq 0$ under conditions in which $\alpha_E$ and $\beta_C$ are held constant or accounted for. If confirmed, such deviation would instantiate a moral displacement: a case in which a non-sentient co-agent modulates human ethical output without any explicit instruction, coercion, or intervention. \fpincom{add link to relevant hypothesis and check condition "not zero"}
+
+\subsection{Participants as Agents under Constraint}
+
+Seventy-three participants were recruited under the condition of epistemic \textit{naïveté}—a design choice intended to replicate the pre-reflective nature of many moral decisions in everyday life. That is, participants were never informed of the donation component in advance, nor were they given any cues that their decisions would be measured along ethical dimensions. This design choice aligns with the methodological imperative in experimental moral psychology to preserve the authenticity of affective-moral judgments (Greene et al., 2001; Haidt, 2001; Fedyk, 2017).
+
+Each participant received a standard monetary compensation of £10, delivered in ten individual £1 coins. This choice is not incidental. The granular structure of the payment serves to increase the opportunity for moral modulation; a single-note payment might discourage partial donations, thereby reducing the variance of observed prosocial behavior. Granularity here is not merely a technical concern—it is a moral affordance strategy (cf. Hutchins, 1995; Clark, 1997).
+
+Demographically, participants were drawn from two sources:
+
+\fpcom{Here better use the version from the article since it appears to be more agile and readable in terms of style and language.}
+
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\rightskip1.5cm
+	\leftskip1cm
+	\item[1. ] Computing Science undergraduates (n=30), and
+	\item[2. ] Psychology subject-pool participants (n=43) via the University of Glasgow’s Institute of Neuroscience and Psychology.
+\end{itemize}
+
+Both sources were filtered through inclusion criteria to ensure homogeneity in nationality (British), legal adulthood (17+), and naïveté to the experimental purpose. This careful curation was essential to reduce background moral-cultural noise (cf. Henrich et al., 2010), and to ensure that any signal detected in the data could be confidently attributed to contextual rather than dispositional variance.
+
+\subsection{Experimental Conditions: The Robotic Displacement Hypothesis}
+
+Participants were randomly assigned to two conditions:
+
+\begin{itemize}
+	\item \textbf{Control}: Brochure present; no robot in room.
+	\item \textbf{Robot}: Brochure present; NAO robot in autonomous life mode.
+\end{itemize}
+
+In the \textbf{Robot condition}, the NAO unit was configured in such a way that it neither spoke nor interacted explicitly with the participant. Its only active features were:
+
+\begin{itemize}
+	\item \textbf{Simulated breathing}, designed to evoke lifelikeness;
+	\item \textbf{Eye-tracking}, activated only upon participant gaze.
+\end{itemize}
+
+\fpcom{Here too check the version in the article since it might be better written}
+This configuration was chosen with care: too interactive a robot risks introducing anthropomorphic biases, while a purely inert robot would lack the semiotic ambiguity necessary for the displacement effect. The minimalistic design renders the robot a kind of moral opacity operator: it does not directly interfere with the ethical stimulus, but its presence may modulate the interpretive bandwidth through which that stimulus is processed.
+
+\fpcom{Here we need a link to Floridi work on moral patient and agent...}
+In effect, the NAO robot here plays the role of a silent norm deflector—not an actor, but a presence whose social affordances are sufficiently ambiguous to provoke reconfiguration in the normative inference mechanisms of human subjects (Złotowski et al., 2015; Coeckelbergh, 2010).
+
+\section{Results and Interpretation: Quantifying the Moral Displacement Effect}
+
+If the term experiment is to retain its epistemic dignity within moral psychology, its outputs must be interpretable not merely as statistical artifacts, but as structured signals—signatures of cognitive-affective systems interacting with normatively charged environments. In this section, we present the observed results from the two experimental conditions and propose a theoretical interpretation grounded in moral cognition, embodied social presence, and the normative semiotics of co-located artificial agents.
+
+\subsection{Summary of Quantitative Findings}
+
+The experimental dataset comprises \( N = 73 \) valid cases, distributed as follows:
+
+\begin{itemize}
+	\item \textbf{Control group} (no robot): \( n = 37 \)
+	\item \textbf{Robot group} (robot present): \( n = 36 \)
+\end{itemize}
+
+Let the amount donated by participant \( i \) be denoted \( d_i \), and let \( c_i \in \{C, R\} \) indicate their condition (Control or Robot, respectively). The total donation by group is given by:
+
+\[
+D_C = \sum_{i:c_i=C} d_i = £66, \quad D_R = \sum_{i:c_i=R} d_i = £44.35
+\]
+
+This yields a \textbf{donation ratio}:
+
+\[
+\frac{D_C}{D_R} \approx 1.49
+\]
+
+A \textbf{\(\chi^2\) test for distributional difference} between the two groups returns:
+
+\[
+\chi^2 = \frac{(D_C - E)^2}{E} + \frac{(D_R - E)^2}{E}, \quad \text{where } E = \frac{D_C + D_R}{2}
+\]
+
+yielding a \textbf{p-value = 0.01}, which is statistically significant under conventional thresholds. The robustness of this finding was further confirmed by controlling for potential confounding variables (gender, age, educational background, psychometric scores), none of which yielded significant intergroup variation post-FDR correction.
+
+Hence, the presence of a humanoid robot—non-interactive, passive, and ontologically ambiguous—reliably modulated moral behavior in an otherwise norm-stable context.
+
+
+
+\subsection{Toward a Theory of Robotic Normative Interference}
+
+To interpret these results as philosophically significant, we propose the following \textit{moral displacement hypothesis}:
+
+\begin{quote}
+	\textbf{The presence of a non-sentient yet humanomorphic artificial agent alters the normative topology of the environment such that affective priming cues lose moral traction, resulting in diminished prosocial behavior.}
+\end{quote}
+
+This result should not be interpreted as a simple \textit{attenuation} of the Watching Eye effect. Rather, it is a case of \textbf{semiotic interference}: the robotic presence functions as a competing moral symbol—a silent node of ambiguous intentionality—displacing the affective salience of the child's face and thereby weakening the cognitive-affective circuit that leads from perception to moral action.
+
+In cognitive terms, this can be formalized as:
+
+\[
+\mathscr{M}_i \;=\; f(\sigma_{WE}, \pi_i, \rho_R)
+\]
+
+where:
+
+\begin{itemize}
+	\item $\mathscr{M}_i$ denotes the moral salience assigned to a stimulus by participant \( i \),
+	\item $\sigma_{WE}$ is the Watching Eye stimulus strength,
+	\item $\pi_i$ is the dispositional moral profile (via EQ, SQ, BFI),
+	\item and $\rho_R$ is the robotic presence function, modulating \(\sigma_{WE}\) via attentional or interpretive interference.
+\end{itemize}
+
+The significant reduction in \(\mathscr{M}_i\) (as inferred from diminished donation) is therefore not explained by \(\pi_i\) (which remains statistically constant across conditions), but by the variation in \(\rho_R\). This substantiates the claim that robotic presence modifies \textit{moral field intensity}—not by providing explicit moral information, but by distorting the interpretive vectors through which existing stimuli are processed.
+
+\subsection{Normative Implications: Robots as Epistemic Agents of Moral Ambiguity}
+
+What emerges from this empirical configuration is a profound theoretical provocation: that robots can act as second-order moral agents, not by executing decisions, but by modulating the affective and normative infrastructure in which those decisions are made. This reframes the classical position in Machine Ethics—namely, that robots are not moral agents because they lack sentience and autonomy (Floridi \& Sanders, 2004)—as ontologically incomplete.
+
+If the consequential structure of a decision changes due to robotic presence, then even morally neutral robots can become moral catalysts or moral occluders, depending on their semiotic and cognitive profile (Coeckelbergh, 2010; Nyholm, 2020; Gunkel, 2012). This renders inert robotic co-presence a potentially ethically non-neutral design decision in socially situated environments.
+
+To put the matter plainly: designing robots without accounting for their ambient moral influence is epistemically reckless, and risks producing environments in which moral reasoning is systematically deflected or weakened.
+

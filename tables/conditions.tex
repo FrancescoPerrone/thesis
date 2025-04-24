@@ -1,0 +1,27 @@
+\documentclass[border=15pt, crop=true]{standalone}
+
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\arraystretch}{1.5}
+
+% Colori identici al tuo template
+\definecolor{fpgreen}{HTML}{38c202}
+\definecolor{fpred}{HTML}{DB2031}
+\definecolor{fpgray}{HTML}{78828C}
+
+\begin{document}
+	
+	\begin{tabularx}{0.95\linewidth}{>{\bfseries}l X}
+		\rowcolor{fpgreen!30}
+		\textcolor{fpred}{Condition} & \textcolor{fpred}{Description} \\
+		\toprule
+		\rowcolor{fpgreen!10}
+		Control & Participant encounters a donation leaflet with a child’s face. No robot present. \\
+		\rowcolor{white}
+		Robot & Identical setting, but with the NAO robot passively placed in the room. No verbal or behavioral interaction occurs. \\
+		\bottomrule
+	\end{tabularx}
+	
+\end{document}

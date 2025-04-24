@@ -1,0 +1,44 @@
+\documentclass[border=15pt, crop=true]{standalone}
+
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\arraystretch}{1.5}
+
+\definecolor{fpgreen}{HTML}{38c202}
+\definecolor{fpred}{HTML}{DB2031}
+\definecolor{fpgray}{HTML}{78828C}
+
+\begin{document}
+	
+	\begin{tabularx}{0.98\linewidth}{>{\bfseries}l l X}
+		\rowcolor{fpgreen!30}
+		\textcolor{fpred}{Variable} & \textcolor{fpred}{Type} & \textcolor{fpred}{Description} \\
+		\toprule
+		\rowcolor{fpgreen!10}
+		\texttt{donation} & Continuous & Amount of money (in £) donated anonymously by the participant \\
+		\rowcolor{white}
+		\texttt{condition} & Categorical & Binary variable: \texttt{Control} or \texttt{Robot} \\
+		\rowcolor{fpgreen!10}
+		\texttt{empathizing} & Continuous & EQ score; proxy for affective resonance and perspective-taking \\
+		\rowcolor{white}
+		\texttt{systemizing} & Continuous & SQ score; proxy for preference for rule-based interpretation \\
+		\rowcolor{fpgreen!10}
+		\texttt{openness} & Continuous & Big Five: intellectual curiosity and openness to experience \\
+		\rowcolor{white}
+		\texttt{conscientiousness} & Continuous & Big Five: order, responsibility, goal orientation \\
+		\rowcolor{fpgreen!10}
+		\texttt{extraversion} & Continuous & Big Five: sociability and assertive energy \\
+		\rowcolor{white}
+		\texttt{agreeableness} & Continuous & Big Five: trust, cooperation, social harmony \\
+		\rowcolor{fpgreen!10}
+		\texttt{neuroticism} & Continuous & Big Five: emotional volatility and reactivity \\
+		\rowcolor{white}
+		\texttt{gender} & Categorical & Participant-reported gender identity \\
+		\rowcolor{fpgreen!10}
+		\texttt{age} & Integer & Participant's age in years \\
+		\bottomrule
+	\end{tabularx}
+	
+\end{document}
