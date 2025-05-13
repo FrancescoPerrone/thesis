@@ -1,0 +1,32 @@
+\documentclass[border=15pt, crop=true]{standalone}
+
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{array}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\arraystretch}{1.6}
+
+\definecolor{fpgreen}{HTML}{38c202}
+\definecolor{fpred}{HTML}{DB2031}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\begin{document}
+	
+	\begin{tabular}{L{9cm} L{6.2cm}}
+		\rowcolor{fpgreen!30}
+		\textcolor{fpred}{\textbf{Goal}} & \textcolor{fpred}{\textbf{Method}} \\
+		\toprule
+		\rowcolor{fpgreen!10}
+		Verify stability of results without normality assumption & \textbf{Robust bootstrapping} \\
+		\rowcolor{white}
+		Move beyond p-values and incorporate uncertainty directly into effect estimation & \textbf{Bayesian Estimation} \\
+		\rowcolor{fpgreen!10}
+		Estimate full probability distribution over donation difference & \textbf{Bayesian credible intervals} \\
+		\rowcolor{white}
+		Make epistemically transparent claims under model uncertainty & \textbf{Bayesian posterior inference} \\
+		\bottomrule
+	\end{tabular}
+	
+\end{document}

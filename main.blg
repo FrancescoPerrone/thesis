@@ -7,10 +7,13 @@ A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: moral_d.aux
 Case mismatch error between cite keys kahneman2011 and Kahneman2011
----line 214 of file moral_d.aux
+---line 217 of file moral_d.aux
  : \citation{kahneman2011
  :                       }
 I'm skipping whatever remains of this command
+A level-1 auxiliary file: ethics_s.aux
+A level-1 auxiliary file: watching_eye.aux
+A level-1 auxiliary file: prosocial_b.aux
 A level-1 auxiliary file: experimental_methods.aux
 A level-1 auxiliary file: methodology.aux
 A level-1 auxiliary file: cuts.aux
@@ -91,6 +94,8 @@ Warning--I didn't find a database entry for "laudan1987"
 Warning--I didn't find a database entry for "bricmont2016"
 Warning--I didn't find a database entry for "woodward2007"
 Warning--I didn't find a database entry for "bird2000"
+Warning--I didn't find a database entry for "baroncohen2004"
+Warning--I didn't find a database entry for "baroncohen2003"
 Warning--I didn't find a database entry for "Pantic2014a"
 Warning--I didn't find a database entry for "Xerxa2023"
 Warning--I didn't find a database entry for "Allcott2020"
@@ -110,45 +115,45 @@ Warning--there's a number but no series in Hare1991
 Warning--empty journal in Greene2015
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
-You've used 124 entries,
+You've used 125 entries,
             1876 wiz_defined-function locations,
-            1342 strings with 21684 characters,
-and the built_in function-call counts, 29474 in all, are:
-= -- 2996
-> -- 934
+            1353 strings with 21966 characters,
+and the built_in function-call counts, 29806 in all, are:
+= -- 3034
+> -- 942
 < -- 0
-+ -- 372
-- -- 248
-* -- 1868
-:= -- 4081
-add.period$ -- 179
-call.type$ -- 124
-change.case$ -- 86
++ -- 375
+- -- 250
+* -- 1891
+:= -- 4124
+add.period$ -- 180
+call.type$ -- 125
+change.case$ -- 87
 chr.to.int$ -- 0
-cite$ -- 130
-duplicate$ -- 1600
-empty$ -- 3108
-format.name$ -- 248
-if$ -- 7361
+cite$ -- 131
+duplicate$ -- 1617
+empty$ -- 3138
+format.name$ -- 250
+if$ -- 7444
 int.to.chr$ -- 0
-int.to.str$ -- 124
-missing$ -- 171
-newline$ -- 430
-num.names$ -- 141
-pop$ -- 482
+int.to.str$ -- 125
+missing$ -- 172
+newline$ -- 433
+num.names$ -- 142
+pop$ -- 483
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 896
+skip$ -- 911
 stack$ -- 0
-substring$ -- 1672
-swap$ -- 571
+substring$ -- 1704
+swap$ -- 580
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 295
-width$ -- 127
-write$ -- 1223
+while$ -- 299
+width$ -- 128
+write$ -- 1234
 (There were 10 error messages)

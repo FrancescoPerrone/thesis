@@ -236,6 +236,49 @@
 	after skip=12pt
 }
 
+%%% NEW HYPO AND CON
+% Define a general counter
+\newcounter{statementcounter}
+
+% Define a general heading macro
+\newcommand{\statementheader}[2]{ % First argument = type, second = title
+	\refstepcounter{statementcounter}
+	\noindent\textbf{#1~\thestatementcounter: #2}
+}
+%%% END NEW VERSION
+
+%%% NEW EXPERIMENT PROTOCOL
+\newcounter{protocolcounter}
+
+\newcommand{\protocolheader}[1]{
+	\refstepcounter{protocolcounter}
+	\noindent\textbf{Protocol~\theprotocolcounter: #1}
+}
+
+\newcommand{\protocolheaderNoCounter}[1]{
+	\noindent\textbf{Protocol: #1}
+}
+
+
+
+\newtcolorbox{protocolbox}{
+	colback=green!10,
+	colframe=green!50!black,
+	boxrule=0.3pt,
+	sharp corners,
+	left=6pt,
+	right=6pt,
+	top=4pt,
+	bottom=4pt,
+	enhanced,
+	breakable, % ← ★ This line solves your problem
+	before skip=6pt,
+	after skip=12pt
+}
+
+
+%%% END EXPERIMENT PROTOCOL
+
 
 \newtheorem{definition}{Definition}
 

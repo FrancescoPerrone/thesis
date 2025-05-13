@@ -63,6 +63,10 @@ J.~H. Moor, ``The nature and limits of machine ethics,'' {\em AI and Society},
 J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
   IEEE Intelligent Systems}, vol.~21, no.~4, pp.~18--21, 2006.
 
+\bibitem{Moor2011}
+J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
+  Machine ethics}, pp.~13--20, 2011.
+
 \bibitem{Anderson2011}
 M.~Anderson and S.~L. Anderson, {\em Machine ethics}.
 \newblock Cambridge University Press, 2011.
@@ -70,10 +74,6 @@ M.~Anderson and S.~L. Anderson, {\em Machine ethics}.
 \bibitem{Moor1985}
 J.~H. Moor, ``What is computer ethics?,'' {\em Metaphilosophy}, vol.~16, no.~4,
   pp.~266--275, 1985.
-
-\bibitem{Moor2011}
-J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
-  Machine ethics}, pp.~13--20, 2011.
 
 \bibitem{Henderson2011}
 {\em The epistemological spectrum: at the interface of cognitive science and
@@ -542,6 +542,16 @@ C.~S. Rosati, ``{Moral Motivation},'' in {\em The {Stanford} Encyclopedia of
   Philosophy} (E.~N. Zalta, ed.), Metaphysics Research Lab, Stanford
   University, winter 2016~ed., 2016.
 
+\bibitem{rammstedt2007}
+B.~Rammstedt and O.~P. John, ``Measuring personality in one minute or less: A
+  10-item short version of the big five inventory in english and german,'' {\em
+  Journal of research in Personality}, vol.~41, no.~1, pp.~203--212, 2007.
+
+\bibitem{Levitis2009}
+D.~A. Levitis, W.~Z. Lidicker, and G.~Freund, ``Behavioral biologists do not
+  agree on what constitutes behavior,'' {\em Animal Behaviour}, vol.~78, no.~1,
+  pp.~103--110, 2009.
+
 \bibitem{Lin2012}
 P.~Lin, K.~Abney, and G.~A. Bekey, {\em Robot ethics: the ethical and social
   implications of robotics}.
@@ -556,10 +566,5 @@ R.~Oda, Y.~Kato, and K.~Hiraishi, ``The watching-eye effect on prosocial
 A.~F. Shariff and A.~Norenzayan, ``God is watching you: Priming god concepts
   increases prosocial behavior in an anonymous economic game,'' {\em
   Psychological science}, vol.~18, no.~9, pp.~803--809, 2007.
-
-\bibitem{Levitis2009}
-D.~A. Levitis, W.~Z. Lidicker, and G.~Freund, ``Behavioral biologists do not
-  agree on what constitutes behavior,'' {\em Animal Behaviour}, vol.~78, no.~1,
-  pp.~103--110, 2009.
 
 \end{thebibliography}
