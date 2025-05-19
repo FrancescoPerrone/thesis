@@ -34,8 +34,8 @@
 \contentsline {subsection}{\numberline {6.2.4}Participants as Agents under Constraint}{48}{subsection.6.2.4}%
 \contentsline {subsection}{\numberline {6.2.5}Experimental Conditions: The Robotic Displacement Hypothesis}{49}{subsection.6.2.5}%
 \contentsline {subsection}{\numberline {6.2.6}Temp below before part of 6.2}{50}{subsection.6.2.6}%
-\contentsline {subsection}{\numberline {6.2.7}Quantification of Behavioral Modulation: Parametric and Nonparametric Effect Sizes}{55}{subsection.6.2.7}%
-\contentsline {subsection}{\numberline {6.2.8}Latent Trait Structures and Individual Modulation of Moral Perturbation}{58}{subsection.6.2.8}%
+\contentsline {subsection}{\numberline {6.2.7}Quantification of Behavioral Modulation: Parametric and Nonparametric Effect Sizes}{57}{subsection.6.2.7}%
+\contentsline {subsection}{\numberline {6.2.8}Latent Trait Structures and Individual Modulation of Moral Perturbation}{59}{subsection.6.2.8}%
 \contentsline {subsection}{\numberline {6.2.9}Cluster-Specific Regression Analysis of Robotic Perturbation}{61}{subsection.6.2.9}%
 \contentsline {subsection}{\numberline {6.2.10}Bayesian Estimation and Epistemic Gradient Framing}{62}{subsection.6.2.10}%
 \contentsline {subsubsection}{Clarification for Non-Expert Readers}{64}{subsubsection*.46}%

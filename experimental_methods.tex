@@ -258,6 +258,28 @@ This formal and operational framework enables us to treat the experiment as a co
 
 %%% END N1
 
+%%% NEW CONTENT QUESTION 1
+\statementheader{Question}{Ontological Integrity of the Dataset}
+\label{question:data_structuring}
+\begin{questionbox}
+	\textbf{What are we asking of the data at this stage?}  
+	How can the raw dataset be transformed into a semantically coherent and mathematically compatible structure—one that preserves the normative architecture of the experiment and enables defensible inferences about moral behavior?
+\end{questionbox}
+
+Before any inferential operation can be meaningfully performed, we must render the dataset analytically legible and ontologically stable. At this foundational stage, our objective was not to extract patterns or test hypotheses, but to establish the semantic integrity and computational viability of the data matrix as a structured representation of moral decision-making.
+
+To that end, we applied a series of deliberate transformations grounded in both epistemic and statistical necessity. All variable names were normalized via lowercase conversion and string trimming to ensure syntactic uniformity and eliminate formatting artifacts that could corrupt downstream analysis. This is not a superficial aesthetic fix, but a formal intervention to prevent variable mismatches and ensure referential transparency.
+
+Next, we constructed a binary indicator variable (\texttt{donated\_anything}) encoding whether or not a donation was made. This transformation enables dual access to the dependent construct: as a continuous measure of moral generosity and as a categorical moral act. Encoding this binary distinction is essential for the application of methods such as chi-squared testing and logistic modeling, which depend on discrete outcomes.
+
+To integrate condition into regression-based frameworks, we converted the experimental labels “Control” and “Robot” into numeric form (\texttt{condition\_bin}: 0 and 1). Without this scalar transformation, the condition could not serve as a predictor in OLS, robust, or Bayesian models. In parallel, we verified the internal consistency of categorical fields (e.g., \texttt{gender}, \texttt{group}) to confirm alignment with the experimental design and to eliminate hidden structural imbalances.
+
+These procedures were not arbitrary conveniences, but ontological prerequisites. The dataset contains a mix of scalar (donation), ordinal (psychometric traits), and nominal (demographics) variables, each with distinct inferential affordances. Treating these as interchangeable—or failing to encode them appropriately—would collapse the moral structure of the experiment into analytic incoherence.
+
+Crucially, the size of the dataset (\(N \approx 70\)) makes manual oversight feasible, while still large enough to require principled automation. The transformations performed here are proportionate to that duality: they prevent category leakage, enable type-specific modeling, and uphold the structural validity of the moral inferences to follow.
+
+%%% END QUESTION 1
+
 %%% NEW CONTENT N2
 \vspace{0.3cm}
 \noindent
