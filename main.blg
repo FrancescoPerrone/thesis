@@ -35,28 +35,28 @@ I was expecting a `,' or a `}'---line 2125 of file /home/francesco/Desktop/resea
  :   publisher={Pearson}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2394 of file /home/francesco/Desktop/research/appunti/reference.bib
+I was expecting a `,' or a `}'---line 2396 of file /home/francesco/Desktop/research/appunti/reference.bib
  : 
  : author={Walsh,Toby},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2576 of file /home/francesco/Desktop/research/appunti/reference.bib
+Repeated entry---line 2578 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Kahneman2011
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2686 of file /home/francesco/Desktop/research/appunti/reference.bib
+Repeated entry---line 2688 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Gert2020
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2717 of file /home/francesco/Desktop/research/appunti/reference.bib
+Repeated entry---line 2719 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Haidt2012
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2793 of file /home/francesco/Desktop/research/appunti/reference.bib
+Repeated entry---line 2795 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Cushman2013
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2805 of file /home/francesco/Desktop/research/appunti/reference.bib
+Repeated entry---line 2807 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Haidt2012
  :                ,
 I'm skipping whatever remains of this entry
@@ -115,45 +115,45 @@ Warning--there's a number but no series in Hare1991
 Warning--empty journal in Greene2015
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
-You've used 125 entries,
+You've used 129 entries,
             1876 wiz_defined-function locations,
-            1353 strings with 21966 characters,
-and the built_in function-call counts, 29806 in all, are:
-= -- 3034
-> -- 942
+            1374 strings with 22406 characters,
+and the built_in function-call counts, 30592 in all, are:
+= -- 3114
+> -- 965
 < -- 0
-+ -- 375
-- -- 250
-* -- 1891
-:= -- 4124
-add.period$ -- 180
-call.type$ -- 125
-change.case$ -- 87
++ -- 385
+- -- 256
+* -- 1935
+:= -- 4233
+add.period$ -- 187
+call.type$ -- 129
+change.case$ -- 88
 chr.to.int$ -- 0
-cite$ -- 131
-duplicate$ -- 1617
-empty$ -- 3138
-format.name$ -- 250
-if$ -- 7444
+cite$ -- 135
+duplicate$ -- 1661
+empty$ -- 3228
+format.name$ -- 256
+if$ -- 7643
 int.to.chr$ -- 0
-int.to.str$ -- 125
-missing$ -- 172
-newline$ -- 433
-num.names$ -- 142
-pop$ -- 483
+int.to.str$ -- 129
+missing$ -- 179
+newline$ -- 448
+num.names$ -- 146
+pop$ -- 502
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 911
+skip$ -- 928
 stack$ -- 0
-substring$ -- 1704
-swap$ -- 580
+substring$ -- 1736
+swap$ -- 592
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 299
-width$ -- 128
-write$ -- 1234
+while$ -- 306
+width$ -- 132
+write$ -- 1272
 (There were 10 error messages)

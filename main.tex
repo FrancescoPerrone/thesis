@@ -207,6 +207,7 @@
     }
 
 % Define theorem styles
+\usepackage{ragged2e}
 
 \usepackage[most]{tcolorbox}
 \usepackage{amsthm}
@@ -221,30 +222,42 @@
 	\noindent\textbf{Hypothesis~\thehypocounter: #1}
 }
 
-% Define the box style (only for content)
-\newtcolorbox{hypobox}{
+\newtcolorbox{hypobox}[2][]{%
 	colback=gray!5,
 	colframe=black!70,
 	boxrule=0.3pt,
 	sharp corners,
+	width=0.85\textwidth,
+	halign=flush left,              % ← Ensures left-aligned box
 	left=6pt,
 	right=6pt,
 	top=4pt,
 	bottom=4pt,
 	enhanced,
-	before skip=6pt,
-	after skip=12pt
+	breakable,
+	before skip=12pt,
+	after skip=18pt,
+	before upper={\justifying},
+	title={\textbf{Hypothesis~\thestatementcounter:} \textit{#2}},
+	#1
 }
+
+\newcommand{\nextstatement}{\refstepcounter{statementcounter}}
+
+
+
 
 %%% NEW HYPO AND CON
 % Define a general counter
 \newcounter{statementcounter}
 
-% Define a general heading macro
-\newcommand{\statementheader}[2]{ % First argument = type, second = title
+\newcommand{\statementheader}[2]{ 
+	\vspace{0.75em}
 	\refstepcounter{statementcounter}
-	\noindent\textbf{#1~\thestatementcounter: #2}
+	\noindent{\normalsize\bfseries #1~\thestatementcounter: #2}\par
+	\vspace{0.5em}
 }
+
 %%% END NEW VERSION
 
 %%% NEW EXPERIMENT PROTOCOL

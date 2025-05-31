@@ -8,12 +8,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Demographic balance tests across experimental conditions. The table reports the original and FDR-corrected p-values for comparisons of gender, age, and group membership across conditions. No significant differences were detected after correction, supporting the assumption of demographic equivalence between groups.\relax }}{50}{table.caption.24}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Experimental conditions are behaviorally and procedurally identical, differing only in robotic presence.\relax }}{51}{table.caption.26}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Measured variables and psychometric constructs used in inferential modeling of moral behavior.\relax }}{51}{table.caption.27}%
-\contentsline {table}{\numberline {6.4}{\ignorespaces Summary of central tendencies for key moral and psychological variables. The Robot condition shows numerically lower donation amounts and empathizing scores, suggesting potential attenuation effects of passive robotic presence.\relax }}{54}{table.caption.30}%
-\contentsline {table}{\numberline {6.5}{\ignorespaces Inferential statistical comparisons of donation behavior across conditions. The chi-squared test shows a significant difference in donation totals, while the Mann-Whitney U and bootstrapped estimates provide converging but non-significant results on distributional shape and directional effect size.\relax }}{55}{table.caption.33}%
-\contentsline {table}{\numberline {6.6}{\ignorespaces Rationale for employing robust and Bayesian techniques in the analysis of donation behavior. Each method addresses different limitations of frequentist inference, enhancing the epistemic transparency and robustness of the findings.\relax }}{63}{table.caption.44}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Demographic balance tests across experimental conditions. The table reports the original and FDR-corrected p-values for comparisons of gender, age, and group membership across conditions. No significant differences were detected after correction, supporting the assumption of demographic equivalence between groups.\relax }}{51}{table.caption.22}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Experimental conditions are behaviorally and procedurally identical, differing only in robotic presence.\relax }}{52}{table.caption.24}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Measured variables and psychometric constructs used in inferential modeling of moral behavior.\relax }}{52}{table.caption.25}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Summary of central tendencies for key moral and psychological variables. The Robot condition shows numerically lower donation amounts and empathizing scores, suggesting potential attenuation effects of passive robotic presence.\relax }}{55}{table.caption.28}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces Inferential statistical comparisons of donation behavior across conditions. The chi-squared test shows a significant difference in donation totals, while the Mann-Whitney U and bootstrapped estimates provide converging but non-significant results on distributional shape and directional effect size.\relax }}{56}{table.caption.31}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces Rationale for employing robust and Bayesian techniques in the analysis of donation behavior. Each method addresses different limitations of frequentist inference, enhancing the epistemic transparency and robustness of the findings.\relax }}{64}{table.caption.42}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
