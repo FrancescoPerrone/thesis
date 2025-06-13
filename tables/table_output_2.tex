@@ -1,0 +1,42 @@
+\documentclass[border=15pt, crop=true]{standalone}
+
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{array}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\arraystretch}{1.6}
+
+\definecolor{fpgreen}{HTML}{38c202}
+\definecolor{fpred}{HTML}{DB2031}
+\definecolor{fpgray}{HTML}{78828C}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+	
+	\begin{tabular}{L{3cm} L{6.5cm} L{7cm}}
+		\rowcolor{fpgreen!30}
+		\textcolor{fpred}{\textbf{File Type}} &
+		\textcolor{fpred}{\textbf{Content}} &
+		\textcolor{fpred}{\textbf{Purpose}} \\
+		\toprule
+		\rowcolor{fpgreen!10}
+		\texttt{.hspy} & Full PCA decomposition output (loadings, factor maps, metadata) & Enables dimensionality reduction and component analysis \\
+		\rowcolor{white}
+		\texttt{.npy} (cluster map) & Cluster label map from GMM & Encodes the \textit{mineralogical phases} \\
+		\rowcolor{fpgreen!10}
+		\texttt{.npy} (mask cube) & 3D binary mask cube, one layer per GMM cluster & Used for spatial back-projection and phase-specific quantification \\
+		\rowcolor{white}
+		\texttt{.json} (cluster means) & Mean EDS spectrum per cluster & Used to identify elements and compute partition coefficients \\
+		\rowcolor{fpgreen!10}
+		\texttt{.json} (metadata) & Calibration metadata (spatial and energy axes) & Required to convert raw data into physically meaningful coordinates \\
+		\rowcolor{white}
+		\texttt{.png} (cluster map) & Visualisation of the cluster/phase map & For qualitative assessment and reporting \\
+		\rowcolor{fpgreen!10}
+		\texttt{.png} (cluster mask) & Individual binary masks for each cluster & Useful for targeted region analysis \\
+		\rowcolor{white}
+		\texttt{.png} (mean spectrum) & Plot of the mean spectrum for Cluster 0 (repeatable) & Used for quick validation of phase composition \\
+		\bottomrule
+	\end{tabular}
+	
+\end{document}
