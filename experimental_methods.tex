@@ -1,6 +1,12 @@
-\chapter{An Experimental Study of Moral Displacement}
+\chapter{An Experimental Study of Moral Displacement \\
+	\hspace*{1.2em} \small{From Normative Hypothesis to Experimental Topology}}
 \thispagestyle{pprintTitle}
 
+
+% Define a counter named 'question' that resets every time 'chapter' increments
+\newcounter{question}[chapter]
+% Define the format of the counter to be 'chapter_number.question_number'
+\renewcommand{\thequestion}{\thechapter.\arabic{question}}
 
 % Adjusting epigraph settings
 \setlength\epigraphwidth{.8\textwidth}
@@ -13,13 +19,121 @@
 %
 %
 
-\section{Prefatory Remarks: From Normative Hypothesis to Experimental Topology}
+% Prefatory Remarks: 
+\section{Normative Hypothesis}
 
-This chapter begins the empirical formalisation of a question raised by the preceding philosophical work: \textit{Can the mere presence of a synthetic, non-agentic entity deform the inferential substrate through which moral action is generated?} In moral philosophy, action is often treated as the endpoint of deliberation~\cite{Aristotle_nicomachean, Korsgaard1996, Anscombe1957} (see discussion in \cref{chap:moral_d}). Yet what is at stake here is not action alone, but the structure of the evaluative function that precedes it—an internal transformation whereby moral salience~\cite{Nussbaum2001, Korsgaard2009} becomes behavioural output.
+This chapter begins the empirical formalisation of a question:
+\nextdiv
+
+
+\begin{center}
+	\begin{questionbox}[label={q:robot-agent}]{Inferential Displacement}
+		Can the mere presence of a synthetic, non-agentic entity perturb the inferential transformation through which morally salient cues are converted into observable moral behaviour?
+	\end{questionbox}
+\end{center}
+
+\nextdiv
+
+To operationalise this hypothesis, we devised a controlled behavioural experiment rooted in the classical Watching Eye paradigm, in which prosocial behaviour is modulated by the perceived presence of observation. Seventy-three participants were invited individually into a room under the pretext of completing personality questionnaires in exchange for monetary compensation. Unbeknownst to them, a secondary component of the setup—embedded in the room’s physical configuration—involved the presentation of a morally salient stimulus: a charity brochure prominently featuring the portrait of a child in need of medical attention. This stimulus has been shown to activate prosocial behaviour via the Watching Eye effect~\cite{Haley2005,Conty2016}.
+
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{/home/francesco/Desktop/research/appunti/images/robot.png}
+		\caption{Experimental condition: robot present.}
+		\label{fig:robot}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.48\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{/home/francesco/Desktop/research/appunti/images/control.png}
+		\caption{Control condition: robot absent.}
+		\label{fig:control}
+	\end{subfigure}
+	\caption{Top-down view of experimental vs. control configurations. Both settings retain identical spatial and visual layouts, isolating the variable of robotic presence as the only ontological difference.}
+	\label{fig:experimental-topology}
+\end{figure}
+
+
+Participants were randomly assigned to one of two conditions. In the Control condition, they completed the task alone. In the Robot condition, a humanoid NAO robot was present in the room, operating in autonomous life mode. Crucially, the robot was *non-interactive* and devoid of any explicit moral or communicative behaviour. Both experimental conditions preserved identical spatial and visual layouts; the sole manipulated variable was the robot’s presence—thereby isolating its ontological status as a synthetic, non-agentic entity.
+
+Following completion of the questionnaires, each participant encountered a voluntary donation opportunity: they were offered £10 in £1 coins and could donate any portion to a real charity (Operation Smile) via an opaque box in the room. The amount donated served as the primary dependent measure of prosocial behaviour.
+
+The results revealed a statistically significant attenuation of donation behaviour in the Robot condition. Participants donated, on average, roughly two-thirds of what was donated in the Control condition. Importantly, no significant differences in personality traits (Empathizing Quotient, Systemizing Quotient, Big Five Inventory) were found between groups, ruling out trait-based confounds and reinforcing the association between robotic presence and inferential displacement in moral behaviour.
+
+\nextdiv
+While much of the literature on moral decision-making in human–robot interaction (HRI) and human–machine interaction (HMI) foregrounds agentic interactivity as the locus of moral modulation—emphasising factors such as expressive behaviour, moral accountability framing, ostensive cues, and adaptive responsiveness~\cite{Malle2016,VanStraten2020,Arnold2017,Groom2010,Leidner2019}—the present experimental design intentionally departs from this paradigm. Rather than relying on explicit communicative exchanges or programmed ethical capacities, it examines whether mere ontological ambiguity, stripped of interactivity, can suffice to perturb the moral cognition of human observers. That is, it tests not how robots perform moral roles, but how their epistemic presence reshapes the inferential scaffolding through which \textit{moral cues become actionable}.
+
+
+This divergence is not merely methodological but conceptually foundational: it permits a targeted examination of the pre-reflective susceptibility of moral cognition to \textit{ontologically ambiguous cues}—entities that do not meet the criteria for moral agency yet possess sufficient affordances to perturb inferential processes.
+
+This question is especially salient in domains such as Social Signal Processing and HRI, where the moral and affective load of synthetic agents often exceeds their computational or ontological commitments~\cite{Vinciarelli2009,Bremner2022}. By removing interactivity while preserving perceptual and semantic features suggestive of intentionality (e.g., eyes, posture, presence), we isolate the contribution of presence alone to the evaluative architecture of moral transformation. 
+
+In this sense, our design probes the structural vulnerability of norm-sensitive cognition to minimal but semantically encoded social signals. It thereby foregrounds a critical blind spot in prevailing models of moral decision-making with machines: namely, that moral perturbation does not require intentional content or agency, but may be triggered at the level of mere salience within a normatively saturated context.
+
+This orientation is reinforced by evidence from De Brigard et al.~\cite{DeBrigard2021}, who demonstrate that moral judgments are systematically distorted by an agent-patient asymmetry that remains robust even when agents are stripped of contextual richness. Their findings suggest that moral cognition is inherently predisposed to track agency cues, even under conditions of minimal interactivity. It follows that the presence of an entity coded as agent-like—but behaviorally inert—may still activate heuristic processes typically reserved for moral agents. In other words, it is not the interaction per se that perturbs the moral transformation, but the cognitive availability of a \textit{putative agent}.
+
+This proposal is consistent with work on the intentional stance~\cite{Dennett1987} and its hyperactive deployment in uncertain social environments~\cite{Guthrie1993, Waytz2010}. The synthetic entity in our experimental design is purposefully constructed to exploit the liminal space between objecthood and agency, thereby isolating the inferential mechanics that precede full agent recognition. In doing so, we move the investigative lens from \textit{action} to \textit{anticipation}—from the moral judgment of what agents do, to the moral distortion induced by what agents might represent.
+
+Therefore, the methodological focus on \textit{mere presence} reflects a principled choice: it enables the disentanglement of interactive contingencies from the deeper, often subpersonal, cognitive priors that shape moral evaluation. In contrast to approaches that conflate moral cognition with dialogic reciprocity or overt behavioral cues, our model foregrounds the epistemic topology of moral salience: how latent structures of social attribution modulate inferential pathways prior to action, dialogue, or even conscious appraisal.
+
+\subsection{Floridi and the Ontological Encoding of Synthetic Entities}
+	
+The rationale for focusing on mere presence finds a deeper formal grounding in Floridi’s theory of Levels of Abstraction (LoA)~\cite{Floridi2008,Floridi2010,Floridi2013}. In its most fundamental form, the LoA framework asserts that any inquiry—scientific, ethical, or cognitive—operates relative to a chosen abstraction interface, which selects the kinds of entities, distinctions, and informational variables that are epistemically relevant within that context. An LoA is not a metaphysical claim about what is, but a methodological filter that determines what counts as salient. As such, entities are not evaluated by reference to their intrinsic ontology, but by their semantic affordances within the information structure made visible by a given LoA.
+	
+From this perspective, moral agents, patients, and artificial entities are not defined ontologically per se, but functionally, relative to the informational interface through which they are accessed and interpreted. By construing moral cognition as a process that operates across LoAs, one can model the perturbation induced by synthetic entities not in terms of their intrinsic properties, but through the semantic encoding they instantiate within a given cognitive ecology.
+	
+\noindent
+Applied not to moral cognition in the abstract, but to the transformational process through which morally salient cues are converted into observable action, Floridi’s informational ontology allows us to shift from essentialist questions of moral status (e.g., agent vs.\ non-agent) to a functionalist reading of \textbf{semantic affordances}. What matters, under this lens, is not whether the robot possesses consciousness or moral responsibility in itself, but whether—\textbf{within the operative Level of Abstraction}—it encodes features that register as morally relevant. Moral salience, then, is not anchored in the intrinsic properties of the entity, but in its \textbf{epistemic presentation}: the informational structure it instantiates at the interface between observer cognition and environmental configuration. In this view, robotic presence becomes morally consequential not by virtue of inner intentional states, but through the \textbf{perturbative role it plays in the cognitive ecology} that mediates practical reasoning.
+	
+\noindent
+The humanoid robot deployed in this study thus occupies a structurally anomalous position. It is non-interactive, non-agentic, and yet semantically charged. At a sub-personal LoA—where perception and inferential readiness precede explicit judgement—it evokes agent-like priors via embodied features such as facial symmetry, gaze orientation, postural realism, and reactive motion. These features trigger moral anticipation without establishing moral accountability. In this respect, the robot aligns with Floridi’s notion of an artefactual moral agent~\cite{Floridi2013,FloridiSanders2004}: a non-sentient entity whose salience stems not from autonomy, but from its embeddedness within a structured \textbf{informational environment}.
+
+\fpcom{This is more a conclusion.}
+\noindent
+From this standpoint, the robot’s presence constitutes a semantic perturbation: a variable that reframes, rather than directs, the evaluative pathways through which moral cues become action-relevant. The disturbance it introduces is not behavioural, nor is it socially interactive—\textbf{it is epistemic}, occurring at the level where evaluative inference is silently scaffolded. The informational architecture of the environment is thus not passively occupied, but actively reshaped.
+
+\noindent
+This reading supports both the minimalist structure of the experimental design and its philosophical depth. By rejecting behavioural or dialogic criteria for moral influence, and grounding the analysis in semantic encoding at the LoA of the observer, we avoid naïve assumptions about interaction as a prerequisite for moral modulation. Presence, when correctly encoded, can reframe what is morally visible—prior to deliberation, and independent of interaction.
+
+\subsection{Temp}
+
+In moral philosophy, action is often treated as the endpoint of deliberation~\cite{Aristotle_nicomachean, Korsgaard1996, Anscombe1957} (see discussion in \cref{chap:moral_d}). Yet what is at stake here is not action alone, but the structure of the evaluative function that precedes it—an internal transformation whereby moral salience~\cite{Nussbaum2001, Korsgaard2009} becomes behavioural output.
 
 Still, the reader should not be misled into abandoning the focus of this chapter: moral action remains our ultimate explanandum. While salience, cognition, and interpretive modulation are examined in depth, they are not ends in themselves but components of a broader investigation into the inferential scaffolding that culminates in behaviour. The framework here is neither purely ethical nor speculative; it is practically grounded, drawing from philosophical traditions of practical reasoning and the neurocognitive models discussed in Chapter 2. Our aim is not to probe abstract normativity, but to determine whether artificial presence perturbs the transformation from moral appraisal to observable donation—a behavioural manifestation of deliberative judgement.
 
 To interrogate this transformation empirically, we transpose the classical \textit{Watching Eye Effect}—a paradigm rooted in evolutionary psychology and moral cognition (see \cref{chap:watching_eye})—into a minimal social environment co-inhabited by a humanoid robot. While prior instantiations of this effect have relied on stylised pictorial stimuli or supernatural primes~\cite{Bateson2006,Shariff2007}, our design replaces these with an embodied artificial presence: one that is ontologically ambiguous and semiotically potent, yet neither sentient nor interactively engaged.
+
+To formalise this inquiry, we treat moral behaviour not as a static trait, but as the outcome of a cognitive-affective transformation process. In psychological terms, this process involves the integration of perceptual moral cues, internal traits, and situational context into a behavioural response. In philosophical terms, it corresponds to the realisation of practical reasoning: a structured progression from norm perception to moral action. This transformation may be refracted by ontological ambiguity—that is, by the presence of an entity whose status as observer or agent is semantically uncertain.
+
+In this context, we define the experimental structure as follows:
+
+\[
+\mathbb{E}[f(\Sigma \cup \mathscr{R})] \;\neq\; \mathbb{E}[f(\Sigma)]
+\]
+
+Where:
+
+\begin{itemize}
+	\item $\Sigma$ is the morality-salient perceptual space (e.g., visual stimuli such as the Watching Eye),
+	\item $\mathscr{R}$ is the synthetic co-presence (the humanoid robot NAO),
+	\item $f(\cdot)$ is the evaluative transformation function that maps environmental input to moral behaviour,
+	\item and $\mathbb{E}[f(\cdot)]$ denotes the expected distribution of moral behaviour (here, donation magnitude).
+\end{itemize}
+
+\nextdiv
+Read aloud, this expresses the hypothesis that: 
+
+\nextdiv
+\begin{center}
+	\nextstatement
+	\begin{hypobox}{Evaluative Deformation Hypothesis}
+		The expected outcome of moral behaviour, as computed through the evaluative process \( f \), is altered when the robot is present within the perceptual-moral environment.
+	\end{hypobox}
+\end{center}
+
 
 In formal terms, the experiment operationalises the following question: does the inclusion of a synthetic co-presence (\(\mathscr{R}\)) within a morality-salient perceptual space (\(\Sigma\)) alter the expected outcome of the evaluative transformation function \(f(\cdot)\), such that the distribution of moral behaviour \(\mathbb{E}[f(\Sigma \cup \mathscr{R})]\) diverges from \(\mathbb{E}[f(\Sigma)]\)? Here, \(\Sigma\) includes affective moral cues (e.g., the Watching Eye), while \(\delta_m\) is instantiated behaviourally as charitable donation.  let us denote the probability of a deviation in moral action as a function of key experimental inputs:
 

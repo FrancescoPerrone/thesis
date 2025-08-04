@@ -2,6 +2,12 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc} % modern encoding
 
+
+% for pictures
+\usepackage{subcaption}
+\usepackage{float}
+
+
 % Packages for drawing and colors
 \usepackage{xcolor}
 \definecolor{deepblue}{RGB}{0,0,128}
@@ -13,12 +19,10 @@
 
 \usepackage{booktabs}
 \usepackage{tabularx}
-\usepackage{float}
+%\usepackage{float}
 
 \definecolor{lightgreen}{RGB}{220,245,220}
 \definecolor{midgreen}{RGB}{200,235,200}
-
-
 
 
 \definecolor{uniblue}{RGB}{0,56,101}
@@ -292,22 +296,27 @@
 
 %%% END EXPERIMENT PROTOCOL
 
-%%%QUESTION BOX
-\newtcolorbox{questionbox}{
-	colback=yellow!10,
-	colframe=yellow!50!black,
+\usepackage{ragged2e}
+
+\newtcolorbox{questionbox}[2][]{%
+	colback=blue!5,
+	colframe=blue!50!black,
 	boxrule=0.3pt,
 	sharp corners,
+	width=0.9\textwidth,
+	center upper,
 	left=6pt,
 	right=6pt,
 	top=4pt,
 	bottom=4pt,
 	enhanced,
 	breakable,
-	before skip=6pt,
-	after skip=12pt
+	before upper={\justifying},
+	% --- CORRECTED TITLE ---
+	% This increments the counter and then displays it in the desired format
+	title={\refstepcounter{question}\textbf{Question~\thequestion:}~\textit{#2}},
+	#1
 }
-%%%
 
 
 \newtheorem{definition}{Definition}

@@ -16,7 +16,7 @@ A level-1 auxiliary file: watching_eye.aux
 A level-1 auxiliary file: prosocial_b.aux
 A level-1 auxiliary file: experimental_methods.aux
 Case mismatch error between cite keys rammstedt2007 and Rammstedt2007
----line 34 of file experimental_methods.aux
+---line 79 of file experimental_methods.aux
  : \citation{rammstedt2007
  :                        }
 I'm skipping whatever remains of this command
@@ -64,6 +64,18 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 2807 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Haidt2012
  :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3146 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Malle2016
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3232 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @inproceedings{Malle2016
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3241 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Vanstraten2020
+ :                        ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Allen_Wallach2012"
 Warning--I didn't find a database entry for "Minsky1985"
@@ -120,45 +132,45 @@ Warning--there's a number but no series in Hare1991
 Warning--empty journal in Greene2015
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
-You've used 134 entries,
+You've used 151 entries,
             1876 wiz_defined-function locations,
-            1409 strings with 23441 characters,
-and the built_in function-call counts, 32182 in all, are:
-= -- 3284
-> -- 1017
+            1507 strings with 26265 characters,
+and the built_in function-call counts, 37103 in all, are:
+= -- 3796
+> -- 1187
 < -- 0
-+ -- 405
-- -- 271
-* -- 2050
-:= -- 4448
-add.period$ -- 193
-call.type$ -- 134
-change.case$ -- 92
++ -- 469
+- -- 318
+* -- 2379
+:= -- 5109
+add.period$ -- 214
+call.type$ -- 151
+change.case$ -- 105
 chr.to.int$ -- 0
-cite$ -- 140
-duplicate$ -- 1740
-empty$ -- 3372
-format.name$ -- 271
-if$ -- 8033
+cite$ -- 157
+duplicate$ -- 2009
+empty$ -- 3833
+format.name$ -- 318
+if$ -- 9263
 int.to.chr$ -- 0
-int.to.str$ -- 134
-missing$ -- 185
-newline$ -- 464
-num.names$ -- 151
-pop$ -- 512
+int.to.str$ -- 151
+missing$ -- 206
+newline$ -- 519
+num.names$ -- 168
+pop$ -- 566
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 988
+skip$ -- 1182
 stack$ -- 0
-substring$ -- 1875
-swap$ -- 631
+substring$ -- 2216
+swap$ -- 756
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 323
-width$ -- 137
-write$ -- 1325
-(There were 11 error messages)
+while$ -- 372
+width$ -- 154
+write$ -- 1498
+(There were 14 error messages)
