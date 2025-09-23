@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {5.1}}{42}{section.5.1}%
 \contentsline {chapter}{\numberline {6}An Experimental Study of Moral Displacement: From Normative Hypothesis to Experimental Topology}{43}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Normative Hypothesis}{43}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Floridi and the Ontological Encoding of Synthetic Entities}{45}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.1}Floridi and the Ontological Encoding of Synthetic Entities}{46}{subsection.6.1.1}%
 \contentsline {subsection}{\numberline {6.1.2}Temp}{47}{subsection.6.1.2}%
 \contentsline {section}{\numberline {6.2}Conceptualisation of the Experiment: Moral Decision-Making as Affected by Robotic Presence}{50}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Formalisation of Hypothesis and Experimental Logic}{52}{subsection.6.2.1}%
