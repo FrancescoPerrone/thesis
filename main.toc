@@ -25,33 +25,33 @@
 \contentsline {section}{\numberline {4.1}}{41}{section.4.1}%
 \contentsline {chapter}{\numberline {5}}{42}{chapter.5}%
 \contentsline {section}{\numberline {5.1}}{42}{section.5.1}%
-\contentsline {chapter}{\numberline {6}An Experimental Study of Moral Displacement \\ \hspace *{1.2em} \small {From Normative Hypothesis to Experimental Topology}}{43}{chapter.6}%
+\contentsline {chapter}{\numberline {6}An Experimental Study of Moral Displacement: From Normative Hypothesis to Experimental Topology}{43}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Normative Hypothesis}{43}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Floridi and the Ontological Encoding of Synthetic Entities}{45}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Temp}{46}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}Conceptualisation of the Experiment: Moral Decision-Making as Affected by Robotic Presence}{49}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Formalisation of Hypothesis and Experimental Logic}{51}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Methodological Design: Inferring Moral Perturbation through Controlled Artificial Co-presence}{52}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.1.2}Temp}{47}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Conceptualisation of the Experiment: Moral Decision-Making as Affected by Robotic Presence}{50}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Formalisation of Hypothesis and Experimental Logic}{52}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Methodological Design: Inferring Moral Perturbation through Controlled Artificial Co-presence}{53}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.2.3}Experimental Design: Structuring Moral Decision-Making under Controlled Perturbation}{53}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Participants as Agents under Constraint}{55}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.4}Participants as Agents under Constraint}{56}{subsection.6.2.4}%
 \contentsline {subsection}{\numberline {6.2.5}Experimental Conditions: The Robotic Displacement Hypothesis}{56}{subsection.6.2.5}%
-\contentsline {subsection}{\numberline {6.2.6}Temp below before part of 6.2}{57}{subsection.6.2.6}%
+\contentsline {subsection}{\numberline {6.2.6}Temp below before part of 6.2}{58}{subsection.6.2.6}%
 \contentsline {subsection}{\numberline {6.2.7}Quantification of Behavioral Modulation: Parametric and Nonparametric Effect Sizes}{64}{subsection.6.2.7}%
 \contentsline {subsection}{\numberline {6.2.8}Latent Trait Structures and Individual Modulation of Moral Perturbation}{66}{subsection.6.2.8}%
-\contentsline {subsection}{\numberline {6.2.9}Cluster-Specific Regression Analysis of Robotic Perturbation}{68}{subsection.6.2.9}%
-\contentsline {subsection}{\numberline {6.2.10}Bayesian Estimation and Epistemic Gradient Framing}{70}{subsection.6.2.10}%
-\contentsline {subsubsection}{Clarification for Non-Expert Readers}{71}{subsubsection*.46}%
-\contentsline {subsection}{\numberline {6.2.11}Interpreting Moral Perturbation through Latent Trait Regimes}{72}{subsection.6.2.11}%
-\contentsline {section}{\numberline {6.3}Results and Interpretation: Quantifying the Moral Displacement Effect}{73}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Summary of Quantitative Findings}{74}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Epistemic Synthesis and Closing Reflections}{74}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Toward a Theory of Robotic Normative Interference}{75}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Normative Implications: Robots as Epistemic Agents of Moral Ambiguity}{76}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Methodology}{77}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Cuts}{78}{chapter.8}%
-\contentsline {subsection}{\numberline {8.0.1}Epistemic Precision}{79}{subsection.8.0.1}%
-\contentsline {subsection}{\numberline {8.0.2}Historical-Philosophical Clarity}{80}{subsection.8.0.2}%
-\contentsline {section}{\numberline {8.1}From Experiment}{80}{section.8.1}%
-\contentsline {section}{\numberline {8.2}The Influence of Observational Presence on Human Behavior: Experimental Insights from Human-Robot Interactions}{81}{section.8.2}%
-\contentsline {chapter}{\numberline {A}Derivation of the equation}{82}{appendix.A}%
-\contentsline {chapter}{Bibliography}{84}{appendix*.48}%
+\contentsline {subsection}{\numberline {6.2.9}Cluster-Specific Regression Analysis of Robotic Perturbation}{69}{subsection.6.2.9}%
+\contentsline {subsection}{\numberline {6.2.10}Bayesian Estimation and Epistemic Gradient Framing}{71}{subsection.6.2.10}%
+\contentsline {subsubsection}{Clarification for Non-Expert Readers}{72}{subsubsection*.46}%
+\contentsline {subsection}{\numberline {6.2.11}Interpreting Moral Perturbation through Latent Trait Regimes}{73}{subsection.6.2.11}%
+\contentsline {section}{\numberline {6.3}Results and Interpretation: Quantifying the Moral Displacement Effect}{74}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Summary of Quantitative Findings}{75}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Epistemic Synthesis and Closing Reflections}{75}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Toward a Theory of Robotic Normative Interference}{76}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Normative Implications: Robots as Epistemic Agents of Moral Ambiguity}{77}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Methodology}{78}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Cuts}{79}{chapter.8}%
+\contentsline {subsection}{\numberline {8.0.1}Epistemic Precision}{80}{subsection.8.0.1}%
+\contentsline {subsection}{\numberline {8.0.2}Historical-Philosophical Clarity}{81}{subsection.8.0.2}%
+\contentsline {section}{\numberline {8.1}From Experiment}{81}{section.8.1}%
+\contentsline {section}{\numberline {8.2}The Influence of Observational Presence on Human Behavior: Experimental Insights from Human-Robot Interactions}{82}{section.8.2}%
+\contentsline {chapter}{\numberline {A}Derivation of the equation}{83}{appendix.A}%
+\contentsline {chapter}{Bibliography}{85}{appendix*.48}%
