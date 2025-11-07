@@ -7,13 +7,10 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   <style>
-    /* ===============================
-       Minimal Japanese-inspired Theme
-       =============================== */
     :root {
       --bg: #fafaf8;
       --text: #1b1b1b;
-      --accent: #e60033; /* Benihi red */
+      --accent: #e60033;
       --muted: #777;
       --line: #e5e5e5;
       --font-body: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', sans-serif;
@@ -47,7 +44,6 @@
       color: var(--muted);
     }
 
-    /* PDF viewer container */
     .pdf-container {
       display: flex;
       justify-content: center;
@@ -63,7 +59,6 @@
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
 
-    /* Floating commit summary */
     .commit-summary {
       position: sticky;
       top: 4rem;
@@ -72,6 +67,7 @@
       padding: 0.7rem 1rem;
       border-bottom: 1px solid var(--line);
       font-size: 0.9rem;
+      line-height: 1.4em;
     }
 
     .commit-summary span {
@@ -118,6 +114,30 @@
       margin-top: 1em;
     }
 
+    .commit-list {
+      margin-top: 2rem;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .commit-item {
+      padding: 0.8rem 1rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .commit-item:nth-child(even) {
+      background: #f5f5f3;
+    }
+
+    .commit-item span {
+      color: var(--accent);
+    }
+
+    .commit-item small {
+      color: var(--muted);
+    }
+
     footer {
       text-align: center;
       font-size: 0.8rem;
@@ -155,6 +175,11 @@
   <div class="stats-panel" id="stats-panel">
     <h2>Commit Timeline</h2>
     <canvas id="commitChart"></canvas>
+
+    <h2>Commit History</h2>
+    <div class="commit-list" id="commit-list">
+      <div class="commit-item">Loading recent commits...</div>
+    </div>
   </div>
 
   <footer>
@@ -166,7 +191,7 @@
     const repoName  = "thesis";
     const branch    = "master";
 
-    // Fetch latest commit
+    // Latest commit details
     fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/commits/${branch}`)
       .then(res => res.json())
       .then(data => {
@@ -174,14 +199,23 @@
           year: 'numeric', month: 'short', day: 'numeric'
         });
         const msg = data.commit.message;
-        document.getElementById("latest-commit").innerHTML =
-          `<span>${date}</span> — ${msg}`;
+        const sha = data.sha;
+
+        // Fetch commit stats
+        fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/commits/${sha}`)
+          .then(res => res.json())
+          .then(cdata => {
+            const additions = cdata.stats ? cdata.stats.additions : 0;
+            const words = Math.round(additions * 5);
+            document.getElementById("latest-commit").innerHTML =
+              `<span>${date}</span> — ${msg} | +${additions} lines (~${words} words)`;
+          });
       })
       .catch(() => {
         document.getElementById("latest-commit").textContent = "Unable to fetch latest commit.";
       });
 
-    // Fetch commits and aggregate per day
+    // Commit timeline and history
     fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/commits?sha=${branch}&per_page=100`)
       .then(res => res.json())
       .then(data => {
@@ -221,14 +255,25 @@
               }
             },
             plugins: {
-              legend: { display: false },
-              tooltip: { enabled: true }
+              legend: { display: false }
             }
           }
         });
+
+        // Commit list
+        const listDiv = document.getElementById("commit-list");
+        listDiv.innerHTML = "";
+        data.slice(0, 20).forEach(c => {
+          const date = new Date(c.commit.author.date).toLocaleDateString('en-GB');
+          const msg = c.commit.message;
+          const author = c.commit.author.name;
+          const item = document.createElement("div");
+          item.className = "commit-item";
+          item.innerHTML = `<span>${date}</span> — ${msg} <small>(${author})</small>`;
+          listDiv.appendChild(item);
+        });
       });
 
-    // Toggle stats visibility
     function toggleStats() {
       const panel = document.getElementById("stats-panel");
       const btn = document.querySelector(".toggle-btn");
