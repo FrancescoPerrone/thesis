@@ -4,8 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Thesis — Francesco Perrone</title>
-
-  <!-- Chart.js for commit timeline -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   <style>
@@ -16,7 +14,7 @@
       --bg: #fafaf8;
       --text: #1b1b1b;
       --accent: #e60033; /* Benihi red */
-      --muted: #888;
+      --muted: #777;
       --line: #e5e5e5;
       --font-body: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', sans-serif;
     }
@@ -32,13 +30,16 @@
       text-align: center;
       border-bottom: 1px solid var(--line);
       padding: 2rem 1rem 1rem;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 100;
     }
 
     header h1 {
       font-weight: 500;
       font-size: 1.8rem;
       margin: 0.2em 0;
-      letter-spacing: 0.03em;
     }
 
     header p {
@@ -46,17 +47,61 @@
       color: var(--muted);
     }
 
-    iframe {
-      width: 100%;
-      height: 75vh;
-      border: none;
-      display: block;
+    /* PDF viewer container */
+    .pdf-container {
+      display: flex;
+      justify-content: center;
+      background: #f6f6f4;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05) inset;
     }
 
-    section {
+    iframe {
+      width: 90%;
+      height: 80vh;
+      border: none;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    /* Floating commit summary */
+    .commit-summary {
+      position: sticky;
+      top: 4rem;
+      background: var(--bg);
+      text-align: center;
+      padding: 0.7rem 1rem;
+      border-bottom: 1px solid var(--line);
+      font-size: 0.9rem;
+    }
+
+    .commit-summary span {
+      color: var(--accent);
+    }
+
+    .toggle-btn {
+      display: inline-block;
+      margin-top: 0.3rem;
+      font-size: 0.85rem;
+      color: var(--accent);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .stats-panel {
       max-width: 900px;
       margin: 2rem auto;
       padding: 0 1rem;
+      display: none;
+    }
+
+    .stats-panel.active {
+      display: block;
+      animation: fadeIn 0.6s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     h2 {
@@ -64,7 +109,7 @@
       font-size: 1.2rem;
       color: var(--accent);
       border-bottom: 1px solid var(--line);
-      padding-bottom: 0.5em;
+      padding-bottom: 0.4em;
     }
 
     canvas {
@@ -98,16 +143,19 @@
     <p>Francesco Perrone — University of Glasgow</p>
   </header>
 
-  <!-- PDF Viewer -->
-  <iframe src="main.pdf#view=fitH" title="Thesis PDF Viewer"></iframe>
+  <div class="commit-summary">
+    <div id="latest-commit">Fetching latest commit...</div>
+    <div class="toggle-btn" onclick="toggleStats()">Show full stats ↓</div>
+  </div>
 
-  <section>
-    <h2>Latest Commit</h2>
-    <p id="latest-commit">Loading latest commit...</p>
+  <div class="pdf-container">
+    <iframe src="main.pdf#view=fitH" title="Thesis PDF Viewer"></iframe>
+  </div>
 
+  <div class="stats-panel" id="stats-panel">
     <h2>Commit Timeline</h2>
     <canvas id="commitChart"></canvas>
-  </section>
+  </div>
 
   <footer>
     <p>© 2025 Francesco Perrone — Hosted via <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
@@ -116,7 +164,7 @@
   <script>
     const repoOwner = "FrancescoPerrone";
     const repoName  = "thesis";
-    const branch    = "master"; // ✅ your branch
+    const branch    = "master";
 
     // Fetch latest commit
     fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/commits/${branch}`)
@@ -126,44 +174,48 @@
           year: 'numeric', month: 'short', day: 'numeric'
         });
         const msg = data.commit.message;
-        document.getElementById("latest-commit").textContent = `${date} — ${msg}`;
+        document.getElementById("latest-commit").innerHTML =
+          `<span>${date}</span> — ${msg}`;
       })
       .catch(() => {
         document.getElementById("latest-commit").textContent = "Unable to fetch latest commit.";
       });
 
-    // Fetch recent commits for timeline
-    fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/commits?sha=${branch}&per_page=40`)
+    // Fetch commits and aggregate per day
+    fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/commits?sha=${branch}&per_page=100`)
       .then(res => res.json())
       .then(data => {
-        const commits = data.reverse(); // oldest first
-        const labels = commits.map(c => new Date(c.commit.author.date).toLocaleDateString('en-GB'));
-        const cumulative = commits.map((_, i) => i + 1);
+        const dailyCounts = {};
+        data.forEach(c => {
+          const d = new Date(c.commit.author.date).toISOString().split('T')[0];
+          dailyCounts[d] = (dailyCounts[d] || 0) + 1;
+        });
+
+        const sortedDates = Object.keys(dailyCounts).sort();
+        const counts = sortedDates.map(d => dailyCounts[d]);
 
         const ctx = document.getElementById("commitChart");
         new Chart(ctx, {
-          type: 'line',
+          type: 'bar',
           data: {
-            labels,
+            labels: sortedDates,
             datasets: [{
-              label: 'Commits over time',
-              data: cumulative,
+              label: 'Commits per day',
+              data: counts,
+              backgroundColor: 'rgba(230,0,51,0.25)',
               borderColor: '#e60033',
-              backgroundColor: 'rgba(230, 0, 51, 0.08)',
-              fill: true,
-              tension: 0.3,
-              pointRadius: 2
+              borderWidth: 1
             }]
           },
           options: {
             scales: {
               x: {
                 title: { display: true, text: 'Date' },
-                ticks: { color: '#555' },
+                ticks: { color: '#555', maxRotation: 45, minRotation: 45 },
                 grid: { color: 'rgba(0,0,0,0.05)' }
               },
               y: {
-                title: { display: true, text: 'Total Commits' },
+                title: { display: true, text: 'Commits' },
                 ticks: { stepSize: 1, color: '#555' },
                 grid: { color: 'rgba(0,0,0,0.05)' }
               }
@@ -174,8 +226,16 @@
             }
           }
         });
-      })
-      .catch(err => console.error(err));
+      });
+
+    // Toggle stats visibility
+    function toggleStats() {
+      const panel = document.getElementById("stats-panel");
+      const btn = document.querySelector(".toggle-btn");
+      const isActive = panel.classList.toggle("active");
+      btn.textContent = isActive ? "Hide stats ↑" : "Show full stats ↓";
+      if (isActive) panel.scrollIntoView({ behavior: "smooth" });
+    }
   </script>
 </body>
 </html>
