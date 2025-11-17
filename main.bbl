@@ -542,6 +542,62 @@ C.~S. Rosati, ``{Moral Motivation},'' in {\em The {Stanford} Encyclopedia of
   Philosophy} (E.~N. Zalta, ed.), Metaphysics Research Lab, Stanford
   University, winter 2016~ed., 2016.
 
+\bibitem{Vinciarelli2009}
+A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing: Survey
+  of an emerging domain,'' {\em Image and vision computing}, vol.~27, no.~12,
+  pp.~1743--1759, 2009.
+
+\bibitem{RosenthalRosnow2008}
+R.~Rosenthal and R.~L. Rosnow, {\em Essentials of Behavioral Research: Methods
+  and Data Analysis}.
+\newblock New York: McGraw-Hill, 3~ed., 2008.
+
+\bibitem{ReisJudd2000}
+H.~T. Reis and C.~M. Judd, {\em Handbook of Research Methods in Social and
+  Personality Psychology}.
+\newblock Cambridge: Cambridge University Press, 2000.
+
+\bibitem{Kazdin2017}
+A.~E. Kazdin, {\em Research Design in Clinical Psychology}.
+\newblock Boston: Pearson, 5~ed., 2017.
+
+\bibitem{HaleyFessler2005}
+K.~J. Haley and D.~M.~T. Fessler, ``Nobody's watching? subtle cues affect
+  generosity in an anonymous economic game,'' {\em Evolution and Human
+  Behavior}, vol.~26, no.~3, pp.~245--256, 2005.
+
+\bibitem{Bateson2006}
+M.~Bateson, D.~Nettle, and G.~Roberts, ``Cues of being watched enhance
+  cooperation in a real-world setting,'' {\em Biology letters}, vol.~2, no.~3,
+  pp.~412--414, 2006.
+
+\bibitem{NettleEtAl2013}
+D.~Nettle, Z.~Harper, A.~Kidson, R.~Stone, I.~S. Penton-Voak, and M.~Bateson,
+  ``The watching eyes effect in the dictator game: It's not how much you give,
+  it's being seen to give something,'' {\em Evolution and Human Behavior},
+  vol.~34, no.~1, pp.~35--40, 2013.
+
+\bibitem{BatesonEtAl2013_EyesLittering}
+M.~Bateson, L.~Callow, J.~R. Holmes, M.~L. Redmond~Roche, and D.~Nettle, ``Do
+  images of `watching eyes' induce behaviour that is more pro-social or more
+  normative? a field experiment on littering,'' {\em PLOS ONE}, vol.~8, no.~12,
+  p.~e82055, 2013.
+
+\bibitem{PfattheicherKeller2015}
+S.~Pfattheicher and J.~Keller, ``The watching eyes phenomenon: The role of a
+  sense of being seen and public self-awareness,'' {\em European Journal of
+  Social Psychology}, vol.~45, no.~5, pp.~560--566, 2015.
+
+\bibitem{ContyGeorgeHietanen2016}
+L.~Conty, N.~George, and J.~K. Hietanen, ``Watching eyes effects: When others
+  meet the self,'' {\em Consciousness and Cognition}, vol.~45, pp.~184--197,
+  2016.
+
+\bibitem{DearDuttonFox2019}
+K.~Dear, K.~Dutton, and E.~Fox, ``Do `watching eyes' influence antisocial
+  behavior? a systematic review and meta-analysis,'' {\em Evolution and Human
+  Behavior}, vol.~40, no.~3, pp.~269--280, 2019.
+
 \bibitem{Haley2005}
 K.~J. Haley and D.~M. Fessler, ``Nobody's watching?: Subtle cues affect
   generosity in an anonymous economic game,'' {\em Evolution and Human
@@ -551,6 +607,11 @@ K.~J. Haley and D.~M. Fessler, ``Nobody's watching?: Subtle cues affect
 L.~Conty, N.~George, and J.~K. Hietanen, ``Watching eyes effects: When others
   meet the self,'' {\em Consciousness and Cognition}, vol.~45, pp.~184--197,
   2016.
+
+\bibitem{Aldebaran2013}
+{Aldebaran Robotics}, ``Nao: Product overview and technical specifications,''
+  tech. rep., Aldebaran Robotics, Paris, France, 2013.
+\newblock Official product documentation.
 
 \bibitem{Malle2016}
 B.~F. Malle, M.~Scheutz, J.~Forlizzi, and J.~Voiklis, ``Which robot am i
@@ -578,11 +639,6 @@ V.~Groom, C.~Nass, N.~Yee, K.~R. Ball, K.~Fogg, and R.~P. Biocca, ``The
 B.~Leidner, J.~Shariff, K.~Kozlowska, and B.~W. Tye, ``Framing ethical
   authority: How authority framing influences obedience to moral cues in robot
   commands,'' {\em Frontiers in Robotics and AI}, vol.~6, p.~123, 2019.
-
-\bibitem{Vinciarelli2009}
-A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing: Survey
-  of an emerging domain,'' {\em Image and vision computing}, vol.~27, no.~12,
-  pp.~1743--1759, 2009.
 
 \bibitem{Bremner2022}
 P.~Bremner, U.~Leonards, and A.~Bateman, ``The mere presence of a robot is
@@ -635,11 +691,6 @@ M.~C. Nussbaum, {\em Upheavals of Thought: The Intelligence of Emotions}.
 \bibitem{Korsgaard2009}
 C.~Korsgaard, {\em Self-Constitution: Agency, Identity, and Integrity}.
 \newblock Oxford, UK: Oxford University Press, 2009.
-
-\bibitem{Bateson2006}
-M.~Bateson, D.~Nettle, and G.~Roberts, ``Cues of being watched enhance
-  cooperation in a real-world setting,'' {\em Biology letters}, vol.~2, no.~3,
-  pp.~412--414, 2006.
 
 \bibitem{Shariff2007}
 A.~F. Shariff and A.~Norenzayan, ``God is watching you: Priming god concepts

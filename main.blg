@@ -16,7 +16,7 @@ A level-1 auxiliary file: watching_eye.aux
 A level-1 auxiliary file: prosocial_b.aux
 A level-1 auxiliary file: experimental_methods.aux
 Case mismatch error between cite keys rammstedt2007 and Rammstedt2007
----line 79 of file experimental_methods.aux
+---line 81 of file experimental_methods.aux
  : \citation{rammstedt2007
  :                        }
 I'm skipping whatever remains of this command
@@ -132,45 +132,45 @@ Warning--there's a number but no series in Hare1991
 Warning--empty journal in Greene2015
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
-You've used 151 entries,
+You've used 161 entries,
             1876 wiz_defined-function locations,
-            1507 strings with 26265 characters,
-and the built_in function-call counts, 37103 in all, are:
-= -- 3796
-> -- 1187
+            1563 strings with 28050 characters,
+and the built_in function-call counts, 39751 in all, are:
+= -- 4075
+> -- 1286
 < -- 0
-+ -- 469
-- -- 318
-* -- 2379
-:= -- 5109
-add.period$ -- 214
-call.type$ -- 151
-change.case$ -- 105
++ -- 506
+- -- 345
+* -- 2560
+:= -- 5480
+add.period$ -- 228
+call.type$ -- 161
+change.case$ -- 115
 chr.to.int$ -- 0
-cite$ -- 157
-duplicate$ -- 2009
-empty$ -- 3833
-format.name$ -- 318
-if$ -- 9263
+cite$ -- 167
+duplicate$ -- 2146
+empty$ -- 4076
+format.name$ -- 345
+if$ -- 9917
 int.to.chr$ -- 0
-int.to.str$ -- 151
-missing$ -- 206
-newline$ -- 519
-num.names$ -- 168
-pop$ -- 566
+int.to.str$ -- 161
+missing$ -- 218
+newline$ -- 553
+num.names$ -- 178
+pop$ -- 590
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1182
+skip$ -- 1276
 stack$ -- 0
-substring$ -- 2216
-swap$ -- 756
+substring$ -- 2380
+swap$ -- 815
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 372
-width$ -- 154
-write$ -- 1498
+while$ -- 398
+width$ -- 164
+write$ -- 1604
 (There were 14 error messages)
