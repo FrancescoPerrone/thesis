@@ -55,31 +55,36 @@
 \contentsline {paragraph}{(c) The tripartite decomposition}{73}{paragraph*.38}%
 \contentsline {subsection}{\numberline {6.3.14}Interim Conclusion to Question~\ref {q:robot-agent}}{74}{subsection.6.3.14}%
 \contentsline {subsection}{\numberline {6.3.15}Quantification of Behavioural Modulation: Parametric and Nonparametric Effect Sizes}{75}{subsection.6.3.15}%
-\contentsline {subsection}{\numberline {6.3.16}Latent Trait Structures and Individual Modulation of Moral Perturbation}{77}{subsection.6.3.16}%
-\contentsline {subsection}{\numberline {6.3.17}Psychometric Interpretation and Semantic Labelling of Latent Personality Clusters}{80}{subsection.6.3.17}%
-\contentsline {subsection}{\numberline {6.3.18}Interim Synthesis: Moral Attenuation, Topological Deformation, and Trait-Contingent Modulation}{83}{subsection.6.3.18}%
-\contentsline {subsubsection}{Status of the Hypotheses}{83}{subsubsection*.45}%
-\contentsline {paragraph}{H1. Evaluative Deformation Hypothesis.}{83}{paragraph*.46}%
-\contentsline {paragraph}{H2. Synthetic Normativity of Moral Displacement.}{83}{paragraph*.47}%
-\contentsline {paragraph}{H3. Synthetic Perturbation of Moral Inference.}{84}{paragraph*.48}%
-\contentsline {paragraph}{H4. (Implied) Trait-Contingent Modulation Hypothesis.}{84}{paragraph*.49}%
-\contentsline {subsubsection}{Condensed Status of the Formal Framework}{84}{subsubsection*.50}%
-\contentsline {subsubsection}{Topological and Ontological Interpretation}{84}{subsubsection*.51}%
-\contentsline {subsection}{\numberline {6.3.19}The Dilution of the Watching Eye Effect under Robotic Co-Presence}{85}{subsection.6.3.19}%
-\contentsline {subsection}{\numberline {6.3.20}Cluster-Specific Regression Analysis of Robotic Perturbation}{86}{subsection.6.3.20}%
-\contentsline {subsection}{\numberline {6.3.21}Bayesian Estimation and Epistemic Gradient Framing}{87}{subsection.6.3.21}%
-\contentsline {subsubsection}{Clarification for Non-Expert Readers}{89}{subsubsection*.55}%
-\contentsline {subsection}{\numberline {6.3.22}Interpreting Moral Perturbation through Latent Trait Regimes}{90}{subsection.6.3.22}%
-\contentsline {section}{\numberline {6.4}Results and Interpretation: Quantifying the Moral Displacement Effect}{91}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Summary of Quantitative Findings}{92}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Epistemic Synthesis and Closing Reflections}{92}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Toward a Theory of Robotic Normative Interference}{93}{subsection.6.4.3}%
-\contentsline {section}{\numberline {6.5}Normative Implications: Robots as Epistemic Agents of Moral Ambiguity}{94}{section.6.5}%
-\contentsline {chapter}{\numberline {7}Methodology}{95}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Cuts}{96}{chapter.8}%
-\contentsline {subsection}{\numberline {8.0.1}Epistemic Precision}{97}{subsection.8.0.1}%
-\contentsline {subsection}{\numberline {8.0.2}Historical-Philosophical Clarity}{98}{subsection.8.0.2}%
-\contentsline {section}{\numberline {8.1}From Experiment}{98}{section.8.1}%
-\contentsline {section}{\numberline {8.2}The Influence of Observational Presence on Human Behavior: Experimental Insights from Human-Robot Interactions}{99}{section.8.2}%
-\contentsline {chapter}{\numberline {A}Derivation of the equation}{100}{appendix.A}%
-\contentsline {chapter}{Bibliography}{102}{appendix*.57}%
+\contentsline {section}{\numberline {6.4}Dispositional Baseline: Big Five Personality Traits Across Conditions}{77}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Between-Condition Differences in Big Five Personality Traits}{78}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Predictive and Moderating Roles of Big Five Traits}{78}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Interpretive Synthesis}{79}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}Latent Trait Structures and Individual Modulation of Moral Perturbation}{80}{subsection.6.4.4}%
+\contentsline {subsection}{\numberline {6.4.5}Psychometric Interpretation and Semantic Labelling of Latent Personality Clusters}{83}{subsection.6.4.5}%
+\contentsline {subsection}{\numberline {6.4.6}Interim Synthesis: Moral Attenuation, Topological Deformation, and Trait-Contingent Modulation}{86}{subsection.6.4.6}%
+\contentsline {subsubsection}{Status of the Hypotheses}{87}{subsubsection*.47}%
+\contentsline {paragraph}{H1. Evaluative Deformation Hypothesis.}{87}{paragraph*.48}%
+\contentsline {paragraph}{H2. Synthetic Normativity of Moral Displacement.}{87}{paragraph*.49}%
+\contentsline {paragraph}{H3. Synthetic Perturbation of Moral Inference.}{87}{paragraph*.50}%
+\contentsline {paragraph}{H4. (Implied) Trait-Contingent Modulation Hypothesis.}{87}{paragraph*.51}%
+\contentsline {subsubsection}{Condensed Status of the Formal Framework}{87}{subsubsection*.52}%
+\contentsline {subsubsection}{Topological and Ontological Interpretation}{88}{subsubsection*.53}%
+\contentsline {subsection}{\numberline {6.4.7}The Dilution of the Watching Eye Effect under Robotic Co-Presence}{89}{subsection.6.4.7}%
+\contentsline {subsection}{\numberline {6.4.8}Cluster-Specific Regression Analysis of Robotic Perturbation}{89}{subsection.6.4.8}%
+\contentsline {subsection}{\numberline {6.4.9}Bayesian Estimation and Epistemic Gradient Framing}{91}{subsection.6.4.9}%
+\contentsline {subsubsection}{Epistemic Interpretation of the Bayesian Results}{94}{subsubsection*.56}%
+\contentsline {subsection}{\numberline {6.4.10}Final Synthesis: Moral Topology, Synthetic Presence, and the Limits of Machine Ethics}{97}{subsection.6.4.10}%
+\contentsline {subsection}{\numberline {6.4.11}Synthesis: Moral Topology, Synthetic Presence, and the Limits of Machine Ethics}{100}{subsection.6.4.11}%
+\contentsline {section}{\numberline {6.5}Results and Interpretation: Quantifying the Moral Displacement Effect}{103}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Summary of Quantitative Findings}{103}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Epistemic Synthesis and Closing Reflections}{104}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}Toward a Theory of Robotic Normative Interference}{105}{subsection.6.5.3}%
+\contentsline {section}{\numberline {6.6}Normative Implications: Robots as Epistemic Agents of Moral Ambiguity}{106}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Methodology}{107}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Cuts}{108}{chapter.8}%
+\contentsline {subsection}{\numberline {8.0.1}Epistemic Precision}{109}{subsection.8.0.1}%
+\contentsline {subsection}{\numberline {8.0.2}Historical-Philosophical Clarity}{110}{subsection.8.0.2}%
+\contentsline {section}{\numberline {8.1}From Experiment}{110}{section.8.1}%
+\contentsline {section}{\numberline {8.2}The Influence of Observational Presence on Human Behavior: Experimental Insights from Human-Robot Interactions}{111}{section.8.2}%
+\contentsline {chapter}{\numberline {A}Derivation of the equation}{112}{appendix.A}%
+\contentsline {chapter}{Bibliography}{114}{appendix*.58}%

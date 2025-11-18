@@ -19,17 +19,12 @@ White space in argument---line 58 of file experimental_methods.aux
  : \citation{MasonTatkinMacrae2005.
  :                                  Johansson1973_BiologicalMotion}
 I'm skipping whatever remains of this command
-Case mismatch error between cite keys rammstedt2007 and Rammstedt2007
----line 133 of file experimental_methods.aux
- : \citation{rammstedt2007
- :                        }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: methodology.aux
 A level-1 auxiliary file: cuts.aux
 A level-1 auxiliary file: derivation.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 10336 items from 5000.
+Reallocated field_info (elt_size=4) to 10543 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -124,8 +119,15 @@ Warning--I didn't find a database entry for "laudan1987"
 Warning--I didn't find a database entry for "bricmont2016"
 Warning--I didn't find a database entry for "woodward2007"
 Warning--I didn't find a database entry for "bird2000"
-Warning--I didn't find a database entry for "baroncohen2004"
-Warning--I didn't find a database entry for "baroncohen2003"
+Warning--I didn't find a database entry for "Coeckelbergh2010"
+Warning--I didn't find a database entry for "HaidtBjorklund2008"
+Warning--I didn't find a database entry for "Vinciarelli2012"
+Warning--I didn't find a database entry for "Picard1997"
+Warning--I didn't find a database entry for "CalvoDMello2010"
+Warning--I didn't find a database entry for "AndersonAnderson2007"
+Warning--I didn't find a database entry for "Boddington2017"
+Warning--I didn't find a database entry for "Winfield2019"
+Warning--I didn't find a database entry for "Santoro2018"
 Warning--I didn't find a database entry for "Pantic2014a"
 Warning--I didn't find a database entry for "Xerxa2023"
 Warning--I didn't find a database entry for "Allcott2020"
@@ -145,45 +147,45 @@ Warning--there's a number but no series in Hare1991
 Warning--empty journal in Greene2015
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
-You've used 183 entries,
+You've used 185 entries,
             1876 wiz_defined-function locations,
-            1686 strings with 31531 characters,
-and the built_in function-call counts, 45527 in all, are:
-= -- 4705
-> -- 1443
+            1712 strings with 32120 characters,
+and the built_in function-call counts, 46023 in all, are:
+= -- 4753
+> -- 1468
 < -- 0
-+ -- 570
-- -- 387
-* -- 2947
-:= -- 6271
-add.period$ -- 259
-call.type$ -- 183
-change.case$ -- 131
++ -- 579
+- -- 394
+* -- 2976
+:= -- 6340
+add.period$ -- 262
+call.type$ -- 185
+change.case$ -- 132
 chr.to.int$ -- 0
-cite$ -- 189
-duplicate$ -- 2441
-empty$ -- 4645
-format.name$ -- 387
-if$ -- 11349
+cite$ -- 191
+duplicate$ -- 2471
+empty$ -- 4689
+format.name$ -- 394
+if$ -- 11475
 int.to.chr$ -- 0
-int.to.str$ -- 183
-missing$ -- 246
-newline$ -- 628
-num.names$ -- 200
-pop$ -- 646
+int.to.str$ -- 185
+missing$ -- 249
+newline$ -- 635
+num.names$ -- 202
+pop$ -- 654
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1466
+skip$ -- 1487
 stack$ -- 0
-substring$ -- 2825
-swap$ -- 936
+substring$ -- 2837
+swap$ -- 950
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 464
-width$ -- 186
-write$ -- 1833
-(There were 17 error messages)
+while$ -- 467
+width$ -- 188
+write$ -- 1853
+(There were 16 error messages)
