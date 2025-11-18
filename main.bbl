@@ -640,20 +640,43 @@ B.~Leidner, J.~Shariff, K.~Kozlowska, and B.~W. Tye, ``Framing ethical
   authority: How authority framing influences obedience to moral cues in robot
   commands,'' {\em Frontiers in Robotics and AI}, vol.~6, p.~123, 2019.
 
+\bibitem{Husserl1913}
+E.~Husserl, {\em Ideas Pertaining to a Pure Phenomenology and to a
+  Phenomenological Philosophy: First Book}.
+\newblock The Hague: Nijhoff, 1913.
+\newblock Original 1913; various translations available.
+
+\bibitem{Zahavi2005}
+D.~Zahavi, {\em Subjectivity and Selfhood: Investigating the First-Person
+  Perspective}.
+\newblock Cambridge, MA: MIT Press, 2005.
+
+\bibitem{Gallagher2005}
+S.~Gallagher, {\em How the Body Shapes the Mind}.
+\newblock Oxford: Oxford University Press, 2005.
+
+\bibitem{Bargh1994}
+J.~A. Bargh, ``The four horsemen of automaticity: Awareness, intention,
+  efficiency, and control in social cognition,'' {\em Handbook of Social
+  Cognition}, vol.~1, pp.~1--40, 1994.
+
+\bibitem{Brentano1874}
+F.~Brentano, {\em Psychology from an Empirical Standpoint}.
+\newblock Routledge, 1874.
+\newblock Original work; various editions.
+
+\bibitem{Searle1983}
+J.~Searle, {\em Intentionality: An Essay in the Philosophy of Mind}.
+\newblock Cambridge: Cambridge University Press, 1983.
+
+\bibitem{Crane2001}
+T.~Crane, {\em Elements of Mind: An Introduction to the Philosophy of Mind}.
+\newblock Oxford: Oxford University Press, 2001.
+
 \bibitem{Bremner2022}
 P.~Bremner, U.~Leonards, and A.~Bateman, ``The mere presence of a robot is
   enough to elicit social facilitation of human performance,'' {\em Scientific
   Reports}, vol.~12, no.~1, pp.~1--14, 2022.
-
-\bibitem{DeBrigard2021}
-F.~De~Brigard, W.~Sinnott-Armstrong, A.~E. Monroe, N.~Carroll, and J.~May,
-  ``The agent?patient asymmetry in moral cognition: Evidence of a social bias
-  in moral judgment,'' {\em Cognitive Science}, vol.~45, no.~4, p.~e12965,
-  2021.
-
-\bibitem{Dennett1987}
-D.~C. Dennett, {\em The Intentional Stance}.
-\newblock Cambridge, MA: MIT Press, 1987.
 
 \bibitem{Guthrie1993}
 S.~E. Guthrie, {\em Faces in the Clouds: A New Theory of Religion}.
@@ -663,6 +686,10 @@ S.~E. Guthrie, {\em Faces in the Clouds: A New Theory of Religion}.
 A.~Waytz, J.~Cacioppo, and N.~Epley, ``Who sees human? the stability and
   importance of individual differences in anthropomorphism,'' {\em Perspectives
   on Psychological Science}, vol.~5, no.~3, pp.~219--232, 2010.
+
+\bibitem{Dennett1987}
+D.~C. Dennett, {\em The Intentional Stance}.
+\newblock Cambridge, MA: MIT Press, 1987.
 
 \bibitem{Floridi2008}
 L.~Floridi, ``The method of levels of abstraction,'' {\em Minds and machines},
@@ -676,9 +703,85 @@ L.~Floridi, {\em Information: A Very Short Introduction}.
 L.~Floridi, {\em The Ethics of Information}.
 \newblock Oxford: Oxford University Press, 2013.
 
+\bibitem{Emery2000}
+N.~J. Emery, ``The eyes have it: The neuroethology, function and evolution of
+  social gaze,'' {\em Neuroscience \& Biobehavioral Reviews}, vol.~24, no.~6,
+  pp.~581--604, 2000.
+
+\bibitem{Hietanen2002}
+J.~K. Hietanen, ``Social attention orienting induced by eye gaze and head
+  orientation,'' {\em Visual Cognition}, vol.~9, no.~1--2, pp.~1--22, 2002.
+
+\bibitem{CarneyCuddyYap2010}
+D.~R. Carney, A.~J.~C. Cuddy, and A.~J. Yap, ``Power posing: Brief nonverbal
+  displays affect neuroendocrine levels and risk tolerance,'' {\em
+  Psychological Science}, vol.~21, no.~10, pp.~1363--1368, 2010.
+
+\bibitem{Argyle1975}
+M.~Argyle, {\em Bodily Communication}.
+\newblock London: Methuen, 1975.
+
+\bibitem{Rhodes2006}
+G.~Rhodes, ``The evolutionary psychology of facial beauty,'' {\em Annual Review
+  of Psychology}, vol.~57, pp.~199--226, 2006.
+
+\bibitem{Johansson1973}
+G.~Johansson, ``Visual perception of biological motion and a model for its
+  analysis,'' {\em Perception \& Psychophysics}, vol.~14, no.~2, pp.~201--211,
+  1973.
+
+\bibitem{Saygin2012}
+A.~P. Saygin, T.~Chaminade, H.~Ishiguro, J.~Driver, and C.~Frith, ``The thing
+  that should not be: predictive coding and the uncanny valley in perceiving
+  human and humanoid robot actions,'' {\em Social Cognitive and Affective
+  Neuroscience}, vol.~7, no.~4, pp.~413--422, 2012.
+
+\bibitem{ChaminadeOhnishi2007}
+T.~Chaminade and T.~Ohnishi, ``Differentiating human and humanoid robot motion:
+  Humans do not rely on dynamics,'' {\em Biological Cybernetics}, vol.~96,
+  no.~5, pp.~477--489, 2007.
+
+\bibitem{KleckStrenta1980}
+R.~E. Kleck and A.~Strenta, ``Perceptions of the gaze of another,'' {\em
+  Journal of Personality and Social Psychology}, vol.~39, no.~5, pp.~725--732,
+  1980.
+
+\bibitem{Hietanen1999}
+J.~K. Hietanen, ``Does your gaze direction reflect your attention?,'' {\em
+  Visual Cognition}, vol.~6, no.~1, pp.~97--120, 1999.
+
+\bibitem{Saygin2012_BiologicalMotionRobots}
+A.~P. Saygin, T.~Chaminade, H.~Ishiguro, J.~Driver, and C.~Frith, ``The thing
+  that should not be: predictive coding and the uncanny valley in perceiving
+  human and humanoid robot actions,'' {\em Social Cognitive and Affective
+  Neuroscience}, vol.~7, no.~4, pp.~413--422, 2012.
+
+\bibitem{BatesonNettleRoberts2006_CuesWatched}
+M.~Bateson, D.~Nettle, and G.~Roberts, ``Cues of being watched enhance
+  cooperation in a real-world setting,'' {\em Biology Letters}, vol.~2, no.~3,
+  pp.~412--414, 2006.
+
 \bibitem{FloridiSanders2004}
 L.~Floridi and J.~W. Sanders, ``On the morality of artificial agents,'' {\em
   Minds and Machines}, vol.~14, no.~3, pp.~349--379, 2004.
+
+\bibitem{BaronCohenWheelwright2004_EmpathyQuotient}
+S.~Baron?Cohen and S.~Wheelwright, ``The empathy quotient: An investigation of
+  adults with asperger syndrome or high-functioning autism, and normal sex
+  differences,'' {\em Journal of Autism and Developmental Disorders}, vol.~34,
+  no.~2, pp.~163--175, 2004.
+
+\bibitem{BaronCohenRichlerBisaryaGurunathanWheelwright2003_SystemizingQuotient}
+S.~Baron?Cohen, J.~Richler, D.~Bisarya, N.~Gurunathan, and S.~Wheelwright,
+  ``The systemizing quotient: An investigation of adults with asperger syndrome
+  or high-functioning autism, and normal sex differences,'' {\em Philosophical
+  Transactions of the Royal Society B: Biological Sciences}, vol.~358,
+  no.~1430, pp.~361--374, 2003.
+
+\bibitem{JohnDonahueKentle1991_BigFiveInventory}
+O.~P. John, E.~M. Donahue, and R.~L. Kentle, ``The big five inventory ?
+  versions 4a and 5,'' tech. rep., Institute of Personality and Social
+  Research, University of California, Berkeley, Berkeley, California, 1991.
 
 \bibitem{Anscombe1957}
 G.~E.~M. Anscombe, {\em Intention}.
@@ -727,6 +830,12 @@ S.~Baron-Cohen, J.~Richler, D.~Bisarya, N.~Gurunathan, and S.~Wheelwright,
 B.~Rammstedt and O.~P. John, ``Measuring personality in one minute or less: A
   10-item short version of the big five inventory in english and german,'' {\em
   Journal of research in Personality}, vol.~41, no.~1, pp.~203--212, 2007.
+
+\bibitem{Zlotowski2015}
+J.~Z{\l}otowski, D.~Proudfoot, K.~Yogeeswaran, and C.~Bartneck,
+  ``Anthropomorphism: Opportunities and challenges in human--robot
+  interaction,'' {\em International Journal of Social Robotics}, vol.~7, no.~3,
+  pp.~347--360, 2015.
 
 \bibitem{Levitis2009}
 D.~A. Levitis, W.~Z. Lidicker, and G.~Freund, ``Behavioral biologists do not

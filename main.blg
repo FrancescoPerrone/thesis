@@ -15,8 +15,12 @@ A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: watching_eye.aux
 A level-1 auxiliary file: prosocial_b.aux
 A level-1 auxiliary file: experimental_methods.aux
+White space in argument---line 58 of file experimental_methods.aux
+ : \citation{MasonTatkinMacrae2005.
+ :                                  Johansson1973_BiologicalMotion}
+I'm skipping whatever remains of this command
 Case mismatch error between cite keys rammstedt2007 and Rammstedt2007
----line 81 of file experimental_methods.aux
+---line 133 of file experimental_methods.aux
  : \citation{rammstedt2007
  :                        }
 I'm skipping whatever remains of this command
@@ -25,6 +29,7 @@ A level-1 auxiliary file: cuts.aux
 A level-1 auxiliary file: derivation.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
+Reallocated field_info (elt_size=4) to 10336 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -76,6 +81,14 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 3241 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Vanstraten2020
  :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3539 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Emery2000
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3572 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Argyle1975
+ :                 ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Allen_Wallach2012"
 Warning--I didn't find a database entry for "Minsky1985"
@@ -132,45 +145,45 @@ Warning--there's a number but no series in Hare1991
 Warning--empty journal in Greene2015
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
-You've used 161 entries,
+You've used 183 entries,
             1876 wiz_defined-function locations,
-            1563 strings with 28050 characters,
-and the built_in function-call counts, 39751 in all, are:
-= -- 4075
-> -- 1286
+            1686 strings with 31531 characters,
+and the built_in function-call counts, 45527 in all, are:
+= -- 4705
+> -- 1443
 < -- 0
-+ -- 506
-- -- 345
-* -- 2560
-:= -- 5480
-add.period$ -- 228
-call.type$ -- 161
-change.case$ -- 115
++ -- 570
+- -- 387
+* -- 2947
+:= -- 6271
+add.period$ -- 259
+call.type$ -- 183
+change.case$ -- 131
 chr.to.int$ -- 0
-cite$ -- 167
-duplicate$ -- 2146
-empty$ -- 4076
-format.name$ -- 345
-if$ -- 9917
+cite$ -- 189
+duplicate$ -- 2441
+empty$ -- 4645
+format.name$ -- 387
+if$ -- 11349
 int.to.chr$ -- 0
-int.to.str$ -- 161
-missing$ -- 218
-newline$ -- 553
-num.names$ -- 178
-pop$ -- 590
+int.to.str$ -- 183
+missing$ -- 246
+newline$ -- 628
+num.names$ -- 200
+pop$ -- 646
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1276
+skip$ -- 1466
 stack$ -- 0
-substring$ -- 2380
-swap$ -- 815
+substring$ -- 2825
+swap$ -- 936
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 398
-width$ -- 164
-write$ -- 1604
-(There were 14 error messages)
+while$ -- 464
+width$ -- 186
+write$ -- 1833
+(There were 17 error messages)
