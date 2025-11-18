@@ -1,7 +1,7 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{Abstract}{{\fontencoding {T1}\selectfont i}}{chapter*.1}%
-\contentsline {chapter}{Acknowledgements}{{\fontencoding {T1}\selectfont vii}}{chapter*.5}%
-\contentsline {chapter}{Declaration}{{\fontencoding {T1}\selectfont viii}}{chapter*.6}%
+\contentsline {chapter}{Acknowledgements}{{\fontencoding {T1}\selectfont viii}}{chapter*.5}%
+\contentsline {chapter}{Declaration}{{\fontencoding {T1}\selectfont ix}}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Machines' Ethics}{1}{section.1.1}%
 \contentsline {chapter}{\numberline {2}}{7}{chapter.2}%
@@ -40,28 +40,46 @@
 \contentsline {subsection}{\numberline {6.3.5}Procedural Architecture of the Experimental Protocol}{59}{subsection.6.3.5}%
 \contentsline {subsection}{\numberline {6.3.6}Participants as Agents under Constraint}{61}{subsection.6.3.6}%
 \contentsline {subsection}{\numberline {6.3.7}Experimental Conditions: The Robotic Displacement Hypothesis}{61}{subsection.6.3.7}%
+\contentsline {subsection}{\numberline {6.3.8}Interim Evaluation of the Hypotheses and Formal Framework}{63}{subsection.6.3.8}%
 \contentsline {paragraph}{(a) The evaluative transformation function \(f(\cdot )\).}{64}{paragraph*.25}%
 \contentsline {paragraph}{(b) Expected behavioural distributions \(\mathbb {E}[f(\Sigma )]\) vs.\ \(\mathbb {E}[f(\Sigma \cup \mathscr {R})]\).}{64}{paragraph*.26}%
 \contentsline {paragraph}{(c) The tripartite decomposition}{64}{paragraph*.27}%
-\contentsline {subsection}{\numberline {6.3.8}Preprocessing the Moral Field: Semiotic Modulation and Ontological Symmetry}{65}{subsection.6.3.8}%
-\contentsline {subsection}{\numberline {6.3.9}Preliminary Descriptive Patterns: Indications of Inferential Displacement}{69}{subsection.6.3.9}%
-\contentsline {subsection}{\numberline {6.3.10}Inferential Assessment of Attenuation: Behavioural Evidence for Perturbation}{69}{subsection.6.3.10}%
-\contentsline {subsection}{\numberline {6.3.11}Quantification of Behavioral Modulation: Parametric and Nonparametric Effect Sizes}{71}{subsection.6.3.11}%
-\contentsline {subsection}{\numberline {6.3.12}Latent Trait Structures and Individual Modulation of Moral Perturbation}{74}{subsection.6.3.12}%
-\contentsline {subsection}{\numberline {6.3.13}Cluster-Specific Regression Analysis of Robotic Perturbation}{77}{subsection.6.3.13}%
-\contentsline {subsection}{\numberline {6.3.14}Bayesian Estimation and Epistemic Gradient Framing}{79}{subsection.6.3.14}%
-\contentsline {subsubsection}{Clarification for Non-Expert Readers}{80}{subsubsection*.46}%
-\contentsline {subsection}{\numberline {6.3.15}Interpreting Moral Perturbation through Latent Trait Regimes}{81}{subsection.6.3.15}%
-\contentsline {section}{\numberline {6.4}Results and Interpretation: Quantifying the Moral Displacement Effect}{82}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Summary of Quantitative Findings}{83}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Epistemic Synthesis and Closing Reflections}{83}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Toward a Theory of Robotic Normative Interference}{84}{subsection.6.4.3}%
-\contentsline {section}{\numberline {6.5}Normative Implications: Robots as Epistemic Agents of Moral Ambiguity}{85}{section.6.5}%
-\contentsline {chapter}{\numberline {7}Methodology}{86}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Cuts}{87}{chapter.8}%
-\contentsline {subsection}{\numberline {8.0.1}Epistemic Precision}{88}{subsection.8.0.1}%
-\contentsline {subsection}{\numberline {8.0.2}Historical-Philosophical Clarity}{89}{subsection.8.0.2}%
-\contentsline {section}{\numberline {8.1}From Experiment}{89}{section.8.1}%
-\contentsline {section}{\numberline {8.2}The Influence of Observational Presence on Human Behavior: Experimental Insights from Human-Robot Interactions}{90}{section.8.2}%
-\contentsline {chapter}{\numberline {A}Derivation of the equation}{91}{appendix.A}%
-\contentsline {chapter}{Bibliography}{93}{appendix*.48}%
+\contentsline {subsection}{\numberline {6.3.9}Interim Conclusion to Question~\ref {q:robot-agent}}{65}{subsection.6.3.9}%
+\contentsline {subsection}{\numberline {6.3.10}Preprocessing the Moral Field: Semiotic Modulation and Ontological Symmetry}{65}{subsection.6.3.10}%
+\contentsline {subsection}{\numberline {6.3.11}Preliminary Descriptive Patterns: Indications of Inferential Displacement}{69}{subsection.6.3.11}%
+\contentsline {subsection}{\numberline {6.3.12}Inferential Assessment of Attenuation: Behavioural Evidence for Perturbation}{69}{subsection.6.3.12}%
+\contentsline {subsection}{\numberline {6.3.13}Interim Evaluation of the Hypotheses and Formal Framework}{71}{subsection.6.3.13}%
+\contentsline {subsubsection}{Status of the Mathematical Formalism}{73}{subsubsection*.35}%
+\contentsline {paragraph}{(a) The evaluative transformation function \(f(\cdot )\).}{73}{paragraph*.36}%
+\contentsline {paragraph}{(b) Expected behavioural distributions \(\mathbb {E}[f(\Sigma )]\) vs.\ \(\mathbb {E}[f(\Sigma \cup \mathscr {R})]\).}{73}{paragraph*.37}%
+\contentsline {paragraph}{(c) The tripartite decomposition}{73}{paragraph*.38}%
+\contentsline {subsection}{\numberline {6.3.14}Interim Conclusion to Question~\ref {q:robot-agent}}{74}{subsection.6.3.14}%
+\contentsline {subsection}{\numberline {6.3.15}Quantification of Behavioural Modulation: Parametric and Nonparametric Effect Sizes}{75}{subsection.6.3.15}%
+\contentsline {subsection}{\numberline {6.3.16}Latent Trait Structures and Individual Modulation of Moral Perturbation}{77}{subsection.6.3.16}%
+\contentsline {subsection}{\numberline {6.3.17}Psychometric Interpretation and Semantic Labelling of Latent Personality Clusters}{80}{subsection.6.3.17}%
+\contentsline {subsection}{\numberline {6.3.18}Interim Synthesis: Moral Attenuation, Topological Deformation, and Trait-Contingent Modulation}{83}{subsection.6.3.18}%
+\contentsline {subsubsection}{Status of the Hypotheses}{83}{subsubsection*.45}%
+\contentsline {paragraph}{H1. Evaluative Deformation Hypothesis.}{83}{paragraph*.46}%
+\contentsline {paragraph}{H2. Synthetic Normativity of Moral Displacement.}{83}{paragraph*.47}%
+\contentsline {paragraph}{H3. Synthetic Perturbation of Moral Inference.}{84}{paragraph*.48}%
+\contentsline {paragraph}{H4. (Implied) Trait-Contingent Modulation Hypothesis.}{84}{paragraph*.49}%
+\contentsline {subsubsection}{Condensed Status of the Formal Framework}{84}{subsubsection*.50}%
+\contentsline {subsubsection}{Topological and Ontological Interpretation}{84}{subsubsection*.51}%
+\contentsline {subsection}{\numberline {6.3.19}The Dilution of the Watching Eye Effect under Robotic Co-Presence}{85}{subsection.6.3.19}%
+\contentsline {subsection}{\numberline {6.3.20}Cluster-Specific Regression Analysis of Robotic Perturbation}{86}{subsection.6.3.20}%
+\contentsline {subsection}{\numberline {6.3.21}Bayesian Estimation and Epistemic Gradient Framing}{87}{subsection.6.3.21}%
+\contentsline {subsubsection}{Clarification for Non-Expert Readers}{89}{subsubsection*.55}%
+\contentsline {subsection}{\numberline {6.3.22}Interpreting Moral Perturbation through Latent Trait Regimes}{90}{subsection.6.3.22}%
+\contentsline {section}{\numberline {6.4}Results and Interpretation: Quantifying the Moral Displacement Effect}{91}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Summary of Quantitative Findings}{92}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Epistemic Synthesis and Closing Reflections}{92}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Toward a Theory of Robotic Normative Interference}{93}{subsection.6.4.3}%
+\contentsline {section}{\numberline {6.5}Normative Implications: Robots as Epistemic Agents of Moral Ambiguity}{94}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Methodology}{95}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Cuts}{96}{chapter.8}%
+\contentsline {subsection}{\numberline {8.0.1}Epistemic Precision}{97}{subsection.8.0.1}%
+\contentsline {subsection}{\numberline {8.0.2}Historical-Philosophical Clarity}{98}{subsection.8.0.2}%
+\contentsline {section}{\numberline {8.1}From Experiment}{98}{section.8.1}%
+\contentsline {section}{\numberline {8.2}The Influence of Observational Presence on Human Behavior: Experimental Insights from Human-Robot Interactions}{99}{section.8.2}%
+\contentsline {chapter}{\numberline {A}Derivation of the equation}{100}{appendix.A}%
+\contentsline {chapter}{Bibliography}{102}{appendix*.57}%

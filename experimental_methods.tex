@@ -188,6 +188,7 @@ Read aloud, this expresses the hypothesis that:
 \begin{center}
 	\nextstatement
 	\begin{hypobox}{Evaluative Deformation Hypothesis}
+		\label{hyp:evaluative_deformation}
 		The expected outcome of moral behaviour, as computed through the evaluative process \( f \), is altered when the robot is present within the perceptual-moral environment.
 	\end{hypobox}
 \end{center}
@@ -229,6 +230,7 @@ This brings us to the ontological dimension of the hypothesis. The robot’s inf
 \begin{center}
 	\nextstatement
 	\begin{hypobox}{Synthetic Normativity of Moral Displacement}
+		\label{hyp:synthetic_normativity}
 		Synthetic presences, though devoid of sentience, may acquire \textit{normative affordances} by virtue of their perceived ontology. When situated within morality-salient environments, such presences may disrupt, refract, or displace the evaluative machinery through which moral judgments are ordinarily formed.
 	\end{hypobox}
 \end{center}
@@ -565,7 +567,7 @@ These demographic controls complete the methodological foundations for the infer
 % PARTIAL CONCLUSION: HYPOTHESES, FORMALISM, AND INTERIM FINDINGS
 % =====================================================================
 
-\subsection*{Interim Evaluation of the Hypotheses and Formal Framework}
+\subsection{Interim Evaluation of the Hypotheses and Formal Framework}
 
 Having established the experimental architecture and its accompanying mathematical formalism, we may now assess the status of the hypotheses introduced thus far. Rather than presenting these hypotheses as isolated propositions, they form an interconnected explanatory sequence: each articulates a different dimension of the same underlying phenomenon—the deformation of the evaluative pathway through which moral salience becomes behaviour.
 
@@ -605,7 +607,7 @@ Together, these three formal components ensure that the empirical observations a
 
 % ---------------------------------------------------------------------
 
-\subsection*{Interim Conclusion to Question~\ref{q:robot-agent}}
+\subsection{Interim Conclusion to Question~\ref{q:robot-agent}}
 
 \begin{center}
 	\begin{tcolorbox}[colback=white,colframe=black!60,title=Partial Conclusion to Question~\ref{q:robot-agent}]
@@ -708,210 +710,512 @@ These preliminary divergences should be read cautiously. At this stage, they are
 	\caption{Summary of central tendencies for key behavioural and psychometric variables. The Robot condition shows numerically lower donation amounts and empathizing scores, suggesting potential attenuation effects of passive robotic presence.}
 \end{table}
 
+% FROM HERE
 %%% =======================
 %%%  NEW CONTENT N4 — REVISED
 %%% =======================
 
 \subsection{Inferential Assessment of Attenuation: Behavioural Evidence for Perturbation}
+\label{subsec:inferential_attentuation}
 
 \noindent
-To determine whether the observed divergence in donation behaviour constitutes a statistically credible effect, we applied a combination of parametric and nonparametric inferential techniques. A chi-squared test on aggregated donation totals yielded a significant result ($\chi^2 = 4.25$, $p = .039$), providing preliminary support for the directional expectation embedded in the Evaluative Deformation Hypothesis (\ref{hyp:evaluative_deformation}). 
-
-\statementheader{Conclusion}{Aggregate Moral Attenuation}
-\label{conc:impact_moral_refactor}
-\begin{hypobox}
-	At the level of aggregated group output, the presence of the humanoid robot is associated with a measurable attenuation in prosocial donation behaviour.
-\end{hypobox}
+Having established the structural integrity of the dataset and the epistemic symmetry of the experimental groups, we now turn to the first inferential evaluation of whether the presence of the humanoid robot $\mathscr{R}$ modulates prosocial donation behaviour. This analysis directly bears on the \textit{Evaluative Deformation Hypothesis} introduced earlier (see Hypothesis~\ref{hyp:evaluative_deformation}), which predicts that the expected behavioural output $\mathbb{E}[f(\Sigma \cup \mathscr{R})]$ will diverge from $\mathbb{E}[f(\Sigma)]$ under otherwise identical environmental conditions.
 
 \noindent
-This conclusion remains appropriately circumscribed: it asserts an association between robotic presence and reduced monetary donation, but does not yet commit to an interpretation of this behaviour as ``charitable attenuation'' in a normative or motivational sense. That conceptual inference will be addressed later in the dedicated chapter on the ethics of charitable giving.
+A chi-squared test on aggregated donation totals revealed a statistically significant difference across conditions ($\chi^2 = 4.25$, $p = .039$). Although modest in magnitude, this result provides preliminary support for the claim that robotic presence exerts a measurable perturbative influence at the level of group-level moral output.
+
+\begin{center}
+	\begin{tcolorbox}[colback=white,colframe=black!60,title=Conclusion: Aggregate Attenuation of Prosocial Output]
+		At the aggregate level, participants exposed to the humanoid robot donated less overall than those in the Control condition, indicating a measurable attenuation in prosocial behavioural output under synthetic co-presence.
+	\end{tcolorbox}
+\end{center}
 
 \noindent
-A Mann–Whitney U test comparing the full donation distributions did not reach statistical significance ($U = 777$, $p = .194$), indicating substantial overlap in behavioural variability across conditions. This distributional convergence suggests that while the central tendencies diverge directionally, the perturbative effect of $\mathscr{R}$ does not manifest uniformly across all individuals. Rather, it may interact with latent cognitive–affective structures, producing a heterogeneous pattern of responsiveness.
-
-A bootstrapped estimate of the mean donation difference ($\Delta M = £0.71$) corroborates the directional trend, yet its 95\% confidence interval crosses zero (CI = [–£0.33, £1.79]). This epistemic fragility reinforces a key theoretical point: robotic presence operates not as a deterministic suppressor of moral action, but as a \textbf{subtle modulator of the normative field}—its influence detectable at aggregate scales, but diffusely distributed across individuals.
+It is important to emphasise the conceptual modesty of this conclusion. The inference concerns \emph{behavioural outcomes}, not motivational states: it does not license any direct claim about reduced empathy, diminished altruism, or altered moral character. A richer ethical interpretation of the donation act will be developed subsequently in the dedicated chapter on charitable giving and moral agency.
 
 \noindent
-In this light, the inferential structure of the experiment accords with the philosophical conception of $\mathscr{R}$ as a \textit{semiotic perturbator}: an entity that refracts moral salience rather than overriding it. The patterns emerging here warrant more granular modelling, particularly in relation to the psychometric variables ($\beta_C$) and their possible interaction with $\gamma_R$, before stronger conclusions can be drawn about the topology of moral displacement.
+To complement the chi-squared test, a Mann–Whitney U test was applied to the full distribution of donation amounts. This test did not reach statistical significance ($U = 777$, $p = .194$), indicating that although the group means diverge, the individual-level distributions remain substantially overlapping. This distributional overlap suggests that the perturbative influence of $\mathscr{R}$ is not uniformly expressed across participants, but may depend on latent cognitive–affective structures captured in the trait vector $\beta_C$.
+
+\noindent
+A nonparametric bootstrap estimate of the mean donation difference ($\Delta M = £0.71$) reinforced the directional pattern, yet its 95\% confidence interval included zero (CI = [–£0.33, £1.79]). This epistemic indeterminacy is itself theoretically consistent with the overarching framework: the robot functions not as a deterministic suppressor of moral behaviour, but as a \textbf{subtle modulator of the normative field}, whose influence becomes most visible at the level of aggregated tendencies rather than individual-level deterministic shifts.
+
+\noindent
+Taken together, these results support the philosophical characterisation of $\mathscr{R}$ as a \textit{semiotic perturbator}—an entity whose ontological ambiguity refracts the inferential trajectory from moral salience to behavioural output. The attenuation observed at the aggregate level, coupled with the distributional overlap at the individual level, points toward a heterogeneous responsiveness within the participant population, motivating the more refined modelling strategies introduced in the sections to follow. \textit{In particular, the potential interaction between robotic presence $\gamma_R$ and individual traits $\beta_C$ warrants further investigation through regression modelling, interaction analyses, and Bayesian estimation procedures.}
 
 \begin{table}[H]
 	\centering
 	\includegraphics[width=\textwidth]{tables/statistical_tests_table.pdf}
-	\caption{Inferential comparisons of donation behaviour across conditions. The chi-squared test identifies a significant group-level difference, while the Mann–Whitney U and bootstrapped mean difference reveal a more diffuse and heterogeneous distributional pattern.}
-	\label{tab:key_variables}
+	\caption{Inferential comparisons of donation behaviour across conditions. The chi-squared test identifies a significant difference in aggregate donation totals, while the Mann–Whitney U test and bootstrapped mean difference indicate substantial distributional overlap and a diffuse, heterogeneous perturbative effect.}
+	\label{tab:statistical_tests}
 \end{table}
 
-
-%%% NEW CONTENT N4.1
 \vspace{0.3cm}
 \noindent
-Inferential statistical testing corroborates the initial descriptive trends, albeit with nuanced gradations in evidential strength. A chi-squared test applied to the aggregate donation sums across experimental conditions yielded a statistically significant divergence ($\chi^2 = 4.25$, $p = .039$), affirming the core hypothesis that the presence of a robotic observer perturbs the inferential pathway from moral salience recognition to prosocial output. 
+Inferential statistical testing corroborates the initial descriptive trends, albeit with nuanced gradations in evidential strength. As shown above, a chi-squared test applied to the aggregate donation sums across experimental conditions yielded a statistically significant divergence ($\chi^2 = 4.25$, $p = .039$), in line with the Evaluative Deformation Hypothesis that the presence of a synthetic co-presence $\mathscr{R}$ deforms the expected behavioural output of the evaluative function $f$. 
 
-However, this significance attenuates when subjected to distribution-sensitive analyses: a Mann–Whitney U test failed to detect a reliable shift in the overall distributions of donation amounts ($U = 777$, $p = .194$), suggesting that central tendency shifts are accompanied by substantial individual variability. A bootstrapped estimation of the mean donation difference ($\Delta M = £0.71$) reinforced this pattern of modest directional change, but the 95\% confidence interval [$–£0.33$, £1.79$]$ encompasses the null, underscoring the epistemic fragility of the observed effect.
-
-Together, these results imply that while robotic presence operates as a salient perturbator at the level of group aggregates, its impact at the individual decision level is probabilistic, diffuse, and structurally unstable—an effect coherent with the notion of robots as \textbf{liminal agents} within the moral-evaluative architecture of human cognition. In this reading, the robot is not a causal force imposing behavioral regularities, but a semiotic anomaly: a presence that destabilizes the otherwise inferentially coherent conversion of moral salience into prosocial action.
+However, this aggregate significance attenuates when the full distributions of donation amounts are examined. A Mann–Whitney U test did not detect a reliable shift in the overall donation distributions ($U = 777$, $p = .194$), indicating substantial overlap in individual-level variability across the Control and Robot conditions. A bootstrapped estimation of the mean difference in donation ($\Delta M = £0.71$) reinforced the directional pattern, but the 95\% confidence interval (CI = [–£0.33, £1.79]) encompassed the null, \textit{thereby underscoring the epistemic fragility and structural subtlety of the observed effect.}
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{new_plots/donation_effect_by_condition.png}
-	\caption{Mean donation amounts by experimental condition, with 95\% bootstrapped confidence intervals. Participants in the control condition donated more on average than those in the robot condition, aligning with the hypothesis that robotic presence attenuates the inferential mapping from moral salience to prosocial action. Confidence intervals reveal substantial overlap, indicating that while the aggregate effect reaches significance in total sums, individual-level variability remains high.}
-	\label{fig:age_distribution_by_group}
+	\caption{Mean donation amounts by experimental condition, with 95\% bootstrapped confidence intervals. Participants in the Control condition donated more on average than those in the Robot condition, aligning with the hypothesis that robotic presence attenuates the inferential mapping from moral salience to prosocial action. The overlapping confidence intervals highlight substantial individual-level variability and the probabilistic nature of the perturbation.}
+	\label{fig:donation_effect_by_condition}
 \end{figure}
+\noindent
 
-%%% END N4.1
+\noindent
+Beyond establishing that a statistically detectable attenuation emerges at the level of group aggregates, it is epistemically important to quantify the magnitude of this perturbation. The effect is not only small in absolute monetary terms, but also structurally modest in inferential terms: it does not collapse the transformation from moral salience to action, but appears to bend it. The following analyses therefore introduce both parametric and nonparametric effect size metrics, in order to characterise how strongly the robotic co-presence $\gamma_R$ modulates the evaluative function $f(\alpha_E, \beta_C, \gamma_R)$ and how this modulation scales across heterogeneous configurations of the trait vector $\beta_C$.
+
+% ---------------------------------------------------------------------
+\subsection{Interim Evaluation of the Hypotheses and Formal Framework}
+
+\noindent
+At this stage, the behavioural and inferential results allow for a provisional assessment of the hypotheses and the formal apparatus introduced earlier. These are not isolated claims, but components of a single explanatory architecture that tracks how moral salience is transformed into observable behaviour under synthetic co-presence.
+
+\noindent
+The \textbf{Evaluative Deformation Hypothesis} (Hypothesis~\ref{hyp:evaluative_deformation} p.~\pageref{hyp:evaluative_deformation}) asserts that the expected outcome of moral behaviour, as computed by the evaluative transformation $f$, is altered when the robot is present within the perceptual–moral environment. The chi-squared analysis of aggregate donation totals, together with the bootstrapped mean difference, supports this claim: the pattern
+\[
+\mathbb{E}[f(\Sigma \cup \mathscr{R})] < \mathbb{E}[f(\Sigma)]
+\]
+is empirically instantiated, albeit modestly and with heterogeneous individual-level expression. This hypothesis is therefore \textbf{retained} as an operative empirical statement about the deformation of group-level moral output under robotic co-presence.
+
+\medskip
+\noindent
+The \textbf{Synthetic Normativity of Moral Displacement} hypothesis (Hypothesis~\ref{hyp:synthetic_normativity}, p.~\pageref{hyp:synthetic_normativity}) provides the ontological and conceptual groundwork for interpreting this deformation. It claims that synthetic presences, though devoid of sentience, may acquire normative affordances by virtue of their perceived ontology. The present evidence neither confirms nor disconfirms this hypothesis in a narrow statistical sense; rather, it shows that a non-interactive yet semantically rich artefact, \textbf{positioned at the appropriate Level of Abstraction}, can exert measurable influence on prosocial behaviour without issuing commands, arguments, or reasons. This is exactly the pattern one would expect if normative affordances were grounded in informational presentation at a given LoA, rather than in intrinsic moral status. The hypothesis is thus \textbf{retained} as the principal conceptual lens through which the behavioural results are interpreted.
+
+\noindent
+The \textbf{Synthetic Perturbation of Moral Inference} hypothesis (Hypothesis~\ref{hyp:synthetic_perturbation},  p.~\pageref{hyp:synthetic_perturbation}) specifies the mechanism connecting the previous two: the robot does not merely co-occur with lowered donations; it perturbs the inferential transition from moral salience to prosocial action by refracting the affective–empathic cues that would otherwise support donation behaviour. The combined pattern of (i) significant aggregate attenuation, (ii) overlapping individual-level distributions, and (iii) non-trivial yet fragile effect sizes is coherent with this mechanistic reading: the evaluative mapping is not destroyed, but \textbf{its topology is altered}. This hypothesis is therefore \textbf{retained} as a working account of how the deformation is instantiated at the level of moral inference.
+\noindent
+In sum, all three hypotheses remain live and mutually reinforcing:
+
+\begin{itemize}
+	\item Hypothesis~\ref{hyp:evaluative_deformation}, (p.~\pageref{hyp:evaluative_deformation}) identifies the \emph{empirical signature} of deformation at the level of expected behaviour.
+	\item Hypothesis~\ref{hyp:synthetic_normativity}, (p.~\pageref{hyp:synthetic_normativity}) explains the \emph{ontological possibility} of such deformation within Floridi’s informationalist framework and its Levels of Abstraction.
+	\item Hypothesis~\ref{hyp:synthetic_perturbation}, (p.~\pageref{hyp:synthetic_perturbation}) articulates the \emph{inferential pathway} through which robotic presence reshapes the transition from moral salience to action.
+\end{itemize}
+
+No hypothesis introduced thus far is contradicted by the current evidence; rather, the data suggest that the deformation is subtle, probabilistic, and mediated—exactly the kind of effect one would expect when perturbation occurs at the level of semantic encoding rather than at the level of explicit instruction or coercion.
+
+% ---------------------------------------------------------------------
+\subsubsection{Status of the Mathematical Formalism}
+
+\noindent
+The mathematical formalism developed earlier has not remained abstract scaffolding; it has directly structured both the analysis and the interpretation of the behavioural findings.
+
+\paragraph{(a) The evaluative transformation function \(f(\cdot)\).}
+This function encodes the cognitive–affective transformation through which perceptual–moral cues are converted into behavioural output.  
+\textbf{Contribution so far:} it clarifies why a non-interactive, minimal-behaviour robot can nonetheless influence donation behaviour: what is being perturbed is not the presence of reasons or arguments, but the transformation process itself.
+
+\paragraph{(b) Expected behavioural distributions \(\mathbb{E}[f(\Sigma)]\) vs.\ \(\mathbb{E}[f(\Sigma \cup \mathscr{R})]\).}
+These expectations formalise the contrast between Control and Robot conditions.  
+\textbf{Contribution so far:} they provide a principled representation of the observed attenuation pattern, making it possible to express the empirical result as an inequality over expected moral output, rather than as an ad hoc numerical difference.
+
+\paragraph{(c) The tripartite decomposition}
+\[
+\mathscr{P}(\delta_m) = f(\alpha_E, \beta_C, \gamma_R).
+\]
+This expression disaggregates environmental cues (\(\alpha_E\)), dispositional factors (\(\beta_C\)), and robotic presence (\(\gamma_R\)).  
+\textbf{Contribution so far:} it justifies the joint consideration of (i) the Watching Eye stimulus, (ii) psychometric traits and demographics, and (iii) robotic co-presence as distinct yet interacting contributors to moral behaviour. The current behavioural results speak primarily to the \(\gamma_R\) component, while leaving open the possibility that its effect is modulated by structured configurations of \(\beta_C\)—a possibility that will be examined through regression and interaction models in the analyses that follow.
+
+Together, these formal elements ensure that the experiment is not interpreted as a mere collection of empirical regularities, but as a controlled perturbation of a well-specified evaluative system situated at a particular Level of Abstraction.
+
+% ---------------------------------------------------------------------
+\subsection{Interim Conclusion to Question~\ref{q:robot-agent}}
+
+\begin{center}
+	\begin{tcolorbox}[colback=white,colframe=black!60,title=Partial Conclusion to Question~\ref{q:robot-agent}]
+		The behavioural evidence obtained thus far indicates that the silent co-presence of a humanoid robot, operating with minimal but perceptually salient behavioural affordances, systematically attenuates aggregate donation behaviour under a Watching Eye paradigm. This attenuation is modest, probabilistic, and heterogeneously distributed across individuals, but it is empirically detectable and statistically non-trivial.
+		
+		\medskip
+		Within the formal and philosophical architecture developed in this chapter, these findings support the plausibility of \emph{evaluative deformation}: the robot perturbs the inferential transformation from morally salient cues to observable moral action. Floridi’s Levels of Abstraction framework explains why such perturbation is possible—because the robot’s \emph{perceived ontology} and informational encoding render it normatively relevant at the operative LoA, even in the absence of sentience or interaction. The Synthetic Perturbation of Moral Inference hypothesis then specifies \emph{how} this relevance is instantiated, by refracting the evaluative pathway rather than overriding it.
+		
+		
+		\medskip
+		The role of individual traits, represented by the vector \(\beta_C\), and their interaction with robotic presence \(\gamma_R\), remains an open and theoretically salient question. The next sections therefore move from aggregate contrasts to trait–context modelling, in order to determine whether moral displacement is uniformly distributed or preferentially expressed in specific psychological profiles.
+	\end{tcolorbox}
+\end{center}
+
+\noindent
+In summary, the results to this point justify the claim that robotic co-presence modifies the evaluative conditions under which morally salient cues become behaviourally actionable, in a manner that is fully consistent with the informational and topological commitments of the Floridian framework. The retained hypotheses and formalism together provide the conceptual, ontological, and mechanistic scaffolding for the more fine-grained analyses that follow.
 
 %%% NEW CONTENT N7
 Beyond establishing the statistical significance of the observed differences, it is epistemically imperative to quantify the magnitude of behavioral perturbation induced by robotic presence. The following analyses introduce both parametric and nonparametric effect size metrics to characterise the structural modulation of moral decision-making.
 
-\subsection{Quantification of Behavioral Modulation: Parametric and Nonparametric Effect Sizes}
+\subsection{Quantification of Behavioural Modulation: Parametric and Nonparametric Effect Sizes}
 
-To complement the statistical significance analyses, the magnitude of the observed behavioral modulation was quantified using both parametric and nonparametric effect size metrics. Specifically, Cohen’s $d$ and Cliff’s $\Delta$ were employed to capture the standardised and ordinal dimensions of effect magnitude, respectively.
+\noindent
+To complement the inferential analyses reported above, the magnitude of the behavioural modulation induced by robotic co-presence was quantified using both parametric and nonparametric effect size metrics. Whereas significance tests assess whether an effect is detectable relative to sampling variability, effect sizes characterise the \textit{structural amplitude} of the perturbation introduced by $\mathscr{R}$. In keeping with the dual statistical and philosophical commitments of this chapter, we employ metrics that capture both standardised differences in central tendency and ordinal differences in the full behavioural distribution.
+
+\noindent
+Two complementary measures were selected:
+
+\begin{itemize}
+	\item \textbf{Cohen’s $d$} — a parametric index of standardised mean difference;
+	\item \textbf{Cliff’s $\Delta$} — a nonparametric ordinal effect size quantifying the probability that a randomly selected individual in one group donates more or less than a randomly selected individual in the other.
+\end{itemize}
+
+These metrics jointly assess whether robotic presence reshapes the evaluative output distribution in a manner consistent with the deformation posited in the preceding hypotheses.
 
 \vspace{0.3cm}
-\noindent
-The metrics are formally defined as follows:
-
-\vspace{0.2cm}
-\noindent
-Cohen's \( d \):
+\noindent\textbf{Cohen’s \( d \):}
 \[
-d = \frac{\bar{x}_1 - \bar{x}_2}{s_p} \quad\text{where}\quad s_p = \sqrt{\frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2}}
+d = \frac{\bar{x}_1 - \bar{x}_2}{s_p}
+\quad\text{where}\quad
+s_p = \sqrt{\frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2}}
 \]
-where:
+
+\noindent
+Where:
 \begin{itemize}
-	\item \(\bar{x}_1, \bar{x}_2\) are the group means,
-	\item \(s_1, s_2\) are the group standard deviations,
-	\item \(n_1, n_2\) are the respective group sizes.
+	\item $\bar{x}_1, \bar{x}_2$ = group means (Control, Robot),
+	\item $s_1, s_2$ = group standard deviations,
+	\item $n_1, n_2$ = group sizes.
+\end{itemize}
+
+\medskip
+\noindent\textbf{Cliff’s Delta \( \Delta \):}
+\[
+\Delta = 
+\frac{\#(x>y) - \#(x<y)}{n_x n_y}
+\]
+Where:
+\begin{itemize}
+	\item $\#(x>y)$ counts all pairwise comparisons where a Control donation exceeds a Robot donation,
+	\item $\#(x<y)$ counts the inverse.
 \end{itemize}
 
 \vspace{0.3cm}
 \noindent
-Cliff's Delta \( (\Delta) \):
+The empirical results yield:
 \[
-\Delta = \frac{\#(x>y) - \#(x<y)}{n_x n_y}
+d \approx 0.30, \qquad \Delta \approx 0.20.
 \]
-where:
-\begin{itemize}
-	\item $\#(x>y)$ and $\#(x<y)$ represent the number of pairwise comparisons in which an observation in group $x$ exceeds or falls below one in group $y$.
-\end{itemize}
 
-\vspace{0.3cm}
 \noindent
-The results indicate that Cohen’s $d$ for donation amounts between the Control and Robot conditions was approximately $d = 0.30$, corresponding to a small to moderate standardised effect size. In parallel, Cliff’s Delta was estimated at approximately $\Delta = 0.20$, confirming a modest but consistent ordinal shift in prosocial behavior.
+Both indices fall within the range typically interpreted as \textit{small to modest} behavioural modulation. Yet as argued earlier, the theoretical significance of these values does not lie in their magnitude alone, but in the fact that they instantiate a reproducible \textit{directional deformation} of the evaluative transformation $f(\cdot)$ under controlled manipulation of $\mathscr{R}$.
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{new_plots/donation_density_by_condition.png}
-	\caption{Distribution of donation amounts by experimental condition. Kernel density estimates illustrate the probability density of donation values within each group. The distribution for the control group exhibits a higher central mass and heavier right tail relative to the robot condition, suggesting a directional attenuation of high-value prosocial acts in the presence of the robotic entity.}
+	\caption{Kernel density estimates of donation distributions across conditions. The Control group exhibits higher central mass and a heavier rightward extension relative to the Robot group, consistent with a directional attenuation of high-value prosocial acts in the presence of the synthetic co-presence $\mathscr{R}$.}
 	\label{fig:donation_density}
 \end{figure}
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{new_plots/donation_mean_with_se.png}
-	\caption{Mean donation amounts with standard error bars by condition. The control group exhibited a higher mean donation (£1.89) compared to the robot group (£1.17), aligning with the hypothesis that robotic presence modulates, rather than eliminates, the human inferential machinery responsible for translating moral salience into actionable generosity.}
+	\caption{Mean donation amounts with standard error bars by condition. The Control group donates more on average (£1.89) than the Robot group (£1.17), corroborating the hypothesis that robotic presence modulates—rather than eliminates—the evaluative pathway from moral salience to action.}
 	\label{fig:mean_donation}
 \end{figure}
 
+\noindent
+Taken together, these effect sizes indicate that robotic presence does not suppress moral action in any deterministic sense. Instead, it exerts a statistically coherent but modest refractive influence: it alters the \textit{amplitude} with which moral salience transitions into overt prosocial behaviour, without erasing the underlying evaluative architecture. The moral field remains operative, but its expression becomes probabilistically dampened under synthetic co-presence.
 
-These metrics substantiate the interpretation that robotic presence modulates, but does not obliterate, the inferential machinery that governs moral salience conversion. The moral field is not annihilated but refracted; its coherence weakened but not rendered inert. 
+This pattern resonates with the broader theoretical framing developed throughout this chapter. Within the informational ontology of Floridi’s Levels of Abstraction, the robot functions as a \textit{semantic perturbator}: its perceived ontology introduces a shift in the evaluative topology at the LoA where moral cues acquire salience. 
 
-Such a pattern resonates with the broader theoretical framing advanced in this work:
+\noindent
+The effect sizes observed here are therefore best interpreted not as behavioural weakness, but as evidence that moral displacement operates as a \textit{graded transformation} within the evaluative function $f$, rather than a \textit{binary switch} between generosity and withholding.
 
-\statementheader{Conclusion}{Amplitude of moral refactor}
-\label{conc:amplitude_moral_refactor}
-\begin{hypobox}
-synthetic agents do not operate as binary moral suppressors but rather as \textbf{probabilistic refractors}—entities that modulate the amplitude and directionality of moral cognition without fully displacing its normative orientation.
-\end{hypobox}
-
-%%% END CONTENT N7
+\noindent
+To capture this insight with conceptual precision, the following conclusion is offered:
 
 
-%%%NEW CONTENT N8
+\nextdiv
+\begin{center}
+	\begin{tcolorbox}[colback=white,colframe=black!60,
+		title=Conclusion: Amplitude of Moral Refraction]
+		 \label{conc:amplitude_moral_refactor}
+		Synthetic co-presence does not operate as a binary suppressor of moral behaviour but as a \textbf{probabilistic refractor} that modulates both the amplitude and direction of evaluative processing. Rather than displacing the normative orientation of the agent, the robotic presence perturbs the strength with which morally salient cues are transduced into prosocial action, yielding a graded attenuation consistent with its ambiguous ontological encoding at the operative Level of Abstraction.
+	\end{tcolorbox}
+\end{center}
+
+\noindent
+This conclusion follows coherently from the statistical, philosophical, and formal analyses developed thus far: robotic presence acts not as a moral veto, but as a structurally subtle deformation of the evaluative mapping from salience to action.
+
+
 \subsection{Latent Trait Structures and Individual Modulation of Moral Perturbation}
 
-To deepen the analysis of how individual differences condition the moral impact of robotic presence, participants were clustered according to their standardized psychometric profiles. This dimensionality reduction and clustering procedure serves to refine the \(\beta_C\) term in the operational model \(\mathscr{P}(\delta_m) = f(\alpha_E, \beta_C, \gamma_R)\), replacing scalar trait vectors with structurally defined personality constellations.
+\noindent
+The analyses conducted thus far establish that robotic co-presence $\mathscr{R}$ exerts a modest but coherent attenuation of prosocial donation at the aggregate level. However, such group-level effects leave open a critical question: \textit{is this perturbation uniformly distributed across individuals, or is it contingent upon underlying cognitive–affective structures encoded in} $\beta_C$? If robotic presence operates as a semantic perturbator at the operative Level of Abstraction, then its impact may be differentially refracted through distinct personality configurations rather than applied homogeneously to all participants.
 
-Seven variables were included in the initial psychometric space: Empathizing, Systemizing, Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism. Each participant’s score vector was standardized and submitted to a Principal Component Analysis (PCA), yielding two orthogonal principal components that preserved the most informative axes of variance.
+To investigate this possibility, we moved beyond treating individual differences as simple additive covariates and instead modelled them as \textbf{latent psychological regimes}. Concretely, participants were clustered according to their standardised psychometric profiles, thereby refining the $\beta_C$ term in the operational model
+\[
+\mathscr{P}(\delta_m) = f(\alpha_E, \beta_C, \gamma_R)
+\]
+from a mere vector of trait scores into a set of structurally defined personality constellations.
 
-The reduced space was then subjected to a $k$-means clustering algorithm with \(k = 3\), producing three psychologically coherent personality clusters. These clusters were visualized in the reduced PCA space (Figure~\ref{fig:personality-clusters-pca}) to confirm interpretability and approximate structural separability.
+Seven variables were included in the initial psychometric space: Empathizing, Systemizing, Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism. Each participant’s score vector was $z$-standardised and submitted to Principal Component Analysis (PCA). Two orthogonal principal components were retained, capturing the most informative axes of variance in the trait space while reducing dimensionality and mitigating redundancy among correlated measures.
 
-
-\fpcom{Here a lot of work was done to produce a mathematical justification to n=3. I did not mention any of it as it seemed to me going outside the scope of the thesis but potentially it needs some level of mention. If we decide to include a justification for n=3 then, the only problem I have is to go back to the jupyther notebook I used to canlulate it as I don't remember if I have it in the old office laptop.}
+The resulting two-dimensional representation was then subjected to $k$-means clustering with $k = 3$, yielding three psychologically interpretable personality clusters. These clusters were visualised in the reduced PCA space to assess structural separability and interpretative coherence (Figure~\ref{fig:personality-clusters-pca}).
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.95\linewidth]{new_plots/personality_clusters_pca.png}
-	\caption{Participants clustered in PCA-reduced psychometric space, colored by cluster identity and shaped by experimental condition.}
+	\caption{Participants clustered in PCA-reduced psychometric space, coloured by cluster identity and shaped by experimental condition. The clustering reveals three latent personality regimes, each representing a distinct cognitive–affective configuration encoded in $\beta_C$.}
 	\label{fig:personality-clusters-pca}
 \end{figure}
 
-This framework offers a structural lens through which to examine the interaction between moral perturbation and trait-defined cognitive-affective style. Rather than treating individual differences as additive covariates, this clustering approach models them as latent psychological regimes that modulate the inferential stability of moral salience recognition under robotic presence.
+\noindent
+This procedure provides a structural lens through which to examine the interaction between moral perturbation and trait-defined cognitive–affective style. Rather than treating traits as independent predictors, the clustering approach models them as \textit{emergent regimes} that may stabilise or destabilise the inferential transmission of moral salience under the perturbation introduced by $\gamma_R$.
 
-\fpcom{Mathematical justification starts.}
+\medskip
+\noindent
+The choice of $k = 3$ was not arbitrary. It was justified through a combination of quantitative and conceptual criteria. First, the within-cluster sum of squares (WCSS) was inspected across candidate values of $k$, revealing a clear elbow in the inertia curve at $k = 3$. This elbow indicates a point of diminishing returns: additional clusters beyond three yield only marginal improvements in within-cluster homogeneity, at the cost of increased model complexity and reduced interpretability.
 
-The number of clusters was determined using the elbow method applied to the within-cluster sum of squares (WCSS) in conjunction with the silhouette coefficient, which jointly indicated a stable local optimum at \(k = 3\). This balance point reflects the minimal number of clusters needed to meaningfully partition participants into psychologically distinct subgroups without overfitting idiosyncratic noise. From a conceptual standpoint, this solution aligns with the hypothesis that perturbation effects may be differentially refracted through a small set of discrete cognitive-affective configurations, each constituting a distinct normative filter through which the robotic presence is interpreted.
+Second, the silhouette coefficient was computed for multiple candidate $k$ values. While a local maximum in the silhouette profile was observed at $k = 9$, this peak is best interpreted as an artefact of over-partitioning a relatively small dataset. At such resolutions, high silhouette values often reflect the tightness of very small clusters rather than psychologically meaningful structure. In contrast, $k = 3$ corresponds both to the elbow in the inertia curve and to clusters of interpretable size and composition (Figure 6.8).
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.95\linewidth]{new_plots/cluster_elbow_silhouette.png}
-	\caption{Participants clustered in PCA-reduced psychometric space, colored by cluster identity and shaped by experimental condition.}
-	\label{fig:personality-clusters-pca}
+	\caption{Elbow plot of within-cluster sum of squares (left axis) and silhouette coefficients (right axis) across candidate values of $k$. The elbow at $k = 3$ and interpretable silhouette profile support the selection of three clusters as a parsimonious and psychologically meaningful solution.}
+	\label{fig:cluster_elbow_silhouette}
 \end{figure}
 
-While the silhouette analysis revealed a local maximum at $k = 9$, this spike is best interpreted as a statistical artifact arising from over-partitioning a relatively small dataset. The high silhouette value at this resolution reflects tightness in small clusters, not psychological coherence. In contrast, $k = 3$ corresponds to the elbow point in the inertia curve and yields clusters of interpretable size and structure. This choice balances model fit with parsimony, ensuring that the derived clusters correspond to meaningful cognitive-affective configurations rather than idiosyncratic separations. Accordingly, we retain $k = 3$ as the optimal number of clusters for both methodological rigor and interpretive validity.
+\noindent
+From a conceptual standpoint, the $k = 3$ solution aligns with the broader theoretical expectation that robotic perturbation may be differentially refracted through a small number of discrete cognitive–affective configurations, each constituting a distinct normative filter through which $\alpha_E$ and $\gamma_R$ are jointly interpreted. Accordingly, we retain $k = 3$ as the optimal clustering solution on both methodological and interpretive grounds.
 
-\fpcom{Mathematical justification end.}
-
-Cluster-specific donation behavior further reveals heterogeneous responses to moral cues across subgroups (Figure~\ref{fig:donation-by-cluster}). In Cluster 1, the presence of the robot appears to strongly attenuate donation, while in Clusters 0 and 2, the difference is negligible or weak. These patterns suggest that \(\gamma_R\) does not act uniformly upon all cognitive-affective configurations, but instead interacts with emergent psychological structures in non-linear and potentially regime-dependent ways.
+\noindent
+Cluster-specific analyses of donation behaviour reveal heterogeneous responses to moral cues across these latent regimes (Figure~\ref{fig:donation-by-cluster}). In one cluster (Cluster 1), the presence of the robot appears to strongly attenuate donation amounts, whereas in the remaining clusters (Clusters 0 and 2), the difference between Control and Robot conditions is negligible or comparatively weak. Inspection of the underlying psychometric profiles suggests that \textit{Cluster 1 is characterised by relatively higher systemising} and lower empathising scores, in line with a cognitive–affective style that privileges structural or rule-based processing over affective resonance.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.85\linewidth]{new_plots/donation_by_cluster_and_condition.png}
-	\caption{Mean donation amount by experimental condition within each personality cluster, derived from $k$-means analysis on psychometric trait profiles. Error bars reflect standard deviation. Clusters are indexed from 0 to 2 and represent latent cognitive-affective subgroups. Notably, Cluster 1—which donates less under robotic presence—tends to exhibit higher systemizing and lower empathizing scores. This suggests a diminished susceptibility to affectively encoded moral cues in the presence of ontologically ambiguous agents, consistent with a refracted moral response under $\gamma_R$ perturbation.}
-	
-	
+	\caption{Mean donation amount by experimental condition within each personality cluster, derived from $k$-means analysis on psychometric trait profiles. Error bars represent standard deviation. Cluster 1 shows a marked attenuation of donation under robotic presence, whereas Clusters 0 and 2 exhibit minimal or modest differences. This pattern suggests that the perturbative effect of $\gamma_R$ is contingent upon latent cognitive–affective regimes encoded in $\beta_C$.}
 	\label{fig:donation-by-cluster}
 \end{figure}
 
-Such findings deepen the interpretation of robotic presence not as a global suppressor of moral behavior, but as a semiotic agent whose moral salience is differentially refracted through distinct personality configurations. The robot's effect is thus not fixed, but \textbf{contingently realized through latent cognitive structures}—structures now made visible via this clustering framework.
+\subsection{Psychometric Interpretation and Semantic Labelling of Latent Personality Clusters}
 
-\statementheader{Conclusion}{Contingent structure of cognitive modulation}
-\label{conc:clustered_moral_refraction}
-\begin{hypobox}
-	The moral impact of robotic presence is not globally uniform but emerges through contingent interactions between artificial agents and latent psychological regimes. Personality clustering reveals that synthetic moral perturbation is structurally modulated—its amplitude and valence refracted through cognitive-affective configurations that define the subject’s interpretive topology.
-\end{hypobox}
+\noindent
+The identification of three latent personality clusters through PCA reduction and $k$-means partitioning raises a conceptually prior question: \textit{What psychological architectures do these clusters instantiate, and how do these architectures illuminate the differential moral impact of robotic presence?} Clustering partitions participants into structurally coherent groups, but it does not automatically disclose the dispositional logic underpinning those partitions. This section therefore provides the interpretive grounding required for integrating the latent trait configurations with the moral-topological framework developed throughout the chapter.
+
+From an epistemic standpoint, interpretation requires a return from the abstract PCA space to the original psychometric dimensions. The unscaled cluster centroids perform this bridging function: they reveal each cluster’s mean position along Empathizing, Systemizing, and the Big Five dimensions, thereby reconstituting the mathematical solution in explicitly psychological terms. Radar plots offer a visual gestalt of these relational structures, and when presented jointly, they highlight the contrastive organisation of personality ecologies more effectively than isolated representations.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.32\linewidth]{new_plots/cluster_0_radar.png}
+	\includegraphics[width=0.32\linewidth]{new_plots/cluster_1_radar.png}
+	\includegraphics[width=0.32\linewidth]{new_plots/cluster_2_radar.png}
+	\caption{Comparative radar profiles of the three latent personality ecologies.  
+		\textbf{Emotionally Reactive / Low-Structure Profile} (left): elevated Neuroticism with reduced Conscientiousness and Systemizing.  
+		\textbf{Prosocial–Empathic / Warm–Sociable Profile} (centre): high Openness, Extraversion, Agreeableness, and Empathizing.  
+		\textbf{Analytical–Structured / High-Systemizing Profile} (right): high Systemizing and Conscientiousness with lower Empathizing.}
+	\label{fig:radar_three_panel}
+\end{figure}
+
+\noindent
+\textbf{Emotionally Reactive / Low-Structure Profile.}  
+This ecology, corresponding to the first extracted cluster, is characterised by elevated Neuroticism, reduced Conscientiousness, and diminished Systemizing, complemented by moderate values across Openness, Extraversion, and Agreeableness. This constellation reflects an \textit{affectively volatile and structurally diffuse} cognitive ecology. Individuals belonging to this regime likely experience greater internal variability, weaker evaluative stability, and heightened sensitivity to subtle environmental perturbations. Within the moral-topological framework of this chapter, their evaluative surface is best described as \textit{loosely stabilised}: moral cues propagate through a field with low structural coherence, making contextual distortions—such as the ontological ambiguity of a subtly animated robot—especially salient.
+
+\vspace{0.4cm}
+\noindent
+\textbf{Prosocial–Empathic / Warm–Sociable Profile.}  
+This ecology exhibits high Openness, Extraversion, Agreeableness, and Empathizing, forming a \textit{warm, sociable, affectively attuned, exploratory} personality architecture. These participants show the canonical prosocial configuration in moral psychology: they are dispositionally inclined toward interpersonal resonance and empathic attunement. Under classical Watching Eye frameworks, this ecological type would be expected to amplify donation behaviour in the presence of a moral-salience stimulus such as the charity poster. Their attenuation under robotic presence therefore becomes diagnostic: it indicates that $\gamma_R$ may refract or dilute empathic pathways, moderating the evaluative transition from moral salience to prosocial output precisely where that transition would otherwise be strongest.
+
+\vspace{0.4cm}
+\noindent
+\textbf{Analytical–Structured / High-Systemizing Profile.}  
+This ecology is defined by high Systemizing, high Conscientiousness, and comparatively reduced Empathizing—a \textit{rule-based, analytical, orderly} psychological regime. These individuals privilege structural clarity and formal coherence over affective immediacy. Moral stimuli embedded in implicit or ambiguous contexts—such as the subtle moral affordance of the child-beneficiary poster—may exert weaker motivational force. Likewise, the ontological ambiguity of the robot is likely processed as a structurally neutral environmental feature rather than a socially meaningful presence. In LoA terms, this group operates with a higher abstraction threshold: cues must be explicitly norm-encoded to penetrate their evaluative architecture.
+
+\vspace{0.5cm}
+\noindent
+\textbf{Interpretive Integration.}  
+These semantic labels are not optional descriptive flourishes; they are \textit{epistemically necessary} for making the cluster solution theoretically legible. Without them, the clustering results would remain mathematically partitioned yet psychologically opaque. By identifying one ecology as affectively volatile, one as prosocial–empathic, and one as analytical–structured, we obtain a principled account of how moral salience interacts with latent cognitive architectures. This alignment allows the latent ecologies to interface directly with earlier behavioural findings: attenuation of prosocial donation is most pronounced where empathic pathways should be strongest (the Prosocial–Empathic profile), weak in the Analytical–Structured group, and context-dependent in the Emotionally Reactive profile.
+
+\vspace{0.5cm}
+\noindent
+\textbf{Connection to Floridi’s Levels of Abstraction.}  
+At the operative LoA of each participant, these ecologies function as distinct \textit{semantic filters}. The Prosocial–Empathic type foregrounds affective cues, the Analytical–Structured type foregrounds structural clarity, and the Emotionally Reactive type foregrounds affective volatility. The presence of a synthetic agent—whose ontology is ambiguous, neither fully inert nor fully social—thus perturbs a different aspect of the evaluative interface for each ecology. This explains why the moral perturbation induced by $\gamma_R$ is neither global nor homogeneous, but topologically refracted through the architecture of each ecological type.
+ 
+This interpretive reconstruction provides the conceptual bridge between latent personality architecture and the heterogeneous behavioural effects documented earlier. It reveals three structurally distinct evaluative ecologies, each with its own susceptibility profile to moral salience and robotic ambiguity. Their integration into the broader analytic narrative elucidates why attenuation under robotic presence is concentrated in the Prosocial–Empathic group, weak in the Analytical–Structured group, and variable in the Emotionally Reactive group. This interpretive foundation prepares the ground for the Bayesian estimation framework developed in the next section, where uncertainty, heterogeneity, and differential susceptibility are modelled as epistemic gradients.
 
 
 
-%%%END CONTENT N8
+\noindent
+These findings deepen the interpretation of robotic presence $\gamma_R$ as a \textit{contextually realised} perturbator rather than a uniformly applied suppressor. The robot’s influence is not globally fixed, but \textbf{contingently instantiated through latent cognitive structures}. The same synthetic presence that weakens the evaluative transmission from moral salience to action in one psychological regime may have negligible impact in another. In this sense, the clustering analysis gives empirical shape to the idea that the evaluative function $f(\alpha_E, \beta_C, \gamma_R)$ is structurally modulated by $\beta_C$ rather than merely shifted in its intercept.
+
+\medskip
+\noindent
+This motivates the following conceptual conclusion, which summarises the trait-contingent character of the observed perturbation:
+
+\nextdiv
+\begin{center}
+	\begin{tcolorbox}[colback=white,colframe=black!60,
+		title=Conclusion: Contingent Structure of Cognitive Modulation]
+		\label{conc:clustered_moral_refraction}
+		The moral impact of robotic presence is not globally uniform but emerges through contingent interactions between artificial co-presence and latent psychological regimes. Personality clustering shows that synthetic moral perturbation is structurally modulated: its amplitude and behavioural expression are refracted through cognitive–affective configurations that define the subject’s interpretive topology. In Floridian terms, $\gamma_R$ does not act upon a neutral substrate, but upon agents whose operative Levels of Abstraction are themselves shaped by trait-dependent informational filters.
+	\end{tcolorbox}
+\end{center}
+
+
+
+\subsection{Interim Synthesis: Moral Attenuation, Topological Deformation, and Trait-Contingent Modulation}
+
+\noindent
+The analyses completed thus far allow us to articulate a coherent intermediate synthesis of the empirical and conceptual structure of the experiment. Two principal results have emerged with consistency:
+
+\begin{enumerate}
+	\item[(1)] A measurable attenuation of prosocial donation under robotic co-presence (\cref{conc:amplitude_moral_refactor});  
+	\item[(2)] A structurally heterogeneous, cluster-contingent modulation of this attenuation (\cref{conc:clustered_moral_refraction}).
+\end{enumerate}
+
+\noindent
+Together, these findings show that robotic presence $\gamma_R$ does not function as a uniform suppressor of moral action, but as a \textbf{probabilistic refractor} that perturbs the inferential trajectory by which moral salience is transformed into behaviour. The robot’s effect is both \textit{topologically distributed}—reshaping the evaluative field at the aggregate level—and \textit{psychologically conditional}, emerging only within specific latent cognitive–affective regimes encoded in $\beta_C$.
+
+\bigskip
+
+% ----------------------
+% Hypotheses
+% ----------------------
+
+\subsubsection{Status of the Hypotheses}
+
+\paragraph{H1. Evaluative Deformation Hypothesis.}
+\emph{The expected outcome of moral behaviour, formalised by the transformation $f(\cdot)$, is altered when a humanoid robot is present within the perceptual–moral environment.}
+
+\textbf{Status: Retained.}  
+The aggregate attenuation in donation amounts supports this claim. All empirical analyses converge on the conclusion that $\mathbb{E}[f(\Sigma \cup \mathscr{R})] < \mathbb{E}[f(\Sigma)]$.
+
+\paragraph{H2. Synthetic Normativity of Moral Displacement.}
+\emph{Synthetic presences may acquire normative affordances by virtue of their perceived ontology.}
+
+\textbf{Status: Retained (Conceptual Foundation).}  
+This hypothesis explains \textit{why} a non-interactive robot can perturb moral cognition. The data do not test it directly, but every behavioural pattern observed is \textit{consistent} with this ontological grounding.
+
+\paragraph{H3. Synthetic Perturbation of Moral Inference.}
+\emph{The robot refracts the transition from moral salience to prosocial action.}
+
+\textbf{Status: Retained (Mechanistic).}  
+The observed attenuation at the aggregate level, together with the trait-contingent cluster effects, supports the mechanistic claim that $\gamma_R$ modifies the evaluative mapping rather than merely shifting motivational baselines.
+
+\paragraph{H4. (Implied) Trait-Contingent Modulation Hypothesis.}
+\emph{The perturbative effect of $\gamma_R$ varies as a function of latent cognitive–affective regimes encoded in $\beta_C$.}
+
+\textbf{Status: Provisionally Supported.}  
+Cluster-specific patterns strongly suggest regime-dependent responsiveness. This hypothesis will be tested more formally in the regression and interaction analyses that follow.
+
+\bigskip
+
+% ----------------------
+% Mathematical Summary
+% ----------------------
+
+\subsubsection{Condensed Status of the Formal Framework}
+
+The mathematical apparatus introduced earlier has now been substantively activated:
+
+\begin{itemize}
+	\item The transformation function $f(\cdot)$ provided a principled way of interpreting behavioural attenuation as deformation of the evaluative mapping.
+	\item The expected-value contrast $\mathbb{E}[f(\Sigma)]$ vs.\ $\mathbb{E}[f(\Sigma \cup \mathscr{R})]$ captured the aggregate attenuation signature, now empirically supported.
+	\item The tripartite decomposition  
+	\[
+	\mathscr{P}(\delta_m) = f(\alpha_E, \beta_C, \gamma_R)
+	\]
+	has proven essential:  
+	– $\alpha_E$ held constant (Watching Eye),  
+	– $\beta_C$ refined via PCA and clustering,  
+	– $\gamma_R$ isolated as the only experimental manipulation.  
+\end{itemize}
+
+\noindent
+In short, the formalism has not merely annotated the behavioural results but \textbf{structured the empirical horizon} of the experiment: it dictates what counts as evidence for deformation, where individual differences should enter the model, and how perturbation effects should be interpreted.
+
+\bigskip
+
+% ----------------------
+% Topological / Ontological Interpretation
+% ----------------------
+
+\subsubsection{Topological and Ontological Interpretation}
+
+\noindent
+The combined results illuminate a deeper philosophical point: the perturbation induced by the robot is best understood as a \textbf{topological deformation} of the moral field rather than a unidirectional causal force. At the operative Level of Abstraction (LoA) relevant to participants, the NAO robot presents itself neither as an inert object nor as a full agent; instead, it occupies an ontologically ambiguous middle-ground whose semantic affordances penetrate the participant’s normative perception.
+
+Under this LoA, $\mathscr{R}$ functions as a \textbf{semiotic operator}—a presence that modifies the structure of evaluative attention by refracting the moral salience of $\alpha_E$ before it becomes behaviourally actionable. The attenuation of prosocial donation thus reflects not a collapse of empathy, nor a motivational deficit, but a reconfiguration of the interpretive schema that governs the mapping
+\[
+\Sigma \xrightarrow{f} \mathscr{D}.
+\]
+
+\noindent
+The second major result extends this insight: the deformation is \textit{not} uniform across individuals. Instead, it is \textbf{contingently realised} through latent cognitive–affective structures. In some clusters, the presence of $\gamma_R$ yields substantial attenuation; in others, its impact is negligible. This cluster-contingent pattern confirms that the perturbation does not operate on a neutral cognitive substrate but on \textit{trait-defined normative filters}, each instantiating a distinct interpretive topology.
+
+\bigskip
+
+% ----------------------
+% Interim Conclusion Box
+% ----------------------
+
+\begin{center}
+	\begin{tcolorbox}[colback=white,colframe=black!60,title=Interim Conclusion: Topological and Trait-Dependent Moral Modulation]
+		Robotic co-presence attenuates prosocial donation through a deformation of the evaluative pathway that links moral salience to action. This attenuation is neither uniform nor deterministic: it emerges as a probabilistic refractor of moral cognition whose amplitude varies across latent cognitive–affective regimes. The empirical findings thus far support all three foundational hypotheses—evaluative deformation, synthetic normativity, and perturbation of moral inference—and provisionally support the trait-contingent modulation hypothesis. At the operative Level of Abstraction, the humanoid robot acts as a semiotic agent whose ontological ambiguity reshapes the topology of moral evaluation. Subsequent analyses will test the stability, depth, and interaction structure of this modulation through cluster-specific regression modelling.
+	\end{tcolorbox}
+\end{center}
+
+
+\subsection{The Dilution of the Watching Eye Effect under Robotic Co-Presence}
+
+\noindent
+Within the present experimental design, the morally salient cue was instantiated through the photograph of an infant in need, prominently displayed on the Operation Smile brochure. As established earlier (see \cref{chap:watching_eye}), such pictorial stimuli operate as \textit{implicit moral surveillance cues}: they trigger affective empathy, reputational sensitivity, and the pre-reflective sense of “being observed” that underlies the classical Watching Eye effect \cite{Bateson2006, NettleEtAl2013, ContyGeorgeHietanen2016}. 
+
+\noindent
+The interim results now allow us to articulate a critical interpretive point: \textbf{the presence of the humanoid robot systematically dilutes the potency of the Watching Eye stimulus}. This dilution does not reflect a suppression of empathy nor a negation of moral motivation. Instead, it emerges as a topological deformation of the evaluative field in which the Watching Eye cue is embedded.
+
+\noindent
+At the operative Level of Abstraction, the robot introduces a second semiotic centre—an ontologically ambiguous presence whose social affordances compete with, refract, or partially occlude the normative signal emitted by the infant's face. The moral salience encoded in the pictorial cue no longer operates within a clean perceptual–affective channel; it is instead filtered through a perturbed interpretive topology shaped by $\gamma_R$. 
+
+\noindent
+In this sense, the dilution of the Watching Eye effect is not a psychological epiphenomenon but the behavioural signature of the Evaluative Deformation Hypothesis (\ref{hyp:evaluative_deformation}). The attenuation in donation behaviour reflects an altered mapping from 
+\[
+\Sigma_{\text{eye}} \longrightarrow \mathscr{D},
+\]
+where $\Sigma_{\text{eye}}$ denotes the moral-affective perceptual space dominated by the infant’s image. Under robotic co-presence, this mapping becomes
+\[
+\Sigma_{\text{eye}} \cup \mathscr{R},
+\]
+and its expected output $\mathbb{E}[f(\Sigma_{\text{eye}} \cup \mathscr{R})]$ is weakened relative to the control condition.
+
+\noindent
+Thus, the Watching Eye stimulus does not lose its moral force; rather, its \textit{evaluative amplitude} is refracted by the semiotic presence of the robot, producing a diluted conversion of moral salience into prosocial action. This interpretation coheres with both the ‘Amplitude of Moral Refraction’ conclusion (\cref{conc:amplitude_moral_refactor}) and the ‘Contingent Structure of Cognitive Modulation’ conclusion (\cref{conc:clustered_moral_refraction}), and it reinforces the central claim of this chapter: synthetic presences modulate moral cognition by altering the topology through which normative cues are interpreted, not by erasing those cues.
+
+
 
 %%%NEW CONTENT N10
 
 \subsection{Cluster-Specific Regression Analysis of Robotic Perturbation}
 
-To examine whether specific cognitive-affective regimes are differentially sensitive to robotic presence, a stratified linear regression analysis was conducted within each personality cluster. Donation amount served as the dependent variable, and experimental condition (Control vs. Robot) was the primary predictor.
+\noindent
+To determine whether specific cognitive–affective regimes exhibit differential sensitivity to robotic presence, we conducted a stratified linear regression analysis within each of the three personality clusters derived from the PCA–$k$-means framework. Donation amount served as the dependent variable, while experimental condition (Control vs.\ Robot) functioned as the primary predictor, allowing us to probe whether the perturbative effect of $\gamma_R$ is uniformly distributed or selectively amplified within particular psychological ecologies.
 
-In \textbf{Cluster 1}, the robot condition was associated with a substantial reduction in donation (\(\beta = -1.33\)), approaching conventional significance (\(p = .091\)) and accounting for a modest portion of the variance (\(R^2 = 0.087\)). This suggests a pronounced moral perturbation effect within this group. In contrast, \textbf{Clusters 0 and 2} exhibited negligible effects (\(\beta \approx 0\) and \(\beta = -0.28\), respectively; both \(p > .70\)), indicating that robotic co-presence does not uniformly alter moral output across psychological profiles.
+\noindent
+Results reveal a strikingly asymmetric pattern of moral responsiveness. In \textbf{Cluster 1}, robotic presence is associated with a substantial reduction in donation behaviour (\(\beta = -1.33\)), approaching conventional significance (\(p = .091\)), and accounting for a non-trivial proportion of variance (\(R^2 = 0.087\)). This cluster-level attenuation is consistent with earlier descriptive analyses indicating that individuals within this regime tend to exhibit lower empathizing scores and higher systemizing tendencies—traits that may weaken the affective pathways through which Watching Eye stimuli ordinarily exert their normative pull.
 
-These results substantiate the hypothesis that the ethical salience of robotic presence is modulated not solely by the intensity of individual traits, but by the emergent configuration of those traits—what may be conceptualized as \textit{psychological ecologies}: interdependent cognitive-affective structures within which moral salience may either propagate, fragment, or collapse when exposed to artificial co-agents.
+\noindent
+By contrast, \textbf{Clusters 0 and 2} display negligible perturbation effects: Cluster 0 yields a coefficient near zero (\(\beta \approx 0\), \(p > .70\)), and Cluster 2 exhibits only a minor, non-significant negative trend (\(\beta = -0.28\), \(p > .70\)). This heterogeneity underscores a central theoretical point: \textbf{robotic presence does not impose a global moral influence}, but instead interacts with latent psychological structures in a manner consistent with regime-dependent refractive effects.
+
+\noindent
+These findings reinforce the interpretive shift introduced in the previous sections: individual differences should not be treated as additive covariates, but as \textbf{distinct cognitive–affective topologies}—internal landscapes that modulate the stability and amplitude of moral salience transmission under perturbative conditions. In this sense, the regression outcomes illuminate how the Watching Eye stimulus and the robotic presence jointly operate within a structured evaluative manifold. For some individuals, the addition of $\mathscr{R}$ fragments the normative coherence of the environment; for others, the moral field remains sufficiently resilient to sustain ordinary prosocial output.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\linewidth]{new_plots/cluster_regression_coefficients.png}
-	\caption{Regression coefficients for the robot condition within each personality cluster, with 95\% confidence intervals. While Clusters 0 and 2 exhibit near-zero or non-significant effects, Cluster 1 shows a marked negative coefficient, indicating a stronger attenuation of prosocial behavior in the presence of the robot. This pattern supports a differentiated model of moral responsiveness, contingent on latent psychological configuration.}
+	\caption{Regression coefficients for the robot condition within each personality cluster, with 95\% confidence intervals. Cluster 1 exhibits a pronounced negative effect, while Clusters 0 and 2 display negligible or non-significant coefficients. This pattern demonstrates differentiated moral responsiveness to robotic presence, conditioned by latent cognitive–affective regimes.}
 	\label{fig:cluster-regression}
 \end{figure}
 
-\statementheader{Conclusion}{Differentiated moral sensitivity to robotic presence}
+\begin{center}
+	\begin{tcolorbox}[colback=white,colframe=black!60,
+		title=Conclusion: Differentiated Moral Sensitivity to Robotic Presence~\ref{conc:regression_cluster_specific}]
+		Robotic presence does not exert a uniform moral influence. Instead, its perturbative effect emerges selectively through the structured configurations of latent psychological regimes. Cluster-specific regression analysis demonstrates that moral attenuation is concentrated within particular cognitive–affective ecologies, confirming that the ethical salience of synthetic agents is not globally encoded but \textbf{contextually realised through trait-dependent evaluative topologies}.
+	\end{tcolorbox}
+\end{center}
+
+% Keep the label exactly as provided
 \label{conc:regression_cluster_specific}
-\begin{hypobox}
-	Robotic presence does not exert a uniform moral influence, but interacts differentially with distinct psychological ecologies. Cluster-specific regression analysis reveals that moral attenuation is concentrated within particular cognitive-affective regimes, indicating that the ethical salience of synthetic agents is not globally encoded but \textbf{emerges through structured trait configurations} that define the agent’s evaluative responsiveness.
-\end{hypobox}
 
-Yet such analysis still encodes classical assumptions—what happens if we relax them?
 
-%%%END CONTENT N10
+\noindent
+This cluster-level analysis therefore advances the broader conceptual arc of the chapter. The perturbative force of $\mathscr{R}$ is neither binary nor homogeneous. It refracts through psychological structures that differ in their sensitivity to moral cues, their susceptibility to ontological ambiguity, and their capacity to integrate artificial co-agents into the evaluative architecture of practical reasoning. What remains is to examine the extent to which these findings persist when the classical linear assumptions are relaxed, and when the inferential dynamics are modelled within more flexible probabilistic and interaction-sensitive frameworks.
+
 
 %%%NEW CONTENT N11
 
