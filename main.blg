@@ -18,6 +18,7 @@ A level-1 auxiliary file: cuts.aux
 A level-1 auxiliary file: derivation.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
+Reallocated field_info (elt_size=4) to 10474 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -150,6 +151,198 @@ Repeated entry---line 4465 of file /home/francesco/Desktop/research/appunti/refe
  : @article{FloridiSanders2004
  :                            ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 4511 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Vinciarelli2009
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4545 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Moor2006
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4555 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Haidt2001
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4565 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Cushman2013
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4575 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{BigmanGray2018
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4585 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Zlotowski2015
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4595 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Greene2014
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4603 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Phelps2006
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4612 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Chang2013
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4621 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Bechara2000
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4631 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{YoungSaxe2010
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4641 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{SaxeKanwisher2003
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4651 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Vinciarelli2012
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4661 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Scherer2009
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4671 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Miller2001
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4680 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Koechlin2003
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4690 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Shackman2011
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4700 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Anscombe1957
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4707 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Korsgaard2009
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4714 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Picard1997
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4721 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Evans2008
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4730 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Cushman2013
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4749 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Coeckelbergh2010
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4759 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{BigmanGray2018
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4769 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Zlotowski2015
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4779 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Vinciarelli2009
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4800 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Anscombe1957
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4838 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Bechara2000
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4934 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Gintis2014MoralComputation
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4975 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Korsgaard1996
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4982 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Korsgaard2009
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5047 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Scanlon1998
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5101 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Tomasello2016
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5155 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Batson2011
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5162 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{FehrGachter2002
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5171 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Henrich2005
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5181 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Tomasello2016
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5188 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Warneken2015
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5198 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Baumard2013
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5208 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Crockett2016
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5218 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Scanlon1998
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5225 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Darwall2006
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5232 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{HaleyFessler2005
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5252 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{BigmanGray2018
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5262 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Zlotowski2015
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5279 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Doris2002
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5286 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Gintis2014MoralComputation
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5338 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Korsgaard1996Sources
+ :                           ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Allen_Wallach2012"
 Warning--I didn't find a database entry for "Minsky1985"
 Warning--I didn't find a database entry for "Stone2016"
@@ -178,11 +371,10 @@ Warning--I didn't find a database entry for "Bicchieri2016"
 Warning--I didn't find a database entry for "Mendez2009"
 Warning--I didn't find a database entry for "Shenhav2017"
 Warning--I didn't find a database entry for "Cushman2013ValueIntegration"
-Warning--I didn't find a database entry for "Cushman2013Action"
-Warning--I didn't find a database entry for "Picard1997"
+Warning--I didn't find a database entry for "Roeser2018"
+Warning--I didn't find a database entry for "Wallace1999"
 Warning--I didn't find a database entry for "Goffman1967"
 Warning--I didn't find a database entry for "HaidtBjorklund2008"
-Warning--I didn't find a database entry for "Vinciarelli2012"
 Warning--I didn't find a database entry for "CalvoDMello2010"
 Warning--I didn't find a database entry for "AndersonAnderson2007"
 Warning--I didn't find a database entry for "Boddington2017"
@@ -203,45 +395,47 @@ Warning--I didn't find a database entry for "Atran2004"
 Warning--I didn't find a database entry for "Bering2005"
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
-You've used 155 entries,
+Warning--can't use both author and editor fields in HumeTreatise
+Warning--can't use both author and editor fields in HumeEnquiry
+You've used 188 entries,
             1876 wiz_defined-function locations,
-            1511 strings with 28769 characters,
-and the built_in function-call counts, 43482 in all, are:
-= -- 4675
-> -- 1306
+            1661 strings with 31747 characters,
+and the built_in function-call counts, 51062 in all, are:
+= -- 5491
+> -- 1476
 < -- 0
-+ -- 509
-- -- 354
-* -- 2925
-:= -- 5885
-add.period$ -- 199
-call.type$ -- 155
-change.case$ -- 122
++ -- 585
+- -- 397
+* -- 3368
+:= -- 6910
+add.period$ -- 247
+call.type$ -- 188
+change.case$ -- 140
 chr.to.int$ -- 0
-cite$ -- 157
-duplicate$ -- 2284
-empty$ -- 4145
-format.name$ -- 354
-if$ -- 10815
+cite$ -- 192
+duplicate$ -- 2706
+empty$ -- 4962
+format.name$ -- 397
+if$ -- 12728
 int.to.chr$ -- 0
-int.to.str$ -- 155
-missing$ -- 193
-newline$ -- 512
-num.names$ -- 157
-pop$ -- 399
+int.to.str$ -- 188
+missing$ -- 241
+newline$ -- 626
+num.names$ -- 192
+pop$ -- 518
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1612
+skip$ -- 1850
 stack$ -- 0
-substring$ -- 3297
-swap$ -- 1031
+substring$ -- 3788
+swap$ -- 1188
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 472
-width$ -- 158
-write$ -- 1608
-(There were 33 error messages)
+warning$ -- 4
+while$ -- 557
+width$ -- 191
+write$ -- 1931
+(There were 81 error messages)
