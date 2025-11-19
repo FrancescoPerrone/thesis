@@ -7,18 +7,15 @@ A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: moral_primer.aux
 A level-1 auxiliary file: ethics_s.aux
-A level-1 auxiliary file: watching_eye.aux
-A level-1 auxiliary file: prosocial_b.aux
+A level-1 auxiliary file: tools.aux
 A level-1 auxiliary file: experimental_methods.aux
 White space in argument---line 60 of file experimental_methods.aux
  : \citation{MasonTatkinMacrae2005.
  :                                  Johansson1973_BiologicalMotion}
 I'm skipping whatever remains of this command
-A level-1 auxiliary file: cuts.aux
-A level-1 auxiliary file: derivation.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 10474 items from 5000.
+Reallocated field_info (elt_size=4) to 10244 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -374,68 +371,56 @@ Warning--I didn't find a database entry for "Cushman2013ValueIntegration"
 Warning--I didn't find a database entry for "Roeser2018"
 Warning--I didn't find a database entry for "Wallace1999"
 Warning--I didn't find a database entry for "Goffman1967"
+Warning--I didn't find a database entry for "Lemos2007"
 Warning--I didn't find a database entry for "HaidtBjorklund2008"
 Warning--I didn't find a database entry for "CalvoDMello2010"
 Warning--I didn't find a database entry for "AndersonAnderson2007"
 Warning--I didn't find a database entry for "Boddington2017"
 Warning--I didn't find a database entry for "Winfield2019"
 Warning--I didn't find a database entry for "Santoro2018"
-Warning--I didn't find a database entry for "Pantic2014a"
-Warning--I didn't find a database entry for "Xerxa2023"
-Warning--I didn't find a database entry for "Allcott2020"
-Warning--I didn't find a database entry for "Auxier2021"
-Warning--I didn't find a database entry for "Bail2021"
-Warning--I didn't find a database entry for "Dwyer2020"
-Warning--I didn't find a database entry for "Vosoughi2018"
-Warning--I didn't find a database entry for "Sharkey2010"
-Warning--I didn't find a database entry for "Vallor2016"
-Warning--I didn't find a database entry for "Bryson2010"
-Warning--I didn't find a database entry for "Misra"
-Warning--I didn't find a database entry for "Atran2004"
-Warning--I didn't find a database entry for "Bering2005"
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
 Warning--can't use both author and editor fields in HumeTreatise
 Warning--can't use both author and editor fields in HumeEnquiry
-You've used 188 entries,
+You've used 190 entries,
             1876 wiz_defined-function locations,
-            1661 strings with 31747 characters,
-and the built_in function-call counts, 51062 in all, are:
-= -- 5491
-> -- 1476
+            1637 strings with 31401 characters,
+and the built_in function-call counts, 51349 in all, are:
+= -- 5517
+> -- 1481
 < -- 0
-+ -- 585
-- -- 397
-* -- 3368
-:= -- 6910
-add.period$ -- 247
-call.type$ -- 188
-change.case$ -- 140
++ -- 588
+- -- 398
+* -- 3400
+:= -- 6965
+add.period$ -- 250
+call.type$ -- 190
+change.case$ -- 141
 chr.to.int$ -- 0
-cite$ -- 192
-duplicate$ -- 2706
-empty$ -- 4962
-format.name$ -- 397
-if$ -- 12728
+cite$ -- 194
+duplicate$ -- 2708
+empty$ -- 5008
+format.name$ -- 398
+if$ -- 12788
 int.to.chr$ -- 0
-int.to.str$ -- 188
-missing$ -- 241
-newline$ -- 626
-num.names$ -- 192
-pop$ -- 518
+int.to.str$ -- 190
+missing$ -- 244
+newline$ -- 633
+num.names$ -- 194
+pop$ -- 524
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1850
+skip$ -- 1831
 stack$ -- 0
-substring$ -- 3788
-swap$ -- 1188
+substring$ -- 3820
+swap$ -- 1174
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 557
-width$ -- 191
-write$ -- 1931
+while$ -- 564
+width$ -- 193
+write$ -- 1951
 (There were 81 error messages)
