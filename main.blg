@@ -5,26 +5,19 @@ A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: introduction.aux
-A level-1 auxiliary file: moral_d.aux
-Case mismatch error between cite keys kahneman2011 and Kahneman2011
----line 217 of file moral_d.aux
- : \citation{kahneman2011
- :                       }
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: moral_primer.aux
 A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: watching_eye.aux
 A level-1 auxiliary file: prosocial_b.aux
 A level-1 auxiliary file: experimental_methods.aux
-White space in argument---line 58 of file experimental_methods.aux
+White space in argument---line 60 of file experimental_methods.aux
  : \citation{MasonTatkinMacrae2005.
  :                                  Johansson1973_BiologicalMotion}
 I'm skipping whatever remains of this command
-A level-1 auxiliary file: methodology.aux
 A level-1 auxiliary file: cuts.aux
 A level-1 auxiliary file: derivation.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 10543 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -45,25 +38,9 @@ I was expecting a `,' or a `}'---line 2396 of file /home/francesco/Desktop/resea
  : author={Walsh,Toby},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2578 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @book{Kahneman2011
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2688 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @article{Gert2020
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2719 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @book{Haidt2012
- :                ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 2795 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Cushman2013
  :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2807 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @book{Haidt2012
- :                ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 3146 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Malle2016
@@ -84,6 +61,94 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 3572 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Argyle1975
  :                 ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3750 of file /home/francesco/Desktop/research/appunti/reference.bib
+ :  pages = {1--47} 
+ :                  % adjust if you know exact page range
+I'm skipping whatever remains of this entry
+Repeated entry---line 3806 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Mikhail2007UMG
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3910 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Haidt2001
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3921 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Greene2014Beyond
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3932 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Railton2017MoralLearning
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3942 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Mikhail2007UMG
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3953 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Garrigan2016
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3962 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Eres2018
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3972 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Fede2020
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3998 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Moll2005
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4126 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Cushman2013
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4156 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Greene2004
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4285 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Haidt2001
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4333 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{SaxeKanwisher2003
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4342 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{YoungSaxe2010
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4352 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Botvinick2004
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4362 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Shackman2011
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4372 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Miller2001
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4381 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Tassy2012
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4391 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Phelps2006
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4400 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Chang2013
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4465 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{FloridiSanders2004
+ :                            ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Allen_Wallach2012"
 Warning--I didn't find a database entry for "Minsky1985"
@@ -106,23 +171,18 @@ Warning--I didn't find a database entry for "Floridi"
 Warning--I didn't find a database entry for "Mendelson"
 Warning--I didn't find a database entry for "Zermelo"
 Warning--I didn't find a database entry for "Russell"
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "james1884"
-Warning--I didn't find a database entry for "costa1992"
-Warning--I didn't find a database entry for "bandura1986"
-Warning--I didn't find a database entry for "greenwald2006"
-Warning--I didn't find a database entry for "tversky1973"
-Warning--I didn't find a database entry for "thaler2008"
-Warning--I didn't find a database entry for "Gazzaniga2006"
-Warning--I didn't find a database entry for "chalmers2013"
-Warning--I didn't find a database entry for "laudan1987"
-Warning--I didn't find a database entry for "bricmont2016"
-Warning--I didn't find a database entry for "woodward2007"
-Warning--I didn't find a database entry for "bird2000"
-Warning--I didn't find a database entry for "Coeckelbergh2010"
+Warning--I didn't find a database entry for "Floridi2011"
+Warning--I didn't find a database entry for "Mingers2014"
+Warning--I didn't find a database entry for "Jongsma2016"
+Warning--I didn't find a database entry for "Bicchieri2016"
+Warning--I didn't find a database entry for "Mendez2009"
+Warning--I didn't find a database entry for "Shenhav2017"
+Warning--I didn't find a database entry for "Cushman2013ValueIntegration"
+Warning--I didn't find a database entry for "Cushman2013Action"
+Warning--I didn't find a database entry for "Picard1997"
+Warning--I didn't find a database entry for "Goffman1967"
 Warning--I didn't find a database entry for "HaidtBjorklund2008"
 Warning--I didn't find a database entry for "Vinciarelli2012"
-Warning--I didn't find a database entry for "Picard1997"
 Warning--I didn't find a database entry for "CalvoDMello2010"
 Warning--I didn't find a database entry for "AndersonAnderson2007"
 Warning--I didn't find a database entry for "Boddington2017"
@@ -141,51 +201,47 @@ Warning--I didn't find a database entry for "Bryson2010"
 Warning--I didn't find a database entry for "Misra"
 Warning--I didn't find a database entry for "Atran2004"
 Warning--I didn't find a database entry for "Bering2005"
-Warning--empty author and editor in Henderson2011
-Warning--can't use both author and editor fields in Gadamer1989
-Warning--there's a number but no series in Hare1991
-Warning--empty journal in Greene2015
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
-You've used 185 entries,
+You've used 155 entries,
             1876 wiz_defined-function locations,
-            1712 strings with 32120 characters,
-and the built_in function-call counts, 46023 in all, are:
-= -- 4753
-> -- 1468
+            1511 strings with 28769 characters,
+and the built_in function-call counts, 43482 in all, are:
+= -- 4675
+> -- 1306
 < -- 0
-+ -- 579
-- -- 394
-* -- 2976
-:= -- 6340
-add.period$ -- 262
-call.type$ -- 185
-change.case$ -- 132
++ -- 509
+- -- 354
+* -- 2925
+:= -- 5885
+add.period$ -- 199
+call.type$ -- 155
+change.case$ -- 122
 chr.to.int$ -- 0
-cite$ -- 191
-duplicate$ -- 2471
-empty$ -- 4689
-format.name$ -- 394
-if$ -- 11475
+cite$ -- 157
+duplicate$ -- 2284
+empty$ -- 4145
+format.name$ -- 354
+if$ -- 10815
 int.to.chr$ -- 0
-int.to.str$ -- 185
-missing$ -- 249
-newline$ -- 635
-num.names$ -- 202
-pop$ -- 654
+int.to.str$ -- 155
+missing$ -- 193
+newline$ -- 512
+num.names$ -- 157
+pop$ -- 399
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1487
+skip$ -- 1612
 stack$ -- 0
-substring$ -- 2837
-swap$ -- 950
+substring$ -- 3297
+swap$ -- 1031
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 467
-width$ -- 188
-write$ -- 1853
-(There were 16 error messages)
+warning$ -- 2
+while$ -- 472
+width$ -- 158
+write$ -- 1608
+(There were 33 error messages)

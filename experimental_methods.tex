@@ -1,5 +1,6 @@
 %\chapter{An Experimental Study of Moral Displacement: From Normative Hypothesis to Experimental Topology}
 \chapter{Moral Displacement: An Experimental Investigation}
+\label{chap:experimental_methods}
 \thispagestyle{pprintTitle}
 
 
@@ -1300,9 +1301,43 @@ These findings consolidate the theoretical shift advanced in earlier sections: i
 \end{center}
 
 \noindent
-This cluster-level analysis thus advances the broader conceptual arc of the chapter. The perturbative force of $\mathscr{R}$ is neither binary nor homogeneous. It refracts through psychological architectures that differ in their susceptibility to moral cues, their interpretive stability in the face of ontological ambiguity, and their capacity to integrate artificial co-agents into the evaluative apparatus of practical reasoning. What remains is to examine whether these findings persist when classical linear assumptions are relaxed, and when the inferential dynamics are modelled within probabilistic frameworks capable of representing uncertainty, interaction structures, and epistemic gradients.
+This cluster-level analysis thus advances the broader conceptual arc of the chapter. The perturbative force of $\mathscr{R}$ is neither binary nor homogeneous. It refracts through psychological architectures that differ in their susceptibility to moral cues, their interpretive stability in the face of ontological ambiguity, and their capacity to integrate artificial co-agents into the evaluative apparatus of practical reasoning.
 
-%%%NEW CONTENT N11
+The differentiated regression patterns reported above can be expressed in a compact
+mathematical form by examining how the evaluative transformation function,
+$f(\cdot)$, behaves across the three latent cognitive–affective regimes.
+
+For the \textbf{Emotionally Reactive / Low-Structure Profile}, donation behaviour remains
+effectively unchanged across conditions. This corresponds to an evaluative mapping
+in which robotic presence introduces no meaningful perturbation:
+\[
+\mathbb{E}\big[f(\Sigma \cup \mathscr{R})\big] \;\approx\; \mathbb{E}\big[f(\Sigma)\big].
+\]
+
+For the \textbf{Prosocial–Empathic / Warm–Sociable Profile}, robotic presence produces a
+marked attenuation in prosocial action, consistent with a refracted or collapsed
+transformation pathway:
+\[
+\mathbb{E}\big[f(\Sigma \cup \mathscr{R})\big] \;\ll\; \mathbb{E}\big[f(\Sigma)\big].
+\]
+
+For the \textbf{Analytical–Structured / High-Systemizing Profile}, the perturbation is milder
+but still directionally negative, suggesting a partially disrupted evaluative mapping:
+\[
+\mathbb{E}\big[f(\Sigma \cup \mathscr{R})\big] \;<\; \mathbb{E}\big[f(\Sigma)\big].
+\]
+
+\noindent
+Together, these expressions provide a compact formal summary of the
+cluster-dependent structure of moral perturbation: the same environmental input
+$(\Sigma \cup \mathscr{R})$ is transduced into different expected behavioural outputs
+depending on the latent cognitive–affective topology governing the evaluative
+function $f(\cdot)$. This reinforces the central finding of the cluster analysis:
+\textit{synthetic presence is not a uniform causal factor, but a structure-sensitive
+	modulator whose influence is enacted only through particular psychological regimes.}
+
+\noindent
+ What remains is to examine whether these findings persist when classical linear assumptions are relaxed, and when the inferential dynamics are modelled within probabilistic frameworks capable of representing uncertainty, interaction structures, and epistemic gradients.
 
 \subsection{Bayesian Estimation and Epistemic Gradient Framing}
 
@@ -1503,129 +1538,5 @@ Third, the experiment suggests a reorientation of methodological priorities. Rat
 \noindent
 Taken together, the chapter’s results therefore support a shift from \emph{agent-centric machine ethics} to an \emph{ecological ethics of synthetic presence}. The NAO robot, as deployed here, is not a moral agent to be judged, but a designed perturbation that reveals structural vulnerabilities in human evaluative systems. Its impact is LoA-dependent, personality-contingent, and epistemically graded. For an ethics of AI and robotics that aspires to be both philosophically serious and empirically grounded, the appropriate research goal is not the engineering of artificially virtuous minds, but the mapping and regulation of the moral topologies in which human and artificial systems are jointly embedded~\cite{Floridi2013,DeBrigard2021,Malle2016}. In this sense, the experiment does not solve the problem of machine ethics; it reframes it. Rather than asking whether robots can be moral, it asks how their mere presence redistributes moral salience, and how such redistributions can be measured, understood, and normatively governed in a world increasingly saturated with synthetic others.
 
-%%%END CONTENT N11
-
-%%%NEW CONTENT N9
-
-
-\fpcom{This subsection refers to the mathematical justification. If not needed it can be deleted including both comments to facilitate editind the latex file.}
-
-The three personality clusters derived from $k$-means analysis were not only structurally coherent in trait space, but also revealed differential patterns of moral responsivity under robotic presence. Each cluster may be interpreted as a distinct cognitive-affective regime, modulating the transformation function $f(\cdot)$ that converts environmental moral cues $\Sigma$ into moral action $\delta_m$, particularly under perturbation by $\mathscr{R}$.
-
-\textbf{Cluster 0} demonstrates behavioral invariance across experimental conditions, with mean donation amounts stable regardless of robotic presence. This suggests a transformation function in which:
-\[
-\mathbb{E}[f(\Sigma \cup \mathscr{R})] \approx \mathbb{E}[f(\Sigma)],
-\]
-indicating that the inferential machinery responsible for mapping moral salience to action remains functionally stable even under semiotic perturbation. Individuals in this group appear robust to the refractive influence of $\mathscr{R}$, perhaps due to strong normative encoding of $\alpha_E$ that is unaffected by ambient ambiguity.
-
-\textbf{Cluster 1}, by contrast, exhibits a marked attenuation in donation behavior in the Robot condition relative to Control. This cluster is characterized by elevated systemizing and reduced empathizing scores, suggesting a cognitive style less responsive to affectively encoded cues. The transformation function here appears significantly degraded in the presence of $\mathscr{R}$:
-\[
-\mathbb{E}[f(\Sigma \cup \mathscr{R})] \ll \mathbb{E}[f(\Sigma)].
-\]
-This implies a breakdown in the propagation of moral salience through the internal evaluative system—participants perceive the stimulus, but its normative weight is not successfully transduced into action. The robotic presence functions here not merely as noise, but as a semiotic deflector that collapses the affective-moral inference pathway.
-
-\textbf{Cluster 2} reveals a milder attenuation in donation, suggesting a transformation function of intermediate integrity:
-\[
-\mathbb{E}[f(\Sigma \cup \mathscr{R})] < \mathbb{E}[f(\Sigma)].
-\]
-Participants in this group are partially susceptible to the refractive presence of $\mathscr{R}$, but retain enough affective sensitivity to maintain baseline levels of moral responsiveness. This configuration suggests a partial encoding of robotic co-presence as a moral cue, one that distorts but does not entirely suppress the moral inferential arc.
-
-Taken together, these three clusters instantiate a spectrum of moral perturbability. They reveal that $\gamma_R$ does not exert a uniformly suppressive force, but acts as a probabilistic refractor whose amplitude and directionality depend on the underlying cognitive-affective topology of the agent. In formal terms, each cluster realizes a distinct mapping from the perturbed moral environment $\Sigma \cup \mathscr{R}$ to prosocial behavior, mediated by the structural properties of $f(\cdot)$ latent within their psychological architecture.
-
-\statementheader{Conclusion}{Cluster-dependent perturbation structure}
-\label{conc:cluster_responsive_structure}
-\begin{hypobox}
-	The moral effect of robotic presence is structurally contingent upon the latent cognitive-affective architecture of the agent. Personality clusters reveal differentiated mappings from perturbed environments to moral action: some remain inferentially stable, others exhibit collapse or partial refractoriness. These findings confirm that $\mathscr{R}$ does not act as a universal moral suppressor but as a \textbf{structure-sensitive modulator}—its influence emerging only through interaction with specific psychological regimes.
-\end{hypobox}
-
-
-%%%END CONTENT N9
-
-\section{Results and Interpretation: Quantifying the Moral Displacement Effect}
-
-If the term experiment is to retain its epistemic dignity within moral psychology, its outputs must be interpretable not merely as statistical artifacts, but as structured signals—signatures of cognitive-affective systems interacting with normatively charged environments. In this section, we present the observed results from the two experimental conditions and propose a theoretical interpretation grounded in moral cognition, embodied social presence, and the normative semiotics of co-located artificial agents.
-
-\subsection{Summary of Quantitative Findings}
-
-The experimental dataset comprises \( N = 73 \) valid cases, distributed as follows:
-
-\begin{itemize}
-	\item \textbf{Control group} (no robot): \( n = 37 \)
-	\item \textbf{Robot group} (robot present): \( n = 36 \)
-\end{itemize}
-
-Let the amount donated by participant \( i \) be denoted \( d_i \), and let \( c_i \in \{C, R\} \) indicate their condition (Control or Robot, respectively). The total donation by group is given by:
-
-\[
-D_C = \sum_{i:c_i=C} d_i = £66, \quad D_R = \sum_{i:c_i=R} d_i = £44.35
-\]
-
-This yields a \textbf{donation ratio}:
-
-\[
-\frac{D_C}{D_R} \approx 1.49
-\]
-
-A \textbf{\(\chi^2\) test for distributional difference} between the two groups returns:
-
-\[
-\chi^2 = \frac{(D_C - E)^2}{E} + \frac{(D_R - E)^2}{E}, \quad \text{where } E = \frac{D_C + D_R}{2}
-\]
-
-yielding a \textbf{p-value = 0.01}, which is statistically significant under conventional thresholds. The robustness of this finding was further confirmed by controlling for potential confounding variables (gender, age, educational background, psychometric scores), none of which yielded significant intergroup variation post-FDR correction.
-
-Hence, the presence of a humanoid robot—non-interactive, passive, and ontologically ambiguous—reliably modulated moral behavior in an otherwise norm-stable context.
-
-%%%NEW CONTENT N12 (CONCLUSIONS)
-\subsection{Epistemic Synthesis and Closing Reflections}
-
-This experiment, in its full epistemic arc, does not merely quantify behavior—it exposes the structural vulnerability of moral inference to ontological ambiguity. The presence of the humanoid robot did not suppress generosity in any universal or deterministic sense; rather, it modulated the internal transformation function by which environmental cues—such as the Watching Eye stimulus—are converted into prosocial action.
-
-Crucially, this modulation was not homogeneous. It was contingent upon the psychological architecture of the individual. By clustering participants based on multidimensional trait constellations, rather than treating scalar traits in isolation, we revealed a latent moral topology: a structured evaluative landscape in which only certain cognitive-affective configurations were susceptible to refractive collapse in the presence of $\mathscr{R}$.
-
-What emerges is a reconceptualization of synthetic social influence—not as intrinsically prosocial or antisocial, but as structurally contingent and psychologically asymmetrical. An agent that elicits generosity from one cognitive regime and inertness from another does not instantiate moral agency; it instantiates moral bifurcation. Its presence becomes an operator on moral space, reshaping affordances rather than issuing imperatives.
-
-Methodologically, our progression from chi-squared to Bayesian inference mirrors a deeper philosophical movement: from fixed hypothesis testing to probabilistic epistemology. We have not merely asked “is there a difference?” but rather “how plausible is the difference?”, and more importantly, “for whom does it matter, and under what internal constraints?”
-
-In its final synthesis, the experiment affirms that robotic presence perturbs moral behavior—not through coercion, communication, or mimicry, but through the silent deformation of evaluative inference. It does not alter moral content, but moral process. And in doing so, it invites us to reconsider the epistemic architecture of moral cognition itself.
-
-This is not a study of certainty, but of its limits. And it reminds us that in moral psychology—as in epistemology—certainty is not the culmination of inquiry, but its terminus. A theory that ceases to entertain uncertainty is not resolved, but ossified. In this view, the experiment remains open—not as a failure of closure, but as a triumph of epistemic responsibility.
-
-
-%%%END CONTENT N12 (CONCLUSIONS)
-
-\subsection{Toward a Theory of Robotic Normative Interference}
-
-To interpret these results as philosophically significant, we propose the following \textit{moral displacement hypothesis}:
-
-\begin{quote}
-	\textbf{The presence of a non-sentient yet humanomorphic artificial agent alters the normative topology of the environment such that affective priming cues lose moral traction, resulting in diminished prosocial behavior.}
-\end{quote}
-
-This result should not be interpreted as a simple \textit{attenuation} of the Watching Eye effect. Rather, it is a case of \textbf{semiotic interference}: the robotic presence functions as a competing moral symbol—a silent node of ambiguous intentionality—displacing the affective salience of the child's face and thereby weakening the cognitive-affective circuit that leads from perception to moral action.
-
-In cognitive terms, this can be formalized as:
-
-\[
-\mathscr{M}_i \;=\; f(\sigma_{WE}, \pi_i, \rho_R)
-\]
-
-where:
-
-\begin{itemize}
-	\item $\mathscr{M}_i$ denotes the moral salience assigned to a stimulus by participant \( i \),
-	\item $\sigma_{WE}$ is the Watching Eye stimulus strength,
-	\item $\pi_i$ is the dispositional moral profile (via EQ, SQ, BFI),
-	\item and $\rho_R$ is the robotic presence function, modulating \(\sigma_{WE}\) via attentional or interpretive interference.
-\end{itemize}
-
-The significant reduction in \(\mathscr{M}_i\) (as inferred from diminished donation) is therefore not explained by \(\pi_i\) (which remains statistically constant across conditions), but by the variation in \(\rho_R\). This substantiates the claim that robotic presence modifies \textit{moral field intensity}—not by providing explicit moral information, but by distorting the interpretive vectors through which existing stimuli are processed.
-
-\section{Normative Implications: Robots as Epistemic Agents of Moral Ambiguity}
-
-What emerges from this empirical configuration is a profound theoretical provocation: that robots can act as second-order moral agents, not by executing decisions, but by modulating the affective and normative infrastructure in which those decisions are made. This reframes the classical position in Machine Ethics—namely, that robots are not moral agents because they lack sentience and autonomy (Floridi \& Sanders, 2004)—as ontologically incomplete.
-
-If the consequential structure of a decision changes due to robotic presence, then even morally neutral robots can become moral catalysts or moral occluders, depending on their semiotic and cognitive profile (Coeckelbergh, 2010; Nyholm, 2020; Gunkel, 2012). This renders inert robotic co-presence a potentially ethically non-neutral design decision in socially situated environments.
-
-To put the matter plainly: designing robots without accounting for their ambient moral influence is epistemically reckless, and risks producing environments in which moral reasoning is systematically deflected or weakened.
+%%%THE END!!!
 

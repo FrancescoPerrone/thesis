@@ -4,333 +4,56 @@
 C.~Allen, W.~Wallach, and I.~Smit, ``Why machine ethics?,'' {\em IEEE
   Intelligent Systems}, vol.~21, no.~4, pp.~12--17, 2006.
 
-\bibitem{Joyce2006}
-R.~Joyce, {\em The Evolution of Morality}.
-\newblock MIT Press, 2006.
+\bibitem{Floridi2010}
+L.~Floridi, {\em Information: A Very Short Introduction}.
+\newblock Oxford: Oxford University Press, 2010.
 
-\bibitem{Tomasello2016}
-M.~Tomasello, {\em A Natural History of Human Morality}.
-\newblock Harvard University Press, 2016.
-
-\bibitem{Coeckelbergh2023}
-M.~Coeckelbergh, ``Challenging ai simulacra of ethical deliberation: Some
-  problems of ethicopolitics of algorithms,'' {\em AI and Society}, 2023.
-
-\bibitem{Christian2020}
-B.~Christian, {\em The Alignment Problem: Machine Learning and Human Values}.
-\newblock New York, NY: W. W. Norton and Company, 2020.
-
-\bibitem{Jiang2021}
-L.~Jiang, A.~Galashov, Y.~Yang, {\em et~al.}, ``Can machines learn morality?
-  the delphi experiment,'' {\em arXiv preprint}, vol.~arXiv:2110.07574, 2021.
-
-\bibitem{Whittlestone2019}
-P.~Whittlestone, R.~Nyrup, A.~Alexandrova, and S.~Cave, ``The role and limits
-  of principles in ai ethics: Towards a focus on tensions,'' in {\em
-  Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
-  pp.~195--200, 2019.
-
-\bibitem{Baeza2023}
-R.~Baeza-Yates, ``Policy advice and best practices on bias and fairness in
-  ai,'' {\em AI and Society}, vol.~39, no.~1, pp.~123--138, 2023.
-
-\bibitem{Mittelstadt2019}
-B.~Mittelstadt, C.~Russell, and S.~Wachter, ``Explaining ai in an algorithmic
-  world: Fairness and transparency in machine learning,'' in {\em Proceedings
-  of the 2019 AAAI/ACM Conference on AI, Ethics, and Society}, pp.~279--286,
-  2019.
-
-\bibitem{Bender2021}
-E.~M. Bender and T.~Gebru, ``On the dangers of stochastic parrots: Can language
-  models be too big?,'' in {\em Proceedings of the 2021 ACM Conference on
-  Fairness, Accountability, and Transparency (FAccT)}, pp.~610--623, 2021.
-
-\bibitem{Floridi2022}
-L.~Floridi and J.~Cowls, ``Designing ai for social good: Aligning artificial
-  intelligence with human values,'' {\em Philosophy and Technology}, vol.~35,
-  no.~3, pp.~1--23, 2022.
-
-\bibitem{Bryson2019}
-J.~Bryson, ``The artificial intelligence of the ethics of artificial
-  intelligence: An introductory overview,'' in {\em The Oxford Handbook of
-  Ethics of AI}, pp.~15--32, Oxford University Press, 2019.
-
-\bibitem{Moor2023}
-J.~H. Moor, ``The nature and limits of machine ethics,'' {\em AI and Society},
-  vol.~39, no.~1, pp.~33--51, 2023.
-
-\bibitem{Moor2006}
-J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
-  IEEE Intelligent Systems}, vol.~21, no.~4, pp.~18--21, 2006.
-
-\bibitem{Moor2011}
-J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
-  Machine ethics}, pp.~13--20, 2011.
-
-\bibitem{Anderson2011}
-M.~Anderson and S.~L. Anderson, {\em Machine ethics}.
-\newblock Cambridge University Press, 2011.
-
-\bibitem{Moor1985}
-J.~H. Moor, ``What is computer ethics?,'' {\em Metaphilosophy}, vol.~16, no.~4,
-  pp.~266--275, 1985.
-
-\bibitem{Henderson2011}
-{\em The epistemological spectrum: at the interface of cognitive science and
-  conceptual analysis}.
-\newblock Oxford: Oxford University Press, 2011.
-
-\bibitem{Jones2024}
-R.~H. Jones, {\em Discourse analysis: A resource book for students}.
-\newblock Taylor and Francis, 2024.
-
-\bibitem{Ibarretxe2004}
-I.~Ibarretxe-Antunano, ``What's cognitive linguistics? a new framework for the
-  study of basque,'' {\em Cahiers de l'Association for French Language
-  Studies}, vol.~10, no.~2, pp.~1--27, 2004.
-
-\bibitem{McCaffrey2012}
-G.~McCaffrey, S.~Raffin-Bouchal, and N.~J. Moules, ``Hermeneutics as research
-  approach: A reappraisal,'' {\em International Journal of Qualitative
-  Methods}, vol.~11, no.~3, pp.~214--229, 2012.
-
-\bibitem{Chiurazzi2017}
-G.~Chiurazzi, ``Philosophical hermeneutics and ontology,'' {\em Journal of the
-  British Society for Phenomenology}, vol.~48, no.~3, pp.~187--202, 2017.
-
-\bibitem{Gadamer1989}
-H.-G. Gadamer, {\em Truth and Method}.
-\newblock New York: Continuum, 1989.
-\newblock Original work published 1960.
-
-\bibitem{Bagheri2016}
-M.~Bagheri and S.~Fazel, ``The role of etymology in vocabulary acquisition and
-  retention among iranian efl learners,'' {\em Journal of Psycholinguistic
-  Research}, vol.~45, no.~6, pp.~1329--1345, 2016.
-
-\bibitem{SidgwickOutlines}
-H.~Sidgwick, {\em Outlines of the history of ethics for English readers}.
-\newblock London: Macmillan, 1896.
-
-\bibitem{Gert2020}
-B.~Gert and J.~Gert, ``{The Definition of Morality},'' in {\em The {Stanford}
-  Encyclopedia of Philosophy} (E.~N. Zalta, ed.), Metaphysics Research Lab,
-  Stanford University, {F}all 2020~ed., 2020.
-
-\bibitem{Sinnott-Armstrong2016}
-W.~Sinnott-Armstrong, ``Moral skepticism,'' in {\em The Stanford Encyclopedia
-  of Philosophy (Fall 2016 Edition)} (E.~N. Zalta, ed.), Metaphysics Research
-  Lab, Stanford University, 2016.
-
-\bibitem{Aristotle_nicomachean}
-Aristotle, {\em Nicomachean Ethics}.
-\newblock Oxford, UK: Oxford University Press, ca. 350 BCE.
-\newblock Translated by W. D. Ross, revised by J. O. Urmson.
-
-\bibitem{Hobbes1651}
-T.~Hobbes, {\em Leviathan}.
-\newblock Oxford University Press (modern edition), 1651.
-
-\bibitem{Rousseau1762}
-J.-J. Rousseau, {\em The Social Contract}.
-\newblock Penguin Classics, 1762.
-
-\bibitem{Hume1739}
-D.~Hume, {\em A Treatise of Human Nature}.
-\newblock Oxford University Press (modern edition), 1739.
-
-\bibitem{Kant_groundwork_moral}
-I.~Kant, {\em Groundwork of the Metaphysics of Morals}.
-\newblock Cambridge, UK: Cambridge University Press, 1785.
-
-\bibitem{Mill1861}
-J.~S. Mill, {\em Utilitarianism}.
-\newblock Hackett Publishing, 1861.
-
-\bibitem{Nietzsche1887}
-F.~Nietzsche, {\em On the Genealogy of Morality}.
-\newblock Cambridge University Press (translated edition), 1887.
-
-\bibitem{Hursthouse1999}
-R.~Hursthouse, {\em On Virtue Ethics}.
-\newblock Oxford: Oxford University Press, 1999.
-
-\bibitem{Wood2007}
-A.~W. Wood, {\em Kantian Ethics}.
-\newblock Cambridge University Press, 2007.
-
-\bibitem{Singer2011}
-P.~Singer, {\em Practical Ethics}.
-\newblock Cambridge: Cambridge University Press, 3~ed., 2011.
-
-\bibitem{Smith2003}
-A.~Smith, {\em The Theory of Moral Sentiments}.
-\newblock New York: Modern Library, 2003.
-
-\bibitem{Rachels2012}
-J.~Rachels and S.~Rachels, {\em The Elements of Moral Philosophy}.
-\newblock New York: McGraw-Hill, 7~ed., 2012.
-
-\bibitem{Audi2010}
-R.~Audi, {\em The Cambridge Dictionary of Philosophy}.
-\newblock Cambridge: Cambridge University Press, 3~ed., 2010.
-
-\bibitem{Hare1991}
-R.~M. Hare and R.~M. Hare, {\em The language of morals}.
-\newblock No.~77, Oxford Paperbacks, 1991.
+\bibitem{Floridi2013}
+L.~Floridi, {\em The Ethics of Information}.
+\newblock Oxford: Oxford University Press, 2013.
 
 \bibitem{Hare1981}
 R.~M. Hare, {\em Moral Thinking: Its Levels, Method, and Point}.
 \newblock Oxford University Press, 1981.
 
-\bibitem{Turiel1983}
-E.~Turiel, {\em The development of social knowledge: Morality and convention}.
-\newblock Cambridge University Press, 1983.
+\bibitem{Deigh2010}
+J.~Deigh, {\em An introduction to ethics}.
+\newblock Cambridge University Press, 2010.
 
-\bibitem{Scanlon1998}
-T.~M. Scanlon, {\em What We Owe to Each Other}.
-\newblock Harvard University Press, 1998.
+\bibitem{FloridiSanders2004}
+L.~Floridi and J.~W. Sanders, ``On the morality of artificial agents,'' {\em
+  Minds and Machines}, vol.~14, no.~3, pp.~349--379, 2004.
 
-\bibitem{Haidt2012}
-J.~Haidt, {\em The Righteous Mind: Why Good People Are Divided by Politics and
-  Religion}.
-\newblock New York: Vintage, 2012.
-
-\bibitem{Tarsney2024}
-C.~Tarsney, T.~Thomas, and W.~MacAskill, ``Moral decision-making under
-  uncertainty,'' {\em Stanford Encyclopedia of Philosophy}, 2024.
-
-\bibitem{Strawson1961}
-P.~Strawson, ``Social morality and individual ideal,'' {\em Philosophy},
-  vol.~36, pp.~1--17, 1961.
-
-\bibitem{Raz1999}
-J.~Raz, {\em Engaging Reason: On the Theory of Value and Action}.
-\newblock Oxford University Press, 1999.
-
-\bibitem{Rawls1979}
-J.~Rawls, {\em A Theory of Justice}.
-\newblock Harvard University Press, 1979.
-
-\bibitem{Buon2016}
-M.~Buon, A.~Seara-Cardoso, and E.~Viding, ``Why (and how) should we study the
-  interplay between emotional arousal, theory of mind, and inhibitory control
-  to understand moral cognition?,'' {\em Psychonomic bulletin \& review},
-  vol.~23, pp.~1660--1680, 2016.
-
-\bibitem{Glenn2009}
-A.~L. Glenn, A.~Raine, and R.~A. Schug, ``The neural correlates of moral
-  decision-making in psychopathy,'' {\em Molecular psychiatry}, vol.~14, no.~1,
-  pp.~5--6, 2009.
-
-\bibitem{Eres2018}
-R.~Eres, W.~R. Louis, and P.~Molenberghs, ``Common and distinct neural networks
-  involved in fmri studies investigating morality: an ale meta-analysis,'' {\em
-  Social neuroscience}, vol.~13, no.~4, pp.~384--398, 2018.
-
-\bibitem{Young2012}
-L.~Young and J.~Dungan, ``Where in the brain is morality? everywhere and maybe
-  nowhere,'' {\em Social neuroscience}, vol.~7, no.~1, pp.~1--10, 2012.
-
-\bibitem{Fede2020}
-S.~J. Fede and K.~A. Kiehl, ``Meta-analysis of the moral brain: patterns of
-  neural engagement assessed using multilevel kernel density analysis,'' {\em
-  Brain imaging and behavior}, vol.~14, no.~2, pp.~534--547, 2020.
-
-\bibitem{Garrigan2016}
-B.~Garrigan, A.~L. Adlam, and P.~E. Langdon, ``The neural correlates of moral
-  decision-making: A systematic review and meta-analysis of moral evaluations
-  and response decision judgements,'' {\em Brain and cognition}, vol.~108,
-  pp.~88--97, 2016.
-
-\bibitem{Gazzaniga2014}
-M.~S. Gazzaniga, R.~B. Ivry, and G.~Mangun, ``Cognitive neuroscience. the
-  biology of the mind.,'' 2014.
-
-\bibitem{Cushman2013}
-F.~Cushman, ``Action, outcome, and value: A dual-system framework for
-  morality,'' {\em Personality and Social Psychology Review}, vol.~17, no.~3,
-  pp.~273--292, 2013.
-
-\bibitem{Greene2001}
-J.~D. Greene, L.~E. Nystrom, A.~D. Engell, J.~M. Darley, and J.~D. Cohen, ``An
-  fmri investigation of emotional engagement in moral judgment,'' {\em
-  Science}, vol.~293, no.~5537, pp.~2105--2108, 2001.
-
-\bibitem{Narvaez2005}
-D.~Narvaez and D.~K. Lapsley, ``Moral psychology at the crossroads: Domain
-  theory and the moral self,'' {\em Human Development}, vol.~48, no.~2,
-  pp.~85--97, 2005.
+\bibitem{Coeckelbergh2023}
+M.~Coeckelbergh, ``Challenging ai simulacra of ethical deliberation: Some
+  problems of ethicopolitics of algorithms,'' {\em AI and Society}, 2023.
 
 \bibitem{Doris2010}
 J.~M. Doris, M.~P.~R. Group, {\em et~al.}, {\em The moral psychology handbook}.
 \newblock OUP Oxford, 2010.
 
-\bibitem{Bandura1991}
-A.~Bandura, ``Social cognitive theory of moral thought and action,'' {\em
-  Handbook of Moral Behavior and Development}, vol.~1, pp.~45--103, 1991.
-
-\bibitem{Skitka2012}
-L.~J. Skitka, C.~W. Bauman, and E.~G. Sargis, ``Moral conviction: Another
-  contributor to attitude strength or something more?,'' {\em Journal of
-  Personality and Social Psychology}, vol.~88, no.~6, pp.~895--917, 2012.
-
-\bibitem{Baumeister2010}
-R.~F. Baumeister and E.~Masicampo, ``Moral reasoning and moral action: A review
-  of the relevant literature,'' {\em Psychological Bulletin}, vol.~136, no.~1,
-  pp.~1--25, 2010.
-
-\bibitem{Lapsley2015}
-D.~K. Lapsley and P.~L. Hill, ``The development of moral personality,'' {\em
-  Handbook of Moral Development}, pp.~185--201, 2015.
-
 \bibitem{Doris2002}
 J.~M. Doris, {\em Lack of Character: Personality and Moral Behavior}.
 \newblock Cambridge University Press, 2002.
 
-\bibitem{Lapsley2006}
-D.~K. Lapsley and D.~Narvaez, ``Moral psychology: A cognitive-developmental
-  approach,'' in {\em Handbook of Child Psychology} (W.~Damon and R.~M. Lerner,
-  eds.), vol.~3, pp.~189--235, John Wiley and Sons, 6th~ed., 2006.
+\bibitem{Nussbaum2001}
+M.~C. Nussbaum, {\em Upheavals of Thought: The Intelligence of Emotions}.
+\newblock Cambridge, UK: Cambridge University Press, 2001.
 
-\bibitem{Bigler2017}
-E.~D. Bigler, ``Functional brain imaging in neuropsychology over the past 25
-  years,'' {\em Neuropsychology Review}, vol.~27, no.~4, pp.~290--303, 2017.
+\bibitem{Kohlberg1981}
+L.~Kohlberg, {\em Essays on Moral Development, Volume I: The Philosophy of
+  Moral Development}.
+\newblock San Francisco, CA: Harper and Row, 1981.
 
-\bibitem{Faro2010}
-S.~H. Faro and F.~B. Mohamed, ``Functional neuroimaging: A historical
-  perspective,'' in {\em Functional Neuroradiology: Principles and Clinical
-  Applications}, pp.~3--28, Springer, 2010.
+\bibitem{Haidt2007}
+J.~Haidt, ``The new synthesis in moral psychology,'' {\em Science}, vol.~316,
+  no.~5827, pp.~998--1002, 2007.
 
-\bibitem{Greene2002}
-J.~Greene and J.~Haidt, ``How (and where) does moral judgment work?,'' {\em
-  Trends in cognitive sciences}, vol.~6, no.~12, pp.~517--523, 2002.
-
-\bibitem{Castelli2013}
-F.~Castelli, F.~Happ{\'e}, U.~Frith, and C.~Frith, ``Movement and mind: a
-  functional imaging study of perception and interpretation of complex
-  intentional movement patterns,'' in {\em Social neuroscience}, pp.~155--169,
-  Psychology Press, 2013.
-
-\bibitem{Frith2001}
-U.~Frith, ``Mind blindness and the brain in autism,'' {\em Neuron}, vol.~32,
-  no.~6, pp.~969--979, 2001.
-
-\bibitem{Maddock1999}
-R.~J. Maddock, ``The retrosplenial cortex and emotion: new insights from
-  functional neuroimaging of the human brain,'' {\em Trends in neurosciences},
-  vol.~22, no.~7, pp.~310--316, 1999.
-
-\bibitem{Kiehl2001}
-K.~A. Kiehl, A.~M. Smith, R.~D. Hare, A.~Mendrek, B.~B. Forster, J.~Brink, and
-  P.~F. Liddle, ``Limbic abnormalities in affective processing by criminal
-  psychopaths as revealed by functional magnetic resonance imaging,'' {\em
-  Biological psychiatry}, vol.~50, no.~9, pp.~677--684, 2001.
-
-\bibitem{Brothers1992}
-L.~Brothers and B.~Ring, ``A neuroethological framework for the representation
-  of minds,'' {\em Journal of cognitive neuroscience}, vol.~4, no.~2,
-  pp.~107--118, 1992.
+\bibitem{DorisSep2020}
+J.~Doris, S.~Stich, J.~Phillips, and L.~Walmsley, ``{Moral Psychology:
+  Empirical Approaches},'' in {\em The {Stanford} Encyclopedia of Philosophy}
+  (E.~N. Zalta, ed.), Metaphysics Research Lab, Stanford University, {S}pring
+  2020~ed., 2020.
 
 \bibitem{Moll2002}
 J.~Moll, R.~de~Oliveira-Souza, P.~J. Eslinger, I.~E. Bramati,
@@ -339,208 +62,362 @@ J.~Moll, R.~de~Oliveira-Souza, P.~J. Eslinger, I.~E. Bramati,
   of basic and moral emotions,'' {\em Journal of neuroscience}, vol.~22, no.~7,
   pp.~2730--2736, 2002.
 
-\bibitem{Damasio2000}
-A.~R. Damasio, T.~J. Grabowski, A.~Bechara, H.~Damasio, L.~L. Ponto,
-  J.~Parvizi, and R.~D. Hichwa, ``Subcortical and cortical brain activity
-  during the feeling of self-generated emotions,'' {\em Nature neuroscience},
-  vol.~3, no.~10, pp.~1049--1056, 2000.
-
-\bibitem{Moll2001}
-J.~Moll, P.~J. Eslinger, and R.~d. Oliveira-Souza, ``Frontopolar and anterior
-  temporal cortex activation in a moral judgment task: preliminary functional
-  mri results in normal subjects,'' {\em Arquivos de neuro-psiquiatria},
-  vol.~59, pp.~657--664, 2001.
-
-\bibitem{Caspers2013}
-S.~Caspers, K.~Zilles, A.~R. Laird, and S.~B. Eickhoff, ``Ale meta-analysis of
-  action observation and imitation in the human brain,'' {\em NeuroImage},
-  vol.~50, no.~3, pp.~1148--1167, 2013.
-
-\bibitem{Moll2002b}
-J.~Moll, R.~de~Oliveira-Souza, P.~J. Eslinger, I.~E. Bramati,
-  J.~Mourao-Miranda, P.~A. Andreiuolo, and L.~Pessoa, ``The neural correlates
-  of moral sensitivity: a functional magnetic resonance imaging investigation
-  of basic and moral emotions,'' {\em Journal of neuroscience}, vol.~22, no.~7,
-  pp.~2730--2736, 2002.
-
-\bibitem{Odoherty2001}
-J.~O'Doherty, M.~L. Kringelbach, E.~T. Rolls, J.~Hornak, and C.~Andrews,
-  ``Abstract reward and punishment representations in the human orbitofrontal
-  cortex,'' {\em Nature neuroscience}, vol.~4, no.~1, pp.~95--102, 2001.
-
-\bibitem{Allison2000}
-T.~Allison, A.~Puce, and G.~McCarthy, ``Social perception from visual cues:
-  role of the sts region,'' {\em Trends in cognitive sciences}, vol.~4, no.~7,
-  pp.~267--278, 2000.
-
 \bibitem{Decety2004}
 J.~Decety and P.~L. Jackson, ``The neural bases of empathy,'' {\em Behavioral
   and Cognitive Neuroscience Reviews}, vol.~3, no.~2, pp.~71--100, 2004.
 
-\bibitem{Lane1997}
-R.~D. Lane, E.~M. Reiman, G.~L. Ahern, G.~E. Schwartz, and R.~J. Davidson,
-  ``Neuroanatomical correlates of happiness, sadness, and disgust,'' {\em The
-  American Journal of Psychiatry}, vol.~154, no.~7, pp.~926--933, 1997.
+\bibitem{Joyce2006}
+R.~Joyce, {\em The Evolution of Morality}.
+\newblock MIT Press, 2006.
 
-\bibitem{Wallace2020}
-R.~J. Wallace, ``{Practical Reason},'' in {\em The {Stanford} Encyclopedia of
-  Philosophy} (E.~N. Zalta, ed.), Metaphysics Research Lab, Stanford
-  University, spring 2020~ed., 2020.
+\bibitem{Tomasello2016}
+M.~Tomasello, {\em A Natural History of Human Morality}.
+\newblock Harvard University Press, 2016.
 
-\bibitem{SEP-moral-reasoning}
-H.~S. Richardson, ``{Moral Reasoning},'' in {\em The {Stanford} Encyclopedia of
-  Philosophy} (E.~N. Zalta, ed.), Metaphysics Research Lab, Stanford
-  University, {F}all 2018~ed., 2018.
+\bibitem{Hursthouse1999}
+R.~Hursthouse, {\em On Virtue Ethics}.
+\newblock Oxford: Oxford University Press, 1999.
 
-\bibitem{Bartels2015}
-D.~M. Bartels, C.~W. Bauman, F.~A. Cushman, D.~A. Pizarro, and A.~P. McGraw,
-  ``Moral judgment and decision making,'' in {\em The Wiley Blackwell Handbook
-  of Judgment and Decision Making} (G.~Keren and G.~Wu, eds.), pp.~478--515,
-  Chichester, UK: Wiley, 2015.
+\bibitem{Hooker2000}
+B.~Hooker and M.~O. Little, {\em Moral Particularism}.
+\newblock Oxford, UK: Oxford University Press, 2000.
 
-\bibitem{Ross2002}
-D.~Ross and W.~D. Ross, {\em The right and the good}.
-\newblock Oxford University Press, 2002.
+\bibitem{Anscombe1957}
+G.~E.~M. Anscombe, {\em Intention}.
+\newblock Oxford, UK: Blackwell, 1957.
+
+\bibitem{Korsgaard2009}
+C.~Korsgaard, {\em Self-Constitution: Agency, Identity, and Integrity}.
+\newblock Oxford, UK: Oxford University Press, 2009.
+
+\bibitem{GoodwinDarley2008MetaEthics}
+G.~P. Goodwin and J.~M. Darley, ``The psychology of meta-ethics: Exploring
+  objectivism,'' {\em Cognition}, vol.~106, no.~3, pp.~1339--1366, 2008.
 
 \bibitem{Haidt2001}
 J.~Haidt, ``The emotional dog and its rational tail: a social intuitionist
   approach to moral judgment.,'' {\em Psychological review}, vol.~108, no.~4,
   p.~814, 2001.
 
-\bibitem{Audi2015}
-R.~Audi, {\em Moral Perception}.
-\newblock Princeton, NJ: Princeton University Press, 2015.
+\bibitem{Henrich2005CrossCultural}
+J.~Henrich, R.~Boyd, S.~Bowles, C.~Camerer, E.~Fehr, H.~Gintis, {\em et~al.},
+  ``"economic man" in cross-cultural perspective: Behavioral experiments in 15
+  small-scale societies,'' {\em Behavioral and Brain Sciences}, vol.~28, no.~6,
+  pp.~795--855, 2005.
 
-\bibitem{Greene2014}
-J.~D. Greene, {\em Moral Tribes: Emotion, Reason, and the Gap Between Us and
-  Them}.
-\newblock New York, NY: Penguin Press, 2014.
+\bibitem{Cushman2013DualSystem}
+F.~Cushman, ``Action, outcome, and value: A dual-system framework for
+  morality,'' {\em Personality and Social Psychology Review}, vol.~17, no.~3,
+  pp.~273--292, 2013.
 
-\bibitem{Rawls2020}
-J.~Rawls, {\em A theory of justice}.
-\newblock Harvard university press, 2020.
+\bibitem{Mikhail2007UMG}
+J.~Mikhail, ``Universal moral grammar: Theory, evidence, and the future,'' {\em
+  Trends in Cognitive Sciences}, vol.~11, no.~4, pp.~143--152, 2007.
 
-\bibitem{Dancy2004}
-J.~Dancy, ``Ethics without principles,'' 2004.
+\bibitem{Narvaez2005}
+D.~Narvaez and D.~K. Lapsley, ``Moral psychology at the crossroads: Domain
+  theory and the moral self,'' {\em Human Development}, vol.~48, no.~2,
+  pp.~85--97, 2005.
 
-\bibitem{McDowell1979}
-J.~McDowell, ``Virtue and reason,'' {\em The Monist}, vol.~62, no.~3,
-  pp.~331--350, 1979.
+\bibitem{Narvaez2008Triune}
+D.~Narvaez, ``Triune ethics: The neurobiological roots of our multiple
+  moralities,'' {\em New Ideas in Psychology}, vol.~26, no.~1, pp.~95--119,
+  2008.
 
-\bibitem{Hooker2000}
-B.~Hooker and M.~O. Little, {\em Moral Particularism}.
-\newblock Oxford, UK: Oxford University Press, 2000.
+\bibitem{Crockett2016Models}
+M.~J. Crockett, ``Models of morality,'' {\em Trends in Cognitive Sciences},
+  vol.~20, no.~2, pp.~87--97, 2016.
 
-\bibitem{APA2015}
-G.~R. VandenBos, {\em APA Dictionary of Psychology.}
-\newblock American Psychological Association, 2015.
+\bibitem{YoungWaytz2013Review}
+L.~Young and A.~Waytz, ``Moral cognition: A review,'' in {\em The Handbook of
+  Social Psychology}, pp.~1--47, Oxford University Press, 5~ed., 2013.
 
-\bibitem{Anderson2005_cognitive}
-J.~R. Anderson, {\em Cognitive Psychology and Its Implications}.
-\newblock New York, NY: Worth Publishers, 6th~ed., 2005.
+\bibitem{Graham2013MFT}
+J.~Graham, J.~Haidt, S.~Koleva, M.~Motyl, R.~Iyer, S.~Wojcik, {\em et~al.},
+  ``Moral foundations theory: The pragmatic validity of moral pluralism,'' {\em
+  Advances in Experimental Social Psychology}, vol.~47, pp.~55--130, 2013.
 
-\bibitem{Neisser1967}
-U.~Neisser, {\em Cognitive Psychology}.
-\newblock New York, NY: Appleton-Century-Crofts, 1967.
+\bibitem{Black1972}
+M.~Black, ``The factual and the normative,'' in {\em Human Science and the
+  Problem of Values}.
 
-\bibitem{Baddeley2020}
-A.~D. Baddeley, M.~W. Eysenck, and M.~C. Anderson, {\em Memory}.
-\newblock New York, NY: Routledge, 3rd~ed., 2020.
+\bibitem{Greene2001}
+J.~D. Greene, L.~E. Nystrom, A.~D. Engell, J.~M. Darley, and J.~D. Cohen, ``An
+  fmri investigation of emotional engagement in moral judgment,'' {\em
+  Science}, vol.~293, no.~5537, pp.~2105--2108, 2001.
 
-\bibitem{Kahneman2011}
-D.~Kahneman, {\em Thinking, Fast and Slow}.
-\newblock Farrar, Straus and Giroux, 2011.
+\bibitem{Cushman2013}
+F.~Cushman, ``Action, outcome, and value: A dual-system framework for
+  morality,'' {\em Personality and Social Psychology Review}, vol.~17, no.~3,
+  pp.~273--292, 2013.
 
-\bibitem{Skinner1953}
-B.~F. Skinner, {\em Science and Human Behavior}.
-\newblock New York, NY: Macmillan, 1953.
+\bibitem{Young2012}
+L.~Young and J.~Dungan, ``Where in the brain is morality? everywhere and maybe
+  nowhere,'' {\em Social neuroscience}, vol.~7, no.~1, pp.~1--10, 2012.
 
-\bibitem{APA2020}
-{American Psychological Association}, {\em {APA Dictionary of Psychology}}.
-\newblock Washington, DC: American Psychological Association, 2020.
+\bibitem{Greene2004}
+J.~D. Greene, L.~E. Nystrom, A.~D. Engell, J.~M. Darley, and J.~D. Cohen, ``The
+  neural bases of cognitive conflict and control in moral judgment,'' {\em
+  Neuron}, vol.~44, no.~2, pp.~389--400, 2004.
 
-\bibitem{Baumeister2020}
-R.~F. Baumeister and B.~J. Bushman, {\em Social Psychology and Human Nature}.
-\newblock Boston, MA: Cengage Learning, 5th~ed., 2020.
+\bibitem{Cushman2013ActionOutcomeValue}
+F.~Cushman, ``Action, outcome, and value: A dual-system framework for
+  morality,'' {\em Personality and Social Psychology Review}, vol.~17, no.~3,
+  pp.~273--292, 2013.
 
-\bibitem{Potrc2010}
-M.~Potrc, V.~Strahovnik, and M.~Lance, {\em Challenging moral particularism}.
-\newblock Routledge, 2010.
+\bibitem{CushmanYoung2009Beyond}
+F.~Cushman and L.~Young, ``The psychology of dilemmas and the philosophy of
+  morality,'' {\em Ethics}, vol.~119, no.~4, pp.~597--636, 2009.
 
-\bibitem{Dancy2017-SEP}
-J.~Dancy, ``{Moral Particularism},'' in {\em The {Stanford} Encyclopedia of
-  Philosophy} (E.~N. Zalta, ed.), Metaphysics Research Lab, Stanford
-  University, {W}inter 2017~ed., 2017.
+\bibitem{CushmanGreene2012Common}
+F.~Cushman and J.~D. Greene, ``Finding faults: How moral evaluations arise from
+  normative frameworks,'' {\em Cognition}, vol.~136, no.~2, pp.~30--43, 2012.
 
-\bibitem{Richardson2018}
-H.~S. Richardson, ``{Moral Reasoning},'' in {\em The {Stanford} Encyclopedia of
-  Philosophy} (E.~N. Zalta, ed.), Metaphysics Research Lab, Stanford
-  University, fall 2018~ed., 2018.
+\bibitem{Hindriks2015Normative}
+F.~Hindriks, ``Normativity in action: How to explain the distinction between
+  descriptive and normative judgments,'' {\em Philosophical Explorations},
+  vol.~18, no.~3, pp.~285--305, 2015.
 
-\bibitem{Nagel1979}
-E.~Nagel, {\em The structure of science}, vol.~411.
-\newblock Hackett publishing company Indianapolis, 1979.
+\bibitem{Greene2014Beyond}
+J.~D. Greene, ``Beyond point-and-shoot morality: Why cognitive (neuro)science
+  matters for ethics,'' {\em Ethics}, vol.~124, no.~4, pp.~695--726, 2014.
 
-\bibitem{Hempel1965}
-C.~G. Hempel, ``Aspects of scientific explanation,'' 1965.
+\bibitem{Railton2017MoralLearning}
+P.~Railton, ``Moral learning: Conceptual foundations and normative relevance,''
+  {\em Cognition}, vol.~167, pp.~172--190, 2017.
 
-\bibitem{Tversky1974}
-A.~Tversky and D.~Kahneman, ``Judgment under uncertainty: Heuristics and
-  biases: Biases in judgments reveal some heuristics of thinking under
-  uncertainty.,'' {\em science}, vol.~185, no.~4157, pp.~1124--1131, 1974.
+\bibitem{Smith1994MoralProblem}
+M.~Smith, {\em The Moral Problem}.
+\newblock Blackwell, 1994.
 
-\bibitem{Hirschfeld1994}
-L.~A. Hirschfeld and S.~A. Gelman, {\em Mapping the mind: Domain specificity in
-  cognition and culture}.
-\newblock Cambridge University Press, 1994.
+\bibitem{Railton1986MoralRealism}
+P.~Railton, ``Moral realism,'' {\em The Philosophical Review}, vol.~95, no.~2,
+  pp.~163--207, 1986.
+
+\bibitem{Blackburn1998RulingPassions}
+S.~Blackburn, {\em Ruling Passions}.
+\newblock Oxford University Press, 1998.
+
+\bibitem{Gibbard1990WiseChoices}
+A.~Gibbard, {\em Wise Choices, Apt Feelings}.
+\newblock Harvard University Press, 1990.
+
+\bibitem{Korsgaard1996Sources}
+C.~M. Korsgaard, {\em The Sources of Normativity}.
+\newblock Cambridge University Press, 1996.
 
 \bibitem{Bechara2000}
 A.~Bechara, H.~Damasio, and A.~R. Damasio, ``Emotion, decision making and the
   orbitofrontal cortex,'' {\em Cerebral Cortex}, vol.~10, no.~3, pp.~295--307,
   2000.
 
-\bibitem{Churchland2011}
-P.~S. Churchland, {\em Braintrust: What Neuroscience Tells Us About Morality}.
-\newblock Princeton, NJ: Princeton University Press, 2011.
+\bibitem{Garrigan2016}
+B.~Garrigan, A.~L. Adlam, and P.~E. Langdon, ``The neural correlates of moral
+  decision-making: A systematic review and meta-analysis of moral evaluations
+  and response decision judgements,'' {\em Brain and cognition}, vol.~108,
+  pp.~88--97, 2016.
 
-\bibitem{Greene2015}
-J.~D. Greene, ``The cognitive neuroscience of moral judgment and decision
-  making,'' 2015.
+\bibitem{Eres2018}
+R.~Eres, W.~R. Louis, and P.~Molenberghs, ``Common and distinct neural networks
+  involved in fmri studies investigating morality: an ale meta-analysis,'' {\em
+  Social neuroscience}, vol.~13, no.~4, pp.~384--398, 2018.
 
-\bibitem{Greene2009a}
-J.~D. Greene, ``The cognitive neuroscience of moral judgment,'' {\em The
-  cognitive neurosciences}, vol.~4, pp.~1--48, 2009.
+\bibitem{Fede2020}
+S.~J. Fede and K.~A. Kiehl, ``Meta-analysis of the moral brain: patterns of
+  neural engagement assessed using multilevel kernel density analysis,'' {\em
+  Brain imaging and behavior}, vol.~14, no.~2, pp.~534--547, 2020.
 
-\bibitem{Thomson1984}
-J.~J. Thomson, ``The trolley problem,'' {\em Yale LJ}, vol.~94, p.~1395, 1984.
+\bibitem{LeDoux1998}
+J.~LeDoux, {\em The Emotional Brain}.
+\newblock Simon and Schuster, 1998.
 
-\bibitem{Aquinas_summa}
-T.~Aquinas, {\em Summa Theologica}.
-\newblock Westminster, MD: Christian Classics, ca. 1265--1274.
-\newblock Translated by Fathers of the English Dominican Province.
+\bibitem{Phelps2006}
+E.~A. Phelps, ``Emotion and cognition: insights from studies of the human
+  amygdala,'' {\em Annual Review of Psychology}, vol.~57, pp.~27--53, 2006.
 
-\bibitem{Kant_practical_reason}
-I.~Kant, {\em Critique of Practical Reason}.
-\newblock New York, NY: Macmillan, 1788.
-\newblock Translated by Lewis White Beck.
+\bibitem{Moll2005}
+J.~Moll, R.~de~Oliveira-Souza, P.~J. Eslinger, I.~E. Bramati, J.~C.
+  Mour{\~a}o-Miranda, P.~A. Andreiuolo, and L.~Pessoa, ``The neural correlates
+  of moral sensitivity: A functional magnetic resonance imaging investigation
+  of basic and moral emotions,'' {\em The Journal of Neuroscience}, vol.~25,
+  no.~7, pp.~2730--2736, 2005.
 
-\bibitem{Korsgaard1996}
-C.~M. Korsgaard, {\em The Sources of Normativity}.
-\newblock Cambridge University Press, 1996.
+\bibitem{Sanfey2003}
+A.~G. Sanfey, J.~K. Rilling, J.~A. Aronson, L.~E. Nystrom, and J.~D. Cohen,
+  ``The neural basis of economic decision-making in the ultimatum game,'' {\em
+  Science}, vol.~300, no.~5626, pp.~1755--1758, 2003.
 
-\bibitem{Stanovich2000}
-K.~E. Stanovich and R.~F. West, ``Individual differences in reasoning:
-  Implications for the rationality debate,'' {\em Behavioral and Brain
-  Sciences}, vol.~23, no.~5, pp.~645--726, 2000.
+\bibitem{Chang2013}
+L.~J. Chang, T.~Yarkoni, M.~W. Khaw, and A.~G. Sanfey, ``Neural substrates of
+  norm violations,'' {\em Nature Communications}, vol.~4, pp.~1--9, 2013.
 
-\bibitem{Black1972}
-M.~Black, ``The factual and the normative,'' in {\em Human Science and the
-  Problem of Values}.
+\bibitem{Sarlo2012}
+M.~Sarlo, L.~Lotto, A.~Manfrinati, R.~Rumiati, and D.~Palomba, ``Temporal
+  dynamics of cognitive-emotional interplay in moral decision-making,'' {\em
+  Journal of Cognitive Neuroscience}, vol.~24, no.~4, pp.~1018--1029, 2012.
 
-\bibitem{Rosati2016}
-C.~S. Rosati, ``{Moral Motivation},'' in {\em The {Stanford} Encyclopedia of
-  Philosophy} (E.~N. Zalta, ed.), Metaphysics Research Lab, Stanford
-  University, winter 2016~ed., 2016.
+\bibitem{Luo2006}
+Y.-J. Luo, B.~Wu, S.~Han, and Y.-F. Luo, ``Moral and immoral judgments in the
+  brain: evidence from event-related potentials,'' {\em NeuroReport}, vol.~17,
+  no.~2, pp.~163--167, 2006.
+
+\bibitem{Mikhail2007}
+J.~Mikhail, ``Universal moral grammar: Theory, evidence, and the future,'' {\em
+  Trends in Cognitive Sciences}, vol.~11, no.~4, pp.~143--152, 2007.
+
+\bibitem{YoungSaxe2011}
+L.~Young and R.~Saxe, ``When ignorance is no excuse: Different roles for intent
+  and outcome in moral judgment,'' {\em Cognition}, vol.~120, no.~2,
+  pp.~202--214, 2011.
+
+\bibitem{CushmanYoung2009}
+F.~Cushman and L.~Young, ``The psychology of dilemmas and the philosophy of
+  morality,'' {\em Ethics}, vol.~119, no.~4, pp.~597--636, 2009.
+
+\bibitem{Saxe2003}
+R.~Saxe and A.~Wexler, ``Making sense of another mind: The role of the right
+  temporo-parietal junction,'' {\em Neuropsychologia}, vol.~41, no.~4,
+  pp.~463--468, 2003.
+
+\bibitem{SaxeKanwisher2003}
+R.~Saxe and N.~Kanwisher, ``People thinking about thinking people: The role of
+  the temporo-parietal junction in theory of mind,'' {\em NeuroImage}, vol.~19,
+  no.~4, pp.~1835--1842, 2003.
+
+\bibitem{Pelphrey2004}
+K.~A. Pelphrey, J.~P. Morris, and G.~McCarthy, ``Grasping the intentions of
+  others: The perception of biological motion and its relation to the posterior
+  superior temporal sulcus,'' {\em Cognitive Brain Research}, vol.~21, no.~2,
+  pp.~162--170, 2004.
+
+\bibitem{VanOverwalle2009}
+F.~Van~Overwalle, ``Social cognition and the brain: A meta-analysis,'' {\em
+  Human Brain Mapping}, vol.~30, no.~3, pp.~829--858, 2009.
+
+\bibitem{YoungSaxe2010}
+L.~Young and R.~Saxe, ``The neural basis of belief encoding and integration in
+  moral judgment,'' {\em NeuroImage}, vol.~40, no.~4, pp.~1912--1920, 2010.
+
+\bibitem{Botvinick2004}
+M.~M. Botvinick, J.~D. Cohen, and C.~S. Carter, ``Conflict monitoring and
+  anterior cingulate cortex: An update,'' {\em Trends in Cognitive Sciences},
+  vol.~8, no.~12, pp.~539--546, 2004.
+
+\bibitem{Shackman2011}
+A.~J. Shackman, T.~V. Salomons, H.~A. Slagter, A.~S. Fox, J.~J. Winter, and
+  R.~J. Davidson, ``The integration of negative affect, pain, and cognitive
+  control in the cingulate cortex,'' {\em Nature Reviews Neuroscience},
+  vol.~12, no.~3, pp.~154--167, 2011.
+
+\bibitem{Decety2012}
+J.~Decety and E.~C. Porges, ``Imagining being the agent of actions that carry
+  different moral consequences: An fmri study,'' {\em Neuropsychologia},
+  vol.~50, no.~11, pp.~2994--3006, 2012.
+
+\bibitem{Shenhav2013}
+A.~Shenhav, M.~M. Botvinick, and J.~D. Cohen, ``The expected value of control:
+  An integrative theory of anterior cingulate cortex function,'' {\em Neuron},
+  vol.~79, no.~2, pp.~217--240, 2013.
+
+\bibitem{Etkin2011}
+A.~Etkin, T.~Egner, and R.~Kalisch, ``Emotional processing in anterior
+  cingulate and medial prefrontal cortex,'' {\em Trends in Cognitive Sciences},
+  vol.~15, no.~2, pp.~85--93, 2011.
+
+\bibitem{Miller2001}
+E.~K. Miller and J.~D. Cohen, ``An integrative theory of prefrontal cortex
+  function,'' {\em Annual Review of Neuroscience}, vol.~24, pp.~167--202, 2001.
+
+\bibitem{Koechlin2003}
+E.~Koechlin, C.~Ody, and F.~Kouneiher, ``The architecture of cognitive control
+  in the human prefrontal cortex,'' {\em Science}, vol.~302, no.~5648,
+  pp.~1181--1185, 2003.
+
+\bibitem{Tassy2012}
+S.~Tassy, O.~Oullier, M.~Cermolacce, and B.~Wicker, ``Disrupting the right
+  prefrontal cortex alters moral judgement,'' {\em Social Cognitive and
+  Affective Neuroscience}, vol.~7, no.~3, pp.~282--288, 2012.
+
+\bibitem{Greene2004TMS}
+J.~D. Greene, S.~A. Morelli, K.~Lowenberg, L.~E. Nystrom, and J.~D. Cohen,
+  ``Cognitive load selectively interferes with utilitarian moral judgment,''
+  {\em Cognition}, vol.~95, no.~1, pp.~49--57, 2005.
+
+\bibitem{Hare2009}
+T.~A. Hare, C.~F. Camerer, and A.~Rangel, ``Self-control in decision-making
+  involves modulation of the vmpfc valuation system,'' {\em Science}, vol.~324,
+  no.~5927, pp.~646--648, 2009.
+
+\bibitem{Mansouri2009}
+F.~A. Mansouri, M.~J. Buckley, and K.~Tanaka, ``Conflict-induced behavioural
+  adjustment: A clue to the executive functions of the prefrontal cortex,''
+  {\em Nature Reviews Neuroscience}, vol.~10, no.~2, pp.~141--152, 2009.
+
+\bibitem{Bressler2010}
+S.~L. Bressler and V.~Menon, ``Large-scale brain networks in cognition:
+  Emerging methods and principles,'' {\em Trends in Cognitive Sciences},
+  vol.~14, no.~6, pp.~277--290, 2010.
+
+\bibitem{Shenhav2013ControlValue}
+A.~Shenhav, M.~M. Botvinick, and J.~D. Cohen, ``The expected value of control:
+  An integrative theory of anterior cingulate cortex function,'' {\em Neuron},
+  vol.~79, no.~2, pp.~217--240, 2013.
+
+\bibitem{Gintis2014MoralComputation}
+H.~Gintis, {\em The Bounds of Reason: Game Theory and the Unification of the
+  Behavioral Sciences}.
+\newblock Princeton University Press, 2~ed., 2014.
+
+\bibitem{Greene2014Integration}
+J.~D. Greene, ``The cognitive neuroscience of moral judgment and
+  decision-making,'' {\em Handbook of Neuroethics}, pp.~161--178, 2014.
+
+\bibitem{Cushman2013DualSystems}
+F.~Cushman, ``Action, outcome, and value: A dual-system framework for
+  morality,'' {\em Personality and Social Psychology Review}, vol.~17, no.~3,
+  pp.~273--292, 2013.
+
+\bibitem{Ongur2000}
+D.~Ongur and J.~L. Price, ``The organization of networks within the orbital and
+  medial prefrontal cortex of rats, monkeys and humans,'' {\em Cerebral
+  Cortex}, vol.~10, no.~3, pp.~206--219, 2000.
+
+\bibitem{Rangel2008}
+A.~Rangel, C.~Camerer, and P.~R. Montague, ``A framework for studying the
+  neurobiology of value-based decision making,'' {\em Nature Reviews
+  Neuroscience}, vol.~9, no.~7, pp.~545--556, 2008.
+
+\bibitem{Coeckelbergh2010}
+M.~Coeckelbergh, ``Robot rights? towards a social-relational justification of
+  moral consideration,'' {\em Ethics and Information Technology}, vol.~12,
+  no.~3, pp.~209--221, 2010.
+
+\bibitem{Alfano2013MoralEnvironment}
+M.~Alfano, {\em Character as Moral Fiction}.
+\newblock Cambridge University Press, 2013.
+
+\bibitem{Zlotowski2015SocialCues}
+J.~Zlotowski, D.~Proudfoot, and C.~Bartneck, ``More than just looking good?
+  appearance, personality and human-robot interaction,'' {\em International
+  Journal of Social Robotics}, vol.~7, no.~3, pp.~307--316, 2015.
+
+\bibitem{BigmanGray2018}
+Y.~E. Bigman and K.~Gray, ``People are harmed by robot mistakes because robots
+  are seen as moral agents,'' {\em Social Cognition}, vol.~36, no.~2,
+  pp.~182--198, 2018.
+
+\bibitem{Alfano2013Trust}
+M.~Alfano, ``Expanding the situationist challenge: Virtue ethics and the
+  empirical study of character,'' {\em Ethical Theory and Moral Practice},
+  vol.~16, no.~1, pp.~97--114, 2013.
+
+\bibitem{Railton2017Scaffolding}
+P.~Railton, ``Moral learning: Conceptual foundations and normative relevance,''
+  {\em Cognition}, vol.~167, pp.~172--190, 2017.
+
+\bibitem{Coeckelbergh2020}
+M.~Coeckelbergh, {\em AI Ethics}.
+\newblock MIT Press, 2020.
 
 \bibitem{Vinciarelli2009}
 A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing: Survey
@@ -695,14 +572,6 @@ D.~C. Dennett, {\em The Intentional Stance}.
 L.~Floridi, ``The method of levels of abstraction,'' {\em Minds and machines},
   vol.~18, no.~3, pp.~303--329, 2008.
 
-\bibitem{Floridi2010}
-L.~Floridi, {\em Information: A Very Short Introduction}.
-\newblock Oxford: Oxford University Press, 2010.
-
-\bibitem{Floridi2013}
-L.~Floridi, {\em The Ethics of Information}.
-\newblock Oxford: Oxford University Press, 2013.
-
 \bibitem{Emery2000}
 N.~J. Emery, ``The eyes have it: The neuroethology, function and evolution of
   social gaze,'' {\em Neuroscience \& Biobehavioral Reviews}, vol.~24, no.~6,
@@ -761,10 +630,6 @@ M.~Bateson, D.~Nettle, and G.~Roberts, ``Cues of being watched enhance
   cooperation in a real-world setting,'' {\em Biology Letters}, vol.~2, no.~3,
   pp.~412--414, 2006.
 
-\bibitem{FloridiSanders2004}
-L.~Floridi and J.~W. Sanders, ``On the morality of artificial agents,'' {\em
-  Minds and Machines}, vol.~14, no.~3, pp.~349--379, 2004.
-
 \bibitem{BaronCohenWheelwright2004_EmpathyQuotient}
 S.~Baron?Cohen and S.~Wheelwright, ``The empathy quotient: An investigation of
   adults with asperger syndrome or high-functioning autism, and normal sex
@@ -783,33 +648,23 @@ O.~P. John, E.~M. Donahue, and R.~L. Kentle, ``The big five inventory ?
   versions 4a and 5,'' tech. rep., Institute of Personality and Social
   Research, University of California, Berkeley, Berkeley, California, 1991.
 
-\bibitem{Anscombe1957}
-G.~E.~M. Anscombe, {\em Intention}.
-\newblock Oxford, UK: Blackwell, 1957.
+\bibitem{Aristotle_nicomachean}
+Aristotle, {\em Nicomachean Ethics}.
+\newblock Oxford, UK: Oxford University Press, ca. 350 BCE.
+\newblock Translated by W. D. Ross, revised by J. O. Urmson.
 
-\bibitem{Nussbaum2001}
-M.~C. Nussbaum, {\em Upheavals of Thought: The Intelligence of Emotions}.
-\newblock Cambridge, UK: Cambridge University Press, 2001.
-
-\bibitem{Korsgaard2009}
-C.~Korsgaard, {\em Self-Constitution: Agency, Identity, and Integrity}.
-\newblock Oxford, UK: Oxford University Press, 2009.
+\bibitem{Korsgaard1996}
+C.~M. Korsgaard, {\em The Sources of Normativity}.
+\newblock Cambridge University Press, 1996.
 
 \bibitem{Shariff2007}
 A.~F. Shariff and A.~Norenzayan, ``God is watching you: Priming god concepts
   increases prosocial behavior in an anonymous economic game,'' {\em
   Psychological science}, vol.~18, no.~9, pp.~803--809, 2007.
 
-\bibitem{Haidt2007}
-J.~Haidt, ``The new synthesis in moral psychology,'' {\em Science}, vol.~316,
-  no.~5827, pp.~998--1002, 2007.
-
-\bibitem{Moll2005}
-J.~Moll, R.~de~Oliveira-Souza, P.~J. Eslinger, I.~E. Bramati, J.~C.
-  Mour{\~a}o-Miranda, P.~A. Andreiuolo, and L.~Pessoa, ``The neural correlates
-  of moral sensitivity: A functional magnetic resonance imaging investigation
-  of basic and moral emotions,'' {\em The Journal of Neuroscience}, vol.~25,
-  no.~7, pp.~2730--2736, 2005.
+\bibitem{Greene2002}
+J.~Greene and J.~Haidt, ``How (and where) does moral judgment work?,'' {\em
+  Trends in cognitive sciences}, vol.~6, no.~12, pp.~517--523, 2002.
 
 \bibitem{Fedyk2017}
 M.~Fedyk, {\em The Social Turn in Moral Psychology}.
@@ -837,10 +692,26 @@ J.~Z{\l}otowski, D.~Proudfoot, K.~Yogeeswaran, and C.~Bartneck,
   interaction,'' {\em International Journal of Social Robotics}, vol.~7, no.~3,
   pp.~347--360, 2015.
 
+\bibitem{Moor2006}
+J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
+  IEEE Intelligent Systems}, vol.~21, no.~4, pp.~18--21, 2006.
+
+\bibitem{Anderson2011}
+M.~Anderson and S.~L. Anderson, {\em Machine ethics}.
+\newblock Cambridge University Press, 2011.
+
 \bibitem{Wallach2008}
 W.~Wallach and C.~Allen, {\em Moral machines: Teaching robots right from
   wrong}.
 \newblock Oxford University Press, 2008.
+
+\bibitem{Moor2011}
+J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
+  Machine ethics}, pp.~13--20, 2011.
+
+\bibitem{Moor2023}
+J.~H. Moor, ``The nature and limits of machine ethics,'' {\em AI and Society},
+  vol.~39, no.~1, pp.~33--51, 2023.
 
 \bibitem{DeBrigard2021}
 F.~De~Brigard, W.~Sinnott-Armstrong, A.~E. Monroe, N.~Carroll, and J.~May,

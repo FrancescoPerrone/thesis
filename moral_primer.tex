@@ -1,0 +1,209 @@
+\chapter{MORALITY PRIMER FOR COMPUTER SCIENTISTS}
+\label{chap:moral_primer}
+\thispagestyle{pprintTitle}
+
+
+% Adjusting epigraph settings
+\setlength\epigraphwidth{.8\textwidth}
+\setlength\epigraphrule{0pt}
+\renewcommand{\epigraphflush}{flushleft}
+\renewcommand{\sourceflush}{flushright}
+
+%
+%
+\section{Why This Chapter Exists}
+Research in human--robot interaction, affective computing, and artificial intelligence routinely engages with moral concepts. Yet technical treatments of morality often rely on folk-theoretical assumptions, intuitive definitions, or operational proxies that lack philosophical and psychological grounding. 
+
+In Floridi’s framework, a \textit{Level of Abstraction} (LoA) denotes the set of observables, modelling choices, and epistemic constraints under which a system is described and analysed \cite{Floridi2010, Floridi2011}. An LoA determines what counts as information, what distinctions can be made, and which questions are meaningful within a given descriptive or normative domain. Crucially, different LoAs support different inferential structures: a psychological LoA describes cognitive regularities, a normative LoA prescribes what agents \emph{ought} to do, and these cannot be interchanged without committing a methodological error \cite{Floridi2013, Mingers2014, Jongsma2016}. Attending to LoAs therefore provides the conceptual machinery needed to diagnose the kinds of confusions that arise when technical research invokes moral terminology without theoretical grounding.
+
+Against this background, two systematic conceptual errors. First, \emph{category mistakes}: treating morality as a set of externally codifiable rules, conflating ethical norms with behavioural conventions, or assuming that computational tractability licenses normative reduction \cite{Hare1981, Deigh2010}. Second, \emph{level-of-abstraction confusions}: importing normative notions into descriptive models, or conversely, construing psychological regularities as ethical principles \cite{Floridi2010, Floridi2013}.
+
+Both errors impair empirical interpretation in human–robot interaction and distort theoretical proposals in Machine Ethics, where the distinction between \emph{moral agency}, \emph{normative impact}, and \emph{behavioural modulation} is frequently collapsed \cite{FloridiSanders2004, Coeckelbergh2023}. Without a precise account of what constitutes a moral judgment, how such judgments differ from other evaluative processes, and how moral cognition interacts with affective and social mechanisms, researchers risk mischaracterising the very phenomena they aim to measure or engineer.
+
+The purpose of this chapter is therefore clarificatory. It provides a rigorous, minimally sufficient conceptual primer tailored to computer scientists and engineers. The chapter does not advance normative arguments, nor does it attempt to resolve ethical debates. Its aim is to supply the conceptual scaffolding required for understanding the empirical and theoretical contributions that follow. The framework adopted here positions moral cognition as an \textit{action-guiding} evaluative process, situated within a broader cognitive–affective ecology \cite{Doris2010, Doris2002, Nussbaum2001}. This orientation ensures that later discussions---especially those concerning moral perturbation under robotic presence---rest upon analytically coherent foundations rather than inherited ambiguities.
+
+\section{What Morality Means}
+
+\subsection{Descriptive and Normative Domains}
+
+The term ``morality'' spans at least two analytically distinct domains. The first is \emph{descriptive morality}: the empirical study of how humans form moral judgments, experience moral emotions, and engage in normatively salient actions. This includes developmental psychology \cite{Kohlberg1981}, social–cognitive models \cite{Haidt2007, DorisSep2020}, affective neuroscience \cite{Moll2002, Decety2004}, and evolutionary accounts of cooperation and prosociality \cite{Joyce2006, Tomasello2016}. The second is \emph{normative morality}: the domain of ethical theorising concerned with how one ought to act. This domain encompasses deontological, consequentialist, contractualist, and virtue-theoretic traditions \cite{Hursthouse1999, Hooker2000, Anscombe1957, Korsgaard2009}.
+
+These domains are distinct but interdependent. Descriptive accounts illuminate how agents actually evaluate and respond to situations, while normative theories articulate standards for justified action. Empirical models of moral cognition acquire meaning partly through the normative vocabulary within which moral judgments are articulated, while normative theories must remain constrained by what agents are psychologically capable of performing or understanding.
+
+In this thesis, the primary focus remains on \emph{descriptive} moral cognition, though normative materials are used to clarify the structure and function of moral judgment. The distinction is maintained rigorously to prevent importing normative assumptions into empirical constructs or misinterpreting behavioural outcomes as moral prescriptions.
+
+
+\subsection{Why Definitions Vary}
+
+There is no single universally accepted definition of morality. Divergence arises because different research programmes emphasise different components of the moral domain: cognitive mechanisms \cite{Doris2010}, affective systems \cite{Nussbaum2001}, normative reasoning \cite{Korsgaard2009}, social norms \cite{Bicchieri2016}, or evolutionary functions \cite{Joyce2006, Tomasello2016}. Philosophical traditions likewise disagree on whether morality is grounded in rationality, sentiment, virtue, utility, social contracts, or evolutionary pressures.
+
+Computational treatments often default to rule-based perspectives not because such accounts reflect human cognition but because they are structurally convenient to implement. This convenience has contributed to misleading interpretations of moral behaviour as rule following~\cite{GoodwinDarley2008MetaEthics, Haidt2001, Henrich2005CrossCultural, Cushman2013DualSystem}, and has encouraged oversimplified models of moral decision-making~\cite{Mikhail2007UMG, Narvaez2005, Narvaez2008Triune, Crockett2016Models, YoungWaytz2013Review, Graham2013MFT}. A primary goal of this chapter is to replace such inherited simplifications with a framework grounded in contemporary moral psychology and cognitive science.
+
+
+\subsection{Minimal Operational Definition for This Thesis}
+
+For the purposes of this thesis, we adopt the following minimal, action-oriented definition:
+
+\begin{quote}
+	\emph{Moral cognition is the evaluative process through which agents detect normatively salient features of a situation, generate judgments regarding permissible or obligatory actions, and select behaviour accordingly.}
+\end{quote}
+
+This definition is intentionally modest. It avoids substantive normative commitments while capturing the components required for empirical investigation: \emph{evaluation}, \emph{judgment}, and \emph{action}. It aligns with contemporary accounts of moral psychology that treat morality as grounded in both affective and cognitive mechanisms \cite{Haidt2007, Decety2004, Moll2002}. It also coheres with the theoretical machinery of this thesis, including evaluative topology, levels of abstraction, and the notion of semiotic perturbation. \textit{Moral cognition thus functions as a mapping from situational cues to action policies, modulated by trait-level and affective structures} \cite{Doris2002, Doris2010}.
+
+\section{Judgments: Factual and Normative}
+
+A central distinction for understanding moral cognition is the difference between \emph{factual} and \emph{normative} judgments. Although both concern evaluations of situations, they operate at different logical and conceptual levels. Factual judgments describe states of affairs: they answer questions about what \emph{is} the case. Normative judgments concern what \emph{ought} to be done, what is \emph{permissible}, \emph{required}, or \emph{forbidden}. The distinction is classical in philosophy, yet it remains frequently blurred in computational and psychological treatments of morality \cite{Black1972, Deigh2010}.
+
+Factual judgments derive their correctness conditions from empirical features of the world. Their truth depends on evidence, observation, or inference. Normative judgments, by contrast, embed claims about reasons for action and the standards that govern deliberation. They express commitments that are action-guiding and prescriptive in force, even when articulated implicitly \cite{Hare1981, Korsgaard2009}. What follows from this distinction is more than a semantic bifurcation: it marks a functional divide in the cognitive architecture that underwrites evaluative thought. A judgment about what \emph{is} the case engages classificatory and predictive mechanisms; a judgment about what \emph{ought} to be the case recruits additional systems responsible for assigning motivational weight, integrating affective cues, and generating the directional force that links evaluation to action.\marginpar{\footnotesize\emph{Key distinction:}\\Factual = descriptive;\\Normative = action-guiding.}
+
+Moral cognition refers to the ensemble of perceptual, affective, and inferential processes through which agents register morally relevant features of a situation and transform them into evaluative representations \cite{Greene2001, Haidt2001, Mendez2009}. It encompasses both explicit moral judgment and upstream mechanisms that detect salience, encode social meaning, and initiate the transition from evaluative appraisal to behaviour \cite{Cushman2013, Young2012}. Introducing this construct at this stage is essential, because it clarifies that the descriptive–normative distinction is mirrored in the cognitive architecture that processes them: factual information is registered by systems specialised for prediction and classification, whereas normative evaluation recruits additional mechanisms that assign motivational force and action-guiding significance.\footnote{In moral psychology, this distinction is often operationalised by contrasting cognitive processes supporting representational accuracy with those supporting valuation and action selection. See \cite{Moll2002, Greene2004, Shenhav2017}.}\marginpar{\footnotesize\emph{Moral cognition:}\\Perception $\rightarrow$ appraisal $\rightarrow$ action-guidance.}
+
+In moral cognition, the distinction is not merely verbal but functional. Psychological models indicate that factual information serves as input to evaluative appraisal~\cite{Cushman2013ActionOutcomeValue, CushmanYoung2009Beyond, CushmanGreene2012Common, Mikhail2007UMG}, but normative judgment involves the additional step of mapping descriptive cues onto action-guiding evaluations~\cite{Hindriks2015Normative, Greene2014Beyond, Railton2017MoralLearning, Cushman2013ActionOutcomeValue}. Treating normative judgments as a special case of factual ones therefore collapses essential differences in their psychological and functional architecture. For empirical research in moral psychology—and particularly for any paradigm seeking to measure moral behaviour—the distinction ensures that observable responses are not misinterpreted as direct indicators of moral endorsement or norm acceptance.\marginpar{\footnotesize\emph{Methodological note:}\\Behaviour $\neq$ endorsement unless interpretive architecture is specified.}
+
+This distinction between descriptive input and normative evaluation sets the stage for a further refinement. Once we recognise that moral cognition incorporates specialised mechanisms for assigning salience, generating evaluative force, and transforming appraisal into behaviour, it becomes clear that moral judgments themselves cannot be exhaustively characterised as simple outputs of belief or emotion. They arise from the coordinated operation of multiple cognitive systems—perceptual, affective, inferential, and motivational—whose interaction determines not merely \emph{what} is judged, but \emph{how} and \emph{why} it guides action. In other words, the transition from factual uptake to normative appraisal presupposes an internal architecture of judgment: a structured evaluative act with identifiable components that jointly confer its distinctive normative authority. It is to this internal architecture that we now turn.
+
+
+\section{The Structure of Moral Judgments}
+
+Moral judgments are not mere expressions of preference or affective reaction. They exhibit a characteristic structure combining evaluative content, justificatory grounding, and action-guiding force~\cite{Smith1994MoralProblem, Railton1986MoralRealism, Blackburn1998RulingPassions, Gibbard1990WiseChoices, Korsgaard1996Sources}. A moral judgment typically involves at least three components:
+
+\begin{enumerate}
+	\item \textbf{Salience detection}: recognition that a situation involves normatively relevant features (harm, fairness, honesty, obligation, care). This process draws upon perceptual, affective, and social-cognitive systems \cite{Moll2002, Decety2004}.
+	\item \textbf{Evaluative appraisal}: an assessment of those features in light of internalised norms, dispositions, or reasons. This appraisal may be intuitive or reflective, emotionally charged or deliberative, depending on the individual and context \cite{Nussbaum2001, Doris2010}.
+	\item \textbf{Practical commitment}: a transition from evaluation to action guidance, where the judgment functions as a reason for or against performing a particular behaviour \cite{Anscombe1957, Korsgaard2009}.
+\end{enumerate}
+
+These components jointly distinguish moral judgments from other evaluative acts such as aesthetic preferences or strategic choices. They also underwrite the thesis’s operational understanding of moral cognition as an \emph{evaluative mapping} from cues to action. 
+
+Importantly, this structure accommodates both intuitive and deliberative models. 
+Intuitive processes may dominate in everyday moral encounters; nonetheless, these 
+judgments retain justificatory structure, even when reasons are not explicitly articulated~
+\cite{Haidt2001, Greene2014Beyond, Railton2017MoralLearning, Mikhail2007UMG}. 
+Conversely, deliberative processes involve explicit reasoning, \textit{counterfactual 
+	consideration}, and appeal to principles or character traits \cite{Hursthouse1999}. 
+This duality will be further elaborated in the discussion of psychological and 
+neuroscientific foundations that follows.
+
+\medskip
+\noindent
+This distinction between intuitive and deliberative processes is not merely taxonomical; it marks the beginning of a deeper inquiry into the cognitive architecture that makes moral judgment possible. To understand why certain stimuli reliably elicit prosocial behaviour while others disrupt or attenuate it, we must examine the underlying mechanisms through which moral salience is perceived, represented, and acted upon. The transition from intuition to deliberation is mediated by identifiable affective, perceptual, and 
+executive systems, each contributing distinct computational roles within the broader moral economy. As the following section illustrates, contemporary psychological and neuroscientific research converges on a model of moral cognition as a distributed and dynamically interactive network. This framework not only clarifies how humans ordinarily navigate morally charged environments, but also establishes the theoretical scaffolding required to interpret how such processes may be perturbed—subtly yet measurably—by the presence of agents whose social and ontological status is ambiguous, such as humanoid robots. 
+In this sense, the empirical foundations surveyed below serve as the conceptual substrate upon which our experimental analysis later builds.
+
+
+\subsection{Psychological and Neuroscientific Foundations of Moral Decision-Making}
+
+A substantial body of work in cognitive neuroscience demonstrates that moral 
+decision-making is not the product of a single ``moral centre'' but emerges from 
+coordinated activity across distributed affective, social-cognitive, and executive networks. These systems jointly determine how agents detect morally salient cues, generate evaluative appraisals, and select action policies. The architecture is, in this sense, inherently \emph{practical}: the neural substrates implicated in moral judgment are deeply intertwined with those responsible for value computation, behavioural control, and action selection.\footnote{This stands in contrast to folk-psychological depictions of moral judgment as a purely contemplative process concerned with identifying moral facts. Neuroscientific evidence overwhelmingly supports action-guidance as the primary functional orientation of moral cognition.} 
+Rather than isolating ``moral reasoning'' as a \textit{sui generis} faculty, contemporary research positions it within a larger computational system whose governing question is not ``What is right?'' but ``What should I do given this situation?''~\cite{Bechara2000, Moll2002, Greene2014Beyond}.
+
+\paragraph{Affective and Value-Based Systems.}
+Among the most extensively studied structures contributing to moral evaluation are the ventromedial prefrontal cortex (vmPFC) and orbitofrontal cortex (OFC). These regions compute affective and motivational value, integrating emotional information with anticipated outcomes. Lesion studies demonstrate that damage to the vmPFC disrupts the ability to factor emotional and social consequences into decision-making, often resulting in choices that appear normatively inappropriate or insensitive to harm~\cite{Bechara2000}. Functional imaging studies show robust vmPFC activation during tasks involving interpersonal harm, care, and empathic concern \cite{Moll2002}. These observations suggest that moral judgments rely on mechanisms that encode the valenced quality of behavioural options and link them to affectively grounded somatic markers.
+
+The amygdala and anterior insula further contribute to the rapid detection of morally salient information~\cite{Garrigan2016, Eres2018, Fede2020}
+. The amygdala is sensitive to threat, intentional aggression, and aversive outcomes, providing early affective tagging~\cite{LeDoux1998, Phelps2006}
+ that biases attention and behavioural readiness. The anterior insula responds to disgust, norm violations, and aversive interoceptive states~\cite{Moll2005, Sanfey2003, Chang2013}. Together, these regions enable rapid, pre-reflective processing of emotionally charged cues, thereby initiating downstream evaluative computation. Electrophysiological evidence indicates that these affective signals can precede conscious deliberation~\cite{Sarlo2012, Luo2006}, suggesting that emotional valence functions as an early gatekeeper in moral cognition.
+
+\paragraph{Social-Cognitive and Interpretive Systems.}
+Moral judgments frequently hinge on the mental states of agents: their beliefs, 
+intentions, and reasons for action~\cite{Mikhail2007, YoungSaxe2011, CushmanYoung2009}. The temporo-parietal junction (TPJ), medial 
+prefrontal cortex (mPFC)~\cite{Saxe2003, SaxeKanwisher2003}, and posterior superior temporal sulcus (pSTS) constitute a network specialised for theory-of-mind and mental-state attribution~\cite{Pelphrey2004, VanOverwalle2009}. TPJ activation is reliably observed in tasks requiring participants to distinguish between intentional and accidental harms, to attribute blame or forgiveness, or to infer whether an agent acted under ignorance or malice. This sensitivity to mental-state information demonstrates that moral cognition tracks reasons and intentions, not merely outcomes~\cite{YoungSaxe2010, Cushman2013}.
+
+The anterior cingulate cortex (ACC) plays an integrative role in moral cognition by monitoring conflict between competing evaluative signals \cite{Botvinick2004, Shackman2011}. In classic moral dilemmas—such as those involving trade-offs between harm minimisation and fairness constraints—the ACC shows increased activation during conflict detection and the recruitment of cognitive control \cite{Greene2004, Decety2012}. This suggests that the ACC contributes to arbitrating between intuitive emotional responses and more deliberative evaluations, particularly in situations where values compete or intentions are ambivalent \cite{Shenhav2013, Etkin2011}.
+
+\paragraph{Executive and Action-Guidance Systems.}
+The dorsolateral prefrontal cortex (dlPFC) supports controlled cognitive operations, including the inhibition of prepotent affective responses, the representation of rules, and the evaluation of abstract or long-term consequences \cite{Miller2001, Koechlin2003}. Disruption of dlPFC activity via transcranial magnetic stimulation has been shown to alter participants' willingness to endorse harmful actions in instrumental contexts, indicating that this region contributes to regulating intuitive aversions when normative or goal-directed reasoning requires overriding them \cite{Tassy2012, Greene2004TMS}. Rather than functioning as a classical “rational override,” the dlPFC appears to contribute to integrating affective, deontic, and goal-directed considerations into coherent action policies \cite{Shenhav2017, Cushman2013ValueIntegration}.
+
+\noindent
+Importantly, the dlPFC does not operate in isolation. Its interactions with vmPFC, ACC, and parietal regions indicate that executive control is embedded within a broader network that also encodes affective and interpretive information \cite{Hare2009, Mansouri2009, Bressler2010}. These distributed processes jointly shape the computation of moral decisions as behavioural commitments rather than as purely abstract evaluations \cite{Shenhav2013ControlValue, Gintis2014MoralComputation}.
+
+\paragraph{Functional Integration and Practical Orientation.}
+Across these subsystems, a coherent picture emerges: moral cognition is not a contest between “emotion” and “reason” but a dynamic interplay among affective valuation, social interpretation, and executive control \cite{Haidt2001, Greene2014Integration, Cushman2013DualSystems}. This architecture is fundamentally action-oriented. vmPFC and OFC compute the affective value of potential actions \cite{Ongur2000, Rangel2008}; TPJ and mPFC provide intention-sensitive interpretations of agents’ behaviours \cite{SaxeKanwisher2003, YoungSaxe2010}; the ACC detects conflicts between competing behavioural tendencies \cite{Botvinick2004, Shackman2011}; and the dlPFC regulates whether intuitive biases should be suppressed, enacted, or weighed against normative constraints \cite{Miller2001, Tassy2012}. Even primary affective structures such as the amygdala and insula contribute to shaping behavioural readiness by generating rapid somatic markers and prioritising morally relevant features of the environment \cite{Phelps2006, Chang2013}.
+
+Lesion studies, electrophysiological findings, and neuroimaging results converge on the conclusion that moral judgment is primarily a mechanism for generating and constraining action under conditions of social meaning. From this perspective, moral cognition is best understood as a form of evaluative control: a mapping from cue detection to practical commitment~\cite{Greene2014Beyond, Cushman2013Action}. This view aligns with philosophical accounts emphasising the action-guiding nature of moral evaluation~\cite{Anscombe1957, Korsgaard2009}, while grounding such accounts in empirical evidence about the neural architecture of agency, valuation, and control.
+
+\paragraph{From Moral Architecture to Perturbation by Synthetic Agents.}
+This \textit{distributed, action-oriented architecture} provides the conceptual and empirical framework for understanding the experimental work developed later in this thesis. 
+
+\noindent
+If moral judgment emerges from systems designed to transform perceptual, affective, and interpretive cues into behavioural output, then \textit{alterations to the social or perceptual environment can shift the evaluative computations that guide action}. This point is not merely theoretical: later chapters develop its empirical instantiation by demonstrating how perturbations to the social field modulate the transition from moral salience to prosocial behaviour (see Hypothesis~\ref{hyp:synthetic_perturbation} in Chapter~\ref{chap:experimental_methods}). 
+
+\noindent
+A humanoid robot constitutes a particularly revealing form of perturbation: it is perceptually social (in virtue of its humanoid morphology) yet ontologically indeterminate (neither fully agentic nor behaviourally inert). Such indeterminacy can alter attentional allocation, dampen affective resonance, and introduce uncertainty into mental-state attribution. In doing so, it may shift the weighting, timing, or accessibility of evaluative signals, thereby modulating the likelihood that moral appraisal culminates in prosocial action.
+
+
+Understanding this architecture is therefore essential for interpreting the empirical results that follow. Our experiment does not measure abstract judgments but the practical enactment of moral cognition within a context made ambiguous by the presence of a synthetic observer. The neuroscientific foundations surveyed here thus provide the theoretical scaffolding for explaining how robotic presence can attenuate prosocial action in subtle, yet systematically measurable ways.
+
+\noindent
+What follows, however, requires a final conceptual step. If moral cognition is an architecture for transforming evaluative information into action, then \textit{any alteration to the informational field is at least in principle a moral intervention}. The presence of a synthetic agent---especially one exhibiting humanlike form yet lacking a clear place within our evolved social ontology---constitutes precisely such an intervention. It does not supply new moral content; rather, it reconfigures the \emph{conditions under which content becomes behaviourally operative}. In this sense, the moral landscape is not only defined by principles or dispositions but by the topology of the environment in which they are enacted.
+
+\noindent
+This insight has two important implications that structure the remainder of the thesis. First, it shifts the explanatory burden from conscious deliberation to the \textit{situated dynamics of evaluative processing}. The experiment that follows examines not what participants claim to value, but how their moral cognition actually functions when confronted with an entity whose status is neither fully social nor fully inert. Second, it reframes the normative question: the significance of artificial agents lies not merely in what they do, but in how their mere presence \textit{reconfigures the normative affordances} of a shared environment. This reframing will prove central when, in later chapters, we consider the limitations of existing Machine Ethics frameworks and the conceptual tension between engineered normativity and human moral practice.
+
+\noindent
+In this way, the Moral Primer sets the stage for two convergent lines of inquiry. The empirical chapters will show how minimal synthetic presence can modulate the behavioural expression of moral cognition. The normative chapters will argue that such modulation exposes a broader oversight in contemporary ethical theory for artificial systems: namely, the assumption that moral agency can be understood independently of the environments that scaffold, shape, and sometimes distort human evaluative capacities.
+
+\noindent
+Taken together, these threads suggest a view of artificial agents not as moral subjects, nor merely as tools, but as \textit{operators on moral space}: entities capable of bending, refracting, or diluting the pathways through which moral meaning becomes action. The full implications of this claim will emerge only when the empirical and philosophical analyses are placed in dialogue. For now, it suffices to note that understanding how humans make moral decisions under conditions of social and ontological ambiguity is not merely preparatory background---it is the conceptual linchpin for everything that follows.
+
+
+\noindent
+These conceptual foundations also illuminate two methodological commitments that guide the remainder of the thesis: the \textit{Level of Abstraction} at which moral cognition is analysed, and the \textit{topological structure} of the evaluative processes under perturbation. In Floridi’s sense, an LoA fixes the informational parameters relevant to explanation; it determines which distinctions matter and which are bracketed for the sake of epistemic tractability. Here our chosen LoA does not concern the metaphysics of moral agency, nor the normative justification of principles, but the \emph{functional transformation} by which perceptual and affective cues become action-guiding evaluations. It is at this LoA that robotic presence can be treated not as a moral agent but as a \emph{modulator of the evaluative field}.%
+\footnote{For discussion of the methodological role of Level of Abstraction in analysing informational systems, see Floridi (2010, 2011, 2013).}
+
+\noindent
+Once this LoA is fixed, moral cognition can be understood topologically: as a system that maps inputs to behavioural outputs through a structured configuration of salience, attention, affective resonance, and interpretive inference. Altering the structure of the environment—as occurs with the introduction of a synthetic observer—can therefore be modelled as a deformation of the evaluative landscape. The experiment developed later in this thesis investigates precisely such a deformation: not a change in moral principles, nor a shift in explicit reasoning, but a modification of the \emph{shape} of the cognitive–affective space through which moral meaning travels on its way to action.
+
+\noindent
+This topological perspective additionally clarifies why synthetic agents matter ethically even when they perform no overt behaviour \cite{Coeckelbergh2010, Alfano2013MoralEnvironment}. At our operative LoA, the morally relevant property of a robot is not its autonomy or its adherence to ethical rules, but its capacity to warp the attentional and affective gradients that structure human moral appraisal \cite{Zlotowski2015SocialCues, BigmanGray2018}. A robot may therefore function as a semantic attractor or normative deflector, subtly redistributing the vectors through which moral salience exerts its behavioural pull \cite{Alfano2013Trust, Railton2017Scaffolding}. Later empirical chapters provide evidence for such redistributions; later normative chapters examine how these redistributions challenge the assumptions of Machine Ethics, which typically locates moral significance in the agent rather than in the environmental perturbation it induces \cite{FloridiSanders2004, Coeckelbergh2020}.
+
+\noindent
+Seen through this joint lens of LoA and moral topology, the empirical question posed by the experiment acquires its full significance: not whether a robot is moral, nor whether it communicates norms, but whether its presence reshapes the evaluative field in which human agents convert moral perception into prosocial behaviour. The answer to that question, and its implications for both moral psychology and the ethics of artificial agents, unfolds in the chapters that follow.
+
+
+%%%
+
+\section{Dual-Process Architectures in Moral Cognition}
+
+The distributed moral architecture described in the previous section naturally motivates a family of theories known as \emph{dual-process models}. These models posit that moral judgment arises from the interaction of rapid, affectively grounded appraisals with slower, more controlled processes of deliberation and cognitive regulation. Importantly, dual-process models no longer depict these systems as antagonistic. Contemporary formulations emphasise their continual integration, consistent with the topological and action-oriented framework established earlier \cite{Greene2004, Greene2014Integration, Cushman2013DualSystems}.
+
+\paragraph{Intuitive and Affective Processes.}
+The intuitive stream comprises fast, automatic evaluations generated by affective and perceptual mechanisms. It inherits its computational properties from the structures reviewed previously: the amygdala and insula for early affective tagging \cite{Phelps2006, Chang2013}, the vmPFC for integrating somatic markers into value representations \cite{Bechara2000}, and the TPJ--mPFC network for interpreting agents’ intentions \cite{YoungSaxe2010, SaxeKanwisher2003}. These processes operate at low cognitive cost and are tightly coupled to behavioural readiness. They generate immediate evaluative gradients across the moral field, shaping the initial direction of action tendencies. Within the topological framework introduced earlier, intuitive appraisals correspond to steep, rapidly emerging attractor-like patterns in the evaluative landscape.
+
+\paragraph{Controlled and Deliberative Processes.}
+The controlled stream is supported by dlPFC, ACC, and lateral parietal systems underpinning rule representation, inhibition, abstract reasoning, and long-horizon evaluation \cite{Miller2001, Koechlin2003, Shackman2011}. Controlled processes are recruited in situations where intuitive appraisals conflict with one another or with internalised commitments. They reshape or modulate intuitive attractors, flattening some gradients and amplifying others, thereby reconfiguring the evaluative topology guiding behaviour. Far from serving as a ``rational override,'' the controlled system integrates affective and social-cognitive information into coherent action policies. This integration aligns with philosophical accounts that construe moral judgment as a form of practical reasoning \cite{Anscombe1957, Korsgaard2009}.
+
+\paragraph{Dynamic Integration.}
+Dual-process models thus support the view that moral cognition is an \emph{interactive, topologically structured system}. Intuitive processes generate initial evaluative configurations, while controlled processes adjust or stabilise those configurations in light of principles, norms, or long-term goals. This dynamic interplay provides the mechanistic substrate for the perturbation phenomena explored later in the thesis: when the environment changes, it alters the initial intuitive gradients, thereby modifying the downstream demands on controlled processes. A synthetic agent does not supply reasons but \emph{reconfigures the field in which reasons become behaviourally operative}.
+
+
+\section{The Social Intuitionist Model}
+
+Haidt’s \emph{Social Intuitionist Model} (SIM) provides a complementary perspective that foregrounds the social and interpersonal dimensions of moral cognition. SIM holds that moral judgments are primarily generated by intuitive, affective processes, with explicit reasoning often functioning as post hoc rationalisation or as a communicative tool in social contexts \cite{Haidt2001, Haidt2007}. The model is especially relevant for the present thesis because it treats moral judgment as inherently sensitive to social presence---including minimal, ambiguous, or merely perceptual forms of sociality.
+
+\paragraph{Primacy of Intuition.}
+SIM posits that moral appraisal is typically triggered by rapid intuitive processes which operate before conscious deliberation and often shape its trajectory. This view aligns with electrophysiological evidence that affective evaluations of harm or norm violation occur hundreds of milliseconds before participants report conscious reasoning \cite{Luo2006, Sarlo2012}. On this account, moral cognition is fundamentally responsive to social and affective cues that structure the evaluative landscape prior to reflective consideration.
+
+\paragraph{Reason as Interpersonal.}
+Reasoning, in SIM, is predominantly social. It is invoked to justify judgments, manage disagreements, and negotiate reputation or trust. Philosophically, this situates moral reasoning not in isolated individual cognition but in a broader ecology of interpersonal alignment, norm signalling, and social accountability \cite{Haidt2001}. At the Level of Abstraction adopted in this thesis, such reasoning is understood not as the generative engine of moral judgment but as a modulatory process acting upon intuitive evaluative structures.
+
+\paragraph{Synthetic Presence and Social Perturbation.}
+SIM is particularly powerful when considering \emph{minimal sociality}. A humanoid robot constitutes a perceptually social yet ontologically indeterminate entity. Its presence can influence intuitive appraisal by shifting attention, altering affective resonance, or modulating perceived social oversight. These shifts occur at the intuitive stage of moral processing, thereby modifying the evaluative gradients that shape action. SIM thus provides a conceptual bridge between the empirical findings of the experiment and the theoretical claim that synthetic agents restructure evaluative topology even in the absence of explicit communication or normative instruction.
+
+
+\section{Prosocial Behaviour as Moral Action}
+
+Prosocial behaviour---such as cooperative acts, helping, or charitable donation---functions as a robust empirical proxy for moral action. Unlike hypothetical judgments or verbal endorsements, prosocial behaviour reflects \emph{practical commitment}: the actual allocation of resources, attention, or effort in accordance with moral appraisal \cite{Cushman2013Action, Gintis2014MoralComputation}. For the purposes of this thesis, prosocial donation behaviour is therefore treated as a behavioural readout of the evaluative topology connecting moral salience to action.
+
+\paragraph{From Evaluative Salience to Behavioural Output.}
+Prosocial action emerges from a sequential process encompassing cue detection, intuitive appraisal, controlled modulation, and behavioural execution. Each component is sensitive to contextual features, including whether one is observed, the perceived sociality of the observer, and the affective tone of the environment. Neuroimaging evidence indicates that prosocial choices recruit the same integrated circuits involved in harm aversion, empathic concern, and valuation \cite{Moll2002, Decety2004}, confirming that prosocial behaviour is grounded in the same cognitive–affective architecture that underlies moral judgment.
+
+\paragraph{Why Prosocial Behaviour Serves as a Proxy.}
+At the LoA on which this thesis operates, moral cognition is defined through its action-guiding function. Behaviour---and particularly behaviour involving meaningful cost---therefore provides the most direct access to the underlying evaluative transformations. Prosocial donation captures this practical orientation because it reflects a shift in the agent’s evaluative landscape strong enough to produce an observable behavioural commitment. It is, in this sense, the behavioural footprint of the evaluative topology described earlier.
+
+\paragraph{Relevance for Synthetic Perturbation.}
+Using prosocial behaviour as a dependent measure allows for the detection of subtle perturbations to the evaluative field induced by synthetic presence. If a humanoid robot alters attentional allocation, affective resonance, or mental-state inference, these changes will manifest not primarily in explicit moral reasoning but in the \emph{behavioural expression} of moral cognition. The experimental paradigm developed in the following chapter uses this principle to quantify how ontological ambiguity in a social agent can attenuate or refract prosocial tendencies. That attenuation, as we will see, is not a failure of moral principles but a deformation of the evaluative topology through which moral meaning is transformed into action.
+
+
+
