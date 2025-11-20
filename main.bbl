@@ -594,9 +594,83 @@ R.~Audi, {\em Moral Perception}.
 M.~Anderson and S.~L. Anderson, {\em Machine ethics}.
 \newblock Cambridge University Press, 2011.
 
+\bibitem{Hempel1965}
+C.~G. Hempel, ``Aspects of scientific explanation,'' 1965.
+
+\bibitem{Floridi2008}
+L.~Floridi, ``The method of levels of abstraction,'' {\em Minds and machines},
+  vol.~18, no.~3, pp.~303--329, 2008.
+
+\bibitem{McLaren2006}
+B.~M. McLaren, ``Computational models of ethical reasoning: Challenges, initial
+  steps, and future directions,'' {\em IEEE}, 2006.
+
+\bibitem{Kohlberg1969}
+L.~Kohlberg, ``Stage and sequence: The cognitive-developmental approach to
+  socialization,'' {\em Handbook of socialization theory and research},
+  vol.~347, p.~480, 1969.
+
+\bibitem{Kahneman2011}
+D.~Kahneman, {\em Thinking, Fast and Slow}.
+\newblock Farrar, Straus and Giroux, 2011.
+
+\bibitem{Baumeister2010}
+R.~F. Baumeister and E.~Masicampo, ``Moral reasoning and moral action: A review
+  of the relevant literature,'' {\em Psychological Bulletin}, vol.~136, no.~1,
+  pp.~1--25, 2010.
+
 \bibitem{SidgwickMethods}
 H.~Sidgwick, {\em The methods of ethics}.
 \newblock Cambridge University Press, 2019.
+
+\bibitem{Arkin2009}
+R.~Arkin, {\em Governing lethal behavior in autonomous robots}.
+\newblock Chapman and Hall/CRC, 2009.
+
+\bibitem{Anderson2007}
+M.~Anderson and S.~L. Anderson, ``Machine ethics: Creating an ethical
+  intelligent agent,'' in {\em AI Magazine}, vol.~28, pp.~15--26, AAAI Press,
+  2007.
+
+\bibitem{Bringsjord2006}
+S.~Bringsjord, K.~Arkoudas, and P.~Bello, ``Toward a modern synthesis of
+  machine ethics,'' in {\em Proceedings of the AAAI Fall Symposium on Machine
+  Ethics}, pp.~2--9, AAAI Press, 2006.
+
+\bibitem{Ganascia2007}
+J.-G. Ganascia, ``Modelling ethical rules of warfare,'' in {\em International
+  Conference on Computer Ethics: Philosophical Enquiry (CEPE)}, pp.~181--190,
+  2007.
+
+\bibitem{Abel2016}
+D.~Abel, J.~MacGlashan, and M.~L. Littman, ``Reinforcement learning as a
+  framework for moral decision making,'' in {\em Workshops at the Thirtieth
+  AAAI Conference on Artificial Intelligence}, pp.~54--61, 2016.
+
+\bibitem{Powers2006}
+T.~M. Powers, ``Prospects for a virtue ethics approach to engineering ethics,''
+  in {\em IEEE International Symposium on Technology and Society}, pp.~78--83,
+  IEEE, 2006.
+
+\bibitem{Thornton2013}
+C.~Thornton, ``Rethinking machine ethics in the light of virtue ethics,'' {\em
+  Ethics and Information Technology}, vol.~15, no.~4, pp.~291--297, 2013.
+
+\bibitem{Churchland2011}
+P.~S. Churchland, {\em Braintrust: What Neuroscience Tells Us About Morality}.
+\newblock Princeton, NJ: Princeton University Press, 2011.
+
+\bibitem{Pentland2007}
+A.~Pentland, ``Social signal processing [exploratory dsp],'' {\em IEEE Signal
+  Processing Magazine}, vol.~24, no.~4, pp.~108--111, 2007.
+
+\bibitem{Rawls2020}
+J.~Rawls, {\em A theory of justice}.
+\newblock Harvard university press, 2020.
+
+\bibitem{Mill1861}
+J.~S. Mill, {\em Utilitarianism}.
+\newblock Hackett Publishing, 1861.
 
 \bibitem{BatesonNettleRoberts2006}
 M.~Bateson, D.~Nettle, and G.~Roberts, ``Cues of being watched enhance
@@ -761,10 +835,6 @@ A.~Waytz, J.~Cacioppo, and N.~Epley, ``Who sees human? the stability and
 \bibitem{Dennett1987}
 D.~C. Dennett, {\em The Intentional Stance}.
 \newblock Cambridge, MA: MIT Press, 1987.
-
-\bibitem{Floridi2008}
-L.~Floridi, ``The method of levels of abstraction,'' {\em Minds and machines},
-  vol.~18, no.~3, pp.~303--329, 2008.
 
 \bibitem{Hietanen2002}
 J.~K. Hietanen, ``Social attention orienting induced by eye gaze and head

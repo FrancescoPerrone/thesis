@@ -75,69 +75,148 @@ This synthesis prepares the conceptual ground for the experimental investigation
 \label{sec:second_order_ethics}
 
 \noindent
-If the introductory sections of this chapter establish the transition from first-order moral cognition to second-order normative reflection, the next task is to make explicit the methodological consequences of this shift. The distinction is not merely terminological. It determines which claims are explanatory, which are justificatory, and which are subject to empirical constraint. Failure to maintain this distinction has led to recurring conceptual errors in both philosophical ethics and computational modelling. This section therefore articulates a principled account of what second-order ethical theory \emph{is}, what it \emph{explains}, and what it \emph{cannot} plausibly do.
+If the introductory sections of this chapter establish the transition from first-order moral cognition to second-order normative reflection, the next task is to make explicit the methodological consequences of this shift. The distinction is not merely terminological. It determines which claims are explanatory, which are justificatory, and which are subject to empirical constraint. Failure to maintain this distinction has led to recurring conceptual errors in both philosophical ethics and computational modelling~\cite{Black1972,Hare1981,Hempel1965,Floridi2008,Moor2006,FloridiSanders2004,McLaren2006,Coeckelbergh2023}. This section therefore articulates a principled account of what second-order ethical theory \emph{is}, what it \emph{explains}, and what it \emph{cannot} plausibly do.
 
 \subsection{Ethical Reflection and the Second-Order Stance}
 
 \noindent
 First-order moral judgments arise from the cognitive--affective processes analysed in the Morality Primer. They are psychologically realised, context-sensitive, and behaviourally measurable. Their structure reflects the architecture of moral cognition: operations on perceptual salience, affective intuitions, social meaning, and regulated deliberation. These are the \emph{phenomena} that ethical theory seeks to interpret.
 
-Second-order ethical theory is structurally different. It is reflexive rather than generative. It asks: What counts as a reason? What makes an obligation binding? What is the source of justificatory authority? These questions presuppose capacities for abstraction, generalisation, and rational evaluation that are not themselves the proximate causal mechanisms of moral behaviour. Sidgwick already insisted on this point in \emph{The Methods of Ethics}, where he distinguished between the psychology of moral sentiments and the ``\emph{method} of determining right conduct'' \cite[Book~I]{SidgwickMethods}. Lemos's treatment of epistemic justification exhibits a similar structural separation between doxastic psychology and the normative assessment of belief \cite{Lemos2007}. The parallel here is instructive: ethics stands to moral judgment as epistemology stands to belief-formation.
+Second-order ethical theory is structurally different. It is reflexive rather than generative. It asks: What counts as a reason? What makes an obligation binding? What is the source of justificatory authority? These questions presuppose capacities for abstraction, generalisation, and rational evaluation that are not themselves the proximate causal mechanisms of moral behaviour~\cite{Haidt2001,Greene2001,Young2012,Kohlberg1969,Narvaez2005,Kahneman2011,Baumeister2010}. Sidgwick already insisted on this point in \emph{The Methods of Ethics}, where he distinguished between the psychology of moral sentiments and the ``\emph{method} of determining right conduct'' \cite[Book~I]{SidgwickMethods}. Lemos's treatment of epistemic justification exhibits a similar structural separation between doxastic psychology and the normative assessment of belief \cite{Lemos2020}. The parallel here is instructive: ethics stands to moral judgment as epistemology stands to belief-formation.
 
 Seen from this perspective, second-order theory is not a set of instructions that moral agents follow in producing judgments. It is a framework for articulating the standards by which judgments are evaluated. It makes explicit the \emph{normative architecture} that is only tacitly present in first-order moral life. Its success therefore depends on conceptual clarity and justificatory coherence, not on behavioural predictiveness.
 
 \subsection{Levels of Abstraction and the Proper Location of Ethical Explanation}
 
 \noindent
-The preceding distinction can be clarified using Floridi's notion of \emph{Levels of Abstraction} (LoA) \cite{Floridi2011}. Every description of a phenomenon implicitly selects a vantage point: a set of observables, a resolution, and a granularity. Moral cognition and ethical theory operate at different LoAs.
+The distinction between first-order moral cognition and second-order ethical theory can be sharpened through Floridi’s framework of \emph{Levels of Abstraction} (LoA) \cite{Floridi2008, Floridi2010}. On this account, every explanatory enterprise selects a perspective defined by its observables, its conceptual resolution, and the class of questions it is equipped to answer. Moral cognition and ethical theory do not merely operate at different LoAs—they answer \emph{different kinds of questions} and employ \emph{different explanatory primitives}.
 
-At the \textbf{cognitive LoA}, the relevant variables include:
+\medskip
+
+At the \textbf{cognitive LoA}, the relevant variables are those that govern the generation of moral judgments in real time:
 \begin{itemize}
-	\item perceptual salience,
-	\item affective valuation,
-	\item attentional dynamics,
-	\item intuitive heuristics,
-	\item controlled modulation.
+	\item perceptual salience and attentional capture,
+	\item affective appraisal and embodied valuation,
+	\item intuitive heuristics and rapid social inferences,
+	\item controlled modulation under conflict or uncertainty,
+	\item the temporal dynamics by which these processes integrate.
 \end{itemize}
+These are mechanistic, psychologically instantiated processes. They have causal influence on behaviour and can be perturbed by contextual or environmental changes. \emph{This is the LoA at which the experimental work of this thesis operates.}
 
-At the \textbf{normative LoA}, the relevant variables include:
+\medskip
+
+At the \textbf{normative LoA}, by contrast, the objects of analysis are:
 \begin{itemize}
 	\item principles of justification,
-	\item conceptions of duty and value,
-	\item constraints on admissible reasons,
-	\item structural norms governing deliberation.
+	\item conceptions of duty, value, and obligation,
+	\item standards of admissible reasons,
+	\item structural norms governing deliberation, agency, and responsibility.
 \end{itemize}
+These are not causal operators but \emph{interpretive} and \emph{justificatory} constructs. They evaluate, discipline, or systematise moral claims but do not themselves generate behaviour. Ethical theory is reflexive: it examines the grammar of reasons, not the mechanisms of cognition.
 
-The methodological error of classical Machine Ethics was an LoA confusion: normative concepts were implemented as if they directly generated behaviour. This amounts to treating the normative LoA as if it were a computational or implementational LoA. The resulting systems operationalised deontic rules, utility functions, or virtue labels under the assumption that these abstractions could causally determine action. Yet, as the empirical architecture of moral cognition reveals, such concepts do not function as behavioural operators.
+\medskip
 
-Thus, LoA discipline is essential: explanations must occur at the LoA appropriate to their aims. Ethical theory must remain a second-order reflective enterprise; computational models of behaviour must operate at the first-order cognitive LoA. The points of interaction between these layers require careful analysis, not naïve reduction.
+\noindent
+\textbf{Classical Machine Ethics collapsed these LoAs.}  
+By treating principles, rules, or utility structures as if they were mechanistic generative elements, it implicitly assumed that normative constructs function like cognitive processes. This assumption is doubly mistaken:
+
+\begin{enumerate}
+	\item It attributes to normative concepts a causal role they do not possess: ethical duties do not operate like perceptual salience or affective appraisal.
+	\item It ignores the empirical architecture of moral cognition, which shows that behaviour emerges from intuitive, affective, and situational dynamics long before explicit reasoning is engaged.
+\end{enumerate}
+
+From the perspective developed across this thesis, such an approach is not merely incomplete; it is methodologically incoherent. It attempts to engineer behaviour by manipulating abstractions at a LoA that is \emph{not behaviourally operative}.
+
+\medskip
+
+\noindent
+\textbf{LoA discipline therefore becomes a philosophical and methodological necessity.}  
+Explanations of behaviour must occur at the cognitive LoA; evaluations of reasons and principles must occur at the normative LoA. Neither can be reduced to the other. Crucially, however, the two LoAs are not independent: normative evaluation presupposes an underlying psychology capable of generating moral sensitivity and action, while psychological findings constrain the plausibility of normative theories.
+
+\medskip
+
+This interdependence is the key insight that links this chapter to the preceding Morality Primer and to the experimental chapter that follows. The Primer established that the cognitive LoA is \emph{topologically structured}: moral cognition involves the continual reshaping of an evaluative field whose gradients are determined by affective cues, attentional dynamics, and social interpretive processes. Perturbations to this field—whether by altering salience, modifying affective tone, or introducing ambiguous social presence—can shift the system’s behavioural trajectory even when normative commitments remain unchanged.
+
+\medskip
+
+\noindent
+Seen through the LoA framework, the core question of this thesis can now be reformulated with greater precision:  
+\emph{How do normative expectations, psychological mechanisms, and environmental structures jointly determine the transition from moral perception to moral action?}
+
+\medskip
+
+This question cannot be answered by ethical theory alone, nor by psychology in isolation. It requires a representational structure capable of linking the causal architecture of moral cognition (first-order) with the justificatory architecture of ethical evaluation (second-order). The remainder of this chapter argues that \textbf{evaluative topology}---introduced in the Morality Primer and returned to throughout the thesis---provides precisely such a bridge.
+
+Classical Machine Ethics provides a clear illustration of the dangers of LoA confusion. A recurring methodological assumption in early systems was that normative concepts themselves—obligations, duties, utilities, or virtues—could be implemented at the computational LoA and thereby function as direct generators of behaviour. Early top-down approaches treated ethical theory as if its abstractions could be operationalised without remainder. For example, Arkin’s “ethical governor” encoded deontological constraints derived from Just War Theory as behavioural regulators \cite{Arkin2009}; Anderson and Anderson’s principlist architectures computationalised Rossian prima facie duties as decision rules \cite{Anderson2007,Anderson2011}; and logic-based approaches by Bringsjord and colleagues modelled deontic operators as executable action-selection mechanisms \cite{Bringsjord2006,Ganascia2007}. Parallel lines of work assumed that utility functions could serve as moral evaluators in consequentialist agents \cite{Abel2016,Arkin2009}, while virtue-theoretic systems attempted to reify character traits as algorithmic dispositions governing moral performance \cite{Powers2006,Thornton2013}. In all these cases, normative structures were treated as if they occupied the same LoA as the cognitive mechanisms responsible for actual moral behaviour. 
+
+Floridi’s LoA framework clarifies why such reductions are unsustainable: normative categories belong to a reflective, second-order LoA concerned with justification, whereas computational models operate at an implementational LoA concerned with causal processes. Conflating the two not only mischaracterises the role of normative theory but also yields systems whose behavioural outputs are artefacts of representational choices rather than genuine ethical competence.
 
 \subsection{Evaluative Topology as a Bridge Between Orders}
 
 \noindent
-The challenge, then, is not to collapse first-order cognition into second-order theory, but to articulate a structure that allows principled interaction between them. \emph{Evaluative topology}, introduced in the Morality Primer and developed in subsequent chapters, provides such a structure.
+The challenge, then, is not to collapse first-order cognition into second-order theory, but to articulate a structure that permits principled interaction between them without confusing their explanatory roles. \emph{Evaluative topology}, introduced in the Morality Primer (Chapter~\ref{chap:moral_primer}) and returned to throughout this thesis (see Chapter~\ref{chap:experimental_methods}), provides precisely such a structure.
 
-Evaluative topology treats the moral field as a dynamic configuration of:
+%%%
+Evaluative topology can be naturally situated within a long-standing tradition in computational cognitive science that conceptualises perception, valuation, and action as parts of continuous, dynamical systems rather than discrete symbolic modules. Research in moral psychology already demonstrates that moral cognition emerges from distributed interactions between perceptual salience, affective appraisal, attentional dynamics, and context-sensitive social meaning. Empirical models—from Haidt’s social intuitionism to Greene’s dual-process account—show that moral perception is shaped by multi-dimensional affective and social fields rather than rule-based computations \cite{Haidt2001,Greene2001,Young2012}. Neurocognitive analyses extend this point: Nussbaum’s and Churchland’s treatments of emotion as evaluative perception imply a graded, vector-like structure underlying moral appraisals \cite{Nussbaum2001,Churchland2011}. Likewise, work in social signal processing models interpersonal evaluation as a shifting landscape of cues that modulate behavioural trajectories in real time \cite{Pentland2007}.
+
+Against this background, evaluative topology provides a computationally meaningful formalisation: it treats the moral landscape as a dynamic field that shapes the flow from perceptual input to action readiness. Instead of assuming that behavior results from the application of discrete maxims or utility scores, evaluative topology models moral cognition as continuous transformations across a structured state-space. This aligns with dynamical-systems approaches in cognitive science that explain action selection through attractors, gradients of salience, and field-like organisation rather than propositional inference. The topology encodes the shape of the evaluative field—the stability of certain trajectories, the resistance of others, and the way local variations in perceptual or affective input can redirect the subject toward different moral outcomes.
+
+By locating moral appraisal within a dynamic state-space, evaluative topology offers a principled bridge between first-order moral cognition and second-order ethical theory. It is sensitive to the empirical architecture of human cognition—distributed, affectively grounded, context-responsive—while remaining compatible with the reflective, justificatory concerns of ethical theory. It thus becomes possible to characterise the points of interaction between descriptive and normative orders without reducing one to the other: normative theory shapes the global constraints and evaluative contours within which first-order processes operate, while first-order processes provide the empirical basis upon which second-order theorising must reflect.
+%%%
+
+\medskip
+At its core, evaluative topology treats the moral landscape not as a set of discrete judgments or isolated principles, but as a \emph{dynamic field} whose configuration determines the pathways through which perception becomes moral action~\cite{Haidt2001,Greene2001,Churchland2011,Young2012,Nussbaum2001,Narvaez2005}
+. Its explanatory primitives include:
+
 \begin{itemize}
-	\item salience gradients,
-	\item affective attractors,
-	\item attentional pathways,
-	\item normative deformations,
-	\item and perturbations induced by social or synthetic presence.
+	\item \textbf{salience gradients}: patterns of perceptual and affective prominence,
+	\item \textbf{affective attractors}: regions of the evaluative field toward which intuitive appraisal rapidly converges,
+	\item \textbf{attentional pathways}: trajectories through which cognitive resources flow,
+	\item \textbf{normative deformations}: structural constraints introduced by commitments, duties, or normative expectations,
+	\item \textbf{social or synthetic perturbations}: distortions induced by the presence of other agents---including artificial ones.
 \end{itemize}
 
-Unlike traditional ethical theory, which specifies norms abstractly, evaluative topology describes how evaluative forces shape the trajectory from perception to action. Unlike psychological models, which emphasise mechanism, topology captures the relational and structural properties of moral appraisal.
+\noindent
+Unlike classical ethical theory, which specifies norms at an abstract and often idealised level~\cite{SidgwickMethods,Rawls2020,Mill1861,Korsgaard2009,Scanlon1998}
+, evaluative topology is sensitive to the \emph{real-time architecture} of moral cognition. And unlike purely mechanistic models in psychology, which describe causal processes but lack normative structure, topology captures the relational, structural, and counterfactual properties of moral appraisal~\cite{Haidt2001,Greene2001,Young2012,Narvaez2005,SidgwickMethods,Scanlon1998,Korsgaard2009}
+: how evaluative trajectories \emph{could} unfold under alternative configurations of salience, affect, or context.
 
-This is precisely the level at which first- and second-order analyses can be reconciled:
+\medskip
+
+This topological approach thus identifies the precise level at which first-order and second-order analyses intersect. It supports the following alignment:
+
 \begin{enumerate}
-	\item Ethical theory identifies which evaluative configurations \emph{ought} to have normative authority.
-	\item Moral psychology identifies which configurations actually \emph{govern} behaviour.
-	\item Evaluative topology identifies how these structures interact and when they diverge.
+	\item \textbf{Ethical theory} identifies which evaluative configurations \emph{ought} to have normative authority.
+	\item \textbf{Moral psychology} identifies which configurations \emph{do} govern actual behaviour.
+	\item \textbf{Evaluative topology} identifies how these structures interact, when they diverge, and how they can be perturbed.
 \end{enumerate}
 
-This tripartite structure enables the central thesis of this chapter: ethical theory remains normatively meaningful only if it respects the psychological architecture through which moral judgments arise and the topological constraints that shape their development. Conversely, psychological models become ethically interpretable only when situated within a justified evaluative topology.
+\noindent
+This tripartite structure yields both a diagnostic and a constructive insight. Diagnostically, it clarifies why many classical models in Machine Ethics failed: they attempted to engineer behaviour by manipulating abstractions at a normative LoA, ignoring the topological organisation of the cognitive LoA through which behaviour actually emerges. Constructively, it shows how normative analysis can be anchored in a psychologically realistic substrate without reducing ethics to psychology or cognition to normativity.
 
-\bigskip
+\medskip
+
+\paragraph{Topological Consequences for Moral Perturbation.}
+The Morality Primer established that moral behaviour emerges from the traversal of a dynamically shaped evaluative field. Within this framework, \emph{perturbation} has a precise and measurable meaning: any alteration that changes the curvature, gradients, or attractor structure of the field will shift the probability distribution over behavioural trajectories. This is true whether the perturbation arises from shifts in salience, affective modulation, attentional competition, or the introduction of a new agent into the interaction ecology.
+
+A synthetic presence---perceptually social yet ontologically indeterminate---is therefore not merely an “observer” but a topological operator. It changes the field in which moral meaning becomes behaviourally operative. This was the central theoretical insight that shaped the experimental design: by embedding a morally charged cue (the Watching-Eye stimulus) within a field perturbed by a humanoid robot, we could test whether subtle topological deformation is sufficient to attenuate prosocial behaviour.
+
+\medskip
+
+\paragraph{Interim Synthesis: Where the Chapter Now Stands.}
+The conceptual architecture developed thus far establishes the conditions for experimental design (Chapter~\ref{chap:experimental_methods}):
+
+\begin{itemize}
+	\item First, moral judgment operates at the cognitive LoA through dynamic, affectively responsive, socially sensitive processes.
+	\item Second, ethical theory operates at the normative LoA, providing justificatory structures but not generative mechanisms.
+	\item Third, evaluative topology provides the bridge between these orders by modelling the structural constraints and transformations that govern the transition from moral perception to moral action.
+	\item Fourth, this bridge is indispensable for understanding how synthetic agents perturb human moral behaviour.
+\end{itemize}
+
+\noindent
+We are therefore equipped to proceed. With the methodological scaffolding in place, we can now introduce the major normative theories not as abstract philosophical positions but as structured attempts to locate sources of normativity within the evaluative field. Their reconstruction in the next section is guided by the LoA discipline established above and constrained by the topological account of moral cognition developed throughout this thesis.
+
+
 
 \section{The Normative Landscape: Structuring Ethical Theories Through LoA and Topology}
 \label{sec:normative_landscape}

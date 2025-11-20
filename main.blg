@@ -15,7 +15,7 @@ White space in argument---line 60 of file experimental_methods.aux
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 10244 items from 5000.
+Reallocated field_info (elt_size=4) to 10612 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -35,6 +35,10 @@ I was expecting a `,' or a `}'---line 2396 of file /home/francesco/Desktop/resea
  : 
  : author={Walsh,Toby},
 (Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2578 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Kahneman2011
+ :                   ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 2795 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Cushman2013
@@ -340,6 +344,18 @@ Repeated entry---line 5338 of file /home/francesco/Desktop/research/appunti/refe
  : @book{Korsgaard1996Sources
  :                           ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 5368 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Arkin2009
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5388 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Anderson2011
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5409 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{WallachAllen2009
+ :                       ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Allen_Wallach2012"
 Warning--I didn't find a database entry for "Minsky1985"
 Warning--I didn't find a database entry for "Stone2016"
@@ -371,7 +387,7 @@ Warning--I didn't find a database entry for "Cushman2013ValueIntegration"
 Warning--I didn't find a database entry for "Roeser2018"
 Warning--I didn't find a database entry for "Wallace1999"
 Warning--I didn't find a database entry for "Goffman1967"
-Warning--I didn't find a database entry for "Lemos2007"
+Warning--I didn't find a database entry for "Lemos2020"
 Warning--I didn't find a database entry for "HaidtBjorklund2008"
 Warning--I didn't find a database entry for "CalvoDMello2010"
 Warning--I didn't find a database entry for "AndersonAnderson2007"
@@ -382,45 +398,46 @@ Warning--empty publisher in Black1972
 Warning--empty year in Black1972
 Warning--can't use both author and editor fields in HumeTreatise
 Warning--can't use both author and editor fields in HumeEnquiry
-You've used 190 entries,
+Warning--can't use both volume and number fields in Anderson2007
+You've used 206 entries,
             1876 wiz_defined-function locations,
-            1637 strings with 31401 characters,
-and the built_in function-call counts, 51349 in all, are:
-= -- 5517
-> -- 1481
+            1727 strings with 33393 characters,
+and the built_in function-call counts, 54967 in all, are:
+= -- 5884
+> -- 1567
 < -- 0
-+ -- 588
-- -- 398
-* -- 3400
-:= -- 6965
-add.period$ -- 250
-call.type$ -- 190
-change.case$ -- 141
++ -- 626
+- -- 420
+* -- 3608
+:= -- 7448
+add.period$ -- 271
+call.type$ -- 206
+change.case$ -- 152
 chr.to.int$ -- 0
-cite$ -- 194
-duplicate$ -- 2708
-empty$ -- 5008
-format.name$ -- 398
-if$ -- 12788
+cite$ -- 211
+duplicate$ -- 2922
+empty$ -- 5419
+format.name$ -- 420
+if$ -- 13708
 int.to.chr$ -- 0
-int.to.str$ -- 190
-missing$ -- 244
-newline$ -- 633
-num.names$ -- 194
-pop$ -- 524
+int.to.str$ -- 206
+missing$ -- 264
+newline$ -- 686
+num.names$ -- 210
+pop$ -- 601
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1831
+skip$ -- 1950
 stack$ -- 0
-substring$ -- 3820
-swap$ -- 1174
+substring$ -- 4021
+swap$ -- 1246
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 564
-width$ -- 193
-write$ -- 1951
-(There were 81 error messages)
+warning$ -- 5
+while$ -- 603
+width$ -- 209
+write$ -- 2103
+(There were 85 error messages)
