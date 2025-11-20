@@ -672,6 +672,15 @@ J.~Rawls, {\em A theory of justice}.
 J.~S. Mill, {\em Utilitarianism}.
 \newblock Hackett Publishing, 1861.
 
+\bibitem{Govindarajulu2017}
+N.~S. Govindarajulu and S.~Bringsjord, ``On automating the doctrine of double
+  effect,'' {\em Philosophical Transactions of the Royal Society A}, vol.~375,
+  no.~2103, p.~20160119, 2017.
+
+\bibitem{Moor2023}
+J.~H. Moor, ``The nature and limits of machine ethics,'' {\em AI and Society},
+  vol.~39, no.~1, pp.~33--51, 2023.
+
 \bibitem{BatesonNettleRoberts2006}
 M.~Bateson, D.~Nettle, and G.~Roberts, ``Cues of being watched enhance
   cooperation in a real-world setting,'' {\em Biology Letters}, vol.~2, no.~3,
@@ -944,10 +953,6 @@ W.~Wallach and C.~Allen, {\em Moral machines: Teaching robots right from
 \bibitem{Moor2011}
 J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
   Machine ethics}, pp.~13--20, 2011.
-
-\bibitem{Moor2023}
-J.~H. Moor, ``The nature and limits of machine ethics,'' {\em AI and Society},
-  vol.~39, no.~1, pp.~33--51, 2023.
 
 \bibitem{DeBrigard2021}
 F.~De~Brigard, W.~Sinnott-Armstrong, A.~E. Monroe, N.~Carroll, and J.~May,

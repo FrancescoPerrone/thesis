@@ -15,7 +15,7 @@ White space in argument---line 60 of file experimental_methods.aux
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 10612 items from 5000.
+Reallocated field_info (elt_size=4) to 10681 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -388,6 +388,8 @@ Warning--I didn't find a database entry for "Roeser2018"
 Warning--I didn't find a database entry for "Wallace1999"
 Warning--I didn't find a database entry for "Goffman1967"
 Warning--I didn't find a database entry for "Lemos2020"
+Warning--I didn't find a database entry for "Kant1785"
+Warning--I didn't find a database entry for "Allison2011"
 Warning--I didn't find a database entry for "HaidtBjorklund2008"
 Warning--I didn't find a database entry for "CalvoDMello2010"
 Warning--I didn't find a database entry for "AndersonAnderson2007"
@@ -399,45 +401,45 @@ Warning--empty year in Black1972
 Warning--can't use both author and editor fields in HumeTreatise
 Warning--can't use both author and editor fields in HumeEnquiry
 Warning--can't use both volume and number fields in Anderson2007
-You've used 206 entries,
+You've used 207 entries,
             1876 wiz_defined-function locations,
-            1727 strings with 33393 characters,
-and the built_in function-call counts, 54967 in all, are:
-= -- 5884
-> -- 1567
+            1739 strings with 33623 characters,
+and the built_in function-call counts, 55300 in all, are:
+= -- 5923
+> -- 1575
 < -- 0
-+ -- 626
-- -- 420
-* -- 3608
-:= -- 7448
-add.period$ -- 271
-call.type$ -- 206
-change.case$ -- 152
++ -- 629
+- -- 422
+* -- 3623
+:= -- 7486
+add.period$ -- 272
+call.type$ -- 207
+change.case$ -- 153
 chr.to.int$ -- 0
-cite$ -- 211
-duplicate$ -- 2922
-empty$ -- 5419
-format.name$ -- 420
-if$ -- 13708
+cite$ -- 212
+duplicate$ -- 2947
+empty$ -- 5445
+format.name$ -- 422
+if$ -- 13798
 int.to.chr$ -- 0
-int.to.str$ -- 206
-missing$ -- 264
-newline$ -- 686
-num.names$ -- 210
-pop$ -- 601
+int.to.str$ -- 207
+missing$ -- 265
+newline$ -- 689
+num.names$ -- 211
+pop$ -- 603
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1950
+skip$ -- 1976
 stack$ -- 0
-substring$ -- 4021
-swap$ -- 1246
+substring$ -- 4037
+swap$ -- 1263
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 603
-width$ -- 209
-write$ -- 2103
+while$ -- 605
+width$ -- 210
+write$ -- 2114
 (There were 85 error messages)
