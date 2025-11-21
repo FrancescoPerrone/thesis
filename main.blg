@@ -5,6 +5,7 @@ A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: machine_e.aux
 A level-1 auxiliary file: moral_primer.aux
 A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: tools.aux
@@ -13,9 +14,10 @@ White space in argument---line 60 of file experimental_methods.aux
  : \citation{MasonTatkinMacrae2005.
  :                                  Johansson1973_BiologicalMotion}
 I'm skipping whatever remains of this command
+A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 10911 items from 5000.
+Reallocated field_info (elt_size=4) to 11762 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -368,6 +370,34 @@ Repeated entry---line 5409 of file /home/francesco/Desktop/research/appunti/refe
  : @book{WallachAllen2009
  :                       ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 5530 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Pentland2007
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5541 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Vinciarelli2012
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5584 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Bargh1999
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5595 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Phelps2006
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5625 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @incollection{McDowell1979
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5634 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Slote2010
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5659 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @incollection{Chang2013
+ :                        ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Allen_Wallach2012"
 Warning--I didn't find a database entry for "Minsky1985"
 Warning--I didn't find a database entry for "Stone2016"
@@ -404,11 +434,28 @@ Warning--I didn't find a database entry for "Kant1785"
 Warning--I didn't find a database entry for "Allison2011"
 Warning--I didn't find a database entry for "Bentham1789"
 Warning--I didn't find a database entry for "Slovic2007"
-Warning--I didn't find a database entry for "Foot2001"
-Warning--I didn't find a database entry for "Annas2011"
 Warning--I didn't find a database entry for "Snow2010"
 Warning--I didn't find a database entry for "Wood2016"
 Warning--I didn't find a database entry for "Reynolds2006"
+Warning--I didn't find a database entry for "Cialdini2007"
+Warning--I didn't find a database entry for "BaronCohen2004"
+Warning--I didn't find a database entry for "Lawson2004"
+Warning--I didn't find a database entry for "Wakabayashi2006"
+Warning--I didn't find a database entry for "Hofree2018"
+Warning--I didn't find a database entry for "Mori2020"
+Warning--I didn't find a database entry for "Klimecki2013"
+Warning--I didn't find a database entry for "BaronCohen2003"
+Warning--I didn't find a database entry for "Goldenfeld2005"
+Warning--I didn't find a database entry for "Gleichgerrcht2013"
+Warning--I didn't find a database entry for "Zaki2014"
+Warning--I didn't find a database entry for "Konovalov2016"
+Warning--I didn't find a database entry for "John1999"
+Warning--I didn't find a database entry for "McCraeCosta2008"
+Warning--I didn't find a database entry for "Donnellan2006"
+Warning--I didn't find a database entry for "Graziano1996"
+Warning--I didn't find a database entry for "Habashi2016"
+Warning--I didn't find a database entry for "Hilbig2013"
+Warning--I didn't find a database entry for "ErnestJones2011"
 Warning--I didn't find a database entry for "HaidtBjorklund2008"
 Warning--I didn't find a database entry for "CalvoDMello2010"
 Warning--I didn't find a database entry for "AndersonAnderson2007"
@@ -420,45 +467,45 @@ Warning--empty year in Black1972
 Warning--can't use both author and editor fields in HumeTreatise
 Warning--can't use both author and editor fields in HumeEnquiry
 Warning--can't use both volume and number fields in Anderson2007
-You've used 210 entries,
+You've used 230 entries,
             1876 wiz_defined-function locations,
-            1766 strings with 33972 characters,
-and the built_in function-call counts, 55882 in all, are:
-= -- 5984
-> -- 1587
+            1908 strings with 37230 characters,
+and the built_in function-call counts, 60806 in all, are:
+= -- 6496
+> -- 1742
 < -- 0
-+ -- 635
-- -- 425
-* -- 3654
-:= -- 7564
-add.period$ -- 276
-call.type$ -- 210
-change.case$ -- 155
++ -- 697
+- -- 467
+* -- 3959
+:= -- 8236
+add.period$ -- 305
+call.type$ -- 230
+change.case$ -- 167
 chr.to.int$ -- 0
-cite$ -- 215
-duplicate$ -- 2977
-empty$ -- 5513
-format.name$ -- 425
-if$ -- 13946
+cite$ -- 235
+duplicate$ -- 3255
+empty$ -- 6010
+format.name$ -- 467
+if$ -- 15184
 int.to.chr$ -- 0
-int.to.str$ -- 210
-missing$ -- 268
-newline$ -- 699
-num.names$ -- 214
-pop$ -- 617
+int.to.str$ -- 230
+missing$ -- 296
+newline$ -- 768
+num.names$ -- 234
+pop$ -- 691
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1995
+skip$ -- 2166
 stack$ -- 0
-substring$ -- 4069
-swap$ -- 1273
+substring$ -- 4345
+swap$ -- 1383
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 611
-width$ -- 213
-write$ -- 2141
-(There were 88 error messages)
+while$ -- 661
+width$ -- 233
+write$ -- 2343
+(There were 95 error messages)
