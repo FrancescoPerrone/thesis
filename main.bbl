@@ -160,6 +160,11 @@ J.~D. Greene, L.~E. Nystrom, A.~D. Engell, J.~M. Darley, and J.~D. Cohen, ``The
   neural bases of cognitive conflict and control in moral judgment,'' {\em
   Neuron}, vol.~44, no.~2, pp.~389--400, 2004.
 
+\bibitem{Shenhav2017}
+A.~Shenhav, S.~Musslick, F.~Lieder, W.~Kool, T.~L. Griffiths, J.~D. Cohen, and
+  M.~M. Botvinick, ``Toward a rational and mechanistic account of mental
+  effort,'' {\em Annual Review of Neuroscience}, vol.~40, pp.~99--124, 2017.
+
 \bibitem{Cushman2013ActionOutcomeValue}
 F.~Cushman, ``Action, outcome, and value: A dual-system framework for
   morality,'' {\em Personality and Social Psychology Review}, vol.~17, no.~3,
@@ -873,6 +878,88 @@ M.~R. Barrick and M.~K. Mount, ``The big five personality dimensions and job
   performance: a meta-analysis,'' {\em Personnel psychology}, vol.~44, no.~1,
   pp.~1--26, 1991.
 
+\bibitem{Baron2002}
+S.~Baron-Cohen, ``The extreme male brain theory of autism,'' {\em Trends in
+  cognitive sciences}, vol.~6, no.~6, pp.~248--254, 2002.
+
+\bibitem{Baron2009}
+S.~Baron-Cohen, ``Autism and the empathizing-systemizing (es) theory,'' {\em
+  Developmental social cognitive neuroscience}, pp.~125--138, 2009.
+
+\bibitem{Lawson2004}
+J.~Lawson, S.~Baron-Cohen, and S.~Wheelwright, ``Empathising and systemising in
+  adults with and without asperger syndrome: A factor analysis,'' {\em Journal
+  of Autism and Developmental Disorders}, vol.~34, no.~3, pp.~301--310, 2004.
+
+\bibitem{Wakabayashi2006}
+A.~Wakabayashi, S.~Baron-Cohen, S.~Wheelwright, N.~Goldenfeld, J.~Delaney,
+  D.~Fine, and R.~Smith, ``Development of short forms of the empathy quotient
+  (eq-short) and the systemizing quotient (sq-short),'' {\em Personality and
+  Individual Differences}, vol.~41, no.~5, pp.~929--940, 2006.
+
+\bibitem{Bartz2010}
+J.~A. Bartz, J.~Zaki, N.~Bolger, E.~Hollander, N.~N. Ludwig, A.~Kolevzon, and
+  K.~N. Ochsner, ``Oxytocin selectively improves empathic accuracy,'' {\em
+  Psychological science}, vol.~21, no.~10, pp.~1426--1428, 2010.
+
+\bibitem{Kuchenbrandt2011}
+D.~Kuchenbrandt, F.~Eyssel, S.~Bobinger, and M.~Neufeld, ``Minimal
+  group-maximal effect? evaluation and anthropomorphization of the humanoid
+  robot nao,'' in {\em International conference on social robotics},
+  pp.~104--113, Springer, 2011.
+
+\bibitem{Baron2003}
+S.~Baron-Cohen, J.~Richler, D.~Bisarya, N.~Gurunathan, and S.~Wheelwright,
+  ``The systemizing quotient: an investigation of adults with asperger syndrome
+  or high--functioning autism, and normal sex differences,'' {\em Philosophical
+  Transactions of the Royal Society of London. Series B: Biological Sciences},
+  vol.~358, no.~1430, pp.~361--374, 2003.
+
+\bibitem{Goldenfeld2005}
+N.~Goldenfeld, S.~Baron-Cohen, and S.~Wheelwright, ``Empathizing and
+  systemizing: A cross-cultural investigation,'' {\em Personality and
+  Individual Differences}, vol.~39, no.~1, pp.~173--183, 2005.
+
+\bibitem{Gleichgerrcht2013}
+E.~Gleichgerrcht and L.~Young, ``Low empathic concern predicts utilitarian
+  moral judgment,'' {\em Cognition}, vol.~126, no.~3, pp.~364--372, 2013.
+
+\bibitem{Konovalov2016}
+A.~Konovalov and I.~Krajbich, ``Revealed prioritization using a novel economic
+  task,'' {\em Journal of Experimental Psychology: General}, vol.~145, no.~6,
+  pp.~802--825, 2016.
+
+\bibitem{John1999}
+O.~P. John and S.~Srivastava, ``The big five trait taxonomy: History,
+  measurement, and theoretical perspectives,'' in {\em Handbook of Personality:
+  Theory and Research} (L.~A. Pervin and O.~P. John, eds.), pp.~102--138, New
+  York: Guilford Press, 1999.
+
+\bibitem{McCraeCosta2008}
+R.~R. McCrae and P.~T. Costa, ``The five-factor theory of personality,'' {\em
+  Handbook of Personality: Theory and Research}, pp.~159--181, 2008.
+
+\bibitem{Donnellan2006}
+M.~B. Donnellan, F.~L. Oswald, B.~M. Baird, and R.~E. Lucas, ``The mini-ipip
+  scales: Tiny-yet-effective measures of the big five factors of personality,''
+  {\em Psychological Assessment}, vol.~18, no.~2, pp.~192--203, 2006.
+
+\bibitem{Graziano1996}
+W.~G. Graziano, N.~Eisenberg, and R.~M. Tobin, ``Agreeableness and helping
+  behavior: A meta-analysis,'' {\em Psychological Bulletin}, vol.~119, no.~3,
+  pp.~371--394, 1996.
+
+\bibitem{Habashi2016}
+M.~M. Habashi, W.~G. Graziano, and A.~E. Hoover, ``Searching for the prosocial
+  personality: A big five approach to linking personality and prosocial
+  behavior,'' {\em Personality and Social Psychology Bulletin}, vol.~42, no.~9,
+  pp.~1177--1192, 2016.
+
+\bibitem{Hilbig2013}
+B.~E. Hilbig, A.~Gl{\"o}ckner, and I.~Zettler, ``Personality and prosocial
+  behavior: Linking basic traits and social value orientations,'' {\em Journal
+  of Personality and Social Psychology}, vol.~105, no.~3, pp.~469--484, 2013.
+
 \bibitem{Banks2020}
 J.~Banks, ``Theory of mind in social robots: replication of five established
   human tests,'' {\em International Journal of Social Robotics}, vol.~12,
@@ -1057,17 +1144,6 @@ M.~Bateson, D.~Nettle, and G.~Roberts, ``Cues of being watched enhance
 A.~F. Shariff and A.~Norenzayan, ``God is watching you: Priming god concepts
   increases prosocial behavior in an anonymous economic game,'' {\em
   Psychological science}, vol.~18, no.~9, pp.~803--809, 2007.
-
-\bibitem{Baron2002}
-S.~Baron-Cohen, ``The extreme male brain theory of autism,'' {\em Trends in
-  cognitive sciences}, vol.~6, no.~6, pp.~248--254, 2002.
-
-\bibitem{Baron2003}
-S.~Baron-Cohen, J.~Richler, D.~Bisarya, N.~Gurunathan, and S.~Wheelwright,
-  ``The systemizing quotient: an investigation of adults with asperger syndrome
-  or high--functioning autism, and normal sex differences,'' {\em Philosophical
-  Transactions of the Royal Society of London. Series B: Biological Sciences},
-  vol.~358, no.~1430, pp.~361--374, 2003.
 
 \bibitem{Wallach2008}
 W.~Wallach and C.~Allen, {\em Moral machines: Teaching robots right from
