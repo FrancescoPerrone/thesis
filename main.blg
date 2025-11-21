@@ -402,6 +402,18 @@ Repeated entry---line 5724 of file /home/francesco/Desktop/research/appunti/refe
  : @article{Greene2014
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 5853 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Ekstrom2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5886 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Moll2002
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5897 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Decety2004
+ :                    ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Allen_Wallach2012"
 Warning--I didn't find a database entry for "Minsky1985"
 Warning--I didn't find a database entry for "Stone2016"
@@ -441,12 +453,9 @@ Warning--I didn't find a database entry for "Snow2010"
 Warning--I didn't find a database entry for "Wood2016"
 Warning--I didn't find a database entry for "Reynolds2006"
 Warning--I didn't find a database entry for "Cialdini2007"
-Warning--I didn't find a database entry for "Dear2019"
 Warning--I didn't find a database entry for "Hofree2018"
 Warning--I didn't find a database entry for "Mori2020"
 Warning--I didn't find a database entry for "Klimecki2013"
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "ErnestJones2011"
 Warning--I didn't find a database entry for "HaidtBjorklund2008"
 Warning--I didn't find a database entry for "CalvoDMello2010"
 Warning--I didn't find a database entry for "AndersonAnderson2007"
@@ -458,45 +467,45 @@ Warning--empty year in Black1972
 Warning--can't use both author and editor fields in HumeTreatise
 Warning--can't use both author and editor fields in HumeEnquiry
 Warning--can't use both volume and number fields in Anderson2007
-You've used 248 entries,
+You've used 251 entries,
             1876 wiz_defined-function locations,
-            1986 strings with 40479 characters,
-and the built_in function-call counts, 67153 in all, are:
-= -- 7168
-> -- 1967
+            2004 strings with 41044 characters,
+and the built_in function-call counts, 68157 in all, are:
+= -- 7281
+> -- 1993
 < -- 0
-+ -- 778
-- -- 530
-* -- 4426
-:= -- 9087
-add.period$ -- 323
-call.type$ -- 248
-change.case$ -- 185
++ -- 788
+- -- 537
+* -- 4498
+:= -- 9219
+add.period$ -- 326
+call.type$ -- 251
+change.case$ -- 188
 chr.to.int$ -- 0
-cite$ -- 253
-duplicate$ -- 3570
-empty$ -- 6573
-format.name$ -- 530
-if$ -- 16740
+cite$ -- 256
+duplicate$ -- 3621
+empty$ -- 6663
+format.name$ -- 537
+if$ -- 16989
 int.to.chr$ -- 0
-int.to.str$ -- 248
-missing$ -- 314
-newline$ -- 822
-num.names$ -- 254
-pop$ -- 728
+int.to.str$ -- 251
+missing$ -- 317
+newline$ -- 831
+num.names$ -- 257
+pop$ -- 731
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2423
+skip$ -- 2466
 stack$ -- 0
-substring$ -- 4919
-swap$ -- 1543
+substring$ -- 5015
+swap$ -- 1570
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 734
-width$ -- 251
-write$ -- 2533
-(There were 96 error messages)
+while$ -- 746
+width$ -- 254
+write$ -- 2566
+(There were 99 error messages)

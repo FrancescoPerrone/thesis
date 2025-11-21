@@ -867,6 +867,11 @@ L.~Conty, N.~George, and J.~K. Hietanen, ``Watching eyes effects: When others
   meet the self,'' {\em Consciousness and Cognition}, vol.~45, pp.~184--197,
   2016.
 
+\bibitem{Dear2019}
+G.~E. Dear, K.~Dutton, and E.~Fox, ``The watching-eyes effect in the dictator
+  game: A meta-analysis,'' {\em Evolution and Human Behavior}, vol.~40, no.~3,
+  pp.~271--284, 2019.
+
 \bibitem{Malle2015}
 B.~F. Malle, M.~Scheutz, T.~Arnold, J.~Voiklis, and C.~Cusimano, ``Sacrifice
   one for the good of many? people apply different moral norms to human and
@@ -908,6 +913,10 @@ D.~Kuchenbrandt, F.~Eyssel, S.~Bobinger, and M.~Neufeld, ``Minimal
   robot nao,'' in {\em International conference on social robotics},
   pp.~104--113, Springer, 2011.
 
+\bibitem{Gleichgerrcht2013}
+E.~Gleichgerrcht and L.~Young, ``Low empathic concern predicts utilitarian
+  moral judgment,'' {\em Cognition}, vol.~126, no.~3, pp.~364--372, 2013.
+
 \bibitem{Baron2003}
 S.~Baron-Cohen, J.~Richler, D.~Bisarya, N.~Gurunathan, and S.~Wheelwright,
   ``The systemizing quotient: an investigation of adults with asperger syndrome
@@ -919,10 +928,6 @@ S.~Baron-Cohen, J.~Richler, D.~Bisarya, N.~Gurunathan, and S.~Wheelwright,
 N.~Goldenfeld, S.~Baron-Cohen, and S.~Wheelwright, ``Empathizing and
   systemizing: A cross-cultural investigation,'' {\em Personality and
   Individual Differences}, vol.~39, no.~1, pp.~173--183, 2005.
-
-\bibitem{Gleichgerrcht2013}
-E.~Gleichgerrcht and L.~Young, ``Low empathic concern predicts utilitarian
-  moral judgment,'' {\em Cognition}, vol.~126, no.~3, pp.~364--372, 2013.
 
 \bibitem{Konovalov2016}
 A.~Konovalov and I.~Krajbich, ``Revealed prioritization using a novel economic
@@ -965,41 +970,30 @@ J.~Banks, ``Theory of mind in social robots: replication of five established
   human tests,'' {\em International Journal of Social Robotics}, vol.~12,
   no.~2, pp.~403--414, 2020.
 
-\bibitem{BatesonNettleRoberts2006}
-M.~Bateson, D.~Nettle, and G.~Roberts, ``Cues of being watched enhance
-  cooperation in a real-world setting,'' {\em Biology Letters}, vol.~2, no.~3,
-  pp.~412--414, 2006.
-
 \bibitem{PfattheicherKeller2015}
 S.~Pfattheicher and J.~Keller, ``The watching eyes phenomenon: The role of a
   sense of being seen and public self-awareness,'' {\em European Journal of
   Social Psychology}, vol.~45, no.~5, pp.~560--566, 2015.
 
-\bibitem{BatesonEtAl2013_EyesLittering}
-M.~Bateson, L.~Callow, J.~R. Holmes, M.~L. Redmond~Roche, and D.~Nettle, ``Do
-  images of `watching eyes' induce behaviour that is more pro-social or more
-  normative? a field experiment on littering,'' {\em PLOS ONE}, vol.~8, no.~12,
-  p.~e82055, 2013.
+\bibitem{ErnestJones2011}
+M.~Ernest-Jones, D.~Nettle, and M.~Bateson, ``Effects of eye images on everyday
+  cooperative behavior: A field experiment,'' {\em Evolution and Human
+  Behavior}, vol.~32, no.~3, pp.~172--178, 2011.
 
-\bibitem{KleckStrenta1980}
-R.~E. Kleck and A.~Strenta, ``Perceptions of the gaze of another,'' {\em
-  Journal of Personality and Social Psychology}, vol.~39, no.~5, pp.~725--732,
-  1980.
+\bibitem{Ekstrom2012}
+M.~Ekstr{\"o}m, ``Do watching eyes affect charitable giving? evidence from a
+  field experiment,'' {\em Experimental Economics}, vol.~15, no.~3,
+  pp.~530--546, 2012.
 
-\bibitem{Emery2000}
-N.~J. Emery, ``The eyes have it: The neuroethology, function and evolution of
-  social gaze,'' {\em Neuroscience \& Biobehavioral Reviews}, vol.~24, no.~6,
-  pp.~581--604, 2000.
+\bibitem{Senju2008}
+A.~Senju and G.~Csibra, ``Gaze following in human infants depends on
+  communicative signals,'' {\em Current Biology}, vol.~18, no.~9, pp.~668--671,
+  2008.
 
-\bibitem{MasonTatkinMacrae2005}
-M.~F. Mason, A.~Tatkin, and C.~N. Macrae, ``The look of love: Gaze shifts and
-  person perception,'' {\em Psychological Science}, vol.~16, no.~3,
-  pp.~234--237, 2005.
-
-\bibitem{ContyGeorgeHietanen2016}
-L.~Conty, N.~George, and J.~K. Hietanen, ``Watching eyes effects: When others
-  meet the self,'' {\em Consciousness and Cognition}, vol.~45, pp.~184--197,
-  2016.
+\bibitem{ThompsonBooth2014}
+C.~Thompson-Booth, E.~Viding, L.~C. Mayes, and H.~J.~V. Rutherford, ``Here's
+  looking at you: Emotional faces predict eye-gaze behaviors in parents and
+  non-parents,'' {\em Social Neuroscience}, vol.~9, no.~6, pp.~605--613, 2014.
 
 \bibitem{RosenthalRosnow2008}
 R.~Rosenthal and R.~L. Rosnow, {\em Essentials of Behavioral Research: Methods
@@ -1020,6 +1014,17 @@ D.~Nettle, Z.~Harper, A.~Kidson, R.~Stone, I.~S. Penton-Voak, and M.~Bateson,
   ``The watching eyes effect in the dictator game: It's not how much you give,
   it's being seen to give something,'' {\em Evolution and Human Behavior},
   vol.~34, no.~1, pp.~35--40, 2013.
+
+\bibitem{BatesonEtAl2013_EyesLittering}
+M.~Bateson, L.~Callow, J.~R. Holmes, M.~L. Redmond~Roche, and D.~Nettle, ``Do
+  images of `watching eyes' induce behaviour that is more pro-social or more
+  normative? a field experiment on littering,'' {\em PLOS ONE}, vol.~8, no.~12,
+  p.~e82055, 2013.
+
+\bibitem{ContyGeorgeHietanen2016}
+L.~Conty, N.~George, and J.~K. Hietanen, ``Watching eyes effects: When others
+  meet the self,'' {\em Consciousness and Cognition}, vol.~45, pp.~184--197,
+  2016.
 
 \bibitem{DearDuttonFox2019}
 K.~Dear, K.~Dutton, and E.~Fox, ``Do `watching eyes' influence antisocial
@@ -1092,6 +1097,11 @@ A.~Waytz, J.~Cacioppo, and N.~Epley, ``Who sees human? the stability and
 D.~C. Dennett, {\em The Intentional Stance}.
 \newblock Cambridge, MA: MIT Press, 1987.
 
+\bibitem{Emery2000}
+N.~J. Emery, ``The eyes have it: The neuroethology, function and evolution of
+  social gaze,'' {\em Neuroscience \& Biobehavioral Reviews}, vol.~24, no.~6,
+  pp.~581--604, 2000.
+
 \bibitem{Hietanen2002}
 J.~K. Hietanen, ``Social attention orienting induced by eye gaze and head
   orientation,'' {\em Visual Cognition}, vol.~9, no.~1--2, pp.~1--22, 2002.
@@ -1124,6 +1134,11 @@ A.~P. Saygin, T.~Chaminade, H.~Ishiguro, J.~Driver, and C.~Frith, ``The thing
 T.~Chaminade and T.~Ohnishi, ``Differentiating human and humanoid robot motion:
   Humans do not rely on dynamics,'' {\em Biological Cybernetics}, vol.~96,
   no.~5, pp.~477--489, 2007.
+
+\bibitem{KleckStrenta1980}
+R.~E. Kleck and A.~Strenta, ``Perceptions of the gaze of another,'' {\em
+  Journal of Personality and Social Psychology}, vol.~39, no.~5, pp.~725--732,
+  1980.
 
 \bibitem{Hietanen1999}
 J.~K. Hietanen, ``Does your gaze direction reflect your attention?,'' {\em
