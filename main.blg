@@ -5,7 +5,7 @@ A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: introduction.aux
-A level-1 auxiliary file: machine_e.aux
+A level-1 auxiliary file: lit_rev.aux
 A level-1 auxiliary file: moral_primer.aux
 A level-1 auxiliary file: tools.aux
 A level-1 auxiliary file: experimental_methods.aux
@@ -17,7 +17,7 @@ A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 12774 items from 5000.
+Reallocated field_info (elt_size=4) to 12843 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -435,7 +435,6 @@ Warning--I didn't find a database entry for "Floridi"
 Warning--I didn't find a database entry for "Mendelson"
 Warning--I didn't find a database entry for "Zermelo"
 Warning--I didn't find a database entry for "Russell"
-Warning--I didn't find a database entry for "Floridi2011"
 Warning--I didn't find a database entry for "Mingers2014"
 Warning--I didn't find a database entry for "Jongsma2016"
 Warning--I didn't find a database entry for "Bicchieri2016"
@@ -471,45 +470,45 @@ Warning--can't use both author and editor fields in HumeEnquiry
 Warning--can't use both volume and number fields in Anderson2007
 Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
-You've used 288 entries,
+You've used 292 entries,
             1876 wiz_defined-function locations,
-            2213 strings with 46908 characters,
-and the built_in function-call counts, 77862 in all, are:
-= -- 8269
-> -- 2289
+            2225 strings with 47279 characters,
+and the built_in function-call counts, 78987 in all, are:
+= -- 8394
+> -- 2309
 < -- 0
-+ -- 903
-- -- 615
-* -- 5134
-:= -- 10529
-add.period$ -- 370
-call.type$ -- 288
-change.case$ -- 221
++ -- 912
+- -- 620
+* -- 5203
+:= -- 10672
+add.period$ -- 375
+call.type$ -- 292
+change.case$ -- 224
 chr.to.int$ -- 0
-cite$ -- 295
-duplicate$ -- 4160
-empty$ -- 7672
-format.name$ -- 615
-if$ -- 19400
+cite$ -- 299
+duplicate$ -- 4224
+empty$ -- 7789
+format.name$ -- 620
+if$ -- 19685
 int.to.chr$ -- 0
-int.to.str$ -- 288
-missing$ -- 360
-newline$ -- 949
-num.names$ -- 297
-pop$ -- 883
+int.to.str$ -- 292
+missing$ -- 365
+newline$ -- 962
+num.names$ -- 301
+pop$ -- 897
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2800
+skip$ -- 2845
 stack$ -- 0
-substring$ -- 5679
-swap$ -- 1771
+substring$ -- 5775
+swap$ -- 1799
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 851
-width$ -- 291
-write$ -- 2925
+while$ -- 864
+width$ -- 295
+write$ -- 2966
 (There were 99 error messages)
