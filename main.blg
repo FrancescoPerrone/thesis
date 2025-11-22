@@ -7,17 +7,17 @@ A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: machine_e.aux
 A level-1 auxiliary file: moral_primer.aux
-A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: tools.aux
 A level-1 auxiliary file: experimental_methods.aux
 White space in argument---line 60 of file experimental_methods.aux
  : \citation{MasonTatkinMacrae2005.
  :                                  Johansson1973_BiologicalMotion}
 I'm skipping whatever remains of this command
+A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 11877 items from 5000.
+Reallocated field_info (elt_size=4) to 12751 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -443,6 +443,15 @@ Warning--I didn't find a database entry for "Mendez2009"
 Warning--I didn't find a database entry for "Cushman2013ValueIntegration"
 Warning--I didn't find a database entry for "Roeser2018"
 Warning--I didn't find a database entry for "Wallace1999"
+Warning--I didn't find a database entry for "Hofree2018"
+Warning--I didn't find a database entry for "Mori2020"
+Warning--I didn't find a database entry for "Klimecki2013"
+Warning--I didn't find a database entry for "HaidtBjorklund2008"
+Warning--I didn't find a database entry for "CalvoDMello2010"
+Warning--I didn't find a database entry for "AndersonAnderson2007"
+Warning--I didn't find a database entry for "Boddington2017"
+Warning--I didn't find a database entry for "Winfield2019"
+Warning--I didn't find a database entry for "Santoro2018"
 Warning--I didn't find a database entry for "Goffman1967"
 Warning--I didn't find a database entry for "Lemos2020"
 Warning--I didn't find a database entry for "Kant1785"
@@ -453,59 +462,54 @@ Warning--I didn't find a database entry for "Snow2010"
 Warning--I didn't find a database entry for "Wood2016"
 Warning--I didn't find a database entry for "Reynolds2006"
 Warning--I didn't find a database entry for "Cialdini2007"
-Warning--I didn't find a database entry for "Hofree2018"
-Warning--I didn't find a database entry for "Mori2020"
-Warning--I didn't find a database entry for "Klimecki2013"
-Warning--I didn't find a database entry for "HaidtBjorklund2008"
-Warning--I didn't find a database entry for "CalvoDMello2010"
-Warning--I didn't find a database entry for "AndersonAnderson2007"
-Warning--I didn't find a database entry for "Boddington2017"
-Warning--I didn't find a database entry for "Winfield2019"
-Warning--I didn't find a database entry for "Santoro2018"
+Warning--I didn't find a database entry for "GriffithsBeake2022"
+Warning--I didn't find a database entry for "Mill1863"
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
 Warning--can't use both author and editor fields in HumeTreatise
 Warning--can't use both author and editor fields in HumeEnquiry
 Warning--can't use both volume and number fields in Anderson2007
-You've used 251 entries,
+Warning--empty author in Nath2020
+Warning--empty journal in Mcdermid2019
+You've used 287 entries,
             1876 wiz_defined-function locations,
-            2004 strings with 41044 characters,
-and the built_in function-call counts, 68157 in all, are:
-= -- 7281
-> -- 1993
+            2209 strings with 46814 characters,
+and the built_in function-call counts, 77530 in all, are:
+= -- 8231
+> -- 2281
 < -- 0
-+ -- 788
-- -- 537
-* -- 4498
-:= -- 9219
-add.period$ -- 326
-call.type$ -- 251
-change.case$ -- 188
++ -- 900
+- -- 613
+* -- 5111
+:= -- 10486
+add.period$ -- 369
+call.type$ -- 287
+change.case$ -- 220
 chr.to.int$ -- 0
-cite$ -- 256
-duplicate$ -- 3621
-empty$ -- 6663
-format.name$ -- 537
-if$ -- 16989
+cite$ -- 294
+duplicate$ -- 4143
+empty$ -- 7642
+format.name$ -- 613
+if$ -- 19317
 int.to.chr$ -- 0
-int.to.str$ -- 251
-missing$ -- 317
-newline$ -- 831
-num.names$ -- 257
-pop$ -- 731
+int.to.str$ -- 287
+missing$ -- 359
+newline$ -- 946
+num.names$ -- 296
+pop$ -- 882
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2466
+skip$ -- 2785
 stack$ -- 0
-substring$ -- 5015
-swap$ -- 1570
+substring$ -- 5647
+swap$ -- 1762
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 746
-width$ -- 254
-write$ -- 2566
+warning$ -- 7
+while$ -- 847
+width$ -- 290
+write$ -- 2914
 (There were 99 error messages)

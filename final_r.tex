@@ -3,8 +3,75 @@
 
 \section{Introduction: Why the Experiment Requires a Structural Interpretation}
 
+The preceding chapters developed three interconnected strands: (i) a cognitive–affective account of moral judgment, (ii) a normative–philosophical reconstruction of ethical theory through the lenses of Level-of-Abstraction discipline and evaluative topology, and (iii) an empirical demonstration that robotic co-presence systematically attenuates prosocial donation under morally salient conditions. 
+
 \noindent
-The preceding chapters developed three interconnected strands: (i) a cognitive–affective account of moral judgment, (ii) a normative–philosophical reconstruction of ethical theory through the lenses of Level-of-Abstraction discipline and evaluative topology, and (iii) an empirical demonstration that robotic co-presence systematically attenuates prosocial donation under morally salient conditions. The task of the present chapter is not to repeat these analyses, but to integrate them. It offers a theoretical synthesis that explains \emph{why} the experimental effect occurs, \emph{what} its ethical significance is, and \emph{how} it reshapes the methodological landscape for research in Human–Robot Interaction, moral psychology, and the emerging field of Computational Morality.
+Before turning to the integrative task, it is necessary to articulate the
+higher-order insight guiding the trajectory of this thesis. Situated within the
+cognitive, philosophical, and formal analyses of the preceding chapters, the
+empirical study indicates that \textit{moral decision-making is, at root, a
+	practical phenomenon}, grounded in the structures of agency and practical
+reason \cite{Anscombe1957,Korsgaard2009,Wallace2020,Audi2015,Hursthouse1999}.
+Moral events are not abstract judgements suspended in conceptual space; they are
+situated transitions from perception to action embedded in a socially organised
+environment, consistent with empirical models that treat moral cognition as
+perceptual, affective, and socially modulated \cite{Haidt2001,Cushman2013,Young2012,Buon2016,Fedyk2017}.
+Because such events culminate in observable behavioural outputs, they are
+empirically tractable and available to systematic measurement and analysis
+\cite{ReisJudd2000,Kazdin2017,RosenthalRosnow2008}. Their structural and
+methodological precision is rarely recognised in the prevailing discourse of
+Machine Ethics and Computational Morality, which has long been criticised for
+its limited integration of empirical findings \cite{Moor2006,Wallach2008,Cervantes2020,Coeckelbergh2023}.
+
+This sequence is methodologically significant. Across both philosophy and moral
+psychology, ethical inquiry typically proceeds not by legislating the quality of
+actions from a priori first principles, but by beginning with the existence of 
+\textit{moral events} themselves—episodes in which agents respond to cues, 
+saliences, and social affordances—and then seeking theoretical structures that 
+best explain these patterns of behaviour 
+\cite{Hursthouse1999,Audi2015,Richardson2018,Doris2010,Haidt2007}. 
+This bottom-up orientation stands in sharp contrast to much of the historical
+trajectory of Machine Ethics, which has principally advanced top-down models
+that attempt to encode or implement normative theories prior to securing an
+empirical understanding of how moral cognition unfolds in practice.
+
+A large body of Machine Ethics scholarship exemplifies this top-down,
+normative-first orientation. Early and influential work sought to engineer
+explicit ethical rules or principles for artificial agents~\cite{Moor2006,Wallach2008,Anderson2011}, often drawing upon deontological,
+utilitarian, or virtue-theoretic frameworks whose normative structure was taken
+as directly implementable in computational systems~\cite{Arkin2009,Lin2008,Atkinson2007,Atkinson2006,Hjelmblom2008,Horn1951, Kowalski1976}. Subsequent developments reinforced this tendency by constructing logical architectures intended to represent moral constraints, permissibility conditions, or value hierarchies independently of empirical models of human moral agency~\cite{Pereira2014,Honarvar2009,Battaglino2013,Sergot2007,Montague1975,Carnap2012}. Even approaches motivated by psychological plausibility, such as computational models of ethical reasoning~\cite{McLaren2006,Guarini2006,Pereira2007b}, largely inherit the same structural assumption that normative content can be specified in advance of empirical measurement.
+
+Critiques of this methodological inversion are now widespread. Authors working
+within both ethics of AI and social-robotics research argue that designing moral
+agents without grounding in empirical evidence about cognition, affect, social
+interaction, or developmental patterns of moral behaviour is epistemically
+unstable and risks constructing systems whose ‘moral’ outputs lack psychological
+validity~\cite{Cervantes2020,Nath2020,Mcdermid2019,Howard2017, Coeckelbergh2023,Moor2023}. On these accounts, moral behaviour cannot be
+treated as an externally specifiable target for implementation; rather, it
+emerges from structured interactions among cognitive, affective, embodied, and
+social-signalling processes~ \cite{Decety2004,Buon2016,Pantic2014,Pentland2007,Fedyk2017}. These processes
+must therefore be empirically characterised before any attempt at normative
+codification. Only through such empirically informed grounding can normative
+theory enter the analysis in a methodologically stable and scientifically
+responsible manner.
+
+The present work therefore advances a methodological reversal. It shows that
+moral salience, moral displacement, and the perturbation of prosocial behaviour
+are empirically measurable phenomena that \textit{must} be mapped before being
+codified, an approach supported by behavioural studies of attentional and
+prosocial modulation \cite{HaleyFessler2005,Bateson2006,Dear2019,Greene2001,Cushman2013,Decety2008}.
+Because these phenomena are embedded within attentional, affective, and
+dispositional architectures, they admit rigorous experimental design,
+statistical modelling, and formal reconstruction \cite{ReisJudd2000,Kazdin2017,GriffithsBeake2022}.
+Accordingly, the experimental study is not an auxiliary illustration but the
+epistemic anchor of the thesis. Only once the structure of moral events is
+empirically established can normative theory enter the analysis—precisely the
+reverse of the methodological sequence characteristic of Machine Ethics,
+normative-first LLM evaluation, and much of Affective Computing
+\cite{Moor2006,Wallach2008,Bender2021,Mittelstadt2019,Whittlestone2019,Picard2000Book,Calvo2015}.
+
+\noindent
+The task of the present chapter is not to repeat these analyses, but to integrate them. It offers a theoretical synthesis that explains \emph{why} the experimental effect occurs, \emph{what} its ethical significance is, and \emph{how} it reshapes the methodological landscape for research in Human–Robot Interaction, moral psychology, and the emerging field of Computational Morality.
 
 \noindent
 In this sense, the experiment is not an isolated behavioural result but a \textit{probe} into the architecture of moral cognition. The observed attenuation of prosocial behaviour is theoretically meaningful only when interpreted through the structures developed earlier: dual-process architectures, the Social Intuitionist Model, evaluative topology, and the reconstructed normative frameworks of deontology, consequentialism, virtue ethics, sentimentalism, contractualism, and particularism. The present chapter therefore provides a synoptic interpretation in which the behavioural signature revealed by the data becomes a lens through which the nature of moral cognition—and its vulnerability to perturbation—is rendered theoretically transparent.
@@ -12,26 +79,99 @@ In this sense, the experiment is not an isolated behavioural result but a \texti
 \subsection{From Behaviour to Structure: Why a Higher-Level Interpretation is Required}
 
 \noindent
-The experimental paradigm—Watching-Eye moral cue embedded within a silent synthetic presence—does not merely generate a difference in donation behaviour; it reveals a deformation of the evaluative field that links moral salience to action. Classical interpretations of donation differences (e.g., generosity, altruism, compliance) lack the conceptual resources to capture this phenomenon. A purely behavioural description would record that participants donated less in the Robot condition, especially those belonging to the Prosocial–Empathic cluster. But such a description omits the structural logic that makes the result scientifically and philosophically significant.
+The experimental paradigm—Watching-Eye moral cue embedded within a silent synthetic presence—does not merely generate a difference in donation behaviour; it reveals a deformation of the evaluative field that links moral salience to action. Classical interpretations of donation differences (e.g., generosity, altruism, compliance) lack the conceptual resources to capture this phenomenon. A purely behavioural description would record that participants donated less in the Robot condition, with the Prosocial–Empathic cluster showing the numerically steepest decline. But such a description omits the structural logic that makes the result scientifically and philosophically significant.
 
 \noindent
 The central claim developed throughout the thesis is that \emph{moral behaviour is not invariant under changes to the perceptual–social environment}. The robot’s presence does not overwrite moral norms nor impose new ones; instead, it modifies the cognitive–affective conditions under which evaluative forces act. It shifts attentional allocation, alters affective resonance, and modifies the perceived sociality of the space. In topological terms, the robot introduces a perturbation $\gamma_R$ that deforms the curvature of the evaluative manifold, thereby weakening the salience gradient induced by the Watching-Eye stimulus.
 
-\noindent
-A simple behavioural difference thus reflects a deeper structural transformation. As shown by the stratified regression models and the Bayesian estimation of donation differences, this transformation is not homogeneous. Rather, it is filtered through latent psychological structures—captured empirically through the PCA–$k$-means clustering—corresponding to three distinct cognitive–affective ecologies:
+A simple behavioural difference thus reflects a deeper structural transformation in the evaluative field. As demonstrated by the regression models and Bayesian estimation, the attenuation effect was uniform in direction across participants, indicating that the perturbation introduced by the robot operates at the field level rather than through trait-specific pathways. Yet this uniformity does not imply psychological homogeneity.The PCA–$k$-means clustering revealed three coherent dispositional ecologies—distinct configurations of empathic resonance, affective volatility, and structural–analytical processing. These ecologies are consistent with the established dimensions of empathizing and systemizing~\cite{BaronCohen2003}, personality variation captured by the
+BFI-10 \cite{Rammstedt2007}, and broader accounts of moral-psychological “ecologies” that organise evaluative processing \cite{Fedyk2017,Haidt2001}:
+
 \begin{itemize}
 	\item the \textbf{Emotionally Reactive / Low-Structure Profile},
 	\item the \textbf{Prosocial–Empathic / Warm–Sociable Profile},
-	\item and the \textbf{Analytical–Structured / High-Systemizing Profile}.
+	\item the \textbf{Analytical–Structured / High-Systemizing Profile}.
 \end{itemize}
 
 \noindent
-These ecologies instantiate different evaluative topologies: different attractor formations, salience sensitivities, and modulation pathways. The key empirical result is that the Prosocial–Empathic cluster—the regime most dependent on affectively grounded social cues—exhibits the sharpest attenuation. This is not an accident; it is a structural consequence of how moral cognition is organised.
-
-\subsection{Why This Chapter Cannot Be Pure “Discussion” in the Conventional Sense}
+These clusters instantiate different evaluative topologies—distinct attractor formations, sensitivities to perceptual and affective salience, and pathways of modulation—consistent with multidimensional models of affective valuation and moral cognition~\cite{Churchland2011,Nussbaum2001,Greene2004,Haidt2001}. Within this framework, the Prosocial–Empathic cluster exhibits the steepest affective gradients and the strongest baseline responsiveness to Watching-Eye cues. This ecological structure aligns with theoretical expectations: Watching-Eyes primes amplify empathic accountability~\cite{Francey2012,Kawamura2017}, and empathic resonance is known to be highly sensitive to contextual modulation~\cite{Zaki2012}.
 
 \noindent
-Traditional discussion chapters in empirical theses focus on limitations, alternative interpretations, and future work. While valuable, such a format is inadequate for the present research. The experiment operates at the intersection of cognitive science, social robotics, computational modelling, and normative ethics. The behavioural effect observed (\emph{reduced prosocial donation under synthetic presence}) is only the surface-level manifestation of a deeper phenomenon: the reconfiguration of the evaluative machinery through which moral meaning becomes action.
+That this cluster nevertheless showed the same directional attenuation as the others is therefore theoretically significant. Rather than reflecting a trait-dependent shift, the humanoid robot’s ambiguous social presence perturbs the salience structure itself, weakening the amplification mechanisms on which empathic ecologies depend~\cite{Malle2016}. In other words, the perturbation operates \emph{upstream} of individual dispositional pathways: it modifies the evaluative field within which those pathways are embedded. The displacement observed in the experiment is thus best understood as a \emph{field-level suppression of moral salience}, overriding the ordinarily divergent dispositional trajectories that shape prosocial behaviour.
+
+\bigskip
+\noindent
+\textbf{Ethical Interpretation: Why the Attenuation Matters Normatively.}  
+The ethical significance of this finding becomes visible only when the result is interpreted through the reconstructed normative frameworks developed in Chapter~\ref{chap:ethics_s}. Each theory identifies a different locus of normative structure, and each provides a distinct—yet convergent—reading of the deformation caused by $\mathscr{R}$:
+
+\begin{itemize}
+	\item \emph{Deontological perspective.}  
+	The Watching-Eye cue implicitly invokes deontic expectations of reciprocity, fairness, and beneficence. The robot’s presence attenuates donation precisely by dulling this sensitivity. Normatively, this appears as a disruption of the agent’s capacity to track \emph{ought-constraints} in the environment—an interference with the cognitive substrate on which deontic responsiveness relies.
+	
+	\item \emph{Consequentialist perspective.}  
+	The moral field includes gradients of anticipated social evaluation. Watching-Eye cues steepen these gradients; synthetic presence flattens them. The robot therefore functions as a \emph{gradient-suppressor}, reducing the perceived payoff of prosocial action. In topological terms: it alters the vector field governing welfare-oriented trajectories.
+	
+	\item \emph{Virtue-ethical perspective.}  
+	The three clusters correspond to differing dispositional configurations. The strongest attenuation occurring within the Prosocial–Empathic cluster implies that the robot disrupts precisely those virtues—empathy, warmth, prosocial orientation—that ordinarily stabilise prosocial attractors. The perturbation thus interacts with \emph{character topology} rather than bypassing it.
+	
+	\item \emph{Sentimentalist (Humean) perspective.}  
+	The attenuation reflects a dampening of empathic vector fields: $\delta \mathbf{A}(x;\mathscr{R}) < 0$. The robot selectively reduces affective resonance with the Watching-Eye cue. Normatively, this implies that the moral valence of the situation is felt less intensely, weakening the motivational energy required for prosocial action.
+	
+	\item \emph{Contractualist perspective.}  
+	The moral event of donation under observation involves tacit justifiability relations: “What could reasonably be expected of me in the eyes of others?” The ambiguous presence of a synthetic observer destabilises this justificatory equilibrium. The subject no longer clearly apprehends \emph{to whom} justifiability is owed.
+	
+	\item \emph{Particularist perspective.}  
+	Moral appraisal depends on local saliences. The robot modifies the salience landscape: the morally relevant cue (the child in need) becomes less perceptually dominant. Thus, the attenuation is interpreted as a shift in the pattern of reasons that obtain in this particular context.
+\end{itemize}
+
+\bigskip
+\noindent
+\textbf{LoA Interpretation: Why the Perturbation Occurs at the Wrong Level for Machine Ethics.}  
+Floridi’s Level-of-Abstraction analysis clarifies the structural error revealed by the experiment. The attenuation does \emph{not} occur at the normative LoA (where duties, values, or justifiability live), but at the cognitive–affective LoA (where salience, resonance, and attention are regulated). Machine Ethics traditionally operates at the wrong LoA: it attempts to implement high-level normative constructs while ignoring the low-level substrates on which moral responsiveness depends.
+
+\noindent
+The experiment shows why this is untenable. Ethical responsiveness is mediated by:
+\begin{itemize}
+	\item attentional allocation (Who or what do I notice?)
+	\item affective resonance (What emotional weight does this carry?)
+	\item perceived social ontology (Who counts as the observer?)
+	\item dispositional pathways (How does my cognitive ecology integrate this cue?)
+\end{itemize}
+
+\noindent
+Synthetic presence perturbs all of these upstream mechanisms. Thus, even perfect normative reasoning at a reflective LoA cannot salvage moral action when the lower-level architecture of moral cognition has been deformed.  
+In Floridi’s terms:
+
+\begin{quote}
+	\emph{Normative correctness is orthogonal to causal efficacy. A system may know what is right and yet fail to act rightly if the cognitive LoA is perturbed.}
+\end{quote}
+
+\bigskip
+\noindent
+\textbf{Integrative Insight.}  
+The field-level suppression observed in the experiment therefore reveals a principle of broad ethical and psychological importance:
+
+\begin{quote}
+	\textit{Moral failure under synthetic presence is not a failure of principle but a failure of salience. Ethical norms lose their grip not because agents reject them, but because the evaluative machinery that normally brings them to bear is disrupted.}
+\end{quote}
+
+\noindent
+This insight is the conceptual hinge on which the whole thesis turns. It unifies:
+\begin{itemize}
+	\item the cognitive architecture (moral judgments arise from salience → appraisal → integration),
+	\item the topological formalism (moral cues define gradients and attractors),
+	\item the normative frameworks (moral theories describe different structural aspects of the evaluative field),
+	\item and the empirical results (synthetic presence suppresses these structures at the field level).
+\end{itemize}
+
+\noindent
+With these interpretive tools in place, we can now proceed to the cluster-by-cluster integrative analysis that further refines the ethical and cognitive significance of the experimental findings.
+
+
+
+\subsection{Why This Chapter Cannot Be Pure “Discussion” in the Conventional Sense}
+\noindent
+Traditional discussion chapters in empirical theses typically emphasise methodological limitations, alternative interpretations, and directions for future work. While such elements remain relevant here, they are insufficient for the present project. The experiment developed in this thesis sits at the intersection of cognitive science, social robotics, computational modelling, and normative ethics. The behavioural effect it reveals—reduced prosocial donation under synthetic co-presence—is only the observable trace of a deeper structural transformation: a perturbation of the evaluative machinery through which agents convert moral salience into action. Because this transformation engages multiple theoretical layers—cognitive–affective processing, dispositional topology, normative interpretation, and Level-of-Abstraction analysis—a standard discussion section cannot capture its full conceptual significance. What is needed instead is a structural synthesis that explains not merely \emph{what} happened, but \emph{why} it happened and \emph{what it reveals} about the nature of moral cognition and its vulnerability to synthetic perturbation.
 
 \noindent
 To articulate this phenomenon requires a conceptual integration that cannot be confined to standard “discussion” categories. Instead, the chapter must synthesise:
@@ -51,50 +191,44 @@ The present chapter therefore functions as an \emph{interpretive pivot}: it tran
 The empirical pattern can be summarised as follows:
 \begin{itemize}
 	\item The humanoid robot NAO is perceptually salient but ontologically ambiguous.
-	\item The Watching-Eye cue normally induces an empathic salience gradient that increases donation.
-	\item The robot introduces a perturbation $\gamma_R$ that competes with, and partially overrides, the empathic cue.
-	\item This attenuation is strongest in the Prosocial–Empathic cluster, weaker in the Analytical–Structured cluster, and negligible in the Emotionally Reactive cluster.
+	\item The Watching-Eye cue ordinarily induces an empathic salience gradient that increases donation.
+	\item The robot introduces a perturbation $\gamma_R$ that competes with, and partially overrides, this empathic amplification.
+	\item Attenuation is strongest in the Prosocial–Empathic cluster, weaker in the Analytical–Structured cluster, and statistically negligible in the Emotionally Reactive cluster.
 \end{itemize}
 
 \noindent
-Interpreted through the cognitive framework, this pattern shows that:
-\begin{enumerate}
-	\item moral appraisal begins with intuitive and affective resonance;
-	\item synthetic presence disrupts this resonance by altering attention and perceived sociality;
-	\item different dispositional structures process this disruption differently;
-	\item resulting behavioural output reflects the deformation of the evaluative field.
-\end{enumerate}
+Interpreted through the cognitive framework developed earlier, this pattern shows that moral appraisal begins with intuitive and affective resonance \cite{Haidt2001,Greene2001}. Synthetic presence disrupts this resonance by altering attention, salience, and perceived sociality \cite{Phelps2006,Zaki2012,Malle2016,Bremner2022}. Different dispositional structures absorb this disruption in systematically different ways, consistent with established dimensions of empathizing, systemizing, and moral-schema variability \cite{BaronCohen2003,Narvaez2005}. The resulting behavioural output reflects not a change in moral principle, but a deformation of the evaluative field.
 
 \noindent
-Interpreted through the normative framework, we obtain:
+Interpreted through the normative framework, the same pattern yields multiple structurally coherent readings:
 \begin{itemize}
-	\item a \textbf{deontological reading}: synthetic presence weakens the implicit deontic expectations cued by the Watching-Eye prime;
-	\item a \textbf{consequentialist reading}: synthetic presence flattens the perceived payoff gradient of helping behaviour;
-	\item a \textbf{virtue-ethical reading}: synthetic presence interacts with dispositional attractors, suppressing the stable orientation toward prosociality in the Prosocial–Empathic profile;
-	\item a \textbf{sentimentalist reading}: synthetic presence dampens empathic vector fields that ordinarily energise prosocial action;
-	\item a \textbf{contractualist reading}: synthetic presence disrupts the relational justifiability equilibrium normally activated by moral cues;
-	\item a \textbf{particularist reading}: synthetic presence alters the salience landscape such that local cues no longer generate the same moral significance.
+	\item a \textbf{deontological reading}: synthetic presence weakens the implicit deontic expectations cued by the Watching-Eye stimulus \cite{Korsgaard1996};
+	\item a \textbf{consequentialist reading}: synthetic presence flattens the perceived payoff gradient of helping behaviour \cite{Mill1863};
+	\item a \textbf{virtue-ethical reading}: synthetic presence suppresses prosocial attractors associated with empathic or cooperative dispositions \cite{Hursthouse1999};
+	\item a \textbf{sentimentalist reading}: synthetic presence dampens empathic vector fields that ordinarily drive prosocial action \cite{Slote2010};
+	\item a \textbf{contractualist reading}: synthetic presence destabilises the justificatory relations normally activated by social observation \cite{Scanlon1998};
+	\item a \textbf{particularist reading}: synthetic presence alters the salience pattern such that the Watching-Eye cue no longer carries the same moral significance \cite{Dancy2004,McDowell1979}.
 \end{itemize}
 
 \noindent
-Thus, each normative theory yields a structurally distinct but empirically convergent interpretation. The ethical significance of the experiment does not lie in any single framework but in the \emph{coherent intersection} of all of them.
+Thus, each normative theory yields a structurally distinct but empirically convergent interpretation. The ethical significance of the experiment lies not in any single framework, but in the \emph{coherent intersection} of all of them: a field-level suppression of moral salience, a deformation of the evaluative topology through which moral meaning becomes action.
 
 \subsection{Why the Synthetic Presence Effect Matters Beyond the Experiment}
 
 \noindent
-The attenuation of moral action under synthetic presence is not just an interesting behavioural anomaly; it is a demonstration of a deeper principle: \emph{moral cognition is structurally permeable}. It is sensitive to perturbations that operate below the level of explicit reasoning. It is vulnerable to changes in perceived social ontology. It is modulated by affectively weighted cues whose role is seldom acknowledged in normative theory and almost never incorporated in classical Machine Ethics.
+The attenuation of moral action under synthetic presence is not merely an interesting behavioural anomaly; it demonstrates a deeper principle: \emph{moral cognition is structurally permeable}. It is sensitive to perturbations that operate below the level of explicit reasoning. It is vulnerable to shifts in perceived social ontology. And it is modulated by affectively weighted cues whose influence is seldom acknowledged in normative theory and almost never incorporated in classical Machine Ethics.
 
 \noindent
 This has far-reaching implications:
 \begin{enumerate}
 	\item It challenges the assumption that artificial agents can be designed according to purely deliberative ethical frameworks.
-	\item It reveals that synthetic presence exerts moral influence even without action, speech, intent, or agency.
-	\item It shows that human–robot environments are \emph{ethically loaded} by virtue of perceptual and affective structure alone.
-	\item It demands a reconsideration of how artificial systems are interpreted within the moral ecology of human decision-making.
+	\item It shows that synthetic presence modulates moral behaviour even without action, speech, intent, or agency.
+	\item It reveals that human–robot environments are \emph{ethically loaded} by virtue of perceptual and affective structure alone.
+	\item It demands a reconsideration of how artificial systems are situated within the moral ecology of human decision-making.
 \end{enumerate}
 
 \noindent
-In short, the experiment demonstrates a fact of philosophical significance: \textit{synthetic agents are not normatively inert}. Their presence, even in silent passivity, can deform the evaluative pathways through which moral meaning becomes action.
+In short, the experiment demonstrates a fact of philosophical significance: \textit{synthetic agents are not normatively inert}. Their presence, even in silent passivity, can deform the evaluative pathways through which moral salience becomes action.
 
 \bigskip
 
@@ -109,4 +243,94 @@ The remainder of this chapter builds on this foundation. Subsequent sections pro
 \end{itemize}
 
 \noindent
-The goal is not only to interpret the experiment, but to show how the experiment reconfigures the conceptual terrain on which research in moral psychology, HRI, and machine ethics must proceed.
+The goal is not only to interpret the experiment, but to show how the experiment reconfigures the conceptual terrain on which research in moral psychology, HRI, and Machine Ethics must proceed.
+
+\section{Cluster-by-Cluster Integrative Interpretation}
+\label{sec:cluster_interpretation}
+
+\noindent
+The experimental results demonstrate that robotic co-presence $\mathscr{R}$ induces a uniform directional attenuation of prosocial donation across participants, yet the \emph{structure} of this attenuation differs meaningfully across the three latent cognitive--affective ecologies uncovered in Chapter~\ref{chap:experimental_methods}. Because these clusters instantiate distinct evaluative topologies---different attractor formations, salience gradients, affective vector fields, and pathways of regulatory modulation---their differential perturbation under $\mathscr{R}$ offers insight into the architecture of moral cognition and the ethical significance of synthetic presence. What follows is an integrative interpretation weaving together the cognitive, topological, normative, and Level-of-Abstraction (LoA) analyses developed across the thesis.
+
+% --------------------------------------------------------
+\subsection*{Emotionally Reactive / Low-Structure Ecology}
+
+\noindent
+This ecology exhibits high affective volatility, shallow structural integration, and weak systemizing constraints, consistent with established empathizing--systemizing variability \cite{BaronCohen2003}. Its evaluative topology is characterised by \emph{broad, low-gradient attractors}: intuitive responses are strong but unstable; attentional salience fluctuates; and the transition from perception to action is mediated by short-lived affective surges rather than sustained deliberative integration.
+
+\noindent
+To avoid terminological ambiguity, it is useful to clarify what is meant here by 
+\emph{broad, low-gradient attractors} in the evaluative--topological framework. 
+In dynamical-systems terms, an attractor represents a region of the evaluative field $\mathcal{E}$ toward which the system’s state $x$ naturally converges 
+\cite{Strogatz1994,Beer1995}. A \emph{broad} attractor denotes a basin of attraction with  wide boundaries and weak curvature, meaning that many initial states can enter it but none are strongly pulled toward a particular behavioural endpoint. A \emph{low-gradient} attractor is one in which the magnitude of the evaluative gradient $\lVert \nabla \mathcal{E}(x)\rVert$ is small across the basin, implying that movement toward prosocial or antisocial trajectories is governed by shallow motivational forces~\cite{SmithThelen2003,Friston2010}.
+
+\noindent
+In psychological terms, this configuration corresponds to intuitive reactions that are easily triggered yet weakly stabilised: the agent may experience transient affective spikes (e.g., momentary empathy, irritation, or ambivalence) without these signals generating a consistent or directed behavioural tendency. This interpretation is consistent with empirical models of low-coherence affect, affective lability, and unstable salience allocation~\cite{Kuppens2010,Larsen1987,Hollenstein2015}. Because the evaluative landscape lacks sharply defined slopes, small perturbations---including those introduced by environmental ambiguity---tend not to produce substantial directional change. This explains why the Emotionally Reactive / Low-Structure ecology exhibited behavioural invariance in the experiment: the moral field was already characterised by diffuse attractors and unstable salience dynamics, leaving little structured curvature for $\mathscr{R}$ to deform.
+
+\noindent
+Within such a landscape, the experimentally observed pattern---minimal or noisy attenuation---is theoretically revealing. The Watching-Eye stimulus $\sigma_{\mathrm{WE}}$ generates only a modest prosocial gradient for this cluster \cite{Francey2012,Kawamura2017}, and the robot-induced perturbation $\gamma_R$ cannot significantly deform a field that already lacks curvature:
+\[
+\|\nabla \mathcal{E}_{\mathrm{baseline}}\| \approx 0 
+\quad \Rightarrow \quad 
+\|\nabla \mathcal{E}_{\mathrm{perturbed}}\| \approx 0.
+\]
+
+\noindent
+At the cognitive LoA, this ecology functions as a near-critical system: its evaluative machinery exhibits little stability and thus provides minimal structural leverage for $\mathscr{R}$ to disrupt. Normatively, this implies that deontic, sentimental, or virtue-theoretic structures exert limited behavioural influence because the underlying evaluative field lacks the curvature to sustain them.
+
+% --------------------------------------------------------
+\subsection*{Prosocial--Empathic / Warm--Sociable Ecology}
+
+\noindent
+This cluster displays high empathic resonance, strong sensitivity to social cues, and rich affective attractors. Psychological models of empathic processing support this heightened salience responsiveness \cite{Phelps2006,Zaki2012}. Its evaluative topology is steeply sloped: the Watching-Eye cue generates strong upward gradients toward prosocial action \cite{Francey2012}, mediated by interpersonal appraisal and affective amplification.
+
+\noindent
+The robot’s ontological ambiguity \cite{Malle2016,Kuchenbrandt2011,Bremner2022} perturbs precisely this amplification mechanism. As demonstrated in Chapter~\ref{chap:experimental_methods}, the perturbation $\delta \mathcal{E}(x;\mathscr{R})$ acts \emph{upstream}, modifying the salience structure itself:
+\[
+\delta \mathcal{E}(x;\mathscr{R}) < 0,
+\qquad 
+\delta \mathbf{A}(x;\mathscr{R}) < 0.
+\]
+
+\noindent
+Because the empathic system depends on affective curvature, flattening the field produces the \emph{largest attenuation} in this ecology despite its strong baseline gradients. 
+
+\noindent
+Normatively, this yields a convergent interpretation:
+deontology registers weakened duty-tracking; consequentialism observes a flattened payoff gradient; virtue ethics identifies destabilised prosocial dispositions; sentimentalism finds dampened empathic force-fields; contractualism diagnoses disrupted justificatory orientation; and particularism detects a shift in which contextual features count as reasons.
+
+% --------------------------------------------------------
+\subsection*{Analytical--Structured / High-Systemizing Ecology}
+
+\noindent
+This ecology exhibits strong systemizing tendencies and comparatively lower empathizing \cite{BaronCohen2003}. Its evaluative topology is governed by structural coherence rather than affective curvature. Here, prosocial action arises from rule-consistency, interpretive stability, and contextually well-defined cues.
+
+\noindent
+The experiment reveals only mild attenuation. The Watching-Eye cue produces modest gradients, while $\mathscr{R}$ introduces representational and social-ontological ambiguity \cite{Komatsu2016}, subtly undermining the interpretive regularities on which this ecology relies. The perturbation operates primarily on semantic and predictive structure:
+\[
+\delta \mathcal{E}(x;\mathscr{R}) \approx 0^{-}, \qquad 
+\delta \mathbf{A}(x;\mathscr{R}) \approx 0.
+\]
+
+\noindent
+At the LoA level, this ecology demonstrates that perturbation need not be affective: synthetic presence also functions as a \emph{semantic disruptor}, altering the representational substrate needed for structured evaluative computation. Normatively, this corresponds to weakened rule-clarity (deontology), distorted outcome-modelling (consequentialism), and destabilised interpretive virtues such as discernment and practical wisdom (virtue ethics).
+
+% --------------------------------------------------------
+\subsection*{Integrative Synthesis}
+
+\noindent
+Across all three ecologies, a unified conclusion emerges: the humanoid robot operates not through communication, norm expression, or explicit social signalling, but through \emph{topological reconfiguration}. It introduces a perturbation $\gamma_R$ at the cognitive LoA that:
+
+\begin{itemize}
+	\item suppresses affective gradients in empathic ecologies,
+	\item introduces semantic and predictive ambiguity in analytical ecologies,
+	\item and interacts minimally with shallow attractor fields in reactive ecologies.
+\end{itemize}
+
+\noindent
+Normatively, the attenuation is not a failure of duty, utility estimation, virtue, empathy, or justificatory reasoning. Instead, it represents a \emph{structural displacement of moral salience}. This displacement is invisible to explicit reasoning yet measurable in behaviour and interpretable through evaluative topology.
+
+\noindent
+In this sense, the humanoid robot reveals a property of moral cognition that classical ethical theory and classical Machine Ethics could not predict: \emph{moral responsiveness is field-sensitive}. Normativity becomes action only when the evaluative field retains its curvature. Perturb the field, and even well-formed dispositions cannot operate normally.
+
+\noindent
+This insight forms the conceptual hinge for the remainder of the General Discussion.
