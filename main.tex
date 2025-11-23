@@ -318,6 +318,22 @@
 	#1
 }
 
+\usepackage[most]{tcolorbox}
+\definecolor{lightgraybar}{RGB}{200,200,200} % adjust if you need a different tone
+
+\newtcolorbox{leftbar}{
+	enhanced,
+	colback=white,
+	colframe=lightgraybar,
+	frame hidden,
+	borderline west={1pt}{0pt}{lightgraybar},
+	left=6pt,   % horizontal padding inside
+	right=0pt,
+	top=0pt,
+	bottom=0pt,
+}
+
+
 
 \newtheorem{definition}{Definition}
 
@@ -366,15 +382,26 @@ November 2025\\
 \include{acknowledgements}
 \include{declaration}
 
-
-\mainmatter % Turn on chapter numbering, reset page numbers, use arabic
-\include{introduction}
-\include{moral_d}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% MAIN CONTENT AND THESIS STRUCTURE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Turn on chapter numbering, reset page numbers, use arabic
+\mainmatter
+% INTRODUCTION
+\include{int_new}
+%\include{introduction}
+%\include{moral_d}
+% LITERATURE REVIEW
 \include{lit_rev}
+% MORALITY FOR NON-EXPERT
 \include{moral_primer}
+% EXPERIMENTAL TOOLS OF MEASUREMENT
 \include{tools}
+% EXPERIMENTAL DESIGN
 \include{experimental_methods}
+% ETHICS AND ETHICAL INTERPRETATION
 \include{ethics_s}
+% DISCUSSION AND CONCLUSION
 \include{final_r}
 % and the other chapters
 \appendix
