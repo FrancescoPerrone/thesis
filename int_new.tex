@@ -129,28 +129,29 @@ Our question comes from a broader theoretical idea: that synthetic agents might 
 
 \medskip
 \noindent
-If the simple presence of a synthetic agent shifts that chain of inferences, then the traditional approach in machine ethics—starting with abstract principles and trying to code them directly into a system—can’t explain what’s going on. Those models operate at the reflective level, the level where we articulate reasons and moral rules. But the effects we’re observing happen earlier, in the pre-reflective machinery that sets the stage for those reasons.
+If the simple presence of a synthetic agent shifts that chain of inferences,\noindent
+then the traditional approach in machine ethics—starting with abstract principles and trying to code them directly into a system \cite{Anderson2011,Bringsjord2006,Arkin2009,Wallach2008,Guarini2006}—can’t explain what’s going on. Those models operate at the reflective level, the level where we articulate reasons and moral rules. But the effects we’re observing happen earlier, in the pre-reflective machinery that sets the stage for those reasons.
 
 So we need a different way of thinking about moral behaviour. A framework that treats it as the outcome of a field shaped by attention, emotion, and the way certain cues stand out or fade away. In that view, moral action isn’t just a conclusion drawn from a principle; it’s the end point of a landscape structured by what feels salient, what draws concern, and what seems to matter in the moment. That’s the level at which synthetic presence exerts its influence—and the level we have to model if we want to understand it.
 
-\medskip
+\noindent
+One way to make sense of this is by borrowing a notion from Luciano Floridi: the Level of Abstraction \cite{Floridi2008,Floridi2011}. It’s a simple idea with a lot of power behind it. Whenever we study a system—whether it’s a computer, a person, a society—\textit{we have to decide the level at which we’re describing it}. Are we talking about the underlying code? The behaviour? The motivations? The social context? Each level reveals some things and hides others.
 
 \noindent
-To test this, the thesis develops three hypotheses, each corresponding to a different class of perturbation mechanism.
-They are not alternatives in the sense of competition, but structurally distinct explanatory possibilities—each capturing a different way in which synthetic presence may modulate evaluative dynamics.
+Most classical work in machine ethics starts at a very high, reflective level of abstraction. It focuses on principles—rules about what the system should or shouldn’t do—and tries to formalise those rules so they can be implemented~\cite{Allen2005,Arkoudas2005,Winfield2019,Anderson2010}. That’s useful if your goal is to build a system that behaves consistently with a particular ethical theory. But it tells you almost nothing about what happens at the cognitive level, where perception and emotion begin shaping the decision long before anyone appeals to a principle.
 
-\noindent
-The thesis therefore formulates three hypotheses, each corresponding to a distinct
-class of perturbation mechanism within the cognitive--affective architecture of
-moral judgment. 
-They do not compete for the same explanatory domain; rather, each isolates a 
-different structural pathway through which synthetic presence may modulate the 
-evaluative transformation from perception to action. 
-Taken together, they delineate the theoretical space within which the experiment 
-operates.
+
+Our work sits at a different level of abstraction. We’re looking at the machinery that turns raw perception into a sense of what matters, and then into action. At that level, the presence of a humanoid robot isn’t a question about the robot’s rights or intentions; it’s a question about how its appearance and behaviour reshape the informational landscape the human is navigating.
 
 \medskip
+\noindent
+Once we fix the Level of Abstraction—the cognitive level where perception, concern, and action are linked—we can be precise about what we’re testing. The thesis proposes three hypotheses, each tied to a different kind of perturbation at that level. They’re not rivals. They’re three structurally distinct ways in which the presence of a synthetic agent might reshape the evaluative process itself. Each one captures a different mechanism through which the perceptual and affective landscape can shift before conscious judgment begins. The thesis therefore develops three hypotheses, each mapped onto a different kind of perturbation within the cognitive–affective system that generates moral judgment. They’re not competing explanations; each one isolates a distinct structural route through which the simple presence of a synthetic agent might influence the transformation from perception to action.
 
+Taken together, these hypotheses define the theoretical space of the project. They mark out the possibilities that become visible once we commit to the correct Level of Abstraction—the level where shifts in salience, attention, and affect reorganise the evaluative field long before a person arrives at a conscious moral conclusion.
+
+The first hypothesis says that the robot changes the function that maps what you perceive to how you evaluate it. 
+\bigskip
+\noindent
 \begin{center}
 	\begin{tcolorbox}[colback=white,colframe=black!60,title=Hypothesis 1: Evaluative Deformation]
 		Synthetic presence alters the evaluative function 
@@ -162,8 +163,27 @@ operates.
 	\end{tcolorbox}
 \end{center}
 
-\medskip
+\bigskip
+\noindent
+The mathematical notation—$f : \mathcal{X} \rightarrow \mathcal{A}$—just means:
+given some input from the world, how do you turn it into a sense of what matters? What we test here is very simple: does having a humanoid robot in the room subtly shift what stands out to the subject, what feels important, or what pulls their attention?
 
+If the robot is visually or socially salient—even without speaking—it might ‘bend’ the landscape you’re navigating. Think of it like a small gravitational field: it doesn’t tell you what to do, but it changes the shape of the space you’re moving through. This hypothesis asks:
+
+\bigskip
+\noindent
+\begin{center}
+	\begin{leftbar}
+		\textit{ does the robot’s presence deforms that evaluative landscape just enough to change how moral cues gain their force?}
+	\end{leftbar}
+\end{center}
+
+\bigskip
+\noindent
+The second hypothesis is about how people interpret responsibility and expectations in the presence of a humanoid robot. Here the claim is not that the robot has moral status or intentions. It’s that its human-like appearance gives it certain practical effects in how people interpret the situation. 
+
+\bigskip
+\noindent
 \begin{center}
 	\begin{tcolorbox}[colback=white,colframe=black!60,title=Hypothesis 2: Synthetic Normativity of Moral Displacement]
 		A humanoid robot acquires \emph{normative affordances} through its 
@@ -174,8 +194,28 @@ operates.
 	\end{tcolorbox}
 \end{center}
 
-\medskip
+People may unconsciously treat it as if it participates in the moral scene, even though it hasn’t said or done anything. So this hypothesis asks:
 
+\bigskip
+\noindent
+\begin{center}
+	\begin{leftbar}
+		\textit{Does the robot shift who people feel accountable to, or who they think is paying attention, or what they think ‘counts’ in that moment?}
+	\end{leftbar}
+\end{center}
+
+\bigskip
+\noindent
+The robot’s ambiguous status—something between a person and a tool—may subtly redirect moral attention. It’s not giving orders; it’s reframing the situation just by being there.
+
+The third hypothesis looks at what happens in the transition from noticing something morally important to actually doing something about it.
+
+Humans don’t move straight from perception to action. There’s a whole middle layer: empathy, emotional resonance, a sense of alignment with others. This hypothesis asks whether the robot interferes with that middle layer.
+
+Does its presence dampen empathy? Does it redirect attention? Does it change how strongly certain cues ‘tag’ the situation as requiring action?
+
+\bigskip
+\noindent
 \begin{center}
 	\begin{tcolorbox}[colback=white,colframe=black!60,title=Hypothesis 3: Synthetic Perturbation of Moral Inference]
 		Synthetic presence interferes with the transition from moral salience to 
@@ -186,8 +226,19 @@ operates.
 	\end{tcolorbox}
 \end{center}
 
-\medskip
+So this final hypothesis says:
 
+\bigskip
+\noindent
+\begin{center}
+	\begin{leftbar}
+		\textit{the robot doesn’t change the rule you apply—it changes the internal bridge that links your moral perception to your moral behaviour}
+	\end{leftbar}
+\end{center}
+
+And importantly, this hypothesis predicts that people with different dispositions—different personalities, sensitivities, backgrounds—will be affected differently. That’s exactly what the experiments showed: the effect isn’t uniform; it varies depending on the person.
+
+\medskip
 \noindent
 These hypotheses structure the theoretical and empirical work that follows. 
 They operationalise the core research question---whether synthetic presence can 
@@ -195,15 +246,8 @@ perturb the inferential machinery that links moral perception to moral action---
 provide the conceptual scaffolding through which the experiment in 
 Chapter~\ref{chap:experimental_methods} is interpreted.
 
-
-
 \noindent
-Together, these hypotheses constitute the inferential scaffold for the experimental design developed later in the thesis. 
-They translate the abstract problem of machine-mediated moral cognition into empirically testable pathways, each grounded in the theoretical architecture developed 
-throughout the introduction: an architecture in which moral behaviour is understood as 
-the product of a field-sensitive cognitive process, vulnerable to deformation by synthetic 
-co-presence.
-
+Together, these three hypotheses outline the whole space in which synthetic presence might influence moral judgment. Each captures a different mechanism, and all of them operate at the cognitive level—the level where perception and affect set the stage for what we later call ‘a moral decision.’
 % -------------------------------------------------------
 % Section VI — The Need for a New Theoretical Orientation
 % -------------------------------------------------------

@@ -5,13 +5,7 @@ A level-1 auxiliary file: metafora.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: declaration.aux
-A level-1 auxiliary file: introduction.aux
-A level-1 auxiliary file: moral_d.aux
-Case mismatch error between cite keys kahneman2011 and Kahneman2011
----line 217 of file moral_d.aux
- : \citation{kahneman2011
- :                       }
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: int_new.aux
 A level-1 auxiliary file: lit_rev.aux
 A level-1 auxiliary file: moral_primer.aux
 A level-1 auxiliary file: tools.aux
@@ -24,7 +18,7 @@ A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 14821 items from 5000.
+Reallocated field_info (elt_size=4) to 12429 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -48,10 +42,6 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 2578 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Kahneman2011
  :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2688 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @article{Gert2020
- :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 2719 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Haidt2012
@@ -425,40 +415,10 @@ Repeated entry---line 5897 of file /home/francesco/Desktop/research/appunti/refe
  : @article{Decety2004
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Allen_Wallach2012"
-Warning--I didn't find a database entry for "Minsky1985"
-Warning--I didn't find a database entry for "Stone2016"
-Warning--I didn't find a database entry for "Goodfellow2016"
-Warning--I didn't find a database entry for "Silver2018"
-Warning--I didn't find a database entry for "Shoham2018"
-Warning--I didn't find a database entry for "Anderson2018"
-Warning--I didn't find a database entry for "IFR2019"
-Warning--I didn't find a database entry for "Moor"
-Warning--I didn't find a database entry for "Bryson"
-Warning--I didn't find a database entry for "Dennett"
-Warning--I didn't find a database entry for "Turkle"
-Warning--I didn't find a database entry for "Aristotle"
-Warning--I didn't find a database entry for "Taylor"
-Warning--I didn't find a database entry for "RussellNorvig"
-Warning--I didn't find a database entry for "WallachAllen"
-Warning--I didn't find a database entry for "AndersonAnderson"
-Warning--I didn't find a database entry for "Floridi"
-Warning--I didn't find a database entry for "Mendelson"
-Warning--I didn't find a database entry for "Zermelo"
-Warning--I didn't find a database entry for "Russell"
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "james1884"
-Warning--I didn't find a database entry for "costa1992"
-Warning--I didn't find a database entry for "bandura1986"
-Warning--I didn't find a database entry for "greenwald2006"
-Warning--I didn't find a database entry for "tversky1973"
-Warning--I didn't find a database entry for "thaler2008"
-Warning--I didn't find a database entry for "Gazzaniga2006"
-Warning--I didn't find a database entry for "chalmers2013"
-Warning--I didn't find a database entry for "laudan1987"
-Warning--I didn't find a database entry for "bricmont2016"
-Warning--I didn't find a database entry for "woodward2007"
-Warning--I didn't find a database entry for "bird2000"
+Repeated entry---line 6062 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Allen2005
+ :                   ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Mingers2014"
 Warning--I didn't find a database entry for "Jongsma2016"
 Warning--I didn't find a database entry for "Bicchieri2016"
@@ -473,7 +433,6 @@ Warning--I didn't find a database entry for "HaidtBjorklund2008"
 Warning--I didn't find a database entry for "CalvoDMello2010"
 Warning--I didn't find a database entry for "AndersonAnderson2007"
 Warning--I didn't find a database entry for "Boddington2017"
-Warning--I didn't find a database entry for "Winfield2019"
 Warning--I didn't find a database entry for "Santoro2018"
 Warning--I didn't find a database entry for "Goffman1967"
 Warning--I didn't find a database entry for "Lemos2020"
@@ -487,10 +446,6 @@ Warning--I didn't find a database entry for "Reynolds2006"
 Warning--I didn't find a database entry for "Cialdini2007"
 Warning--I didn't find a database entry for "GriffithsBeake2022"
 Warning--I didn't find a database entry for "Mill1863"
-Warning--empty author and editor in Henderson2011
-Warning--can't use both author and editor fields in Gadamer1989
-Warning--there's a number but no series in Hare1991
-Warning--empty journal in Greene2015
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
 Warning--can't use both author and editor fields in HumeTreatise
@@ -498,45 +453,45 @@ Warning--can't use both author and editor fields in HumeEnquiry
 Warning--can't use both volume and number fields in Anderson2007
 Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
-You've used 365 entries,
+You've used 296 entries,
             1876 wiz_defined-function locations,
-            2649 strings with 57109 characters,
-and the built_in function-call counts, 96248 in all, are:
-= -- 10133
-> -- 2875
+            2208 strings with 47542 characters,
+and the built_in function-call counts, 80251 in all, are:
+= -- 8531
+> -- 2347
 < -- 0
-+ -- 1136
-- -- 771
-* -- 6325
-:= -- 13082
-add.period$ -- 482
-call.type$ -- 365
-change.case$ -- 277
++ -- 926
+- -- 630
+* -- 5296
+:= -- 10841
+add.period$ -- 379
+call.type$ -- 296
+change.case$ -- 228
 chr.to.int$ -- 0
-cite$ -- 376
-duplicate$ -- 5148
-empty$ -- 9619
-format.name$ -- 771
-if$ -- 23981
+cite$ -- 303
+duplicate$ -- 4290
+empty$ -- 7907
+format.name$ -- 630
+if$ -- 19998
 int.to.chr$ -- 0
-int.to.str$ -- 365
-missing$ -- 467
-newline$ -- 1215
-num.names$ -- 387
-pop$ -- 1175
+int.to.str$ -- 296
+missing$ -- 369
+newline$ -- 974
+num.names$ -- 305
+pop$ -- 905
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3339
+skip$ -- 2895
 stack$ -- 0
-substring$ -- 6736
-swap$ -- 2115
+substring$ -- 5879
+swap$ -- 1829
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
-while$ -- 1037
-width$ -- 368
-write$ -- 3691
-(There were 101 error messages)
+warning$ -- 7
+while$ -- 880
+width$ -- 299
+write$ -- 3010
+(There were 100 error messages)
