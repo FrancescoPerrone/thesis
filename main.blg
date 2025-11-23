@@ -18,7 +18,7 @@ A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 12429 items from 5000.
+Reallocated field_info (elt_size=4) to 12682 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -419,6 +419,42 @@ Repeated entry---line 6062 of file /home/francesco/Desktop/research/appunti/refe
  : @article{Allen2005
  :                   ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 6114 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Allen2005
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6125 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Prinz2007
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6134 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @inproceedings{Guarini2006
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6142 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Moll2002
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6228 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Bremner2022
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6238 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Floridi2008
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6248 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Floridi2011
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6255 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Mittelstadt2019
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6265 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @inproceedings{Bender2021
+ :                          ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Mingers2014"
 Warning--I didn't find a database entry for "Jongsma2016"
 Warning--I didn't find a database entry for "Bicchieri2016"
@@ -453,45 +489,45 @@ Warning--can't use both author and editor fields in HumeEnquiry
 Warning--can't use both volume and number fields in Anderson2007
 Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
-You've used 296 entries,
+You've used 307 entries,
             1876 wiz_defined-function locations,
-            2208 strings with 47542 characters,
-and the built_in function-call counts, 80251 in all, are:
-= -- 8531
-> -- 2347
+            2265 strings with 49196 characters,
+and the built_in function-call counts, 82290 in all, are:
+= -- 8702
+> -- 2453
 < -- 0
-+ -- 926
-- -- 630
-* -- 5296
-:= -- 10841
-add.period$ -- 379
-call.type$ -- 296
-change.case$ -- 228
++ -- 965
+- -- 658
+* -- 5429
+:= -- 11160
+add.period$ -- 392
+call.type$ -- 307
+change.case$ -- 238
 chr.to.int$ -- 0
-cite$ -- 303
-duplicate$ -- 4290
-empty$ -- 7907
-format.name$ -- 630
-if$ -- 19998
+cite$ -- 314
+duplicate$ -- 4409
+empty$ -- 8134
+format.name$ -- 658
+if$ -- 20485
 int.to.chr$ -- 0
-int.to.str$ -- 296
-missing$ -- 369
-newline$ -- 974
-num.names$ -- 305
-pop$ -- 905
+int.to.str$ -- 307
+missing$ -- 381
+newline$ -- 1009
+num.names$ -- 316
+pop$ -- 957
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2895
+skip$ -- 2930
 stack$ -- 0
-substring$ -- 5879
-swap$ -- 1829
+substring$ -- 5917
+swap$ -- 1848
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 880
-width$ -- 299
-write$ -- 3010
-(There were 100 error messages)
+while$ -- 897
+width$ -- 310
+write$ -- 3106
+(There were 109 error messages)

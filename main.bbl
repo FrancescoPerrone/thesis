@@ -144,57 +144,14 @@ A.~F.~T. Winfield, M.~Ortega, and R.~Harper, ``The ethical black box: An ai
 M.~Anderson and S.~L. Anderson, ``Robot be good: A call for ethical autonomous
   machines,'' {\em Scientific American}, vol.~303, no.~4, pp.~72--77, 2010.
 
-\bibitem{Pereira2014}
-A.~Saptawijaya and L.~M. Pereira, ``Towards modeling morality computationally
-  with logic programming,'' in {\em International Symposium on Practical
-  Aspects of Declarative Languages}, pp.~104--119, Springer, 2014.
-
-\bibitem{McLaren2006}
-B.~M. McLaren, ``Computational models of ethical reasoning: Challenges, initial
-  steps, and future directions,'' {\em IEEE}, 2006.
-
-\bibitem{vanHarmelen2008}
-F.~van Harmelen, ``The semantic web: State of the art and future directions,''
-  in {\em Proceedings of the 2008 International Conference on Web Intelligence
-  and Intelligent Agent Technology}, pp.~645--652, IEEE, 2008.
-
-\bibitem{Mittelstadt2019}
-B.~Mittelstadt, C.~Russell, and S.~Wachter, ``Explaining ai in an algorithmic
-  world: Fairness and transparency in machine learning,'' in {\em Proceedings
-  of the 2019 AAAI/ACM Conference on AI, Ethics, and Society}, pp.~279--286,
-  2019.
-
-\bibitem{Bender2021}
-E.~M. Bender and T.~Gebru, ``On the dangers of stochastic parrots: Can language
-  models be too big?,'' in {\em Proceedings of the 2021 ACM Conference on
-  Fairness, Accountability, and Transparency (FAccT)}, pp.~610--623, 2021.
-
 \bibitem{Greene2001}
 J.~D. Greene, L.~E. Nystrom, A.~D. Engell, J.~M. Darley, and J.~D. Cohen, ``An
   fmri investigation of emotional engagement in moral judgment,'' {\em
   Science}, vol.~293, no.~5537, pp.~2105--2108, 2001.
 
-\bibitem{Crockett2016}
-M.~J. Crockett, ``Models of morality,'' {\em Trends in Cognitive Sciences},
-  vol.~20, no.~2, pp.~87--97, 2016.
-
-\bibitem{Pentland2007}
-A.~Pentland, ``Social signal processing [exploratory dsp],'' {\em IEEE Signal
-  Processing Magazine}, vol.~24, no.~4, pp.~108--111, 2007.
-
-\bibitem{Vinciarelli2009}
-A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing: Survey
-  of an emerging domain,'' {\em Image and vision computing}, vol.~27, no.~12,
-  pp.~1743--1759, 2009.
-
-\bibitem{Picard1997}
-R.~W. Picard, {\em Affective Computing}.
-\newblock MIT Press, 1997.
-
-\bibitem{Vinciarelli2012}
-A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing:
-  Understanding social interactions through nonverbal behavior,'' {\em IEEE
-  Signal Processing Magazine}, vol.~29, no.~6, pp.~42--52, 2012.
+\bibitem{Prinz2007}
+J.~Prinz, {\em The Emotional Construction of Morals}.
+\newblock Oxford: Oxford University Press, 2007.
 
 \bibitem{Kuchenbrandt2011}
 D.~Kuchenbrandt, F.~Eyssel, S.~Bobinger, and M.~Neufeld, ``Minimal
@@ -208,24 +165,11 @@ B.~F. Malle, M.~Scheutz, J.~Forlizzi, and J.~Voiklis, ``Which robot am i
   of a moral robot,'' in {\em 2016 11th ACM/IEEE International Conference on
   Human-Robot Interaction (HRI)}, pp.~125--132, IEEE, 2016.
 
-\bibitem{Bremner2022}
-P.~Bremner, U.~Leonards, and A.~Bateman, ``The mere presence of a robot is
-  enough to elicit social facilitation of human performance,'' {\em Scientific
-  Reports}, vol.~12, no.~1, pp.~1--14, 2022.
-
-\bibitem{Moor2006}
-J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
-  IEEE Intelligent Systems}, vol.~21, no.~4, pp.~18--21, 2006.
-
-\bibitem{Eckstrom2012}
-M.~Ekstr{\"o}m, ``Do watching eyes affect charitable giving? evidence from a
-  field experiment,'' {\em Experimental Economics}, vol.~15, no.~3,
-  pp.~530--546, 2012.
-
-\bibitem{Greene2014}
-J.~D. Greene, {\em Moral Tribes: Emotion, Reason, and the Gap Between Us and
-  Them}.
-\newblock New York, NY: Penguin Press, 2014.
+\bibitem{Zlotowski2015}
+J.~Z{\l}otowski, D.~Proudfoot, K.~Yogeeswaran, and C.~Bartneck,
+  ``Anthropomorphism: Opportunities and challenges in human--robot
+  interaction,'' {\em International Journal of Social Robotics}, vol.~7, no.~3,
+  pp.~347--360, 2015.
 
 \bibitem{SidgwickMethods}
 H.~Sidgwick, {\em The methods of ethics}.
@@ -235,16 +179,165 @@ H.~Sidgwick, {\em The methods of ethics}.
 T.~M. Scanlon, {\em What We Owe to Each Other}.
 \newblock Harvard University Press, 1998.
 
+\bibitem{Jin2022Moral}
+Z.~Jin, H.~Zhang, T.~Ge, and M.~Zeng, ``Moral foundations of large language
+  models,'' {\em arXiv preprint arXiv:2205.12329}, 2022.
+
+\bibitem{Scherrer2023}
+N.~Scherrer, E.~Clark, and N.~A. Smith, ``Evaluating moral reasoning in large
+  language models,'' {\em arXiv preprint arXiv:2306.00030}, 2023.
+
+\bibitem{Nguyen2023}
+A.~Nguyen {\em et~al.}, ``Moral self-correction for large language models,'' in
+  {\em Proceedings of the 2023 Conference on Empirical Methods in Natural
+  Language Processing}, 2023.
+
+\bibitem{Aher2023}
+G.~Aher and R.~Arriaga, ``Using large language models to simulate human moral
+  decision-making,'' in {\em Proceedings of the AAAI/ACM Conference on AI,
+  Ethics, and Society}, 2023.
+
+\bibitem{Charlton2023}
+P.~Charlton and D.~Danks, ``Large language models show human-like moral
+  dynamics,'' {\em arXiv preprint arXiv:2308.13129}, 2023.
+
+\bibitem{Hendrycks2021}
+D.~Hendrycks {\em et~al.}, ``Measuring massive multitask language
+  understanding,'' in {\em International Conference on Learning
+  Representations}, 2021.
+
+\bibitem{Emelin2023}
+D.~Emelin {\em et~al.}, ``Moral foundations in large language models: A case
+  study on moralclassification,'' {\em Transactions of the Association for
+  Computational Linguistics}, vol.~11, pp.~1--16, 2023.
+
+\bibitem{Haidt2007}
+J.~Haidt, ``The new synthesis in moral psychology,'' {\em Science}, vol.~316,
+  no.~5827, pp.~998--1002, 2007.
+
+\bibitem{Greene2014}
+J.~D. Greene, {\em Moral Tribes: Emotion, Reason, and the Gap Between Us and
+  Them}.
+\newblock New York, NY: Penguin Press, 2014.
+
+\bibitem{Phelps2006}
+E.~A. Phelps, ``Emotion and cognition: insights from studies of the human
+  amygdala,'' {\em Annual Review of Psychology}, vol.~57, pp.~27--53, 2006.
+
+\bibitem{Decety2008}
+J.~Decety and M.~Meyer, ``From emotion resonance to empathic understanding: A
+  social developmental neuroscience account,'' {\em Development and
+  psychopathology}, vol.~20, no.~4, pp.~1053--1080, 2008.
+
+\bibitem{Zaki2012}
+J.~Zaki and K.~N. Ochsner, ``The neuroscience of empathy: Progress, pitfalls,
+  and promise,'' {\em Nature Neuroscience}, vol.~15, no.~5, pp.~675--680, 2012.
+
+\bibitem{Buon2016}
+M.~Buon, A.~Seara-Cardoso, and E.~Viding, ``Why (and how) should we study the
+  interplay between emotional arousal, theory of mind, and inhibitory control
+  to understand moral cognition?,'' {\em Psychonomic bulletin \& review},
+  vol.~23, pp.~1660--1680, 2016.
+
+\bibitem{Bremner2022}
+P.~Bremner, U.~Leonards, and A.~Bateman, ``The mere presence of a robot is
+  enough to elicit social facilitation of human performance,'' {\em Scientific
+  Reports}, vol.~12, no.~1, pp.~1--14, 2022.
+
+\bibitem{Moor2006}
+J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
+  IEEE Intelligent Systems}, vol.~21, no.~4, pp.~18--21, 2006.
+
+\bibitem{Cervantes2020}
+J.-A. Cervantes, S.~L{\'o}pez, L.-F. Rodr{\'\i}guez, S.~Cervantes,
+  F.~Cervantes, and F.~Ramos, ``Artificial moral agents: A survey of the
+  current status,'' {\em Science and Engineering Ethics}, vol.~26, no.~2,
+  pp.~501--532, 2020.
+
+\bibitem{Coeckelbergh2023}
+M.~Coeckelbergh, ``Challenging ai simulacra of ethical deliberation: Some
+  problems of ethicopolitics of algorithms,'' {\em AI and Society}, 2023.
+
+\bibitem{Bender2021}
+E.~M. Bender and T.~Gebru, ``On the dangers of stochastic parrots: Can language
+  models be too big?,'' in {\em Proceedings of the 2021 ACM Conference on
+  Fairness, Accountability, and Transparency (FAccT)}, pp.~610--623, 2021.
+
+\bibitem{Mittelstadt2019}
+B.~Mittelstadt, C.~Russell, and S.~Wachter, ``Explaining ai in an algorithmic
+  world: Fairness and transparency in machine learning,'' in {\em Proceedings
+  of the 2019 AAAI/ACM Conference on AI, Ethics, and Society}, pp.~279--286,
+  2019.
+
+\bibitem{Whittlestone2019}
+P.~Whittlestone, R.~Nyrup, A.~Alexandrova, and S.~Cave, ``The role and limits
+  of principles in ai ethics: Towards a focus on tensions,'' in {\em
+  Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
+  pp.~195--200, 2019.
+
+\bibitem{Andrus2023}
+M.~Andrus, M.~Spitzer, {\em et~al.}, ``What do models know about morality? a
+  review of ethical reasoning in ai,'' {\em arXiv preprint arXiv:2305.15765},
+  2023.
+
+\bibitem{Kasirzadeh2023}
+A.~Kasirzadeh and I.~Gabriel, ``The mirage of moral agency in large language
+  models,'' {\em Philosophy \& Technology}, vol.~37, no.~1, pp.~1--26, 2024.
+
+\bibitem{Young2012}
+L.~Young and J.~Dungan, ``Where in the brain is morality? everywhere and maybe
+  nowhere,'' {\em Social neuroscience}, vol.~7, no.~1, pp.~1--10, 2012.
+
+\bibitem{Gardner2024}
+J.~Gardner and et~al., ``Models that write like moral agents are not moral
+  agents,'' {\em AI \& Society}, 2024.
+\newblock Forthcoming.
+
+\bibitem{Crockett2016}
+M.~J. Crockett, ``Models of morality,'' {\em Trends in Cognitive Sciences},
+  vol.~20, no.~2, pp.~87--97, 2016.
+
+\bibitem{Vinciarelli2009}
+A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing: Survey
+  of an emerging domain,'' {\em Image and vision computing}, vol.~27, no.~12,
+  pp.~1743--1759, 2009.
+
+\bibitem{Bainbridge2011}
+W.~A. Bainbridge, J.~W. Hart, E.~S. Kim, and B.~Scassellati, ``The effect of
+  robot personality on human-robot interaction,'' in {\em Proceedings of the
+  2011 6th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pp.~141--142, ACM, 2011.
+
+\bibitem{HaleyFessler2005}
+K.~J. Haley and D.~M.~T. Fessler, ``Nobody's watching? subtle cues affect
+  generosity in an anonymous economic game,'' {\em Evolution and Human
+  Behavior}, vol.~26, no.~3, pp.~245--256, 2005.
+
+\bibitem{Dancy2004}
+J.~Dancy, ``Ethics without principles,'' 2004.
+
+\bibitem{Pentland2007}
+A.~Pentland, ``Social signal processing [exploratory dsp],'' {\em IEEE Signal
+  Processing Magazine}, vol.~24, no.~4, pp.~108--111, 2007.
+
+\bibitem{Picard1997}
+R.~W. Picard, {\em Affective Computing}.
+\newblock MIT Press, 1997.
+
+\bibitem{Vinciarelli2012}
+A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing:
+  Understanding social interactions through nonverbal behavior,'' {\em IEEE
+  Signal Processing Magazine}, vol.~29, no.~6, pp.~42--52, 2012.
+
+\bibitem{Eckstrom2012}
+M.~Ekstr{\"o}m, ``Do watching eyes affect charitable giving? evidence from a
+  field experiment,'' {\em Experimental Economics}, vol.~15, no.~3,
+  pp.~530--546, 2012.
+
 \bibitem{Pfattheicher2015}
 S.~Pfattheicher and J.~Keller, ``The watching eyes phenomenon: The role of a
   sense of being seen and public self-awareness,'' {\em European Journal of
   Social Psychology}, vol.~45, no.~5, pp.~560--566, 2015.
-
-\bibitem{Zlotowski2015}
-J.~Z{\l}otowski, D.~Proudfoot, K.~Yogeeswaran, and C.~Bartneck,
-  ``Anthropomorphism: Opportunities and challenges in human--robot
-  interaction,'' {\em International Journal of Social Robotics}, vol.~7, no.~3,
-  pp.~347--360, 2015.
 
 \bibitem{Banks2020}
 J.~Banks, ``Theory of mind in social robots: replication of five established
@@ -271,10 +364,6 @@ J.~Deigh, {\em An introduction to ethics}.
 L.~Floridi and J.~W. Sanders, ``On the morality of artificial agents,'' {\em
   Minds and Machines}, vol.~14, no.~3, pp.~349--379, 2004.
 
-\bibitem{Coeckelbergh2023}
-M.~Coeckelbergh, ``Challenging ai simulacra of ethical deliberation: Some
-  problems of ethicopolitics of algorithms,'' {\em AI and Society}, 2023.
-
 \bibitem{Doris2010}
 J.~M. Doris, M.~P.~R. Group, {\em et~al.}, {\em The moral psychology handbook}.
 \newblock OUP Oxford, 2010.
@@ -291,10 +380,6 @@ M.~C. Nussbaum, {\em Upheavals of Thought: The Intelligence of Emotions}.
 L.~Kohlberg, {\em Essays on Moral Development, Volume I: The Philosophy of
   Moral Development}.
 \newblock San Francisco, CA: Harper and Row, 1981.
-
-\bibitem{Haidt2007}
-J.~Haidt, ``The new synthesis in moral psychology,'' {\em Science}, vol.~316,
-  no.~5827, pp.~998--1002, 2007.
 
 \bibitem{DorisSep2020}
 J.~Doris, S.~Stich, J.~Phillips, and L.~Walmsley, ``{Moral Psychology:
@@ -362,10 +447,6 @@ J.~Graham, J.~Haidt, S.~Koleva, M.~Motyl, R.~Iyer, S.~Wojcik, {\em et~al.},
 \bibitem{Black1972}
 M.~Black, ``The factual and the normative,'' in {\em Human Science and the
   Problem of Values}.
-
-\bibitem{Young2012}
-L.~Young and J.~Dungan, ``Where in the brain is morality? everywhere and maybe
-  nowhere,'' {\em Social neuroscience}, vol.~7, no.~1, pp.~1--10, 2012.
 
 \bibitem{Shenhav2017}
 A.~Shenhav, S.~Musslick, F.~Lieder, W.~Kool, T.~L. Griffiths, J.~D. Cohen, and
@@ -442,10 +523,6 @@ S.~J. Fede and K.~A. Kiehl, ``Meta-analysis of the moral brain: patterns of
 \bibitem{LeDoux1998}
 J.~LeDoux, {\em The Emotional Brain}.
 \newblock Simon and Schuster, 1998.
-
-\bibitem{Phelps2006}
-E.~A. Phelps, ``Emotion and cognition: insights from studies of the human
-  amygdala,'' {\em Annual Review of Psychology}, vol.~57, pp.~27--53, 2006.
 
 \bibitem{Moll2005}
 J.~Moll, R.~de~Oliveira-Souza, P.~J. Eslinger, I.~E. Bramati, J.~C.
@@ -689,11 +766,6 @@ N.~Baumard, J.-B. Andre, and D.~Sperber, ``A mutualistic approach to
 \bibitem{Darwall2006}
 S.~Darwall, {\em The Second-Person Standpoint}.
 \newblock Harvard University Press, 2006.
-
-\bibitem{HaleyFessler2005}
-K.~J. Haley and D.~M.~T. Fessler, ``Nobody's watching? subtle cues affect
-  generosity in an anonymous economic game,'' {\em Evolution and Human
-  Behavior}, vol.~26, no.~3, pp.~245--256, 2005.
 
 \bibitem{ShariffNorenzayan2007}
 A.~F. Shariff and A.~Norenzayan, ``God is watching you: Priming god concepts
@@ -1092,6 +1164,10 @@ R.~Audi, {\em Moral Perception}.
 \bibitem{Hempel1965}
 C.~G. Hempel, ``Aspects of scientific explanation,'' 1965.
 
+\bibitem{McLaren2006}
+B.~M. McLaren, ``Computational models of ethical reasoning: Challenges, initial
+  steps, and future directions,'' {\em IEEE}, 2006.
+
 \bibitem{Kohlberg1969}
 L.~Kohlberg, ``Stage and sequence: The cognitive-developmental approach to
   socialization,'' {\em Handbook of socialization theory and research},
@@ -1160,9 +1236,6 @@ J.~Haidt, {\em The Righteous Mind: Why Good People Are Divided by Politics and
   Religion}.
 \newblock New York: Vintage, 2012.
 
-\bibitem{Dancy2004}
-J.~Dancy, ``Ethics without principles,'' 2004.
-
 \bibitem{Smith1759}
 A.~Smith, {\em The Theory of Moral Sentiments}.
 \newblock Cambridge: Cambridge University Press, 1759.
@@ -1212,10 +1285,6 @@ S.~Krach, F.~Hegel, B.~Wrede, G.~Sagerer, G.~Bente, and T.~Kircher, ``Can
 J.~A. Bargh and T.~L. Chartrand, ``The unbearable automaticity of being.,''
   {\em American psychologist}, vol.~54, no.~7, p.~462, 1999.
 
-\bibitem{Zaki2012}
-J.~Zaki and K.~N. Ochsner, ``The neuroscience of empathy: Progress, pitfalls,
-  and promise,'' {\em Nature Neuroscience}, vol.~15, no.~5, pp.~675--680, 2012.
-
 \bibitem{Ross2002}
 D.~Ross and W.~D. Ross, {\em The right and the good}.
 \newblock Oxford University Press, 2002.
@@ -1238,18 +1307,6 @@ P.~Foot, ``The problem of abortion and the doctrine of double effect', in her
 R.~J. Wallace, ``{Practical Reason},'' in {\em The {Stanford} Encyclopedia of
   Philosophy} (E.~N. Zalta, ed.), Metaphysics Research Lab, Stanford
   University, spring 2020~ed., 2020.
-
-\bibitem{Buon2016}
-M.~Buon, A.~Seara-Cardoso, and E.~Viding, ``Why (and how) should we study the
-  interplay between emotional arousal, theory of mind, and inhibitory control
-  to understand moral cognition?,'' {\em Psychonomic bulletin \& review},
-  vol.~23, pp.~1660--1680, 2016.
-
-\bibitem{Cervantes2020}
-J.-A. Cervantes, S.~L{\'o}pez, L.-F. Rodr{\'\i}guez, S.~Cervantes,
-  F.~Cervantes, and F.~Ramos, ``Artificial moral agents: A survey of the
-  current status,'' {\em Science and Engineering Ethics}, vol.~26, no.~2,
-  pp.~501--532, 2020.
 
 \bibitem{Richardson2018}
 H.~S. Richardson, ``{Moral Reasoning},'' in {\em The {Stanford} Encyclopedia of
@@ -1282,6 +1339,11 @@ A.~Horn, ``On sentences which are true of direct unions of algebras,'' {\em The
 M.~H. Van~Emden and R.~A. Kowalski, ``The semantics of predicate logic as a
   programming language,'' {\em Journal of the ACM (JACM)}, vol.~23, no.~4,
   pp.~733--742, 1976.
+
+\bibitem{Pereira2014}
+A.~Saptawijaya and L.~M. Pereira, ``Towards modeling morality computationally
+  with logic programming,'' in {\em International Symposium on Practical
+  Aspects of Declarative Languages}, pp.~104--119, Springer, 2014.
 
 \bibitem{Honarvar2009}
 A.~R. Honarvar and N.~Ghasem-Aghaee, ``An artificial neural network approach
@@ -1327,17 +1389,6 @@ D.~Howard and I.~Muntean, ``Artificial moral cognition: moral functionalism and
 \bibitem{Pantic2014}
 M.~Pantic and A.~Vinciarelli, ``Social signal processing,'' {\em The Oxford
   handbook of affective computing}, p.~84, 2014.
-
-\bibitem{Decety2008}
-J.~Decety and M.~Meyer, ``From emotion resonance to empathic understanding: A
-  social developmental neuroscience account,'' {\em Development and
-  psychopathology}, vol.~20, no.~4, pp.~1053--1080, 2008.
-
-\bibitem{Whittlestone2019}
-P.~Whittlestone, R.~Nyrup, A.~Alexandrova, and S.~Cave, ``The role and limits
-  of principles in ai ethics: Towards a focus on tensions,'' in {\em
-  Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
-  pp.~195--200, 2019.
 
 \bibitem{Picard2000Book}
 R.~W. Picard, {\em Affective computing}.
