@@ -135,381 +135,345 @@ Nor can artificial agents be treated as carriers or executors of moral values. R
 \noindent
 Once the problem is reframed in this way, the broader picture becomes clear. The limitations of classical Machine Ethics are not failures of logic but failures of explanatory level. Its models operate at a reflective LoA and therefore cannot detect, let alone predict, the cognitive–affective perturbations that empirical research has consistently shown to drive moral behaviour. When the evaluative landscape is foregrounded, the phenomena that appeared mysterious or anomalous under classical formulations become theoretically tractable: synthetic presence exerts moral influence not by embodying values or executing principles, but by reshaping the generative conditions under which moral action emerges.
 
-
-\medskip
 \noindent
-What follows is therefore more than a literature review. It is a reconstruction of the conceptual lineage necessary to render the experimental findings intelligible. The chapter develops a unified framework grounded in four pillars:
-
-\begin{enumerate}
-	\item \textbf{Normative--Philosophical Foundations}: clarifying the role of deontological invariants, consequentialist gradients, virtue-theoretic dispositions, sentimentalist affective vectors, and contractualist justificatory structures—each reconceived through evaluative topology~\cite{Pentland2007,Vinciarelli2009,Picard1997,Decety2004}.
-	\item \textbf{Empirical Moral Psychology}: synthesising dual-process theory, the Social Intuitionist Model, affective tagging, attentional capture, and social modulation as the core mechanisms by which moral salience becomes behaviour.
-	\item \textbf{Social Signal Processing and Affective Computing}: grounding the argument in the extensive evidence that social cues—including gaze, co-presence, morphology, and synthetic embodiment—systematically perturb evaluation, expectation, and action.
-	\item \textbf{Critical Reassessment of Machine Ethics and Computational Morality}: demonstrating why their monolithic, principle-first architectures are methodologically unsound and why any future model of moral behaviour must begin with the structural, field-level properties revealed in this thesis.
-\end{enumerate}
-
-\noindent
-Through this triangulated lens—normative, psychological, and computational—the moral displacement effect demonstrated in the experiment becomes theoretically transparent. Artificial agents do not “make moral decisions” in any traditional sense; instead, they \emph{reshape the evaluative conditions under which humans do}. This chapter situates that insight within the broader intellectual landscape and establishes the theoretical commitments that guide the remainder of the thesis.
-
-
-\noindent
-Social Signal Processing provides the empirical and theoretical bridge that reveals \emph{why} the attenuation observed in the experiment cannot be understood through abstract ethical theory alone. Work on nonverbal regulation of social meaning \cite{Pentland2007,Vinciarelli2012}, anthropomorphisation and norm-perception in HRI \cite{Kuchenbrandt2011,Malle2016,Bremner2022}, and affective appraisal dynamics \cite{Picard1997} shows that human moral behaviour is continuously shaped by \emph{attentional capture, empathic resonance, and perceived social evaluation}. These mechanisms operate at the \emph{cognitive Level of Abstraction} \cite{Floridi2008}---the LoA at which perceptual, affective, and inferential processes modulate the evaluative topology that determines behavioural output. Importantly, this LoA sits \emph{below} the reflective LoA at which ethical theories articulate reasons, duties, or values. The result is a structurally asymmetric architecture: normative principles do not directly cause behaviour; rather, behaviour emerges from the field-like interaction of salience, affect, and social interpretation.
-
-\noindent
-Seen through this lens, the experimental attenuation revealed in Chapter~\ref{chap:experimental_methods} becomes a diagnostic probe into the moral field itself. The humanoid robot does not “apply a principle’’ nor transmit a norm; instead, it subtly transforms the perceptual--social environment in which moral appraisal unfolds. It reshapes the evaluative gradients through which the Watching-Eye cue gains its normative traction. A scientifically credible framework for moral AI must therefore begin from this empirical architecture: the dynamics of salience, affect, embodiment, and co-present social meaning—not from the reflective content of ethical theory. This is the central commitment of the present chapter.
+What follows, then, is not merely a synthesis of existing work but a structural reorganisation of the field. By applying Floridi’s notion of a \emph{Level of Abstraction} \cite{Floridi2008,Floridi2011} to the foundations of Machine Ethics for the first time, the literature review demonstrates that the field has been operating at an explanatory level incapable of capturing the mechanisms that actually generate moral behaviour. Classical approaches begin with reflective ethical theories—deontic logics, utilitarian calculi, virtue templates—and treat these as if they were computational models of moral agency \cite{Bringsjord2006,Anderson2011,Arkin2009,Wallach2008}. Yet moral psychology and affective neuroscience have shown consistently that moral action arises from perceptual salience, affective appraisal, attentional capture, and social meaning \cite{Haidt2001,Greene2001,Decety2004,Crockett2016,Conty2016}. Social Signal Processing and HRI research further reveal that artificial agents perturb precisely these low-level evaluative dynamics \cite{Vinciarelli2009,Kuchenbrandt2011,Malle2016,Zlotowski2015}. 
 
 \medskip
 
 \noindent
-The chapter proceeds by articulating six interlocking arguments that establish the methodological and conceptual ground for a new approach to moral AI:
+Through this reframing, the literature review achieves a clear result: it exposes a fundamental LoA mismatch at the heart of Machine Ethics and shows that no principle-first, rule-codification framework can access the phenomena under investigation. Moral norms operate at a reflective LoA, specifying justificatory relations \cite{Korsgaard1996,Scanlon1998}, whereas moral behaviour is produced at the cognitive LoA through the dynamic interplay of affect, salience, and social interpretation. By bringing these strands together, the review establishes an integrated conceptual framework in which \emph{synthetic presence} becomes intelligible as a perturbation of the evaluative field itself—a theoretical insight that classical Machine Ethics could not formulate, and a necessary foundation for interpreting the empirical results of this thesis.
 
-\begin{enumerate}
-	\item \textbf{Machine Ethics consists of two structurally distinct research programmes}, whose conflation has hindered both scientific progress and philosophical clarity.
-	\item \textbf{Moral psychology reveals a dual-process, affectively embedded cognitive architecture} that is incompatible with treating moral judgement as purely rule-based or propositional.
-	\item \textbf{Classical Machine Ethics fails because it collapses Levels of Abstraction}: it assumes that normative structures at a reflective LoA can serve as computational operators at a cognitive LoA.
-	\item \textbf{Moral behaviour arises from an evaluative topology}, not from internal execution of ethical principles: perception, affect, and social meaning generate the gradients that guide action.
-	\item \textbf{Synthetic presence perturbs this topology in measurable ways}, attenuating prosocial output by deforming the salience field rather than altering explicit reasoning.
-	\item \textbf{A viable programme for moral AI must therefore model how machines reshape human moral experience}, before attempting any normative codification or ethical implementation.
-\end{enumerate}
-
-\medskip
 
 \section{The Two Research Projects in Machine Ethics}
 
 \noindent
-Machine Ethics, as originally formulated by Moor \cite{Moor2006} and developed by Wallach and Allen \cite{Wallach2008}, is not a single unified research field. It is a composite of two methodologically divergent projects whose aims, assumptions, and Levels of Abstraction are frequently confounded. The first, \emph{Human--Machine Ethics}, concerns the normative governance of human behaviour \emph{around} and \emph{in the presence of} artificial systems: agency displacement, accountability, social influence, and moral risk. The second, \emph{Computational Machine Ethics}, attempts to design machines that themselves make morally adequate decisions by embedding ethical theories into computational architectures.
-
-\noindent
-The experimental results of this thesis show that conflating these projects is not merely a conceptual error—it produces empirical blindness. Human--Machine Ethics speaks directly to the phenomenon the experiment uncovers: the modulation of human moral behaviour by artificial co-presence. Computational Machine Ethics largely ignores this modulation, because it begins from the false premise that moral behaviour can be generated by encoding reflective ethical theories.
+Machine Ethics does not constitute a unified field in the way that English literature or molecular biology do. It lacks a single community, a shared methodology, and a cohesive disciplinary core. What the literature refers to as “Machine Ethics” is in fact an umbrella designation for two fundamentally different research programmes that ended up sharing a name. Their conflation is widespread in the literature, yet they operate at distinct Levels of Abstraction \cite{Floridi2008,Floridi2011} and aim to explain different phenomena.
 
 \medskip
 
 \noindent
-Human--Machine Ethics aligns naturally with research in HRI, media psychology, and SSP. Studies on robotic social facilitation \cite{Bremner2022}, anthropomorphic cueing \cite{Kuchenbrandt2011}, norm-perception under artificial observation \cite{Malle2016}, and social attention modulation \cite{Vinciarelli2012} demonstrate that artificial agents influence human moral behaviour even in the absence of explicit interaction. These findings are central to the present thesis: moral environments are \emph{ethically load-bearing} by virtue of their perceptual and affective structure alone. Classical Machine Ethics has never incorporated this fact.
+The first programme is what I call \emph{Human–Machine Ethics}. This strand examines how humans think, feel, and behave in the presence of artificial agents. It encompasses questions of accountability, agency displacement, social influence, norm perception, and moral risk. Its empirical backbone comes from Human–Robot Interaction, media psychology, and Social Signal Processing. Evidence from these domains shows that artificial systems—whether humanoid robots, embodied agents, or even minimally interactive media—systematically modulate attention, empathy, prosociality, and interpersonal expectations merely through their presence \cite{Pentland2007,Vinciarelli2009,Kuchenbrandt2011,Malle2016,Bremner2022,Zlotowski2015}. This research programme aligns directly with the phenomenon investigated in this thesis: the modulation of human moral behaviour by a robot’s silent co-presence.
 
 \medskip
 
 \noindent
-Computational Machine Ethics, by contrast, emerged from attempts to implement ethical theories directly in artificial systems. Deontic logics \cite{Bringsjord2006,Anderson2011}, utilitarian optimisers \cite{Arkin2009}, and virtue-based architectures \cite{Wallach2008} all assume that moral behaviour can be generated by applying normative principles at runtime. Yet this assumption conflicts with decades of empirical evidence showing that human moral cognition is primarily intuitive, affective, and context-sensitive \cite{Haidt2001,Greene2001,Cushman2013}. Attempts to encode ethical theories as computational operators therefore violate LoA discipline: they treat reflective normative content as if it were a psychological mechanism.
+The second programme is \emph{Computational Machine Ethics}. This project attempts to design machines that make ethically adequate decisions by embedding moral theories into computational architectures. Deontic logics, utilitarian optimisation engines, rule-based ethical governors, and virtue-inspired templates all fall under this category \cite{Bringsjord2006,Anderson2011,Arkin2009,Wallach2008,Guarini2006,Allen2005}. The central assumption is that moral behaviour can be generated by applying ethical principles at runtime, often via symbolic inference, constraint satisfaction, or rule execution. In this sense, Computational Machine Ethics treats moral judgement as a reasoning problem rather than as a perceptual–affective process.
 
 \medskip
 
 \noindent
-The experiment demonstrates that this assumption is untenable. Synthetic presence~$\mathscr{R}$ systematically perturbs the evaluative topology that governs intuitive appraisal, attentional salience, empathic resonance, and contextual interpretation. Moral behaviour changes because the \emph{field} changes—not because an abstract principle is executed differently~\cite{Nettle2013,Eckstrom2012}. This insight directly implicates Human--Machine Ethics in the study of moral behaviour under artificial co-presence and reveals the inadequacy of Computational Machine Ethics as a behavioural model.
-
-\noindent
-A scientifically coherent future for moral AI therefore requires recognising that Machine Ethics contains two distinct explanatory projects, operating at different Levels of Abstraction and constrained by different empirical realities. Only by respecting this structural division can normative theory, cognitive science, and computational modelling be brought into principled alignment.
-
-% Interim Conclusion
-\noindent
-Taken together, Sections~\ref{chap:lit_rev}--1 and~2 establish the methodological reorientation that grounds the remainder of this chapter. The analysis of Machine Ethics as two structurally distinct research programmes reveals a foundational misalignment: Computational Machine Ethics operates at an inappropriate Level of Abstraction (LoA), treating reflective normative structures as if they were generative psychological mechanisms, while Human--Machine Ethics has been conceptually underutilised despite its direct relevance to the empirical modulation of moral behaviour. Crucially, the experimental findings in Chapter~\ref{chap:experimental_methods} reinforce this structural diagnosis. A silent, non-agentic robot altered participants’ donation behaviour \emph{even under a strong moral prime} (the Watching-Eye cue), consistent with the robust social-monitoring effects documented across field and laboratory studies \cite{Bateson2006,Haley2005,Dear2019}. These findings demonstrate that synthetic presence reshapes the perceptual--affective conditions under which moral salience becomes action. No framework that models moral behaviour as propositional rule retrieval or principle execution can account for such a field-level deformation.
+The literature routinely conflates these two programmes, as if progress in one automatically informs the other. But they sit at different Levels of Abstraction and answer different explanatory questions: Human–Machine Ethics investigates how artificial systems modulate human evaluative processes, whereas Computational Machine Ethics attempts to construct artificial evaluative systems by formalising normative content.
 
 \medskip
 
 \noindent
-Having clarified the conceptual landscape and identified the methodological failures that motivate a systematic reframing of Machine Ethics, the next step is to specify the theoretical resources required to reconstruct a scientifically grounded model of moral cognition. Sections~3 and~4 therefore articulate the psychological and philosophical commitments that classical Machine Ethics overlooked: the dual-process structure of moral cognition; the cognitive--affective substrate of evaluation; and the LoA discipline that distinguishes reflective justification from cognitive mechanism. These sections also provide the conceptual infrastructure needed to understand \emph{why} the experiment produced a uniform attenuation effect across participants and \emph{why} that attenuation is best interpreted as a deformation of the evaluative topology rather than as a deviation from principle, preference, or conscious moral reasoning.
+The empirical results of this thesis underscore why this distinction is indispensable. Human–Machine Ethics predicts precisely the kind of modulation observed experimentally: even a non-interactive robot can reshape attentional and affective salience, thereby altering the evaluative conditions under which prosocial behaviour is generated \cite{Conty2016,Decety2004,Haidt2001}. Computational Machine Ethics, by contrast, is structurally incapable of recognising such modulation because it presupposes that moral behaviour is produced by reflective, principle-driven reasoning—an assumption contradicted by decades of work in moral psychology and affective neuroscience \cite{Greene2001,Greene2004,Crockett2016,Prinz2007}.
+
+\medskip
+
+\noindent
+Thus, the apparent lack of unity in “Machine Ethics” is not an artefact of interpretation but an accurate reflection of the field’s conceptual structure. The label obscures two independent activities: one empirically grounded, concerned with how humans behave in sociotechnical environments; the other formally oriented, concerned with encoding ethical principles into artificial agents. Without maintaining this distinction, research risks becoming blind to the very phenomenon contemporary AI and robotics force us to confront: that artificial agents, even when passive, \emph{modulate the evaluative field} through which human moral decisions take shape.
+
+\section{A Clarifying Perspective on Where This Work Belongs—and Where the Field Must Go}
+\noindent
+It is tempting to ask where this research “belongs.” Does it fall under Affective Computing, with its emphasis on computational models of emotion \cite{Picard1997}? Does it align with Human–Robot Interaction, where the behavioural consequences of artificial social agents are examined \cite{Kuchenbrandt2011,Malle2016,Bremner2022}? Or does it sit within moral psychology, which has spent decades analysing the cognitive and affective substrates of moral behaviour \cite{Haidt2001,Greene2001,Decety2004,Crockett2016}? Each discipline contributes an essential piece, but none, on its own, provides the conceptual framework needed to understand the phenomenon at stake. For the purposes of this thesis, the disciplinary label is secondary; the primary task is the conceptual clarification that makes the inquiry possible.
+
+\medskip
+
+\noindent
+The central confusion this thesis confronts is not empirical but conceptual. For nearly two decades, work collected under the name “Machine Ethics” has blurred two fundamentally distinct enterprises: understanding how humans behave morally in sociotechnical settings, and designing machines that behave according to encoded ethical theories. These projects occupy different Levels of Abstraction \cite{Floridi2008,Floridi2011}, draw on different forms of evidence, and target different explanatory aims. Treating them as a single field has produced a methodological entanglement in which elegant theories obscure the very phenomena they are meant to illuminate.
+
+\medskip
+
+\noindent
+The distinction becomes clear once the discipline of Levels of Abstraction is applied. Human moral behaviour emerges at the cognitive LoA: it is shaped by perceptual salience, affective resonance, attentional dynamics, and social-cue interpretation \cite{Haidt2001,Greene2004,Decety2004,Conty2016}. Ethical theories—Kantian, utilitarian, contractualist—operate at a reflective LoA concerned with justification rather than generation \cite{Korsgaard1996,Scanlon1998}. When researchers treat high-LoA normative principles as if they were low-LoA psychological mechanisms, the result is not an incomplete theory but an artefact: a framework unable to predict behaviour, accommodate perturbations, or explain modulation phenomena.
+
+\medskip
+
+\noindent
+The experimental findings of this thesis make this point explicit. A humanoid robot with no beliefs, goals, or communicative acts nevertheless alters the evaluative conditions under which humans convert moral perception into prosocial action. Such modulation does not arise from reflective reasoning; it arises from shifts in salience, affective alignment, and attentional orientation \cite{Greene2001,Decety2004,Conty2016}. Any framework that models moral action as rule retrieval, utility computation, or principle execution remains blind to these dynamics because it operates at the wrong LoA.
+
+\medskip
+
+\noindent
+This is why the disciplinary categorisation of the work is not the central issue. The point is not where the research should be filed but what becomes visible once conceptual discipline is restored. Through this lens, the field of Machine Ethics reorganises itself. \emph{Human–Machine Ethics} emerges as an empirically grounded inquiry into how artificial agents modulate human evaluative processes \cite{Vinciarelli2009,Bremner2022,Zlotowski2015}. \emph{Computational Machine Ethics} reveals itself as a reflective programme concerned with principled design, centred on formalisms such as deontic logic \cite{Bringsjord2006,Anderson2011}, utility maximisation \cite{Arkin2009}, and virtue-engineering \cite{Wallach2008}. Both are legitimate, but conflating them obscures the cognitive phenomena that modern AI and robotics bring to the foreground.
+
+\medskip
+
+\noindent
+Clarification, however, is only the first step. Once the LoA distinction is restored, one must ask what research agenda follows. The answer is both more modest and more ambitious than any principle-encoding programme. Moral behaviour is not computed; it is formed. It emerges from a dynamic evaluative field structured by affective gradients, perceptual cues, attentional flows, and socially mediated expectations \cite{Haidt2001,Greene2004,Decety2004,Vinciarelli2009}. Artificial agents—robots, avatars, conversational AIs—modulate this field simply by entering it. A scientifically credible programme for moral AI must therefore begin not with ethics as a set of principles but with the architecture of moral cognition.
+
+\medskip
+
+\noindent
+Three consequences follow immediately. \textbf{First}, empirical grounding becomes non-negotiable. Any model of moral behaviour must integrate findings from moral psychology, affective neuroscience, developmental research, HRI, and Social Signal Processing. A theory that cannot accommodate the influence of gaze, posture, co-presence, or anthropomorphic cues cannot accommodate human moral behaviour \cite{Haley2005,Bateson2006,Conty2016}. \textbf{Second}, artificial agents must be modelled as operators, not reasoners: their role is not to apply rules but to modulate the evaluative conditions under which humans act \cite{Kuchenbrandt2011,Zlotowski2015,Malle2016}. \textbf{Third}, normative theory must be interpreted topologically rather than procedurally: norms specify constraints, gradients, and attractors in the evaluative space through which behaviour flows \cite{Foot2001,Aristotle_nicomachean,Prinz2007}.
+
+\medskip
+
+\noindent
+This reframing also answers the practical question often posed by engineers: what is the actionable takeaway? The takeaway is not a new ethical theory, nor a list of rules to embed in code. It is the recognition that artificial agents shape human moral behaviour not by argument but by presence, not by reasoning but by salience, not by principles but by perceptual modulation. Designing systems without understanding the evaluative field they inhabit is a form of conceptual blindness.
+
+\medskip
+\noindent
+The future of moral AI does not lie in machines that reason like philosophers, but in machines that coexist with humans in ways that can be predicted, understood, and—when necessary—constrained. Any credible programme must therefore begin where moral behaviour itself begins: within the evaluative machinery that transforms perception and affect into action.
+
 
 % Section 3
 \section{Moral Psychology and Moral Philosophy: Cognitive--Affective vs.\ Rationalist--Intuitionist Models}
 
 \noindent
-Any attempt to model moral behaviour---whether human or artificial---must begin from a clear understanding of the psychological architecture through which moral judgment is produced. Decades of empirical work demonstrate that moral cognition is not primarily a matter of propositional reasoning or deliberative inference, but a \emph{dual-process system} in which intuitive, affectively inflected pathways interact with slower, reflective reasoning. The Social Intuitionist Model \cite{Haidt2001}, Greene’s neurocognitive dual-process account \cite{Greene2001,Greene2004,Greene2014}, and Cushman’s action-based inference framework \cite{Cushman2013} converge on a common insight: moral evaluation originates in rapid, affectively loaded appraisals shaped by perceptual salience, empathy, and attentional dynamics. Affective tagging and empathy architectures \cite{Decety2004,Crockett2016} show that moral judgments emerge from mechanisms integrating motivational relevance, value-laden salience, and social meaning long before explicit reasoning becomes operative.
+Once the conceptual confusion is removed, the next step is to examine the machinery that actually produces moral behaviour. Here the empirical story is remarkably consistent. For nearly two decades, work in moral psychology, affective neuroscience, and behavioural science has converged on a single conclusion: moral judgment is not primarily a reasoning task but a \emph{dual-process system}. Fast, intuitive, emotionally charged processes perform the bulk of the causal work. They respond to perceptual salience, attentional capture, empathic resonance, and situational demands \cite{Haidt2001,Greene2001,Greene2004}. Slower, reflective processes intervene later—often to justify, refine, or override the initial intuitive appraisal—but the initial appraisal performs the primary generative role \cite{Cushman2013,Decety2004,Crockett2016}.
 
 \medskip
 
 \noindent
-This cognitive--affective model stands in sharp contrast with the rationalist traditions that have historically informed Machine Ethics. Kantian, utilitarian, and contractualist theories articulate \emph{justificatory structure}: universalisability conditions, value aggregation, or reason-giving relations. These theories operate at a reflective LoA concerned with \emph{why} actions are justifiable, but they do not---and were never intended to---describe \emph{how} moral judgments are generated within actual cognitive systems. As Sidgwick \cite{SidgwickMethods}, Scanlon \cite{Scanlon1998}, and Korsgaard \cite{Korsgaard1996} emphasise, justification belongs to the domain of reflective endorsement, not causal explanation.
+This picture is reinforced by the major theoretical models in the field. Haidt’s Social Intuitionist Model \cite{Haidt2001}, Greene’s neurocognitive dual-process framework \cite{Greene2001,Greene2004,Greene2014}, and Cushman’s action-based inference models \cite{Cushman2013} all converge on the claim that moral evaluation begins with rapid, affectively valenced appraisals long before explicit reasoning is engaged. Neuroscientific findings corroborate this: affective tagging, motivational relevance, empathy circuitry, and social-interpretive processes are recruited early, often prior to conscious deliberation \cite{Moll2002,Decety2004,Conty2016}.
 
 \medskip
 
 \noindent
-Machine Ethics inherited only one side of this philosophical division. By adopting ethical theories as computational templates, it implicitly treated rationalist structures as if they were generative psychological mechanisms. Yet the empirical architecture of moral cognition does not support this view. Moral behaviour is governed by attentional capture, affective resonance, and socially modulated salience \cite{Conty2016,Dear2019,Pfattheicher2015}---precisely the mechanisms perturbed in the experiment. The Watching-Eye effect \cite{Haley2005,Bateson2006,Nettle2013,Eckstrom2012} operates not through rule endorsement but through implicit monitoring, affective vigilance, and social-evaluative sensitivity. This is the cognitive LoA at which empathy, salience, and contextual modulation operate \cite{Decety2004,Greene2014,Moll2002}. The attenuation effect observed in Chapter~\ref{chap:experimental_methods} thus belongs squarely within the cognitive--affective architecture of moral psychology, not within any reflective principle or moral theory.
+This stands in sharp contrast with the philosophical traditions on which classical Machine Ethics has historically relied. Kantian ethics, utilitarian frameworks, and contractualism articulate \emph{justificatory} structures: universalisability conditions, value aggregation procedures, or principles governing the exchange of reasons \cite{Korsgaard1996,Scanlon1998}. They are not intended as accounts of the psychological mechanisms that \emph{produce} moral judgments. As the philosophers themselves emphasise, these theories operate at a reflective Level of Abstraction; they describe the standards by which actions can be defended, not the cognitive architecture through which actions arise.
 
 \medskip
 
 \noindent
-This insight has direct implications for Computational Machine Ethics. If moral cognition fundamentally arises from evaluative salience, attentional modulation, and affective integration, then any computational model that treats moral behaviour as propositional inference or rule execution is descriptively incomplete. The next section articulates the methodological consequences of this fact through the concept of Level-of-Abstraction discipline.
+Machine Ethics, however, adopted only this reflective dimension and treated it as though it described the entire system. It assumed that humans behave morally by applying principles, and that artificial agents could do likewise by encoding those principles directly into computational structures \cite{Bringsjord2006,Anderson2011,Arkin2009,Wallach2008}. But the empirical literature shows decisively that moral behaviour is not generated by rule application. It emerges from a cognitive--affective substrate shaped by salience, emotion, attention, embodiment, and social interpretation.
+
+\medskip
+
+\noindent
+This empirical fact explains why studies of human moral behaviour in context—across HRI, media psychology, and Social Signal Processing—identify recurrent patterns governed by attentional capture, affective resonance, perceived monitoring, and contextual meaning \cite{Pentland2007,Vinciarelli2009,Kuchenbrandt2011,Malle2016}. Consider the Watching-Eye effect: people alter their behaviour when exposed to minimal cues of observation, even a pair of stylised eyes \cite{Haley2005,Bateson2006,Dear2019}. The shift is not the result of endorsed rules but of subtle environmental modulation of evaluative posture.
+
+\medskip
+
+\noindent
+This cognitive level—the level of salience, empathy, vigilance, and contextual modulation—is precisely where moral behaviour is shaped. It is also where the attenuation effect in our experiment resides. The humanoid robot does not reason, speak, or request anything; nonetheless, its silent co-presence perturbs the evaluative field sufficiently to alter prosocial action. This is the cognitive--affective layer in operation, the layer classical Machine Ethics never modelled.
+
+\medskip
+
+\noindent
+What follows from this is analytically unavoidable. If moral behaviour emerges from perceptual salience, affective pull, attentional alignment, and social interpretation, then computational models that treat morality as rule-following or propositional inference are modelling the wrong phenomenon. They are elegant but descriptively incomplete: they capture the reflective Level of Abstraction while missing the cognitive Level of Abstraction entirely.
+
+\medskip
+
+\noindent
+This is why the discussion moves next to Levels of Abstraction. Once the mismatch is recognised, it becomes clear that many of the philosophical debates and engineering efforts in Machine Ethics were conducted at an inappropriate explanatory level from the outset. The remainder of the thesis unpacks the consequences of this realisation and reconstructs a framework in which moral cognition, evaluative topology, and synthetic presence can be understood in principled alignment.
+
+\noindent
+With this distinction in place, the argument can now shift from diagnosing the structural error in classical Machine Ethics to examining the positive framework required to replace it.
 
 % Section 4
 \section{Levels of Abstraction and the Failure of Machine Ethics}
 
 \noindent
-Floridi’s notion of a \emph{Level of Abstraction} (LoA) provides the conceptual apparatus required to diagnose the foundational error in classical Machine Ethics. An LoA specifies the \emph{observables}, the \emph{granularity}, and the \emph{explanatory constraints} appropriate to a given description of a system \cite{Floridi2008,Floridi2011}. Normative theories occupy a high LoA: they articulate justificatory relations, principles of right action, and standards of rational agency. Moral psychology, by contrast, operates at a lower LoA, modelling the mechanisms through which perception, affect, salience, attention, and social meaning generate evaluative trajectories. Treating the former as if it directly governed the latter collapses the boundary between reflective and cognitive explanation.
+The conceptual tool that dissolves much of the confusion in Machine Ethics is Floridi’s notion of a \emph{Level of Abstraction} (LoA) \cite{Floridi2008,Floridi2011}. The idea is structurally simple but analytically powerful: any explanation requires specifying the level at which a system is being described. The LoA determines which variables are observable, the appropriate grain of detail, and the kinds of explanations that can legitimately be offered. Ethical theories operate at a high, reflective LoA: they articulate justificatory structures—principles, universalisation tests, value aggregation procedures, and reason-giving relations \cite{Korsgaard1996,Scanlon1998}. Moral psychology, by contrast, operates at a lower, cognitive LoA: it investigates the mechanisms that \emph{generate} moral judgment, including perceptual salience, affective appraisal, attentional dynamics, and social meaning \cite{Haidt2001,Greene2001,Greene2004,Cushman2013,Decety2004}.
 
 \medskip
 
 \noindent
-Machine Ethics systematically commits this collapse. Deontic architectures \cite{Bringsjord2006,Anderson2011}, utilitarian optimisation systems \cite{Arkin2009}, and virtue-based computational agents \cite{Wallach2008} assume that principles defined at a reflective LoA can serve as \emph{behavioural generators}. Logic-based systems treat moral judgment as derivation; rule-governed architectures treat it as constraint propagation; utility-based systems treat it as maximisation. All presume that moral behaviour is produced by algorithms executing normative content. Empirical cognitive science directly contradicts this assumption: moral behaviour is generated by affective appraisal \cite{Crockett2016}, empathic resonance \cite{Decety2004}, attentional selection \cite{Pfattheicher2015}, and social-contextual modulation \cite{Vinciarelli2012,Haley2005}. These mechanisms constitute the \emph{evaluative topology} within which reasons, norms, and values acquire behavioural force.
+Confusion arises when content belonging to one LoA is treated as if it were the mechanism operating at another. If reflective theories are misread as cognitive architectures, the distinction collapses, and with it the capacity to explain behavioural phenomena. Classical Machine Ethics has repeatedly committed this collapse for nearly two decades. By taking the principles of Kantian, utilitarian, or virtue-theoretic ethics and treating them as if they described the internal processes that produce moral behaviour, the field implicitly assumed that moral agents—human or artificial—act by applying principles \cite{Bringsjord2006,Anderson2011,Arkin2009,Wallach2008}. But these principles occupy the reflective LoA: they explain \emph{why} an action might be defensible, not \emph{how} a moral judgment is generated.
 
 \medskip
 
 \noindent
-The experiment demonstrates the consequences of violating LoA discipline. The Watching-Eye cue introduces a deontic expectation of accountability, yet the behavioural manifestation of this expectation is attenuated by the presence of a silent, non-agentic robot. This perturbation does not occur at the level of explicit reasoning or principle application; it occurs at the level of \emph{salience fields}, \emph{affective gradients}, and \emph{implicit social ontology}. Studies in HRI show that robots alter human social evaluation even in minimal-interaction contexts \cite{Bremner2022,Kuchenbrandt2011,Malle2016,Zlotowski2015,Banks2020}. Studies in SSP show that social cues reshape evaluation and behaviour via perceptual and affective channels \cite{Pentland2007,Vinciarelli2009,Picard1997}. The attenuation observed in the experiment is therefore a paradigmatic case of cross-LoA interference: a reflective norm (accountability) fails to exert its expected behavioural influence because the cognitive LoA at which it is realised has been deformed.
-
-\medskip
-
-\medskip
-\noindent
-\textbf{Interim Synthesis.} The analyses developed in Sections~3 and~4 converge on a single structural insight: classical Machine Ethics begins at the wrong place in the explanatory hierarchy. It treats reflective normative theories—Kantian maxims, utilitarian utilities, virtue-trait encodings, and rule-based constraint systems—as if they were \emph{mechanisms} of moral cognition, thereby collapsing Levels of Abstraction and obscuring the architectures that actually generate moral behaviour. Moral psychology and SSP reveal a different picture: moral action emerges not from the execution of principles but from the dynamic interaction of perceptual salience, affective resonance, attentional capture, embodiment, and social modulation. These low-LoA mechanisms constitute the \emph{evaluative topology} within which reasons, values, and obligations acquire behavioural force.
-
-\noindent
-Seen through this lens, the experiment in Chapter~\ref{chap:experimental_methods} functions as a decisive test case. A silent, non-agentic robot attenuates prosocial donation even in the presence of a strong accountability cue. This attenuation cannot be explained by any model that treats moral behaviour as propositional inference or rule retrieval. Instead, it discloses a deformation of the evaluative field itself: a disruption of empathic salience, a weakening of the Watching-Eye gradient, and a uniform directional shift across dispositional ecologies. The phenomenon is therefore diagnostic not of failed principle-application but of a perturbed cognitive--affective substrate.
+When these reflective principles are used as behavioural generators—as algorithms meant to produce moral action—the resulting models are elegant but fundamentally misaligned with human moral cognition. Real moral behaviour does not follow from propositional logic or rule execution. It emerges from what may be described as the \emph{evaluative topology}: the structured field of salience gradients, affective forces, attentional pathways, and social interpretations that determine what appears morally significant in the moment \cite{Haidt2001,Greene2014,Decety2004,Vinciarelli2009}. These low-level mechanisms—affective appraisal, empathic resonance, vigilance, contextual modulation—form the terrain within which high-level principles even acquire meaning.
 
 \medskip
 
 \noindent
-The thesis therefore adopts a clear and principled stance: \emph{before we can design moral machines, we must understand how machines reshape human moral experience}. Classical Machine Ethics begins at the \emph{wrong end} of the explanatory hierarchy: it starts with reflective normative theory and assumes that these principles can be used as behavioural generators. A scientifically credible programme for moral AI must invert this order. It must first identify the empirical architecture that makes moral behaviour possible; second, model how artificial systems modulate the evaluative field in which that behaviour unfolds; and only then, on this empirically grounded basis, determine what forms of normative oversight or ethical design are justified.
+The experimental findings of this thesis show precisely what happens when LoA discipline is violated. In the Watching-Eye paradigm, the accountability cue ordinarily increases prosocial behaviour \cite{Haley2005,Bateson2006,Dear2019}. Yet when a silent, non-agentic humanoid robot is introduced into the environment, this effect is attenuated. No reasoning, communication, belief, or intention is involved. The modulation arises from presence alone: the robot perturbs the evaluative field by shifting salience, affective alignment, and perceived social ontology \cite{Kuchenbrandt2011,Malle2016,Zlotowski2015}. The accountability cue loses traction not because a principle is misapplied, but because the cognitive substrate on which it depends has been displaced.
 
+\medskip
 
 \noindent
-This reframing provides the conceptual orientation for the remainder of the chapter. The next sections examine the psychological, philosophical, and computational structures that classical Machine Ethics could not accommodate: the cognitive--affective machinery of moral judgment, the topological configuration of evaluative forces, and the cross-LoA perturbations induced by artificial co-presence. These resources form the foundation for a new, empirically grounded and topologically disciplined account of moral behaviour under synthetic presence.
+This synthesis yields a clear conclusion: moral action does not originate in the execution of principles but emerges from the dynamic interaction of perceptual, affective, and social processes. Classical Machine Ethics begins at the wrong point in the explanatory hierarchy. It treats high-level normative theories as if they were low-level cognitive mechanisms and thereby becomes blind to the central phenomenon that contemporary sociotechnical environments introduce: artificial agents modulating human evaluative fields through their mere presence.
 
-% Section 5
+\medskip
+
+\noindent
+The thesis therefore advances a strong and methodologically grounded claim: \emph{before we can design moral machines, we must understand how machines reshape human moral experience}. This requires inverting the traditional order of explanation. The task is not to begin with ethical theory and push downward, but to begin with the empirical architecture of moral cognition, determine how artificial agents perturb it, and only then ask what forms of ethical oversight or design constraint are justified.
+
+\medskip
+
+\noindent
+Once Levels of Abstraction are applied, the path forward becomes clear. We can distinguish coherent questions from incoherent ones, identify which debates were aimed at the wrong level of the system, and recover the conceptual clarity necessary for progress. More than any single empirical result, this restoration of LoA discipline is the tool that allows the broader project of moral AI to proceed in the right direction.
+
+
 \section{Evaluative Topology, Affective Architecture, and Synthetic Moral Perturbation}
 
 \noindent
-If Sections~3 and~4 establish that classical Machine Ethics fails by mislocating moral cognition at the wrong Level of Abstraction, the present section articulates the positive theoretical alternative: a \emph{topological} account of moral behaviour grounded in the cognitive--affective mechanisms identified by empirical psychology and Social Signal Processing. The central claim is that moral behaviour is governed not by the internal execution of principles, but by the dynamic configuration of an \emph{evaluative field}: a structured, multi-dimensional manifold shaped by gradients of salience, affective resonance, attentional pathways, contextual norms, and implicit social meaning. Ethical theories operate within this field as \emph{structural constraints}, not as generative mechanisms.
+If the preceding sections establish that classical Machine Ethics operates at the wrong Level of Abstraction (LoA), the task now is to articulate the positive alternative: a topological account of moral behaviour grounded in the cognitive--affective mechanisms documented in empirical psychology \cite{Haidt2001,Greene2001,Greene2004,Cushman2013,Decety2004,Crockett2016} and in the social-modulatory processes identified by Social Signal Processing and HRI \cite{Pentland2007,Vinciarelli2009,Kuchenbrandt2011,Malle2016,Bremner2022}.  
 
 \medskip
 
 \noindent
-The notion of an evaluative topology synthesises several strands of empirical and philosophical insight. From moral psychology, we inherit the idea that affective and intuitive systems provide the primary route through which motivational salience attaches to moral cues \cite{Haidt2001,Greene2001,Crockett2016}. From SSP and affective computing, we gain the recognition that social cues—including gaze, morphological salience, co-presence, and implicit monitoring—modulate the perceptual filters and affective weights through which situations are evaluated \cite{Pentland2007,Vinciarelli2009,Picard1997}. From philosophy, we draw on the structural character of normative theories: deontological invariants, consequentialist gradients, virtue-based dispositional attractors, sentimentalist affective vectors, and contractualist justificatory equilibria. Reinterpreted through an LoA-sensitive framework, these are not rules to be executed but \emph{roles} played within a larger evaluative topology.
+The central thesis of this section is that moral behaviour does not arise from the execution of encoded principles. Instead, it emerges from the dynamic configuration of an \emph{evaluative field}: a structured, multidimensional landscape shaped by gradients of salience, affective resonance, attentional pathways, contextual norms, and implicit social meaning. Ethical theories operate within this field not as algorithmic generators but as high-LoA structural constraints \cite{Korsgaard1996,Scanlon1998}. Their force depends on how they are realised within the cognitive--affective dynamics through which moral perception becomes moral action.
+
+\subsection{The Evaluative Field}
+
+\noindent
+The notion of an evaluative topology synthesises three major strands of established research.
+
+\medskip
+\noindent
+\textbf{(1) Moral psychology: affect, intuition, appraisal.}  
+Dual-process theory \cite{Greene2001,Greene2004,Greene2014} and the Social Intuitionist Model \cite{Haidt2001} show that moral evaluation begins with rapid, affectively valenced appraisals. Affective tagging, empathic resonance, and motivational relevance are recruited early \cite{Decety2004,Crockett2016,Moll2002}. Attentional capture, perceptual salience, and intuitive heuristics structure the evaluative space long before reflective reasoning is engaged.
+
+\medskip
+\noindent
+\textbf{(2) Social Signal Processing and affective computing: cue modulation.}  
+Work in SSP demonstrates that gaze direction, morphological cues, co-presence, and implicit monitoring reshape attentional and affective weighting long before explicit cognition intervenes \cite{Pentland2007,Vinciarelli2009,Conty2016}. HRI studies confirm that humanoid robots and artificial agents modulate social meaning and perceived agency through mere presence \cite{Kuchenbrandt2011,Malle2016,Zlotowski2015,Bremner2022}.
+
+\medskip
+\noindent
+\textbf{(3) Normative theory: structural constraints.}  
+Philosophical ethics contributes the insight that moral theories provide structural invariants—deontological constraints \cite{Korsgaard1996}, consequentialist gradients, virtue-theoretic attractors \cite{Foot2001,Hursthouse1999}, sentimentalist affective vectors \cite{Prinz2007,Slote2010}, and contractualist justificatory relations \cite{Scanlon1998}. These normative forms define the shape of the evaluative field but do not generate behaviour directly.
 
 \medskip
 
 \noindent
-Within this topological framework, moral behaviour emerges from trajectories through the evaluative manifold. Attention generates local curvature; affect saturates regions of the field with motivational orientation; contextual cues deform or amplify gradients; and implicit social signals modulate the salience of norms, duties, and empathic responses. This framework dissolves the traditional philosophical opposition between rationalist and intuitionist models: rationalist structures become constraints on admissible trajectories, while intuitionist mechanisms determine the field through which those trajectories unfold. It also resolves the computational impasse: behaviour is not produced by any principle-encoding module, but by the system’s real-time navigation through a salience-weighted topology.
+Reinterpreted through LoA-sensitive analysis \cite{Floridi2008,Floridi2011}, these strands form a coherent architecture: high-LoA normative structures supply the constraints; low-LoA cognitive--affective mechanisms determine the trajectories; and social signals reshape the field within which both operate.
 
-\medskip
-
-\noindent
-The experiment presented in Chapter~\ref{chap:experimental_methods} provides a decisive empirical probe into this architecture. The Watching-Eye cue creates a prosocial salience gradient by activating implicit accountability mechanisms \cite{Haley2005,Bateson2006,Pfattheicher2015}. Yet the introduction of a silent, non-agentic robot attenuates this gradient despite the absence of communicative intent or normative instruction. The perturbation arises because the robot’s ambiguous social ontology—perceptually agentic, ontologically indeterminate—reshapes the affective–attentional conditions through which the Watching-Eye cue exerts its effect. In this sense, synthetic presence functions as a \emph{field operator}: it modifies the salience landscape and thus alters the pathways through which moral perception becomes moral action.
-
-\medskip
+\subsection{Moral Behaviour as Trajectory}
 
 \noindent
-Crucially, this perturbation is \emph{layer-sensitive}. The Prosocial--Empathic ecology showed the strongest attenuation because its evaluative topology depends most heavily on empathic resonance and interpersonal salience—the very mechanisms displaced by the robot’s presence. The Analytical--Structured ecology showed moderate attenuation because its field relies more on interpretive stability than affective reactivity; the robot destabilised its sense-making substrate without significantly disrupting affective curvature. The Emotionally Reactive ecology showed minimal change because its evaluative topology lacks stable gradients; perturbation at this LoA therefore produces negligible displacement. These differential effects underscore the central insight: \textit{synthetic presence perturbs the evaluative topology upstream of both principle and trait}.
+Within this topological framework, moral behaviour is best understood as movement through an evaluative manifold.  
 
-\medskip
+\begin{itemize}
+	\item \textbf{Attention} introduces local curvature by amplifying or suppressing cues \cite{Pfattheicher2015}.  
+	\item \textbf{Affect} saturates regions of the field with motivational energy \cite{Crockett2016,Decety2004}.  
+	\item \textbf{Contextual cues} deform gradients, shifting the relative weight of obligations, norms, and expectations \cite{Haidt2001,Nettle2013}.  
+	\item \textbf{Social signals} modulate perceived accountability and interpersonal meaning \cite{Haley2005,Bateson2006,Dear2019}.  
+\end{itemize}
 
 \noindent
-This topological reading clarifies why classical Machine Ethics could not predict the observed phenomenon. Moral behaviour changes not because an encoded principle is misapplied, but because the evaluative field in which principles would acquire force has been deformed. Deontological norms cannot motivate action when the salience of accountability is suppressed; consequentialist gradients flatten when contextual meaning becomes ambiguous; virtue-based dispositions fail to express themselves when affective attractors lose curvature; sentimentalist mechanisms weaken when empathic resonance is displaced; and contractualist justificatory relations dissolve when the perceived social field becomes indeterminate. The experiment thus confirms the central thesis of this section: moral behaviour is \emph{field-sensitive}, and synthetic agents act as \emph{perturbation operators} on the evaluative topology.
+This model dissolves the rationalist–intuitionist divide. Rationalist structures do not compete with intuitive mechanisms; they operate at different LoAs. The reflective domain imposes structural constraints, while the cognitive--affective domain determines how the system actually moves within those constraints \cite{Greene2014,Scanlon1998}.
 
-\medskip
+\subsection{Synthetic Presence as Field Operator}
 
 \noindent
-Evaluative topology therefore provides the structural bridge needed to integrate normative theory, empirical psychology, and computational modelling. It offers a principled account of how high-LoA normative structures interface with low-LoA cognitive--affective machinery and explains why synthetic presence can reshape moral behaviour without expressing beliefs, intentions, or normative content. This sets the stage for the final section, which synthesises the chapter’s arguments into a unified model of machine-mediated moral cognition.
+The experiment presented in Chapter~\ref{chap:exp_methods} provides an empirical probe into this architecture. The Watching-Eye cue ordinarily induces a prosocial salience gradient via implicit social monitoring \cite{Haley2005,Bateson2006}.  
+
+\noindent
+Yet the introduction of a silent, non-agentic robot attenuates this gradient. The effect does not originate in reasoning or principle-application. It arises from a deformation of the evaluative field itself. The robot’s ambiguous social ontology—perceptually agentic but ontologically indeterminate—reshapes the affective and attentional conditions through which the Watching-Eye cue acquires behaviour-guiding force \cite{Kuchenbrandt2011,Malle2016,Zlotowski2015}. In this sense, synthetic presence acts as a \emph{field operator}: its mere co-presence modifies the salience landscape and alters the trajectory from moral perception to moral action.
+
+\medskip
+\noindent
+Crucially, the perturbation is \emph{disposition-sensitive}.  
+\begin{itemize}
+	\item The \textbf{Prosocial--Empathic ecology} exhibits the strongest attenuation, reflecting its dependence on empathic resonance and interpersonal salience—the very mechanisms displaced by synthetic presence.  
+	\item The \textbf{Analytical--Structured ecology} shows moderate attenuation, consistent with reliance on interpretive coherence rather than affective pull.  
+	\item The \textbf{Emotionally Reactive ecology} shows minimal change, as its evaluative landscape lacks stable gradients onto which perturbation could anchor.  
+\end{itemize}
+
+\noindent
+These differential effects underscore the core insight: synthetic presence perturbs moral behaviour \emph{upstream} of principle, trait, and deliberation.
+
+\subsection{Topology and the Limits of Machine Ethics}
+
+\noindent
+This topological analysis explains why classical Machine Ethics could not predict the observed phenomenon. Moral behaviour under synthetic presence does not change because a rule is misapplied or because deliberation fails. It changes because the evaluative field in which principles acquire force has shifted.
+
+\begin{itemize}
+	\item Deontological norms lose traction when accountability salience collapses \cite{Bateson2006,Pfattheicher2015}.  
+	\item Consequentialist gradients flatten when contextual meaning becomes ambiguous \cite{Nettle2013,Ekstrom2012}.  
+	\item Virtue-theoretic dispositions cannot express themselves when affective attractors weaken \cite{Hursthouse1999,Foot2001}.  
+	\item Sentimentalist mechanisms fade when empathic resonance is displaced \cite{Prinz2007,Slote2010}.  
+	\item Contractualist justificatory relations dissolve when the perceived social field becomes indeterminate \cite{Scanlon1998}.  
+\end{itemize}
+
+\noindent
+The experiment therefore confirms the structural thesis: moral behaviour is field-sensitive, and synthetic agents act as perturbation operators on the evaluative topology.
+
+\subsection{Toward a Unified Framework}
+
+\noindent
+The concept of evaluative topology provides precisely the integrative framework that Machine Ethics has lacked. It offers the structural bridge linking normative theory, empirical psychology, and computational modelling. It clarifies how high-LoA normative structures interface with low-LoA cognitive--affective mechanisms, and why artificial agents can reshape moral action without expressing beliefs, intentions, or normative content.
+
+\noindent
+This framework completes the foundational turn of the thesis. The subsequent chapters build on this topological architecture to formalise a general model of machine-mediated moral cognition—one in which artificial systems are not ethical reasoners but modulators of the evaluative conditions through which moral meaning gains behavioural expression.
+
 
 % Section 6
 \section{Integrative Synthesis: Toward a Cognitive--Affective Model of Machine-Mediated Morality}
 
 \noindent
-The analyses developed across Sections~1--5 point toward a unified account of moral behaviour under synthetic presence. Classical Machine Ethics fails because it begins with reflective normative theories and assumes that these can serve as behavioural generators. Moral psychology shows that moral behaviour emerges from a cognitive--affective architecture defined by salience, attention, empathy, and contextual modulation. SSP and HRI demonstrate that artificial agents modulate these mechanisms even in the absence of interaction. Evaluative topology integrates these insights by representing moral behaviour as the product of trajectories through a salience-weighted, affectively structured evaluative field. The experiment reveals that synthetic presence perturbs this field, deforming the conditions under which moral salience becomes action.
+The analyses developed across this chapter converge on a unified account of moral behaviour under artificial co-presence. Classical Machine Ethics begins with reflective normative theories and treats them as behavioural generators \cite{Bringsjord2006,Anderson2011,Arkin2009}. Moral psychology shows that moral action instead emerges from a cognitive--affective architecture grounded in salience, attention, empathy, and contextual modulation \cite{Haidt2001,Greene2001,Cushman2013}. Work in HRI and SSP demonstrates that artificial agents modulate these mechanisms through minimal social cues \cite{Vinciarelli2009,Malle2016,Kuchenbrandt2011,Zlotowski2015}. Evaluative topology integrates these insights by modelling moral behaviour as trajectories through a salience-weighted, affectively structured field. The experiment confirms this: synthetic presence perturbs the evaluative field upstream of deliberation, thereby attenuating prosocial action.
 
 \medskip
 
 \noindent
-This integrated framework yields three core claims that define the thesis’s contribution to the philosophy of moral AI:
+Three core conclusions follow from the literature:
 
 \begin{enumerate}
-	\item \textbf{Moral behaviour is generatively rooted in the cognitive LoA.}  
-	Reflective ethical theories articulate justificatory structure, but moral action emerges from cognitive--affective dynamics. Ethical norms acquire behavioural force only when the evaluative field enables them to do so.
+	\item \textbf{Moral behaviour is generated at the cognitive LoA.}  
+	Reflective ethical theories articulate standards of justification \cite{Korsgaard1996,Scanlon1998}, but empirical work shows that behaviour is produced by low-LoA affective and social mechanisms \cite{Greene2001,Decety2004,Conty2016}. Norms gain behavioural force only when the evaluative field affords it.
 	
 	\item \textbf{Artificial agents reshape the evaluative field before they act within it.}  
-	Studies in HRI and SSP \cite{Malle2016,Kuchenbrandt2011,Bremner2022,Zlotowski2015,Pentland2007,Vinciarelli2009} show that synthetic presence modulates attention, empathy, and social meaning. The experiment confirms that these perturbations are sufficient to attenuate moral behaviour even when normative content remains unchanged.
+	SSP and HRI research indicates that presence alone modulates attention, empathy, vigilance, and perceived social meaning \cite{Pentland2007,Vinciarelli2009,Kuchenbrandt2011,Bremner2022}. The experimental attenuation effect confirms this literature-driven prediction.
 	
-	\item \textbf{A scientifically credible programme for moral AI must begin with evaluative topology, not normative codification.}  
-	The field must reverse the methodological order: start with the empirical structure of moral cognition; analyse how artificial systems modulate this structure; and only then determine how normative oversight or ethical design may be justified. Computational systems cannot generate moral behaviour by executing principles unless the evaluative field has the curvature required to make such principles operative.
+	\item \textbf{A viable programme for moral AI must begin with evaluative topology.}  
+	The literature shows that computational systems cannot generate moral behaviour through principle execution alone \cite{Wallach2008,Arkin2009}. Normative codification must be constrained by a model of the cognitive--affective architecture through which moral behaviour is actually formed.
 \end{enumerate}
 
-\medskip
-
 \noindent
-This synthesis reframes the foundational commitments of moral AI research. Artificial systems should not be conceptualised as bearers of ethical rules or evaluative principles; they should be modelled as \emph{operators on the evaluative field} in which human moral cognition unfolds. The experiment demonstrates that even minimal robotic presence deforms salience gradients, attenuates empathic resonance, and weakens interpersonal accountability cues. These perturbations occur at the cognitive LoA, far upstream of explicit reasoning or reflective endorsement.
+These claims collectively reframe the foundational commitments of moral AI. Artificial systems cannot be conceptualised merely as executors of moral rules; they must be understood as \emph{operators on the evaluative field} within which human moral cognition unfolds. Synthetic presence deforms salience gradients, attenuates empathic resonance, and weakens accountability cues—perturbations that occur far upstream of explicit reasoning.
 
 \medskip
-
-\noindent
-The result is a conceptual and methodological paradigm shift: \emph{moral AI must be grounded in the science of moral cognition, not in the logic of ethical theory}. Synthetic moral perturbation is not an anomaly; it is the natural consequence of a multi-layered architecture in which perceptual salience, affective openness, and contextual interpretation shape the pathways through which moral meanings become moral actions. Evaluative topology provides the theoretical vocabulary needed to describe this architecture, diagnose its vulnerabilities, and design artificial systems that stabilise rather than distort the moral field.
-
-\medskip
-
-\noindent
-With this framework in place, the final part of the thesis articulates a global synthesis: a unified model of moral perturbation and ethical interpretation that consolidates the normative, psychological, and topological analyses developed across the project.
 
 % Section 7
 \section{Global Synthesis: From Inferential Displacement to Synthetic Moral Topology}
 
 \noindent
-The literature reviewed across this chapter establishes a series of convergent 
-insights that collectively redefine the conceptual landscape for thinking about 
-moral behaviour under artificial co-presence. Rather than offering isolated conclusions from discrete subfields, the evidence forms a coherent picture: 
+The literature reviewed in this chapter reveals a coherent picture: moral judgment and action arise from a cognitively embedded, affectively structured, socially modulated evaluative field \cite{Haidt2001,Greene2001,Decety2004,Vinciarelli2009}. Ethical theories supply reflective standards, but they do not generate behaviour; cognitive architecture does. Artificial agents participate in this architecture by shaping salience, affect, and perceived social meaning \cite{Malle2016,Bremner2022}.
 
-"\textit{moral judgement and moral action emerge from a cognitively embedded, affectively structured, socially modulated evaluative field.}" 
-
-Ethical theories supply 
-reflective standards, but they do not generate behaviour; cognitive architecture 
-does. Artificial agents, even when minimally interactive, participate in this 
-architecture by modulating salience, affect, attention, and perceived social 
-meaning. These insights, taken together, provide the intellectual foundation on 
-which the remainder of the thesis builds.
-
-\subsection*{From Question to Framework: A Literature-Grounded Progression}
+\subsection{From Question to Framework}
 
 \noindent
-The guiding research question that motivates the empirical work of the thesis---%
-whether synthetic presence can perturb the inferential transformation through 
-which moral salience becomes action---arises directly from unresolved tensions 
-in the literature. Classical Machine Ethics assumes that moral behaviour follows 
-from the execution of encoded principles \cite{Bringsjord2006,Anderson2011}. 
-Moral psychology shows that it does not \cite{Haidt2001,Greene2001,Cushman2013}. 
-Social cognition and SSP demonstrate that social cues modulate moral behaviour 
-via attentional capture and affective appraisal 
-\cite{Pentland2007,Vinciarelli2009,Conty2016}. HRI studies reveal that artificial 
-agents trigger many of these same modulations 
-\cite{Kuchenbrandt2011,Malle2016,Bremner2022}. Yet these strands have not been 
-integrated into a unified account capable of explaining \emph{how} artificial 
-co-presence reshapes moral behaviour.
+The guiding research question—whether synthetic presence can perturb the inferential transformation through which moral salience becomes action—emerges naturally from unresolved tensions in the literature. Machine Ethics assumes that behaviour follows from principle execution \cite{Bringsjord2006,Anderson2011}; moral psychology shows it does not \cite{Haidt2001,Cushman2013}. SSP reveals that social cues modulate evaluative processes \cite{Pentland2007,Vinciarelli2009}. HRI shows that artificial agents evoke these cues through minimal presence \cite{Kuchenbrandt2011,Malle2016}. Yet these strands have rarely been synthesised.
+
+\subsection{Why a Multi-Hypothesis Framework Was Needed}
 
 \noindent
-The inferential displacement question is therefore not merely a research 
-convenience; it emerges as the \emph{necessary organising problem} at the nexus 
-of these literatures, where normative theory, moral psychology, computational 
-modelling, and social robotics intersect.
-
-\subsection*{Why a Multi-Hypothesis Framework Was Needed}
-
-\noindent
-The transition from a single research question to a structured hypothesis set is 
-mandated by the heterogeneity of mechanisms identified in the literature. 
-Existing research suggests at least three theoretically distinct pathways through 
-which artificial agents may modulate moral behaviour:
-
+The literature identifies three distinct mechanisms through which artificial agents may modulate moral behaviour:
 \begin{enumerate}
-	\item \textbf{Evaluative deformation:}  
-	Studies on gaze cues, reputation systems, and social monitoring show that 
-	attentional and affective gradients can be reshaped by subtle cues 
-	\cite{Haley2005,Bateson2006,Pfattheicher2015}. This literature suggests that 
-	synthetic presence may alter the curvature of the evaluative field.
-	
-	\item \textbf{Synthetic normativity:}  
-	Research in HRI demonstrates that artificial agents can acquire quasi-normative 
-	status by virtue of their perceived social ontology 
-	\cite{Zlotowski2015,Kuchenbrandt2011,Malle2016}. This literature suggests that 
-	robots may introduce new justificatory expectations without explicit agency.
-	
-	\item \textbf{Perturbation of inferential pathways:}  
-	Neurocognitive and affective models show that moral judgements rely on the 
-	integration of empathic resonance, attentional selection, and contextual 
-	interpretation \cite{Decety2004,Greene2014}. Artificial presence may displace 
-	these pathways by introducing competing social signals.
+	\item \textbf{Evaluative deformation} via shifts in salience, monitoring, and affective weighting \cite{Haley2005,Bateson2006,Pfattheicher2015}.
+	\item \textbf{Synthetic normativity} arising from the perceived social ontology of robots \cite{Zlotowski2015,Kuchenbrandt2011,Malle2016}.
+	\item \textbf{Perturbation of inferential pathways} through displacement of empathy, attention, or contextual interpretation \cite{Decety2004,Greene2014}.
 \end{enumerate}
 
 \noindent
-The literature therefore requires a multi-hypothesis framework: different domains 
-predict different modes of perturbation, and no single mechanism is sufficient to 
-explain the range of modulations documented in HRI, SSP, and moral psychology.
+No single mechanism captures the phenomenon; a multi-hypothesis framework is required to align the interdisciplinary evidence.
 
-\subsection*{Theoretical Implications from the Literature Alone}
+\subsection{What the Literature Alone Establishes}
 
 \noindent
-When synthesised, the reviewed evidence supports three high-level claims about 
-moral behaviour under artificial co-presence—claims that follow from \emph{the 
-	literature itself}, independent of any empirical findings of the present thesis:
+Across the reviewed domains, three findings are robust:
 
 \begin{enumerate}
-	\item \textbf{Moral behaviour is field-sensitive.}  
-	Decades of work in moral psychology, affective neuroscience, and social 
-	cognition show that moral action emerges from a structured evaluative field 
-	defined by salience, attention, affect, and context 
-	\cite{Greene2001,Haidt2001,Decety2004}.
-	
-	\item \textbf{Artificial agents modulate this field.}  
-	HRI and SSP research demonstrate that artificial co-presence reshapes social 
-	meaning, perceived accountability, empathic stance, and attentional allocation 
-	\cite{Malle2016,Bremner2022,Vinciarelli2012,Zlotowski2015}. Artificial systems 
-	therefore participate in the cognitive LoA rather than the normative one.
-	
-	\item \textbf{Machine Ethics, as traditionally formulated, cannot model this modulation.}  
-	Encoding ethical principles at the reflective LoA cannot account for 
-	cognitive--affective modulation at the perceptual LoA 
-	\cite{Wallach2008,Arkin2009}. The literature makes clear that moral behaviour 
-	cannot be generated, predicted, or regulated solely by propositional structures.
+	\item \textbf{Moral behaviour is field-sensitive}, emerging from salience, affect, attention, and contextual cues \cite{Greene2001,Haidt2001,Decety2004}.
+	\item \textbf{Artificial agents modulate this field} by altering social meaning, vigilance, and empathic stance \cite{Malle2016,Bremner2022,Vinciarelli2012}.
+	\item \textbf{Classical Machine Ethics cannot model this modulation}, because principle-based formalisms ignore the cognitive LoA where behaviour is actually generated \cite{Wallach2008,Arkin2009}.
 \end{enumerate}
 
 \noindent
-These points converge on a pivotal conclusion: a viable framework for moral AI 
-must be grounded not in the normative \emph{content} of ethical theories but in 
-the \emph{structural dynamics} of the evaluative field.
-
-\subsection*{Conceptual Synthesis Box (Reframed as Literature-Driven)}
-
-\begin{center}
-	\begin{tcolorbox}[colback=white,colframe=black!60,
-		title=Conceptual Synthesis: Why Prosocial Behaviour Is the Right Lens for Moral Modulation Studies]
-		Across moral psychology, social cognition, HRI, and SSP, converging evidence 
-		shows that prosocial behaviour is the behavioural endpoint of a cognitive--affective 
-		architecture that transforms moral salience into action. Social cues, attentional 
-		signals, empathic triggers, and embodied co-presence modulate this architecture 
-		continuously. Because moral cognition is inherently practical, perturbations to its 
-		perceptual, affective, or interpretive components manifest most reliably in 
-		behavioural output. This literature therefore establishes prosocial action as a 
-		methodologically robust proxy for detecting how artificial co-presence reshapes 
-		the evaluative field in which moral meaning becomes behaviourally operative.
-	\end{tcolorbox}
-\end{center}
-
-\subsection*{Final Literature-Grounded Transition}
+From this, a literature-driven conclusion follows: a viable framework for moral AI must be grounded not in normative content but in the structural dynamics of the evaluative field.
 
 \noindent
-Through this synthesis, the chapter completes the theoretical task appropriate to 
-a literature review: it maps the conceptual space, identifies structural tensions, 
-and isolates the explanatory gaps that motivate empirical investigation. The 
-review establishes that understanding moral behaviour under artificial co-presence 
-requires an integrated framework grounded in cognitive architecture, affective 
-dynamics, social signalling, and Level-of-Abstraction discipline. This framework 
-sets the stage for the empirical analysis that follows, providing both the 
-theoretical motivation and the interpretative resources required to examine how 
-synthetic presence modulates the evaluative conditions under which moral 
-perception becomes moral action.
+The literature review exposes a categorical error at the foundation of classical Machine Ethics. Across two decades of work, the same misalignment recurs: principles drawn from ethical theory—Kantian universalisability tests, utilitarian utilities, virtue-theoretic templates—are treated as if they were the psychological mechanisms that generate moral behaviour \cite{Bringsjord2006,Anderson2011,Arkin2009,Wallach2008}. Yet the literature makes clear that these operate at fundamentally different Levels of Abstraction. Reflective norms articulate \emph{conditions of justification} \cite{Korsgaard1996,Scanlon1998}; cognitive--affective systems explain \emph{behavioural production} \cite{Haidt2001,Greene2001,Cushman2013}. Frameworks that collapse these levels cannot predict or explain human moral behaviour, particularly under synthetic presence. The review makes this structural failure explicit.
 
-
-\bigskip
-
-\begin{center}
-	\begin{tcolorbox}[colback=white,colframe=black!60,
-		title=Literature-Driven Conclusion: Why Moral Behaviour Must Be Studied as a Field-Sensitive Phenomenon]
-		The interdisciplinary literature reviewed in this chapter converges on a 
-		single structural insight: \emph{moral behaviour cannot be explained by 
-			principle-based models alone}. Across moral psychology, social cognition, 
-		developmental studies, HRI, and Social Signal Processing, converging 
-		evidence shows that moral action emerges from the interaction of 
-		perceptual salience, affective appraisal, attentional modulation, 
-		embodied cues, and socially mediated meaning. Ethical theories provide 
-		reflective standards for justification, but the \emph{production} of moral 
-		behaviour arises at a lower Level of Abstraction—within a cognitive–
-		affective evaluative field shaped by context, embodiment, and social 
-		signals. 
-		
-		This literature reveals three core commitments that guide the remainder 
-		of the thesis: (i) moral behaviour is generated by field-like structures 
-		of evaluation rather than by the execution of encoded principles; 
-		(ii) artificial agents, even when passive or minimal in appearance, can 
-		reshape these fields by altering attentional, affective, and social 
-		conditions; and (iii) a scientifically credible framework for moral AI 
-		must therefore begin from an empirically grounded model of moral 
-		cognition, not from the direct implementation of normative theory.
-		
-		These commitments reposition Machine Ethics within a broader 
-		scientific landscape: moral behaviour must be analysed as 
-		\emph{field-sensitive}, \emph{contextually modulated}, and 
-		\emph{cognitively grounded}. Any artificial system capable of influencing 
-		human decision-making thereby participates—intentionally or not—in the 
-		structural conditions under which moral salience becomes action. 
-		Understanding this participation is the central task that motivates the 
-		chapters that follow.
-	\end{tcolorbox}
-\end{center}
-
+\medskip
 
 \noindent
-Through this synthesis, the chapter completes the theoretical arc that began with the research question of inferential displacement. It demonstrates that synthetic agents reshuffle the very conditions under which moral salience becomes action, and it establishes the empirical and philosophical foundation on which the remainder of the thesis builds its general theory of moral perturbation.
+The review also reveals a neglected architecture: moral cognition emerges from an evaluative field shaped by affect, salience, and social signalling. When empirical findings are placed side by side—across moral psychology \cite{Haidt2001,Greene2004}, affective neuroscience \cite{Decety2004,Crockett2016}, Social Signal Processing \cite{Pentland2007,Vinciarelli2009}, and Human--Robot Interaction \cite{Kuchenbrandt2011,Malle2016,Bremner2022}—a convergent picture becomes visible. Moral judgments originate in rapid, affect-laden appraisal; attentional dynamics determine which cues become morally salient; social signals such as gaze, posture, and co-presence modulate evaluative weighting; and explicit reasoning intervenes only downstream. This interdisciplinary convergence exposes a unified evaluative architecture that classical Machine Ethics never incorporated and could not accommodate.
+
+\medskip
+
+\noindent
+Finally, the review identifies the theoretical gap that motivates the experiment. Once the evaluative architecture is made explicit, a precise, previously unformulated question emerges: \emph{can synthetic presence perturb the evaluative field upstream of explicit moral reasoning?} No existing Machine Ethics framework even poses this question, because none operate at the LoA where such perturbations occur. The literature review therefore performs an essential scientific function: it isolates the causal layer in which moral behaviour is generated and shows that current models fail to explain modulation at this level. The empirical study is designed explicitly to probe this gap.
+
+\medskip
+
+\noindent
+In short, the literature review demonstrates that the field has been asking the wrong questions at the wrong level of abstraction; it identifies the level at which the genuine causal machinery of moral behaviour operates; and it isolates the precise phenomenon requiring empirical investigation. It clears the conceptual ground on which the remainder of the thesis rests and provides the foundation for a new account of moral behaviour under synthetic presence. In this project, the literature review is not merely preparatory; it constitutes the first scientific result.
+
