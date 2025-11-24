@@ -18,7 +18,7 @@ A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 12613 items from 5000.
+Reallocated field_info (elt_size=4) to 11946 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -215,10 +215,6 @@ Repeated entry---line 4651 of file /home/francesco/Desktop/research/appunti/refe
  : @article{Vinciarelli2012
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4661 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @article{Scherer2009
- :                     ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 4671 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Miller2001
  :                    ,
@@ -242,10 +238,6 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 4714 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Picard1997
  :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4721 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @article{Evans2008
- :                   ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 4730 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Cushman2013
@@ -299,29 +291,9 @@ Repeated entry---line 5101 of file /home/francesco/Desktop/research/appunti/refe
  : @book{Tomasello2016
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5155 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @book{Batson2011
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5162 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @article{FehrGachter2002
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5171 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @article{Henrich2005
- :                     ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 5181 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Tomasello2016
  :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5188 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @article{Warneken2015
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5198 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @article{Baumard2013
- :                     ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5208 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Crockett2016
@@ -366,10 +338,6 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 5388 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Anderson2011
  :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5409 of file /home/francesco/Desktop/research/appunti/reference.bib
- : @book{WallachAllen2009
- :                       ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5530 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Pentland2007
@@ -455,10 +423,11 @@ Repeated entry---line 6265 of file /home/francesco/Desktop/research/appunti/refe
  : @inproceedings{Bender2021
  :                          ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Mendez2009"
+Repeated entry---line 6333 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Rammstedt2007
+ :                       ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Cushman2013ValueIntegration"
-Warning--I didn't find a database entry for "Roeser2018"
-Warning--I didn't find a database entry for "Wallace1999"
 Warning--I didn't find a database entry for "Hofree2018"
 Warning--I didn't find a database entry for "Mori2020"
 Warning--I didn't find a database entry for "Klimecki2013"
@@ -481,50 +450,49 @@ Warning--I didn't find a database entry for "GriffithsBeake2022"
 Warning--I didn't find a database entry for "Mill1863"
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
-Warning--can't use both author and editor fields in HumeTreatise
-Warning--can't use both author and editor fields in HumeEnquiry
 Warning--can't use both volume and number fields in Anderson2007
+Warning--can't use both author and editor fields in HumeTreatise
 Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
-You've used 307 entries,
+You've used 281 entries,
             1876 wiz_defined-function locations,
-            2260 strings with 49139 characters,
-and the built_in function-call counts, 82123 in all, are:
-= -- 8679
-> -- 2453
+            2136 strings with 46503 characters,
+and the built_in function-call counts, 75570 in all, are:
+= -- 7974
+> -- 2291
 < -- 0
-+ -- 965
-- -- 658
-* -- 5414
-:= -- 11141
-add.period$ -- 393
-call.type$ -- 307
-change.case$ -- 237
++ -- 896
+- -- 615
+* -- 5011
+:= -- 10261
+add.period$ -- 357
+call.type$ -- 281
+change.case$ -- 221
 chr.to.int$ -- 0
-cite$ -- 314
-duplicate$ -- 4401
-empty$ -- 8124
-format.name$ -- 658
-if$ -- 20444
+cite$ -- 287
+duplicate$ -- 4045
+empty$ -- 7445
+format.name$ -- 615
+if$ -- 18798
 int.to.chr$ -- 0
-int.to.str$ -- 307
-missing$ -- 382
-newline$ -- 1010
-num.names$ -- 316
-pop$ -- 962
+int.to.str$ -- 281
+missing$ -- 345
+newline$ -- 922
+num.names$ -- 290
+pop$ -- 876
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2917
+skip$ -- 2695
 stack$ -- 0
-substring$ -- 5885
-swap$ -- 1840
+substring$ -- 5412
+swap$ -- 1696
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 7
-while$ -- 894
-width$ -- 310
-write$ -- 3104
-(There were 109 error messages)
+warning$ -- 6
+while$ -- 820
+width$ -- 284
+write$ -- 2845
+(There were 102 error messages)
