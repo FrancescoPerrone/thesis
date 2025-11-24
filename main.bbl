@@ -324,57 +324,28 @@ A.~Pentland, ``Social signal processing [exploratory dsp],'' {\em IEEE Signal
 R.~W. Picard, {\em Affective Computing}.
 \newblock MIT Press, 1997.
 
-\bibitem{Vinciarelli2012}
-A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing:
-  Understanding social interactions through nonverbal behavior,'' {\em IEEE
-  Signal Processing Magazine}, vol.~29, no.~6, pp.~42--52, 2012.
+\bibitem{Hursthouse1999}
+R.~Hursthouse, {\em On Virtue Ethics}.
+\newblock Oxford: Oxford University Press, 1999.
 
-\bibitem{Eckstrom2012}
-M.~Ekstr{\"o}m, ``Do watching eyes affect charitable giving? evidence from a
-  field experiment,'' {\em Experimental Economics}, vol.~15, no.~3,
-  pp.~530--546, 2012.
+\bibitem{Slote2010}
+M.~Slote, {\em Moral Sentimentalism}.
+\newblock Oxford: Oxford University Press, 2010.
 
 \bibitem{Pfattheicher2015}
 S.~Pfattheicher and J.~Keller, ``The watching eyes phenomenon: The role of a
   sense of being seen and public self-awareness,'' {\em European Journal of
   Social Psychology}, vol.~45, no.~5, pp.~560--566, 2015.
 
-\bibitem{Banks2020}
-J.~Banks, ``Theory of mind in social robots: replication of five established
-  human tests,'' {\em International Journal of Social Robotics}, vol.~12,
-  no.~2, pp.~403--414, 2020.
+\bibitem{Ekstrom2012}
+M.~Ekstr{\"o}m, ``Do watching eyes affect charitable giving? evidence from a
+  field experiment,'' {\em Experimental Economics}, vol.~15, no.~3,
+  pp.~530--546, 2012.
 
-\bibitem{Floridi2010}
-L.~Floridi, {\em Information: A Very Short Introduction}.
-\newblock Oxford: Oxford University Press, 2010.
-
-\bibitem{Floridi2013}
-L.~Floridi, {\em The Ethics of Information}.
-\newblock Oxford: Oxford University Press, 2013.
-
-\bibitem{Hare1981}
-R.~M. Hare, {\em Moral Thinking: Its Levels, Method, and Point}.
-\newblock Oxford University Press, 1981.
-
-\bibitem{Deigh2010}
-J.~Deigh, {\em An introduction to ethics}.
-\newblock Cambridge University Press, 2010.
-
-\bibitem{FloridiSanders2004}
-L.~Floridi and J.~W. Sanders, ``On the morality of artificial agents,'' {\em
-  Minds and Machines}, vol.~14, no.~3, pp.~349--379, 2004.
-
-\bibitem{Doris2010}
-J.~M. Doris, M.~P.~R. Group, {\em et~al.}, {\em The moral psychology handbook}.
-\newblock OUP Oxford, 2010.
-
-\bibitem{Doris2002}
-J.~M. Doris, {\em Lack of Character: Personality and Moral Behavior}.
-\newblock Cambridge University Press, 2002.
-
-\bibitem{Nussbaum2001}
-M.~C. Nussbaum, {\em Upheavals of Thought: The Intelligence of Emotions}.
-\newblock Cambridge, UK: Cambridge University Press, 2001.
+\bibitem{Vinciarelli2012}
+A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing:
+  Understanding social interactions through nonverbal behavior,'' {\em IEEE
+  Signal Processing Magazine}, vol.~29, no.~6, pp.~42--52, 2012.
 
 \bibitem{Kohlberg1981}
 L.~Kohlberg, {\em Essays on Moral Development, Volume I: The Philosophy of
@@ -395,10 +366,6 @@ R.~Joyce, {\em The Evolution of Morality}.
 M.~Tomasello, {\em A Natural History of Human Morality}.
 \newblock Harvard University Press, 2016.
 
-\bibitem{Hursthouse1999}
-R.~Hursthouse, {\em On Virtue Ethics}.
-\newblock Oxford: Oxford University Press, 1999.
-
 \bibitem{Hooker2000}
 B.~Hooker and M.~O. Little, {\em Moral Particularism}.
 \newblock Oxford, UK: Oxford University Press, 2000.
@@ -410,6 +377,23 @@ G.~E.~M. Anscombe, {\em Intention}.
 \bibitem{Korsgaard2009}
 C.~Korsgaard, {\em Self-Constitution: Agency, Identity, and Integrity}.
 \newblock Oxford, UK: Oxford University Press, 2009.
+
+\bibitem{Annas2011}
+J.~Annas, {\em Intelligent Virtue}.
+\newblock Oxford: Oxford University Press, 2011.
+
+\bibitem{Doris2010}
+J.~M. Doris, M.~P.~R. Group, {\em et~al.}, {\em The moral psychology handbook}.
+\newblock OUP Oxford, 2010.
+
+\bibitem{Nussbaum2001}
+M.~C. Nussbaum, {\em Upheavals of Thought: The Intelligence of Emotions}.
+\newblock Cambridge, UK: Cambridge University Press, 2001.
+
+\bibitem{Bicchieri2016}
+C.~Bicchieri, {\em Norms in the Wild: How to Diagnose, Measure, and Change
+  Social Norms}.
+\newblock New York: Oxford University Press, 2016.
 
 \bibitem{GoodwinDarley2008MetaEthics}
 G.~P. Goodwin and J.~M. Darley, ``The psychology of meta-ethics: Exploring
@@ -444,9 +428,21 @@ J.~Graham, J.~Haidt, S.~Koleva, M.~Motyl, R.~Iyer, S.~Wojcik, {\em et~al.},
   ``Moral foundations theory: The pragmatic validity of moral pluralism,'' {\em
   Advances in Experimental Social Psychology}, vol.~47, pp.~55--130, 2013.
 
+\bibitem{Doris2002}
+J.~M. Doris, {\em Lack of Character: Personality and Moral Behavior}.
+\newblock Cambridge University Press, 2002.
+
 \bibitem{Black1972}
 M.~Black, ``The factual and the normative,'' in {\em Human Science and the
   Problem of Values}.
+
+\bibitem{Deigh2010}
+J.~Deigh, {\em An introduction to ethics}.
+\newblock Cambridge University Press, 2010.
+
+\bibitem{Hare1981}
+R.~M. Hare, {\em Moral Thinking: Its Levels, Method, and Point}.
+\newblock Oxford University Press, 1981.
 
 \bibitem{Shenhav2017}
 A.~Shenhav, S.~Musslick, F.~Lieder, W.~Kool, T.~L. Griffiths, J.~D. Cohen, and
@@ -709,6 +705,10 @@ M.~Alfano, ``Expanding the situationist challenge: Virtue ethics and the
 P.~Railton, ``Moral learning: Conceptual foundations and normative relevance,''
   {\em Cognition}, vol.~167, pp.~172--190, 2017.
 
+\bibitem{FloridiSanders2004}
+L.~Floridi and J.~W. Sanders, ``On the morality of artificial agents,'' {\em
+  Minds and Machines}, vol.~14, no.~3, pp.~349--379, 2004.
+
 \bibitem{Coeckelbergh2020}
 M.~Coeckelbergh, {\em AI Ethics}.
 \newblock MIT Press, 2020.
@@ -943,6 +943,11 @@ B.~E. Hilbig, A.~Gl{\"o}ckner, and I.~Zettler, ``Personality and prosocial
   behavior: Linking basic traits and social value orientations,'' {\em Journal
   of Personality and Social Psychology}, vol.~105, no.~3, pp.~469--484, 2013.
 
+\bibitem{Banks2020}
+J.~Banks, ``Theory of mind in social robots: replication of five established
+  human tests,'' {\em International Journal of Social Robotics}, vol.~12,
+  no.~2, pp.~403--414, 2020.
+
 \bibitem{PfattheicherKeller2015}
 S.~Pfattheicher and J.~Keller, ``The watching eyes phenomenon: The role of a
   sense of being seen and public self-awareness,'' {\em European Journal of
@@ -952,11 +957,6 @@ S.~Pfattheicher and J.~Keller, ``The watching eyes phenomenon: The role of a
 Y.~Kawamura and T.~Kusumi, ``The norm-dependent effect of watching eyes on
   donation,'' {\em Evolution and Human Behavior}, vol.~38, no.~5, pp.~659--666,
   2017.
-
-\bibitem{Ekstrom2012}
-M.~Ekstr{\"o}m, ``Do watching eyes affect charitable giving? evidence from a
-  field experiment,'' {\em Experimental Economics}, vol.~15, no.~3,
-  pp.~530--546, 2012.
 
 \bibitem{Senju2008}
 A.~Senju and G.~Csibra, ``Gaze following in human infants depends on
@@ -1075,6 +1075,14 @@ A.~Waytz, J.~Cacioppo, and N.~Epley, ``Who sees human? the stability and
 \bibitem{Dennett1987}
 D.~C. Dennett, {\em The Intentional Stance}.
 \newblock Cambridge, MA: MIT Press, 1987.
+
+\bibitem{Floridi2010}
+L.~Floridi, {\em Information: A Very Short Introduction}.
+\newblock Oxford: Oxford University Press, 2010.
+
+\bibitem{Floridi2013}
+L.~Floridi, {\em The Ethics of Information}.
+\newblock Oxford: Oxford University Press, 2013.
 
 \bibitem{Emery2000}
 N.~J. Emery, ``The eyes have it: The neuroethology, function and evolution of
@@ -1223,10 +1231,6 @@ N.~S. Govindarajulu and S.~Bringsjord, ``On automating the doctrine of double
   effect,'' {\em Philosophical Transactions of the Royal Society A}, vol.~375,
   no.~2103, p.~20160119, 2017.
 
-\bibitem{Annas2011}
-J.~Annas, {\em Intelligent Virtue}.
-\newblock Oxford: Oxford University Press, 2011.
-
 \bibitem{McDowell1979}
 J.~McDowell, ``Virtue and reason,'' {\em The Monist}, vol.~62, no.~3,
   pp.~331--350, 1979.
@@ -1240,10 +1244,6 @@ J.~Haidt, {\em The Righteous Mind: Why Good People Are Divided by Politics and
 A.~Smith, {\em The Theory of Moral Sentiments}.
 \newblock Cambridge: Cambridge University Press, 1759.
 \newblock Edited by D. D. Raphael and A. L. Macfie (1976 edition).
-
-\bibitem{Slote2010}
-M.~Slote, {\em Moral Sentimentalism}.
-\newblock Oxford: Oxford University Press, 2010.
 
 \bibitem{Nichols2004}
 S.~Nichols, {\em Sentimental Rules: On the Natural Foundations of Moral

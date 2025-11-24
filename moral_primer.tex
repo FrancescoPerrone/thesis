@@ -1,4 +1,4 @@
-\chapter{MORALITY PRIMER FOR COMPUTER SCIENTISTS}
+\chapter{Cognitive–Affective Architecture of Moral Judgment}
 \label{chap:moral_primer}
 \thispagestyle{pprintTitle}
 
@@ -9,35 +9,124 @@
 \renewcommand{\epigraphflush}{flushleft}
 \renewcommand{\sourceflush}{flushright}
 
-%
-%
-\section{Why This Chapter Exists}
-Research in human--robot interaction, affective computing, and artificial intelligence routinely engages with moral concepts. Yet technical treatments of morality often rely on folk-theoretical assumptions, intuitive definitions, or operational proxies that lack philosophical and psychological grounding. 
+The conceptual apparatus developed in this chapter is not an ornamental introduction to moral theory. It is the minimum set of distinctions required to make the research question itself intelligible. The project asks:
 
-In Floridi’s framework, a \textit{Level of Abstraction} (LoA) denotes the set of observables, modelling choices, and epistemic constraints under which a system is described and analysed \cite{Floridi2010, Floridi2011}. An LoA determines what counts as information, what distinctions can be made, and which questions are meaningful within a given descriptive or normative domain. Crucially, different LoAs support different inferential structures: a psychological LoA describes cognitive regularities, a normative LoA prescribes what agents \emph{ought} to do, and these cannot be interchanged without committing a methodological error \cite{Floridi2013, Mingers2014, Jongsma2016}. Attending to LoAs therefore provides the conceptual machinery needed to diagnose the kinds of confusions that arise when technical research invokes moral terminology without theoretical grounding.
+\bigskip
+\noindent
+\begin{center}
+	\begin{leftbar}
+		\textit{Can the mere presence of a synthetic, non-agentic entity perturb the inferential 
+			transformation through which morally salient cues are converted into observable moral 
+			behaviour?}
+	\end{leftbar}
+\end{center}
 
-Against this background, two systematic conceptual errors. First, \emph{category mistakes}: treating morality as a set of externally codifiable rules, conflating ethical norms with behavioural conventions, or assuming that computational tractability licenses normative reduction \cite{Hare1981, Deigh2010}. Second, \emph{level-of-abstraction confusions}: importing normative notions into descriptive models, or conversely, construing psychological regularities as ethical principles \cite{Floridi2010, Floridi2013}.
+\bigskip
+\noindent
 
-Both errors impair empirical interpretation in human–robot interaction and distort theoretical proposals in Machine Ethics, where the distinction between \emph{moral agency}, \emph{normative impact}, and \emph{behavioural modulation} is frequently collapsed \cite{FloridiSanders2004, Coeckelbergh2023}. Without a precise account of what constitutes a moral judgment, how such judgments differ from other evaluative processes, and how moral cognition interacts with affective and social mechanisms, researchers risk mischaracterising the very phenomena they aim to measure or engineer.
 
-The purpose of this chapter is therefore clarificatory. It provides a rigorous, minimally sufficient conceptual primer tailored to computer scientists and engineers. The chapter does not advance normative arguments, nor does it attempt to resolve ethical debates. Its aim is to supply the conceptual scaffolding required for understanding the empirical and theoretical contributions that follow. The framework adopted here positions moral cognition as an \textit{action-guiding} evaluative process, situated within a broader cognitive–affective ecology \cite{Doris2010, Doris2002, Nussbaum2001}. This orientation ensures that later discussions---especially those concerning moral perturbation under robotic presence---rest upon analytically coherent foundations rather than inherited ambiguities.
+that is to say whether the mere presence of a synthetic agent can alter the trajectory by which human beings transform a morally salient perception into a morally relevant action. Such a question does not belong to the domain of ethical theory; it belongs to the domain of moral cognition.
 
-\section{What Morality Means}
+To address it, one must understand the cognitive–affective substrate in which moral judgments are formed, weighted, and enacted. The behaviour observed in the experiment does not arise at the level of explicit reasoning, rule application, or reflective justification. It arises upstream, within the processes that determine what becomes salient, how empathic resonance is allocated, which cues are attended to, and how the felt sense of accountability is modulated. These are the mechanisms through which moral evaluation becomes behaviourally operative; without a precise understanding of them, the central phenomenon of this thesis is not only unexplained but incorrectly described.
 
-\subsection{Descriptive and Normative Domains}
+Reflective moral theories---Kantian maxims, utilitarian calculus, contractualist reasoning---do not operate at this level. They articulate justificatory relations, not generative mechanisms. They tell us why an action may be defensible, not how the human cognitive system produces the behaviour in the
+first place \cite{Korsgaard1996,Scanlon1998,SidgwickMethods}. For this reason, any attempt to explain the experimental effect by appealing to ethical principles is methodologically misaligned. 
 
-The term ``morality'' spans at least two analytically distinct domains. The first is \emph{descriptive morality}: the empirical study of how humans form moral judgments, experience moral emotions, and engage in normatively salient actions. This includes developmental psychology \cite{Kohlberg1981}, social–cognitive models \cite{Haidt2007, DorisSep2020}, affective neuroscience \cite{Moll2002, Decety2004}, and evolutionary accounts of cooperation and prosociality \cite{Joyce2006, Tomasello2016}. The second is \emph{normative morality}: the domain of ethical theorising concerned with how one ought to act. This domain encompasses deontological, consequentialist, contractualist, and virtue-theoretic traditions \cite{Hursthouse1999, Hooker2000, Anscombe1957, Korsgaard2009}.
+It begins at a Level of Abstraction that the phenomenon does not inhabit \cite{Floridi2008,Floridi2011}.
+
+What is required instead is an account of moral cognition as an action-guiding evaluative process: a process in which affect, attention, salience, social interpretation, and contextual meaning jointly determine how moral cues acquire behavioural force. A large body of work in moral psychology and cognitive neuroscience demonstrates that these mechanisms---affective appraisal, empathic
+resonance, intuitive evaluation, and attentional modulation---constitute the causal substrate of moral judgment \cite{Haidt2001,Greene2001,Greene2004,Cushman2013,Decety2004,Crockett2016}. Only within such a framework can the influence of synthetic presence be meaningfully specified. Without it, the
+experimental result risks being mischaracterised as a change in moral belief or a failure of deliberation, when in fact it is a perturbation of the evaluative field that precedes both~\cite{Conty2016,Nettle2013,Pfattheicher2015}.
+
+The purpose of this chapter is therefore clarificatory in the strictest sense. It isolates the cognitive--affective mechanisms that constitute the causal substrate of moral behaviour; it distinguishes them from the reflective structures of ethical theory; and it establishes the Level of Abstraction at
+which the research question resides \cite{Floridi2008,Floridi2011}.
+
+By doing so, it provides the conceptual conditions under which the empirical findings of the thesis can be correctly interpreted. The experiment does not test principles, preferences, or doctrines. It tests the stability of the evaluative machinery through which moral meaning becomes action. Understanding that machinery is the only way to understand the phenomenon under investigation.
+
+This is why the chapter must take the form it does.
+Not to broaden the discussion of morality, but to focus it precisely at the level where the phenomenon of synthetic moral perturbation arises.
+
+
+A recurring theme across the reviewed literature is that failures in Machine Ethics stem from two related errors: \emph{category mistakes} and \emph{LoA conflation}. 
+
+Category mistakes arise when reflective normative principles are
+treated as if they described the psychological mechanisms that generate moral behaviour; LoA conflation occurs when descriptive cognitive regularities are mistaken for normative constraints or vice versa \cite{Floridi2008,Floridi2011}. Both errors follow from neglecting the fact that justificatory structures live at
+a high Level of Abstraction, whereas moral behaviour is produced at a lower, cognitive--affective LoA documented in moral psychology and social cognition~\cite{Haidt2001,Greene2004,Decety2004}. 
+
+Recognising these distinctions is methodologically essential: without LoA discipline, interpretive models of
+moral perturbation become confused, and empirical findings—such as the attenuation effects examined in this thesis (Chapter~\ref{chap:exp_methods})—risk being mischaracterised as
+failures of reasoning rather than as deformations of the evaluative field.
+
+\section{Descriptive and Normative Domains}
+
+The term ``morality'' spans at least two analytically distinct domains. The first is \emph{descriptive morality}: 
+
+
+\bigskip
+\noindent
+\begin{center}
+	\begin{leftbar}
+		\textit{the empirical study of how humans form moral judgments, experience moral emotions, and engage in normatively salient actions.}
+	\end{leftbar}
+\end{center}
+
+\bigskip
+\noindent
+
+ This includes developmental psychology \cite{Kohlberg1981}, social–cognitive models \cite{Haidt2007, DorisSep2020}, affective neuroscience \cite{Moll2002, Decety2004}, and evolutionary accounts of cooperation and prosociality \cite{Joyce2006, Tomasello2016}. 
+ 
+ The second is \emph{normative morality}: 
+ 
+ \bigskip
+ \noindent
+ \begin{center}
+ 	\begin{leftbar}
+ 		\textit{the domain of ethical theorising concerned with how one ought to act.}
+ 	\end{leftbar}
+ \end{center}
+ 
+ \bigskip
+ \noindent
+ 
+This domain encompasses deontological, consequentialist, contractualist, and virtue-theoretic traditions \cite{Hursthouse1999, Hooker2000, Anscombe1957, Korsgaard2009}.
 
 These domains are distinct but interdependent. Descriptive accounts illuminate how agents actually evaluate and respond to situations, while normative theories articulate standards for justified action. Empirical models of moral cognition acquire meaning partly through the normative vocabulary within which moral judgments are articulated, while normative theories must remain constrained by what agents are psychologically capable of performing or understanding.
 
-In this thesis, the primary focus remains on \emph{descriptive} moral cognition, though normative materials are used to clarify the structure and function of moral judgment. The distinction is maintained rigorously to prevent importing normative assumptions into empirical constructs or misinterpreting behavioural outcomes as moral prescriptions.
+The distinction between descriptive and normative morality is introduced at this point in the chapter because it provides the final conceptual boundary required before the empirical and theoretical analysis can proceed. Without it, two serious confusions would arise—each of which would undermine the scientific aims of the project.
 
+First, moral terminology in technical disciplines is often used ambiguously. Words like obligation, responsibility, harm, or trust are employed as if their meaning were self-evident, yet researchers oscillate unconsciously between describing how agents in fact behave and prescribing how they ought to behave. This sliding between domains produces conceptual instability: experimental findings are mistaken for ethical insights, and normative claims are misinterpreted as empirical predictions.
+
+Second, the research question of this thesis is strictly descriptive: \textit{Can synthetic presence alter the evaluative processes through which humans convert moral perception into moral action?}
+
+To answer this question, the project must operate within the empirical domain of moral psychology. If this boundary is not explicitly marked, the analysis risks drifting into normative interpretation—treating behavioural attenuation as moral deficiency, or treating reflective theories as mechanistic explanations.
+
+The descriptive–normative distinction therefore performs a crucial clarificatory function:
+
+\noindent
+The distinction identifies the \textbf{level at which the thesis operates}. The aim is not to determine what people \emph{should} do in the presence of robots, but to explain what \emph{does} happen within the cognitive--affective architecture when artificial agents enter the evaluative field. Such phenomena require descriptive tools: models of attention, salience, empathy, and social meaning—not principles or moral doctrines \cite{Haidt2001,Greene2004,Decety2004,Pfattheicher2015,Conty2016}. 
+
+\noindent
+Second, the distinction prevents the \textbf{misinterpretation of empirical findings} as moral judgments. If a robot’s presence reduces prosocial behaviour, this is a psychological effect, not a moral failure. It does not imply that agents have acted wrongly or that the robot has transgressed any ethical boundary. It reflects a perturbation in the evaluative machinery that gives moral cues their behavioural force \cite{Haley2005,Bateson2006,Dear2019,Kuchenbrandt2011,Malle2016}. 
+
+\noindent
+Third, the distinction isolates the \textbf{causally relevant components of morality} for the experiment. The mechanisms at stake—affective resonance, accountability salience, attentional modulation—belong entirely to descriptive cognition \cite{Decety2004,Crockett2016,Vinciarelli2009,Conty2016}. Normative theories are indispensable for understanding the structure of moral reasoning, but they do not generate behaviour \cite{Scanlon1998,Korsgaard1996,SidgwickMethods}. Keeping the domains separate ensures that the phenomenon is examined at the correct Level of Abstraction \cite{Floridi2008,Floridi2011}. 
+
+\noindent
+Finally, the distinction prepares the ground for \textbf{integrating normative theory later without conceptual confusion}. Normative materials will reappear, not as behavioural engines, but as structural constraints within the evaluative topology—deontic invariants, consequentialist gradients, virtue-theoretic attractors, sentimentalist vectors, and contractualist equilibria~\cite{Greene2014,Foot2001,Hursthouse1999,Annas2011}. This reinterpretation is only possible once descriptive and normative domains have been clearly disentangled.
+
+\noindent
+In sum, the distinction is introduced here because it secures the conceptual boundary conditions of the thesis. It establishes the domain in which the claims are made, prevents methodological conflation, and ensures that the phenomenon under investigation—moral perturbation under synthetic presence—is analysed at the level where it actually occurs. The orientation of the thesis is therefore precise: moral cognition is the object of study; normative theory provides the vocabulary of justification; and coherence requires that these domains remain distinct.
+
+
+The project now turns to a minimal operational definition of morality. This may appear abrupt, but its placement at this point in the chapter is deliberate. The preceding sections established the conceptual boundaries required to analyse moral cognition without collapsing distinct Levels of Abstraction or importing normative assumptions into descriptive models. Having drawn these boundaries, the thesis now requires a definition precise enough to guide empirical and theoretical analysis, yet modest enough to avoid the philosophical commitments associated with substantive normative theories.
 
 \subsection{Why Definitions Vary}
 
-There is no single universally accepted definition of morality. Divergence arises because different research programmes emphasise different components of the moral domain: cognitive mechanisms \cite{Doris2010}, affective systems \cite{Nussbaum2001}, normative reasoning \cite{Korsgaard2009}, social norms \cite{Bicchieri2016}, or evolutionary functions \cite{Joyce2006, Tomasello2016}. Philosophical traditions likewise disagree on whether morality is grounded in rationality, sentiment, virtue, utility, social contracts, or evolutionary pressures.
+There is no single universally accepted definition of morality, and this plurality is neither accidental nor superficial. Different research programmes emphasise different elements of the moral domain. Cognitive approaches foreground the mechanisms by which agents form evaluative judgments \cite{Doris2010}; affective traditions emphasise the emotional systems that underpin moral concern \cite{Nussbaum2001}; rationalist accounts privilege normative reasoning \cite{Korsgaard2009}; social-scientific models attend to conventions and cultural norms \cite{Bicchieri2016}; evolutionary frameworks focus on the adaptive functions of cooperation and prosociality \cite{Joyce2006,Tomasello2016}. Philosophical traditions likewise diverge in grounding morality in rationality, sentiment, virtue, utility, social contracts, or evolutionary pressures.
 
-Computational treatments often default to rule-based perspectives not because such accounts reflect human cognition but because they are structurally convenient to implement. This convenience has contributed to misleading interpretations of moral behaviour as rule following~\cite{GoodwinDarley2008MetaEthics, Haidt2001, Henrich2005CrossCultural, Cushman2013DualSystem}, and has encouraged oversimplified models of moral decision-making~\cite{Mikhail2007UMG, Narvaez2005, Narvaez2008Triune, Crockett2016Models, YoungWaytz2013Review, Graham2013MFT}. A primary goal of this chapter is to replace such inherited simplifications with a framework grounded in contemporary moral psychology and cognitive science.
+Computational treatments often inherit only one strand of this diversity. They default to rule-based perspectives not because such models accurately describe human moral cognition, but because they are structurally convenient to implement \cite{Bringsjord2006,Anderson2011,Arkin2009,Wallach2008}. This convenience has encouraged the misleading interpretation of moral behaviour as rule following and has fostered oversimplified models of moral decision-making that obscure the cognitive–affective architecture through which real moral judgments are produced \cite{Haidt2001,Greene2001,Cushman2013,Decety2004}.
+
+A primary aim of this chapter is therefore corrective: to replace these inherited simplifications with a framework grounded in contemporary moral psychology, cognitive science, and social-signal research \cite{Pentland2007,Vinciarelli2009,Conty2016}. Only such a framework can support the empirical and conceptual analysis required by the research question.
 
 
 \subsection{Minimal Operational Definition for This Thesis}

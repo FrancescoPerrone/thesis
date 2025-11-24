@@ -18,7 +18,7 @@ A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 12682 items from 5000.
+Reallocated field_info (elt_size=4) to 12613 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -455,9 +455,6 @@ Repeated entry---line 6265 of file /home/francesco/Desktop/research/appunti/refe
  : @inproceedings{Bender2021
  :                          ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Mingers2014"
-Warning--I didn't find a database entry for "Jongsma2016"
-Warning--I didn't find a database entry for "Bicchieri2016"
 Warning--I didn't find a database entry for "Mendez2009"
 Warning--I didn't find a database entry for "Cushman2013ValueIntegration"
 Warning--I didn't find a database entry for "Roeser2018"
@@ -491,43 +488,43 @@ Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
 You've used 307 entries,
             1876 wiz_defined-function locations,
-            2265 strings with 49196 characters,
-and the built_in function-call counts, 82290 in all, are:
-= -- 8702
+            2260 strings with 49139 characters,
+and the built_in function-call counts, 82123 in all, are:
+= -- 8679
 > -- 2453
 < -- 0
 + -- 965
 - -- 658
-* -- 5429
-:= -- 11160
-add.period$ -- 392
+* -- 5414
+:= -- 11141
+add.period$ -- 393
 call.type$ -- 307
-change.case$ -- 238
+change.case$ -- 237
 chr.to.int$ -- 0
 cite$ -- 314
-duplicate$ -- 4409
-empty$ -- 8134
+duplicate$ -- 4401
+empty$ -- 8124
 format.name$ -- 658
-if$ -- 20485
+if$ -- 20444
 int.to.chr$ -- 0
 int.to.str$ -- 307
-missing$ -- 381
-newline$ -- 1009
+missing$ -- 382
+newline$ -- 1010
 num.names$ -- 316
-pop$ -- 957
+pop$ -- 962
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2930
+skip$ -- 2917
 stack$ -- 0
-substring$ -- 5917
-swap$ -- 1848
+substring$ -- 5885
+swap$ -- 1840
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 897
+while$ -- 894
 width$ -- 310
-write$ -- 3106
+write$ -- 3104
 (There were 109 error messages)
