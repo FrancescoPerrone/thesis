@@ -27,190 +27,177 @@
 \contentsline {section}{\numberline {3.1}Descriptive and Normative Domains}{31}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Why Definitions Vary}{33}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Minimal Operational Definition for This Thesis}{34}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Judgments: Factual and Normative}{34}{section.3.2}%
-\contentsline {section}{\numberline {3.3}The Structure of Moral Judgments}{35}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Psychological and Neuroscientific Foundations of Moral Decision-Making}{36}{subsection.3.3.1}%
-\contentsline {paragraph}{Affective and Value-Based Systems.}{37}{paragraph*.7}%
-\contentsline {paragraph}{Social-Cognitive and Interpretive Systems.}{37}{paragraph*.8}%
-\contentsline {paragraph}{Executive and Action-Guidance Systems.}{37}{paragraph*.9}%
-\contentsline {paragraph}{Functional Integration and Practical Orientation.}{38}{paragraph*.10}%
-\contentsline {paragraph}{From Moral Architecture to Perturbation by Synthetic Agents.}{38}{paragraph*.11}%
-\contentsline {paragraph}{Philosophical Synthesis: Rational, Virtuous, and Intuitive Moral Minds.}{41}{paragraph*.12}%
-\contentsline {paragraph}{Concluding Perspective: Why This Matters for the Thesis.}{41}{paragraph*.13}%
-\contentsline {section}{\numberline {3.4}Dual-Process Architectures in Moral Cognition}{42}{section.3.4}%
-\contentsline {paragraph}{Intuitive and Affective Processes.}{43}{paragraph*.14}%
-\contentsline {paragraph}{Controlled and Deliberative Processes.}{43}{paragraph*.15}%
-\contentsline {paragraph}{Dynamic Integration.}{44}{paragraph*.16}%
-\contentsline {section}{\numberline {3.5}The Social Intuitionist Model}{44}{section.3.5}%
-\contentsline {paragraph}{Primacy of Intuition.}{45}{paragraph*.17}%
-\contentsline {paragraph}{Reason as Interpersonal.}{45}{paragraph*.18}%
-\contentsline {paragraph}{Relevance to Synthetic Presence.}{45}{paragraph*.19}%
-\contentsline {paragraph}{Synthetic Presence and Social Perturbation.}{46}{paragraph*.20}%
-\contentsline {section}{\numberline {3.6}Prosocial Behaviour as Moral Action}{46}{section.3.6}%
-\contentsline {paragraph}{Why Prosocial Behaviour Serves as a Proxy for Moral Action.}{47}{paragraph*.21}%
-\contentsline {paragraph}{Relevance for Synthetic Perturbation.}{48}{paragraph*.22}%
-\contentsline {paragraph}{Concluding Perspective: Why This Matters for the Thesis.}{49}{paragraph*.23}%
-\contentsline {chapter}{\numberline {4}Measurement Framework and Experimental Design}{50}{chapter.4}%
-\contentsline {section}{\numberline {4.1}The Role of Psychometric Tools in the Evaluative–Topological Architecture}{52}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Why These Tools: Methodological Criteria and Alignment with the Thesis}{54}{section.4.2}%
-\contentsline {paragraph}{(1) Cross-paradigmatic relevance.}{55}{paragraph*.24}%
-\contentsline {paragraph}{(2) Topological relevance.}{55}{paragraph*.25}%
-\contentsline {paragraph}{(3) Stability and interpretability.}{55}{paragraph*.26}%
-\contentsline {section}{\numberline {4.3}The Empathizing Quotient (EQ): Affective Resonance as a Moral Vector Field}{56}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Historical and Theoretical Foundations}{56}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Psychometric Validation and Cross-Cultural Work}{57}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Empirical Applications Across Disciplines}{57}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Critiques and Methodological Limitations}{57}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Relevance to the Evaluative--Topological Framework}{58}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}EQ Within the Evaluative-Topological Framework}{58}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}EQ in HRI and Moral Cognition Research}{59}{subsection.4.3.7}%
-\contentsline {subsection}{\numberline {4.3.8}Why EQ Matters}{59}{subsection.4.3.8}%
-\contentsline {section}{\numberline {4.4}The Systemizing Quotient (SQ): Structural Evaluation and the Precision of Moral Gradients}{60}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Historical Origins and Theoretical Motivation}{60}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Psychometric Validation and Cross-Cultural Findings}{61}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Empirical Uses Across Psychology, Neuroscience, and Behavioural Science}{61}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Critiques and Limitations}{61}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}SQ Within the Evaluative--Topological Framework}{62}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}SQ, Synthetic Presence, and Behavioural Perturbation}{62}{subsection.4.4.6}%
-\contentsline {subsection}{\numberline {4.4.7}Why SQ Matters}{63}{subsection.4.4.7}%
-\contentsline {section}{\numberline {4.5}The Big Five Inventory (BFI): Personality Geometry and Moral Topology}{64}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Historical Development and Theoretical Foundations}{64}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Psychometric Strength and Cross-Contextual Validity}{64}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Personality Predictors of Moral Behaviour}{65}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}BFI in Social Cognition, SSP, and HRI}{65}{subsection.4.5.4}%
-\contentsline {subsection}{\numberline {4.5.5}Personality Geometry Within the Evaluative--Topological Framework}{66}{subsection.4.5.5}%
-\contentsline {subsection}{\numberline {4.5.6}BFI, Perturbation, and the Interpretation of Uniform Attenuation}{66}{subsection.4.5.6}%
-\contentsline {subsection}{\numberline {4.5.7}Critiques, Limitations, and Relevance to the Thesis}{67}{subsection.4.5.7}%
-\contentsline {subsection}{\numberline {4.5.8}Cluster Semantics and BFI Geometry}{67}{subsection.4.5.8}%
-\contentsline {section}{\numberline {4.6}The Watching-Eye Paradigm: Moral Salience Amplification and Its Deformation Under Synthetic Presence}{69}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}The Watching-Eye Effect as a Topological Amplifier}{69}{subsection.4.6.1}%
-\contentsline {paragraph}{Reputational Mechanisms.}{69}{paragraph*.27}%
-\contentsline {paragraph}{Attentional Mechanisms.}{70}{paragraph*.28}%
-\contentsline {paragraph}{Affective and Self-Conscious Emotions.}{70}{paragraph*.29}%
-\contentsline {paragraph}{Context Sensitivity.}{70}{paragraph*.30}%
-\contentsline {subsection}{\numberline {4.6.2}Why Child-Poster Eyes Serve as Valid Social Cues}{70}{subsection.4.6.2}%
-\contentsline {paragraph}{Perceptual Sociality Without Agentic Commitment.}{70}{paragraph*.31}%
-\contentsline {paragraph}{Care-Related Affective Resonance.}{70}{paragraph*.32}%
-\contentsline {paragraph}{Methodological Control.}{71}{paragraph*.33}%
-\contentsline {subsection}{\numberline {4.6.3}Why Synthetic Agents May Dilute or Distort the Watching-Eye Effect}{71}{subsection.4.6.3}%
-\contentsline {paragraph}{Perceptual Sociality Without Clear Ontology.}{71}{paragraph*.34}%
-\contentsline {paragraph}{Disrupted Affective and Attentional Gradients.}{71}{paragraph*.35}%
-\contentsline {paragraph}{Interpretive Uncertainty.}{72}{paragraph*.36}%
-\contentsline {paragraph}{Consequences for Evaluative Topology.}{72}{paragraph*.37}%
-\contentsline {subsection}{\numberline {4.6.4}Watching-Eye Under Synthetic Co-Presence: Empirical Findings}{72}{subsection.4.6.4}%
-\contentsline {subsection}{\numberline {4.6.5}Why the Watching-Eye Paradigm Matters for the Experiment}{72}{subsection.4.6.5}%
-\contentsline {subsection}{\numberline {4.6.6}Integration With the Donation Paradigm}{73}{subsection.4.6.6}%
-\contentsline {subsection}{\numberline {4.6.7}Synthesis: The Watching-Eye Paradigm as a Window Into Moral Topology}{73}{subsection.4.6.7}%
-\contentsline {section}{\numberline {4.7}General Conclusion: Tools as the Measurement Logic of Synthetic Moral Perturbation}{74}{section.4.7}%
-\contentsline {chapter}{\numberline {5}MORAL DISPLACEMENT: AN EXPERIMENTAL INVESTIGATION}{77}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conceptual Foundations of the Research Question}{77}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Experimental Design and Behavioural Paradigm}{79}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Why Minimal Presence Matters: Ontological Ambiguity as Experimental Variable}{79}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Levels of Abstraction and the Design Logic of Minimal Robotic Presence}{81}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Experimental design and Preliminary Results}{82}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}From Behavioural Setup to Evaluative Structure}{83}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}Conceptualisation of the Experiment: Moral Decision-Making under Synthetic Presence}{87}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Formalisation of Hypothesis and Experimental Logic}{90}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Methodological Design: Inferring Moral Perturbation through Controlled Artificial Co-presence}{90}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Formalisation of the Experimental Logic}{91}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Methodological Architecture: Inferring Moral Perturbation through Structured Artificial Co-presence}{92}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}Procedural Architecture of the Experimental Protocol}{93}{subsection.5.3.5}%
-\contentsline {subsection}{\numberline {5.3.6}Participants as Agents under Constraint}{95}{subsection.5.3.6}%
-\contentsline {subsection}{\numberline {5.3.7}Experimental Conditions: The Robotic Displacement Hypothesis}{95}{subsection.5.3.7}%
-\contentsline {subsection}{\numberline {5.3.8}Interim Evaluation of the Hypotheses and Formal Framework}{97}{subsection.5.3.8}%
-\contentsline {paragraph}{(a) The evaluative transformation function \(f(\cdot )\).}{98}{paragraph*.45}%
-\contentsline {paragraph}{(b) Expected behavioural distributions \(\mathbb {E}[f(\Sigma )]\) vs.\ \(\mathbb {E}[f(\Sigma \cup \mathscr {R})]\).}{98}{paragraph*.46}%
-\contentsline {paragraph}{(c) The tripartite decomposition}{98}{paragraph*.47}%
-\contentsline {subsection}{\numberline {5.3.9}Interim Conclusion to Question~\ref {q:robot-agent}}{99}{subsection.5.3.9}%
-\contentsline {subsection}{\numberline {5.3.10}Preprocessing the Moral Field: Semiotic Modulation and Ontological Symmetry}{99}{subsection.5.3.10}%
-\contentsline {subsection}{\numberline {5.3.11}Preliminary Descriptive Patterns: Indications of Inferential Displacement}{103}{subsection.5.3.11}%
-\contentsline {subsection}{\numberline {5.3.12}Inferential Assessment of Attenuation: Behavioural Evidence for Perturbation}{103}{subsection.5.3.12}%
-\contentsline {subsection}{\numberline {5.3.13}Interim Evaluation of the Hypotheses and Formal Framework}{105}{subsection.5.3.13}%
-\contentsline {subsubsection}{Status of the Mathematical Formalism}{107}{subsubsection*.55}%
-\contentsline {paragraph}{(a) The evaluative transformation function \(f(\cdot )\).}{107}{paragraph*.56}%
-\contentsline {paragraph}{(b) Expected behavioural distributions \(\mathbb {E}[f(\Sigma )]\) vs.\ \(\mathbb {E}[f(\Sigma \cup \mathscr {R})]\).}{107}{paragraph*.57}%
-\contentsline {paragraph}{(c) The tripartite decomposition}{107}{paragraph*.58}%
-\contentsline {subsection}{\numberline {5.3.14}Interim Conclusion to Question~\ref {q:robot-agent}}{108}{subsection.5.3.14}%
-\contentsline {subsection}{\numberline {5.3.15}Quantification of Behavioural Modulation: Parametric and Nonparametric Effect Sizes}{109}{subsection.5.3.15}%
-\contentsline {section}{\numberline {5.4}Dispositional Baseline: Big Five Personality Traits Across Conditions}{111}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Between-Condition Differences in Big Five Personality Traits}{112}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Predictive and Moderating Roles of Big Five Traits}{112}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Interpretive Synthesis}{113}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Latent Trait Structures and Individual Modulation of Moral Perturbation}{114}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.4.5}Psychometric Interpretation and Semantic Labelling of Latent Personality Clusters}{117}{subsection.5.4.5}%
-\contentsline {subsection}{\numberline {5.4.6}Interim Synthesis: Moral Attenuation, Topological Deformation, and Trait-Contingent Modulation}{120}{subsection.5.4.6}%
-\contentsline {subsubsection}{Status of the Hypotheses}{121}{subsubsection*.67}%
-\contentsline {paragraph}{H1. Evaluative Deformation Hypothesis.}{121}{paragraph*.68}%
-\contentsline {paragraph}{H2. Synthetic Normativity of Moral Displacement.}{121}{paragraph*.69}%
-\contentsline {paragraph}{H3. Synthetic Perturbation of Moral Inference.}{121}{paragraph*.70}%
-\contentsline {paragraph}{H4. (Implied) Trait-Contingent Modulation Hypothesis.}{121}{paragraph*.71}%
-\contentsline {subsubsection}{Condensed Status of the Formal Framework}{121}{subsubsection*.72}%
-\contentsline {subsubsection}{Topological and Ontological Interpretation}{122}{subsubsection*.73}%
-\contentsline {subsection}{\numberline {5.4.7}The Dilution of the Watching Eye Effect under Robotic Co-Presence}{123}{subsection.5.4.7}%
-\contentsline {subsection}{\numberline {5.4.8}Cluster-Specific Regression Analysis of Robotic Perturbation}{123}{subsection.5.4.8}%
-\contentsline {subsection}{\numberline {5.4.9}Bayesian Estimation and Epistemic Gradient Framing}{126}{subsection.5.4.9}%
-\contentsline {subsubsection}{Epistemic Interpretation of the Bayesian Results}{128}{subsubsection*.76}%
-\contentsline {subsection}{\numberline {5.4.10}Final Synthesis: Moral Topology, Synthetic Presence, and the Limits of Machine Ethics}{132}{subsection.5.4.10}%
-\contentsline {subsection}{\numberline {5.4.11}Synthesis: Moral Topology, Synthetic Presence, and the Limits of Machine Ethics}{134}{subsection.5.4.11}%
-\contentsline {chapter}{\numberline {6}ETHICAL COGNITION AND NORMATIVE FOUNDATIONS}{137}{chapter.6}%
-\contentsline {section}{\numberline {6.1}From Moral Cognition to Ethical Theory}{137}{section.6.1}%
-\contentsline {section}{Bridging Note: From Moral Cognition to Ethical Theory}{137}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Introduction: Why Ethics Needs Psychology (and Why Computing Science Needs Both)}{138}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Ethical Theory as Second-Order Analysis}{140}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Ethical Reflection and the Second-Order Stance}{140}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Levels of Abstraction and the Proper Location of Ethical Explanation}{141}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Evaluative Topology as a Bridge Between Orders}{143}{subsection.6.3.3}%
-\contentsline {paragraph}{Topological Consequences for Moral Perturbation.}{145}{paragraph*.77}%
-\contentsline {paragraph}{Interim Synthesis: Where the Chapter Now Stands.}{145}{paragraph*.78}%
-\contentsline {section}{\numberline {6.4}The Normative Landscape: Structuring Ethical Theories Through LoA and Topology}{146}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}The Three Dimensions of Normative Analysis}{147}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Why This Framework Matters for the Experimental Chapter}{147}{subsection.6.4.2}%
-\contentsline {section}{\numberline {6.5}Deontological Structures: The Architecture of Practical Reason}{148}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}The Source of Normativity: Rational Agency and the Form of Law}{149}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Mode of Evaluation: Maxims, Duties, and the Structure of Permissibility}{150}{subsection.6.5.2}%
-\contentsline {subsection}{\numberline {6.5.3}Action-Guidance: How Normative Constraints Influence Behaviour}{150}{subsection.6.5.3}%
-\contentsline {subsection}{\numberline {6.5.4}Deontological Normativity as Topological Invariance}{151}{subsection.6.5.4}%
-\contentsline {subsection}{\numberline {6.5.5}Why Deontology Matters for the Experimental Logic}{151}{subsection.6.5.5}%
-\contentsline {section}{\numberline {6.6}Consequentialist Structures: Value Gradients and the Topology of Outcomes}{154}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}The Source of Normativity: Welfare, Impartiality, and the Structure of Reasons}{154}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}Mode of Evaluation: Consequences, Expected Value, and Scalar Normativity}{155}{subsection.6.6.2}%
-\contentsline {subsection}{\numberline {6.6.3}Action-Guidance Mechanism: From Value Gradients to Behavioural Pressure}{156}{subsection.6.6.3}%
-\contentsline {subsection}{\numberline {6.6.4}Consequentialist Topology: Moral Action as Gradient Following}{157}{subsection.6.6.4}%
-\contentsline {subsection}{\numberline {6.6.5}Why Consequentialism Matters for the Experimental Logic}{157}{subsection.6.6.5}%
-\contentsline {section}{\numberline {6.7}Virtue-Theoretic Structures: Dispositions, Character Topology, and Moral Sensitivity}{158}{section.6.7}%
-\contentsline {subsection}{\numberline {6.7.1}The Source of Normativity: Character, Practical Wisdom, and Moral Perception}{159}{subsection.6.7.1}%
-\contentsline {subsection}{\numberline {6.7.2}Mode of Evaluation: Dispositions as Topological Structure}{159}{subsection.6.7.2}%
-\contentsline {subsection}{\numberline {6.7.3}Action-Guidance Mechanism: Habituation, Stability, and Situated Sensitivity}{160}{subsection.6.7.3}%
-\contentsline {subsection}{\numberline {6.7.4}Virtue-Theoretic Topology: Stability, Curvature, and Susceptibility to Perturbation}{160}{subsection.6.7.4}%
-\contentsline {subsection}{\numberline {6.7.5}Why Virtue Ethics Matters for the Experimental Logic}{161}{subsection.6.7.5}%
-\contentsline {paragraph}{1.\ Latent Trait Modulation}{161}{paragraph*.79}%
-\contentsline {paragraph}{2.\ Moral Topology Over Trait Space}{161}{paragraph*.80}%
-\contentsline {paragraph}{3.\ Machine Ethics Ignores Character Entirely}{161}{paragraph*.81}%
-\contentsline {subsection}{\numberline {6.7.6}Virtue-Ethical Interpretation of Latent Ecologies}{163}{subsection.6.7.6}%
-\contentsline {section}{\numberline {6.8}Sentimentalism and Emotion-Based Normativity: Affective Vector Fields in Moral Topology}{165}{section.6.8}%
-\contentsline {subsection}{\numberline {6.8.1}The Source of Normativity: Sentiment as the Basis of Moral Appraisal}{166}{subsection.6.8.1}%
-\contentsline {subsection}{\numberline {6.8.2}Mode of Evaluation: Affective Resonance as Moral Metric}{166}{subsection.6.8.2}%
-\contentsline {subsection}{\numberline {6.8.3}Action Guidance: Affective Vector Fields and Behavioural Dynamics}{167}{subsection.6.8.3}%
-\contentsline {subsection}{\numberline {6.8.4}Contrast with Machine Ethics: The Blind Spot of Affective Architecture}{167}{subsection.6.8.4}%
-\contentsline {subsection}{\numberline {6.8.5}Experimental Realisation: Synthetic Dampening of Empathic Resonance}{168}{subsection.6.8.5}%
-\contentsline {section}{\numberline {6.9}Contractualism, Particularism, and Hybrid Normative Models}{169}{section.6.9}%
-\contentsline {subsection}{\numberline {6.9.1}Contractualism: Moral Claims as Justification-Equilibria}{170}{subsection.6.9.1}%
-\contentsline {subsection}{\numberline {6.9.2}Moral Particularism: Contextual Salience and the Fragmented Topology of Reasons}{171}{subsection.6.9.2}%
-\contentsline {subsection}{\numberline {6.9.3}Hybrid and Pluralist Models: Multidimensional Topologies}{173}{subsection.6.9.3}%
-\contentsline {subsection}{\numberline {6.9.4}Integrative Ethical Interpretation of the Experimental Findings}{174}{subsection.6.9.4}%
-\contentsline {chapter}{\numberline {7}General Discussion and Theoretical Integration}{177}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Introduction: Why the Experiment Requires a Structural Interpretation}{177}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}From Behaviour to Structure: Why a Higher-Level Interpretation is Required}{179}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Why This Chapter Cannot Be Pure “Discussion” in the Conventional Sense}{182}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}A Structural Reading of the Core Experimental Result}{182}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4}Why the Synthetic Presence Effect Matters Beyond the Experiment}{183}{subsection.7.1.4}%
-\contentsline {section}{\numberline {7.2}Cluster-by-Cluster Integrative Interpretation}{184}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Global Normative--Topological Synthesis}{187}{section.7.3}%
-\contentsline {section}{\numberline {7.4}From the Failure of Machine Ethics to a Reconstruction of Computational Morality}{189}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Reconstructing Computational Morality: An Empirically Grounded Paradigm}{190}{subsection.7.4.1}%
-\contentsline {paragraph}{(1) Evaluative Topology as Generative Substrate}{191}{paragraph*.82}%
-\contentsline {paragraph}{(2) Level-of-Abstraction Discipline}{191}{paragraph*.83}%
-\contentsline {paragraph}{(3) Dispositional Ecologies as Moral Topologies}{191}{paragraph*.84}%
-\contentsline {subsection}{\numberline {7.4.2}Computational Morality as a Scientific Research Programme}{191}{subsection.7.4.2}%
-\contentsline {section}{\numberline {7.5}Thesis-Wide Synthesis and Closing Reflections}{192}{section.7.5}%
-\contentsline {chapter}{Bibliography}{195}{appendix*.85}%
+\contentsline {section}{\numberline {3.2}Judgments: Factual and Normative}{35}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Internal Architecture of Moral Judgment}{36}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Psychological and Neuroscientific Foundations of Moral Decision-Making}{39}{subsection.3.3.1}%
+\contentsline {paragraph}{Affective and Value-Based Systems.}{39}{paragraph*.7}%
+\contentsline {paragraph}{Social-Cognitive and Interpretive Systems.}{39}{paragraph*.8}%
+\contentsline {paragraph}{Executive and Action-Guidance Systems.}{40}{paragraph*.9}%
+\contentsline {paragraph}{Functional Integration and Practical Orientation.}{40}{paragraph*.10}%
+\contentsline {section}{\numberline {3.4}From Moral Architecture to Perturbation by Synthetic Agents}{41}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Philosophical Synthesis}{43}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Concluding Perspective: Why This Matters for the Thesis}{43}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}Measurement Framework and Experimental Design}{46}{chapter.4}%
+\contentsline {section}{\numberline {4.1}The Role of Psychometric Tools in the Evaluative–Topological Architecture}{48}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Why These Tools: Methodological Criteria and Alignment with the Thesis}{50}{section.4.2}%
+\contentsline {paragraph}{(1) Cross-paradigmatic relevance.}{51}{paragraph*.11}%
+\contentsline {paragraph}{(2) Topological relevance.}{51}{paragraph*.12}%
+\contentsline {paragraph}{(3) Stability and interpretability.}{51}{paragraph*.13}%
+\contentsline {section}{\numberline {4.3}The Empathizing Quotient (EQ): Affective Resonance as a Moral Vector Field}{52}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Historical and Theoretical Foundations}{52}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Psychometric Validation and Cross-Cultural Work}{53}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Empirical Applications Across Disciplines}{53}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Critiques and Methodological Limitations}{53}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Relevance to the Evaluative--Topological Framework}{54}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}EQ Within the Evaluative-Topological Framework}{54}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}EQ in HRI and Moral Cognition Research}{55}{subsection.4.3.7}%
+\contentsline {subsection}{\numberline {4.3.8}Why EQ Matters}{55}{subsection.4.3.8}%
+\contentsline {section}{\numberline {4.4}The Systemizing Quotient (SQ): Structural Evaluation and the Precision of Moral Gradients}{56}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Historical Origins and Theoretical Motivation}{56}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Psychometric Validation and Cross-Cultural Findings}{57}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Empirical Uses Across Psychology, Neuroscience, and Behavioural Science}{57}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Critiques and Limitations}{57}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}SQ Within the Evaluative--Topological Framework}{58}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}SQ, Synthetic Presence, and Behavioural Perturbation}{58}{subsection.4.4.6}%
+\contentsline {subsection}{\numberline {4.4.7}Why SQ Matters}{59}{subsection.4.4.7}%
+\contentsline {section}{\numberline {4.5}The Big Five Inventory (BFI): Personality Geometry and Moral Topology}{60}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Historical Development and Theoretical Foundations}{60}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Psychometric Strength and Cross-Contextual Validity}{60}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Personality Predictors of Moral Behaviour}{61}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}BFI in Social Cognition, SSP, and HRI}{61}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}Personality Geometry Within the Evaluative--Topological Framework}{62}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.6}BFI, Perturbation, and the Interpretation of Uniform Attenuation}{62}{subsection.4.5.6}%
+\contentsline {subsection}{\numberline {4.5.7}Critiques, Limitations, and Relevance to the Thesis}{63}{subsection.4.5.7}%
+\contentsline {subsection}{\numberline {4.5.8}Cluster Semantics and BFI Geometry}{63}{subsection.4.5.8}%
+\contentsline {section}{\numberline {4.6}The Watching-Eye Paradigm: Moral Salience Amplification and Its Deformation Under Synthetic Presence}{65}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}The Watching-Eye Effect as a Topological Amplifier}{65}{subsection.4.6.1}%
+\contentsline {paragraph}{Reputational Mechanisms.}{65}{paragraph*.14}%
+\contentsline {paragraph}{Attentional Mechanisms.}{66}{paragraph*.15}%
+\contentsline {paragraph}{Affective and Self-Conscious Emotions.}{66}{paragraph*.16}%
+\contentsline {paragraph}{Context Sensitivity.}{66}{paragraph*.17}%
+\contentsline {subsection}{\numberline {4.6.2}Why Child-Poster Eyes Serve as Valid Social Cues}{66}{subsection.4.6.2}%
+\contentsline {paragraph}{Perceptual Sociality Without Agentic Commitment.}{66}{paragraph*.18}%
+\contentsline {paragraph}{Care-Related Affective Resonance.}{66}{paragraph*.19}%
+\contentsline {paragraph}{Methodological Control.}{67}{paragraph*.20}%
+\contentsline {subsection}{\numberline {4.6.3}Why Synthetic Agents May Dilute or Distort the Watching-Eye Effect}{67}{subsection.4.6.3}%
+\contentsline {paragraph}{Perceptual Sociality Without Clear Ontology.}{67}{paragraph*.21}%
+\contentsline {paragraph}{Disrupted Affective and Attentional Gradients.}{67}{paragraph*.22}%
+\contentsline {paragraph}{Interpretive Uncertainty.}{68}{paragraph*.23}%
+\contentsline {paragraph}{Consequences for Evaluative Topology.}{68}{paragraph*.24}%
+\contentsline {subsection}{\numberline {4.6.4}Watching-Eye Under Synthetic Co-Presence: Empirical Findings}{68}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5}Why the Watching-Eye Paradigm Matters for the Experiment}{68}{subsection.4.6.5}%
+\contentsline {subsection}{\numberline {4.6.6}Integration With the Donation Paradigm}{69}{subsection.4.6.6}%
+\contentsline {subsection}{\numberline {4.6.7}Synthesis: The Watching-Eye Paradigm as a Window Into Moral Topology}{69}{subsection.4.6.7}%
+\contentsline {section}{\numberline {4.7}General Conclusion: Tools as the Measurement Logic of Synthetic Moral Perturbation}{70}{section.4.7}%
+\contentsline {chapter}{\numberline {5}MORAL DISPLACEMENT: AN EXPERIMENTAL INVESTIGATION}{73}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conceptual Foundations of the Research Question}{73}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Experimental Design and Behavioural Paradigm}{75}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Why Minimal Presence Matters: Ontological Ambiguity as Experimental Variable}{75}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Levels of Abstraction and the Design Logic of Minimal Robotic Presence}{77}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Experimental design and Preliminary Results}{78}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}From Behavioural Setup to Evaluative Structure}{79}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}Conceptualisation of the Experiment: Moral Decision-Making under Synthetic Presence}{83}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Formalisation of Hypothesis and Experimental Logic}{86}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Methodological Design: Inferring Moral Perturbation through Controlled Artificial Co-presence}{86}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Formalisation of the Experimental Logic}{87}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Methodological Architecture: Inferring Moral Perturbation through Structured Artificial Co-presence}{88}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Procedural Architecture of the Experimental Protocol}{89}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Participants as Agents under Constraint}{91}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Experimental Conditions: The Robotic Displacement Hypothesis}{91}{subsection.5.3.7}%
+\contentsline {subsection}{\numberline {5.3.8}Interim Evaluation of the Hypotheses and Formal Framework}{93}{subsection.5.3.8}%
+\contentsline {paragraph}{(a) The evaluative transformation function \(f(\cdot )\).}{94}{paragraph*.32}%
+\contentsline {paragraph}{(b) Expected behavioural distributions \(\mathbb {E}[f(\Sigma )]\) vs.\ \(\mathbb {E}[f(\Sigma \cup \mathscr {R})]\).}{94}{paragraph*.33}%
+\contentsline {paragraph}{(c) The tripartite decomposition}{94}{paragraph*.34}%
+\contentsline {subsection}{\numberline {5.3.9}Interim Conclusion to Question~\ref {q:robot-agent}}{95}{subsection.5.3.9}%
+\contentsline {subsection}{\numberline {5.3.10}Preprocessing the Moral Field: Semiotic Modulation and Ontological Symmetry}{95}{subsection.5.3.10}%
+\contentsline {subsection}{\numberline {5.3.11}Preliminary Descriptive Patterns: Indications of Inferential Displacement}{99}{subsection.5.3.11}%
+\contentsline {subsection}{\numberline {5.3.12}Inferential Assessment of Attenuation: Behavioural Evidence for Perturbation}{99}{subsection.5.3.12}%
+\contentsline {subsection}{\numberline {5.3.13}Interim Evaluation of the Hypotheses and Formal Framework}{101}{subsection.5.3.13}%
+\contentsline {subsubsection}{Status of the Mathematical Formalism}{103}{subsubsection*.42}%
+\contentsline {paragraph}{(a) The evaluative transformation function \(f(\cdot )\).}{103}{paragraph*.43}%
+\contentsline {paragraph}{(b) Expected behavioural distributions \(\mathbb {E}[f(\Sigma )]\) vs.\ \(\mathbb {E}[f(\Sigma \cup \mathscr {R})]\).}{103}{paragraph*.44}%
+\contentsline {paragraph}{(c) The tripartite decomposition}{103}{paragraph*.45}%
+\contentsline {subsection}{\numberline {5.3.14}Interim Conclusion to Question~\ref {q:robot-agent}}{104}{subsection.5.3.14}%
+\contentsline {subsection}{\numberline {5.3.15}Quantification of Behavioural Modulation: Parametric and Nonparametric Effect Sizes}{105}{subsection.5.3.15}%
+\contentsline {section}{\numberline {5.4}Dispositional Baseline: Big Five Personality Traits Across Conditions}{107}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Between-Condition Differences in Big Five Personality Traits}{108}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Predictive and Moderating Roles of Big Five Traits}{108}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Interpretive Synthesis}{109}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Latent Trait Structures and Individual Modulation of Moral Perturbation}{110}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Psychometric Interpretation and Semantic Labelling of Latent Personality Clusters}{113}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.6}Interim Synthesis: Moral Attenuation, Topological Deformation, and Trait-Contingent Modulation}{116}{subsection.5.4.6}%
+\contentsline {subsubsection}{Status of the Hypotheses}{117}{subsubsection*.54}%
+\contentsline {paragraph}{H1. Evaluative Deformation Hypothesis.}{117}{paragraph*.55}%
+\contentsline {paragraph}{H2. Synthetic Normativity of Moral Displacement.}{117}{paragraph*.56}%
+\contentsline {paragraph}{H3. Synthetic Perturbation of Moral Inference.}{117}{paragraph*.57}%
+\contentsline {paragraph}{H4. (Implied) Trait-Contingent Modulation Hypothesis.}{117}{paragraph*.58}%
+\contentsline {subsubsection}{Condensed Status of the Formal Framework}{117}{subsubsection*.59}%
+\contentsline {subsubsection}{Topological and Ontological Interpretation}{118}{subsubsection*.60}%
+\contentsline {subsection}{\numberline {5.4.7}The Dilution of the Watching Eye Effect under Robotic Co-Presence}{119}{subsection.5.4.7}%
+\contentsline {subsection}{\numberline {5.4.8}Cluster-Specific Regression Analysis of Robotic Perturbation}{119}{subsection.5.4.8}%
+\contentsline {subsection}{\numberline {5.4.9}Bayesian Estimation and Epistemic Gradient Framing}{122}{subsection.5.4.9}%
+\contentsline {subsubsection}{Epistemic Interpretation of the Bayesian Results}{124}{subsubsection*.63}%
+\contentsline {subsection}{\numberline {5.4.10}Final Synthesis: Moral Topology, Synthetic Presence, and the Limits of Machine Ethics}{128}{subsection.5.4.10}%
+\contentsline {subsection}{\numberline {5.4.11}Synthesis: Moral Topology, Synthetic Presence, and the Limits of Machine Ethics}{130}{subsection.5.4.11}%
+\contentsline {chapter}{\numberline {6}ETHICAL COGNITION AND NORMATIVE FOUNDATIONS}{133}{chapter.6}%
+\contentsline {section}{\numberline {6.1}From Moral Cognition to Ethical Theory}{133}{section.6.1}%
+\contentsline {section}{Bridging Note: From Moral Cognition to Ethical Theory}{133}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Introduction: Why Ethics Needs Psychology (and Why Computing Science Needs Both)}{134}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Ethical Theory as Second-Order Analysis}{136}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Ethical Reflection and the Second-Order Stance}{136}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Levels of Abstraction and the Proper Location of Ethical Explanation}{137}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Evaluative Topology as a Bridge Between Orders}{139}{subsection.6.3.3}%
+\contentsline {paragraph}{Topological Consequences for Moral Perturbation.}{141}{paragraph*.64}%
+\contentsline {paragraph}{Interim Synthesis: Where the Chapter Now Stands.}{141}{paragraph*.65}%
+\contentsline {section}{\numberline {6.4}The Normative Landscape: Structuring Ethical Theories Through LoA and Topology}{142}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}The Three Dimensions of Normative Analysis}{143}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Why This Framework Matters for the Experimental Chapter}{143}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.5}Deontological Structures: The Architecture of Practical Reason}{144}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}The Source of Normativity: Rational Agency and the Form of Law}{145}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Mode of Evaluation: Maxims, Duties, and the Structure of Permissibility}{146}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}Action-Guidance: How Normative Constraints Influence Behaviour}{146}{subsection.6.5.3}%
+\contentsline {subsection}{\numberline {6.5.4}Deontological Normativity as Topological Invariance}{147}{subsection.6.5.4}%
+\contentsline {subsection}{\numberline {6.5.5}Why Deontology Matters for the Experimental Logic}{147}{subsection.6.5.5}%
+\contentsline {section}{\numberline {6.6}Consequentialist Structures: Value Gradients and the Topology of Outcomes}{150}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}The Source of Normativity: Welfare, Impartiality, and the Structure of Reasons}{150}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Mode of Evaluation: Consequences, Expected Value, and Scalar Normativity}{151}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}Action-Guidance Mechanism: From Value Gradients to Behavioural Pressure}{152}{subsection.6.6.3}%
+\contentsline {subsection}{\numberline {6.6.4}Consequentialist Topology: Moral Action as Gradient Following}{153}{subsection.6.6.4}%
+\contentsline {subsection}{\numberline {6.6.5}Why Consequentialism Matters for the Experimental Logic}{153}{subsection.6.6.5}%
+\contentsline {section}{\numberline {6.7}Virtue-Theoretic Structures: Dispositions, Character Topology, and Moral Sensitivity}{154}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}The Source of Normativity: Character, Practical Wisdom, and Moral Perception}{155}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Mode of Evaluation: Dispositions as Topological Structure}{155}{subsection.6.7.2}%
+\contentsline {subsection}{\numberline {6.7.3}Action-Guidance Mechanism: Habituation, Stability, and Situated Sensitivity}{156}{subsection.6.7.3}%
+\contentsline {subsection}{\numberline {6.7.4}Virtue-Theoretic Topology: Stability, Curvature, and Susceptibility to Perturbation}{156}{subsection.6.7.4}%
+\contentsline {subsection}{\numberline {6.7.5}Why Virtue Ethics Matters for the Experimental Logic}{157}{subsection.6.7.5}%
+\contentsline {paragraph}{1.\ Latent Trait Modulation}{157}{paragraph*.66}%
+\contentsline {paragraph}{2.\ Moral Topology Over Trait Space}{157}{paragraph*.67}%
+\contentsline {paragraph}{3.\ Machine Ethics Ignores Character Entirely}{157}{paragraph*.68}%
+\contentsline {subsection}{\numberline {6.7.6}Virtue-Ethical Interpretation of Latent Ecologies}{159}{subsection.6.7.6}%
+\contentsline {section}{\numberline {6.8}Sentimentalism and Emotion-Based Normativity: Affective Vector Fields in Moral Topology}{161}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}The Source of Normativity: Sentiment as the Basis of Moral Appraisal}{162}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.2}Mode of Evaluation: Affective Resonance as Moral Metric}{162}{subsection.6.8.2}%
+\contentsline {subsection}{\numberline {6.8.3}Action Guidance: Affective Vector Fields and Behavioural Dynamics}{163}{subsection.6.8.3}%
+\contentsline {subsection}{\numberline {6.8.4}Contrast with Machine Ethics: The Blind Spot of Affective Architecture}{163}{subsection.6.8.4}%
+\contentsline {subsection}{\numberline {6.8.5}Experimental Realisation: Synthetic Dampening of Empathic Resonance}{164}{subsection.6.8.5}%
+\contentsline {section}{\numberline {6.9}Contractualism, Particularism, and Hybrid Normative Models}{165}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Contractualism: Moral Claims as Justification-Equilibria}{166}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.2}Moral Particularism: Contextual Salience and the Fragmented Topology of Reasons}{167}{subsection.6.9.2}%
+\contentsline {subsection}{\numberline {6.9.3}Hybrid and Pluralist Models: Multidimensional Topologies}{169}{subsection.6.9.3}%
+\contentsline {subsection}{\numberline {6.9.4}Integrative Ethical Interpretation of the Experimental Findings}{170}{subsection.6.9.4}%
+\contentsline {chapter}{\numberline {7}General Discussion and Theoretical Integration}{173}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introduction: Why the Experiment Requires a Structural Interpretation}{173}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}From Behaviour to Structure: Why a Higher-Level Interpretation is Required}{175}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Why This Chapter Cannot Be Pure “Discussion” in the Conventional Sense}{178}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}A Structural Reading of the Core Experimental Result}{178}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}Why the Synthetic Presence Effect Matters Beyond the Experiment}{179}{subsection.7.1.4}%
+\contentsline {section}{\numberline {7.2}Cluster-by-Cluster Integrative Interpretation}{180}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Global Normative--Topological Synthesis}{183}{section.7.3}%
+\contentsline {section}{\numberline {7.4}From the Failure of Machine Ethics to a Reconstruction of Computational Morality}{185}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Reconstructing Computational Morality: An Empirically Grounded Paradigm}{186}{subsection.7.4.1}%
+\contentsline {paragraph}{(1) Evaluative Topology as Generative Substrate}{187}{paragraph*.69}%
+\contentsline {paragraph}{(2) Level-of-Abstraction Discipline}{187}{paragraph*.70}%
+\contentsline {paragraph}{(3) Dispositional Ecologies as Moral Topologies}{187}{paragraph*.71}%
+\contentsline {subsection}{\numberline {7.4.2}Computational Morality as a Scientific Research Programme}{187}{subsection.7.4.2}%
+\contentsline {section}{\numberline {7.5}Thesis-Wide Synthesis and Closing Reflections}{188}{section.7.5}%
+\contentsline {chapter}{Bibliography}{191}{appendix*.72}%
