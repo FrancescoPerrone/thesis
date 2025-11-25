@@ -1014,23 +1014,32 @@ A.~F. Shariff and A.~Norenzayan, ``God is watching you: Priming god concepts
   increases prosocial behavior in an anonymous economic game,'' {\em
   Psychological science}, vol.~18, no.~9, pp.~803--809, 2007.
 
-\bibitem{Allen2006}
-C.~Allen, W.~Wallach, and I.~Smit, ``Why machine ethics?,'' {\em IEEE
-  Intelligent Systems}, vol.~21, no.~4, pp.~12--17, 2006.
+\bibitem{Vinciarelli2019}
+A.~Vinciarelli, A.~Esposito, M.~Tayarani, G.~Roffo, F.~Scibelli, F.~Perrone,
+  and D.-B. Vo, ``We are less free than how we think: Regular patterns in
+  nonverbal communication,'' in {\em Multimodal Behavior Analysis in the Wild},
+  pp.~269--288, Elsevier, 2019.
 
-\bibitem{Moor2011}
-J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
-  Machine ethics}, pp.~13--20, 2011.
+\bibitem{Gabriel2020}
+I.~Gabriel, ``Artificial intelligence, values, and alignment,'' {\em Minds and
+  Machines}, vol.~30, no.~3, pp.~411--437, 2020.
 
-\bibitem{Moor2023}
-J.~H. Moor, ``The nature and limits of machine ethics,'' {\em AI and Society},
-  vol.~39, no.~1, pp.~33--51, 2023.
+\bibitem{Hutchins1995}
+E.~Hutchins, {\em Cognition in the Wild}.
+\newblock MIT Press, 1995.
 
-\bibitem{DeBrigard2021}
-F.~De~Brigard, W.~Sinnott-Armstrong, A.~E. Monroe, N.~Carroll, and J.~May,
-  ``The agent?patient asymmetry in moral cognition: Evidence of a social bias
-  in moral judgment,'' {\em Cognitive Science}, vol.~45, no.~4, p.~e12965,
-  2021.
+\bibitem{Clark2008}
+A.~Clark, {\em Supersizing the Mind: Embodiment, Action, and Cognitive
+  Extension}.
+\newblock Oxford University Press, 2008.
+
+\bibitem{Floridi2024LLM}
+L.~Floridi, ``The ethics of artificial intelligence: Large language models and
+  the new semantic environment,'' {\em Philosophy \& Technology}, 2024.
+
+\bibitem{Speri2023}
+L.~Speri and M.~Alfano, ``Moral ecologies and the ethics of artificial
+  agents,'' {\em Ethics and Information Technology}, 2023.
 
 \bibitem{Audi2015}
 R.~Audi, {\em Moral Perception}.
@@ -1102,6 +1111,10 @@ J.~S. Mill, {\em Utilitarianism}.
 N.~S. Govindarajulu and S.~Bringsjord, ``On automating the doctrine of double
   effect,'' {\em Philosophical Transactions of the Royal Society A}, vol.~375,
   no.~2103, p.~20160119, 2017.
+
+\bibitem{Moor2023}
+J.~H. Moor, ``The nature and limits of machine ethics,'' {\em AI and Society},
+  vol.~39, no.~1, pp.~33--51, 2023.
 
 \bibitem{McDowell1979}
 J.~McDowell, ``Virtue and reason,'' {\em The Monist}, vol.~62, no.~3,
