@@ -1,1 +1,92 @@
 (1) Re-read the last part of Introduction, i.e. the thesis plan.
+(2) Title for Literature review.
+(3) Change title to Experimental Method (and not Methods)
+(4) check all hypotheses read the same accross the document
+(5) Link to questions is not working well (see q:emp_que experiment page 89)
+(6) add conlusions taken from MEthods chapter see end of file
+
+
+
+---------------------------------------------------------------------------------------------
+
+a) Notice Question 5.3 in Experimental Methods is asking for a yes/no answer
+b) Conclusion to keep but change place:
+
+
+shorten it ~15%
+
+remove the forward assertion that “attenuation has been observed” (move this after the results)
+
+tighten the logical sequence
+
+keep the explanatory clarity of H1 → H2 → H3
+
+% =====================================================================
+% PARTIAL CONCLUSION: HYPOTHESES, FORMALISM, AND INTERIM FINDINGS
+% =====================================================================
+
+\subsection{Interim Evaluation of the Hypotheses and Formal Framework}
+
+Having established the experimental architecture and its accompanying mathematical formalism, we may now assess the status of the hypotheses introduced thus far. Rather than presenting these hypotheses as isolated propositions, they form an interconnected explanatory sequence: each articulates a different dimension of the same underlying phenomenon—the deformation of the evaluative pathway through which moral salience becomes behaviour.
+
+The first hypothesis, the \textit{Evaluative Deformation Hypothesis}, posits that the expected outcome of moral behaviour—formalised as the transformation \(f\) of perceptual–moral cues—changes when a humanoid robot is added to the environment. This is the empirical backbone of the inquiry. The observed attenuation in donation behaviour across conditions is consistent with this expectation. Accordingly, this hypothesis is \textbf{retained} as an operative empirical claim.
+
+The second hypothesis, the \textit{Synthetic Normativity of Moral Displacement}, gives conceptual depth to this empirical deformation. It claims that synthetic entities may acquire \textit{normative affordances} by virtue of their perceived ontology, even in the absence of sentience or interaction. This hypothesis is not behaviourally testable in a strict sense; its role is philosophical and structural. It explains why a silent, non-interactive robot can nonetheless exert normative influence on human evaluative cognition. It remains \textbf{retained} as a conceptual grounding for the empirical findings.
+
+The third hypothesis, the \textit{Synthetic Perturbation of Moral Inference}, specifies the mechanism underlying H1. It suggests that the robot refracts the evaluative transition from moral salience to prosocial action, acting not as a social partner but as a perturbative operator within the cognitive ecology. The behavioural attenuation observed in the Robot condition accords with this mechanistic interpretation. Thus, this hypothesis is also \textbf{retained} and will guide the subsequent modelling of trait–context interactions.
+
+The conjunction of these three hypotheses forms a coherent interpretive arc: H1 isolates the empirical signature of deformation; H2 explains its ontological possibility; H3 articulates the inferential pathway through which such deformation is instantiated. No hypothesis introduced thus far is contradicted by the current evidence, and no revision is warranted at this stage.
+
+\subsection{Interim Evaluation of the Hypotheses and Formal Framework}
+
+Having established the experimental architecture and its accompanying mathematical formalism, we may now assess the status of the hypotheses introduced thus far. Rather than presenting these hypotheses as isolated propositions, they form an interconnected explanatory sequence: each articulates a different dimension of the same underlying phenomenon—the deformation of the evaluative pathway through which moral salience becomes behaviour.
+
+The first hypothesis, the \textit{Evaluative Deformation Hypothesis}, posits that the expected outcome of moral behaviour—formalised as the transformation \(f\) of perceptual–moral cues—changes when a humanoid robot is added to the environment. This is the empirical backbone of the inquiry. The observed attenuation in donation behaviour across conditions is consistent with this expectation. Accordingly, this hypothesis is \textbf{retained} as an operative empirical claim.
+
+The second hypothesis, the \textit{Synthetic Normativity of Moral Displacement}, gives conceptual depth to this empirical deformation. It claims that synthetic entities may acquire \textit{normative affordances} by virtue of their perceived ontology, even in the absence of sentience or interaction. This hypothesis is not behaviourally testable in a strict sense; its role is philosophical and structural. It explains why a silent, non-interactive robot can nonetheless exert normative influence on human evaluative cognition. It remains \textbf{retained} as a conceptual grounding for the empirical findings.
+
+The third hypothesis, the \textit{Synthetic Perturbation of Moral Inference}, specifies the mechanism underlying H1. It suggests that the robot refracts the evaluative transition from moral salience to prosocial action, acting not as a social partner but as a perturbative operator within the cognitive ecology. The behavioural attenuation observed in the Robot condition accords with this mechanistic interpretation. Thus, this hypothesis is also \textbf{retained} and will guide the subsequent modelling of trait–context interactions.
+
+The conjunction of these three hypotheses forms a coherent interpretive arc: H1 isolates the empirical signature of deformation; H2 explains its ontological possibility; H3 articulates the inferential pathway through which such deformation is instantiated. No hypothesis introduced thus far is contradicted by the current evidence, and no revision is warranted at this stage.
+
+% ---------------------------------------------------------------------
+\subsubsection*{Status of the Mathematical Formalism}
+
+The mathematical apparatus introduced earlier has likewise played a substantive role in structuring both the empirical reasoning and the interpretive constraints of the study. Three components have been especially operative:
+
+\paragraph{(a) The evaluative transformation function \(f(\cdot)\).}
+This function encodes the cognitive–affective transformation through which perceptual cues become moral action.  
+\textbf{Contribution so far:} it formalises why the presence of a non-interactive robot can affect behaviour despite the absence of communication, directive cues, or explicit social engagement. It embodies the central locus of deformation identified in the hypotheses above.
+
+\paragraph{(b) Expected behavioural distributions \(\mathbb{E}[f(\Sigma)]\) vs.\ \(\mathbb{E}[f(\Sigma \cup \mathscr{R})]\).}
+This construct expresses the empirical contrast between the Control and Robot conditions.  
+\textbf{Contribution so far:} it provides a principled mathematical representation of the observed attenuation pattern. The behavioural findings align with the inequality
+\[
+\mathbb{E}[f(\Sigma \cup \mathscr{R})] < \mathbb{E}[f(\Sigma)],
+\]
+thus supporting the retention of the Evaluative Deformation Hypothesis.
+
+\paragraph{(c) The tripartite decomposition}
+\[
+\mathscr{P}(\delta_m) = f(\alpha_E, \beta_C, \gamma_R).
+\]
+This expression separates environmental cues (\(\alpha_E\)), dispositional factors (\(\beta_C\)), and robotic presence (\(\gamma_R\)).  
+\textbf{Contribution so far:} it justifies the inclusion of psychometric instruments and demographic balance tests. It shows that attenuated prosociality cannot be meaningfully interpreted without jointly considering individual traits and the perturbative effect of robotic presence.
+
+Together, these three formal components ensure that the empirical observations are not treated as purely behavioural regularities but as the surface expressions of a structured evaluative system undergoing controlled perturbation.
+
+% ---------------------------------------------------------------------
+
+\subsection{Interim Conclusion to Question~\ref{q:robot-agent}}
+
+\begin{center}
+	\begin{tcolorbox}[colback=white,colframe=black!60,title=Partial Conclusion to Question~\ref{q:robot-agent}]
+		The behavioural evidence gathered thus far indicates that the silent co-presence of a humanoid robot systematically attenuates prosocial donation, despite the absence of communication, instruction, or interaction. This attenuation supports the plausibility of evaluative deformation: the robot perturbs the inferential transformation from moral salience to moral action. The philosophical hypothesis concerning synthetic normativity explains why such perturbation is possible, while the mechanistic hypothesis concerning moral inference explains how it is instantiated. The role of individual traits, and the deeper structure of trait–context interactions, will be examined in the sections that follow.
+	\end{tcolorbox}
+\end{center}
+
+\noindent
+In summary, the evidence to this point allows us to affirm that robotic co-presence modifies the evaluative conditions under which morally salient cues become behaviourally actionable. The three retained hypotheses together provide the conceptual, ontological, and mechanistic scaffolding for interpreting this modification. Further analyses will determine how these perturbations scale across heterogeneous psychological profiles and how robust the displacement effect remains under refined statistical scrutiny.
+
+
+-

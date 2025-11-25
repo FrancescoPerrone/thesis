@@ -10,15 +10,11 @@ A level-1 auxiliary file: lit_rev.aux
 A level-1 auxiliary file: moral_primer.aux
 A level-1 auxiliary file: tools.aux
 A level-1 auxiliary file: experimental_methods.aux
-White space in argument---line 60 of file experimental_methods.aux
- : \citation{MasonTatkinMacrae2005.
- :                                  Johansson1973_BiologicalMotion}
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 11946 items from 5000.
+Reallocated field_info (elt_size=4) to 11900 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -291,9 +287,29 @@ Repeated entry---line 5101 of file /home/francesco/Desktop/research/appunti/refe
  : @book{Tomasello2016
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 5155 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Batson2011
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5162 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{FehrGachter2002
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5171 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Henrich2005
+ :                     ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 5181 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @book{Tomasello2016
  :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5188 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Warneken2015
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5198 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Baumard2013
+ :                     ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5208 of file /home/francesco/Desktop/research/appunti/reference.bib
  : @article{Crockett2016
@@ -427,10 +443,12 @@ Repeated entry---line 6333 of file /home/francesco/Desktop/research/appunti/refe
  : @article{Rammstedt2007
  :                       ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 6352 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{FehrGachter2002
+ :                         ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Cushman2013ValueIntegration"
-Warning--I didn't find a database entry for "Hofree2018"
-Warning--I didn't find a database entry for "Mori2020"
-Warning--I didn't find a database entry for "Klimecki2013"
+Warning--I didn't find a database entry for "Yamagishi2014"
 Warning--I didn't find a database entry for "HaidtBjorklund2008"
 Warning--I didn't find a database entry for "CalvoDMello2010"
 Warning--I didn't find a database entry for "AndersonAnderson2007"
@@ -456,37 +474,37 @@ Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
 You've used 281 entries,
             1876 wiz_defined-function locations,
-            2136 strings with 46503 characters,
-and the built_in function-call counts, 75570 in all, are:
-= -- 7974
-> -- 2291
+            2142 strings with 46268 characters,
+and the built_in function-call counts, 75284 in all, are:
+= -- 7956
+> -- 2250
 < -- 0
-+ -- 896
-- -- 615
-* -- 5011
-:= -- 10261
-add.period$ -- 357
++ -- 883
+- -- 602
+* -- 4971
+:= -- 10211
+add.period$ -- 356
 call.type$ -- 281
 change.case$ -- 221
 chr.to.int$ -- 0
 cite$ -- 287
-duplicate$ -- 4045
-empty$ -- 7445
-format.name$ -- 615
-if$ -- 18798
+duplicate$ -- 4041
+empty$ -- 7438
+format.name$ -- 602
+if$ -- 18741
 int.to.chr$ -- 0
 int.to.str$ -- 281
 missing$ -- 345
-newline$ -- 922
+newline$ -- 921
 num.names$ -- 290
-pop$ -- 876
+pop$ -- 879
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2695
+skip$ -- 2691
 stack$ -- 0
-substring$ -- 5412
-swap$ -- 1696
+substring$ -- 5393
+swap$ -- 1692
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
@@ -494,5 +512,5 @@ type$ -- 0
 warning$ -- 6
 while$ -- 820
 width$ -- 284
-write$ -- 2845
-(There were 102 error messages)
+write$ -- 2841
+(There were 107 error messages)
