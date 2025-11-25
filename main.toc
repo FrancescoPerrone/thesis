@@ -205,4 +205,10 @@
 \contentsline {subsection}{\numberline {8.4.2}Computational Morality as a Scientific Research Programme}{174}{subsection.8.4.2}%
 \contentsline {section}{\numberline {8.5}Thesis-Wide Synthesis and Closing Reflections}{175}{section.8.5}%
 \contentsline {chapter}{\numberline {9}Conclusion}{178}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Test}{178}{section.9.1}%
+\contentsline {section}{\numberline {9.1}Returning to the Question: What This Thesis Has Shown}{178}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Contributions to Human--Robot Interaction, Affective Computing, and Moral Cognition}{179}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Contribution to Human--Robot Interaction}{179}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Synthetic Presence and Floridi’s Account of Moral Agency}{180}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Contribution to Affective Computing and Social Signal Processing}{181}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.2.4}Contribution to Moral Cognition Research}{182}{subsection.9.2.4}%
+\contentsline {subsection}{\numberline {9.2.5}Integrative Contribution: A Unified Field-Theoretic Approach}{182}{subsection.9.2.5}%

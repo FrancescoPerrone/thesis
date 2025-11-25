@@ -1337,4 +1337,50 @@ T.~Hollenstein, {\em State Space Grids: Depicting Dynamics Across Development}.
 L.~Floridi and J.~W. Sanders, ``On the morality of artificial agents,'' {\em
   Minds and machines}, vol.~14, no.~3, pp.~349--379, 2004.
 
+\bibitem{GoodrichSchultz2007}
+M.~A. Goodrich and A.~C. Schultz, ``Human--robot interaction: A survey,'' {\em
+  Foundations and Trends in Human--Computer Interaction}, vol.~1, no.~3,
+  pp.~203--275, 2007.
+
+\bibitem{Breazeal2003}
+C.~Breazeal, ``Toward sociable robots,'' {\em Robotics and Autonomous Systems},
+  vol.~42, no.~3--4, pp.~167--175, 2003.
+
+\bibitem{Lee2010}
+J.~S. Lee and S.~Kiesler, ``Human mental models of humanoid robots,'' {\em
+  Proceedings of the IEEE}, vol.~100, no.~3, pp.~586--593, 2010.
+
+\bibitem{Hancock2011}
+P.~A. Hancock, D.~R. Billings, K.~E. Schaefer, J.~Y. Chen, E.~J. de~Visser, and
+  R.~Parasuraman, ``A meta-analysis of factors affecting trust in human--robot
+  interaction,'' {\em Human Factors}, vol.~53, no.~5, pp.~517--527, 2011.
+
+\bibitem{Fischer2011}
+K.~Fischer, ``Interpersonal alignment in human--robot interaction,'' in {\em
+  Proceedings of the 7th Annual ACM/IEEE International Conference on
+  Human--Robot Interaction}, pp.~1--2, 2011.
+
+\bibitem{CalvoD2010}
+R.~A. Calvo and S.~D'Mello, {\em Affect Detection: An Interdisciplinary Review
+  of Models, Methods, and Their Applications}, vol.~1.
+\newblock IEEE Transactions on Affective Computing, 2010.
+
+\bibitem{Vinciarelli2014}
+A.~Vinciarelli and G.~Mohammadi, ``A survey of personality computing,'' {\em
+  IEEE Transactions on Affective Computing}, vol.~5, no.~3, pp.~273--291, 2014.
+
+\bibitem{Tenenbaum2011}
+J.~B. Tenenbaum, C.~Kemp, T.~L. Griffiths, and N.~D. Goodman, ``How to grow a
+  mind: Statistics, structure, and abstraction,'' {\em Science}, vol.~331,
+  no.~6022, pp.~1279--1285, 2011.
+
+\bibitem{Kruschke2014}
+J.~K. Kruschke, {\em Doing Bayesian Data Analysis}.
+\newblock Academic Press, 2nd~ed., 2014.
+
+\bibitem{Hilbig2013}
+B.~E. Hilbig, A.~Gl{\"o}ckner, and I.~Zettler, ``Personality and prosocial
+  behavior: Linking basic traits and social value orientations,'' {\em Journal
+  of Personality and Social Psychology}, vol.~105, no.~3, pp.~469--484, 2013.
+
 \end{thebibliography}

@@ -13,9 +13,10 @@ A level-1 auxiliary file: experimental_methods.aux
 A level-1 auxiliary file: dis.aux
 A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: final_r.aux
+A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 11854 items from 5000.
+Reallocated field_info (elt_size=4) to 12084 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -456,6 +457,22 @@ Repeated entry---line 6475 of file /home/francesco/Desktop/research/appunti/refe
  : @article{Coeckelbergh2023
  :                          ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 6537 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Floridi2011
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6548 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Floridi2013
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6559 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @inproceedings{Coeckelbergh2010
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6568 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Coeckelbergh2020
+ :                       ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Cushman2013ValueIntegration"
 Warning--I didn't find a database entry for "Yamagishi2014"
 Warning--I didn't find a database entry for "Goffman1967"
@@ -476,45 +493,46 @@ Warning--can't use both volume and number fields in Anderson2007
 Warning--can't use both author and editor fields in HumeTreatise
 Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
-You've used 284 entries,
+Warning--can't use both volume and number fields in CalvoD2010
+You've used 294 entries,
             1876 wiz_defined-function locations,
-            2142 strings with 46409 characters,
-and the built_in function-call counts, 75684 in all, are:
-= -- 7985
-> -- 2265
+            2205 strings with 48029 characters,
+and the built_in function-call counts, 78697 in all, are:
+= -- 8311
+> -- 2354
 < -- 0
-+ -- 890
-- -- 606
-* -- 4990
-:= -- 10275
-add.period$ -- 361
-call.type$ -- 284
-change.case$ -- 222
++ -- 924
+- -- 630
+* -- 5201
+:= -- 10676
+add.period$ -- 373
+call.type$ -- 294
+change.case$ -- 231
 chr.to.int$ -- 0
-cite$ -- 290
-duplicate$ -- 4063
-empty$ -- 7503
-format.name$ -- 606
-if$ -- 18837
+cite$ -- 301
+duplicate$ -- 4218
+empty$ -- 7787
+format.name$ -- 630
+if$ -- 19584
 int.to.chr$ -- 0
-int.to.str$ -- 284
-missing$ -- 350
-newline$ -- 932
-num.names$ -- 293
-pop$ -- 899
+int.to.str$ -- 294
+missing$ -- 362
+newline$ -- 964
+num.names$ -- 303
+pop$ -- 922
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2684
+skip$ -- 2801
 stack$ -- 0
-substring$ -- 5397
-swap$ -- 1687
+substring$ -- 5645
+swap$ -- 1760
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 822
-width$ -- 287
-write$ -- 2865
-(There were 109 error messages)
+warning$ -- 7
+while$ -- 856
+width$ -- 297
+write$ -- 2971
+(There were 113 error messages)
