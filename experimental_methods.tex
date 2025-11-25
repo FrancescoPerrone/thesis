@@ -724,111 +724,87 @@ With this preliminary orientation in place, we now turn to the inferential struc
 
 %%% PARTI DA QUI %%%
 
-\subsection{Inferential Assessment of Attenuation: Behavioural Evidence for Perturbation}
+\subsection{Inferential Comparison of Donation Patterns Across Conditions}
 \label{subsec:inferential_attentuation}
 
 \noindent
-Having established the structural integrity of the dataset and the epistemic symmetry of the experimental groups, we now turn to the first inferential evaluation of whether the presence of the humanoid robot $\mathscr{R}$ modulates prosocial donation behaviour. This analysis directly bears on the \textit{Evaluative Deformation Hypothesis} introduced earlier (see Hypothesis~\ref{hyp:evaluative_deformation}), which predicts that the expected behavioural output $\mathbb{E}[f(\Sigma \cup \mathscr{R})]$ will diverge from $\mathbb{E}[f(\Sigma)]$ under otherwise identical environmental conditions.
+Having established the demographic symmetry of the sample and the analytic coherence of the dataset, we now turn to the first formal evaluation of whether robotic presence $\mathscr{R}$ influences prosocial behaviour. Up to this point, all analyses have been structural or descriptive; the task now is to determine whether the behavioural distributions associated with the moral decision---the donation act---show any statistically reliable divergence across conditions. This is the first moment in the chapter where inferential weight is brought to bear on the \textit{Evaluative Deformation Hypothesis} (Hypothesis~\ref{hyp:evaluative_deformation}), and the transition therefore marks a shift from conceptual scaffolding to statistical adjudication.
 
+\medskip
 \noindent
-A chi-squared test on aggregated donation totals revealed a statistically significant difference across conditions ($\chi^2 = 4.25$, $p = .039$). Although modest in magnitude, this result provides preliminary support for the claim that robotic presence exerts a measurable perturbative influence at the level of group-level moral output.
+We proceed in an intentionally layered way. A single test rarely captures the complexity of a behavioural distribution; instead, a sequence of complementary analyses is required. We begin with a chi-squared test on coin-frequency distributions, then examine the full donation distributions using a Mann--Whitney U test, and finally quantify the magnitude of the difference via a nonparametric bootstrap. Each method probes a different facet of the data: aggregate totals, distributional structure, and effect-size stability respectively.
 
+% ---------------------------------------------------------------
+\paragraph{Chi-squared test on donation frequencies.}
+\noindent
+A chi-squared test comparing the \emph{frequency distribution of donated coins} across the Control and Robot conditions revealed a statistically detectable divergence:
+\[
+\chi^2 = 4.25,\qquad p = .039.
+\]
+This test does not assess means or medians but evaluates whether the overall pattern of coin contributions differs across conditions. The result indicates that 
+
+\bigskip
+\noindent
 \begin{center}
-	\begin{tcolorbox}[colback=white,colframe=black!60,title=Conclusion: Aggregate Attenuation of Prosocial Output]
-		At the aggregate level, participants exposed to the humanoid robot donated less overall than those in the Control condition, indicating a measurable attenuation in prosocial behavioural output under synthetic co-presence.
-	\end{tcolorbox}
+	\begin{leftbar}
+		\textit{The aggregate structure of donation behaviour is not evenly distributed across the two environments.}
+	\end{leftbar}
 \end{center}
-
-\noindent
-It is important to emphasise the conceptual modesty of this conclusion. The inference concerns \emph{behavioural outcomes}, not motivational states: it does not license any direct claim about reduced empathy, diminished altruism, or altered moral character. A richer ethical interpretation of the donation act will be developed subsequently in the dedicated chapter on charitable giving and moral agency.
-
-\noindent
-To complement the chi-squared test, a Mann–Whitney U test was applied to the full distribution of donation amounts. This test did not reach statistical significance ($U = 777$, $p = .194$), indicating that although the group means diverge, the individual-level distributions remain substantially overlapping. This distributional overlap suggests that the perturbative influence of $\mathscr{R}$ is not uniformly expressed across participants, but may depend on latent cognitive–affective structures captured in the trait vector $\beta_C$.
-
-\noindent
-A nonparametric bootstrap estimate of the mean donation difference ($\Delta M = £0.71$) reinforced the directional pattern, yet its 95\% confidence interval included zero (CI = [–£0.33, £1.79]). This epistemic indeterminacy is itself theoretically consistent with the overarching framework: the robot functions not as a deterministic suppressor of moral behaviour, but as a \textbf{subtle modulator of the normative field}, whose influence becomes most visible at the level of aggregated tendencies rather than individual-level deterministic shifts.
-
-\noindent
-Taken together, these results support the philosophical characterisation of $\mathscr{R}$ as a \textit{semiotic perturbator}—an entity whose ontological ambiguity refracts the inferential trajectory from moral salience to behavioural output. The attenuation observed at the aggregate level, coupled with the distributional overlap at the individual level, points toward a heterogeneous responsiveness within the participant population, motivating the more refined modelling strategies introduced in the sections to follow. \textit{In particular, the potential interaction between robotic presence $\gamma_R$ and individual traits $\beta_C$ warrants further investigation through regression modelling, interaction analyses, and Bayesian estimation procedures.}
 
 \begin{table}[H]
 	\centering
 	\includegraphics[width=\textwidth]{tables/statistical_tests_table.pdf}
-	\caption{Inferential comparisons of donation behaviour across conditions. The chi-squared test identifies a significant difference in aggregate donation totals, while the Mann–Whitney U test and bootstrapped mean difference indicate substantial distributional overlap and a diffuse, heterogeneous perturbative effect.}
+	\caption{Inferential comparisons of donation behaviour across conditions. The chi-squared test compares coin-frequency distributions, while the Mann--Whitney U test and bootstrapped mean difference assess distributional structure and effect magnitude respectively.}
 	\label{tab:statistical_tests}
 \end{table}
 
-\vspace{0.3cm}
 \noindent
-Inferential statistical testing corroborates the initial descriptive trends, albeit with nuanced gradations in evidential strength. As shown above, a chi-squared test applied to the aggregate donation sums across experimental conditions yielded a statistically significant divergence ($\chi^2 = 4.25$, $p = .039$), in line with the Evaluative Deformation Hypothesis that the presence of a synthetic co-presence $\mathscr{R}$ deforms the expected behavioural output of the evaluative function $f$. 
+It is crucial, however, that this result be interpreted with methodological restraint. The chi-squared test establishes an \emph{aggregate} divergence, not a uniform shift in individual tendencies. To understand the behavioural topology more fully, we must examine the entire donation distribution.
 
-However, this aggregate significance attenuates when the full distributions of donation amounts are examined. A Mann–Whitney U test did not detect a reliable shift in the overall donation distributions ($U = 777$, $p = .194$), indicating substantial overlap in individual-level variability across the Control and Robot conditions. A bootstrapped estimation of the mean difference in donation ($\Delta M = £0.71$) reinforced the directional pattern, but the 95\% confidence interval (CI = [–£0.33, £1.79]) encompassed the null, \textit{thereby underscoring the epistemic fragility and structural subtlety of the observed effect.}
+% ---------------------------------------------------------------
+\paragraph{Mann--Whitney U test on donation distributions.}
+\noindent
+A Mann--Whitney U test, applied to the full distribution of donation amounts, did not detect a statistically reliable difference:
+\[
+U = 777.0,\qquad p = .194.
+\]
+This indicates substantial overlap between individual donation behaviours in the two conditions. In other words, while coin-frequency totals diverge, the fine-grained distribution of donation amounts remains broadly similar. This pattern suggests that the influence of $\mathscr{R}$ may be probabilistic and heterogeneous rather than deterministic or uniform across participants.
+
+% ---------------------------------------------------------------
+\paragraph{Bootstrapped estimate of the mean difference.}
+\noindent
+To complement these analyses, we calculated a nonparametric bootstrap estimate of the mean donation difference:
+\[
+\Delta M = £0.71,\qquad 95\%\ \mathrm{CI} = [-£0.33, £1.79].
+\]
+The estimate aligns directionally with the group-level pattern (Control > Robot), but the confidence interval includes zero, reinforcing the conclusion that the effect is subtle and probabilistic rather than sharply bifurcated.
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{new_plots/donation_effect_by_condition.png}
-	\caption{Mean donation amounts by experimental condition, with 95\% bootstrapped confidence intervals. Participants in the Control condition donated more on average than those in the Robot condition, aligning with the hypothesis that robotic presence attenuates the inferential mapping from moral salience to prosocial action. The overlapping confidence intervals highlight substantial individual-level variability and the probabilistic nature of the perturbation.}
+	\caption{Mean donation amounts by experimental condition, with 95\% bootstrapped confidence intervals. The overlapping intervals illustrate substantial individual-level variability, indicating that any perturbative influence of $\mathscr{R}$ is diffuse rather than deterministic.}
 	\label{fig:donation_effect_by_condition}
 \end{figure}
-\noindent
 
+% ---------------------------------------------------------------
+\medskip
 \noindent
-Beyond establishing that a statistically detectable attenuation emerges at the level of group aggregates, it is epistemically important to quantify the magnitude of this perturbation. The effect is not only small in absolute monetary terms, but also structurally modest in inferential terms: it does not collapse the transformation from moral salience to action, but appears to bend it. The following analyses therefore introduce both parametric and nonparametric effect size metrics, in order to characterise how strongly the robotic co-presence $\gamma_R$ modulates the evaluative function $f(\alpha_E, \beta_C, \gamma_R)$ and how this modulation scales across heterogeneous configurations of the trait vector $\beta_C$.
+Taken together, these three analyses trace a coherent statistical profile. There is evidence of divergence in aggregate coin-frequency behaviour, yet the distributional overlap and wide bootstrap interval demonstrate that the perturbation introduced by $\mathscr{R}$ is not uniform across individuals. This is exactly the pattern predicted by the evaluative-topological model: 
 
-% ---------------------------------------------------------------------
-\subsection{Interim Evaluation of the Hypotheses and Formal Framework}
-
+\bigskip
 \noindent
-At this stage, the behavioural and inferential results allow for a provisional assessment of the hypotheses and the formal apparatus introduced earlier. These are not isolated claims, but components of a single explanatory architecture that tracks how moral salience is transformed into observable behaviour under synthetic co-presence.
-
-\noindent
-The \textbf{Evaluative Deformation Hypothesis} (Hypothesis~\ref{hyp:evaluative_deformation} p.~\pageref{hyp:evaluative_deformation}) asserts that the expected outcome of moral behaviour, as computed by the evaluative transformation $f$, is altered when the robot is present within the perceptual–moral environment. The chi-squared analysis of aggregate donation totals, together with the bootstrapped mean difference, supports this claim: the pattern
-\[
-\mathbb{E}[f(\Sigma \cup \mathscr{R})] < \mathbb{E}[f(\Sigma)]
-\]
-is empirically instantiated, albeit modestly and with heterogeneous individual-level expression. This hypothesis is therefore \textbf{retained} as an operative empirical statement about the deformation of group-level moral output under robotic co-presence.
+\begin{center}
+	\begin{leftbar}
+		\textit{Synthetic presence functions not as a coercive force but as a semiotic perturbator, modulating the evaluative mapping from moral cue to action in a heterogeneous population.}
+	\end{leftbar}
+\end{center}
 
 \medskip
 \noindent
-The \textbf{Synthetic Normativity of Moral Displacement} hypothesis (Hypothesis~\ref{hyp:synthetic_normativity}, p.~\pageref{hyp:synthetic_normativity}) provides the ontological and conceptual groundwork for interpreting this deformation. It claims that synthetic presences, though devoid of sentience, may acquire normative affordances by virtue of their perceived ontology. The present evidence neither confirms nor disconfirms this hypothesis in a narrow statistical sense; rather, it shows that a non-interactive yet semantically rich artefact, \textbf{positioned at the appropriate Level of Abstraction}, can exert measurable influence on prosocial behaviour without issuing commands, arguments, or reasons. This is exactly the pattern one would expect if normative affordances were grounded in informational presentation at a given LoA, rather than in intrinsic moral status. The hypothesis is thus \textbf{retained} as the principal conceptual lens through which the behavioural results are interpreted.
 
-\noindent
-The \textbf{Synthetic Perturbation of Moral Inference} hypothesis (Hypothesis~\ref{hyp:synthetic_perturbation},  p.~\pageref{hyp:synthetic_perturbation}) specifies the mechanism connecting the previous two: the robot does not merely co-occur with lowered donations; it perturbs the inferential transition from moral salience to prosocial action by refracting the affective–empathic cues that would otherwise support donation behaviour. The combined pattern of (i) significant aggregate attenuation, (ii) overlapping individual-level distributions, and (iii) non-trivial yet fragile effect sizes is coherent with this mechanistic reading: the evaluative mapping is not destroyed, but \textbf{its topology is altered}. This hypothesis is therefore \textbf{retained} as a working account of how the deformation is instantiated at the level of moral inference.
-\noindent
-In sum, all three hypotheses remain live and mutually reinforcing:
+In interpretive terms, the results neither dismiss nor overstate the effect. They demonstrate that robotic presence is behaviourally consequential at the aggregate level while leaving open, and thereby motivating, the central analytical task of the next subsections: determining whether this perturbation interacts with the dispositional manifold $\beta_C$. The inferential focus therefore now turns to regression modelling, interaction tests, and Bayesian estimation, where the structure of $\beta_C$ can be incorporated directly into the evaluation of $\gamma_R$.
 
-\begin{itemize}
-	\item Hypothesis~\ref{hyp:evaluative_deformation}, (p.~\pageref{hyp:evaluative_deformation}) identifies the \emph{empirical signature} of deformation at the level of expected behaviour.
-	\item Hypothesis~\ref{hyp:synthetic_normativity}, (p.~\pageref{hyp:synthetic_normativity}) explains the \emph{ontological possibility} of such deformation within Floridi’s informationalist framework and its Levels of Abstraction.
-	\item Hypothesis~\ref{hyp:synthetic_perturbation}, (p.~\pageref{hyp:synthetic_perturbation}) articulates the \emph{inferential pathway} through which robotic presence reshapes the transition from moral salience to action.
-\end{itemize}
 
-No hypothesis introduced thus far is contradicted by the current evidence; rather, the data suggest that the deformation is subtle, probabilistic, and mediated—exactly the kind of effect one would expect when perturbation occurs at the level of semantic encoding rather than at the level of explicit instruction or coercion.
-
-% ---------------------------------------------------------------------
-\subsubsection{Status of the Mathematical Formalism}
-
-\noindent
-The mathematical formalism developed earlier has not remained abstract scaffolding; it has directly structured both the analysis and the interpretation of the behavioural findings.
-
-\paragraph{(a) The evaluative transformation function \(f(\cdot)\).}
-This function encodes the cognitive–affective transformation through which perceptual–moral cues are converted into behavioural output.  
-\textbf{Contribution so far:} it clarifies why a non-interactive, minimal-behaviour robot can nonetheless influence donation behaviour: what is being perturbed is not the presence of reasons or arguments, but the transformation process itself.
-
-\paragraph{(b) Expected behavioural distributions \(\mathbb{E}[f(\Sigma)]\) vs.\ \(\mathbb{E}[f(\Sigma \cup \mathscr{R})]\).}
-These expectations formalise the contrast between Control and Robot conditions.  
-\textbf{Contribution so far:} they provide a principled representation of the observed attenuation pattern, making it possible to express the empirical result as an inequality over expected moral output, rather than as an ad hoc numerical difference.
-
-\paragraph{(c) The tripartite decomposition}
-\[
-\mathscr{P}(\delta_m) = f(\alpha_E, \beta_C, \gamma_R).
-\]
-This expression disaggregates environmental cues (\(\alpha_E\)), dispositional factors (\(\beta_C\)), and robotic presence (\(\gamma_R\)).  
-\textbf{Contribution so far:} it justifies the joint consideration of (i) the Watching Eye stimulus, (ii) psychometric traits and demographics, and (iii) robotic co-presence as distinct yet interacting contributors to moral behaviour. The current behavioural results speak primarily to the \(\gamma_R\) component, while leaving open the possibility that its effect is modulated by structured configurations of \(\beta_C\)—a possibility that will be examined through regression and interaction models in the analyses that follow.
-
-Together, these formal elements ensure that the experiment is not interpreted as a mere collection of empirical regularities, but as a controlled perturbation of a well-specified evaluative system situated at a particular Level of Abstraction.
-
-% ---------------------------------------------------------------------
 \subsection{Interim Conclusion to Question~\ref{q:robot-agent}}
 
 \begin{center}
@@ -851,22 +827,54 @@ In summary, the results to this point justify the claim that robotic co-presence
 Beyond establishing the statistical significance of the observed differences, it is epistemically imperative to quantify the magnitude of behavioral perturbation induced by robotic presence. The following analyses introduce both parametric and nonparametric effect size metrics to characterise the structural modulation of moral decision-making.
 
 \subsection{Quantification of Behavioural Modulation: Parametric and Nonparametric Effect Sizes}
+\label{subsec:effect_sizes}
 
 \noindent
-To complement the inferential analyses reported above, the magnitude of the behavioural modulation induced by robotic co-presence was quantified using both parametric and nonparametric effect size metrics. Whereas significance tests assess whether an effect is detectable relative to sampling variability, effect sizes characterise the \textit{structural amplitude} of the perturbation introduced by $\mathscr{R}$. In keeping with the dual statistical and philosophical commitments of this chapter, we employ metrics that capture both standardised differences in central tendency and ordinal differences in the full behavioural distribution.
+Having established that the experimental groups are demographically symmetric and that 
+the aggregate-level analyses reveal a measurable difference in charitable behaviour across 
+conditions, we now turn to the question of \emph{magnitude}. Significance tests indicate 
+whether a behavioural contrast is detectable relative to sampling variability; they do not 
+characterise the structural amplitude of the perturbation induced by the synthetic 
+co-presence $\mathscr{R}$. For this reason, the present section complements the inferential 
+tests with parametric and nonparametric effect-size metrics, thereby quantifying the extent 
+to which robotic presence modulates prosocial behaviour under the Watching–Eye paradigm.
+
+\medskip
+\noindent
+Because the subsequent regression and interaction analyses will examine the interplay 
+between robotic presence and dispositional structure, it is essential to begin with a 
+transparent description of the overall behavioural landscape. The effect sizes presented 
+here serve as the bridge between aggregate-level contrasts and the more nuanced 
+trait–context models developed later in the chapter.
+
+% ---------------------------------------------------------
+%   Effect Size Overview
+% ---------------------------------------------------------
+
+\subsubsection*{Effect-Size Framework}
 
 \noindent
 Two complementary measures were selected:
 
-\begin{itemize}
-	\item \textbf{Cohen’s $d$} — a parametric index of standardised mean difference;
-	\item \textbf{Cliff’s $\Delta$} — a nonparametric ordinal effect size quantifying the probability that a randomly selected individual in one group donates more or less than a randomly selected individual in the other.
+\begin{itemize}[itemsep=4pt]
+	\item \textbf{Cohen’s $d$}: a parametric index of standardised mean difference, 
+	sensitive to shifts in central tendency;
+	\item \textbf{Cliff’s $\Delta$}: a nonparametric ordinal effect size that estimates 
+	the probability that a randomly selected individual from one condition donates more 
+	(or less) than a randomly selected individual from the other.
 \end{itemize}
 
-These metrics jointly assess whether robotic presence reshapes the evaluative output distribution in a manner consistent with the deformation posited in the preceding hypotheses.
+\noindent
+Taken together, these metrics evaluate whether the presence of $\mathscr{R}$ reshapes the 
+evaluative output distribution in a manner consistent with the deformation posited in the 
+Evaluative Deformation Hypothesis (Hypothesis~\ref{hyp:evaluative_deformation}).
 
-\vspace{0.3cm}
-\noindent\textbf{Cohen’s \( d \):}
+% ---------------------------------------------------------
+%   Definitions
+% ---------------------------------------------------------
+
+\paragraph{Cohen’s $d$.}
+
 \[
 d = \frac{\bar{x}_1 - \bar{x}_2}{s_p}
 \quad\text{where}\quad
@@ -877,137 +885,293 @@ s_p = \sqrt{\frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2}}
 Where:
 \begin{itemize}
 	\item $\bar{x}_1, \bar{x}_2$ = group means (Control, Robot),
-	\item $s_1, s_2$ = group standard deviations,
-	\item $n_1, n_2$ = group sizes.
+	\item $s_1, s_2$ = corresponding standard deviations,
+	\item $n_1, n_2$ = sample sizes.
+\end{itemize}
+
+\paragraph{Cliff’s Delta.}
+
+\[
+\Delta = \frac{\#(x>y) - \#(x<y)}{n_x n_y}
+\]
+
+\noindent
+Where:
+\begin{itemize}
+	\item $\#(x>y)$ counts all cases where a Control donation exceeds a Robot donation,
+	\item $\#(x<y)$ counts the inverse,
+	\item $n_x, n_y$ are the sample sizes of each group.
 \end{itemize}
 
 \medskip
-\noindent\textbf{Cliff’s Delta \( \Delta \):}
-\[
-\Delta = 
-\frac{\#(x>y) - \#(x<y)}{n_x n_y}
-\]
-Where:
-\begin{itemize}
-	\item $\#(x>y)$ counts all pairwise comparisons where a Control donation exceeds a Robot donation,
-	\item $\#(x<y)$ counts the inverse.
-\end{itemize}
-
-\vspace{0.3cm}
 \noindent
 The empirical results yield:
 \[
-d \approx 0.30, \qquad \Delta \approx 0.20.
+d \approx 0.30,
+\qquad
+\Delta \approx 0.20.
 \]
 
 \noindent
-Both indices fall within the range typically interpreted as \textit{small to modest} behavioural modulation. Yet as argued earlier, the theoretical significance of these values does not lie in their magnitude alone, but in the fact that they instantiate a reproducible \textit{directional deformation} of the evaluative transformation $f(\cdot)$ under controlled manipulation of $\mathscr{R}$.
+Both indices fall within the range typically interpreted as \textit{small to modest} 
+behavioural modulation. Their relevance lies not in magnitude alone, but in the fact that 
+both metrics converge on the same directional pattern: robotic presence is associated with 
+lower prosocial donation on average.
+
+% ---------------------------------------------------------
+%   Figure Justification
+% ---------------------------------------------------------
+
+\medskip
+\noindent
+To ensure interpretive clarity, two complementary visualisations are provided.  
+The kernel density estimate (Fig.~\ref{fig:donation_density}) depicts the \emph{shape} and 
+spread of donation distributions, enabling inspection of distributional tails and modes.  
+The mean-with-standard-error plot (Fig.~\ref{fig:mean_donation}) focuses on 
+\emph{central tendency} and sampling variability.  
+Although partially overlapping in content, the two figures serve distinct analytic functions 
+and together offer a transparent view of the behavioural landscape that informs the 
+subsequent modelling work.
+
+% ---------------------------------------------------------
+%   Figures
+% ---------------------------------------------------------
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{new_plots/donation_density_by_condition.png}
-	\caption{Kernel density estimates of donation distributions across conditions. The Control group exhibits higher central mass and a heavier rightward extension relative to the Robot group, consistent with a directional attenuation of high-value prosocial acts in the presence of the synthetic co-presence $\mathscr{R}$.}
+	\caption{Kernel density estimates of donation distributions across experimental conditions. 
+		The Control group exhibits greater mass at higher donation values, whereas the Robot group 
+		shows a mild left-shift in density. These plots provide distributional context for the 
+		effect-size metrics discussed in the text.}
 	\label{fig:donation_density}
 \end{figure}
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{new_plots/donation_mean_with_se.png}
-	\caption{Mean donation amounts with standard error bars by condition. The Control group donates more on average (£1.89) than the Robot group (£1.17), corroborating the hypothesis that robotic presence modulates—rather than eliminates—the evaluative pathway from moral salience to action.}
+	\caption{Mean donation amounts with standard error bars by condition. 
+		While the Control group donates more on average, the overlapping error bars reflect 
+		substantial individual-level variability. The figure complements the density plot by 
+		highlighting differences in central tendency rather than distributional shape.}
 	\label{fig:mean_donation}
 \end{figure}
 
+% ---------------------------------------------------------
+%   Statistical Tests Table (reproduced for completeness)
+% ---------------------------------------------------------
+
+\medskip
 \noindent
-Taken together, these effect sizes indicate that robotic presence does not suppress moral action in any deterministic sense. Instead, it exerts a statistically coherent but modest refractive influence: it alters the \textit{amplitude} with which moral salience transitions into overt prosocial behaviour, without erasing the underlying evaluative architecture. The moral field remains operative, but its expression becomes probabilistically dampened under synthetic co-presence.
+For completeness, the inferential tests introduced earlier are reproduced in 
+Table~\ref{tab:statistical_tests} alongside the effect-size metrics, ensuring that all 
+aggregate-level results appear within a single consolidated reference point before turning 
+to trait–context modelling.
 
-This pattern resonates with the broader theoretical framing developed throughout this chapter. Within the informational ontology of Floridi’s Levels of Abstraction, the robot functions as a \textit{semantic perturbator}: its perceived ontology introduces a shift in the evaluative topology at the LoA where moral cues acquire salience. 
+\begin{table}[H]
+	\centering
+	\includegraphics[width=\textwidth]{tables/statistical_tests_table.pdf}
+	\caption{Inferential comparisons of donation behaviour across conditions. 
+		The chi-squared test (applied to total coin frequencies), the Mann--Whitney U test, 
+		and the bootstrapped mean difference collectively characterise the behavioural contrast.}
+	\label{tab:statistical_tests}
+\end{table}
+
+% ---------------------------------------------------------
+%   Interpretive Summary
+% ---------------------------------------------------------
 
 \noindent
-The effect sizes observed here are therefore best interpreted not as behavioural weakness, but as evidence that moral displacement operates as a \textit{graded transformation} within the evaluative function $f$, rather than a \textit{binary switch} between generosity and withholding.
-
+Overall, the effect sizes indicate that robotic presence exerts a 
+\emph{directionally consistent, behaviourally modest} modulation of prosocial action.  
+These outcomes are consistent with---though they do not in isolation confirm---the 
+prediction that $\mathscr{R}$ perturbs the evaluative transformation from moral salience 
+to behaviour. Importantly, the effect is \emph{graded}, not binary: the evaluative system 
+remains operative, but the strength with which moral cues are translated into action is 
+probabilistically dampened.
+\bigskip
 \noindent
-To capture this insight with conceptual precision, the following conclusion is offered:
-
-
-\nextdiv
 \begin{center}
 	\begin{tcolorbox}[colback=white,colframe=black!60,
 		title=Conclusion: Amplitude of Moral Refraction]
-		 \label{conc:amplitude_moral_refactor}
-		Synthetic co-presence does not operate as a binary suppressor of moral behaviour but as a \textbf{probabilistic refractor} that modulates both the amplitude and direction of evaluative processing. Rather than displacing the normative orientation of the agent, the robotic presence perturbs the strength with which morally salient cues are transduced into prosocial action, yielding a graded attenuation consistent with its ambiguous ontological encoding at the operative Level of Abstraction.
+		Synthetic co-presence does not function as a binary suppressor of moral behaviour.  
+		Instead, it modulates the amplitude of the evaluative transformation from moral salience 
+		to action, introducing a subtle, probabilistic refractive shift consistent with its 
+		ambiguous ontological encoding at the operative Level of Abstraction.
 	\end{tcolorbox}
 \end{center}
+\bigskip
+\noindent
+% ---------------------------------------------------------
+%   Transition to Trait–Context Modelling
+% ---------------------------------------------------------
 
 \noindent
-This conclusion follows coherently from the statistical, philosophical, and formal analyses developed thus far: robotic presence acts not as a moral veto, but as a structurally subtle deformation of the evaluative mapping from salience to action.
+At this point, the analysis shifts from evaluating the \emph{main effect} of 
+$\mathscr{R}$ to examining its interaction with individual-level dispositions.  
+The dispositional manifold $\beta_C$---comprising empathizing and systemizing tendencies 
+as well as Big Five personality traits---may modulate the susceptibility of the 
+evaluative mapping $f(\alpha_E, \beta_C, \gamma_R)$ to perturbation.  
+The following sections introduce regression models, interaction tests, and Bayesian 
+estimation procedures designed to determine whether the attenuation observed here is 
+uniform across the population or concentrated within specific psychological profiles.
+
 
 \section{Dispositional Baseline: Big Five Personality Traits Across Conditions}
 
 \noindent
 A foundational requirement for attributing the observed attenuation of prosocial behaviour to the presence of the humanoid robot is the establishment of \emph{dispositional equivalence} between the two experimental groups. If participants in the Robot condition were, for example, systematically lower in Agreeableness or Empathizing, then differences in donation behaviour could be trivially explained by trait imbalance rather than by the perturbative effect of $\mathscr{R}$. The question addressed in this section is therefore epistemically prior to all subsequent modelling:
 
-\begin{quote}
-	\textit{Do the Big Five personality traits differ between the Control and Robot conditions, and thus constitute a potential confound for interpreting the displacement of prosocial behaviour?}
-\end{quote}
 
-\subsection{Between-Condition Differences in Big Five Personality Traits}
+\bigskip
+\noindent
+\begin{center}
+	\begin{leftbar}
+		\textit{Do the Big Five personality traits differ between the Control and Robot conditions, and thus constitute a potential confound for interpreting the displacement of prosocial behaviour?}
+	\end{leftbar}
+\end{center}
+
+\bigskip
+\noindent
+
+\subsection{Between-Condition Comparisons of Big Five Personality Traits}
+\label{subsec:bigfive_groupdiff}
 
 \noindent
-To examine this possibility, we compared Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism between conditions using the Mann--Whitney $U$ test. This analytic choice follows directly from the structure of the data: Big Five scores are bounded, ordinally coded psychometric measures, exhibit mild skew, and are measured with $N \approx 70$, a regime in which parametric assumptions cannot be guaranteed. The Mann–Whitney framework therefore offers the correct inferential granularity: it is distribution-free, variance-robust, and sensitive to monotonic rather than strictly linear differences.
+The effect-size analyses above established that robotic co-presence 
+($\mathscr{R}$) exerts a modest but directionally consistent modulation of 
+donation behaviour. Before examining whether this perturbation interacts with 
+individual differences, we must ensure that the two experimental groups were 
+not already differentiated at the level of personality. If the Control and 
+Robot conditions differed systematically in the Big Five traits, any apparent 
+behavioural attenuation could reflect pre-existing dispositional imbalance 
+rather than the influence of $\mathscr{R}$.
 
-Because examining five traits entails five simultaneous hypothesis tests, we applied the Benjamini–Hochberg False Discovery Rate (FDR) correction---a principled safeguard against Type~I inflation when multiple, correlated psychological constructs are assessed in parallel. This aligns with the epistemic architecture of the experiment: the question is not whether \emph{any} uncorrected difference might be found, but whether a \emph{reliable} dispositional asymmetry exists that could invalidate the interpretation of robotic presence as the causal perturbator.
-
+\medskip
 \noindent
-The results are unambiguous. After FDR correction, none of the Big Five traits differ significantly between the Control and Robot groups. Directional tendencies (e.g., slightly higher Openness and Agreeableness in the Control condition) fail to approach corrected thresholds, and visual inspection of the distributions reveals substantial overlap across all five traits.
+To assess this, we compared Openness, Conscientiousness, Extraversion, 
+Agreeableness, and Neuroticism across conditions using the Mann--Whitney 
+$U$ test. This test is appropriate for the structure of the dataset: the Big 
+Five scores are bounded, ordinal psychometric variables exhibiting mild skew, 
+and the sample size ($N \approx 70$) does not justify strong parametric 
+assumptions. Because examining five traits entails five simultaneous hypothesis 
+tests, the Benjamini--Hochberg False Discovery Rate (FDR) correction was 
+applied to control Type~I error.
 
-
-
+\medskip
 \noindent
-This permits a crucial inferential step: \textbf{the two groups can be treated as dispositionally equivalent}. The attenuation in donation behaviour cannot be attributed to pre-existing personality differences but must instead be interpreted as a perturbation arising from the ontological and semiotic properties of $\mathscr{R}$ itself.
+After FDR correction, \textbf{none of the Big Five traits differ significantly} 
+between the Control and Robot groups. Small numerical tendencies (e.g., slightly 
+higher Openness in the Control condition) fail to approach corrected 
+significance thresholds, and all distributions display substantial overlap.
 
 \begin{figure}[H]
 	\centering
 	\begin{minipage}{0.98\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{new_plots/per_trait/bigfive_row_kde.png}
-		\caption{Kernel density estimates for each Big Five trait across experimental conditions, demonstrating substantial distributional overlap.}
+		\caption{Kernel density estimates for each Big Five trait across conditions. 
+			All five distributions show substantial overlap, visually corroborating the 
+			non-significant Mann--Whitney tests.}
 		\label{fig:bigfive_kde}
 	\end{minipage}
 \end{figure}
 
-
-\subsection{Predictive and Moderating Roles of Big Five Traits}
+\medskip
+\noindent
+This supports a key methodological inference:
+\begin{center}
+	\textbf{The two experimental groups can be treated as dispositionally equivalent.}
+\end{center}
 
 \noindent
-Establishing between-group equivalence does not settle a further question of theoretical importance:
+Accordingly, the behavioural difference observed earlier is \emph{most 
+	plausibly attributed} to the presence of $\mathscr{R}$ rather than to 
+pre-existing personality differences.
+
+\bigskip
+\noindent
+Having established dispositional equivalence, we now examine whether personality
+nonetheless predicts prosocial behaviour or interacts with the attenuation 
+associated with robotic co-presence.
+
+% =============================================================
+\subsection{Predictive and Moderating Roles of Big Five Personality Traits}
+\label{subsec:bigfive_prediction}
+
+\noindent
+This analysis addresses a further theoretical question of interest:
 
 \begin{quote}
-	\textit{Even if the groups are balanced, do the Big Five traits nonetheless predict donation behaviour, or modulate the displacement effect of robotic presence?}
+	\textit{Even if the groups are balanced, do the Big Five traits predict donation, 
+		or modulate the displacement induced by $\mathscr{R}$?}
 \end{quote}
 
-To address the predictive dimension, we computed Spearman rank correlations between each Big Five trait and donation amount. Spearman’s $\rho$ is epistemically suited to this dataset: donation values are zero-inflated, non-normal, and bounded, while the trait scores arise from ordinal psychometric instruments that do not guarantee interval-level structure. Scatterplots with monotonic regression overlays were inspected for nonlinear tendencies that numeric coefficients might conceal.
+\paragraph{(1) Predictive effects.}
+Spearman rank correlations were computed between each Big Five score and 
+donation amount. Spearman’s $\rho$ is appropriate for zero-inflated, bounded, 
+and non-normal behavioural data, and for ordinal psychometric measures. 
+Scatterplots with monotonic trend lines were examined to detect any nonlinear 
+patterns not captured numerically.
 
-For the moderation question, interaction models of the form
+\paragraph{(2) Moderation effects.}
+To test whether personality modulates the displacement effect, interaction 
+models of the form
 \[
 \text{donation} \sim \text{condition} \times \text{trait}
 \]
-were estimated. This is the correct operationalisation of the theoretical claim that synthetic presence may act as a \textit{moral refractor}: an entity whose semiotic and ontological ambiguity differentially perturbs evaluative processing depending on the agent’s dispositional architecture.
+were estimated for each Big Five dimension. This correctly operationalises the 
+possibility that robotic presence acts as a \textit{moral refractor}, exerting 
+differential influence depending on dispositional architecture.
 
-
+\medskip
 \noindent
-The findings are striking in their restraint. None of the Big Five traits significantly predict donation magnitude, nor do they moderate the difference between Control and Robot conditions. The behavioural divergence remains visible at the aggregate level, but its amplitude is not amplified or diminished at low versus high levels of any trait. The displacement effect of $\mathscr{R}$ is therefore \textbf{not trait-specific within the Big Five taxonomy}. 
+Methodologically, the findings are straightforward.  
+\textbf{No statistically reliable associations} between any Big Five trait and 
+donation amount appear in this dataset, and \textbf{no interaction} with 
+experimental condition reaches significance. The behavioural attenuation 
+associated with $\mathscr{R}$ therefore shows no detectable variation across 
+Big Five personality profiles.
 
 \begin{figure}[H]
 	\centering
 	\begin{minipage}{0.98\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{new_plots/per_trait/bigfive_row_scatter.png}
-		\caption{Scatter plots with fitted regression lines for each Big Five trait against donation amount. 
-			Each panel displays individual participant scores alongside a smoothed linear trend. 
-			No clear predictive relationships emerge, reinforcing the conclusion that the Big Five traits do not meaningfully predict prosocial donation within this experimental context.}
+		\caption{Scatter plots with monotonic trend lines for each Big Five 
+			trait against donation amount. No predictive relationships appear, and 
+			no moderation patterns are visible. This matches the null results from 
+			correlations and interaction models.}
 		\label{fig:bigfive_scatter}
 	\end{minipage}
 \end{figure}
+
+\medskip
+\noindent
+In summary, within the Big Five framework:
+
+\begin{itemize}
+	\item no trait reliably predicts prosocial donation;
+	\item no trait moderates the attenuation introduced by robotic co-presence;
+	\item the displacement effect of $\mathscr{R}$ shows no detectable 
+	variation across Big Five profiles \emph{in this sample}.
+\end{itemize}
+
+\begin{center}
+	\begin{tcolorbox}[colback=white,colframe=black!60,
+		title=Conclusion: Trait-Independence of Evaluative Displacement]
+		The attenuation of prosocial donation under robotic co-presence shows no 
+		detectable modulation by Big Five personality traits in this dataset. 
+		This supports the interpretation that $\mathscr{R}$ acts on the evaluative 
+		field itself rather than on specific dispositional pathways.
+	\end{tcolorbox}
+\end{center}
+
+\noindent
+The next subsection examines whether more specialised social-cognitive traits—
+the Empathizing Quotient (EQ) and Systemizing Quotient (SQ)—show predictive or 
+moderating roles that the broad Big Five taxonomy does not capture.
+
 
 \subsection{Interpretive Synthesis}
 

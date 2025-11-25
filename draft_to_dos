@@ -88,5 +88,110 @@ Together, these three formal components ensure that the empirical observations a
 \noindent
 In summary, the evidence to this point allows us to affirm that robotic co-presence modifies the evaluative conditions under which morally salient cues become behaviourally actionable. The three retained hypotheses together provide the conceptual, ontological, and mechanistic scaffolding for interpreting this modification. Further analyses will determine how these perturbations scale across heterogeneous psychological profiles and how robust the displacement effect remains under refined statistical scrutiny.
 
+c) this portion also need reallocation- but for some text in it not all of it:
 
+
+\subsection{Preprocessing the Moral Field: Semiotic Modulation and Ontological Symmetry}
+
+Importantly, the robotic presence $\mathscr{R}$ is not modelled as an agent that exerts influence through interaction or instruction, but as a \textbf{semiotic modulator}: an ontologically ambiguous presence that perturbs the interpretive field in which moral cues operate. Within this framework, the observed attenuation of prosocial behaviour should not be interpreted as a direct suppression of empathy \textit{per se}, but as the result of a structural reconfiguration in what may be called the \textbf{normative encoding schema}: the internal representational system by which moral salience is assigned, weighted, and transmitted within a perceptual environment.
+
+The introduction of $\mathscr{R}$ modifies the topology of this schema, shifting the inferential weight carried by otherwise salient moral signals. The Watching Eye cue, ordinarily a strong generator of prosocial behaviour, is thus refracted through a newly configured semiotic landscape—one in which an embodied but non-agentic entity complicates the attribution of moral relevance and potentially displaces reputational concern.
+
+\begin{table}[H]
+	\centering
+	\includegraphics[width=\textwidth]{tables/conditions.pdf}
+	\caption{Experimental conditions are behaviorally and procedurally identical, differing only in robotic presence.}
+	\label{tab:experimental_conditions}
+\end{table}
+
+Both conditions were engineered to be \textbf{epistemically symmetrical}, ensuring that any observed deviation in moral behaviour can be attributed exclusively to the ontological modulation introduced by $\mathscr{R}$. The symmetry is not merely procedural but conceptual: it guarantees that the moral field differs only in the presence or absence of a semiotically potent synthetic form.
+
+\begin{table}[H]
+	\centering
+	\includegraphics[width=\textwidth]{tables/variables.pdf}
+	\caption{Measured variables and psychometric constructs used in inferential modelling of moral behaviour.}
+	\label{tab:key_variables}
+\end{table}
+
+This formal and operational framework allows us to treat the experiment as a constrained instantiation of a more general epistemic function: namely, how minimally expressive artificial agents reshape the \textbf{moral topology} of a decision-making environment by altering the interpretive affordances of its cues.
+
+\statementheader{Question}{Ontological Integrity of the Dataset}
+\label{question:data_structuring}
+\begin{center}
+	\begin{questionbox}[label={q:data-prep}]{Data structuring}
+		\textbf{What is required of the data at this stage?}  
+		How can the raw dataset be transformed into a semantically coherent and mathematically compatible structure—one that preserves the normative architecture of the experiment and enables defensible inferences about moral behaviour?
+	\end{questionbox}
+\end{center}
+Before any inferential operation can be meaningfully performed, the dataset must be rendered analytically legible and ontologically stable. At this foundational stage, our objective was not to extract patterns or test hypotheses, but to establish the \textbf{semantic integrity} and \textbf{computational viability} of the data matrix as a structured representation of moral decision-making. The transformation of moral action into analysable form is itself an epistemic act: the construction of a space in which behaviour can be interrogated without distorting the normative structure from which it emerges.
+
+To this end, a series of principled data transformations were applied:
+
+\begin{itemize}
+	\item \textbf{Variable normalisation}: lowercase conversion and string trimming to eliminate syntactic artefacts and ensure referential transparency.
+	\item \textbf{Binary encoding of moral action}: creation of the variable \texttt{donated\_anything}, capturing whether participants donated at all. This enables both continuous and categorical modelling of prosocial behaviour.
+	\item \textbf{Numerical encoding of condition}: creation of \texttt{condition\_bin} ($0=\text{Control}$, $1=\text{Robot}$), allowing direct integration into regression-based models.
+	\item \textbf{Verification of categorical coherence}: ensuring semantic alignment for fields such as \texttt{gender} and \texttt{group} to eliminate latent structural imbalances.
+\end{itemize}
+
+These procedures were not arbitrary conveniences but \textbf{ontological prerequisites}. The dataset comprises scalar, ordinal, and nominal variables, each governed by distinct inferential affordances. Treating them as interchangeable would collapse the analytic structure of the experiment into incoherence, misrepresenting the cognitive architecture it aims to probe.
+
+Importantly, the dataset’s scale (\(N \approx 70\)) allows a rare balance: small enough for manual audit, yet large enough to require principled automation. The transformations performed operate precisely at this interface, upholding both semantic fidelity and computational tractability.
+
+\vspace{0.3cm}
+
+The dataset was then cleaned and preprocessed for inferential modelling. Variable names were standardised, \texttt{donated\_anything} was constructed, and \texttt{condition\_bin} was encoded. Descriptive statistics revealed no major distributional anomalies across demographic or psychometric variables, supporting the assumption of epistemic symmetry between groups and reinforcing the inference that the perturbation introduced by $\mathscr{R}$ operates primarily at the interpretive rather than dispositional level.
+
+Figures~\ref{fig:age_distribution_by_group} and~\ref{fig:donation_distribution_by_condition} visually corroborate this reading: age distributions show no demographic divergence, while donation distributions reveal the predicted attenuation under robotic co-presence. The unified visual palette of the plots maintains stylistic continuity with the thesis’s typographic aesthetic, reinforcing the epistemic unity of the chapter’s representational forms.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{new_plots/age_distribution_by_group.png}
+	\caption{Age distribution across experimental conditions. Histogram representation confirms no major between-group demographic divergence.}
+	\label{fig:age_distribution_by_group}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{new_plots/donation_distribution_by_condition.png}
+	\caption{Distribution of donation behaviour by condition. Violin plot representation visualizes the heavier tail in the robot group, supporting the hypothesized interpretive perturbation.}
+	\label{fig:donation_distribution_by_condition}
+\end{figure}
+
+%%% END NEW CONTEN N2
+%%% =======================
+%%%  NEW CONTENT N3 — REVISED
+%%% =======================
+
+c) this section should also go in the discussion after the experiment. 
+
+% ---------------------------------------------------------------------
+\subsection{Interim Evaluation of the Hypotheses and Formal Framework}
+
+\noindent
+At this stage, the behavioural and inferential results allow for a provisional assessment of the hypotheses and the formal apparatus introduced earlier. These are not isolated claims, but components of a single explanatory architecture that tracks how moral salience is transformed into observable behaviour under synthetic co-presence.
+
+\noindent
+The \textbf{Evaluative Deformation Hypothesis} (Hypothesis~\ref{hyp:evaluative_deformation} p.~\pageref{hyp:evaluative_deformation}) asserts that the expected outcome of moral behaviour, as computed by the evaluative transformation $f$, is altered when the robot is present within the perceptual–moral environment. The chi-squared analysis of aggregate donation totals, together with the bootstrapped mean difference, supports this claim: the pattern
+\[
+\mathbb{E}[f(\Sigma \cup \mathscr{R})] < \mathbb{E}[f(\Sigma)]
+\]
+is empirically instantiated, albeit modestly and with heterogeneous individual-level expression. This hypothesis is therefore \textbf{retained} as an operative empirical statement about the deformation of group-level moral output under robotic co-presence.
+
+\medskip
+\noindent
+The \textbf{Synthetic Normativity of Moral Displacement} hypothesis (Hypothesis~\ref{hyp:synthetic_normativity}, p.~\pageref{hyp:synthetic_normativity}) provides the ontological and conceptual groundwork for interpreting this deformation. It claims that synthetic presences, though devoid of sentience, may acquire normative affordances by virtue of their perceived ontology. The present evidence neither confirms nor disconfirms this hypothesis in a narrow statistical sense; rather, it shows that a non-interactive yet semantically rich artefact, \textbf{positioned at the appropriate Level of Abstraction}, can exert measurable influence on prosocial behaviour without issuing commands, arguments, or reasons. This is exactly the pattern one would expect if normative affordances were grounded in informational presentation at a given LoA, rather than in intrinsic moral status. The hypothesis is thus \textbf{retained} as the principal conceptual lens through which the behavioural results are interpreted.
+
+\noindent
+The \textbf{Synthetic Perturbation of Moral Inference} hypothesis (Hypothesis~\ref{hyp:synthetic_perturbation},  p.~\pageref{hyp:synthetic_perturbation}) specifies the mechanism connecting the previous two: the robot does not merely co-occur with lowered donations; it perturbs the inferential transition from moral salience to prosocial action by refracting the affective–empathic cues that would otherwise support donation behaviour. The combined pattern of (i) significant aggregate attenuation, (ii) overlapping individual-level distributions, and (iii) non-trivial yet fragile effect sizes is coherent with this mechanistic reading: the evaluative mapping is not destroyed, but \textbf{its topology is altered}. This hypothesis is therefore \textbf{retained} as a working account of how the deformation is instantiated at the level of moral inference.
+\noindent
+In sum, all three hypotheses remain live and mutually reinforcing:
+
+\begin{itemize}
+	\item Hypothesis~\ref{hyp:evaluative_deformation}, (p.~\pageref{hyp:evaluative_deformation}) identifies the \emph{empirical signature} of deformation at the level of expected behaviour.
+	\item Hypothesis~\ref{hyp:synthetic_normativity}, (p.~\pageref{hyp:synthetic_normativity}) explains the \emph{ontological possibility} of such deformation within Floridi’s informationalist framework and its Levels of Abstraction.
+	\item Hypothesis~\ref{hyp:synthetic_perturbation}, (p.~\pageref{hyp:synthetic_perturbation}) articulates the \emph{inferential pathway} through which robotic presence reshapes the transition from moral salience to action.
+\end{itemize}
+
+No hypothesis introduced thus far is contradicted by the current evidence; rather, the data suggest that the deformation is subtle, probabilistic, and mediated—exactly the kind of effect one would expect when perturbation occurs at the level of semantic encoding rather than at the level of explicit instruction or coercion.
 -
