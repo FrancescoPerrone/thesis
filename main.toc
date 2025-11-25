@@ -212,3 +212,4 @@
 \contentsline {subsection}{\numberline {9.2.3}Contribution to Affective Computing and Social Signal Processing}{181}{subsection.9.2.3}%
 \contentsline {subsection}{\numberline {9.2.4}Contribution to Moral Cognition Research}{182}{subsection.9.2.4}%
 \contentsline {subsection}{\numberline {9.2.5}Integrative Contribution: A Unified Field-Theoretic Approach}{182}{subsection.9.2.5}%
+\contentsline {subsection}{\numberline {9.2.6}A Unified Explanatory Structure Rather Than Three Independent Literatures}{183}{subsection.9.2.6}%
