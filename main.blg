@@ -16,7 +16,7 @@ A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 12084 items from 5000.
+Reallocated field_info (elt_size=4) to 12130 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -494,45 +494,45 @@ Warning--can't use both author and editor fields in HumeTreatise
 Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
 Warning--can't use both volume and number fields in CalvoD2010
-You've used 294 entries,
+You've used 296 entries,
             1876 wiz_defined-function locations,
-            2205 strings with 48029 characters,
-and the built_in function-call counts, 78697 in all, are:
-= -- 8311
-> -- 2354
+            2217 strings with 48359 characters,
+and the built_in function-call counts, 79198 in all, are:
+= -- 8362
+> -- 2372
 < -- 0
-+ -- 924
-- -- 630
-* -- 5201
-:= -- 10676
-add.period$ -- 373
-call.type$ -- 294
-change.case$ -- 231
++ -- 931
+- -- 635
+* -- 5237
+:= -- 10749
+add.period$ -- 375
+call.type$ -- 296
+change.case$ -- 233
 chr.to.int$ -- 0
-cite$ -- 301
-duplicate$ -- 4218
-empty$ -- 7787
-format.name$ -- 630
-if$ -- 19584
+cite$ -- 303
+duplicate$ -- 4246
+empty$ -- 7833
+format.name$ -- 635
+if$ -- 19708
 int.to.chr$ -- 0
-int.to.str$ -- 294
-missing$ -- 362
-newline$ -- 964
-num.names$ -- 303
-pop$ -- 922
+int.to.str$ -- 296
+missing$ -- 364
+newline$ -- 970
+num.names$ -- 305
+pop$ -- 926
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2801
+skip$ -- 2819
 stack$ -- 0
-substring$ -- 5645
-swap$ -- 1760
+substring$ -- 5670
+swap$ -- 1772
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 856
-width$ -- 297
-write$ -- 2971
+while$ -- 862
+width$ -- 299
+write$ -- 2992
 (There were 113 error messages)

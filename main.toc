@@ -1,7 +1,7 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{Abstract}{{\fontencoding {T1}\selectfont ii}}{chapter*.1}%
-\contentsline {chapter}{Acknowledgements}{{\fontencoding {T1}\selectfont xii}}{chapter*.5}%
-\contentsline {chapter}{Declaration}{{\fontencoding {T1}\selectfont xiii}}{chapter*.6}%
+\contentsline {chapter}{Abstract}{{\fontencoding {T1}\selectfont iii}}{chapter*.1}%
+\contentsline {chapter}{Acknowledgments}{{\fontencoding {T1}\selectfont xiii}}{chapter*.5}%
+\contentsline {chapter}{Declaration}{{\fontencoding {T1}\selectfont xiv}}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}From Research Question to Hypotheses: Framing the Investigative Architecture}{5}{section.1.1}%
 \contentsline {section}{\numberline {1.2}The Need for a New Theoretical Orientation}{8}{section.1.2}%
@@ -143,7 +143,7 @@
 \contentsline {paragraph}{2. Ethical design cannot be reduced to rule encoding.}{112}{paragraph*.53}%
 \contentsline {section}{\numberline {6.5}General Synthesis: Moral Topology, Synthetic Presence, and the Architecture of Human--Machine Moral Ecosystems}{113}{section.6.5}%
 \contentsline {section}{\numberline {6.6}Final Synthesis: Moral Topology, Synthetic Presence, and the Boundaries of Interpretation}{117}{section.6.6}%
-\contentsline {chapter}{\numberline {7}ETHICAL COGNITION AND NORMATIVE FOUNDATIONS}{120}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Ethical Theory in a Cognitive–Topological Framework}{120}{chapter.7}%
 \contentsline {section}{\numberline {7.1}From Moral Cognition to Ethical Theory}{120}{section.7.1}%
 \contentsline {section}{Bridging Note: From Moral Cognition to Ethical Theory}{120}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Introduction: Why Ethics Needs Psychology (and Why Computing Science Needs Both)}{121}{section.7.2}%
@@ -213,3 +213,4 @@
 \contentsline {subsection}{\numberline {9.2.4}Contribution to Moral Cognition Research}{182}{subsection.9.2.4}%
 \contentsline {subsection}{\numberline {9.2.5}Integrative Contribution: A Unified Field-Theoretic Approach}{182}{subsection.9.2.5}%
 \contentsline {subsection}{\numberline {9.2.6}A Unified Explanatory Structure Rather Than Three Independent Literatures}{183}{subsection.9.2.6}%
+\contentsline {section}{\numberline {9.3}Final Synthesis and Closing Reflections}{184}{section.9.3}%
