@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.11)  26 NOV 2025 00:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.11)  5 DEC 2025 01:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1798,17 +1798,23 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 
-(./main.aux (./metafora.aux) (./abstract.aux) (./acknowledgements.aux)
-(./declaration.aux) (./int_new.aux) (./lit_rev.aux) (./moral_primer.aux)
-(./tools.aux) (./experimental_methods.aux
+(./main.aux (./metafora.aux) (./abstract.aux) (./synopsis.aux)
+(./acknowledgements.aux) (./declaration.aux) (./int_new.aux) (./lit_rev.aux)
+(./moral_primer.aux) (./tools.aux) (./experimental_methods.aux
 
 LaTeX Warning: Label `tab:statistical_tests' multiply defined.
 
 
 LaTeX Warning: Label `tab:statistical_tests@cref' multiply defined.
 
-) (./dis.aux) (./ethics_s.aux) (./final_r.aux) (./conclusion.aux)
-(./bibliography.aux))
+) (./dis.aux) (./ethics_s.aux
+
+LaTeX Warning: Label `sec:sentimentalism' multiply defined.
+
+
+LaTeX Warning: Label `sec:sentimentalism@cref' multiply defined.
+
+) (./final_r.aux) (./conclusion.aux) (./bibliography.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 348.
@@ -1937,10 +1943,10 @@ File: puenc-greek.def 2020/10/18 2.0 Greek LICRs for PDF strings
 (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 File: greek-fontenc.def 2020/10/30 2.0 Common Greek font encoding definitions
 ))
-<GlaLogo.pdf, id=757, 1487.5575pt x 544.0325pt>
+<GlaLogo.pdf, id=777, 1487.5575pt x 544.0325pt>
 File: GlaLogo.pdf Graphic file (type pdf)
 <use GlaLogo.pdf>
-Package pdftex.def Info: GlaLogo.pdf  used on input line 367.
+Package pdftex.def Info: GlaLogo.pdf  used on input line 368.
 (pdftex.def)             Requested size: 185.94423pt x 68.00389pt.
 
 [1
@@ -1986,21 +1992,20 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 
 
-] (./main.toc
-[4
+]
+\openout2 = `synopsis.aux'.
+
+
+(./synopsis.tex) [4
+
+
+
+
+] (./main.toc [5
 
 
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[5]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2027,7 +2032,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8])
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9])
 \tf@toc=\write9
 \openout9 = `main.toc'.
 
@@ -2040,13 +2054,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9] (./main.lot)
+[10] (./main.lot)
 \tf@lot=\write10
 \openout10 = `main.lot'.
 
- [10
+ [11
 
-] (./main.lof [11
+] (./main.lof [12
 
 ])
 \tf@lof=\write11
@@ -2061,16 +2075,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12]
+[13]
 \openout2 = `acknowledgements.aux'.
 
- (./acknowledgements.tex) [13
+ (./acknowledgements.tex) [14
 
 
 ]
 \openout2 = `declaration.aux'.
 
- (./declaration.tex) [14
+ (./declaration.tex) [15
 
 
 
@@ -2085,7 +2099,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.18 
+l.14 
       [1
 
 
@@ -2139,10 +2153,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [6]
 
-LaTeX Warning: Reference `chap:experimental_methods' on page 7 undefined on inp
-ut line 247.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2177,7 +2187,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10])
+[10]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2186,26 +2196,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
+[11])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
 \openout2 = `lit_rev.aux'.
 
  (./lit_rev.tex
 Chapter 2.
-[12
+[13
 
 
 
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2340,7 +2350,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28])
+[28]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2349,26 +2359,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29]
+[29])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]
 \openout2 = `moral_primer.aux'.
 
  (./moral_primer.tex
 Chapter 3.
-[30
+[31
 
 
 
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[31]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2433,10 +2443,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [38]
 
-LaTeX Warning: Citation `Cushman2013ValueIntegration' on page 39 undefined on i
-nput line 235.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2445,6 +2451,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [39]
+
+LaTeX Warning: Citation `Cushman2013ValueIntegration' on page 40 undefined on i
+nput line 235.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2489,7 +2499,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44])
+[44]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2498,12 +2508,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45]
+[45])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46]
 \openout2 = `tools.aux'.
 
  (./tools.tex
 Chapter 4.
-[46
+[47
 
 
 
@@ -2517,20 +2536,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [48]
-
-LaTeX Warning: Citation `Yamagishi2014' on page 49 undefined on input line 154.
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2540,6 +2546,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [49]
+
+LaTeX Warning: Citation `Yamagishi2014' on page 50 undefined on input line 154.
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2613,10 +2623,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [57]
 
-LaTeX Warning: Reference `chap:experimental_methods' on page 58 undefined on in
-put line 429.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2625,6 +2631,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [58]
+
+LaTeX Warning: Reference `chap:experimental_methods' on page 59 undefined on in
+put line 429.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2678,7 +2688,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[64])
+[64]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2687,13 +2697,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[65]
+[65])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[66]
 \openout2 = `experimental_methods.aux'.
 
  (./experimental_methods.tex
 Chapter 5.
 \c@question=\count433
-[66
+[67
 
 
 
@@ -2707,7 +2726,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67]
+[68]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2716,8 +2735,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[68]
-</home/francesco/Desktop/research/appunti/images/robot.png, id=2597, 225.6795pt
+[69]
+</home/francesco/Desktop/research/appunti/images/robot.png, id=2636, 225.6795pt
  x 180.675pt>
 File: /home/francesco/Desktop/research/appunti/images/robot.png Graphic file (t
 ype png)
@@ -2725,7 +2744,7 @@ ype png)
 Package pdftex.def Info: /home/francesco/Desktop/research/appunti/images/robot.
 png  used on input line 156.
 (pdftex.def)             Requested size: 198.02942pt x 158.54234pt.
-</home/francesco/Desktop/research/appunti/images/control.png, id=2599, 226.665p
+</home/francesco/Desktop/research/appunti/images/control.png, id=2638, 226.665p
 t x 183.6315pt>
 File: /home/francesco/Desktop/research/appunti/images/control.png Graphic file 
 (type png)
@@ -2742,7 +2761,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[69]
+[70]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2751,17 +2770,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[70 </home/francesco/Desktop/research/appunti/images/robot.png> </home/francesc
+[71 </home/francesco/Desktop/research/appunti/images/robot.png> </home/francesc
 o/Desktop/research/appunti/images/control.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[71]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2816,7 +2826,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [77]
-<tables/demographic_balance_table.pdf, id=2774, 476.3386pt x 136.92053pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[78]
+<tables/demographic_balance_table.pdf, id=2813, 476.3386pt x 136.92053pt>
 File: tables/demographic_balance_table.pdf Graphic file (type pdf)
 <use tables/demographic_balance_table.pdf>
 Package pdftex.def Info: tables/demographic_balance_table.pdf  used on input li
@@ -2831,7 +2850,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[78]
+[79]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 40.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -2845,14 +2864,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[79 <./tables/demographic_balance_table.pdf>]
-<new_plots/age_distribution_by_group.png, id=2808, 722.7pt x 433.62pt>
+[80 <./tables/demographic_balance_table.pdf>]
+<new_plots/age_distribution_by_group.png, id=2846, 722.7pt x 433.62pt>
 File: new_plots/age_distribution_by_group.png Graphic file (type png)
 <use new_plots/age_distribution_by_group.png>
 Package pdftex.def Info: new_plots/age_distribution_by_group.png  used on input
  line 665.
 (pdftex.def)             Requested size: 330.05322pt x 198.03183pt.
-<new_plots/donation_distribution_by_condition.png, id=2809, 722.7pt x 433.62pt>
+<new_plots/donation_distribution_by_condition.png, id=2847, 722.7pt x 433.62pt>
 
 File: new_plots/donation_distribution_by_condition.png Graphic file (type png)
 <use new_plots/donation_distribution_by_condition.png>
@@ -2868,8 +2887,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[80 <./new_plots/age_distribution_by_group.png>]
-<tables/descriptive_highlights_table.pdf, id=2819, 368.0982pt x 144.12044pt>
+[81 <./new_plots/age_distribution_by_group.png>]
+<tables/descriptive_highlights_table.pdf, id=2858, 368.0982pt x 144.12044pt>
 File: tables/descriptive_highlights_table.pdf Graphic file (type pdf)
 <use tables/descriptive_highlights_table.pdf>
 Package pdftex.def Info: tables/descriptive_highlights_table.pdf  used on input
@@ -2884,7 +2903,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[81 <./new_plots/donation_distribution_by_condition.png>]
+[82 <./new_plots/donation_distribution_by_condition.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2893,8 +2912,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[82 <./tables/descriptive_highlights_table.pdf>]
-<tables/statistical_tests_table.pdf, id=2850, 558.85184pt x 136.92053pt>
+[83 <./tables/descriptive_highlights_table.pdf>]
+<tables/statistical_tests_table.pdf, id=2888, 558.85184pt x 136.92053pt>
 File: tables/statistical_tests_table.pdf Graphic file (type pdf)
 <use tables/statistical_tests_table.pdf>
 Package pdftex.def Info: tables/statistical_tests_table.pdf  used on input line
@@ -2913,7 +2932,7 @@ LaTeX Warning: Command \textsterling invalid in math mode on input line 778.
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ¿ in font cmr12!
-<new_plots/donation_effect_by_condition.png, id=2851, 578.16pt x 433.62pt>
+<new_plots/donation_effect_by_condition.png, id=2889, 578.16pt x 433.62pt>
 File: new_plots/donation_effect_by_condition.png Graphic file (type png)
 <use new_plots/donation_effect_by_condition.png>
 Package pdftex.def Info: new_plots/donation_effect_by_condition.png  used on in
@@ -2927,7 +2946,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[83 <./tables/statistical_tests_table.pdf>]
+[84 <./tables/statistical_tests_table.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2936,16 +2955,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[84 <./new_plots/donation_effect_by_condition.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[85]
+[85 <./new_plots/donation_effect_by_condition.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2955,13 +2965,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [86]
-<new_plots/donation_density_by_condition.png, id=2918, 722.7pt x 433.62pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[87]
+<new_plots/donation_density_by_condition.png, id=2958, 722.7pt x 433.62pt>
 File: new_plots/donation_density_by_condition.png Graphic file (type png)
 <use new_plots/donation_density_by_condition.png>
 Package pdftex.def Info: new_plots/donation_density_by_condition.png  used on i
 nput line 942.
 (pdftex.def)             Requested size: 330.05322pt x 198.03183pt.
-<new_plots/donation_mean_with_se.png, id=2919, 578.16pt x 433.62pt>
+<new_plots/donation_mean_with_se.png, id=2959, 578.16pt x 433.62pt>
 File: new_plots/donation_mean_with_se.png Graphic file (type png)
 <use new_plots/donation_mean_with_se.png>
 Package pdftex.def Info: new_plots/donation_mean_with_se.png  used on input lin
@@ -2981,7 +3000,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[87 <./new_plots/donation_density_by_condition.png>]
+[88 <./new_plots/donation_density_by_condition.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2990,8 +3009,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[88 <./new_plots/donation_mean_with_se.png>]
-<new_plots/per_trait/bigfive_row_kde.png, id=2933, 1740.5025pt x 423.984pt>
+[89 <./new_plots/donation_mean_with_se.png>]
+<new_plots/per_trait/bigfive_row_kde.png, id=2971, 1740.5025pt x 423.984pt>
 File: new_plots/per_trait/bigfive_row_kde.png Graphic file (type png)
 <use new_plots/per_trait/bigfive_row_kde.png>
 Package pdftex.def Info: new_plots/per_trait/bigfive_row_kde.png  used on input
@@ -3006,8 +3025,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[89]
-<new_plots/per_trait/bigfive_row_scatter.png, id=2938, 1728.9393pt x 395.7987pt
+[90]
+<new_plots/per_trait/bigfive_row_scatter.png, id=2976, 1728.9393pt x 395.7987pt
 >
 File: new_plots/per_trait/bigfive_row_scatter.png Graphic file (type png)
 <use new_plots/per_trait/bigfive_row_scatter.png>
@@ -3023,7 +3042,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[90 <./new_plots/per_trait/bigfive_row_kde.png>]
+[91 <./new_plots/per_trait/bigfive_row_kde.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3032,7 +3051,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[91 <./new_plots/per_trait/bigfive_row_scatter.png>]
+[92 <./new_plots/per_trait/bigfive_row_scatter.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3041,14 +3060,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[92]
-<new_plots/personality_clusters_pca.png, id=2958, 722.7pt x 433.62pt>
+[93]
+<new_plots/personality_clusters_pca.png, id=2997, 722.7pt x 433.62pt>
 File: new_plots/personality_clusters_pca.png Graphic file (type png)
 <use new_plots/personality_clusters_pca.png>
 Package pdftex.def Info: new_plots/personality_clusters_pca.png  used on input 
 line 1228.
 (pdftex.def)             Requested size: 391.93546pt x 235.16364pt.
-<new_plots/cluster_elbow_silhouette.png, id=2960, 867.24pt x 361.35pt>
+<new_plots/cluster_elbow_silhouette.png, id=2999, 867.24pt x 361.35pt>
 File: new_plots/cluster_elbow_silhouette.png Graphic file (type png)
 <use new_plots/cluster_elbow_silhouette.png>
 Package pdftex.def Info: new_plots/cluster_elbow_silhouette.png  used on input 
@@ -3063,8 +3082,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[93 <./new_plots/personality_clusters_pca.png>]
-<new_plots/donation_by_cluster_and_condition.png, id=2968, 722.7pt x 433.62pt>
+[94 <./new_plots/personality_clusters_pca.png>]
+<new_plots/donation_by_cluster_and_condition.png, id=3007, 722.7pt x 433.62pt>
 File: new_plots/donation_by_cluster_and_condition.png Graphic file (type png)
 <use new_plots/donation_by_cluster_and_condition.png>
 Package pdftex.def Info: new_plots/donation_by_cluster_and_condition.png  used 
@@ -3079,21 +3098,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[94 <./new_plots/cluster_elbow_silhouette.png> <./new_plots/donation_by_cluster
+[95 <./new_plots/cluster_elbow_silhouette.png> <./new_plots/donation_by_cluster
 _and_condition.png>]
-<new_plots/cluster_0_radar.png, id=2978, 505.89pt x 505.89pt>
+<new_plots/cluster_0_radar.png, id=3016, 505.89pt x 505.89pt>
 File: new_plots/cluster_0_radar.png Graphic file (type png)
 <use new_plots/cluster_0_radar.png>
 Package pdftex.def Info: new_plots/cluster_0_radar.png  used on input line 1294
 .
 (pdftex.def)             Requested size: 132.0238pt x 132.02232pt.
-<new_plots/cluster_1_radar.png, id=2979, 505.89pt x 505.89pt>
+<new_plots/cluster_1_radar.png, id=3017, 505.89pt x 505.89pt>
 File: new_plots/cluster_1_radar.png Graphic file (type png)
 <use new_plots/cluster_1_radar.png>
 Package pdftex.def Info: new_plots/cluster_1_radar.png  used on input line 1295
 .
 (pdftex.def)             Requested size: 132.0238pt x 132.02232pt.
-<new_plots/cluster_2_radar.png, id=2980, 505.89pt x 505.89pt>
+<new_plots/cluster_2_radar.png, id=3018, 505.89pt x 505.89pt>
 File: new_plots/cluster_2_radar.png Graphic file (type png)
 <use new_plots/cluster_2_radar.png>
 Package pdftex.def Info: new_plots/cluster_2_radar.png  used on input line 1296
@@ -3108,7 +3127,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[95]
+[96]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3117,7 +3136,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[96 <./new_plots/cluster_0_radar.png> <./new_plots/cluster_1_radar.png> <./new_
+[97 <./new_plots/cluster_0_radar.png> <./new_plots/cluster_1_radar.png> <./new_
 plots/cluster_2_radar.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3127,7 +3146,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[97]
+[98]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3136,8 +3155,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[98]
-<new_plots/cluster_regression_coefficients.png, id=3004, 650.43pt x 433.62pt>
+[99]
+<new_plots/cluster_regression_coefficients.png, id=3043, 650.43pt x 433.62pt>
 File: new_plots/cluster_regression_coefficients.png Graphic file (type png)
 <use new_plots/cluster_regression_coefficients.png>
 Package pdftex.def Info: new_plots/cluster_regression_coefficients.png  used on
@@ -3152,7 +3171,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[99 <./new_plots/cluster_regression_coefficients.png>]
+[100 <./new_plots/cluster_regression_coefficients.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3161,8 +3180,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[100]
-<new_plots/posterior_donation_difference.png, id=3018, 722.7pt x 433.62pt>
+[101]
+<new_plots/posterior_donation_difference.png, id=3057, 722.7pt x 433.62pt>
 File: new_plots/posterior_donation_difference.png Graphic file (type png)
 <use new_plots/posterior_donation_difference.png>
 Package pdftex.def Info: new_plots/posterior_donation_difference.png  used on i
@@ -3177,7 +3196,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[101 <./new_plots/posterior_donation_difference.png>]
+[102 <./new_plots/posterior_donation_difference.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3186,7 +3205,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[102]
+[103]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3195,16 +3214,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[103])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[104]
+[104])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3214,16 +3224,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [105]
-\openout2 = `dis.aux'.
-
- (./dis.tex
-Chapter 6.
-[106
-
-
-
-
-]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3232,7 +3232,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[107]
+[106]
+\openout2 = `dis.aux'.
+
+ (./dis.tex
+Chapter 6.
+[107
+
+
+
+
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3331,7 +3341,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[118])
+[118]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3340,29 +3350,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[119]
+[119])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[120]
 \openout2 = `ethics_s.aux'.
 
  (./ethics_s.tex
 Chapter 7.
-[120
+[121
 
 
 
 
 ]
-
-LaTeX Warning: Citation `Goffman1967' on page 121 undefined on input line 44.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[121]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3373,7 +3380,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [122]
 
-LaTeX Warning: Citation `Lemos2020' on page 123 undefined on input line 86.
+LaTeX Warning: Citation `Young2011' on page 123 undefined on input line 68.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3403,10 +3410,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [125]
 
-LaTeX Warning: Reference `chap:experimental_methods' on page 126 undefined on i
-nput line 158.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3426,7 +3429,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [127]
 
 LaTeX Warning: Reference `chap:experimental_methods' on page 128 undefined on i
-nput line 208.
+nput line 225.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3456,6 +3459,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [130]
 
+LaTeX Warning: Citation `Allison2011' on page 131 undefined on input line 345.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3465,13 +3471,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [131]
 
-LaTeX Warning: Citation `Kant1785' on page 132 undefined on input line 329.
-
-
-LaTeX Warning: Citation `Allison2011' on page 132 undefined on input line 329.
-
-
-LaTeX Warning: Citation `Allison2011' on page 132 undefined on input line 333.
+LaTeX Warning: Citation `Allison2011' on page 132 undefined on input line 349.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3492,10 +3492,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [133]
 
-LaTeX Warning: Reference `chap:experimental_methods' on page 134 undefined on i
-nput line 404.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3505,7 +3501,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [134]
 
-LaTeX Warning: Citation `Bentham1789' on page 135 undefined on input line 433.
+LaTeX Warning: Reference `chap:experimental_methods' on page 135 undefined on i
+nput line 460.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3517,6 +3514,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [135]
 
+LaTeX Warning: Citation `Bentham1789' on page 136 undefined on input line 488.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3526,7 +3526,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [136]
 
-LaTeX Warning: Citation `Bentham1789' on page 137 undefined on input line 495.
+LaTeX Warning: Citation `Bentham1789' on page 137 undefined on input line 554.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3547,7 +3547,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [138]
 
-LaTeX Warning: Citation `Slovic2007' on page 139 undefined on input line 533.
+LaTeX Warning: Citation `Slovic2007' on page 139 undefined on input line 590.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3560,7 +3560,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [139]
 
 LaTeX Warning: Reference `chap:experimental_methods' on page 140 undefined on i
-nput line 592.
+nput line 649.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3573,7 +3573,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [140]
 
 LaTeX Warning: Reference `chap:experimental_methods' on page 141 undefined on i
-nput line 612.
+nput line 670.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3586,7 +3586,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [141]
 
 LaTeX Warning: Reference `chap:experimental_methods' on page 142 undefined on i
-nput line 655.
+nput line 711.
+
+
+LaTeX Warning: Citation `Snow2010' on page 142 undefined on input line 726.
+
+
+LaTeX Warning: Citation `Snow2010' on page 142 undefined on input line 732.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3598,14 +3604,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [142]
 
-LaTeX Warning: Citation `Snow2010' on page 143 undefined on input line 675.
+LaTeX Warning: Citation `Wood2016' on page 143 undefined on input line 757.
 
 
-LaTeX Warning: Citation `Wood2016' on page 143 undefined on input line 692.
+LaTeX Warning: Citation `Reynolds2006' on page 143 undefined on input line 757.
 
 
-LaTeX Warning: Citation `Reynolds2006' on page 143 undefined on input line 692.
 
+LaTeX Warning: Reference `chap:experimental_methods' on page 143 undefined on i
+nput line 760.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3627,7 +3634,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [144]
 
 LaTeX Warning: Reference `chap:experimental_methods' on page 145 undefined on i
-nput line 759.
+nput line 823.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3638,6 +3645,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [145]
+
+LaTeX Warning: Reference `chap:experimental_methods' on page 146 undefined on i
+nput line 860.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3693,6 +3704,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [151]
 
+LaTeX Warning: Citation `Cialdini2007' on page 152 undefined on input line 1077
+.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3711,10 +3726,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [153]
 
-LaTeX Warning: Citation `Cialdini2007' on page 154 undefined on input line 1060
-.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3731,7 +3742,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[155]
+[155])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3741,6 +3752,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [156]
+\openout2 = `final_r.aux'.
+
+ (./final_r.tex
+Chapter 8.
+[157
+
+
+
+
+]
+
+LaTeX Warning: Citation `GriffithsBeake2022' on page 158 undefined on input lin
+e 65.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3749,16 +3774,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[157]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[158])
+[158]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3768,20 +3784,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [159]
-\openout2 = `final_r.aux'.
 
- (./final_r.tex
-Chapter 8.
-[160
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
-
-]
-
-LaTeX Warning: Citation `GriffithsBeake2022' on page 161 undefined on input lin
-e 65.
-
+[160]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3801,6 +3812,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [162]
 
+LaTeX Warning: Citation `Mill1863' on page 163 undefined on input line 206.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3810,37 +3824,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [163]
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[164]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[165]
-
-LaTeX Warning: Citation `Mill1863' on page 166 undefined on input line 206.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[166]
-
-LaTeX Warning: Reference `chap:experimental_methods' on page 167 undefined on i
+LaTeX Warning: Reference `chap:experimental_methods' on page 164 undefined on i
 nput line 252.
 
 
@@ -3851,11 +3835,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[167]
+[164]
 
-LaTeX Warning: Reference `chap:experimental_methods' on page 168 undefined on i
+LaTeX Warning: Reference `chap:experimental_methods' on page 165 undefined on i
 nput line 287.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[165]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[166]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[167]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3909,7 +3920,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[173]
+[173])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3919,6 +3930,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [174]
+\openout2 = `conclusion.aux'.
+
+ (./conclusion.tex
+Chapter 9.
+[175
+
+
+
+
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3927,16 +3948,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[175]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[176])
+[176]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3946,16 +3958,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [177]
-\openout2 = `conclusion.aux'.
 
- (./conclusion.tex
-Chapter 9.
-[178
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
-
-]
+[178]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3991,7 +4002,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[182]
+[182])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4001,6 +4012,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [183]
+\openout2 = `bibliography.aux'.
+
+ (./bibliography.tex (./main.bbl [184
+
+
+
+
+
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4009,16 +4029,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[184]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[185])
+[185]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4028,15 +4039,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [186]
-\openout2 = `bibliography.aux'.
 
- (./bibliography.tex (./main.bbl [187
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
-
-
-]
+[187]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4171,7 +4182,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[202]
+[202])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4180,25 +4191,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[203]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[204])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[205])
+[203])
 \openout5 = `main.ent'.
 
 
@@ -4207,10 +4200,10 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(./main.aux (./metafora.aux) (./abstract.aux) (./acknowledgements.aux)
-(./declaration.aux) (./int_new.aux) (./lit_rev.aux) (./moral_primer.aux)
-(./tools.aux) (./experimental_methods.aux) (./dis.aux) (./ethics_s.aux)
-(./final_r.aux) (./conclusion.aux) (./bibliography.aux))
+(./main.aux (./metafora.aux) (./abstract.aux) (./synopsis.aux)
+(./acknowledgements.aux) (./declaration.aux) (./int_new.aux) (./lit_rev.aux)
+(./moral_primer.aux) (./tools.aux) (./experimental_methods.aux) (./dis.aux)
+(./ethics_s.aux) (./final_r.aux) (./conclusion.aux) (./bibliography.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -4218,14 +4211,14 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5AAB732F26AB96F67574D03BBFD31A47;60801.
+(rerunfilecheck)             Checksum: 1BEE8206A8BC417EC96BBA73374A1175;62268.
  ) 
 Here is how much of TeX's memory you used:
- 58563 strings out of 476091
- 1299167 string characters out of 5794080
+ 58631 strings out of 476091
+ 1300521 string characters out of 5794080
  1877330 words of memory out of 5000000
- 77083 multiletter control sequences out of 15000+600000
- 533195 words of font info for 85 fonts, out of 8000000 for 9000
+ 77124 multiletter control sequences out of 15000+600000
+ 533187 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  112i,12n,108p,3090b,1038s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
@@ -4246,8 +4239,8 @@ s/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1
 public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/rsfs/rsfs10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pf
 b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
+fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
@@ -4258,10 +4251,10 @@ super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb><
 ts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (220 pages, 4538401 bytes).
+Output written on main.pdf (219 pages, 4531638 bytes).
 PDF statistics:
- 4387 PDF objects out of 5155 (max. 8388607)
- 3988 compressed objects within 40 object streams
- 887 named destinations out of 1000 (max. 500000)
- 1686 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4525 PDF objects out of 5155 (max. 8388607)
+ 4125 compressed objects within 42 object streams
+ 907 named destinations out of 1000 (max. 500000)
+ 1726 words of extra memory for PDF output out of 10000 (max. 10000000)
 

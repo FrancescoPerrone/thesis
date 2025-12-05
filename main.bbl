@@ -1041,9 +1041,55 @@ L.~Floridi, ``The ethics of artificial intelligence: Large language models and
 L.~Speri and M.~Alfano, ``Moral ecologies and the ethics of artificial
   agents,'' {\em Ethics and Information Technology}, 2023.
 
+\bibitem{Nisbett1977}
+R.~E. Nisbett and T.~D. Wilson, ``Telling more than we can know: Verbal reports
+  on mental processes,'' {\em Psychological Review}, vol.~84, no.~3,
+  pp.~231--259, 1977.
+
+\bibitem{Wilson2002}
+T.~D. Wilson, {\em Strangers to Ourselves: Discovering the Adaptive
+  Unconscious}.
+\newblock Harvard University Press, 2002.
+
+\bibitem{Decety2011}
+J.~Decety and J.~M. Cowell, ``The complex relation between morality and
+  empathy,'' {\em Trends in Cognitive Sciences}, vol.~17, no.~7, pp.~337--339,
+  2013.
+
+\bibitem{Goffman1967}
+E.~Goffman, {\em Interaction Ritual: Essays on Face-to-Face Behavior}.
+\newblock New York: Pantheon Books, 1967.
+\newblock Original essays published 1955--1967.
+
+\bibitem{Breazeal2003}
+C.~Breazeal, ``Toward sociable robots,'' {\em Robotics and Autonomous Systems},
+  vol.~42, no.~3--4, pp.~167--175, 2003.
+
+\bibitem{Lee2010}
+J.~S. Lee and S.~Kiesler, ``Human mental models of humanoid robots,'' {\em
+  Proceedings of the IEEE}, vol.~100, no.~3, pp.~586--593, 2010.
+
+\bibitem{Fischer2011}
+K.~Fischer, ``Interpersonal alignment in human--robot interaction,'' in {\em
+  Proceedings of the 7th Annual ACM/IEEE International Conference on
+  Human--Robot Interaction}, pp.~1--2, 2011.
+
+\bibitem{Gigerenzer2008}
+G.~Gigerenzer, {\em Rationality for Mortals}.
+\newblock Oxford University Press, 2008.
+
+\bibitem{Kahneman2011}
+D.~Kahneman, {\em Thinking, Fast and Slow}.
+\newblock Farrar, Straus and Giroux, 2011.
+
 \bibitem{Audi2015}
 R.~Audi, {\em Moral Perception}.
 \newblock Princeton, NJ: Princeton University Press, 2015.
+
+\bibitem{Knobe2010}
+J.~Knobe, ``Person as scientist, person as moralist,'' in {\em Explanation and
+  Cognition} (P.~A. Machamer and M.~Thagard, eds.), pp.~119--136, MIT Press,
+  2010.
 
 \bibitem{Hempel1965}
 C.~G. Hempel, ``Aspects of scientific explanation,'' 1965.
@@ -1062,14 +1108,14 @@ D.~Narvaez and D.~K. Lapsley, ``Moral psychology at the crossroads: Domain
   theory and the moral self,'' {\em Human Development}, vol.~48, no.~2,
   pp.~85--97, 2005.
 
-\bibitem{Kahneman2011}
-D.~Kahneman, {\em Thinking, Fast and Slow}.
-\newblock Farrar, Straus and Giroux, 2011.
-
 \bibitem{Baumeister2010}
 R.~F. Baumeister and E.~Masicampo, ``Moral reasoning and moral action: A review
   of the relevant literature,'' {\em Psychological Bulletin}, vol.~136, no.~1,
   pp.~1--25, 2010.
+
+\bibitem{Lemos2020}
+N.~Lemos, {\em An Introduction to the Theory of Knowledge}.
+\newblock Cambridge University Press, 2nd~ed., 2020.
 
 \bibitem{Anderson2007}
 M.~Anderson and S.~L. Anderson, ``Machine ethics: Creating an ethical
@@ -1107,6 +1153,52 @@ J.~Rawls, {\em A theory of justice}.
 J.~S. Mill, {\em Utilitarianism}.
 \newblock Hackett Publishing, 1861.
 
+\bibitem{Kant1785}
+I.~Kant, {\em Groundwork of the Metaphysics of Morals}.
+\newblock Cambridge University Press, 1785.
+\newblock Modern edition.
+
+\bibitem{AristotleNE}
+Aristotle, {\em Nicomachean Ethics}.
+\newblock Oxford University Press, 2000.
+\newblock Trans. Terence Irwin.
+
+\bibitem{HumeTreatise}
+D.~Hume, {\em A Treatise of Human Nature}.
+\newblock Oxford University Press, 2000.
+
+\bibitem{SmithTMS}
+A.~Smith, {\em The Theory of Moral Sentiments}.
+\newblock Cambridge University Press, 2002.
+\newblock Originally 1759.
+
+\bibitem{Wallace2012}
+R.~J. Wallace, {\em The View From Here: On Affirmation, Attachment, and the
+  Limits of Regret}.
+\newblock Oxford University Press, 2012.
+
+\bibitem{Foot1978}
+P.~Foot, ``The problem of abortion and the doctrine of double effect', in her
+  virtues and vices,'' {\em Berkeley and Los Angeles: University ofCalifornia
+  Press. FootThe Problem of Abortion and the Doctrine of the Double
+  Effect19Virtues and Vices1978}, pp.~19--32, 1978.
+
+\bibitem{McDowell1979}
+J.~McDowell, ``Virtue and reason,'' {\em The Monist}, vol.~62, no.~3,
+  pp.~331--350, 1979.
+
+\bibitem{Railton1984}
+P.~Railton, ``Moral realism,'' {\em Philosophical Review}, vol.~95, no.~2,
+  pp.~163--207, 1984.
+
+\bibitem{Prinz2004}
+J.~Prinz, {\em Gut Reactions: A Perceptual Theory of Emotion}.
+\newblock Oxford University Press, 2004.
+
+\bibitem{Railton2017}
+P.~Railton, ``Moral learning: Conceptual foundations and normative relevance,''
+  {\em Cognition}, vol.~167, pp.~172--190, 2017.
+
 \bibitem{Govindarajulu2017}
 N.~S. Govindarajulu and S.~Bringsjord, ``On automating the doctrine of double
   effect,'' {\em Philosophical Transactions of the Royal Society A}, vol.~375,
@@ -1116,18 +1208,10 @@ N.~S. Govindarajulu and S.~Bringsjord, ``On automating the doctrine of double
 J.~H. Moor, ``The nature and limits of machine ethics,'' {\em AI and Society},
   vol.~39, no.~1, pp.~33--51, 2023.
 
-\bibitem{McDowell1979}
-J.~McDowell, ``Virtue and reason,'' {\em The Monist}, vol.~62, no.~3,
-  pp.~331--350, 1979.
-
 \bibitem{Haidt2012}
 J.~Haidt, {\em The Righteous Mind: Why Good People Are Divided by Politics and
   Religion}.
 \newblock New York: Vintage, 2012.
-
-\bibitem{HumeTreatise}
-D.~Hume, {\em A Treatise of Human Nature}.
-\newblock Oxford University Press, 2000.
 
 \bibitem{Smith1759}
 A.~Smith, {\em The Theory of Moral Sentiments}.
@@ -1198,12 +1282,6 @@ J.~Griffin, {\em Well-Being}.
 \bibitem{Stocker1990}
 M.~Stocker, {\em Plural and Conflicting Values}.
 \newblock Oxford: Oxford University Press, 1990.
-
-\bibitem{Foot1978}
-P.~Foot, ``The problem of abortion and the doctrine of double effect', in her
-  virtues and vices,'' {\em Berkeley and Los Angeles: University ofCalifornia
-  Press. FootThe Problem of Abortion and the Doctrine of the Double
-  Effect19Virtues and Vices1978}, pp.~19--32, 1978.
 
 \bibitem{Wallace2020}
 R.~J. Wallace, ``{Practical Reason},'' in {\em The {Stanford} Encyclopedia of
@@ -1342,23 +1420,10 @@ M.~A. Goodrich and A.~C. Schultz, ``Human--robot interaction: A survey,'' {\em
   Foundations and Trends in Human--Computer Interaction}, vol.~1, no.~3,
   pp.~203--275, 2007.
 
-\bibitem{Breazeal2003}
-C.~Breazeal, ``Toward sociable robots,'' {\em Robotics and Autonomous Systems},
-  vol.~42, no.~3--4, pp.~167--175, 2003.
-
-\bibitem{Lee2010}
-J.~S. Lee and S.~Kiesler, ``Human mental models of humanoid robots,'' {\em
-  Proceedings of the IEEE}, vol.~100, no.~3, pp.~586--593, 2010.
-
 \bibitem{Hancock2011}
 P.~A. Hancock, D.~R. Billings, K.~E. Schaefer, J.~Y. Chen, E.~J. de~Visser, and
   R.~Parasuraman, ``A meta-analysis of factors affecting trust in human--robot
   interaction,'' {\em Human Factors}, vol.~53, no.~5, pp.~517--527, 2011.
-
-\bibitem{Fischer2011}
-K.~Fischer, ``Interpersonal alignment in human--robot interaction,'' in {\em
-  Proceedings of the 7th Annual ACM/IEEE International Conference on
-  Human--Robot Interaction}, pp.~1--2, 2011.
 
 \bibitem{CalvoD2010}
 R.~A. Calvo and S.~D'Mello, {\em Affect Detection: An Interdisciplinary Review

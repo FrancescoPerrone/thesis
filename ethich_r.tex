@@ -1,0 +1,235 @@
+\chapter{RR Ethical Theory in a Cognitive–Topological Framework RR}
+\label{chap:ethics_r}
+\thispagestyle{pprintTitle}
+
+\section{From Moral Cognition to Ethical Theory}
+\addcontentsline{toc}{section}{Bridging Note: From Moral Cognition to Ethical Theory}
+\label{sec:moral_ethical}
+
+\noindent
+The preceding chapters established the empirical and cognitive foundations on which the present, more philosophical analysis must build. Three results are central for the transition.
+
+\medskip
+
+First, our moral judgements are rapid, first-order evaluative responses, produced by several interacting processes: what we notice, how we react affectively, and the intuitive appraisals that these reactions prompt. These responses are psychologically real, but they need not be coherent, or supported by explicit reasoning. Second, such judgements arise from distributed mechanisms—attentional capture, affective resonance, heuristic inference, and forms of conflict-monitoring—whose interaction is shaped by the surrounding perceptual and social field. Third, the experiment described in this thesis is designed to measure the behaviour of this machinery. What is recorded is not people’s endorsement of any articulated moral principle, but the behavioural expression of these underlying processes when the evaluative field is altered by the presence of a humanoid robot.
+
+\medskip
+
+\noindent
+With these results in place, the present chapter shifts from \emph{first-order phenomena} to the \emph{second-order frameworks} used to interpret them. Moral judgements supply the data of moral life; \emph{ethical theory} provides the reflective structures—principles, justificatory norms, and conceptual constraints—through which such data are analysed. These two domains belong to different explanatory regimes and must not be conflated.
+
+\medskip
+
+\noindent
+There are, in effect, two distinct orders at work. At one level, we describe the psychological mechanisms that produce moral judgements. At another, we consider which principles we have reason to accept or endorse. These domains address different questions. Ethical principles are not part of the causal machinery of moral cognition, and the workings of that machinery do not, by themselves, determine which principles are normatively justified. Keeping these levels distinct allows us to examine how they are related without collapsing one into the other.
+
+\medskip
+
+\noindent
+This distinction matters acutely in computing science, where Machine Ethics and related fields often collapse Levels of Abstraction, treating duties, utilities, or principles as if they were behaviour-generating operators. Such approaches implicitly assume that normative constructs function as components of the cognitive architecture—an assumption that is both empirically and conceptually untenable.
+
+\medskip
+
+\noindent
+To avoid this conflation, the chapter proceeds under two methodological requirements:
+\begin{enumerate}[label=(\arabic*)]
+	\item ethical concepts must be articulated at the appropriate \emph{Level of Abstraction}—as reflective standards of justification rather than causal predictors of behaviour;
+	\item the link between ethical theory and the experimental results must respect the real mechanisms of moral cognition—perception, affect, intuitive evaluation, and their modulation by social and synthetic agents.
+\end{enumerate}
+
+\noindent
+The guiding claim for what follows is therefore the following: \emph{ethical interpretation requires an empirically grounded model of moral cognition, and empirical analysis requires a conceptually disciplined account of the role ethical theory can play}. This establishes the conditions under which normative frameworks can be meaningfully applied to the experiment.
+
+\medskip
+
+\noindent
+The purpose of the chapter is therefore not to reconcile psychology and ethics in the abstract, but to provide the normative lenses through which the experimental perturbation can be interpreted. To do this, the chapter reconstructs major ethical frameworks—deontological, consequentialist, virtue-theoretic, sentimentalist, contractualist, and particularist—within the discipline of Levels of Abstraction and embeds them within the evaluative–topological model introduced earlier. This synthesis provides the conceptual tools needed to understand the ethical significance of synthetic moral perturbation.
+
+\section{Introduction: Why Ethics Needs Psychology (and Why Computing Science Needs Both)}
+
+\noindent
+Classical ethical theory often treats moral judgement as the outcome of structured deliberation: an agent considers reasons, applies principles, and arrives at a justified conclusion. As discussed in Chapter~\ref{chap:moral_primer}, this picture is descriptively incomplete. Human moral behaviour is typically produced by rapid, affectively mediated evaluations shaped by perception, context, and embodied interaction~\cite{Haidt2001,Greene2001,Cushman2013}. The distance between what agents \emph{ought} to do, what they \emph{report} doing, and what they \emph{actually} do is well documented~\cite{Nisbett1977,Wilson2002}. If we want to understand how moral behaviour unfolds in practice—particularly in technologically mediated environments—ethical theory must be integrated with an empirically grounded account of moral cognition~\cite{Mikhail2007,Decety2011}.
+
+\medskip
+
+\noindent
+For computing science, this integration is not optional. Artificial systems increasingly participate in social environments where their form, presence, and behaviour can modulate attention, inference, and normative expectation. Research in \emph{Social Signal Processing}~\cite{Vinciarelli2009} and \emph{Affective Computing}~\cite{Picard1997} suggests that human social cognition is highly sensitive to subtle cues—gaze, posture, spatial orientation, micro-expressions—through which the “interaction order’’ is structured~\cite{Goffman1967}. Synthetic agents participate in this order as perceptual and affective stimuli. Their presence can therefore reshape the informational and evaluative landscape in which human cognition operates~\cite{Breazeal2003,Lee2010,Fischer2011}. The experimental work in this thesis is motivated precisely by this possibility.
+
+\medskip
+
+\noindent
+The resulting methodological requirement is twofold:
+\begin{enumerate}[label=(\arabic*)]
+	\item ethical concepts must be applied at the appropriate \emph{Level of Abstraction}—as reflective standards of justification rather than as causal mechanisms;
+	\item empirical analysis must be guided by a psychologically realistic account of how moral judgements are produced—perception, affect, intuitive evaluation, and their modulation by social and synthetic agents.
+\end{enumerate}
+
+\noindent
+These requirements reflect a structural distinction. On one side, moral psychology describes the cognitive and affective processes through which moral judgements arise. On the other, ethical theory articulates the principles, norms, or justificatory structures that we have reason to endorse. These are different explanatory enterprises. Ethical principles are not part of the machinery that produces moral judgements, and the operation of this machinery does not, by itself, settle questions of normative justification. Keeping the two domains apart is essential if their interaction is to be intelligible.
+
+\medskip
+
+\noindent
+This distinction also clarifies recurring problems in Machine Ethics. Many approaches implicitly assume that normative concepts—duties, utilities, principles—can be treated as behaviour-generating operators, as though moral norms function at the same explanatory level as perceptual salience or affective appraisal~\cite{Moor2006,Anderson2011,Wallach2008}. This is a direct violation of LoA discipline. Normative concepts belong to a reflective order concerned with justification; cognitive processes belong to a mechanistic order concerned with causal explanation. Conflating them produces systems that may behave consistently with their designers' abstractions, but without any genuine moral competence~\cite{Greene2014}.
+
+\medskip
+
+\noindent
+From this perspective, the value of integrating ethical theory with moral psychology becomes clear. Ethical interpretation requires an empirically realistic understanding of how moral cognition works, while psychological analysis requires a conceptually disciplined account of what ethical theory can and cannot explain. The aim of this chapter is not to merge these domains, but to establish the framework in which they can be related without confusion.
+
+\medskip
+
+\noindent
+This framework is necessary for the experiment (Chapter~\ref{chap:exp_methods}). If moral behaviour is shaped by perceptual salience, intuitive appraisal, and affective resonance—as psychological models suggest—then subtle changes in the perceptual--social environment may influence how moral cues acquire behavioural force. The experiment in Chapter~\ref{chap:exp_methods} examines whether robotic co-presence produces such an influence. The findings do not resolve philosophical questions, but they do provide evidence that is \emph{consistent with} certain interpretations of how moral cognition responds to synthetic agents.
+
+\medskip
+
+\noindent
+The remainder of the chapter introduces the conceptual tools needed for such interpretation. It reconstructs the principal normative frameworks—deontological, consequentialist, virtue-theoretic, sentimentalist, contractualist, and particularist—within the discipline of Levels of Abstraction, and embeds them within a topological model of the evaluative field. This reconstruction is not encyclopaedic: its purpose is to prepare an ethical lens through which the experimental results can be understood without collapsing normative and psychological claims.
+
+\section{Ethical Theory as Second-Order Analysis}
+%\label{sec:second_order_ethics}
+
+\noindent
+Section~\ref{sec:moral_ethical} established the transition from first-order moral cognition to second-order ethical reflection. The experiment presented earlier in the thesis provided the behavioural substrate: patterns of prosocial attenuation under robotic co-presence, generated by the cognitive--affective architecture described in Chapter~\ref{chap:moral_primer}. The present section clarifies the methodological stance required to interpret those findings ethically.
+
+\medskip
+
+First, our moral judgements are rapid, first-order evaluative responses, produced by several interacting processes: what we notice, how we react affectively, and the intuitive appraisals that these reactions prompt. These responses are psychologically real, but they need not be coherent or supported by explicit reasoning. Second, such judgements arise from distributed mechanisms---attentional capture, affective resonance, heuristic inference, and forms of conflict monitoring---whose interaction is dynamically shaped by the surrounding perceptual and social field. Third, the experiment described in this thesis was designed to measure the behaviour of this machinery. What is recorded is not people’s endorsement of any articulated moral principle, but the behavioural expression of these underlying processes when the evaluative field is altered by the presence of a humanoid robot.
+
+\medskip
+
+\noindent
+Second-order ethical theory is structurally different. It is reflexive rather than generative. It asks questions of justification rather than description:
+\begin{quote}
+	\emph{What counts as a reason? What makes an obligation binding? What norms govern deliberation and responsibility?}
+\end{quote}
+Such questions presuppose conceptual capacities---abstraction, generalisation, reflective endorsement---that are not themselves the proximate causal mechanisms of moral behaviour.
+
+\medskip
+
+\noindent
+Because the experiment measures first-order evaluations, while ethical theory concerns the standards by which such evaluations are assessed, the two domains must be kept strictly distinct. Confusing them leads either to the naturalistic fallacy (deriving normativity from psychological fact) or to psychologism (treating ethical principles as psychological dispositions). To avoid this, two requirements govern the analysis that follows:
+\begin{enumerate}[label=(\arabic*)]
+	\item ethical concepts must be articulated at the appropriate \emph{Level of Abstraction}: as reflective standards of justification, not as causal predictors of behaviour; 
+	\item any ethical interpretation of the experiment must respect the actual mechanisms of moral cognition---attention, affect, intuitive appraisal, and their modulation by social or synthetic presence---because these mechanisms determine how normative structures become behaviourally operative.
+\end{enumerate}
+
+\noindent
+The central premise for what follows is therefore straightforward:
+\bigskip
+\noindent
+\begin{center}
+	\begin{leftbar}
+		\textit{Ethical interpretation requires a psychologically realistic model of moral cognition, and empirical analysis requires a conceptually disciplined account of the role ethical theory can play}
+	\end{leftbar}
+\end{center}
+
+\bigskip
+\noindent
+
+This premise is essential for reading the experimental attenuation coherently. It prevents us from treating ethical principles as if they were mechanistic operators, and it prevents us from interpreting psychological data as if it directly settled normative questions.
+
+\medskip
+
+\subsection{Ethical Reflection and the Second-Order Stance}
+
+\noindent
+When we assess moral judgements, we should distinguish two quite different tasks. First, there is the descriptive task of explaining how such judgements are produced. Second, there is the reflective task of asking which of these judgements we have most reason to endorse. Second-order ethical theory belongs to this reflective task. It does not describe the psychological mechanisms that cause our moral responses. It provides the standards by which these responses can be assessed. This distinction is familiar in ethics. Sidgwick separates the method of determining what we ought to do from the psychology of our moral sentiments, and others make similar distinctions between the justification of beliefs and the processes by which such beliefs are formed.The analogy with epistemology is instructive: \textbf{ethics stands to moral judgement as epistemology stands to belief.}
+
+From this standpoint, second-order theory is not a procedure that agents apply when they act. Its role is different. Its intelligibility comes from the clarity of its concepts and the coherence of its justifications, not from its ability to predict behaviour.
+
+\medskip
+
+\subsection{Levels of Abstraction and the Proper Location of Ethical Explanation}
+
+\noindent
+We can make these distinctions clearer by using Floridi’s framework of Levels of Abstraction. Different explanatory questions belong to different levels, and they should not be conflated. At the \textit{cognitive level}, our aim is to explain the mechanisms that produce people’s moral judgements and behaviour. These include what they notice, how their attention is captured, their affective and embodied responses, the intuitive heuristics through which they interpret social situations, and the forms of conflict monitoring and limited control that sometimes modulate these reactions. These mechanisms together generate the behavioural patterns observed in experiments, and they define the level at which the experiment in this thesis operates. At a different level—\textit{the normative level}—the questions are not causal. Here we consider principles of justification, the reasons that agents may properly accept, and the concepts of duty, value, and obligation. These are not part of the machinery that produces behaviour. They structure our moral evaluations, and they belong to a higher level of abstraction.
+
+\medskip
+
+\noindent
+Classical Machine Ethics seems to repeatedly collapsed these LoAs, treating deontic rules, utility functions, or prima facie duties as if they were psychological mechanisms. This misunderstanding might produce systems whose ``moral'' behaviour is an artefact of representational choice, not a model of moral cognition.
+
+The experiment in this thesis suggests that attenuation arises from shifts in salience, affective resonance, and attentional competition---not from changes in explicit normative commitments. Ethical theory must therefore be applied to the experiment at the correct LoA: interpretively, not mechanistically.
+
+\medskip
+
+\subsection{Evaluative Topology as a Bridge Between Orders}
+
+\noindent
+The challenge, then, is to articulate a structure that permits principled interaction between normative abstraction and cognitive mechanism without conflating them. \emph{Evaluative topology} provides this bridge.
+
+Evaluative topology models moral cognition as traversal through a structured evaluative field shaped by salience gradients, affective curvature, attentional pathways, and social perturbations. This field-like structure mirrors the empirical architecture of moral cognition---dynamic, distributed, and context-sensitive---while remaining compatible with normative concerns about justification, obligation, and moral significance.
+
+\medskip
+
+\noindent
+This yields a three-part alignment essential for interpreting the experimental results:
+
+\begin{enumerate}
+	\item \textbf{Ethical theory} identifies which configurations of the evaluative field ought to have normative authority.
+	\item \textbf{Moral psychology} describes which configurations actually shape behaviour.
+	\item \textbf{Evaluative topology} models how these structures interact and how perturbations---such as robotic co-presence---can deform the field.
+\end{enumerate}
+
+\noindent
+This framework will structure all subsequent reconstructions: deontology as topological invariance; consequentialism as gradient structure; virtue ethics as dispositional curvature; sentimentalism as affective vector fields; contractualism as justificatory equilibria; particularism as context-dependent salience geometry.
+
+These reconstructed frameworks will then serve as the interpretive instruments for understanding what the experimental attenuation \emph{means} in normative terms.
+
+\medskip
+
+\subsection{Positioning the Argument}
+
+\noindent
+The conceptual machinery developed in this section therefore prepares the ground for the remainder of the chapter:
+\begin{itemize}
+	\item first-order cognition provides the empirical substrate (as established in the experiment),
+	\item second-order ethics supplies the normative interpretive lens,
+	\item evaluative topology provides the structural link between them.
+\end{itemize}
+
+\noindent
+With this scaffolding in place, we can now reconstruct the major normative traditions in a form capable of interpreting the experimental displacement effect without collapsing Levels of Abstraction or overextending empirical claims. The next section introduces these normative frameworks and embeds them within the evaluative--topological architecture developed thus far.
+
+\section{The Normative Landscape: Why Multiple Frameworks Are Needed}
+\label{sec:normative_landscape}
+
+\noindent
+The preceding sections established the methodological conditions under which ethical theory can be applied to the experimental findings without collapsing Levels of Abstraction. Ethical concepts operate at a reflective, justificatory order; the experiment measures first-order evaluative behaviour generated by perceptual, affective, and attentional mechanisms. The present section introduces the normative frameworks that will structure the remainder of the chapter and clarifies why a single theory cannot capture all dimensions of the displacement effect observed in Chapter~\ref{chap:dis}.
+
+\medskip
+
+\noindent
+The attenuation of prosocial behaviour under synthetic presence is not easily characterised as a disruption of duty, a shift in expected outcomes, a weakening of virtuous motivation, or a dampening of empathic resonance alone. Each of these interpretations highlights a different structural feature of the evaluative field. This motivates a plural interpretive strategy. The aim is not to privilege one theory, but to draw on the explanatory resources each framework offers for understanding what the observed behavioural pattern may mean ethically, given the evaluative--topological model developed in earlier chapters.
+
+\medskip
+
+\noindent
+To guide the reconstructions that follow, it is helpful to locate each normative framework within the topology of moral evaluation:
+
+\begin{itemize}
+	\item \textbf{Deontological theories} emphasise \emph{structural constraints}---invariants of permissibility and obligation that can be modelled as boundaries within the evaluative field.
+	\item \textbf{Consequentialist theories} focus on \emph{directional improvement}---value gradients that shape movement toward better outcomes.
+	\item \textbf{Virtue-ethical accounts} highlight \emph{dispositional curvature}---the stable attractors and sensitivities through which character structures moral appraisal.
+	\item \textbf{Sentimentalist theories} foreground \emph{affective vector fields}---patterns of empathic pull, aversive push, and emotional resonance that guide intuitive appraisal.
+	\item \textbf{Contractualist theories} analyse \emph{justificatory relations}---equilibria of mutual accountability that structure the interpersonal dimension of moral evaluation.
+	\item \textbf{Particularist frameworks} emphasise \emph{contextual salience geometry}---the fine-grained, situation-specific features that determine which considerations become morally operative.
+\end{itemize}
+
+\noindent
+These distinctions matter because the displacement effect interacts with several of these structures simultaneously. For example, the Watching-Eye cue introduces accountability salience that is readily analysed through deontological and contractualist lenses; the behavioural shift in donation can be expressed as a flattening of consequentialist gradients; the cluster-dependent modulation described in Chapter~\ref{chap:dis} reflects differences in dispositional curvature; and the reduction in empathic uptake aligns with sentimentalist accounts of affective guidance. Particularist perspectives, finally, illuminate how the introduction of a humanoid robot can reorder contextual salience in ways that are not captured by rule-based or outcome-based theories.
+
+\medskip
+
+\noindent
+The purpose of the remainder of this chapter is therefore threefold:
+\begin{enumerate}[label=(\alph*)]
+	\item to reconstruct each normative framework at the appropriate Level of Abstraction, preserving its justificatory role while clarifying its explanatory limits;
+	\item to express the structural commitments of each theory in evaluative--topological terms, ensuring compatibility with the cognitive architecture examined earlier in the thesis;
+	\item to identify which ethical questions each framework raises when applied to the experimental attenuation observed in Chapter~\ref{chap:dis}, without claiming that the results settle those questions.
+\end{enumerate}
+
+\noindent
+The next sections develop these reconstructions. Each framework is presented not as a competing moral theory to be adjudicated, but as an interpretive lens that illuminates a

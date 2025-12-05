@@ -10,7 +10,7 @@ This is precisely why the idea of creating a ‘moral’ machine by embedding a 
 
 Yet in the technology world, you still encounter the view that if you program a system to follow a specific theory, you’ve solved the moral problem. That assumption is, at best, overly optimistic. A machine following a tidy rulebook bears little resemblance to what humans do when we sense tension in a room, register someone’s discomfort, or feel the pull of how our actions will land with others. Real moral life is textured, social, emotional, and deeply dependent on context. There isn’t a clean set of instructions that captures all that.
 
-So when somebody claims to have built an algorithm that ‘acts ethically,’ it often reflects an academic game of who can produce the most polished theoretical model rather than a meaningful engagement with how moral decisions actually work. 
+Assertions that an algorithm “acts ethically” typically reflect confidence in the coherence of a formal model rather than an examination of how moral behaviour actually arises in human agents. Such models can be elegant and internally consistent, yet their structure often mirrors the assumptions required for formal tractability rather than the dynamics that govern intuitive moral cognition. The difficulty is not that these approaches are misguided, but that they describe a different kind of object: a rule-based construction designed to yield determinate outputs, rather than the perceptual, affective, and context-sensitive processes through which moral considerations gain relevance in human action. Recognising this distinction clarifies why achievements at the level of formal specification do not straightforwardly illuminate the mechanisms by which people navigate morally charged situations.
 
 The theory may look elegant on paper, but it doesn’t map onto the realities of human moral experience.
 
@@ -20,13 +20,12 @@ So the real question for us is this: what happens when the agent in front of you
 
 We still react. We can’t help it. Our perceptual systems are tuned to pick up anything that looks or behaves like a person. But the meaning of those reactions becomes murkier. Are we responding to genuine social cues, or to clever mimicry? And if a robot can reliably trigger the same moral intuitions that another human does, what does that say about the foundations of our own judgments?
 
-For us, that’s the critical challenge. Not whether a machine can follow a rulebook, but \textit{but how our deeply human, automatic moral instincts adapt—or fail to adapt—when something built rather than born is standing in front of us. And not just in a lab, but in our rooms, in our kitchens, woven into the background of daily life.}
+For us, that’s the critical challenge. Not whether a machine can follow a rulebook, but \textit{how our deeply human, automatic moral instincts adapt—or fail to adapt—when something built rather than born is standing in front of us}. And not just in a lab, but in our rooms, in our kitchens, and—more quietly—in our phones, woven into the background of daily life.
 
-\bigskip
-\noindent
+And it is here that we must pause, abruptly, to ask what exactly is being altered. 
+
 Moral decision-making is:
 
-\bigskip
 \noindent
 \begin{center}
 	\begin{leftbar}
@@ -34,74 +33,43 @@ Moral decision-making is:
 	\end{leftbar}
 \end{center}
 \bigskip
-\noindent
 
-The work we present here developes withing this framework, which we applied to a concrete and experimentally tractable setting within Human--Robot Interaction and Social Signal Processing. 
+This move-- from a lived encounter to an analytic definition-- is deliberate. We cannot understand how artificial agents affect our moral thinking unless we consider both the concrete situations in which people act, and the underlying processes that give their moral behaviour its structure. With this framework, we designed a study in which participants enter a small room and face a simple moral choice. They may give part of their participation payment to a real charity, or keep the full amount for themselves. This task is not intended to represent moral cognition in all its complexity. Its aim is different. By providing a minimal and controlled setting, it allows some of the elements in our definition of moral decision-making to become empirically observable.
 
-We conducted a study in which participants enter a small room and encounter a simple but meaningful moral choice: they may donate part of their participation payment to a real charity, or keep the full amount for themselves. This setting does not claim to capture moral cognition in its entirety; instead, it offers a minimal, controlled environment in which the elements of its definition become empirically observable. 
+This setting does not claim to capture moral cognition in its entirety; instead, it offers a minimal, controlled environment in which the elements of its definition become empirically observable. 
  
-
-%\noindent
-%Upon entering the room, participants first engage in \textbf{perceptual encoding}: they register the coins on the table, the bright charity charity, the instruction sheet, and the charity poster overhead depicting a child in need with big expressive eyes. These serve as the \emph{morally salient cues} structuring the situation. Almost immediately, \textbf{affective appraisal} is recruited: the charitable context evokes a mild empathic pull; the Watching-Eye cue introduces a sense of being implicitly observed by the child; and the act of giving up one’s own money elicits a familiar tension between prosocial motivation and self-interest. Alongside this, \textbf{memory and normative expectations} quietly shape interpretation—past experiences with giving, internalised cultural norms about generosity, and associations between being watched and acting prosocially.
-
-
-\noindent
 Upon entering the room, participants first engage in \textbf{perceptual encoding}: they register the coins on the table, the charity materials, and the child-poster overhead with its large, expressive eyes. These elements constitute the \emph{morally salient cues} structuring the situation, consistent with work showing that minimal observational cues and child-like eyes heighten perceived social relevance and implicit monitoring \cite{Haley2005, Bateson2006, ErnestJones2011, Nettle2013, Dear2019, Conty2016}. 
 
 Almost immediately, \textbf{affective appraisal} is recruited. The charitable context elicits a mild empathic pull in line with established findings on affective resonance and empathetic sensitivity \cite{BaronCohenWheelwright2004_EmpathyQuotient, Gleichgerrcht2013, Haidt2001EmotionalDog}. Simultaneously, the watching-eye cue introduces an implicit sense of being observed, activating reputational and attentional systems documented in observational-cue research \cite{Haley2005, Bateson2006, Dear2019}. The prospect of giving up one’s own money further evokes the familiar tension between prosocial motivation and self-interest captured in dual-process and motivational models of moral decision-making \cite{Greene2004, Cushman2013DualSystem, Crockett2016Models}.
 
-Alongside these immediate appraisals, \textbf{memory and normative expectations} shape interpretation: past experiences with charitable giving, internalised cultural norms of generosity, and well-established associations between being watched and acting prosocially influence how the evaluative field is instantiated in the moment \cite{Nettle2013, Bateson2006, Haidt2001EmotionalDog}.
+Alongside these immediate appraisals, \textbf{memory and normative expectations} shape interpretation: past experiences with charitable giving, internalised cultural norms of generosity, and well-established associations between being watched and acting prosocially influence how the evaluative field is instantiated in the moment \cite{Nettle2013, Bateson2006, Haidt2001EmotionalDog}. At the same time, \textbf{attentional orientation} determines which elements dominate the evaluative landscape: is the participant more attuned to the need expressed by the charity, or to the coins that could be kept?
 
 \noindent
-At the same time, \textbf{attentional orientation} determines which elements dominate the evaluative landscape: is the participant more attuned to the need expressed by the charity? to the coins that could be kept? 
+Moral decision-making is, at its core, a fundamentally \emph{teleological} process. It unfolds toward action: its purpose is to organise the evaluative conditions under which an agent adopts one course rather than another, consistent with classical action-centred accounts of ethics~\cite{Aristotle_nicomachean,Foot2001,Korsgaard1996}. When we describe moral decision-making in terms of the perceptual, affective, mnemonic, and attentional operations outlined above, we are recognising the teleological structure through which these elements converge on a practical commitment. This view also aligns with empirical models linking appraisal to action selection~\cite{Haidt2001,Greene2004,Cushman2013}. 
 
-\noindent
-To describe moral decision-making in this sense is to recognise its fundamentally 
-\emph{teleological} character, a view rooted in classical action-centred accounts of 
-ethics \cite{Aristotle_nicomachean,Foot2001,Korsgaard1996}.  
-Moral cognition unfolds toward action: it organises the evaluative conditions under 
-which an agent adopts one course rather than another, consistent with empirical models 
-linking appraisal to action selection \cite{Haidt2001,Greene2004,Cushman2013}.  
-The transition from moral judgment to behaviour is not an optional addendum to the 
-process—it is its natural terminus.  
-A moral evaluation that does not shape the field of possible actions has not yet 
-completed its function; a moral action, conversely, is the crystallised endpoint of 
-evaluative dynamics that have been unfolding long before reflection makes them explicit 
-\cite{Decety2004,Moll2002,Haidt2001}.
+The transition from moral judgment to behaviour is not an optional addendum to the process—it is its natural terminus. A moral evaluation that does not shape the field of possible actions has not yet completed its function; a moral action, conversely, is the crystallised endpoint of evaluative dynamics that have been unfolding long before reflection makes them explicit~\cite{Decety2004,Moll2002,Haidt2001}. The participant’s eventual choice to donate or not is the behavioural crystallisation of this entire evaluative process. 
 
-\medskip
-\noindent
-The participant’s eventual choice to donate or not is the behavioural crystallisation of this entire evaluative process. This thesis examines how the silent co-presence of a humanoid robot modulates that transformation. The robot does not request, instruct, or communicate, yet its ambiguous social ontology—perceptually agentic, normatively indeterminate—reshapes the conditions under which moral judgments are formed and resolved. In this way, the experiment offers a precise instantiation of the definition of moral decision-making introduced above: a setting in which perceptual cues, affective resonance, attentional dynamics, and implicit social meaning combine to produce a practical moral commitment, and in which that process can be systematically perturbed.
+This thesis examines how the silent co-presence of a humanoid robot modulates that transformation. The robot does not request, instruct, or communicate, yet its ambiguous social ontology—perceptually agentic, normatively indeterminate—reshapes the conditions under which moral judgments are formed and resolved. In this way, the experiment offers a precise instantiation of the definition of moral decision-making introduced above: a setting in which perceptual cues, affective resonance, attentional dynamics, and implicit social meaning combine to produce a practical moral commitment, and in which that process can be systematically perturbed.
 
 \medskip
 \noindent
 Moral cognition thus operates within a social environment dense with cues—gaze, posture, interpersonal distance, implicit accountability signals—that modulate the affective and attentional components of evaluation. These modulations occur upstream of explicit reasoning: they determine \emph{what becomes salient} well before agents deliberate on what \emph{ought} to be done.
 
-\medskip
 \noindent
-The introduction of synthetic agents into this environment raises a conceptual and empirical challenge. Humanoid robots occupy a liminal ontological space: perceptually social yet not persons, agent-shaped yet not agents. Their presence recruits perceptual and affective systems that evolved for human–human interaction, while simultaneously withholding the ordinary resources through which social meaning stabilises. This thesis examines the possibility that \emph{such entities reshape the evaluative conditions of moral cognition not by acting, but simply by being present}.
+The introduction of synthetic agents into this environment raises a conceptual and empirical challenge. Humanoid robots occupy a liminal ontological space: perceptually social yet not persons, agent-shaped yet not agents. Their presence recruits perceptual and affective systems that evolved for human–human interaction, while simultaneously withholding the ordinary resources through which social meaning stabilises. 
 
-\bigskip
+This thesis examines the possibility that \emph{such entities reshape the evaluative conditions of moral cognition not by acting, but simply by being present}.
+
 \noindent
-One may picture the problem in concrete terms of our example above.Imagine the participant in the experimental room. On a table: the charity box, a few pound coins, and a simple instruction inviting a donation. The child in need, with big expressive eyes—an established prime of perceived accountability—looks down from a poster.
+One may picture the problem in concrete terms of our example above. Imagine the participant in the experimental room. On a table: the charity box, a few pound coins, and a simple instruction inviting a donation. The child in need, with big expressive eyes—an established prime of perceived accountability—looks down from a poster.
 Alone, the participant might experience a mild empathic pull, a subtle sense of being expected to act prosocially.
 
-Now place a NAO robot on the same table.
-It does nothing. It does not speak, gesture, or request. Yet its humanoid shape, its forward posture, its apparent capacity for attention, reframes the scene. The participant hesitates: the social field has changed. Something in the evaluative machinery has shifted—an attenuation of empathic pull, a dilution of accountability, a re-weighting of salience.
-
-We started by looking at something very simple: what happens when a humanoid robot is present in the room while someone is making a moral decision. The robot doesn’t talk, it doesn’t give instructions, it doesn’t ask for anything. It just shares the space—quietly, almost like another person waiting their turn.
-
-But that quiet presence turns out to matter. A robot like that sits in an odd position: it looks and moves in ways that make us treat it as an agent, yet we don’t quite know what kind of ‘being’ it is or what norms apply to it. That ambiguity changes the atmosphere. It shifts how people interpret the situation, what they take to be appropriate, and how comfortable they feel committing to one judgment over another.
-
-So even without speaking, the robot reshapes the background against which moral choices are made. It nudges the whole process—not by argument or instruction, but simply by being there, hovering between the familiar category of a person and the familiar category of a machine. That’s where we see the transformation beginning.
-
-This modest behavioural moment is the phenomenon under investigation.What has changed? And why?
+Now \textit{place a NAO robot on the same table}. It does nothing. It does not speak, gesture, or request. Yet its humanoid shape, its forward posture, its apparent capacity for attention, reframes the scene. The participant hesitates: the social field has changed. Something in the evaluative machinery has shifted—an attenuation of empathic pull, a dilution of accountability, a re-weighting of salience. We started by looking at something very simple: what happens when a humanoid robot is present in the room while someone is making a moral decision. The robot doesn’t talk, it doesn’t give instructions, it doesn’t ask for anything. It just shares the space—quietly, almost like another person waiting their turn. But that quiet presence turns out to matter. A robot like that sits in an odd position: it looks and moves in ways that make us treat it as an agent, yet we don’t quite know what kind of ‘being’ it is or what norms apply to it. That ambiguity changes the atmosphere. It shifts how people interpret the situation, what they take to be appropriate, and how comfortable they feel committing to one judgment over another. So even without speaking, the robot reshapes the background against which moral choices are made. It nudges the whole process—not by argument or instruction, but simply by being there, hovering between the familiar category of a person and the familiar category of a machine. That’s where we see the transformation beginning. This modest behavioural moment is the phenomenon under investigation.What has changed? And why?
 
 \noindent
 The central question that follows from this observation frames the entire research
 programme:
 
-\bigskip
 \noindent
 \begin{center}
 \begin{leftbar}
@@ -111,7 +79,6 @@ programme:
 \end{leftbar}
 \end{center}
 
-\bigskip
 \noindent
 This question is motivated by the theoretical claim that synthetic agents may function
 as \emph{operators on the evaluative field} in which moral decisions are formed.
@@ -127,7 +94,6 @@ In that case, moral behaviour wouldn’t be shifting because the robot told anyo
 
 Our question comes from a broader theoretical idea: that synthetic agents might operate on the moral landscape in which our decisions take shape. Not by persuasion, not by argument, but by subtly altering the conditions under which those judgments form. If a robot’s visual presence, or the uncertainty about what kind of ‘being’ it is, changes where people direct their attention, or how much empathy they feel, or who they think is accountable, then the whole path from perception to action can start to bend.
 
-\medskip
 \noindent
 If the simple presence of a synthetic agent shifts that chain of inferences,\noindent
 then the traditional approach in machine ethics—starting with abstract principles and trying to code them directly into a system \cite{Anderson2011,Bringsjord2006,Arkin2009,Wallach2008,Guarini2006}—can’t explain what’s going on. Those models operate at the reflective level, the level where we articulate reasons and moral rules. But the effects we’re observing happen earlier, in the pre-reflective machinery that sets the stage for those reasons.
@@ -138,7 +104,7 @@ So we need a different way of thinking about moral behaviour. A framework that t
 One way to make sense of this is by borrowing a notion from Luciano Floridi: the Level of Abstraction \cite{Floridi2008,Floridi2011}. It’s a simple idea with a lot of power behind it. Whenever we study a system—whether it’s a computer, a person, a society—\textit{we have to decide the level at which we’re describing it}. Are we talking about the underlying code? The behaviour? The motivations? The social context? Each level reveals some things and hides others.
 
 \noindent
-Most classical work in machine ethics starts at a very high, reflective level of abstraction. It focuses on principles—rules about what the system should or shouldn’t do—and tries to formalise those rules so they can be implemented~\cite{Allen2005,Arkoudas2005,Winfield2019,Anderson2010}. That’s useful if your goal is to build a system that behaves consistently with a particular ethical theory. But it tells you almost nothing about what happens at the cognitive level, where perception and emotion begin shaping the decision long before anyone appeals to a principle.
+Most classical work in Machine Ethics starts at a very high, reflective level of abstraction. It focuses on principles—rules about what the system should or shouldn’t do—and tries to formalise those rules so they can be implemented~\cite{Allen2005,Arkoudas2005,Winfield2019,Anderson2010}. That’s useful if your goal is to build a system that behaves consistently with a particular ethical theory. But it tells you almost nothing about what happens at the cognitive level, where perception and emotion begin shaping the decision long before anyone appeals to a principle.
 
 
 Our work sits at a different level of abstraction. We’re looking at the machinery that turns raw perception into a sense of what matters, and then into action. At that level, the presence of a humanoid robot isn’t a question about the robot’s rights or intentions; it’s a question about how its appearance and behaviour reshape the informational landscape the human is navigating.
@@ -170,19 +136,16 @@ given some input from the world, how do you turn it into a sense of what matters
 
 If the robot is visually or socially salient—even without speaking—it might ‘bend’ the landscape you’re navigating. Think of it like a small gravitational field: it doesn’t tell you what to do, but it changes the shape of the space you’re moving through. This hypothesis asks:
 
-\bigskip
 \noindent
 \begin{center}
 	\begin{leftbar}
-		\textit{ does the robot’s presence deforms that evaluative landscape just enough to change how moral cues gain their force?}
+		\textit{Does the robot’s presence deforms that evaluative landscape just enough to change how moral cues gain their force?}
 	\end{leftbar}
 \end{center}
 
-\bigskip
 \noindent
 The second hypothesis is about how people interpret responsibility and expectations in the presence of a humanoid robot. Here the claim is not that the robot has moral status or intentions. It’s that its human-like appearance gives it certain practical effects in how people interpret the situation. 
 
-\bigskip
 \noindent
 \begin{center}
 	\begin{tcolorbox}[colback=white,colframe=black!60,title=Hypothesis 2: Synthetic Normativity of Moral Displacement]
@@ -194,17 +157,16 @@ The second hypothesis is about how people interpret responsibility and expectati
 	\end{tcolorbox}
 \end{center}
 
-People may unconsciously treat it as if it participates in the moral scene, even though it hasn’t said or done anything. So this hypothesis asks:
-
-\bigskip
+\medskip
+People may unconsciously treat a robot as if it participates in the moral scene, even though it hasn’t said or done anything. So this hypothesis asks:
+\medskip
 \noindent
 \begin{center}
 	\begin{leftbar}
 		\textit{Does the robot shift who people feel accountable to, or who they think is paying attention, or what they think ‘counts’ in that moment?}
 	\end{leftbar}
 \end{center}
-
-\bigskip
+\medskip
 \noindent
 The robot’s ambiguous status—something between a person and a tool—may subtly redirect moral attention. It’s not giving orders; it’s reframing the situation just by being there.
 
@@ -225,43 +187,36 @@ Does its presence dampen empathy? Does it redirect attention? Does it change how
 		ecologies, precisely as observed in the experimental results.
 	\end{tcolorbox}
 \end{center}
-
+\medskip
 So this final hypothesis says:
 
-\bigskip
+\medskip
 \noindent
 \begin{center}
 	\begin{leftbar}
-		\textit{the robot doesn’t change the rule you apply—it changes the internal bridge that links your moral perception to your moral behaviour}
+		\textit{The robot doesn’t change the rule you apply—it changes the internal bridge that links your moral perception to your moral behaviour}
 	\end{leftbar}
 \end{center}
+\medskip
 
 And importantly, this hypothesis predicts that people with different dispositions—different personalities, sensitivities, backgrounds—will be affected differently. That’s exactly what the experiments showed: the effect isn’t uniform; it varies depending on the person.
 
 \medskip
 \noindent
-These hypotheses structure the theoretical and empirical work that follows. 
-They operationalise the core research question---whether synthetic presence can 
-perturb the inferential machinery that links moral perception to moral action---and 
-provide the conceptual scaffolding through which the experiment in 
-Chapter~\ref{chap:experimental_methods} is interpreted.
-
-\noindent
-Together, these three hypotheses outline the whole space in which synthetic presence might influence moral judgment. Each captures a different mechanism, and all of them operate at the cognitive level—the level where perception and affect set the stage for what we later call ‘a moral decision.’
+These hypotheses structure the theoretical and empirical work that follows. They operationalise the core research question---whether synthetic presence can perturb the inferential machinery that links moral perception to moral action---and provide the conceptual scaffolding through which the experiment in Chapter~\ref{chap:exp_methods} is interpreted. Together, these three hypotheses outline the whole space in which synthetic presence might influence moral judgment. Each captures a different mechanism, and all of them operate at the cognitive level—the level where perception and affect set the stage for what we later call ‘a moral decision.’
 
 \section{The Need for a New Theoretical Orientation}
 
-All three hypotheses point to the same structural insight: the traditional tools of Machine Ethics operate at the wrong level of explanation. Classic Machine Ethics starts with high-level principles—rules, utilities, virtues—and then tries to engineer machines that follow them. That’s perfectly coherent if your aim is to design a system that behaves consistently with an ethical theory.
+All three hypotheses converge on a structural point: the research question in this thesis concerns the same broad domain that motivates Machine Ethics—how humans and artificial systems interact in morally relevant contexts—but approaches it from a different explanatory level. Traditional Machine Ethics begins with articulated normative frameworks—rules, utilities, virtues—and develops methods for ensuring that artificial systems behave in ways consistent with those frameworks. This is a coherent and valuable aim when the goal is to design systems whose actions can be aligned with explicit ethical models.
 
-But that framework doesn’t touch the kind of phenomenon our research question is targeting. We’re asking whether the presence of a synthetic agent reshapes the process by which humans move from perception to moral action. And that process unfolds long before anyone appeals to principles or reasons.
+The present work, however, investigates a phenomenon that arises upstream of such normative articulation. Our question is whether the mere presence of a synthetic agent alters the process through which humans move from perceptual encounter to moral action. That transition is shaped by intuitive appraisal, affective resonance, and attentional dynamics long before principles or reasons are invoked. In this sense, Machine Ethics and the approach developed here examine related human–machine moral interactions, but at different explanatory levels: one focuses on the normative specification of artificial behaviour, while the other examines how artificial presence perturbs the evaluative processes through which human moral behaviour is formed.
 
 In other words, the phenomenon we’re investigating doesn’t live at the reflective Level of Abstraction. It shows up upstream, in the cognitive–affective machinery that makes moral reasoning possible in the first place. When a humanoid robot is in the room, it can alter what draws attention, how empathy is allocated, and what feels socially significant. That isn’t a change in moral reasoning—it’s a change in the conditions under which moral reasoning forms.
 
 And if that’s where the modulation happens, then a principle-first approach to moral AI can’t explain it. We cannot start with abstract theories and work downward. You have to start with the architecture of moral cognition and work upward. Moral behaviour isn’t just the outcome of applying a rule; it is the emergent trajectory of a system sculpted by perceptual salience, affective appraisal, and socially mediated cues—processes that moral psychology has shown to precede and shape explicit judgment \cite{Haidt2001,Greene2001,Decety2004,Prinz2007}. These evaluative dynamics are deeply sensitive to contextual modulation: shifts in attention, affective resonance, or perceived social presence can reconfigure the very pathway through which an agent moves from appraisal to action \cite{Conty2016}. Artificial agents, even without agency or intention, participate in this structure by perturbing the field of salience and social meaning~\cite{Kuchenbrandt2011,Malle2016,Zlotowski2015}.
 
-So the shift we’re proposing isn’t just methodological; it’s conceptual. It reframes the core task of moral AI. Instead of asking, How can machines apply moral principles? we have to ask:
+So the shift we’re proposing isn’t just methodological; it’s conceptual. It marks a move away from the agenda that has shaped much of Machine Ethics over the past fifteen years—an agenda that addresses the same broad question we do, but at a Level of Abstraction concerned with how machines apply moral principles. Our aim is different. Instead of asking, 'How can machines apply moral principles?' we have to ask:
 
-\bigskip
 \noindent
 \begin{center}
 	\begin{leftbar}
@@ -269,6 +224,8 @@ So the shift we’re proposing isn’t just methodological; it’s conceptual. I
 	\end{leftbar}
 \end{center}
 
+\medskip
+\noindent
 That’s the question that anchors the thesis. And later, when we look at the experimental results, we’ll see why a principle-driven account simply can’t capture the effects we observe.
 
 % -------------------------------------------------------
@@ -283,7 +240,7 @@ The argument developed so far brings us to a decisive shift. The question that w
 
 The chapters that follow are arranged to make the implications of this shift increasingly explicit. The progression is cumulative. Each chapter establishes the conditions under which the next can be understood, and together they build a unified account of machine–mediated, machine-detactable moral cognition.
 
-Chapter \ref{chap:lit_rev} establishes the philosophical and methodological ground of the thesis. It disentangles the two projects often grouped under Machine Ethics—Human–Machine Ethics and Computational Machine Ethics—and shows why neither operates at the cognitive Level of Abstraction required to explain synthetic moral perturbation. Drawing on normative ethics, moral psychology, and Social Signal Processing, the chapter argues that moral behaviour arises from a salience-weighted evaluative process rather than from the application of encoded principles. Its central conclusion introduces the core tension that motivates the thesis:
+Chapter \ref{chap:lit_rev} establishes the philosophical and methodological ground of the thesis. It disentangles the two projects often grouped under Machine Ethics—Human–Machine Ethics and Computational Machine Ethics—and shows why neither operates at the cognitive Level of Abstraction (LoA) required to explain synthetic moral perturbation. Drawing on Normative Ethics, Moral Psychology, and Social Signal Processing, the chapter argues that moral behaviour arises from a salience-weighted evaluative process rather than from the application of encoded principles. Its central conclusion introduces the core tension that motivates the thesis:
 
 \bigskip
 \noindent
@@ -299,9 +256,9 @@ Chapter \ref{chap:moral_primer} provides the conceptual architecture needed to u
 
 \bigskip
 \noindent
-Chapter \ref{chap:tools_new} specifies the methodological infrastructure through which the thesis renders evaluative cognition empirically tractable. Whereas the previous chapters developed the theoretical topology of moral appraisal, the present chapter introduces the instruments—psychometric, dispositional, and perturbational—that operationalise that topology in experimental form. It clarifies how established constructs from moral psychology, cognitive science, social signal processing, and HRI serve not as neutral measurement devices but as theoretically motivated probes into the latent dispositional manifold modelled as $\beta_C$.
+Chapter \ref{chap:tools_new} specifies the methodological infrastructure through which the thesis renders evaluative cognition empirically tractable. Whereas the previous chapters developed the theoretical topology of moral appraisal, the present chapter introduces the instruments—psychometric, dispositional, and perturbational—that operationalise that topology in experimental form. It clarifies how established constructs from Moral Psychology, Cognitive Science, Social Signal Processing, and Human-Robot Interation (HRI) serve not as neutral measurement devices but as theoretically motivated probes into the latent dispositional manifold (let us call it $\beta_C$).
 
-By situating the Empathizing Quotient, the Systemizing Quotient, the Big Five Inventory, and the Watching–Eye paradigm within the evaluative–topological framework, the chapter demonstrates that each tool targets a distinct dimension of the architecture through which moral salience is encoded, transformed, and expressed in behaviour. Their role is therefore conceptual rather than merely procedural: these instruments define the coordinate system in which the perturbation introduced by synthetic presence becomes detectable as a deformation of the evaluative field rather than as a trait-driven behavioural fluctuation.
+By situating the Empathizing Quotient, the Systemizing Quotient, the Big Five Inventory, and the Watching–Eye paradigm within the evaluative–topological framework, the chapter attempts to show that each tool targets a distinct dimension of the architecture through which moral salience is encoded, transformed, and expressed in behaviour. Their role is therefore conceptual rather than merely procedural: these instruments define the coordinate system in which the perturbation introduced by synthetic presence becomes detectable as a deformation of the evaluative field rather than as a trait-driven behavioural fluctuation.
 
 \bigskip
 \noindent
@@ -320,8 +277,17 @@ Chapter \ref{chap:exp_methods} constitutes the empirical core of the thesis. It 
 
 Its function is foundational: this is the chapter in which the three central hypotheses of the thesis—Evaluative Deformation, Synthetic Normativity, and Synthetic Perturbation of Moral Inference—are formally operationalised and subjected to empirical test. By consolidating the full experimental architecture with the statistical logic required to evaluate deformation in the evaluative field, the chapter provides the decisive evidence for the thesis’ central claim: that synthetic co-presence induces a measurable, structured alteration in the mapping from moral salience to action that cannot be reduced to trait-level variation or noise.
 
-Chapter \ref{chap:ethics_s} reconstructs the major normative traditions—deontology, consequentialism, virtue ethics, sentimentalism, contractualism, particularism, and hybrid views—at the appropriate Level of Abstraction for the thesis. Instead of treating them as implementable rule systems, the chapter interprets their normative structures as patterns that constrain or guide evaluation within human moral cognition. Floridi’s Level-of-Abstraction discipline is introduced here as a methodological tool for locating where an explanation must live. The chapter concludes by synthesising these perspectives into a coherent view of moral behaviour as a field-sensitive process shaped by both normative expectations and cognitive–affective dynamics. This synthesis provides the philosophical infrastructure that makes the subsequent hypotheses meaningful.
+Chapter \ref{chap:dis} interprets the experimental findings within the cognitive–topological framework developed in the earlier chapters. It examines how the robot’s silent co-presence attenuates prosocial donation and argues that this modulation is best understood as a subtle reshaping of the pre-reflective pathways through which moral salience is registered and transformed into action. The chapter situates this effect within intuitionist Moral Psychology, integrates it with Floridi’s Levels of 
+Abstraction, and contrasts the resulting ecological account of moral influence with agent-centred approaches in Machine Ethics. It concludes by outlining the conceptual, empirical, and governance implications of treating synthetic presence as a perturbation of human moral environments rather than as a candidate locus of 
+moral agency.
 
-Chapter \ref{chap:general_discussion} provides the structural integration of the thesis. It unifies the cognitive–affective architecture, the normative analyses, and the experimental findings into a single theoretical account of how synthetic presence perturbs moral cognition. Building on the experimental result—uniform attenuation of prosocial donation under humanoid co-presence—the chapter shows that the effect cannot be understood as a trait-level phenomenon, a local behavioural anomaly, or a deficit of explicit reasoning. Instead, it requires a field-level interpretation: synthetic presence deforms the evaluative topology that ordinarily carries moral salience into action. By bringing together the three dispositional ecologies, the topological formalism, the reconstructed normative frameworks, and Floridi’s Level-of-Abstraction analysis, the chapter argues that the humanoid robot operates as a perturbation operator on the moral field, not as an ethical agent. Its role is therefore decisive: it offers a general theoretical synthesis through which the empirical signature revealed by the data becomes a window into the structure of moral cognition and the methodological limits of Machine Ethics.
+Chapter \ref{chap:ethics_s} reconstructs the major normative traditions— deontological, consequentialist, virtue-theoretic, sentimentalist, contractualist, particularist, and pluralist—at the Level of Abstraction (LoA) appropriate to the aims of the thesis. The chapter distinguishes their reflective and justificatory role from the cognitive–affective mechanisms that generate everyday moral behaviour, and uses Floridi’s LoA framework together with the evaluative–topological model developed earlier to interpret these theories not as implementable rule systems but as structural patterns—constraints, value gradients, dispositional tendencies, and 
+affective vectors—that organise how moral evaluation is formed and directed.  
+
+This reconstruction serves a methodological purpose: it provides the normative coordinates required to assess the experimental perturbation ethically rather than merely descriptively, and it establishes the conceptual infrastructure that renders 
+the thesis’s hypotheses and their interpretation coherent within both normative theory and cognitive science.
+
+
+Chapter \ref{chap:general_discussion} provides the structural integration of the thesis. It unifies the cognitive–affective architecture, the normative analyses, and the experimental findings into a single theoretical account of how synthetic presence perturbs moral cognition. Building on the experimental result—uniform attenuation of prosocial donation under humanoid co-presence—the chapter attempts to show that the effect cannot be understood as a trait-level phenomenon, a local behavioural anomaly, or a deficit of explicit reasoning. Instead, it requires a field-level interpretation: synthetic presence deforms the evaluative topology that ordinarily carries moral salience into action. By bringing together the three dispositional ecologies, the topological formalism, the reconstructed normative frameworks, and Floridi’s LoA analysis, the chapter argues that the humanoid robot operates as a perturbation operator on the moral field, not as an ethical agent. Its role is therefore interpretive: it provides a theoretical lens through which the behavioural pattern observed in the data can be read as one possible indication of underlying evaluative dynamics, while also clarifying the kinds of questions that exceed the methodological reach of Machine Ethics. In this sense, the framework suggests how synthetic presence might be understood as a perturbation of moral appraisal without implying that the experiment discloses the full structure of moral cognition.
 
 Taken together, these chapters form a cumulative argumentative trajectory. Each chapter establishes the conditions of intelligibility for the next, guiding the reader from conceptual reframing to cognitive mechanism, from mechanism to experimental design, from empirical outcome to theoretical explanation. The result is a systematic account of how synthetic presence perturbs human moral cognition and what this means for the future of moral AI.

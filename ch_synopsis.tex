@@ -1,0 +1,56 @@
+\chapter*{Analytical Table of Contents}
+\addcontentsline{toc}{chapter}{Analytical Table of Contents}
+
+%----------------------------------------------
+% Macro definition
+%----------------------------------------------
+% Usage:
+%   \chapaim{chap:introduction}{Introduction}{<aim text>}
+%
+% This prints:
+%   Chapter <num> — <Title>
+%   Aim: <aim text>
+
+\newcommand{\chapaim}[3]{%
+	\par\vspace{1.0em}%
+	\noindent{\large\textbf{Chapter~\ref{#1} — #2}}\\[0.3em]
+	\noindent\textbf{Aim.}~#3
+	\vspace{0.7em}
+}
+
+%----------------------------------------------
+% Body: chapter-by-chapter analytical synopses
+%----------------------------------------------
+
+\chapaim{chap:introduction}{Introduction}{
+	The chapter reframes moral decision-making as an intuitive, perceptual–affective process and introduces the central question: whether synthetic presence can perturb the transformation from moral salience to moral action. It motivates three hypotheses—evaluative deformation, synthetic normativity, and synthetic perturbation—and situates the entire thesis within a cognitive–topological framework rather than traditional rule-based Machine Ethics.
+}
+
+\chapaim{chap:lit_rev}{Literature Review}{
+	The chapter disentangles Human–Machine Ethics and Computational Machine Ethics, arguing that both operate at the wrong Level of Abstraction to explain synthetic moral perturbation. It establishes that moral behaviour emerges from salience-weighted evaluative processes upstream of explicit reasoning, motivating a cognitive-level analysis.
+}
+
+\chapaim{chap:moral_primer}{Cognitive–Affective Architecture of Moral Judgment}{
+	The chapter provides the conceptual architecture of intuitive moral cognition—dual-process models, affective appraisal, attentional capture, accountability structures—and identifies the inferential gap between moral salience and action. It clarifies the mechanisms through which synthetic presence might perturb this transformation.
+}
+
+\chapaim{chap:tools_new}{Tools and Theoretical Constructs for Empirical Investigation}{
+	The chapter introduces the psychometric, dispositional, and perturbational instruments (EQ, SQ, BFI, Watching-Eye paradigm) that operationalise the cognitive topology underlying moral appraisal. It establishes the measurement logic by which dispositional structure ($\beta_C$) and synthetic presence ($\gamma_R$) become empirically detectable as deformations of the evaluative field.
+}
+
+\chapaim{chap:exp_methods}{Experimental Methods}{
+	The chapter formalises the experimental design, statistical pipeline, and operationalisation of the three hypotheses within the evaluative mapping
+	$f(\alpha_E,\beta_C,\gamma_R)$. It specifies all procedures for measuring donation behaviour, dispositional structure, and perturbation effects in a controlled moral environment.
+}
+
+\chapaim{chap:dis}{Discussion}{
+	The chapter interprets the attenuation of prosocial behaviour under synthetic presence through the structure of intuitive moral cognition, moral topology, and Levels of Abstraction. It reframes Machine Ethics ecologically, showing that artificial systems modulate salience and evaluative geometry without agency, and explains the trait-contingent distribution of the perturbation.
+}
+
+\chapaim{chap:ethics_s}{Ethical Theory in a Cognitive–Topological Framework}{
+	The chapter reconstructs major ethical theories at the proper Level of Abstraction and shows how deontic, consequentialist, virtue-based, and sentimentalist structures correspond to features of the evaluative field. It integrates normative theory with the experimental findings, explaining why synthetic presence reshapes moral behaviour by modulating evaluative topology rather than reasoning.
+}
+
+\chapaim{chap:conclusion}{Conclusion}{
+	The chapter synthesises empirical, formal, and philosophical results to show that synthetic presence alters the perceptual–affective scaffolds through which moral salience becomes action. It argues for a shift in moral AI from designing ethical agents to governing the moral environments created by artificial systems, establishing a field-theoretic programme for future research.
+}
