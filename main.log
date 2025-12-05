@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.11)  5 DEC 2025 01:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.11)  5 DEC 2025 01:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2736,7 +2736,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [69]
-</home/francesco/Desktop/research/appunti/images/robot.png, id=2636, 225.6795pt
+</home/francesco/Desktop/research/appunti/images/robot.png, id=2637, 225.6795pt
  x 180.675pt>
 File: /home/francesco/Desktop/research/appunti/images/robot.png Graphic file (t
 ype png)
@@ -2744,7 +2744,7 @@ ype png)
 Package pdftex.def Info: /home/francesco/Desktop/research/appunti/images/robot.
 png  used on input line 156.
 (pdftex.def)             Requested size: 198.02942pt x 158.54234pt.
-</home/francesco/Desktop/research/appunti/images/control.png, id=2638, 226.665p
+</home/francesco/Desktop/research/appunti/images/control.png, id=2639, 226.665p
 t x 183.6315pt>
 File: /home/francesco/Desktop/research/appunti/images/control.png Graphic file 
 (type png)
@@ -2835,7 +2835,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [78]
-<tables/demographic_balance_table.pdf, id=2813, 476.3386pt x 136.92053pt>
+<tables/demographic_balance_table.pdf, id=2814, 476.3386pt x 136.92053pt>
 File: tables/demographic_balance_table.pdf Graphic file (type pdf)
 <use tables/demographic_balance_table.pdf>
 Package pdftex.def Info: tables/demographic_balance_table.pdf  used on input li
@@ -2865,13 +2865,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [80 <./tables/demographic_balance_table.pdf>]
-<new_plots/age_distribution_by_group.png, id=2846, 722.7pt x 433.62pt>
+<new_plots/age_distribution_by_group.png, id=2847, 722.7pt x 433.62pt>
 File: new_plots/age_distribution_by_group.png Graphic file (type png)
 <use new_plots/age_distribution_by_group.png>
 Package pdftex.def Info: new_plots/age_distribution_by_group.png  used on input
  line 665.
 (pdftex.def)             Requested size: 330.05322pt x 198.03183pt.
-<new_plots/donation_distribution_by_condition.png, id=2847, 722.7pt x 433.62pt>
+<new_plots/donation_distribution_by_condition.png, id=2848, 722.7pt x 433.62pt>
 
 File: new_plots/donation_distribution_by_condition.png Graphic file (type png)
 <use new_plots/donation_distribution_by_condition.png>
@@ -2888,7 +2888,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [81 <./new_plots/age_distribution_by_group.png>]
-<tables/descriptive_highlights_table.pdf, id=2858, 368.0982pt x 144.12044pt>
+<tables/descriptive_highlights_table.pdf, id=2859, 368.0982pt x 144.12044pt>
 File: tables/descriptive_highlights_table.pdf Graphic file (type pdf)
 <use tables/descriptive_highlights_table.pdf>
 Package pdftex.def Info: tables/descriptive_highlights_table.pdf  used on input
@@ -2913,7 +2913,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [83 <./tables/descriptive_highlights_table.pdf>]
-<tables/statistical_tests_table.pdf, id=2888, 558.85184pt x 136.92053pt>
+<tables/statistical_tests_table.pdf, id=2889, 558.85184pt x 136.92053pt>
 File: tables/statistical_tests_table.pdf Graphic file (type pdf)
 <use tables/statistical_tests_table.pdf>
 Package pdftex.def Info: tables/statistical_tests_table.pdf  used on input line
@@ -2932,7 +2932,7 @@ LaTeX Warning: Command \textsterling invalid in math mode on input line 778.
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ¿ in font cmr12!
-<new_plots/donation_effect_by_condition.png, id=2889, 578.16pt x 433.62pt>
+<new_plots/donation_effect_by_condition.png, id=2890, 578.16pt x 433.62pt>
 File: new_plots/donation_effect_by_condition.png Graphic file (type png)
 <use new_plots/donation_effect_by_condition.png>
 Package pdftex.def Info: new_plots/donation_effect_by_condition.png  used on in
@@ -2974,13 +2974,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [87]
-<new_plots/donation_density_by_condition.png, id=2958, 722.7pt x 433.62pt>
+<new_plots/donation_density_by_condition.png, id=2959, 722.7pt x 433.62pt>
 File: new_plots/donation_density_by_condition.png Graphic file (type png)
 <use new_plots/donation_density_by_condition.png>
 Package pdftex.def Info: new_plots/donation_density_by_condition.png  used on i
 nput line 942.
 (pdftex.def)             Requested size: 330.05322pt x 198.03183pt.
-<new_plots/donation_mean_with_se.png, id=2959, 578.16pt x 433.62pt>
+<new_plots/donation_mean_with_se.png, id=2960, 578.16pt x 433.62pt>
 File: new_plots/donation_mean_with_se.png Graphic file (type png)
 <use new_plots/donation_mean_with_se.png>
 Package pdftex.def Info: new_plots/donation_mean_with_se.png  used on input lin
@@ -3010,7 +3010,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [89 <./new_plots/donation_mean_with_se.png>]
-<new_plots/per_trait/bigfive_row_kde.png, id=2971, 1740.5025pt x 423.984pt>
+<new_plots/per_trait/bigfive_row_kde.png, id=2972, 1740.5025pt x 423.984pt>
 File: new_plots/per_trait/bigfive_row_kde.png Graphic file (type png)
 <use new_plots/per_trait/bigfive_row_kde.png>
 Package pdftex.def Info: new_plots/per_trait/bigfive_row_kde.png  used on input
@@ -3026,7 +3026,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [90]
-<new_plots/per_trait/bigfive_row_scatter.png, id=2976, 1728.9393pt x 395.7987pt
+<new_plots/per_trait/bigfive_row_scatter.png, id=2977, 1728.9393pt x 395.7987pt
 >
 File: new_plots/per_trait/bigfive_row_scatter.png Graphic file (type png)
 <use new_plots/per_trait/bigfive_row_scatter.png>
@@ -3061,13 +3061,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [93]
-<new_plots/personality_clusters_pca.png, id=2997, 722.7pt x 433.62pt>
+<new_plots/personality_clusters_pca.png, id=2998, 722.7pt x 433.62pt>
 File: new_plots/personality_clusters_pca.png Graphic file (type png)
 <use new_plots/personality_clusters_pca.png>
 Package pdftex.def Info: new_plots/personality_clusters_pca.png  used on input 
 line 1228.
 (pdftex.def)             Requested size: 391.93546pt x 235.16364pt.
-<new_plots/cluster_elbow_silhouette.png, id=2999, 867.24pt x 361.35pt>
+<new_plots/cluster_elbow_silhouette.png, id=3000, 867.24pt x 361.35pt>
 File: new_plots/cluster_elbow_silhouette.png Graphic file (type png)
 <use new_plots/cluster_elbow_silhouette.png>
 Package pdftex.def Info: new_plots/cluster_elbow_silhouette.png  used on input 
@@ -3083,7 +3083,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [94 <./new_plots/personality_clusters_pca.png>]
-<new_plots/donation_by_cluster_and_condition.png, id=3007, 722.7pt x 433.62pt>
+<new_plots/donation_by_cluster_and_condition.png, id=3008, 722.7pt x 433.62pt>
 File: new_plots/donation_by_cluster_and_condition.png Graphic file (type png)
 <use new_plots/donation_by_cluster_and_condition.png>
 Package pdftex.def Info: new_plots/donation_by_cluster_and_condition.png  used 
@@ -3100,19 +3100,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [95 <./new_plots/cluster_elbow_silhouette.png> <./new_plots/donation_by_cluster
 _and_condition.png>]
-<new_plots/cluster_0_radar.png, id=3016, 505.89pt x 505.89pt>
+<new_plots/cluster_0_radar.png, id=3017, 505.89pt x 505.89pt>
 File: new_plots/cluster_0_radar.png Graphic file (type png)
 <use new_plots/cluster_0_radar.png>
 Package pdftex.def Info: new_plots/cluster_0_radar.png  used on input line 1294
 .
 (pdftex.def)             Requested size: 132.0238pt x 132.02232pt.
-<new_plots/cluster_1_radar.png, id=3017, 505.89pt x 505.89pt>
+<new_plots/cluster_1_radar.png, id=3018, 505.89pt x 505.89pt>
 File: new_plots/cluster_1_radar.png Graphic file (type png)
 <use new_plots/cluster_1_radar.png>
 Package pdftex.def Info: new_plots/cluster_1_radar.png  used on input line 1295
 .
 (pdftex.def)             Requested size: 132.0238pt x 132.02232pt.
-<new_plots/cluster_2_radar.png, id=3018, 505.89pt x 505.89pt>
+<new_plots/cluster_2_radar.png, id=3019, 505.89pt x 505.89pt>
 File: new_plots/cluster_2_radar.png Graphic file (type png)
 <use new_plots/cluster_2_radar.png>
 Package pdftex.def Info: new_plots/cluster_2_radar.png  used on input line 1296
@@ -3156,7 +3156,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [99]
-<new_plots/cluster_regression_coefficients.png, id=3043, 650.43pt x 433.62pt>
+<new_plots/cluster_regression_coefficients.png, id=3044, 650.43pt x 433.62pt>
 File: new_plots/cluster_regression_coefficients.png Graphic file (type png)
 <use new_plots/cluster_regression_coefficients.png>
 Package pdftex.def Info: new_plots/cluster_regression_coefficients.png  used on
@@ -3181,7 +3181,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [101]
-<new_plots/posterior_donation_difference.png, id=3057, 722.7pt x 433.62pt>
+<new_plots/posterior_donation_difference.png, id=3058, 722.7pt x 433.62pt>
 File: new_plots/posterior_donation_difference.png Graphic file (type png)
 <use new_plots/posterior_donation_difference.png>
 Package pdftex.def Info: new_plots/posterior_donation_difference.png  used on i
@@ -4251,10 +4251,10 @@ super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb><
 ts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (219 pages, 4531638 bytes).
+Output written on main.pdf (219 pages, 4532648 bytes).
 PDF statistics:
- 4525 PDF objects out of 5155 (max. 8388607)
- 4125 compressed objects within 42 object streams
+ 4526 PDF objects out of 5155 (max. 8388607)
+ 4126 compressed objects within 42 object streams
  907 named destinations out of 1000 (max. 500000)
  1726 words of extra memory for PDF output out of 10000 (max. 10000000)
 
