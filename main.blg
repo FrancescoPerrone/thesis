@@ -3,6 +3,7 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: metafora.aux
 A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: synopsis.aux
 A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: declaration.aux
 A level-1 auxiliary file: int_new.aux
@@ -12,12 +13,11 @@ A level-1 auxiliary file: tools.aux
 A level-1 auxiliary file: experimental_methods.aux
 A level-1 auxiliary file: dis.aux
 A level-1 auxiliary file: ethics_s.aux
-A level-1 auxiliary file: ethich_r.aux
 A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 12406 items from 5000.
+Reallocated field_info (elt_size=4) to 12659 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -582,6 +582,46 @@ Repeated entry---line 6990 of file /home/francesco/Desktop/research/appunti/refe
  : @article{Railton2017
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 7028 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @inproceedings{Jiang2021
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7058 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @inproceedings{Bender2021
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7099 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Fischer2011
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7120 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Zlotowski2015
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7151 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{WaytzHeafnerEpley2014
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7161 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Eyssel2012
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7169 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Fischer2011
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7178 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Kim2023
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7188 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Wirtz2018
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7198 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Shank2019
+ :                   ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Cushman2013ValueIntegration"
 Warning--I didn't find a database entry for "Yamagishi2014"
 Warning--I didn't find a database entry for "Young2011"
@@ -601,45 +641,45 @@ Warning--can't use both author and editor fields in HumeTreatise
 Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
 Warning--can't use both volume and number fields in CalvoD2010
-You've used 310 entries,
+You've used 321 entries,
             1876 wiz_defined-function locations,
-            2277 strings with 49506 characters,
-and the built_in function-call counts, 82228 in all, are:
-= -- 8687
-> -- 2444
+            2345 strings with 51835 characters,
+and the built_in function-call counts, 85907 in all, are:
+= -- 9047
+> -- 2621
 < -- 0
-+ -- 963
-- -- 653
-* -- 5397
-:= -- 11162
-add.period$ -- 402
-call.type$ -- 310
-change.case$ -- 239
++ -- 1026
+- -- 705
+* -- 5661
+:= -- 11672
+add.period$ -- 414
+call.type$ -- 321
+change.case$ -- 249
 chr.to.int$ -- 0
-cite$ -- 317
-duplicate$ -- 4415
-empty$ -- 8173
-format.name$ -- 653
-if$ -- 20480
+cite$ -- 328
+duplicate$ -- 4613
+empty$ -- 8481
+format.name$ -- 705
+if$ -- 21380
 int.to.chr$ -- 0
-int.to.str$ -- 310
-missing$ -- 387
-newline$ -- 1025
-num.names$ -- 321
-pop$ -- 985
+int.to.str$ -- 321
+missing$ -- 399
+newline$ -- 1059
+num.names$ -- 334
+pop$ -- 1016
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2901
+skip$ -- 3060
 stack$ -- 0
-substring$ -- 5830
-swap$ -- 1826
+substring$ -- 6060
+swap$ -- 1929
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 892
-width$ -- 313
-write$ -- 3135
-(There were 140 error messages)
+while$ -- 925
+width$ -- 324
+write$ -- 3249
+(There were 150 error messages)

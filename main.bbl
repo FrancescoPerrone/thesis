@@ -171,6 +171,122 @@ J.~Z{\l}otowski, D.~Proudfoot, K.~Yogeeswaran, and C.~Bartneck,
   interaction,'' {\em International Journal of Social Robotics}, vol.~7, no.~3,
   pp.~347--360, 2015.
 
+\bibitem{Moor2006}
+J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
+  IEEE Intelligent Systems}, vol.~21, no.~4, pp.~18--21, 2006.
+
+\bibitem{Coeckelbergh2010}
+M.~Coeckelbergh, ``Robot rights? towards a social-relational justification of
+  moral consideration,'' {\em Ethics and Information Technology}, vol.~12,
+  no.~3, pp.~209--221, 2010.
+
+\bibitem{Floridi2013}
+L.~Floridi, {\em The Ethics of Information}.
+\newblock Oxford: Oxford University Press, 2013.
+
+\bibitem{Gunkel2012}
+D.~J. Gunkel, {\em The Machine Question: Critical Perspectives on AI, Robots,
+  and Ethics}.
+\newblock Cambridge, MA: MIT Press, 2012.
+
+\bibitem{VanStraten2020}
+C.~L. van Straten, J.~Peter, R.~Kuhne, C.~de~Jong, and E.~A. Crone, ``The
+  development of trust in artificial agents,'' {\em Journal of Experimental
+  Child Psychology}, vol.~192, p.~104779, 2020.
+
+\bibitem{Banks2020}
+J.~Banks, ``Theory of mind in social robots: replication of five established
+  human tests,'' {\em International Journal of Social Robotics}, vol.~12,
+  no.~2, pp.~403--414, 2020.
+
+\bibitem{Vinciarelli2009}
+A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing: Survey
+  of an emerging domain,'' {\em Image and vision computing}, vol.~27, no.~12,
+  pp.~1743--1759, 2009.
+
+\bibitem{Picard1997}
+R.~W. Picard, {\em Affective Computing}.
+\newblock MIT Press, 1997.
+
+\bibitem{FehrGachter2002}
+E.~Fehr and S.~Gachter, ``Altruistic punishment in humans,'' {\em Nature},
+  vol.~415, pp.~137--140, 2002.
+
+\bibitem{Andreoni1990}
+J.~Andreoni, ``Impure altruism and donations to public goods: A theory of
+  warm-glow giving,'' {\em The Economic Journal}, vol.~100, no.~401,
+  pp.~464--477, 1990.
+
+\bibitem{Jiang2021}
+L.~Jiang, A.~Galashov, Y.~Yang, {\em et~al.}, ``Can machines learn morality?
+  the delphi experiment,'' {\em arXiv preprint}, vol.~arXiv:2110.07574, 2021.
+
+\bibitem{Noothigattu2021}
+R.~Noothigattu, M.~Kleiman-Weiner, S.~Dsouza, and et~al., ``Teaching and
+  testing framework for human-ai value alignment,'' {\em Proceedings of the
+  National Academy of Sciences}, vol.~118, no.~25, p.~e1901956118, 2021.
+
+\bibitem{Ramirez2023}
+L.~Ramirez, A.~Aher, and A.~Caliskan, ``Computational moral psychology with
+  large language models: Opportunities and risks,'' {\em Patterns}, vol.~4,
+  no.~9, p.~100861, 2023.
+
+\bibitem{Bender2021}
+E.~M. Bender and T.~Gebru, ``On the dangers of stochastic parrots: Can language
+  models be too big?,'' in {\em Proceedings of the 2021 ACM Conference on
+  Fairness, Accountability, and Transparency (FAccT)}, pp.~610--623, 2021.
+
+\bibitem{Groom2010}
+V.~Groom, C.~Nass, N.~Yee, K.~R. Ball, K.~Fogg, and R.~P. Biocca, ``The
+  influence of robot anthropomorphism on moral judgments in human?robot
+  interaction,'' in {\em CHI '10: Proceedings of the SIGCHI Conference on Human
+  Factors in Computing Systems}, pp.~153--162, 2010.
+
+\bibitem{Breazeal2003}
+C.~Breazeal, ``Toward sociable robots,'' {\em Robotics and Autonomous Systems},
+  vol.~42, no.~3--4, pp.~167--175, 2003.
+
+\bibitem{Fischer2011}
+K.~Fischer, ``Interpersonal alignment in human--robot interaction,'' in {\em
+  Proceedings of the 7th Annual ACM/IEEE International Conference on
+  Human--Robot Interaction}, pp.~1--2, 2011.
+
+\bibitem{Doris2015}
+J.~M. Doris, {\em Talking to Our Selves: Reflection, Ignorance, and Agency}.
+\newblock Oxford: Oxford University Press, 2015.
+
+\bibitem{Greene2014}
+J.~D. Greene, {\em Moral Tribes: Emotion, Reason, and the Gap Between Us and
+  Them}.
+\newblock New York, NY: Penguin Press, 2014.
+
+\bibitem{SinnottArmstrong2008}
+W.~Sinnott-Armstrong, ``Framing moral intuitions,'' in {\em Moral Psychology,
+  Volume 2: The Cognitive Science of Morality} (W.~Sinnott-Armstrong, ed.),
+  pp.~47--76, Cambridge, MA: MIT Press, 2008.
+
+\bibitem{FloridiSanders2004}
+L.~Floridi and J.~W. Sanders, ``On the morality of artificial agents,'' {\em
+  Minds and Machines}, vol.~14, no.~3, pp.~349--379, 2004.
+
+\bibitem{Coeckelbergh2020}
+M.~Coeckelbergh, {\em AI Ethics}.
+\newblock MIT Press, 2020.
+
+\bibitem{Rahwan2019}
+I.~Rahwan, M.~Cebrian, N.~Obradovich, J.~Bongard, J.-F. Bonnefon, C.~Breazeal,
+  J.~W. Crandall, N.~A. Christakis, I.~D. Couzin, M.~O. Jackson, N.~R.
+  Jennings, E.~Kamar, I.~M. Kloumann, H.~Larochelle, D.~Lazer, R.~McElreath,
+  A.~Mislove, D.~C. Parkes, A.~Pentland, G.~Robins, A.~Shariff, J.~B.
+  Tenenbaum, and M.~Wellman, ``Machine behaviour,'' {\em Nature}, vol.~568,
+  no.~7753, pp.~477--486, 2019.
+
+\bibitem{Shank2019}
+D.~B. Shank and A.~Gott, ``Robot responsibility? the moral and legal dimensions
+  of robotics,'' in {\em Proceedings of the 14th ACM/IEEE International
+  Conference on Human-Robot Interaction (HRI)}, (Daegu, Republic of Korea),
+  pp.~715--717, IEEE, 2019.
+
 \bibitem{SidgwickMethods}
 H.~Sidgwick, {\em The methods of ethics}.
 \newblock Cambridge University Press, 2019.
@@ -215,11 +331,6 @@ D.~Emelin {\em et~al.}, ``Moral foundations in large language models: A case
 J.~Haidt, ``The new synthesis in moral psychology,'' {\em Science}, vol.~316,
   no.~5827, pp.~998--1002, 2007.
 
-\bibitem{Greene2014}
-J.~D. Greene, {\em Moral Tribes: Emotion, Reason, and the Gap Between Us and
-  Them}.
-\newblock New York, NY: Penguin Press, 2014.
-
 \bibitem{Phelps2006}
 E.~A. Phelps, ``Emotion and cognition: insights from studies of the human
   amygdala,'' {\em Annual Review of Psychology}, vol.~57, pp.~27--53, 2006.
@@ -244,10 +355,6 @@ P.~Bremner, U.~Leonards, and A.~Bateman, ``The mere presence of a robot is
   enough to elicit social facilitation of human performance,'' {\em Scientific
   Reports}, vol.~12, no.~1, pp.~1--14, 2022.
 
-\bibitem{Moor2006}
-J.~H. Moor, ``The nature, importance, and difficulty of machine ethics,'' {\em
-  IEEE Intelligent Systems}, vol.~21, no.~4, pp.~18--21, 2006.
-
 \bibitem{Cervantes2020}
 J.-A. Cervantes, S.~L{\'o}pez, L.-F. Rodr{\'\i}guez, S.~Cervantes,
   F.~Cervantes, and F.~Ramos, ``Artificial moral agents: A survey of the
@@ -257,11 +364,6 @@ J.-A. Cervantes, S.~L{\'o}pez, L.-F. Rodr{\'\i}guez, S.~Cervantes,
 \bibitem{Coeckelbergh2023}
 M.~Coeckelbergh, ``Challenging ai simulacra of ethical deliberation: Some
   problems of ethicopolitics of algorithms,'' {\em AI and Society}, 2023.
-
-\bibitem{Bender2021}
-E.~M. Bender and T.~Gebru, ``On the dangers of stochastic parrots: Can language
-  models be too big?,'' in {\em Proceedings of the 2021 ACM Conference on
-  Fairness, Accountability, and Transparency (FAccT)}, pp.~610--623, 2021.
 
 \bibitem{Mittelstadt2019}
 B.~Mittelstadt, C.~Russell, and S.~Wachter, ``Explaining ai in an algorithmic
@@ -293,14 +395,28 @@ J.~Gardner and et~al., ``Models that write like moral agents are not moral
   agents,'' {\em AI \& Society}, 2024.
 \newblock Forthcoming.
 
+\bibitem{WaytzHeafnerEpley2014}
+A.~Waytz, J.~Heafner, and N.~Epley, ``The mind in the machine: Anthropomorphism
+  increases trust in an autonomous vehicle,'' {\em Journal of Experimental
+  Social Psychology}, vol.~52, pp.~113--117, 2014.
+
+\bibitem{Eyssel2012}
+F.~Eyssel and D.~Kuchenbrandt, ``Social categorization of social robots:
+  Anthropomorphism as a function of robot group membership,'' {\em British
+  Journal of Social Psychology}, vol.~51, no.~4, pp.~724--731, 2012.
+
+\bibitem{Kim2023}
+B.~K. Kim and S.~Schubert, ``Moral dynamics in human?ai interaction: How ai
+  presence shifts moral judgment,'' {\em Cognition}, vol.~234, p.~105369, 2023.
+
+\bibitem{Wirtz2018}
+J.~Wirtz, P.~Patterson, W.~H. Kunz, T.~Gruber, V.~Lu, and S.~Paluch, ``Brave
+  new world: Service robots in the frontline,'' {\em Journal of Service
+  Management}, vol.~29, no.~5, pp.~907--931, 2018.
+
 \bibitem{Crockett2016}
 M.~J. Crockett, ``Models of morality,'' {\em Trends in Cognitive Sciences},
   vol.~20, no.~2, pp.~87--97, 2016.
-
-\bibitem{Vinciarelli2009}
-A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing: Survey
-  of an emerging domain,'' {\em Image and vision computing}, vol.~27, no.~12,
-  pp.~1743--1759, 2009.
 
 \bibitem{Bainbridge2011}
 W.~A. Bainbridge, J.~W. Hart, E.~S. Kim, and B.~Scassellati, ``The effect of
@@ -319,10 +435,6 @@ J.~Dancy, ``Ethics without principles,'' 2004.
 \bibitem{Pentland2007}
 A.~Pentland, ``Social signal processing [exploratory dsp],'' {\em IEEE Signal
   Processing Magazine}, vol.~24, no.~4, pp.~108--111, 2007.
-
-\bibitem{Picard1997}
-R.~W. Picard, {\em Affective Computing}.
-\newblock MIT Press, 1997.
 
 \bibitem{Hursthouse1999}
 R.~Hursthouse, {\em On Virtue Ethics}.
@@ -651,11 +763,6 @@ F.~Cushman, ``Action, outcome, and value: A dual-system framework for
   morality,'' {\em Personality and Social Psychology Review}, vol.~17, no.~3,
   pp.~273--292, 2013.
 
-\bibitem{Coeckelbergh2010}
-M.~Coeckelbergh, ``Robot rights? towards a social-relational justification of
-  moral consideration,'' {\em Ethics and Information Technology}, vol.~12,
-  no.~3, pp.~209--221, 2010.
-
 \bibitem{Alfano2013MoralEnvironment}
 M.~Alfano, {\em Character as Moral Fiction}.
 \newblock Cambridge University Press, 2013.
@@ -678,14 +785,6 @@ M.~Alfano, ``Expanding the situationist challenge: Virtue ethics and the
 \bibitem{Railton2017Scaffolding}
 P.~Railton, ``Moral learning: Conceptual foundations and normative relevance,''
   {\em Cognition}, vol.~167, pp.~172--190, 2017.
-
-\bibitem{FloridiSanders2004}
-L.~Floridi and J.~W. Sanders, ``On the morality of artificial agents,'' {\em
-  Minds and Machines}, vol.~14, no.~3, pp.~349--379, 2004.
-
-\bibitem{Coeckelbergh2020}
-M.~Coeckelbergh, {\em AI Ethics}.
-\newblock MIT Press, 2020.
 
 \bibitem{Greene2002}
 J.~Greene and J.~Haidt, ``How (and where) does moral judgment work?,'' {\em
@@ -801,11 +900,6 @@ W.~G. Graziano, N.~Eisenberg, and R.~M. Tobin, ``Agreeableness and helping
   behavior: A meta-analysis,'' {\em Psychological Bulletin}, vol.~119, no.~3,
   pp.~371--394, 1996.
 
-\bibitem{Banks2020}
-J.~Banks, ``Theory of mind in social robots: replication of five established
-  human tests,'' {\em International Journal of Social Robotics}, vol.~12,
-  no.~2, pp.~403--414, 2020.
-
 \bibitem{ThompsonBooth2014}
 C.~Thompson-Booth, E.~Viding, L.~C. Mayes, and H.~J.~V. Rutherford, ``Here's
   looking at you: Emotional faces predict eye-gaze behaviors in parents and
@@ -816,10 +910,6 @@ C.~D. Batson, {\em The Altruism Question: Toward a Social-Psychological
   Answer}.
 \newblock Hillsdale, NJ: Lawrence Erlbaum Associates, 1991.
 
-\bibitem{FehrGachter2002}
-E.~Fehr and S.~Gachter, ``Altruistic punishment in humans,'' {\em Nature},
-  vol.~415, pp.~137--140, 2002.
-
 \bibitem{FehrFischbacher2003}
 E.~Fehr and U.~Fischbacher, ``The nature of human altruism,'' {\em Nature},
   vol.~425, pp.~785--791, 2003.
@@ -827,11 +917,6 @@ E.~Fehr and U.~Fischbacher, ``The nature of human altruism,'' {\em Nature},
 \bibitem{WarnekenTomasello2006}
 F.~Warneken and M.~Tomasello, ``Altruistic helping in human infants and young
   chimpanzees,'' {\em Science}, vol.~311, no.~5765, pp.~1301--1303, 2006.
-
-\bibitem{Andreoni1990}
-J.~Andreoni, ``Impure altruism and donations to public goods: A theory of
-  warm-glow giving,'' {\em The Economic Journal}, vol.~100, no.~401,
-  pp.~464--477, 1990.
 
 \bibitem{Gintis2000}
 H.~Gintis, ``Strong reciprocity and human sociality,'' {\em Journal of
@@ -883,21 +968,10 @@ K.~Dear, K.~Dutton, and E.~Fox, ``Do `watching eyes' influence antisocial
   tech. rep., Aldebaran Robotics, Paris, France, 2013.
 \newblock Official product documentation.
 
-\bibitem{VanStraten2020}
-C.~L. van Straten, J.~Peter, R.~Kuhne, C.~de~Jong, and E.~A. Crone, ``The
-  development of trust in artificial agents,'' {\em Journal of Experimental
-  Child Psychology}, vol.~192, p.~104779, 2020.
-
 \bibitem{Arnold2017}
 T.~Arnold and M.~Scheutz, ``The tactile ethics of soft robotics: Designing
   wisely for human?robot interaction,'' {\em Soft Robotics}, vol.~4, no.~3,
   pp.~123--132, 2017.
-
-\bibitem{Groom2010}
-V.~Groom, C.~Nass, N.~Yee, K.~R. Ball, K.~Fogg, and R.~P. Biocca, ``The
-  influence of robot anthropomorphism on moral judgments in human?robot
-  interaction,'' in {\em CHI '10: Proceedings of the SIGCHI Conference on Human
-  Factors in Computing Systems}, pp.~153--162, 2010.
 
 \bibitem{Leidner2019}
 B.~Leidner, J.~Shariff, K.~Kozlowska, and B.~W. Tye, ``Framing ethical
@@ -941,10 +1015,6 @@ D.~C. Dennett, {\em The Intentional Stance}.
 L.~Floridi, {\em Information: A Very Short Introduction}.
 \newblock Oxford: Oxford University Press, 2010.
 
-\bibitem{Floridi2013}
-L.~Floridi, {\em The Ethics of Information}.
-\newblock Oxford: Oxford University Press, 2013.
-
 \bibitem{Emery2000}
 N.~J. Emery, ``The eyes have it: The neuroethology, function and evolution of
   social gaze,'' {\em Neuroscience \& Biobehavioral Reviews}, vol.~24, no.~6,
@@ -982,11 +1052,6 @@ A.~P. Saygin, T.~Chaminade, H.~Ishiguro, J.~Driver, and C.~Frith, ``The thing
 T.~Chaminade and T.~Ohnishi, ``Differentiating human and humanoid robot motion:
   Humans do not rely on dynamics,'' {\em Biological Cybernetics}, vol.~96,
   no.~5, pp.~477--489, 2007.
-
-\bibitem{Gunkel2012}
-D.~J. Gunkel, {\em The Machine Question: Critical Perspectives on AI, Robots,
-  and Ethics}.
-\newblock Cambridge, MA: MIT Press, 2012.
 
 \bibitem{Batson2011}
 C.~D. Batson, {\em Altruism in Humans}.
@@ -1061,18 +1126,9 @@ E.~Goffman, {\em Interaction Ritual: Essays on Face-to-Face Behavior}.
 \newblock New York: Pantheon Books, 1967.
 \newblock Original essays published 1955--1967.
 
-\bibitem{Breazeal2003}
-C.~Breazeal, ``Toward sociable robots,'' {\em Robotics and Autonomous Systems},
-  vol.~42, no.~3--4, pp.~167--175, 2003.
-
 \bibitem{Lee2010}
 J.~S. Lee and S.~Kiesler, ``Human mental models of humanoid robots,'' {\em
   Proceedings of the IEEE}, vol.~100, no.~3, pp.~586--593, 2010.
-
-\bibitem{Fischer2011}
-K.~Fischer, ``Interpersonal alignment in human--robot interaction,'' in {\em
-  Proceedings of the 7th Annual ACM/IEEE International Conference on
-  Human--Robot Interaction}, pp.~1--2, 2011.
 
 \bibitem{Gigerenzer2008}
 G.~Gigerenzer, {\em Rationality for Mortals}.
