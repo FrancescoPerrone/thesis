@@ -876,9 +876,36 @@ P.~Railton, ``Moral learning: Conceptual foundations and normative relevance,''
 J.~Greene and J.~Haidt, ``How (and where) does moral judgment work?,'' {\em
   Trends in cognitive sciences}, vol.~6, no.~12, pp.~517--523, 2002.
 
-\bibitem{Fedyk2017}
-M.~Fedyk, {\em The Social Turn in Moral Psychology}.
-\newblock Cambridge, MA: MIT Press, 2017.
+\bibitem{Cushman2006MoralLearning}
+F.~Cushman, L.~Young, and M.~Hauser, ``The role of conscious reasoning and
+  intuition in moral judgment: testing three principles of harm,'' {\em
+  Psychological Science}, vol.~17, no.~12, pp.~1082--1089, 2006.
+
+\bibitem{Young2010}
+L.~Young, F.~Cushman, M.~Hauser, and R.~Saxe, ``The neural basis of the
+  interaction between theory of mind and moral judgment,'' {\em Proceedings of
+  the National Academy of Sciences}, vol.~107, no.~20, pp.~8374--8379, 2010.
+
+\bibitem{Crockett2010SerotoninHarm}
+M.~J. Crockett, L.~Clark, M.~D. Hauser, and T.~W. Robbins, ``Serotonin
+  selectively influences moral judgment and behavior through harm aversion,''
+  {\em Proceedings of the National Academy of Sciences}, vol.~107, no.~33,
+  pp.~14381--14386, 2010.
+
+\bibitem{Decety2004EmpathyNeural}
+J.~Decety and P.~L. Jackson, ``The functional architecture of human empathy,''
+  {\em Behavioral and Cognitive Neuroscience Reviews}, vol.~3, no.~2,
+  pp.~71--100, 2004.
+
+\bibitem{TracyRobins2004Appraisal}
+J.~L. Tracy and R.~W. Robins, ``Putting the self into self-conscious emotions:
+  A theoretical model,'' {\em Psychological Inquiry}, vol.~15, no.~2,
+  pp.~103--125, 2004.
+
+\bibitem{Whitmarsh2021AffectiveAttention}
+S.~Whitmarsh, O.~Bartra, B.~Love, and S.~Gluth, ``Affective and attentional
+  dynamics predict moral decision-making,'' {\em Nature Communications},
+  vol.~12, no.~1, pp.~1--13, 2021.
 
 \bibitem{BaronCohenWheelwright2004}
 S.~Baron-Cohen and S.~Wheelwright, ``The empathy quotient: An investigation of
@@ -905,18 +932,6 @@ O.~P. John and S.~Srivastava, ``The big five trait taxonomy: History,
 B.~Rammstedt and O.~P. John, ``Measuring personality in one minute or less: A
   10-item short version of the big five inventory in english and german,'' {\em
   Journal of research in Personality}, vol.~41, no.~1, pp.~203--212, 2007.
-
-\bibitem{BaronCohenRichlerBisaryaGurunathanWheelwright2003_SystemizingQuotient}
-S.~Baron?Cohen, J.~Richler, D.~Bisarya, N.~Gurunathan, and S.~Wheelwright,
-  ``The systemizing quotient: An investigation of adults with asperger syndrome
-  or high-functioning autism, and normal sex differences,'' {\em Philosophical
-  Transactions of the Royal Society B: Biological Sciences}, vol.~358,
-  no.~1430, pp.~361--374, 2003.
-
-\bibitem{JohnDonahueKentle1991_BigFiveInventory}
-O.~P. John, E.~M. Donahue, and R.~L. Kentle, ``The big five inventory ?
-  versions 4a and 5,'' tech. rep., Institute of Personality and Social
-  Research, University of California, Berkeley, Berkeley, California, 1991.
 
 \bibitem{Malle2015}
 B.~F. Malle, M.~Scheutz, T.~Arnold, J.~Voiklis, and C.~Cusimano, ``Sacrifice
@@ -951,6 +966,29 @@ A.~Konovalov and I.~Krajbich, ``Revealed prioritization using a novel economic
   task,'' {\em Journal of Experimental Psychology: General}, vol.~145, no.~6,
   pp.~802--825, 2016.
 
+\bibitem{Yamagishi2014}
+T.~Yamagishi, N.~Mifune, Y.~Li, M.~Shinada, H.~Hashimoto, Y.~Horita, A.~Miura,
+  K.~Inukai, S.~Tanida, T.~Kiyonari, and H.~Takagishi, ``Is behavioral
+  pro?sociality game?specific? pro?social preference and expectations of
+  pro?sociality,'' {\em Journal of Experimental Social Psychology}, vol.~53,
+  pp.~1--11, 2014.
+
+\bibitem{Fedyk2017}
+M.~Fedyk, {\em The Social Turn in Moral Psychology}.
+\newblock Cambridge, MA: MIT Press, 2017.
+
+\bibitem{BaronCohenRichlerBisaryaGurunathanWheelwright2003_SystemizingQuotient}
+S.~Baron?Cohen, J.~Richler, D.~Bisarya, N.~Gurunathan, and S.~Wheelwright,
+  ``The systemizing quotient: An investigation of adults with asperger syndrome
+  or high-functioning autism, and normal sex differences,'' {\em Philosophical
+  Transactions of the Royal Society B: Biological Sciences}, vol.~358,
+  no.~1430, pp.~361--374, 2003.
+
+\bibitem{JohnDonahueKentle1991_BigFiveInventory}
+O.~P. John, E.~M. Donahue, and R.~L. Kentle, ``The big five inventory ?
+  versions 4a and 5,'' tech. rep., Institute of Personality and Social
+  Research, University of California, Berkeley, Berkeley, California, 1991.
+
 \bibitem{Barrick1991}
 M.~R. Barrick and M.~K. Mount, ``The big five personality dimensions and job
   performance: a meta-analysis,'' {\em Personnel psychology}, vol.~44, no.~1,
@@ -971,6 +1009,64 @@ S.~Baron-Cohen, J.~Richler, D.~Bisarya, N.~Gurunathan, and S.~Wheelwright,
   Transactions of the Royal Society of London. Series B: Biological Sciences},
   vol.~358, no.~1430, pp.~361--374, 2003.
 
+\bibitem{Fritz2016}
+K.~Fritz, A.~D{\"o}rfler, N.~G{\"u}tling, H.-J. Mohr, M.~W{\"o}hr, and
+  A.~Schmitt, ``Systemizing tendency predicts neural activation during logical
+  reasoning in typical adults,'' {\em NeuroImage}, vol.~142, pp.~553--561,
+  2016.
+
+\bibitem{Wheelwright2006}
+S.~Wheelwright, S.~Baron-Cohen, N.~Goldenfeld, J.~Delaney, D.~Fine, R.~Smith,
+  L.~Weil, and A.~Wakabayashi, ``Predicting autism spectrum quotient (aq) from
+  the systemizing quotient?revised (sq-r): Evidence for a cognitive style
+  dimension,'' {\em Journal of Autism and Developmental Disorders}, vol.~36,
+  no.~6, pp.~863--872, 2006.
+
+\bibitem{Ecker2016}
+C.~Ecker, S.~Bookheimer, and D.~Murphy, ``Neuroanatomy of autism: A systematic
+  review of structural mri studies,'' {\em Neuroscience and Biobehavioral
+  Reviews}, vol.~59, pp.~417--429, 2016.
+
+\bibitem{BaronCohen2005NeuralBasis}
+S.~Baron-Cohen, H.~Ring, S.~Wheelwright, E.~T. Bullmore, M.~J. Brammer,
+  A.~Simmons, and S.~C.~R. Williams, ``The amygdala theory of autism revisited:
+  increased systemizing neural networks during rule-based reasoning,'' {\em
+  Brain}, vol.~128, no.~5, pp.~1133--1144, 2005.
+
+\bibitem{Chakroff2016}
+A.~Chakroff, J.~Dungan, and L.~Young, ``Harmful situations, impure people:
+  Emotion, intention, and the dynamics of moral judgment,'' {\em Personality
+  and Social Psychology Bulletin}, vol.~42, no.~8, pp.~1092--1112, 2016.
+
+\bibitem{PaxtonGreene2010}
+J.~M. Paxton and J.~D. Greene, ``Moral reasoning: Hints and allegations,'' {\em
+  Topics in Cognitive Science}, vol.~2, no.~3, pp.~511--527, 2010.
+
+\bibitem{DeMartino2006}
+B.~De~Martino, D.~Kumaran, B.~Seymour, and R.~Dolan, ``Frames, biases, and
+  rational decision-making in the human brain,'' {\em Science}, vol.~313,
+  no.~5787, pp.~684--687, 2006.
+
+\bibitem{Krajbich2015}
+I.~Krajbich, C.~Camerer, and J.~Ledyard, ``Using neural data to test a theory
+  of strategic decision-making in games,'' {\em American Economic Review},
+  vol.~105, no.~10, pp.~3306--3337, 2015.
+
+\bibitem{Grice2017}
+J.~Grice, T.~McDaniel, and D.~Lynam, ``Personality, reasoning style, and
+  susceptibility to decision framing,'' {\em Journal of Behavioral Decision
+  Making}, vol.~30, no.~2, pp.~564--578, 2017.
+
+\bibitem{Thellman2017}
+S.~Thellman, A.~Silvervarg, and T.~Ziemke, ``Folk-psychological attributions to
+  humanoid robots: The role of interaction and appearance,'' {\em Frontiers in
+  Psychology}, vol.~8, p.~1323, 2017.
+
+\bibitem{Spatola2021}
+N.~Spatola, S.~Marchesi, and A.~Wykowska, ``When robots are perceived as more
+  autonomous than humans: The role of analytic cognitive style,'' {\em
+  Scientific Reports}, vol.~11, p.~3127, 2021.
+
 \bibitem{John1999}
 O.~P. John and S.~Srivastava, ``The big five trait taxonomy: History,
   measurement, and theoretical perspectives,'' in {\em Handbook of Personality:
@@ -980,6 +1076,24 @@ O.~P. John and S.~Srivastava, ``The big five trait taxonomy: History,
 \bibitem{McCraeCosta2008}
 R.~R. McCrae and P.~T. Costa, ``The five-factor theory of personality,'' {\em
   Handbook of Personality: Theory and Research}, pp.~159--181, 2008.
+
+\bibitem{Funder2001}
+D.~C. Funder, ``Personality,'' {\em Annual Review of Psychology}, vol.~52,
+  pp.~197--221, 2001.
+
+\bibitem{Roberts2006}
+B.~W. Roberts, D.~Wood, and A.~Caspi, ``Personality development,'' {\em Annual
+  Review of Psychology}, vol.~57, pp.~283--306, 2006.
+
+\bibitem{DeYoung2010}
+C.~G. DeYoung, ``Personality neuroscience and the biology of traits,'' {\em
+  Social and Personality Psychology Compass}, vol.~4, no.~12, pp.~1165--1180,
+  2010.
+
+\bibitem{Slovic2007}
+P.~Slovic, M.~L. Finucane, E.~Peters, and D.~G. MacGregor, ``The affect
+  heuristic,'' {\em European Journal of Operational Research}, vol.~177, no.~3,
+  pp.~1333--1352, 2007.
 
 \bibitem{Graziano1996}
 W.~G. Graziano, N.~Eisenberg, and R.~M. Tobin, ``Agreeableness and helping
