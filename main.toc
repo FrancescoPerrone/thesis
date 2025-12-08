@@ -76,7 +76,7 @@
 \contentsline {subsection}{\numberline {4.8.2}Watching--Eye Cues as Diagnostic Amplifiers}{71}{subsection.4.8.2}%
 \contentsline {subsection}{\numberline {4.8.3}Philosophical and Ethical Meaning}{71}{subsection.4.8.3}%
 \contentsline {subsection}{\numberline {4.8.4}Methodological Synthesis: The Tools as Epistemic Infrastructure}{72}{subsection.4.8.4}%
-\contentsline {subsection}{\numberline {4.8.5}Transition to Experimental Methods}{72}{subsection.4.8.5}%
+\contentsline {section}{\numberline {4.9}Transition to Experimental Methods}{72}{section.4.9}%
 \contentsline {chapter}{\numberline {5}Experimental Method}{73}{chapter.5}%
 \contentsline {section}{\numberline {5.1}From Conceptual Architecture to Empirical Test}{73}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Why the Question Matters}{73}{subsection.5.1.1}%
