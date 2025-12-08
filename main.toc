@@ -39,43 +39,43 @@
 \contentsline {subsection}{\numberline {3.4.1}Philosophical Synthesis}{49}{subsection.3.4.1}%
 \contentsline {section}{\numberline {3.5}Concluding Perspective: Why This Matters for the Thesis}{49}{section.3.5}%
 \contentsline {chapter}{\numberline {4}From Theory to Measurement: Operationalising Dispositions and Moral Perturbation}{52}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Perturbation as Measurement: The Experimental Context}{53}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Perturbation as Measurement: The Experimental Context}{54}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Purpose and Structure of this Chapter}{54}{subsection.4.1.1}%
 \contentsline {section}{\numberline {4.2}The Role of Psychometric Tools in the Evaluative--Topological Architecture}{56}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Why These Tools: Methodological Criteria and Alignment with the Thesis}{58}{section.4.3}%
 \contentsline {paragraph}{(1) Cross-paradigmatic relevance.}{58}{paragraph*.11}%
-\contentsline {paragraph}{(2) Topological relevance.}{58}{paragraph*.12}%
+\contentsline {paragraph}{(2) Topological relevance.}{59}{paragraph*.12}%
 \contentsline {paragraph}{(3) Stability and interpretability.}{59}{paragraph*.13}%
-\contentsline {section}{\numberline {4.4}The Empathizing Quotient (EQ): Affective Resonance as Evaluative Curvature}{59}{section.4.4}%
+\contentsline {section}{\numberline {4.4}The Empathizing Quotient (EQ): Affective Resonance as Evaluative Curvature}{60}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}EQ and Synthetic Presence}{60}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Methodological Role in the Thesis}{60}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Methodological Role in the Thesis}{61}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}The Systemizing Quotient (SQ): Structural Precision in the Evaluative Field}{61}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Theoretical Background and Psychometric Foundations}{61}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}SQ Across Moral Psychology and HRI}{61}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.2}SQ Across Moral Psychology and HRI}{62}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}Systemizing Quotient (SQ): Structural Bias and Evaluative Rigidity}{62}{subsection.4.5.3}%
 \contentsline {subsection}{\numberline {4.5.4}SQ, Synthetic Presence, and Field-Level Perturbation}{63}{subsection.4.5.4}%
 \contentsline {subsection}{\numberline {4.5.5}Methodological Significance}{63}{subsection.4.5.5}%
-\contentsline {section}{\numberline {4.6}The Big Five Inventory (BFI): Personality Geometry Within the Evaluative Topology}{63}{section.4.6}%
+\contentsline {section}{\numberline {4.6}The Big Five Inventory (BFI): Personality Geometry Within the Evaluative Topology}{64}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Why Personality Matters for a Topological Account of Moral Cognition}{64}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4.6.2}Psychometric Stability and Cross-Domain Predictive Value}{64}{subsection.4.6.2}%
 \contentsline {subsection}{\numberline {4.6.3}Personality and Moral Behaviour Under Social Presence}{64}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4}Personality Geometry in the Evaluative--Topological Model}{64}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.4}Personality Geometry in the Evaluative--Topological Model}{65}{subsection.4.6.4}%
 \contentsline {subsection}{\numberline {4.6.5}Cluster Analysis: Mapping the Dispositional Manifold}{65}{subsection.4.6.5}%
-\contentsline {subsection}{\numberline {4.6.6}The Key Empirical Result: A Uniform Field-Level Displacement}{65}{subsection.4.6.6}%
+\contentsline {subsection}{\numberline {4.6.6}The Key Empirical Result: A Uniform Field-Level Displacement}{66}{subsection.4.6.6}%
 \contentsline {subsection}{\numberline {4.6.7}Methodological Significance}{66}{subsection.4.6.7}%
 \contentsline {section}{\numberline {4.7}The Watching--Eye Paradigm: Amplifying Moral Salience and Revealing Field-Level Deformation}{67}{section.4.7}%
 \contentsline {subsection}{\numberline {4.7.1}Watching--Eye Cues as Topological Amplifiers}{67}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Why Child-Pair Eyes Provide a Clean Baseline}{67}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.2}Why Child-Pair Eyes Provide a Clean Baseline}{68}{subsection.4.7.2}%
 \contentsline {subsection}{\numberline {4.7.3}Why Synthetic Presence Dilutes or Distorts the Effect}{68}{subsection.4.7.3}%
 \contentsline {subsection}{\numberline {4.7.4}Empirical Finding: Uniform Attenuation of the Watching--Eye Effect}{68}{subsection.4.7.4}%
 \contentsline {subsection}{\numberline {4.7.5}Why the Watching--Eye Paradigm Is Indispensable}{69}{subsection.4.7.5}%
-\contentsline {subsection}{\numberline {4.7.6}Integration With Costly Prosocial Action}{69}{subsection.4.7.6}%
+\contentsline {subsection}{\numberline {4.7.6}Integration With Costly Prosocial Action}{70}{subsection.4.7.6}%
 \contentsline {subsection}{\numberline {4.7.7}Synthesis: A Window Into Moral Topology}{70}{subsection.4.7.7}%
 \contentsline {section}{\numberline {4.8}General Conclusion: Measurement as the Logic of Synthetic Moral Perturbation}{70}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Dispositional Mapping: A Structured Manifold, Not a Confound}{70}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.1}Dispositional Mapping: A Structured Manifold, Not a Confound}{71}{subsection.4.8.1}%
 \contentsline {subsection}{\numberline {4.8.2}Watching--Eye Cues as Diagnostic Amplifiers}{71}{subsection.4.8.2}%
 \contentsline {subsection}{\numberline {4.8.3}Philosophical and Ethical Meaning}{71}{subsection.4.8.3}%
-\contentsline {subsection}{\numberline {4.8.4}Methodological Synthesis: The Tools as Epistemic Infrastructure}{71}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4.8.4}Methodological Synthesis: The Tools as Epistemic Infrastructure}{72}{subsection.4.8.4}%
 \contentsline {subsection}{\numberline {4.8.5}Transition to Experimental Methods}{72}{subsection.4.8.5}%
 \contentsline {chapter}{\numberline {5}Experimental Method}{73}{chapter.5}%
 \contentsline {section}{\numberline {5.1}From Conceptual Architecture to Empirical Test}{73}{section.5.1}%
