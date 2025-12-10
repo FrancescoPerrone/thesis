@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.11)  9 DEC 2025 00:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.11)  10 DEC 2025 03:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1802,6 +1802,18 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (./acknowledgements.aux) (./declaration.aux) (./int_new.aux) (./lit_rev.aux)
 (./moral_primer.aux) (./tools.aux) (./experimental_methods.aux
 
+LaTeX Warning: Label `q:robot-agent' multiply defined.
+
+
+LaTeX Warning: Label `q:robot-agent@cref' multiply defined.
+
+
+LaTeX Warning: Label `q:emp_que' multiply defined.
+
+
+LaTeX Warning: Label `q:emp_que@cref' multiply defined.
+
+
 LaTeX Warning: Label `tab:statistical_tests' multiply defined.
 
 
@@ -1943,7 +1955,7 @@ File: puenc-greek.def 2020/10/18 2.0 Greek LICRs for PDF strings
 (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 File: greek-fontenc.def 2020/10/30 2.0 Common Greek font encoding definitions
 ))
-<GlaLogo.pdf, id=761, 1487.5575pt x 544.0325pt>
+<GlaLogo.pdf, id=765, 1487.5575pt x 544.0325pt>
 File: GlaLogo.pdf Graphic file (type pdf)
 <use GlaLogo.pdf>
 Package pdftex.def Info: GlaLogo.pdf  used on input line 382.
@@ -2761,10 +2773,6 @@ Chapter 5.
 
 ]
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 74.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
 (fancyhdr)                \setlength{\headheight}{27.11469pt}.
@@ -2791,23 +2799,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [76]
-</home/francesco/Desktop/research/appunti/images/robot.png, id=2803, 225.6795pt
- x 180.675pt>
-File: /home/francesco/Desktop/research/appunti/images/robot.png Graphic file (t
-ype png)
-<use /home/francesco/Desktop/research/appunti/images/robot.png>
-Package pdftex.def Info: /home/francesco/Desktop/research/appunti/images/robot.
-png  used on input line 187.
-(pdftex.def)             Requested size: 198.02942pt x 158.54234pt.
-</home/francesco/Desktop/research/appunti/images/control.png, id=2805, 226.665p
-t x 183.6315pt>
-File: /home/francesco/Desktop/research/appunti/images/control.png Graphic file 
-(type png)
-<use /home/francesco/Desktop/research/appunti/images/control.png>
-Package pdftex.def Info: /home/francesco/Desktop/research/appunti/images/contro
-l.png  used on input line 194.
-(pdftex.def)             Requested size: 198.02942pt x 160.43619pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -2817,6 +2808,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [77]
+</home/francesco/Desktop/research/appunti/images/experiment_desing_3.png, id=28
+30, 1413.28pt x 738.76pt>
+File: /home/francesco/Desktop/research/appunti/images/experiment_desing_3.png G
+raphic file (type png)
+<use /home/francesco/Desktop/research/appunti/images/experiment_desing_3.png>
+Package pdftex.def Info: /home/francesco/Desktop/research/appunti/images/experi
+ment_desing_3.png  used on input line 237.
+(pdftex.def)             Requested size: 371.30595pt x 194.09085pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -2825,8 +2825,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[78 </home/francesco/Desktop/research/appunti/images/robot.png> </home/francesc
-o/Desktop/research/appunti/images/control.png>]
+[78]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -2835,7 +2834,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[79]
+[79 </home/francesco/Desktop/research/appunti/images/experiment_desing_3.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -2890,13 +2889,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [85]
-<tables/demographic_balance_table.pdf, id=2976, 476.3386pt x 136.92053pt>
-File: tables/demographic_balance_table.pdf Graphic file (type pdf)
-<use tables/demographic_balance_table.pdf>
-Package pdftex.def Info: tables/demographic_balance_table.pdf  used on input li
-ne 626.
-(pdftex.def)             Requested size: 412.56497pt x 118.5934pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -2906,33 +2898,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [86]
+<tables/demographic_balance_table_1.pdf, id=2975, 462.11243pt x 148.92137pt>
+File: tables/demographic_balance_table_1.pdf Graphic file (type pdf)
+<use tables/demographic_balance_table_1.pdf>
+Package pdftex.def Info: tables/demographic_balance_table_1.pdf  used on input 
+line 648.
+(pdftex.def)             Requested size: 412.56497pt x 132.9577pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
+
+[87 <./tables/demographic_balance_table_1.pdf>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-71.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+89.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 27.11469pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11469pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
-
-[87 <./tables/demographic_balance_table.pdf>]
-<new_plots/age_distribution_by_group.png, id=3010, 722.7pt x 433.62pt>
-File: new_plots/age_distribution_by_group.png Graphic file (type png)
-<use new_plots/age_distribution_by_group.png>
-Package pdftex.def Info: new_plots/age_distribution_by_group.png  used on input
- line 696.
-(pdftex.def)             Requested size: 330.05322pt x 198.03183pt.
-<new_plots/donation_distribution_by_condition.png, id=3011, 722.7pt x 433.62pt>
-
-File: new_plots/donation_distribution_by_condition.png Graphic file (type png)
-<use new_plots/donation_distribution_by_condition.png>
-Package pdftex.def Info: new_plots/donation_distribution_by_condition.png  used
- on input line 705.
-(pdftex.def)             Requested size: 330.05322pt x 198.03183pt.
+<new_plots/age_distribution_by_group_2.png, id=3026, 566.5968pt x 422.0568pt>
+File: new_plots/age_distribution_by_group_2.png Graphic file (type png)
+<use new_plots/age_distribution_by_group_2.png>
+Package pdftex.def Info: new_plots/age_distribution_by_group_2.png  used on inp
+ut line 715.
+(pdftex.def)             Requested size: 330.05322pt x 245.85571pt.
+<new_plots/donation_2.png, id=3027, 566.5968pt x 422.0568pt>
+File: new_plots/donation_2.png Graphic file (type png)
+<use new_plots/donation_2.png>
+Package pdftex.def Info: new_plots/donation_2.png  used on input line 722.
+(pdftex.def)             Requested size: 330.05322pt x 245.85571pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2942,23 +2940,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[88 <./new_plots/age_distribution_by_group.png>]
-<tables/descriptive_highlights_table.pdf, id=3021, 368.0982pt x 144.12044pt>
+[88]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
+
+[89 <./new_plots/age_distribution_by_group_2.png> <./new_plots/donation_2.png>]
+<tables/descriptive_highlights_table.pdf, id=3042, 368.0982pt x 144.12044pt>
 File: tables/descriptive_highlights_table.pdf Graphic file (type pdf)
 <use tables/descriptive_highlights_table.pdf>
 Package pdftex.def Info: tables/descriptive_highlights_table.pdf  used on input
- line 748.
+ line 767.
 (pdftex.def)             Requested size: 412.56497pt x 161.53032pt.
 
+LaTeX Warning: Reference `hyp:evaluative_deformation' on page 90 undefined on i
+nput line 781.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 27.11469pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11469pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
-
-[89 <./new_plots/donation_distribution_by_condition.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -2968,31 +2969,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [90 <./tables/descriptive_highlights_table.pdf>]
-<tables/statistical_tests_table.pdf, id=3051, 558.85184pt x 136.92053pt>
+<tables/statistical_tests_table.pdf, id=3066, 558.85184pt x 136.92053pt>
 File: tables/statistical_tests_table.pdf Graphic file (type pdf)
 <use tables/statistical_tests_table.pdf>
 Package pdftex.def Info: tables/statistical_tests_table.pdf  used on input line
- 787.
+ 806.
 (pdftex.def)             Requested size: 412.56497pt x 101.07933pt.
 
-
-LaTeX Warning: Command \textsterling invalid in math mode on input line 809.
-
-
-LaTeX Warning: Command \textsterling invalid in math mode on input line 809.
-
-
-LaTeX Warning: Command \textsterling invalid in math mode on input line 809.
-
-Missing character: There is no ¿ in font cmr12!
-Missing character: There is no ¿ in font cmr12!
-Missing character: There is no ¿ in font cmr12!
-<new_plots/donation_effect_by_condition.png, id=3052, 578.16pt x 433.62pt>
-File: new_plots/donation_effect_by_condition.png Graphic file (type png)
-<use new_plots/donation_effect_by_condition.png>
-Package pdftex.def Info: new_plots/donation_effect_by_condition.png  used on in
-put line 815.
-(pdftex.def)             Requested size: 330.05322pt x 247.53648pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -3002,6 +2985,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [91 <./tables/statistical_tests_table.pdf>]
+
+LaTeX Warning: Command \textsterling invalid in math mode on input line 828.
+
+
+LaTeX Warning: Command \textsterling invalid in math mode on input line 828.
+
+
+LaTeX Warning: Command \textsterling invalid in math mode on input line 828.
+
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+<new_plots/donation_effect_by_condition.png, id=3106, 578.16pt x 433.62pt>
+File: new_plots/donation_effect_by_condition.png Graphic file (type png)
+<use new_plots/donation_effect_by_condition.png>
+Package pdftex.def Info: new_plots/donation_effect_by_condition.png  used on in
+put line 834.
+(pdftex.def)             Requested size: 330.05322pt x 247.53648pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -3021,6 +3022,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [93]
 
+LaTeX Warning: Reference `hyp:evaluative_deformation' on page 94 undefined on i
+nput line 920.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
 (fancyhdr)                \setlength{\headheight}{27.11469pt}.
@@ -3029,22 +3034,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [94]
-<new_plots/donation_density_by_condition.png, id=3121, 722.7pt x 433.62pt>
+<new_plots/donation_density_by_condition.png, id=3130, 722.7pt x 433.62pt>
 File: new_plots/donation_density_by_condition.png Graphic file (type png)
 <use new_plots/donation_density_by_condition.png>
 Package pdftex.def Info: new_plots/donation_density_by_condition.png  used on i
-nput line 973.
+nput line 992.
 (pdftex.def)             Requested size: 330.05322pt x 198.03183pt.
-<new_plots/donation_mean_with_se.png, id=3122, 578.16pt x 433.62pt>
+<new_plots/donation_mean_with_se.png, id=3131, 578.16pt x 433.62pt>
 File: new_plots/donation_mean_with_se.png Graphic file (type png)
 <use new_plots/donation_mean_with_se.png>
 Package pdftex.def Info: new_plots/donation_mean_with_se.png  used on input lin
-e 983.
+e 1002.
 (pdftex.def)             Requested size: 330.05322pt x 247.53648pt.
 File: tables/statistical_tests_table.pdf Graphic file (type pdf)
 <use tables/statistical_tests_table.pdf>
 Package pdftex.def Info: tables/statistical_tests_table.pdf  used on input line
- 1004.
+ 1023.
 (pdftex.def)             Requested size: 412.56497pt x 101.07933pt.
 
 
@@ -3065,11 +3070,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [96 <./new_plots/donation_mean_with_se.png>]
-<new_plots/per_trait/bigfive_row_kde.png, id=3134, 1740.5025pt x 423.984pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
+
+[97]
+<new_plots/per_trait/bigfive_row_kde.png, id=3149, 1740.5025pt x 423.984pt>
 File: new_plots/per_trait/bigfive_row_kde.png Graphic file (type png)
 <use new_plots/per_trait/bigfive_row_kde.png>
 Package pdftex.def Info: new_plots/per_trait/bigfive_row_kde.png  used on input
- line 1103.
+ line 1122.
 (pdftex.def)             Requested size: 404.3119pt x 98.49115pt.
 
 
@@ -3080,24 +3094,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[97]
-<new_plots/per_trait/bigfive_row_scatter.png, id=3139, 1728.9393pt x 395.7987pt
+[98 <./new_plots/per_trait/bigfive_row_kde.png>]
+<new_plots/per_trait/bigfive_row_scatter.png, id=3158, 1728.9393pt x 395.7987pt
 >
 File: new_plots/per_trait/bigfive_row_scatter.png Graphic file (type png)
 <use new_plots/per_trait/bigfive_row_scatter.png>
 Package pdftex.def Info: new_plots/per_trait/bigfive_row_scatter.png  used on i
-nput line 1171.
+nput line 1190.
 (pdftex.def)             Requested size: 404.3119pt x 92.55371pt.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 27.11469pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11469pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
-
-[98 <./new_plots/per_trait/bigfive_row_kde.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 27.11469pt, for example:
@@ -3116,17 +3121,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [100]
-<new_plots/personality_clusters_pca.png, id=3160, 722.7pt x 433.62pt>
+<new_plots/personality_clusters_pca.png, id=3173, 722.7pt x 433.62pt>
 File: new_plots/personality_clusters_pca.png Graphic file (type png)
 <use new_plots/personality_clusters_pca.png>
 Package pdftex.def Info: new_plots/personality_clusters_pca.png  used on input 
-line 1259.
+line 1278.
 (pdftex.def)             Requested size: 391.93546pt x 235.16364pt.
-<new_plots/cluster_elbow_silhouette.png, id=3162, 867.24pt x 361.35pt>
+<new_plots/cluster_elbow_silhouette.png, id=3175, 867.24pt x 361.35pt>
 File: new_plots/cluster_elbow_silhouette.png Graphic file (type png)
 <use new_plots/cluster_elbow_silhouette.png>
 Package pdftex.def Info: new_plots/cluster_elbow_silhouette.png  used on input 
-line 1272.
+line 1291.
 (pdftex.def)             Requested size: 391.93546pt x 163.30624pt.
 
 
@@ -3138,11 +3143,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [101 <./new_plots/personality_clusters_pca.png>]
-<new_plots/donation_by_cluster_and_condition.png, id=3170, 722.7pt x 433.62pt>
+<new_plots/donation_by_cluster_and_condition.png, id=3184, 722.7pt x 433.62pt>
 File: new_plots/donation_by_cluster_and_condition.png Graphic file (type png)
 <use new_plots/donation_by_cluster_and_condition.png>
 Package pdftex.def Info: new_plots/donation_by_cluster_and_condition.png  used 
-on input line 1288.
+on input line 1307.
 (pdftex.def)             Requested size: 350.68274pt x 210.4113pt.
 
 
@@ -3155,22 +3160,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [102 <./new_plots/cluster_elbow_silhouette.png> <./new_plots/donation_by_cluste
 r_and_condition.png>]
-<new_plots/cluster_0_radar.png, id=3179, 505.89pt x 505.89pt>
+<new_plots/cluster_0_radar.png, id=3193, 505.89pt x 505.89pt>
 File: new_plots/cluster_0_radar.png Graphic file (type png)
 <use new_plots/cluster_0_radar.png>
-Package pdftex.def Info: new_plots/cluster_0_radar.png  used on input line 1325
+Package pdftex.def Info: new_plots/cluster_0_radar.png  used on input line 1344
 .
 (pdftex.def)             Requested size: 132.0238pt x 132.02232pt.
-<new_plots/cluster_1_radar.png, id=3180, 505.89pt x 505.89pt>
+<new_plots/cluster_1_radar.png, id=3194, 505.89pt x 505.89pt>
 File: new_plots/cluster_1_radar.png Graphic file (type png)
 <use new_plots/cluster_1_radar.png>
-Package pdftex.def Info: new_plots/cluster_1_radar.png  used on input line 1326
+Package pdftex.def Info: new_plots/cluster_1_radar.png  used on input line 1345
 .
 (pdftex.def)             Requested size: 132.0238pt x 132.02232pt.
-<new_plots/cluster_2_radar.png, id=3181, 505.89pt x 505.89pt>
+<new_plots/cluster_2_radar.png, id=3195, 505.89pt x 505.89pt>
 File: new_plots/cluster_2_radar.png Graphic file (type png)
 <use new_plots/cluster_2_radar.png>
-Package pdftex.def Info: new_plots/cluster_2_radar.png  used on input line 1327
+Package pdftex.def Info: new_plots/cluster_2_radar.png  used on input line 1346
 .
 (pdftex.def)             Requested size: 132.0238pt x 132.02232pt.
 
@@ -3202,11 +3207,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [105]
-<new_plots/cluster_regression_coefficients.png, id=3202, 650.43pt x 433.62pt>
+<new_plots/cluster_regression_coefficients.png, id=3217, 650.43pt x 433.62pt>
 File: new_plots/cluster_regression_coefficients.png Graphic file (type png)
 <use new_plots/cluster_regression_coefficients.png>
 Package pdftex.def Info: new_plots/cluster_regression_coefficients.png  used on
- input line 1454.
+ input line 1473.
 (pdftex.def)             Requested size: 309.42372pt x 206.28923pt.
 
 
@@ -3236,11 +3241,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
 [108]
-<new_plots/posterior_donation_difference.png, id=3220, 722.7pt x 433.62pt>
+<new_plots/posterior_donation_difference.png, id=3236, 722.7pt x 433.62pt>
 File: new_plots/posterior_donation_difference.png Graphic file (type png)
 <use new_plots/posterior_donation_difference.png>
 Package pdftex.def Info: new_plots/posterior_donation_difference.png  used on i
-nput line 1555.
+nput line 1574.
 (pdftex.def)             Requested size: 309.42372pt x 185.65236pt.
 
 
@@ -4238,8 +4243,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [210])
-\openout5 = `main.ent'.
 
+Package caption Warning: Unused \captionsetup[sub] on input line 158.
+See the caption package documentation for explanation.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -4257,50 +4263,102 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1967EC56BED3D8EC982DDC5047B6AC41;62373.
+(rerunfilecheck)             Checksum: A309DB235C43B6DB4567DA02441C0428;62739.
  ) 
 Here is how much of TeX's memory you used:
  58747 strings out of 476091
- 1302221 string characters out of 5794080
- 1878330 words of memory out of 5000000
- 77182 multiletter control sequences out of 15000+600000
- 533187 words of font info for 85 fonts, out of 8000000 for 9000
+ 1301810 string characters out of 5794080
+ 1879330 words of memory out of 5000000
+ 77170 multiletter control sequences out of 15000+600000
+ 532418 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  112i,12n,108p,3090b,1029s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/rsfs/rsfs10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (226 pages, 4580422 bytes).
+
+pdfTeX warning (dest): name{figure.caption.54} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.53} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.48} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.47} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.45} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.38} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.36} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.35} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.26} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.25} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.37} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.29} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.27} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fo
+nts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/rsfs/rsfs10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pf
+b>
+Output written on main.pdf (226 pages, 5944587 bytes).
 PDF statistics:
- 4695 PDF objects out of 5155 (max. 8388607)
- 4287 compressed objects within 43 object streams
- 965 named destinations out of 1000 (max. 500000)
- 1694 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4715 PDF objects out of 5155 (max. 8388607)
+ 4306 compressed objects within 44 object streams
+ 979 named destinations out of 1000 (max. 500000)
+ 1697 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,52 @@
+\documentclass[border=15pt, crop=true]{standalone}
+
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{pifont}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\arraystretch}{1.6}
+
+\definecolor{fpgreen}{HTML}{38c202}
+\definecolor{fpred}{HTML}{DB2031}
+\definecolor{fpgray}{HTML}{78828C}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\newcommand{\cmark}{\textcolor{fpgreen}{\ding{51}}} % Check mark
+\newcommand{\xmark}{\textcolor{fpred}{\ding{55}}}    % Cross mark
+
+\begin{document}
+	
+	\begin{tabular}{L{5cm} C{3cm} C{2.5cm} C{3cm}}
+		\rowcolor{fpgreen!30}
+		\textcolor{fpred}{\textbf{Test}} &
+		\textcolor{fpred}{\textbf{Test Statistic}} &
+		\textcolor{fpred}{\textbf{p-value}} &
+		\textcolor{fpred}{\textbf{Significant at FDR $\alpha = 0.05$?}} \\
+		\toprule
+		
+		\rowcolor{fpgreen!10}
+		Gender vs Condition (Chi-squared) &
+		$\chi^2 = 0.00$ &
+		$p > 0.99$ &
+		\xmark\ No \\
+		
+		\rowcolor{white}
+		Age vs Condition (Welch t-test) &
+		$t = -0.94$ &
+		$p = 0.351$ &
+		\xmark\ No \\
+		
+		\rowcolor{fpgreen!10}
+		Education vs Condition (Chi-squared) &
+		$\chi^2 = 0.003$ &
+		$p = 0.956$ &
+		\xmark\ No \\
+		
+		\bottomrule
+	\end{tabular}
+	
+\end{document}

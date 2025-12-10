@@ -1105,6 +1105,14 @@ C.~Thompson-Booth, E.~Viding, L.~C. Mayes, and H.~J.~V. Rutherford, ``Here's
   looking at you: Emotional faces predict eye-gaze behaviors in parents and
   non-parents,'' {\em Social Neuroscience}, vol.~9, no.~6, pp.~605--613, 2014.
 
+\bibitem{Gintis2000}
+H.~Gintis, ``Strong reciprocity and human sociality,'' {\em Journal of
+  Theoretical Biology}, vol.~206, no.~2, pp.~169--179, 2000.
+
+\bibitem{WarnekenTomasello2006}
+F.~Warneken and M.~Tomasello, ``Altruistic helping in human infants and young
+  chimpanzees,'' {\em Science}, vol.~311, no.~5765, pp.~1301--1303, 2006.
+
 \bibitem{Batson1991}
 C.~D. Batson, {\em The Altruism Question: Toward a Social-Psychological
   Answer}.
@@ -1114,59 +1122,40 @@ C.~D. Batson, {\em The Altruism Question: Toward a Social-Psychological
 E.~Fehr and U.~Fischbacher, ``The nature of human altruism,'' {\em Nature},
   vol.~425, pp.~785--791, 2003.
 
-\bibitem{WarnekenTomasello2006}
-F.~Warneken and M.~Tomasello, ``Altruistic helping in human infants and young
-  chimpanzees,'' {\em Science}, vol.~311, no.~5765, pp.~1301--1303, 2006.
+\bibitem{Fong2003}
+T.~Fong, I.~Nourbakhsh, and K.~Dautenhahn, ``A survey of socially interactive
+  robots,'' {\em Robotics and Autonomous Systems}, vol.~42, no.~3,
+  pp.~143--166, 2003.
 
-\bibitem{Gintis2000}
-H.~Gintis, ``Strong reciprocity and human sociality,'' {\em Journal of
-  Theoretical Biology}, vol.~206, no.~2, pp.~169--179, 2000.
+\bibitem{Coekelbergh2010}
+M.~Coeckelbergh, ``Robot rights? towards a social-relational justification of
+  moral consideration,'' {\em Ethics and Information Technology}, vol.~12,
+  no.~3, pp.~209--221, 2010.
 
-\bibitem{RosenthalRosnow2008}
-R.~Rosenthal and R.~L. Rosnow, {\em Essentials of Behavioral Research: Methods
-  and Data Analysis}.
-\newblock New York: McGraw-Hill, 3~ed., 2008.
+\bibitem{Coekelbergh2020}
+M.~Coeckelbergh, {\em AI Ethics}.
+\newblock MIT Press, 2020.
 
-\bibitem{ReisJudd2000}
-H.~T. Reis and C.~M. Judd, {\em Handbook of Research Methods in Social and
-  Personality Psychology}.
-\newblock Cambridge: Cambridge University Press, 2000.
+\bibitem{Katsyri2015}
+J.~Katsyri, K.~Forger, M.~Makarainen, and T.~Takala, ``A review and
+  meta-analysis of the uncanny valley: Toward a quantified model,'' {\em
+  Frontiers in Psychology}, vol.~6, p.~390, 2015.
 
-\bibitem{Kazdin2017}
-A.~E. Kazdin, {\em Research Design in Clinical Psychology}.
-\newblock Boston: Pearson, 5~ed., 2017.
+\bibitem{Duffy2003}
+B.~R. Duffy, ``Anthropomorphism and the social robot,'' {\em Robotics and
+  Autonomous Systems}, vol.~42, no.~3, pp.~177--190, 2003.
 
-\bibitem{NettleEtAl2013}
-D.~Nettle, Z.~Harper, A.~Kidson, R.~Stone, I.~S. Penton-Voak, and M.~Bateson,
-  ``The watching eyes effect in the dictator game: It's not how much you give,
-  it's being seen to give something,'' {\em Evolution and Human Behavior},
-  vol.~34, no.~1, pp.~35--40, 2013.
+\bibitem{Groom2009}
+V.~Groom, C.~Nass, and T.~Chen, ``Computers as social actors: A review of the
+  current paradigm,'' in {\em Proceedings of the AISB Convention}, 2009.
 
-\bibitem{BatesonEtAl2013_EyesLittering}
-M.~Bateson, L.~Callow, J.~R. Holmes, M.~L. Redmond~Roche, and D.~Nettle, ``Do
-  images of `watching eyes' induce behaviour that is more pro-social or more
-  normative? a field experiment on littering,'' {\em PLOS ONE}, vol.~8, no.~12,
-  p.~e82055, 2013.
+\bibitem{MalleScheutz2019}
+B.~F. Malle and M.~Scheutz, ``Moral competence in social robots,'' {\em
+  Proceedings of the IEEE}, vol.~107, no.~3, pp.~474--490, 2019.
 
-\bibitem{PfattheicherKeller2015}
-S.~Pfattheicher and J.~Keller, ``The watching eyes phenomenon: The role of a
-  sense of being seen and public self-awareness,'' {\em European Journal of
-  Social Psychology}, vol.~45, no.~5, pp.~560--566, 2015.
-
-\bibitem{ContyGeorgeHietanen2016}
-L.~Conty, N.~George, and J.~K. Hietanen, ``Watching eyes effects: When others
-  meet the self,'' {\em Consciousness and Cognition}, vol.~45, pp.~184--197,
-  2016.
-
-\bibitem{DearDuttonFox2019}
-K.~Dear, K.~Dutton, and E.~Fox, ``Do `watching eyes' influence antisocial
-  behavior? a systematic review and meta-analysis,'' {\em Evolution and Human
-  Behavior}, vol.~40, no.~3, pp.~269--280, 2019.
-
-\bibitem{Aldebaran2013}
-{Aldebaran Robotics}, ``Nao: Product overview and technical specifications,''
-  tech. rep., Aldebaran Robotics, Paris, France, 2013.
-\newblock Official product documentation.
+\bibitem{Dennett1987}
+D.~C. Dennett, {\em The Intentional Stance}.
+\newblock Cambridge, MA: MIT Press, 1987.
 
 \bibitem{Arnold2017}
 T.~Arnold and M.~Scheutz, ``The tactile ethics of soft robotics: Designing
@@ -1206,10 +1195,6 @@ S.~E. Guthrie, {\em Faces in the Clouds: A New Theory of Religion}.
 A.~Waytz, J.~Cacioppo, and N.~Epley, ``Who sees human? the stability and
   importance of individual differences in anthropomorphism,'' {\em Perspectives
   on Psychological Science}, vol.~5, no.~3, pp.~219--232, 2010.
-
-\bibitem{Dennett1987}
-D.~C. Dennett, {\em The Intentional Stance}.
-\newblock Cambridge, MA: MIT Press, 1987.
 
 \bibitem{Floridi2010}
 L.~Floridi, {\em Information: A Very Short Introduction}.
@@ -1279,11 +1264,59 @@ A.~F. Shariff and A.~Norenzayan, ``God is watching you: Priming god concepts
   increases prosocial behavior in an anonymous economic game,'' {\em
   Psychological science}, vol.~18, no.~9, pp.~803--809, 2007.
 
+\bibitem{Krach2008}
+S.~Krach, F.~Hegel, B.~Wrede, G.~Sagerer, G.~Bente, and T.~Kircher, ``Can
+  machines think? interaction and perspective taking with robots investigated
+  via fmri,'' {\em PLoS ONE}, vol.~3, no.~7, p.~e2597, 2008.
+
+\bibitem{Waytz2014}
+A.~Waytz, J.~Heafner, and N.~Epley, ``The mind in the machine: Anthropomorphism
+  increases trust in an autonomous vehicle,'' {\em Journal of Experimental
+  Social Psychology}, vol.~52, pp.~113--117, 2014.
+
+\bibitem{Rae2013}
+I.~Rae, B.~Mutlu, and J.~Buss, ``Walking in another?s shoes: Anthropomorphic
+  agents reduce empathy in human?robot interaction,'' in {\em Proceedings of
+  the 8th ACM/IEEE International Conference on Human?Robot Interaction},
+  pp.~157--164, 2013.
+
+\bibitem{Kuehn2011}
+S.~K{\"u}hn, M.~Brass, and J.~Gallinat, ``Taxing the brain to understand
+  others: Perceived humanlike behavior in machines reduces brain activity in
+  areas important for mentalizing,'' {\em Social Neuroscience}, vol.~6, no.~4,
+  pp.~369--377, 2011.
+
+\bibitem{BurnhamHare2007}
+T.~C. Burnham and B.~Hare, ``Engineering human cooperation: Does involuntary
+  neural activation increase trust?,'' {\em Human Nature}, vol.~18, no.~2,
+  pp.~115--121, 2007.
+
+\bibitem{Bateson2015}
+M.~Bateson, D.~Nettle, and G.~Roberts, ``Cues of being watched enhance
+  cooperation: A meta-analysis,'' {\em Evolution and Human Behavior}, vol.~36,
+  no.~1, pp.~9--17, 2015.
+
+\bibitem{ChaminadeKawato2013}
+T.~Chaminade and M.~Kawato, ``Predictive coding in human?robot interaction: A
+  review,'' {\em Neural Networks}, vol.~39, pp.~62--68, 2013.
+
+\bibitem{Sandoval2016}
+E.~B. Sandoval, J.~Brandstetter, M.~Obaid, and C.~Bartneck, ``Reciprocity in
+  human?robot interaction: A quantitative approach through the prisoner?s
+  dilemma and the ultimatum game,'' in {\em Proceedings of the 11th ACM/IEEE
+  International Conference on Human?Robot Interaction}, pp.~303--310, 2016.
+
 \bibitem{Vinciarelli2019}
 A.~Vinciarelli, A.~Esposito, M.~Tayarani, G.~Roffo, F.~Scibelli, F.~Perrone,
   and D.-B. Vo, ``We are less free than how we think: Regular patterns in
   nonverbal communication,'' in {\em Multimodal Behavior Analysis in the Wild},
   pp.~269--288, Elsevier, 2019.
+
+\bibitem{NettleEtAl2013}
+D.~Nettle, Z.~Harper, A.~Kidson, R.~Stone, I.~S. Penton-Voak, and M.~Bateson,
+  ``The watching eyes effect in the dictator game: It's not how much you give,
+  it's being seen to give something,'' {\em Evolution and Human Behavior},
+  vol.~34, no.~1, pp.~35--40, 2013.
 
 \bibitem{Gabriel2020}
 I.~Gabriel, ``Artificial intelligence, values, and alignment,'' {\em Minds and
@@ -1494,11 +1527,6 @@ H.~Admoni and B.~Scassellati, ``Social eye gaze in human?robot interaction: A
   review,'' {\em Journal of Human?Robot Interaction}, vol.~6, no.~1,
   pp.~25--63, 2017.
 
-\bibitem{Krach2008}
-S.~Krach, F.~Hegel, B.~Wrede, G.~Sagerer, G.~Bente, and T.~Kircher, ``Can
-  machines think? interaction and perspective taking with robots investigated
-  via fmri,'' {\em PLoS ONE}, vol.~3, no.~7, p.~e2597, 2008.
-
 \bibitem{Bargh1999}
 J.~A. Bargh and T.~L. Chartrand, ``The unbearable automaticity of being.,''
   {\em American psychologist}, vol.~54, no.~7, p.~462, 1999.
@@ -1519,6 +1547,20 @@ M.~Stocker, {\em Plural and Conflicting Values}.
 R.~J. Wallace, ``{Practical Reason},'' in {\em The {Stanford} Encyclopedia of
   Philosophy} (E.~N. Zalta, ed.), Metaphysics Research Lab, Stanford
   University, spring 2020~ed., 2020.
+
+\bibitem{ReisJudd2000}
+H.~T. Reis and C.~M. Judd, {\em Handbook of Research Methods in Social and
+  Personality Psychology}.
+\newblock Cambridge: Cambridge University Press, 2000.
+
+\bibitem{Kazdin2017}
+A.~E. Kazdin, {\em Research Design in Clinical Psychology}.
+\newblock Boston: Pearson, 5~ed., 2017.
+
+\bibitem{RosenthalRosnow2008}
+R.~Rosenthal and R.~L. Rosnow, {\em Essentials of Behavioral Research: Methods
+  and Data Analysis}.
+\newblock New York: McGraw-Hill, 3~ed., 2008.
 
 \bibitem{Richardson2018}
 H.~S. Richardson, ``{Moral Reasoning},'' in {\em The {Stanford} Encyclopedia of
@@ -1679,11 +1721,6 @@ J.~K. Kruschke, {\em Doing Bayesian Data Analysis}.
 B.~E. Hilbig, A.~Gl{\"o}ckner, and I.~Zettler, ``Personality and prosocial
   behavior: Linking basic traits and social value orientations,'' {\em Journal
   of Personality and Social Psychology}, vol.~105, no.~3, pp.~469--484, 2013.
-
-\bibitem{Katsyri2015}
-J.~Katsyri, K.~Forger, M.~Makarainen, and T.~Takala, ``A review and
-  meta-analysis of the uncanny valley: Toward a quantified model,'' {\em
-  Frontiers in Psychology}, vol.~6, p.~390, 2015.
 
 \bibitem{Fischer2023}
 K.~Fischer, ``How social is a robot? minimal social cues and their cognitive

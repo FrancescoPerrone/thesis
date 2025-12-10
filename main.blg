@@ -17,7 +17,7 @@ A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 13418 items from 5000.
+Reallocated field_info (elt_size=4) to 13602 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -682,6 +682,22 @@ Repeated entry---line 7563 of file /home/francesco/Desktop/research/appunti/refe
  : @article{BaronCohen2003
  :                        ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 7721 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Katsyri2015
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7731 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Zlotowski2015
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7742 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @article{Kuchenbrandt2011
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7782 of file /home/francesco/Desktop/research/appunti/reference.bib
+ : @book{Dennett1987
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Young2011"
 Warning--I didn't find a database entry for "Allison2011"
 Warning--I didn't find a database entry for "Snow2010"
@@ -697,45 +713,45 @@ Warning--can't use both author and editor fields in HumeTreatise
 Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
 Warning--can't use both volume and number fields in CalvoD2010
-You've used 358 entries,
+You've used 366 entries,
             1876 wiz_defined-function locations,
-            2541 strings with 57007 characters,
-and the built_in function-call counts, 95529 in all, are:
-= -- 10036
-> -- 2974
+            2579 strings with 58188 characters,
+and the built_in function-call counts, 98000 in all, are:
+= -- 10296
+> -- 3039
 < -- 0
-+ -- 1162
-- -- 804
-* -- 6285
-:= -- 13003
-add.period$ -- 470
-call.type$ -- 358
-change.case$ -- 269
++ -- 1187
+- -- 821
+* -- 6455
+:= -- 13321
+add.period$ -- 478
+call.type$ -- 366
+change.case$ -- 275
 chr.to.int$ -- 0
-cite$ -- 365
-duplicate$ -- 5112
-empty$ -- 9417
-format.name$ -- 804
-if$ -- 23766
+cite$ -- 373
+duplicate$ -- 5245
+empty$ -- 9671
+format.name$ -- 821
+if$ -- 24381
 int.to.chr$ -- 0
-int.to.str$ -- 358
-missing$ -- 453
-newline$ -- 1189
-num.names$ -- 371
-pop$ -- 1148
+int.to.str$ -- 366
+missing$ -- 463
+newline$ -- 1213
+num.names$ -- 379
+pop$ -- 1181
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3365
+skip$ -- 3455
 stack$ -- 0
-substring$ -- 6685
-swap$ -- 2132
+substring$ -- 6908
+swap$ -- 2187
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 1018
-width$ -- 361
-write$ -- 3616
-(There were 165 error messages)
+while$ -- 1049
+width$ -- 369
+write$ -- 3693
+(There were 169 error messages)
