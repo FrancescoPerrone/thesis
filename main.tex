@@ -62,6 +62,16 @@
 	label=\(\cdot\)
 }
 
+% Global style for enumerate
+\setlist[enumerate]{
+	noitemsep,        % remove vertical space between items
+	topsep=0pt,       % remove space above/below the list
+	parsep=0pt,
+	partopsep=0pt,
+	leftmargin=1.5em, % slightly larger for numbers
+	label=\arabic*.,  % 1., 2., 3. (clean, unobtrusive)
+	font=\normalfont, % keep labels small and consistent
+}
 
 
 \usepackage{fancyhdr}
