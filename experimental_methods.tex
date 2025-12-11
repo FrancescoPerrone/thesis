@@ -1695,31 +1695,65 @@ The latent dispositional clusters identified in the previous subsection provide 
 \[
 \text{donation} = \beta_0 + \beta_1 \cdot \text{condition}_{\text{Robot}} + \varepsilon ,
 \]
-where \(\beta_1\) quantifies the within-cluster contrast between Control and Robot conditions. These stratified regressions serve as \textit{local directional estimates}, establishing whether any cluster exhibits a recognisably stronger attenuation pattern prior to introducing interaction terms or hierarchical Bayesian pooling.
+
+%%% FROM HERE DOWN CAN BE DELETED %%%
+
+\noindent
+In this expression, the left-hand side (\(\text{donation}\)) refers to the observed 
+behavioural endpoint \(\delta_m\), namely the amount the participant elected to donate.The term \(\beta_0\) denotes the expected donation level for participants in the \emph{Control} condition within the specific cluster under analysis; it captures the baseline of the evaluative process when no perturbation is present.  
+The variable \(\text{condition}_{\text{Robot}}\) is an indicator taking the value \(0\) for Control and \(1\) for Robot; multiplying this indicator by \(\beta_1\) expresses the expected shift in donation associated with the robot’s presence.  
+The coefficient \(\beta_1\) therefore quantifies the cluster-specific effect of 
+\(\gamma_R\): it measures whether, and by how much, robotic presence displaces the 
+evaluative trajectory that links moral salience to action for individuals whose 
+dispositional profiles fall within that cluster.  
+Finally, \(\varepsilon\) represents the residual variation not captured by the model, 
+reflecting idiosyncratic fluctuations in behaviour that lie outside the formalised 
+evaluative pathway.
+
+\noindent
+Conceptually, this regression isolates the effect of robotic presence 
+\emph{within a specific region of the dispositional manifold} \(\beta_C\).  
+The coefficient \(\beta_1\) is therefore interpreted not as a global effect but as a 
+\textit{local directional estimate}: a measure of how the evaluative transformation 
+from moral salience to action behaves in that particular cognitive--affective ecology.
+
+These stratified regressions serve as \textit{local directional estimates}, establishing whether any cluster exhibits a recognisably stronger attenuation pattern prior to introducing interaction terms or hierarchical Bayesian pooling.
+
+\textbf{Why introduce hierarchical Bayesian pooling?}  
+Because clusters are not independent psychological kinds but neighbouring regions in a shared dispositional field, we cannot interpret their regression estimates as isolated facts. A hierarchical Bayesian model addresses this by allowing cluster-level effects to share information: each local estimate is treated as one expression of a broader pattern while still retaining the possibility that some clusters respond differently.
 
 \medskip
+\noindent
+This approach mirrors the evaluative–topological framework developed earlier.  
+If behaviour arises from the interaction of salience, disposition, and synthetic presence, 
+then perturbation may operate either as:
+
+\begin{enumerate}[itemsep=2pt]
+	\item a \textbf{field-level deformation} affecting all dispositional regions similarly, or
+	\item a \textbf{cluster-contingent refractive effect} expressed only in certain cognitive–affective profiles.
+\end{enumerate}
+
+\noindent
+Hierarchical pooling is what allows us to distinguish these possibilities without 
+overinterpreting noise in small clusters.  
+It treats clusters as structured parts of a continuous manifold, not as 
+standalone categories—a perspective that aligns precisely with the topological 
+interpretation of \(\beta_C\).
+
+%%% FROM HERE UP IT CAN BE DELETED %%%
 
 \noindent
 A descriptively uneven pattern emerges across clusters. In the cluster characterised by higher empathizing and sociability (Cluster~1), the estimated coefficient for the Robot condition is negative and comparatively large in magnitude relative to the other clusters (\(\beta=-1.33\)), though still uncertain given the small within-cluster sample size and the fact that the 95\% interval includes zero (\(p=.091\), \(R^2=0.087\)). This estimate suggests that the directional attenuation observed at the aggregate level may be disproportionately expressed in this subset of participants.
 
-\medskip
-
 \noindent
 By contrast, the affectively variable (\textit{Emotionally Reactive}) cluster (Cluster~0) exhibits a coefficient near zero (\(p>.70\)), and the analytically structured (Cluster~2) regime shows only a modest, non-significant negative coefficient (\(\beta=-0.28\), \(p>.70\)). In both cases the estimates are small, and the associated intervals indicate no reliable deviation between conditions. Taken together, these results imply that the aggregate attenuation documented earlier is not homogeneously distributed across dispositional space.
 
-\medskip
-
 \noindent
 It is important to emphasise two methodological clarifications.  
-First, these regressions treat cluster assignments as fixed labels. They therefore do not incorporate uncertainty in cluster membership or hierarchical pooling across clusters. Both limitations are addressed explicitly in the **Bayesian modelling framework** introduced in the next subsection, which relaxes linearity assumptions, models bounded and zero-inflated outcomes, and accounts for varying uncertainty across clusters.  
-Second, an omnibus condition \(\times\) cluster interaction model is presented later in the analytical pipeline. The stratified regressions provided here serve a narrower epistemic function: they establish **local effect direction** prior to modelling global interaction structure.
-
-\medskip
+First, these regressions treat cluster assignments as fixed labels. They therefore do not incorporate uncertainty in cluster membership or hierarchical pooling across clusters. Both limitations are addressed explicitly in the Bayesian modelling framework introduced in the next subsection, which relaxes linearity assumptions, models bounded and zero-inflated outcomes, and accounts for varying uncertainty across clusters.  Second, an omnibus condition \(\times\) cluster interaction model is presented later in the analytical pipeline. The stratified regressions provided here serve a narrower epistemic function: they establish local effect direction prior to modelling global interaction structure.
 
 \noindent
 Finally, although the donation data are bounded and zero-inflated, we employ ordinary least squares at this stage to provide interpretable contrasts within a familiar parametric structure. The subsequent Bayesian analyses incorporate appropriate distributional assumptions and therefore supersede these exploratory linear models.
-
-\medskip
 
 \begin{figure}[H]
 	\centering
@@ -1728,16 +1762,28 @@ Finally, although the donation data are bounded and zero-inflated, we employ ord
 	\label{fig:cluster-regression}
 \end{figure}
 
-\medskip
-
 \noindent
-The estimated differences can be summarised at the level of expected evaluative output. Let \(f(\cdot)\) denote the behavioural transformation introduced earlier. For each cluster \(k\),
+The estimated differences can be expressed directly at the level of the expected evaluative output.  
+Because the evaluative transformation \(f(\cdot)\) was introduced earlier in the thesis as the mapping that converts a morally salient environment, a dispositional configuration, and (potentially) a perturbing presence into observable moral action, we restate it here in a compact form to anchor the interpretation of cluster-specific results.  
+
+For each latent dispositional cluster \(k\), we consider the contrast:
 \[
 \mathbb{E}\big[f(\Sigma \cup \mathscr{R})\big]_{k}
 \quad \text{vs.} \quad
-\mathbb{E}\big[f(\Sigma)\big]_{k}
+\mathbb{E}\big[f(\Sigma)\big]_{k}.
 \]
-captures the expected donation under Robot and Control conditions respectively. The empirical pattern may be expressed as:
+
+\noindent
+In this expression, the term \(\Sigma\) refers to the morality-salient perceptual field—the Watching–Eye cue and associated task environment—which is held constant across conditions.  
+The notation \(\Sigma \cup \mathscr{R}\) denotes the same perceptual field when augmented by the synthetic presence \(\mathscr{R}\), that is, the humanoid robot whose perceptually social but ontologically ambiguous presence may perturb evaluative processing.  
+The function \(f(\cdot)\) represents the evaluative mechanism that transforms these inputs into behavioural output (the donation).  
+The outer operator \(\mathbb{E}[\cdot]_{k}\) indicates the expected value of this behavioural output when considered \emph{within} cluster \(k\); in other words, it is the average predicted donation for individuals whose dispositional configuration places them in that region of the manifold \(\beta_C\).
+
+Interpreted verbally, the expression simply asks whether the expected donation for individuals in cluster \(k\) differs when the evaluative process is computed in an environment that includes the robot compared to one that does not.  
+If these expectations diverge, the difference is attributed not to changes in \(\Sigma\) or in the dispositional makeup of cluster \(k\), which are fixed, but to the perturbational influence of \(\mathscr{R}\) on the evaluative transformation itself.  
+This formal contrast therefore provides the topological analogue of the cluster-specific regression coefficients: it isolates whether synthetic presence bends the evaluative field locally within each dispositional regime.
+
+ Hence, the empirical pattern observed may be expressed as:
 
 \begin{itemize}
 	\item \textbf{Cluster 0 (Emotionally Reactive):}  
@@ -1764,7 +1810,7 @@ These expressions simply restate, in the language of expected values, the direct
 \noindent
 \begin{center}
 	\begin{leftbar}
-		\textit{the condition effect is not uniform across latent dispositional regimes, motivating a shift to modelling frameworks that can formally represent uncertainty, zero-inflation, and interaction structure.}
+		\textit{The condition effect is not uniform across latent dispositional regimes, motivating a shift to modelling frameworks that can formally represent uncertainty, zero-inflation, and interaction structure.}
 	\end{leftbar}
 \end{center}
 
@@ -1877,26 +1923,51 @@ The Bayesian model developed above enriches the inferential structure of this ch
 \medskip
 \noindent
 Unlike frequentist procedures that partition outcomes into ``significant’’ and ``non-significant’’ categories, the posterior distribution in Figure~\ref{fig:posterior-difference} expresses a \emph{graded representation of evidential support for differences in donation across conditions}. The posterior for the modelled donation difference (\texttt{Control – Robot}) displays a central tendency near £0.70, but with a wide credible interval spanning mildly positive and negative values. The posterior mass is asymmetrically concentrated toward higher donations in the Control condition, providing \emph{directional probabilistic evidence} for attenuation under robotic co-presence—while making the uncertainty surrounding this effect fully transparent.
+\medskip
+\noindent
+In relation to earlier analyses, the Bayesian posterior does not ``rescue''
+non-significant frequentist tests; rather, it \emph{reformulates the question},
+updating the plausibility of attenuation effects under explicit modelling of
+uncertainty, heterogeneity, and zero inflation. Frequentist tests ask whether
+the data cross a threshold under distributional assumptions; the Bayesian model
+asks how the data shift our degree of belief in an attenuation effect. These
+perspectives are epistemically distinct but empirically compatible, and their
+convergence on the same directional trend strengthens the evidential basis for
+the chapter’s claims.
 
 \medskip
 \noindent
-In relation to earlier analyses, the Bayesian posterior does not ``rescue’’ non-significant frequentist tests; rather, Bayesian inference \emph{frames the question differently}, updating the plausibility of attenuation effects under explicit modelling of uncertainty, heterogeneity, and zero inflation. Frequentist tests ask whether the data cross a threshold under idealised distributional assumptions; the Bayesian model asks how the data shift our degree of belief in an attenuation effect. These perspectives are epistemically distinct yet empirically compatible, and their convergence on the same directional trend provides a robust evidential basis for this chapter’s claims.
-
-\medskip
-\noindent
-This Bayesian approach is especially appropriate for the present study for two reasons. First, the perturbation introduced by $\mathscr{R}$ is theorised to be subtle, context-dependent, and heterogeneously expressed across participants—properties that hierarchical Bayesian models are designed to represent. Second, the latent dispositional clusters identified earlier generate structured variability that partial-pooling models can incorporate naturally. In this way, Bayesian posteriors provide a \emph{natural representational analogue} of the interpretive indeterminacy through which agents register moral salience under ambiguous conditions.
+This Bayesian approach is appropriate here for two reasons. First, the
+perturbation associated with $\mathscr{R}$ is theorised to be subtle,
+context-dependent, and heterogeneously expressed—properties suited to
+hierarchical Bayesian models. Second, the latent clusters identified earlier
+introduce structured variability that partial pooling incorporates naturally. In
+this way, Bayesian posteriors offer a representational analogue of the
+uncertainty through which agents register moral salience under ambiguous
+conditions.
 
 \begin{center}
 	\begin{tcolorbox}[colback=white,colframe=black!60,
-		title=Conclusion: Gradient of the Impact of Moral Refraction]
+		title=Conclusion: Gradient of Evaluative Modulation]
 		\noindent
-		The Bayesian analysis supports a cautiously framed but epistemically credible claim: attenuation of prosocial donation under robotic co-presence is \emph{probabilistically more likely than not}, with directional support emerging despite substantial uncertainty. This effect is therefore best understood not as a binary shift but as a graded modulation of the evaluative transformation through which moral salience becomes action.
+		The Bayesian analysis supports a cautious but credible interpretation:
+		attenuation of prosocial donation under robotic co-presence is
+		\emph{probabilistically more likely than not}, with directional support
+		emerging despite substantial uncertainty. The effect is therefore best
+		understood as a graded modulation of the evaluative transformation from
+		moral salience to action.
 	\end{tcolorbox}
 \end{center}
 
 \noindent
-Taken together, the Bayesian results complete the inferential arc of this chapter. The behavioural attenuation, the latent cluster structure, and the posterior’s graded evidential pattern converge on a coherent empirical picture: robotic co-presence subtly and heterogeneously modulates the evaluative mapping from morally salient cues to prosocial behaviour.
+Taken together, the Bayesian results complete the inferential arc of this
+chapter. The behavioural attenuation, the latent cluster structure, and the
+posterior’s graded evidential pattern converge on a coherent empirical
+interpretation: robotic co-presence appears to modulate, subtly and
+heterogeneously, the evaluative mapping from morally salient cues to prosocial
+behaviour.
 
+\medskip
 \noindent
 The next chapter develops the corresponding theoretical interpretation—particularly within the intuitionist tradition in moral psychology, the Watching-Eye literature, and broader debates in Social Signal Processing, Affective Computing, and Machine Ethics, where context-modulated salience and perceptual framing play a central conceptual role.
 
@@ -1912,7 +1983,15 @@ What this experiment shows is that the presence of a humanoid robot—even one t
 
 \medskip
 \noindent
-At the aggregate level, this manifests as a modest reduction in donation under robotic co-presence. At the individual level, the posterior distribution shows that this attenuation is \emph{more likely than not}, though embedded in genuine uncertainty. And at the dispositional level, our latent trait analysis reveals a \textbf{clear descriptive pattern}: those whose moral lives are primarily guided by warmth, sociability, and empathic resonance are the very ones most affected by NAO’s ambiguous presence. For them, the intuitive pull of the poster is partially displaced; for others, the robot barely registers.
+At the aggregate level, the data suggest a modest reduction in donation under
+robotic co-presence. At the individual level, the posterior distribution indicates
+that attenuation is \emph{more likely than not}, while remaining subject to
+substantial uncertainty. At the dispositional level, the latent-structure
+analysis reveals a \textbf{consistent descriptive pattern}: participants whose
+profiles emphasise warmth, sociability, and empathic orientation tend to show
+the largest attenuation, whereas participants in other dispositional regimes
+display minimal change. Within this dataset, the influence associated with NAO’s
+presence therefore appears to vary as a function of dispositional configuration.
 
 \medskip
 \noindent
@@ -1920,7 +1999,16 @@ This is not the kind of result that lends itself to simple causal slogans. It is
 
 \medskip
 \noindent
-From a methodological standpoint, the chapter demonstrates that such subtle effects can be measured, modelled, and formalised. The combination of frequentist contrasts, latent trait clustering, and Bayesian estimation provides a coherent and discriminating toolset for analysing how artificial systems modulate human moral behaviour. The topological language developed earlier in the thesis—mapping moral salience as a field, evaluative processes as trajectories, and synthetic presences as local perturbations—finds empirical grounding here. What the data offer is not proof of a grand theory, but a carefully bounded demonstration: when the informational structure of a moral environment is altered, even slightly, the intuitive pathways that guide behaviour can shift.
+From a methodological standpoint, the chapter shows that subtle effects of this
+kind can be measured, modelled, and formally represented. The integration of
+frequentist contrasts, latent-trait clustering, and Bayesian estimation provides
+a coherent toolset for examining how artificial systems may modulate human moral
+behaviour. The topological vocabulary developed earlier—moral salience as a
+field, evaluative processes as trajectories, and synthetic presence as a
+potential perturbation—finds empirical illustration here. What the data provide
+is not a confirmation of a comprehensive theory, but a bounded indication that
+changes in the informational structure of a moral environment can be associated
+with shifts in the intuitive processes that guide behaviour.
 
 \medskip
 \noindent
