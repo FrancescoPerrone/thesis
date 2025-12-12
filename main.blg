@@ -12,12 +12,12 @@ A level-1 auxiliary file: moral_primer.aux
 A level-1 auxiliary file: tools.aux
 A level-1 auxiliary file: experimental_methods.aux
 A level-1 auxiliary file: dis.aux
+A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: final_r.aux
-A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 13671 items from 5000.
+Reallocated field_info (elt_size=4) to 13533 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -702,7 +702,6 @@ Repeated entry---line 7892 of file /home/francesco/Desktop/research/appunti/refe
  : @article{Waytz2010
  :                   ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Young2011"
 Warning--I didn't find a database entry for "Allison2011"
 Warning--I didn't find a database entry for "Snow2010"
 Warning--I didn't find a database entry for "Wood2016"
@@ -712,50 +711,50 @@ Warning--I didn't find a database entry for "GriffithsBeake2022"
 Warning--I didn't find a database entry for "Mill1863"
 Warning--empty publisher in Black1972
 Warning--empty year in Black1972
+Warning--can't use both volume and number fields in CalvoD2010
 Warning--can't use both volume and number fields in Anderson2007
 Warning--can't use both author and editor fields in HumeTreatise
 Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
-Warning--can't use both volume and number fields in CalvoD2010
-You've used 369 entries,
+You've used 364 entries,
             1876 wiz_defined-function locations,
-            2597 strings with 58557 characters,
-and the built_in function-call counts, 98991 in all, are:
-= -- 10409
-> -- 3062
+            2568 strings with 58206 characters,
+and the built_in function-call counts, 97675 in all, are:
+= -- 10252
+> -- 3057
 < -- 0
-+ -- 1196
-- -- 827
-* -- 6525
-:= -- 13450
-add.period$ -- 481
-call.type$ -- 369
-change.case$ -- 278
++ -- 1192
+- -- 828
+* -- 6452
+:= -- 13289
+add.period$ -- 474
+call.type$ -- 364
+change.case$ -- 275
 chr.to.int$ -- 0
-cite$ -- 376
-duplicate$ -- 5296
-empty$ -- 9761
-format.name$ -- 827
-if$ -- 24628
+cite$ -- 371
+duplicate$ -- 5220
+empty$ -- 9613
+format.name$ -- 828
+if$ -- 24284
 int.to.chr$ -- 0
-int.to.str$ -- 369
-missing$ -- 466
-newline$ -- 1222
-num.names$ -- 382
-pop$ -- 1184
+int.to.str$ -- 364
+missing$ -- 459
+newline$ -- 1205
+num.names$ -- 375
+pop$ -- 1168
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3498
+skip$ -- 3444
 stack$ -- 0
-substring$ -- 7004
-swap$ -- 2214
+substring$ -- 6889
+swap$ -- 2181
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 1061
-width$ -- 372
-write$ -- 3726
+while$ -- 1043
+width$ -- 367
+write$ -- 3673
 (There were 170 error messages)

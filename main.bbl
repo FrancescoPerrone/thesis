@@ -1352,46 +1352,53 @@ L.~Floridi, ``The ethics of artificial intelligence: Large language models and
 L.~Speri and M.~Alfano, ``Moral ecologies and the ethics of artificial
   agents,'' {\em Ethics and Information Technology}, 2023.
 
-\bibitem{Nisbett1977}
-R.~E. Nisbett and T.~D. Wilson, ``Telling more than we can know: Verbal reports
-  on mental processes,'' {\em Psychological Review}, vol.~84, no.~3,
-  pp.~231--259, 1977.
-
-\bibitem{Wilson2002}
-T.~D. Wilson, {\em Strangers to Ourselves: Discovering the Adaptive
-  Unconscious}.
-\newblock Harvard University Press, 2002.
-
-\bibitem{Decety2011}
-J.~Decety and J.~M. Cowell, ``The complex relation between morality and
-  empathy,'' {\em Trends in Cognitive Sciences}, vol.~17, no.~7, pp.~337--339,
-  2013.
-
-\bibitem{Goffman1967}
-E.~Goffman, {\em Interaction Ritual: Essays on Face-to-Face Behavior}.
-\newblock New York: Pantheon Books, 1967.
-\newblock Original essays published 1955--1967.
+\bibitem{GoodrichSchultz2007}
+M.~A. Goodrich and A.~C. Schultz, ``Human--robot interaction: A survey,'' {\em
+  Foundations and Trends in Human--Computer Interaction}, vol.~1, no.~3,
+  pp.~203--275, 2007.
 
 \bibitem{Lee2010}
 J.~S. Lee and S.~Kiesler, ``Human mental models of humanoid robots,'' {\em
   Proceedings of the IEEE}, vol.~100, no.~3, pp.~586--593, 2010.
 
-\bibitem{Gigerenzer2008}
-G.~Gigerenzer, {\em Rationality for Mortals}.
-\newblock Oxford University Press, 2008.
+\bibitem{Hancock2011}
+P.~A. Hancock, D.~R. Billings, K.~E. Schaefer, J.~Y. Chen, E.~J. de~Visser, and
+  R.~Parasuraman, ``A meta-analysis of factors affecting trust in human--robot
+  interaction,'' {\em Human Factors}, vol.~53, no.~5, pp.~517--527, 2011.
 
-\bibitem{Kahneman2011}
-D.~Kahneman, {\em Thinking, Fast and Slow}.
-\newblock Farrar, Straus and Giroux, 2011.
+\bibitem{CalvoD2010}
+R.~A. Calvo and S.~D'Mello, {\em Affect Detection: An Interdisciplinary Review
+  of Models, Methods, and Their Applications}, vol.~1.
+\newblock IEEE Transactions on Affective Computing, 2010.
 
-\bibitem{Audi2015}
-R.~Audi, {\em Moral Perception}.
-\newblock Princeton, NJ: Princeton University Press, 2015.
+\bibitem{Vinciarelli2014}
+A.~Vinciarelli and G.~Mohammadi, ``A survey of personality computing,'' {\em
+  IEEE Transactions on Affective Computing}, vol.~5, no.~3, pp.~273--291, 2014.
 
-\bibitem{Knobe2010}
-J.~Knobe, ``Person as scientist, person as moralist,'' in {\em Explanation and
-  Cognition} (P.~A. Machamer and M.~Thagard, eds.), pp.~119--136, MIT Press,
-  2010.
+\bibitem{Tenenbaum2011}
+J.~B. Tenenbaum, C.~Kemp, T.~L. Griffiths, and N.~D. Goodman, ``How to grow a
+  mind: Statistics, structure, and abstraction,'' {\em Science}, vol.~331,
+  no.~6022, pp.~1279--1285, 2011.
+
+\bibitem{Kruschke2014}
+J.~K. Kruschke, {\em Doing Bayesian Data Analysis}.
+\newblock Academic Press, 2nd~ed., 2014.
+
+\bibitem{Hilbig2013}
+B.~E. Hilbig, A.~Gl{\"o}ckner, and I.~Zettler, ``Personality and prosocial
+  behavior: Linking basic traits and social value orientations,'' {\em Journal
+  of Personality and Social Psychology}, vol.~105, no.~3, pp.~469--484, 2013.
+
+\bibitem{Weidinger2021}
+L.~Weidinger, J.~Uesato, M.~Rauh, C.~Griffin, J.~Mellor, P.-S. Huang, M.~Cheng,
+  A.~Glaese, B.~Balle, A.~Kasirzadeh, {\em et~al.}, ``Ethical and social risks
+  of harm from language models,'' {\em Proceedings of the ACM Conference on
+  Fairness, Accountability, and Transparency}, 2021.
+
+\bibitem{Goffman1967}
+E.~Goffman, {\em Interaction Ritual: Essays on Face-to-Face Behavior}.
+\newblock New York: Pantheon Books, 1967.
+\newblock Original essays published 1955--1967.
 
 \bibitem{Hempel1965}
 C.~G. Hempel, ``Aspects of scientific explanation,'' 1965.
@@ -1409,6 +1416,10 @@ L.~Kohlberg, ``Stage and sequence: The cognitive-developmental approach to
 D.~Narvaez and D.~K. Lapsley, ``Moral psychology at the crossroads: Domain
   theory and the moral self,'' {\em Human Development}, vol.~48, no.~2,
   pp.~85--97, 2005.
+
+\bibitem{Kahneman2011}
+D.~Kahneman, {\em Thinking, Fast and Slow}.
+\newblock Farrar, Straus and Giroux, 2011.
 
 \bibitem{Baumeister2010}
 R.~F. Baumeister and E.~Masicampo, ``Moral reasoning and moral action: A review
@@ -1495,6 +1506,10 @@ J.~Haidt, {\em The Righteous Mind: Why Good People Are Divided by Politics and
 S.~Nichols, {\em Sentimental Rules: On the Natural Foundations of Moral
   Judgment}.
 \newblock Oxford: Oxford University Press, 2004.
+
+\bibitem{Audi2015}
+R.~Audi, {\em Moral Perception}.
+\newblock Princeton, NJ: Princeton University Press, 2015.
 
 \bibitem{Doris2002}
 J.~M. Doris, {\em Lack of Character: Personality and Moral Behavior}.
@@ -1701,42 +1716,5 @@ T.~Hollenstein, {\em State Space Grids: Depicting Dynamics Across Development}.
 \bibitem{Floridi2004}
 L.~Floridi and J.~W. Sanders, ``On the morality of artificial agents,'' {\em
   Minds and machines}, vol.~14, no.~3, pp.~349--379, 2004.
-
-\bibitem{GoodrichSchultz2007}
-M.~A. Goodrich and A.~C. Schultz, ``Human--robot interaction: A survey,'' {\em
-  Foundations and Trends in Human--Computer Interaction}, vol.~1, no.~3,
-  pp.~203--275, 2007.
-
-\bibitem{Hancock2011}
-P.~A. Hancock, D.~R. Billings, K.~E. Schaefer, J.~Y. Chen, E.~J. de~Visser, and
-  R.~Parasuraman, ``A meta-analysis of factors affecting trust in human--robot
-  interaction,'' {\em Human Factors}, vol.~53, no.~5, pp.~517--527, 2011.
-
-\bibitem{CalvoD2010}
-R.~A. Calvo and S.~D'Mello, {\em Affect Detection: An Interdisciplinary Review
-  of Models, Methods, and Their Applications}, vol.~1.
-\newblock IEEE Transactions on Affective Computing, 2010.
-
-\bibitem{Vinciarelli2014}
-A.~Vinciarelli and G.~Mohammadi, ``A survey of personality computing,'' {\em
-  IEEE Transactions on Affective Computing}, vol.~5, no.~3, pp.~273--291, 2014.
-
-\bibitem{Tenenbaum2011}
-J.~B. Tenenbaum, C.~Kemp, T.~L. Griffiths, and N.~D. Goodman, ``How to grow a
-  mind: Statistics, structure, and abstraction,'' {\em Science}, vol.~331,
-  no.~6022, pp.~1279--1285, 2011.
-
-\bibitem{Kruschke2014}
-J.~K. Kruschke, {\em Doing Bayesian Data Analysis}.
-\newblock Academic Press, 2nd~ed., 2014.
-
-\bibitem{Hilbig2013}
-B.~E. Hilbig, A.~Gl{\"o}ckner, and I.~Zettler, ``Personality and prosocial
-  behavior: Linking basic traits and social value orientations,'' {\em Journal
-  of Personality and Social Psychology}, vol.~105, no.~3, pp.~469--484, 2013.
-
-\bibitem{Fischer2023}
-K.~Fischer, ``How social is a robot? minimal social cues and their cognitive
-  consequences,'' {\em Interaction Studies}, vol.~24, no.~1, pp.~1--29, 2023.
 
 \end{thebibliography}
