@@ -1528,19 +1528,6 @@ S.~Nichols, {\em Sentimental Rules: On the Natural Foundations of Moral
   Judgment}.
 \newblock Oxford: Oxford University Press, 2004.
 
-\bibitem{Audi2015}
-R.~Audi, {\em Moral Perception}.
-\newblock Princeton, NJ: Princeton University Press, 2015.
-
-\bibitem{Doris2002}
-J.~M. Doris, {\em Lack of Character: Personality and Moral Behavior}.
-\newblock Cambridge University Press, 2002.
-
-\bibitem{Morscher2002}
-E.~Morscher, ``The definition of moral dilemmas: A logical confusion and a
-  clarification,'' {\em Ethical theory and moral practice}, vol.~5, no.~4,
-  pp.~485--491, 2002.
-
 \bibitem{Francey2012}
 D.~Francey and R.~Bergm{\"u}ller, ``Images of eyes enhance investments in a
   real-life public good,'' {\em PLoS One}, vol.~7, no.~5, p.~e37397, 2012.
@@ -1560,25 +1547,11 @@ J.~Carpenter, M.~Davis, S.~Erwin, and J.~E. Young, ``Functional and social
   and task,'' {\em Journal of Human-Robot Interaction}, vol.~5, no.~2,
   pp.~25--49, 2016.
 
-\bibitem{Vinciarelli2012}
-A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing:
-  Understanding social interactions through nonverbal behavior,'' {\em IEEE
-  Signal Processing Magazine}, vol.~29, no.~6, pp.~42--52, 2012.
-
 \bibitem{Mutlu2009}
 B.~Mutlu, F.~Yamaoka, T.~Kanda, H.~Ishiguro, and N.~Hagita, ``Nonverbal leakage
   in robots: Communication of intentions through seemingly unintentional
   behavior,'' in {\em Proceedings of the 4th ACM/IEEE International Conference
   on Human?Robot Interaction}, pp.~69--76, ACM, 2009.
-
-\bibitem{Admoni2017}
-H.~Admoni and B.~Scassellati, ``Social eye gaze in human?robot interaction: A
-  review,'' {\em Journal of Human?Robot Interaction}, vol.~6, no.~1,
-  pp.~25--63, 2017.
-
-\bibitem{Bargh1999}
-J.~A. Bargh and T.~L. Chartrand, ``The unbearable automaticity of being.,''
-  {\em American psychologist}, vol.~54, no.~7, p.~462, 1999.
 
 \bibitem{Ross2002}
 D.~Ross and W.~D. Ross, {\em The right and the good}.
@@ -1588,14 +1561,28 @@ D.~Ross and W.~D. Ross, {\em The right and the good}.
 J.~Griffin, {\em Well-Being}.
 \newblock Oxford: Oxford University Press, 1986.
 
-\bibitem{Stocker1990}
-M.~Stocker, {\em Plural and Conflicting Values}.
-\newblock Oxford: Oxford University Press, 1990.
+\bibitem{Winner1980}
+L.~Winner, ``Do artifacts have politics?,'' {\em Daedalus}, vol.~109, no.~1,
+  pp.~121--136, 1980.
+
+\bibitem{Latour1992}
+B.~Latour, ``Where are the missing masses? the sociology of a few mundane
+  artifacts,'' {\em In: Bijker, W. E. and Law, J. (eds.), Shaping Technology /
+  Building Society}, pp.~225--258, 1992.
+
+\bibitem{Verbeek2011}
+P.-P. Verbeek, {\em Moralizing Technology: Understanding and Designing the
+  Morality of Things}.
+\newblock Chicago: University of Chicago Press, 2011.
 
 \bibitem{Wallace2020}
 R.~J. Wallace, ``{Practical Reason},'' in {\em The {Stanford} Encyclopedia of
   Philosophy} (E.~N. Zalta, ed.), Metaphysics Research Lab, Stanford
   University, spring 2020~ed., 2020.
+
+\bibitem{Audi2015}
+R.~Audi, {\em Moral Perception}.
+\newblock Princeton, NJ: Princeton University Press, 2015.
 
 \bibitem{ReisJudd2000}
 H.~T. Reis and C.~M. Judd, {\em Handbook of Research Methods in Social and
@@ -1737,5 +1724,14 @@ T.~Hollenstein, {\em State Space Grids: Depicting Dynamics Across Development}.
 \bibitem{Floridi2004}
 L.~Floridi and J.~W. Sanders, ``On the morality of artificial agents,'' {\em
   Minds and machines}, vol.~14, no.~3, pp.~349--379, 2004.
+
+\bibitem{Doris2002}
+J.~M. Doris, {\em Lack of Character: Personality and Moral Behavior}.
+\newblock Cambridge University Press, 2002.
+
+\bibitem{Vinciarelli2012}
+A.~Vinciarelli, M.~Pantic, and H.~Bourlard, ``Social signal processing:
+  Understanding social interactions through nonverbal behavior,'' {\em IEEE
+  Signal Processing Magazine}, vol.~29, no.~6, pp.~42--52, 2012.
 
 \end{thebibliography}
