@@ -17,7 +17,7 @@ A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 13533 items from 5000.
+Reallocated field_info (elt_size=4) to 13579 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -702,7 +702,6 @@ Repeated entry---line 7892 of file /home/francesco/Desktop/research/appunti/refe
  : @article{Waytz2010
  :                   ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Allison2011"
 Warning--I didn't find a database entry for "Snow2010"
 Warning--I didn't find a database entry for "Wood2016"
 Warning--I didn't find a database entry for "Reynolds2006"
@@ -716,45 +715,45 @@ Warning--can't use both volume and number fields in Anderson2007
 Warning--can't use both author and editor fields in HumeTreatise
 Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
-You've used 364 entries,
+You've used 367 entries,
             1876 wiz_defined-function locations,
-            2568 strings with 58206 characters,
-and the built_in function-call counts, 97675 in all, are:
-= -- 10252
-> -- 3057
+            2581 strings with 58471 characters,
+and the built_in function-call counts, 98450 in all, are:
+= -- 10340
+> -- 3069
 < -- 0
-+ -- 1192
-- -- 828
-* -- 6452
-:= -- 13289
-add.period$ -- 474
-call.type$ -- 364
-change.case$ -- 275
++ -- 1198
+- -- 831
+* -- 6500
+:= -- 13390
+add.period$ -- 478
+call.type$ -- 367
+change.case$ -- 277
 chr.to.int$ -- 0
-cite$ -- 371
-duplicate$ -- 5220
-empty$ -- 9613
-format.name$ -- 828
-if$ -- 24284
+cite$ -- 374
+duplicate$ -- 5263
+empty$ -- 9693
+format.name$ -- 831
+if$ -- 24480
 int.to.chr$ -- 0
-int.to.str$ -- 364
-missing$ -- 459
-newline$ -- 1205
-num.names$ -- 375
-pop$ -- 1168
+int.to.str$ -- 367
+missing$ -- 463
+newline$ -- 1215
+num.names$ -- 378
+pop$ -- 1176
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3444
+skip$ -- 3473
 stack$ -- 0
-substring$ -- 6889
-swap$ -- 2181
+substring$ -- 6953
+swap$ -- 2200
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 1043
-width$ -- 367
-write$ -- 3673
+while$ -- 1052
+width$ -- 370
+write$ -- 3704
 (There were 170 error messages)
