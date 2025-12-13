@@ -174,43 +174,40 @@
 \contentsline {section}{\numberline {A.5}Consequentialist Structures: Value Gradients and the Topology of Outcomes}{158}{section.A.5}%
 \contentsline {subsection}{\numberline {A.5.1}The Source of Normativity: Welfare, Impartiality, and Reasons}{158}{subsection.A.5.1}%
 \contentsline {subsection}{\numberline {A.5.2}Mode of Evaluation: Consequences and Scalar Normativity}{159}{subsection.A.5.2}%
-\contentsline {subsection}{\numberline {A.5.3}Action-Guidance Mechanism: From Value Gradients to Behavioural Pressure}{159}{subsection.A.5.3}%
-\contentsline {subsection}{\numberline {A.5.4}Consequentialist Topology: Moral Action as Gradient Following}{160}{subsection.A.5.4}%
-\contentsline {subsection}{\numberline {A.5.5}Why Consequentialism Matters for the Experimental Logic}{160}{subsection.A.5.5}%
+\contentsline {subsection}{\numberline {A.5.3}Action-Guidance in Consequentialism: From Value to Pressure}{159}{subsection.A.5.3}%
+\contentsline {subsection}{\numberline {A.5.4}Consequentialist Topology: Moral Action as Gradient Tracking}{160}{subsection.A.5.4}%
+\contentsline {subsection}{\numberline {A.5.5}Consequentialism and the Experimental Logic}{160}{subsection.A.5.5}%
 \contentsline {section}{\numberline {A.6}Virtue-Theoretic Structures: Dispositions, Character Topology, and Moral Sensitivity}{161}{section.A.6}%
-\contentsline {subsection}{\numberline {A.6.1}The Source of Normativity: Character, Practical Wisdom, and Moral Perception}{162}{subsection.A.6.1}%
-\contentsline {subsection}{\numberline {A.6.2}Mode of Evaluation: Dispositions as Topological Structure}{162}{subsection.A.6.2}%
-\contentsline {subsection}{\numberline {A.6.3}Action-Guidance Mechanism: Habituation, Stability, and Situated Sensitivity}{163}{subsection.A.6.3}%
-\contentsline {subsection}{\numberline {A.6.4}Virtue-Theoretic Topology: Stability, Curvature, and Susceptibility to Perturbation}{164}{subsection.A.6.4}%
-\contentsline {subsection}{\numberline {A.6.5}Why Virtue Ethics Matters for the Experimental Logic}{164}{subsection.A.6.5}%
-\contentsline {paragraph}{1.\ Latent Trait Modulation: Explaining Cluster Differences}{164}{paragraph*.56}%
-\contentsline {paragraph}{2.\ Character as the Medium of Moral Topology}{165}{paragraph*.57}%
-\contentsline {paragraph}{3.\ Machine Ethics Omits Dispositional Structure Entirely}{165}{paragraph*.58}%
-\contentsline {section}{\numberline {A.7}Integrated Ethical Interpretation of the Experimental Results}{165}{section.A.7}%
-\contentsline {section}{\numberline {A.8}Sentimentalism and Emotion-Based Normativity: Affective Vector Fields in Moral Topology}{168}{section.A.8}%
-\contentsline {section}{\numberline {A.9}Sentimentalism and Emotion-Based Normativity: Affective Vector Fields in Moral Topology}{168}{section.A.9}%
-\contentsline {subsection}{\numberline {A.9.1}The Source of Normativity: Sentiment as the Basis of Moral Appraisal}{168}{subsection.A.9.1}%
-\contentsline {subsection}{\numberline {A.9.2}Mode of Evaluation: Affective Resonance as Moral Metric}{169}{subsection.A.9.2}%
-\contentsline {subsection}{\numberline {A.9.3}Action Guidance: Affective Vector Fields and Behavioural Dynamics}{169}{subsection.A.9.3}%
-\contentsline {subsection}{\numberline {A.9.4}Machine Ethics and the Blind Spot of Affective Architecture}{170}{subsection.A.9.4}%
-\contentsline {subsection}{\numberline {A.9.5}Experimental Realisation: Synthetic Dampening of Empathic Resonance}{170}{subsection.A.9.5}%
-\contentsline {section}{\numberline {A.10}Contractualism, Particularism, and Hybrid Normative Models}{171}{section.A.10}%
-\contentsline {subsection}{\numberline {A.10.1}Contractualism: Moral Claims as Justification-Equilibria}{171}{subsection.A.10.1}%
-\contentsline {subsection}{\numberline {A.10.2}Moral Particularism: Contextual Salience and the Fragmented Topology of Reasons}{172}{subsection.A.10.2}%
-\contentsline {subsection}{\numberline {A.10.3}Hybrid and Pluralist Models: Multidimensional Evaluative Topologies}{173}{subsection.A.10.3}%
-\contentsline {subsection}{\numberline {A.10.4}Integrative Ethical Interpretation of the Experimental Findings}{174}{subsection.A.10.4}%
-\contentsline {chapter}{\numberline {B}General Synthesis}{177}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Introduction: Why the Experiment Requires a Structural Interpretation}{177}{section.B.1}%
-\contentsline {subsection}{\numberline {B.1.1}From Behaviour to Structure: Why a Higher-Level Interpretation is Required}{179}{subsection.B.1.1}%
-\contentsline {subsection}{\numberline {B.1.2}Why This Chapter Cannot Be Pure “Discussion” in the Conventional Sense}{181}{subsection.B.1.2}%
-\contentsline {subsection}{\numberline {B.1.3}A Structural Reading of the Core Experimental Result}{182}{subsection.B.1.3}%
-\contentsline {subsection}{\numberline {B.1.4}Why the Synthetic Presence Effect Matters Beyond the Experiment}{183}{subsection.B.1.4}%
-\contentsline {section}{\numberline {B.2}Cluster-by-Cluster Integrative Interpretation}{184}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Global Normative--Topological Synthesis}{186}{section.B.3}%
-\contentsline {section}{\numberline {B.4}From the Failure of Machine Ethics to a Reconstruction of Computational Morality}{189}{section.B.4}%
-\contentsline {subsection}{\numberline {B.4.1}Reconstructing Computational Morality: An Empirically Grounded Paradigm}{190}{subsection.B.4.1}%
-\contentsline {paragraph}{(1) Evaluative Topology as Generative Substrate}{190}{paragraph*.59}%
-\contentsline {paragraph}{(2) Level-of-Abstraction Discipline}{191}{paragraph*.60}%
-\contentsline {paragraph}{(3) Dispositional Ecologies as Moral Topologies}{191}{paragraph*.61}%
-\contentsline {subsection}{\numberline {B.4.2}Computational Morality as a Scientific Research Programme}{191}{subsection.B.4.2}%
-\contentsline {section}{\numberline {B.5}Thesis-Wide Synthesis and Closing Reflections}{191}{section.B.5}%
+\contentsline {subsection}{\numberline {A.6.1}Source of Normativity: Character and Moral Perception}{161}{subsection.A.6.1}%
+\contentsline {subsection}{\numberline {A.6.2}Dispositions as Topological Structure}{162}{subsection.A.6.2}%
+\contentsline {subsection}{\numberline {A.6.3}Action-Guidance: Habituation and Stability}{162}{subsection.A.6.3}%
+\contentsline {subsection}{\numberline {A.6.4}Virtue Ethics and Synthetic Perturbation}{162}{subsection.A.6.4}%
+\contentsline {section}{\numberline {A.7}Integrated Ethical Interpretation of the Experimental Results}{163}{section.A.7}%
+\contentsline {section}{\numberline {A.8}A Machine Ethics Account}{165}{section.A.8}%
+\contentsline {subsection}{\numberline {A.8.1}Concluding Perspective: Why a Multi-Framework Interpretation Is Necessary}{165}{subsection.A.8.1}%
+\contentsline {section}{\numberline {A.9}Sentimentalism and Emotion-Based Normativity: Affective Vector Fields}{166}{section.A.9}%
+\contentsline {subsection}{\numberline {A.9.1}Source of Normativity: Affective Responsiveness and Moral Salience}{166}{subsection.A.9.1}%
+\contentsline {subsection}{\numberline {A.9.2}Mode of Evaluation: Affective Vector Fields}{166}{subsection.A.9.2}%
+\contentsline {subsection}{\numberline {A.9.3}Action Guidance: Affective Modulation and Perturbation}{167}{subsection.A.9.3}%
+\contentsline {subsection}{\numberline {A.9.4}Sentimentalism in Machine Ethics}{167}{subsection.A.9.4}%
+\contentsline {subsection}{\numberline {A.9.5}Why Sentimentalism Matters for the Experimental Interpretation}{167}{subsection.A.9.5}%
+\contentsline {section}{\numberline {A.10}Contractualism, Particularism, and Pluralist Normativity}{168}{section.A.10}%
+\contentsline {subsection}{\numberline {A.10.1}Contractualism: Interpersonal Justification and Evaluative Equilibria}{168}{subsection.A.10.1}%
+\contentsline {subsection}{\numberline {A.10.2}Particularism: Contextual Salience and Local Moral Topologies}{169}{subsection.A.10.2}%
+\contentsline {subsection}{\numberline {A.10.3}Pluralist Models: Multidimensional Evaluative Manifolds}{169}{subsection.A.10.3}%
+\contentsline {section}{\numberline {A.11}Integrative Ethical Interpretation of the Experimental Findings}{170}{section.A.11}%
+\contentsline {chapter}{\numberline {B}General Synthesis}{172}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Introduction: Why the Experiment Requires a Structural Interpretation}{172}{section.B.1}%
+\contentsline {subsection}{\numberline {B.1.1}From Behaviour to Structure: Why a Higher-Level Interpretation is Required}{174}{subsection.B.1.1}%
+\contentsline {subsection}{\numberline {B.1.2}Why This Chapter Cannot Be Pure “Discussion” in the Conventional Sense}{176}{subsection.B.1.2}%
+\contentsline {subsection}{\numberline {B.1.3}A Structural Reading of the Core Experimental Result}{177}{subsection.B.1.3}%
+\contentsline {subsection}{\numberline {B.1.4}Why the Synthetic Presence Effect Matters Beyond the Experiment}{178}{subsection.B.1.4}%
+\contentsline {section}{\numberline {B.2}Cluster-by-Cluster Integrative Interpretation}{179}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Global Normative--Topological Synthesis}{181}{section.B.3}%
+\contentsline {section}{\numberline {B.4}From the Failure of Machine Ethics to a Reconstruction of Computational Morality}{184}{section.B.4}%
+\contentsline {subsection}{\numberline {B.4.1}Reconstructing Computational Morality: An Empirically Grounded Paradigm}{185}{subsection.B.4.1}%
+\contentsline {paragraph}{(1) Evaluative Topology as Generative Substrate}{185}{paragraph*.56}%
+\contentsline {paragraph}{(2) Level-of-Abstraction Discipline}{186}{paragraph*.57}%
+\contentsline {paragraph}{(3) Dispositional Ecologies as Moral Topologies}{186}{paragraph*.58}%
+\contentsline {subsection}{\numberline {B.4.2}Computational Morality as a Scientific Research Programme}{186}{subsection.B.4.2}%
+\contentsline {section}{\numberline {B.5}Thesis-Wide Synthesis and Closing Reflections}{186}{section.B.5}%

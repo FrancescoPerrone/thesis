@@ -17,7 +17,7 @@ A level-1 auxiliary file: ethics_s.aux
 A level-1 auxiliary file: final_r.aux
 A level-1 auxiliary file: bibliography.aux
 The style file: ieeetr.bst
-Reallocated field_info (elt_size=4) to 13579 items from 5000.
+Reallocated field_info (elt_size=4) to 13556 items from 5000.
 Database file #1: /home/francesco/Desktop/research/appunti/reference.bib
 I was expecting a `,' or a `}'---line 414 of file /home/francesco/Desktop/research/appunti/reference.bib
  :  
@@ -702,9 +702,6 @@ Repeated entry---line 7892 of file /home/francesco/Desktop/research/appunti/refe
  : @article{Waytz2010
  :                   ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Snow2010"
-Warning--I didn't find a database entry for "Wood2016"
-Warning--I didn't find a database entry for "Reynolds2006"
 Warning--I didn't find a database entry for "Cialdini2007"
 Warning--I didn't find a database entry for "GriffithsBeake2022"
 Warning--I didn't find a database entry for "Mill1863"
@@ -715,45 +712,45 @@ Warning--can't use both volume and number fields in Anderson2007
 Warning--can't use both author and editor fields in HumeTreatise
 Warning--empty author in Nath2020
 Warning--empty journal in Mcdermid2019
-You've used 367 entries,
+You've used 369 entries,
             1876 wiz_defined-function locations,
-            2581 strings with 58471 characters,
-and the built_in function-call counts, 98450 in all, are:
-= -- 10340
-> -- 3069
+            2588 strings with 58584 characters,
+and the built_in function-call counts, 99091 in all, are:
+= -- 10414
+> -- 3081
 < -- 0
-+ -- 1198
-- -- 831
-* -- 6500
-:= -- 13390
-add.period$ -- 478
-call.type$ -- 367
-change.case$ -- 277
++ -- 1203
+- -- 834
+* -- 6542
+:= -- 13472
+add.period$ -- 480
+call.type$ -- 369
+change.case$ -- 279
 chr.to.int$ -- 0
-cite$ -- 374
-duplicate$ -- 5263
-empty$ -- 9693
-format.name$ -- 831
-if$ -- 24480
+cite$ -- 376
+duplicate$ -- 5297
+empty$ -- 9753
+format.name$ -- 834
+if$ -- 24641
 int.to.chr$ -- 0
-int.to.str$ -- 367
-missing$ -- 463
-newline$ -- 1215
-num.names$ -- 378
-pop$ -- 1176
+int.to.str$ -- 369
+missing$ -- 465
+newline$ -- 1221
+num.names$ -- 380
+pop$ -- 1179
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3473
+skip$ -- 3502
 stack$ -- 0
-substring$ -- 6953
-swap$ -- 2200
+substring$ -- 7017
+swap$ -- 2218
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 1052
-width$ -- 370
-write$ -- 3704
+while$ -- 1060
+width$ -- 372
+write$ -- 3725
 (There were 170 error messages)
